@@ -52,8 +52,10 @@ def http(url, dados=None, headers=None):
         return json.loads(r.read().decode("utf-8"))
 
 
-def palavras_ok(titulo, palavras):
+def palavras_ok(titulo, palavras, excluir=None):
     t = (titulo or "").lower()
+    if any(x.lower() in t for x in (excluir or [])):
+        return False
     return all(p.lower() in t for p in (palavras or []))
 
 
@@ -97,7 +99,7 @@ def shopee_melhor(cfg, regras):
         vendas = int(n.get("sales") or 0)
         if nota < regras["nota_minima"] or vendas < regras["vendas_minimas_shopee"]:
             continue
-        if not palavras_ok(n.get("productName"), cfg.get("palavras")):
+        if not palavras_ok(n.get("productName"), cfg.get("palavras"), cfg.get("excluir")):
             continue
         por = float(n.get("priceMin") or n.get("price") or 0)
         if por <= 0:
@@ -176,14 +178,16 @@ def ali_melhor(cfg, regras):
                                page_size=40, page_no=1))
     candidatos = []
     vmin = regras.get("vendas_minimas_aliexpress", 100)
-    for it in ali_produtos(resp):
+    itens = ali_produtos(resp)
+    log(f"    AliExpress trouxe {len(itens)} resultados")
+    for it in itens:
         aval = ali_num(it.get("evaluate_rate"))
         vendas = int(ali_num(it.get("lastest_volume")))
         if not aval or aval < regras["avaliacao_minima_aliexpress"]:   # sem avaliação = descarta
             continue
         if vendas < vmin:                                               # poucas vendas = descarta
             continue
-        if not palavras_ok(it.get("product_title"), cfg.get("palavras")):
+        if not palavras_ok(it.get("product_title"), cfg.get("palavras"), cfg.get("excluir")):
             continue
         por = ali_num(it.get("target_sale_price") or it.get("sale_price"))
         de = ali_num(it.get("target_original_price") or it.get("original_price")) or por
@@ -198,7 +202,8 @@ def ali_melhor(cfg, regras):
                            "nota": round(aval / 20, 1), "vendas": vendas,
                            "titulo": it.get("product_title"),
                            "img": it.get("product_main_image_url")})
-        log(f"    ok  R$ {por:.2f} · {aval:.0f}% · {vendas} vendas · {(it.get('product_title') or '')[:60]}")
+    for c in sorted(candidatos, key=lambda c: c["por"])[:3]:
+        log(f"    ok  R$ {c['por']:.2f} · {c['nota']}★ · {c['vendas']} vendas · {(c['titulo'] or '')[:58]}")
     return min(candidatos, key=lambda c: c["por"]) if candidatos else None
 
 
@@ -308,26 +313,52 @@ def limpa_host(h):
 
 
 def enviar_ftp(resultado):
-    pasta = (os.environ.get("FTP_PASTA") or "public_html/ofertas").strip()
     host = limpa_host(os.environ["FTP_HOST"])
     user, senha = os.environ["FTP_USER"].strip(), os.environ["FTP_PASS"]
+    dominio = os.environ.get("SITE_DOMINIO", "kaivolt.com.br")
     dados = json.dumps(resultado, ensure_ascii=False).encode("utf-8")
     try:
         ftp = ftplib.FTP_TLS(host, timeout=60); ftp.login(user, senha); ftp.prot_p(); modo = "FTPS"
     except (ftplib.error_perm, OSError, EOFError) as e:
-        if isinstance(e, OSError) and not isinstance(e, (ConnectionError, TimeoutError)) and "Name or service" in str(e):
+        if "Name or service" in str(e):
             raise RuntimeError(f"FTP_HOST '{host}' não existe. Use o IP/host exato da tela Contas FTP da Hostinger.") from e
         log("FTPS indisponível, tentando FTP normal:", e)
         ftp = ftplib.FTP(host, timeout=60); ftp.login(user, senha); modo = "FTP"
     with ftp:
-        for parte in pasta.strip("/").split("/"):
+        def lista():
             try:
-                ftp.cwd(parte)
+                return [n.rsplit("/", 1)[-1] for n in ftp.nlst()]
             except ftplib.error_perm:
-                ftp.mkd(parte)
-                ftp.cwd(parte)
+                return []
+        log("FTP conectado em:", ftp.pwd(), "| conteúdo:", ", ".join(lista()[:12]))
+        # procura a pasta raiz do site (onde está o WordPress)
+        for _ in range(4):
+            nomes = lista()
+            if "wp-config.php" in nomes or "wp-content" in nomes:
+                break
+            if "public_html" in nomes:
+                ftp.cwd("public_html"); continue
+            if "domains" in nomes:
+                ftp.cwd("domains"); continue
+            if dominio in nomes:
+                ftp.cwd(dominio); continue
+            break
+        raiz = ftp.pwd()
+        log("pasta do site encontrada:", raiz)
+        try:
+            ftp.cwd("ofertas")
+        except ftplib.error_perm:
+            ftp.mkd("ofertas"); ftp.cwd("ofertas")
         ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
-    log(f"enviado para o site via {modo}:", pasta + "/ofertas.json")
+        log(f"enviado via {modo} para:", ftp.pwd() + "/ofertas.json")
+    # confere se o site já está servindo o arquivo
+    try:
+        url = f"https://{dominio}/ofertas/ofertas.json?v={int(time.time())}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 robo-kaivolt"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            log("site OK:", url.split("?")[0], "->", r.status)
+    except Exception as e:
+        log("ATENÇÃO: o site ainda não mostra o arquivo:", e)
 
 
 if __name__ == "__main__":

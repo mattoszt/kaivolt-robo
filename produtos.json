@@ -1,5 +1,5 @@
 {
-  "_leia": "Lista dos produtos que o robô acompanha. Para cada loja, use 'itemId/shopId' (Shopee), 'productId' (AliExpress) OU 'busca' com palavras-chave. Mercado Livre e Amazon: coloque 'link' (seu link de afiliado) e 'por' (preço) manualmente. 'preco_min'/'preco_max' (opcional) descartam ofertas suspeitas de tão baratas ou fora da faixa.",
+  "_leia": "Lista dos produtos que o robô acompanha. Para cada loja, use 'itemId/shopId' (Shopee), 'productId' (AliExpress) OU 'busca' com palavras-chave. Mercado Livre e Amazon: coloque 'link' (seu link de afiliado) e 'por' (preço) manualmente. 'preco_min'/'preco_max' (opcional) descartam ofertas suspeitas de tão baratas ou fora da faixa. 'excluir' = palavras que NÃO podem estar no título (evita produto errado).",
   "regras": {
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
@@ -10,7 +10,7 @@
       "Mercado Livre",
       "Amazon"
     ],
-    "vendas_minimas_aliexpress": 100
+    "vendas_minimas_aliexpress": 50
   },
   "produtos": [
     {
@@ -26,15 +26,24 @@
             "10000"
           ],
           "preco_min": 25,
-          "preco_max": 200
+          "preco_max": 200,
+          "excluir": [
+            "case",
+            "capa"
+          ]
         },
         "AliExpress": {
-          "busca": "power bank 10000mah 22.5w",
+          "busca": "power bank 10000mAh fast charging",
           "palavras": [
             "10000"
           ],
           "preco_min": 25,
-          "preco_max": 200
+          "preco_max": 200,
+          "excluir": [
+            "case",
+            "capa",
+            "shell"
+          ]
         },
         "Mercado Livre": {
           "link": "",
@@ -75,15 +84,32 @@
             "20w"
           ],
           "preco_min": 15,
-          "preco_max": 150
+          "preco_max": 150,
+          "excluir": [
+            "cabo",
+            "cable"
+          ]
         },
         "AliExpress": {
           "busca": "carregador usb c 20w pd",
           "palavras": [
-            "20w"
+            "20w",
+            "carregador"
           ],
           "preco_min": 15,
-          "preco_max": 150
+          "preco_max": 150,
+          "excluir": [
+            "cabo para",
+            "cable",
+            "uk plug",
+            "eua plug",
+            "us plug",
+            "plug uk",
+            "plug us",
+            "kr plug",
+            "coreano",
+            "korean"
+          ]
         },
         "Mercado Livre": {
           "link": "",
@@ -119,15 +145,32 @@
             "100w"
           ],
           "preco_min": 10,
-          "preco_max": 120
+          "preco_max": 120,
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "angulo",
+            "kit"
+          ]
         },
         "AliExpress": {
-          "busca": "usb c cable 100w 2m",
+          "busca": "cabo usb c para usb c 100w 2m",
           "palavras": [
             "100w"
           ],
           "preco_min": 10,
-          "preco_max": 120
+          "preco_max": 120,
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "angulo",
+            "elbow",
+            "cotovelo",
+            "3 cabos",
+            "kit",
+            "magnético",
+            "magnetico"
+          ]
         },
         "Mercado Livre": {
           "link": "",
@@ -166,12 +209,18 @@
           "preco_max": 300
         },
         "AliExpress": {
-          "busca": "mouse gamer rgb 7200dpi",
+          "busca": "gaming mouse rgb 7200 dpi",
           "palavras": [
             "mouse"
           ],
           "preco_min": 25,
-          "preco_max": 300
+          "preco_max": 300,
+          "excluir": [
+            "mousepad",
+            "mouse pad",
+            "tapete",
+            "bungee"
+          ]
         },
         "Mercado Livre": {
           "link": "",
@@ -215,12 +264,17 @@
           "preco_max": 400
         },
         "AliExpress": {
-          "busca": "tws earbuds anc bluetooth 5.3",
+          "busca": "fone bluetooth anc cancelamento de ruido",
           "palavras": [
             "anc"
           ],
           "preco_min": 50,
-          "preco_max": 400
+          "preco_max": 400,
+          "excluir": [
+            "case",
+            "capa",
+            "estojo de silicone"
+          ]
         },
         "Mercado Livre": {
           "link": "",
