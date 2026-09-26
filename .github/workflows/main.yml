@@ -2,16 +2,20 @@ name: Robô Kaivolt
 
 on:
   schedule:
-    - cron: "0 11 * * *"   # 08:00 horário de Brasília
-    - cron: "0 22 * * *"   # 19:00 horário de Brasília
+    - cron: "*/30 * * * *"   # a cada 30 minutos
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: robo-kaivolt
+  cancel-in-progress: false
+
 jobs:
   atualizar:
     runs-on: ubuntu-latest
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
 
@@ -26,13 +30,12 @@ jobs:
           ALI_APP_KEY: ${{ secrets.ALI_APP_KEY }}
           ALI_SECRET: ${{ secrets.ALI_SECRET }}
           ALI_TRACKING_ID: ${{ secrets.ALI_TRACKING_ID }}
+          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
           FTP_HOST: ${{ secrets.FTP_HOST }}
           FTP_USER: ${{ secrets.FTP_USER }}
           FTP_PASS: ${{ secrets.FTP_PASS }}
           FTP_PASTA: ${{ secrets.FTP_PASTA }}
-          ML_CLIENT_ID: ${{ secrets.ML_CLIENT_ID }}
-          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
-          
         run: python robo.py
 
       - name: Guardar histórico de preços
@@ -40,5 +43,6 @@ jobs:
           git config user.name "robo-kaivolt"
           git config user.email "robo@kaivolt.com.br"
           git add historico.json
-          git diff --staged --quiet || git commit -m "histórico de preços $(date -u +%F)"
+          git diff --staged --quiet || git commit -m "histórico de preços"
+          git pull --rebase --quiet || true
           git push
