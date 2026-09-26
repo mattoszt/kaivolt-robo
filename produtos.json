@@ -1,68 +1,1130 @@
 {
-  "_leia": "Lista dos produtos que o robô acompanha. Para cada loja, use 'itemId/shopId' (Shopee), 'productId' (AliExpress) OU 'busca' com palavras-chave. Mercado Livre e Amazon: coloque 'link' (seu link de afiliado) e 'por' (preço) manualmente.",
+  "_leia": "Produtos que o robô acompanha. Shopee/AliExpress: 'busca' + 'palavras' (obrigatórias no título) + 'excluir' (proibidas) + 'preco_min'/'preco_max'. MERCADO LIVRE: 'url' = endereço normal do anúncio (o robô atualiza o preço pela API) e 'link' = SEU link de afiliado (meli.la). 'por'/'de' só são usados se a API falhar.",
   "regras": {
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
     "avaliacao_minima_aliexpress": 90,
-    "lojas_ativas": ["Shopee", "AliExpress", "Mercado Livre", "Amazon"]
+    "lojas_ativas": [
+      "Shopee",
+      "AliExpress",
+      "Mercado Livre",
+      "Amazon"
+    ],
+    "vendas_minimas_aliexpress": 50
   },
   "produtos": [
     {
       "id": "powerbank-10000",
       "n": "Power Bank 10.000 mAh com carga rápida",
-      "c": "celular", "ic": "powerbank", "img": "",
+      "c": "celular",
+      "ic": "powerbank",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "power bank 10000mah carga rapida", "palavras": ["10000"] },
-        "AliExpress":    { "busca": "power bank 10000mah 22.5w", "palavras": ["10000"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 },
-        "Amazon":        { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "power bank 10000mah carga rapida",
+          "palavras": [
+            "10000"
+          ],
+          "preco_min": 25,
+          "preco_max": 200,
+          "excluir": [
+            "case",
+            "capa"
+          ]
+        },
+        "AliExpress": {
+          "busca": "power bank 10000mAh fast charging",
+          "palavras": [
+            "10000"
+          ],
+          "preco_min": 25,
+          "preco_max": 200,
+          "excluir": [
+            "case",
+            "capa",
+            "shell",
+            "5000mah"
+          ]
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        },
+        "Amazon": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "Shopee": [89.90, 49.90], "AliExpress": [79.90, 44.90], "Mercado Livre": [99.90, 59.90] }
+      "exemplo": {
+        "Shopee": [
+          89.9,
+          49.9
+        ],
+        "AliExpress": [
+          79.9,
+          44.9
+        ],
+        "Mercado Livre": [
+          99.9,
+          59.9
+        ]
+      }
     },
     {
       "id": "carregador-20w",
       "n": "Carregador turbo USB-C 20W",
-      "c": "celular", "ic": "charger", "img": "",
+      "c": "celular",
+      "ic": "charger",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "carregador usb-c 20w pd", "palavras": ["20w"] },
-        "AliExpress":    { "busca": "carregador usb c 20w pd", "palavras": ["20w"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "carregador usb-c 20w pd",
+          "palavras": [
+            "20w"
+          ],
+          "preco_min": 15,
+          "preco_max": 150,
+          "excluir": [
+            "cabo",
+            "cable"
+          ]
+        },
+        "AliExpress": {
+          "busca": "carregador usb c 20w pd",
+          "palavras": [
+            "20w",
+            "carregador"
+          ],
+          "preco_min": 15,
+          "preco_max": 150,
+          "excluir": [
+            "cabo",
+            "cable",
+            "lightning",
+            "uk plug",
+            "eua plug",
+            "us plug",
+            "plug uk",
+            "plug us",
+            "kr plug",
+            "coreano",
+            "korean"
+          ]
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "Shopee": [54.90, 36.90], "Mercado Livre": [59.90, 39.90], "AliExpress": [49.90, 29.90] }
+      "exemplo": {
+        "Shopee": [
+          54.9,
+          36.9
+        ],
+        "Mercado Livre": [
+          59.9,
+          39.9
+        ],
+        "AliExpress": [
+          49.9,
+          29.9
+        ]
+      }
     },
     {
       "id": "cabo-usbc-100w",
       "n": "Cabo USB-C 100W trançado 2 metros",
-      "c": "celular", "ic": "cable", "img": "",
+      "c": "celular",
+      "ic": "cable",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "cabo usb-c 100w 2m", "palavras": ["100w"] },
-        "AliExpress":    { "busca": "usb c cable 100w 2m", "palavras": ["100w"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "cabo usb-c 100w 2m",
+          "palavras": [
+            "100w"
+          ],
+          "preco_min": 10,
+          "preco_max": 120,
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "angulo",
+            "kit"
+          ]
+        },
+        "AliExpress": {
+          "busca": "usb c cable 100w 2m",
+          "palavras": [
+            "100w"
+          ],
+          "preco_min": 10,
+          "preco_max": 120,
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "angulo",
+            "elbow",
+            "cotovelo",
+            "3 cabos",
+            "kit",
+            "magnético",
+            "magnetico"
+          ]
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "AliExpress": [49.90, 22.90], "Shopee": [39.90, 27.90], "Mercado Livre": [49.90, 34.90] }
+      "exemplo": {
+        "AliExpress": [
+          49.9,
+          22.9
+        ],
+        "Shopee": [
+          39.9,
+          27.9
+        ],
+        "Mercado Livre": [
+          49.9,
+          34.9
+        ]
+      }
+    },
+    {
+      "id": "powerbank-20000",
+      "n": "Power Bank 20.000 mAh",
+      "c": "celular",
+      "ic": "powerbank",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "power bank 20000mah",
+          "palavras": [
+            "20000"
+          ],
+          "excluir": [
+            "case",
+            "capa",
+            "5000mah"
+          ],
+          "preco_min": 45,
+          "preco_max": 250
+        },
+        "AliExpress": {
+          "busca": "power bank 20000mAh fast charging",
+          "palavras": [
+            "20000"
+          ],
+          "excluir": [
+            "case",
+            "capa",
+            "5000mah"
+          ],
+          "preco_min": 45,
+          "preco_max": 250
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "powerbank-magsafe",
+      "n": "Power Bank magnético (MagSafe)",
+      "c": "celular",
+      "ic": "powerbank",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "power bank magnético magsafe",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "case",
+            "capa",
+            "anel",
+            "ring"
+          ],
+          "preco_min": 30,
+          "preco_max": 220
+        },
+        "AliExpress": {
+          "busca": "magnetic power bank magsafe",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "case",
+            "capa",
+            "anel",
+            "ring"
+          ],
+          "preco_min": 30,
+          "preco_max": 220
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "carregador-gan-65w",
+      "n": "Carregador GaN 65W (notebook e celular)",
+      "c": "celular",
+      "ic": "charger",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "carregador gan 65w",
+          "palavras": [
+            "65w"
+          ],
+          "excluir": [
+            "cabo",
+            "cable",
+            "uk plug",
+            "eua plug",
+            "us plug",
+            "plug uk",
+            "plug us"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "gan charger 65w usb c",
+          "palavras": [
+            "65w"
+          ],
+          "excluir": [
+            "cabo",
+            "cable",
+            "uk plug",
+            "eua plug",
+            "us plug",
+            "plug uk",
+            "plug us"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "cabo-lightning",
+      "n": "Cabo USB-C para Lightning (iPhone)",
+      "c": "celular",
+      "ic": "cable",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "cabo usb c lightning",
+          "palavras": [
+            "lightning"
+          ],
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "adaptador",
+            "adapter",
+            "kit",
+            "3 cabos",
+            "magnético"
+          ],
+          "preco_min": 8,
+          "preco_max": 90
+        },
+        "AliExpress": {
+          "busca": "usb c to lightning cable fast charging",
+          "palavras": [
+            "lightning"
+          ],
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "adaptador",
+            "adapter",
+            "kit",
+            "3 cabos",
+            "magnético"
+          ],
+          "preco_min": 8,
+          "preco_max": 90
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "suporte-veicular",
+      "n": "Suporte veicular magnético",
+      "c": "celular",
+      "ic": "carmount",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "suporte veicular magnético celular",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "capa",
+            "case",
+            "bike",
+            "moto",
+            "anel"
+          ],
+          "preco_min": 10,
+          "preco_max": 150
+        },
+        "AliExpress": {
+          "busca": "magnetic car phone holder",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "capa",
+            "case",
+            "bike",
+            "moto",
+            "anel"
+          ],
+          "preco_min": 10,
+          "preco_max": 150
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
     },
     {
       "id": "mouse-gamer-rgb",
       "n": "Mouse gamer RGB 7200 DPI",
-      "c": "pc", "ic": "mouse", "img": "",
+      "c": "pc",
+      "ic": "mouse",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "mouse gamer rgb 7200 dpi", "palavras": ["mouse"] },
-        "AliExpress":    { "busca": "mouse gamer rgb 7200dpi", "palavras": ["mouse"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 },
-        "Amazon":        { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "mouse gamer rgb 7200 dpi",
+          "palavras": [
+            "mouse"
+          ],
+          "preco_min": 25,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "gaming mouse rgb 7200 dpi",
+          "palavras": [
+            "mouse"
+          ],
+          "preco_min": 25,
+          "preco_max": 300,
+          "excluir": [
+            "mousepad",
+            "mouse pad",
+            "tapete",
+            "bungee"
+          ]
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        },
+        "Amazon": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "Amazon": [99.90, 69.90], "Mercado Livre": [109.90, 74.90], "AliExpress": [89.90, 52.90] }
+      "exemplo": {
+        "Amazon": [
+          99.9,
+          69.9
+        ],
+        "Mercado Livre": [
+          109.9,
+          74.9
+        ],
+        "AliExpress": [
+          89.9,
+          52.9
+        ]
+      }
+    },
+    {
+      "id": "mouse-sem-fio",
+      "n": "Mouse sem fio silencioso",
+      "c": "pc",
+      "ic": "mouse",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "mouse sem fio silencioso",
+          "palavras": [
+            "mouse"
+          ],
+          "excluir": [
+            "mousepad",
+            "mouse pad",
+            "tapete",
+            "bungee",
+            "skate",
+            "grip"
+          ],
+          "preco_min": 15,
+          "preco_max": 150
+        },
+        "AliExpress": {
+          "busca": "wireless mouse silent bluetooth 2.4g",
+          "palavras": [
+            "mouse"
+          ],
+          "excluir": [
+            "mousepad",
+            "mouse pad",
+            "tapete",
+            "bungee",
+            "skate",
+            "grip"
+          ],
+          "preco_min": 15,
+          "preco_max": 150
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "teclado-mecanico",
+      "n": "Teclado mecânico compacto",
+      "c": "pc",
+      "ic": "keyboard",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "teclado mecânico compacto",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "capa",
+            "película",
+            "adesivo",
+            "switches",
+            "kit de teclas",
+            "descanso"
+          ],
+          "preco_min": 60,
+          "preco_max": 450
+        },
+        "AliExpress": {
+          "busca": "teclado mecânico 60% hot swap",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "capa",
+            "película",
+            "adesivo",
+            "switches",
+            "kit de teclas",
+            "descanso"
+          ],
+          "preco_min": 60,
+          "preco_max": 450
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "headset-gamer",
+      "n": "Headset gamer com microfone",
+      "c": "pc",
+      "ic": "headset",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "headset gamer com microfone",
+          "palavras": [
+            "headset"
+          ],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "gaming headset microphone over ear",
+          "palavras": [
+            "headset"
+          ],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "hub-usbc",
+      "n": "Hub USB-C com HDMI",
+      "c": "pc",
+      "ic": "hub",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "hub usb c hdmi",
+          "palavras": [
+            "hub"
+          ],
+          "excluir": [
+            "cabo",
+            "capa"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "usb c hub hdmi 7 in 1",
+          "palavras": [
+            "hub"
+          ],
+          "excluir": [
+            "cabo",
+            "capa"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "ssd-512",
+      "n": "SSD 512GB",
+      "c": "pc",
+      "ic": "ssd",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "ssd 512gb",
+          "palavras": [
+            "512"
+          ],
+          "excluir": [
+            "case",
+            "gaveta",
+            "adaptador",
+            "enclosure",
+            "caddy",
+            "capa",
+            "dissipador"
+          ],
+          "preco_min": 80,
+          "preco_max": 500
+        },
+        "AliExpress": {
+          "busca": "ssd sata 512gb",
+          "palavras": [
+            "512"
+          ],
+          "excluir": [
+            "case",
+            "gaveta",
+            "adaptador",
+            "enclosure",
+            "caddy",
+            "capa",
+            "dissipador"
+          ],
+          "preco_min": 80,
+          "preco_max": 500
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "webcam-fullhd",
+      "n": "Webcam Full HD com microfone",
+      "c": "pc",
+      "ic": "webcam",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "webcam full hd",
+          "palavras": [
+            "webcam"
+          ],
+          "excluir": [
+            "capa",
+            "cover",
+            "tampa",
+            "suporte"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "webcam full hd 1080p microphone",
+          "palavras": [
+            "webcam"
+          ],
+          "excluir": [
+            "capa",
+            "cover",
+            "tampa",
+            "suporte"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "caneta-stylus",
+      "n": "Caneta stylus para tablet",
+      "c": "tablet",
+      "ic": "stylus",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "caneta stylus tablet",
+          "palavras": [
+            "stylus"
+          ],
+          "excluir": [
+            "ponta",
+            "pontas",
+            "replacement",
+            "substituição",
+            "capa",
+            "estojo",
+            "luva"
+          ],
+          "preco_min": 20,
+          "preco_max": 250
+        },
+        "AliExpress": {
+          "busca": "stylus pen tablet universal",
+          "palavras": [
+            "stylus"
+          ],
+          "excluir": [
+            "ponta",
+            "pontas",
+            "replacement",
+            "substituição",
+            "capa",
+            "estojo",
+            "luva"
+          ],
+          "preco_min": 20,
+          "preco_max": 250
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "suporte-tablet",
+      "n": "Suporte de mesa para tablet",
+      "c": "tablet",
+      "ic": "stand",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "suporte tablet mesa",
+          "palavras": [
+            "suporte"
+          ],
+          "excluir": [
+            "carro",
+            "veicular",
+            "bike",
+            "moto",
+            "cama"
+          ],
+          "preco_min": 15,
+          "preco_max": 200
+        },
+        "AliExpress": {
+          "busca": "suporte tablet mesa ajustável",
+          "palavras": [
+            "suporte"
+          ],
+          "excluir": [
+            "carro",
+            "veicular",
+            "bike",
+            "moto",
+            "cama"
+          ],
+          "preco_min": 15,
+          "preco_max": 200
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "teclado-tablet",
+      "n": "Teclado Bluetooth para tablet",
+      "c": "tablet",
+      "ic": "tabletcase",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "teclado bluetooth tablet",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "película",
+            "adesivo",
+            "capa para"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "teclado bluetooth para tablet",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "película",
+            "adesivo",
+            "capa para"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
     },
     {
       "id": "fone-tws-anc",
       "n": "Fone TWS com cancelamento de ruído",
-      "c": "audio", "ic": "earbuds", "img": "",
+      "c": "audio",
+      "ic": "earbuds",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "fone bluetooth tws cancelamento de ruido anc", "palavras": ["anc"] },
-        "AliExpress":    { "busca": "tws earbuds anc bluetooth 5.3", "palavras": ["anc"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "fone bluetooth tws cancelamento de ruido anc",
+          "palavras": [
+            "anc"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "tws earbuds anc bluetooth 5.3",
+          "palavras": [
+            "anc"
+          ],
+          "preco_min": 50,
+          "preco_max": 400,
+          "excluir": [
+            "case",
+            "capa",
+            "silicone",
+            "protetor"
+          ]
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "AliExpress": [189.90, 99.90], "Shopee": [149.90, 109.90], "Mercado Livre": [199.90, 124.90] }
+      "exemplo": {
+        "AliExpress": [
+          189.9,
+          99.9
+        ],
+        "Shopee": [
+          149.9,
+          109.9
+        ],
+        "Mercado Livre": [
+          199.9,
+          124.9
+        ]
+      }
+    },
+    {
+      "id": "fone-tws",
+      "n": "Fone Bluetooth TWS",
+      "c": "audio",
+      "ic": "earbuds",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "fone bluetooth tws",
+          "palavras": [],
+          "excluir": [
+            "case",
+            "capa",
+            "silicone",
+            "almofada",
+            "ponteira",
+            "estojo de",
+            "adaptador"
+          ],
+          "preco_min": 20,
+          "preco_max": 150
+        },
+        "AliExpress": {
+          "busca": "fone bluetooth tws 5.3",
+          "palavras": [],
+          "excluir": [
+            "case",
+            "capa",
+            "silicone",
+            "almofada",
+            "ponteira",
+            "estojo de",
+            "adaptador"
+          ],
+          "preco_min": 20,
+          "preco_max": 150
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "caixa-som",
+      "n": "Caixa de som Bluetooth portátil",
+      "c": "audio",
+      "ic": "speaker",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "caixa de som bluetooth",
+          "palavras": [],
+          "excluir": [
+            "capa",
+            "case",
+            "bolsa",
+            "suporte",
+            "cabo",
+            "adaptador"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "caixa de som bluetooth portátil",
+          "palavras": [],
+          "excluir": [
+            "capa",
+            "case",
+            "bolsa",
+            "suporte",
+            "cabo",
+            "adaptador"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
+    },
+    {
+      "id": "headphone-bt",
+      "n": "Headphone Bluetooth",
+      "c": "audio",
+      "ic": "headset",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "headphone bluetooth",
+          "palavras": [],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "capa",
+            "case",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "headphone bluetooth over ear",
+          "palavras": [],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "capa",
+            "case",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
+      }
     }
   ]
 }

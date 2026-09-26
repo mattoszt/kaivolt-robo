@@ -16,7 +16,7 @@ As chaves ficam em variáveis de ambiente (NUNCA escreva elas neste arquivo):
   FTP_HOST, FTP_USER, FTP_PASS, FTP_PASTA   (para enviar ao site)
 Só usa bibliotecas que já vêm com o Python (não precisa instalar nada).
 """
-import hashlib, hmac, json, os, sys, time, urllib.parse, urllib.request, ftplib, io
+import hashlib, hmac, json, os, re, sys, time, urllib.parse, urllib.request, ftplib, io
 from datetime import datetime, timezone, timedelta
 
 PASTA = os.path.dirname(os.path.abspath(__file__))
@@ -52,8 +52,10 @@ def http(url, dados=None, headers=None):
         return json.loads(r.read().decode("utf-8"))
 
 
-def palavras_ok(titulo, palavras):
+def palavras_ok(titulo, palavras, excluir=None):
     t = (titulo or "").lower()
+    if any(x.lower() in t for x in (excluir or [])):
+        return False
     return all(p.lower() in t for p in (palavras or []))
 
 
@@ -97,10 +99,14 @@ def shopee_melhor(cfg, regras):
         vendas = int(n.get("sales") or 0)
         if nota < regras["nota_minima"] or vendas < regras["vendas_minimas_shopee"]:
             continue
-        if not palavras_ok(n.get("productName"), cfg.get("palavras")):
+        if not palavras_ok(n.get("productName"), cfg.get("palavras"), cfg.get("excluir")):
             continue
         por = float(n.get("priceMin") or n.get("price") or 0)
         if por <= 0:
+            continue
+        if cfg.get("preco_min") and por < float(cfg["preco_min"]):
+            continue
+        if cfg.get("preco_max") and por > float(cfg["preco_max"]):
             continue
         taxa = float(n.get("priceDiscountRate") or 0)
         de = round(por / (1 - taxa / 100), 2) if 0 < taxa < 95 else por
@@ -108,7 +114,8 @@ def shopee_melhor(cfg, regras):
         candidatos.append({"loja": "Shopee", "de": de, "por": por, "link": link,
                            "nota": nota, "vendas": vendas, "titulo": n.get("productName"),
                            "img": n.get("imageUrl")})
-    return min(candidatos, key=lambda c: c["por"]) if candidatos else None
+    ordem = custo_beneficio(candidatos)
+    return ordem[0] if ordem else None
 
 
 def shopee_link_curto(url):
@@ -159,6 +166,42 @@ def ali_num(v):
         return 0.0
 
 
+def ali_link_produto(c, tracking):
+    """Gera o link de afiliado que abre direto no produto escolhido (None se não der)."""
+    pid = c.get("pid")
+    urls = [u for u in [c.get("url_prod"),
+                        f"https://www.aliexpress.com/item/{pid}.html" if pid else None,
+                        f"https://pt.aliexpress.com/item/{pid}.html" if pid else None] if u]
+    for url in dict.fromkeys(urls):
+        try:
+            resp = ali_chamar("aliexpress.affiliate.link.generate",
+                              {"promotion_link_type": 0, "source_values": url, "tracking_id": tracking})
+            for v in resp.values():
+                try:
+                    links = v["resp_result"]["result"]["promotion_links"]["promotion_link"]
+                    if links and links[0].get("promotion_link"):
+                        return links[0]["promotion_link"]
+                except (KeyError, TypeError):
+                    continue
+        except Exception as e:
+            log("    aviso: link.generate falhou:", e)
+    return None
+
+
+def custo_beneficio(cands):
+    """Entre os que custam até 15% a mais que o mais barato, fica o de melhor nota, mais vendas e maior desconto."""
+    import math
+    if not cands:
+        return []
+    menor = min(c["por"] for c in cands)
+    def score(c):
+        desc = (1 - c["por"] / c["de"]) if c.get("de") and c["de"] > c["por"] else 0
+        return (c.get("nota") or 0) * 2 + math.log10(max(c.get("vendas") or 1, 1)) + desc * 2 - (c["por"] / menor - 1) * 4
+    faixa = [c for c in cands if c["por"] <= menor * 1.15]
+    resto = [c for c in cands if c not in faixa]
+    return sorted(faixa, key=score, reverse=True) + sorted(resto, key=lambda c: c["por"])
+
+
 def ali_melhor(cfg, regras):
     tracking = os.environ.get("ALI_TRACKING_ID", "kaivolt")
     comum = {"target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR",
@@ -171,33 +214,120 @@ def ali_melhor(cfg, regras):
                           dict(comum, keywords=cfg["busca"], sort="LAST_VOLUME_DESC",
                                page_size=40, page_no=1))
     candidatos = []
-    for it in ali_produtos(resp):
+    vmin = regras.get("vendas_minimas_aliexpress", 100)
+    itens = ali_produtos(resp)
+    log(f"    AliExpress trouxe {len(itens)} resultados")
+    for it in itens:
         aval = ali_num(it.get("evaluate_rate"))
-        if aval and aval < regras["avaliacao_minima_aliexpress"]:
+        vendas = int(ali_num(it.get("lastest_volume")))
+        if not aval or aval < regras["avaliacao_minima_aliexpress"]:   # sem avaliação = descarta
             continue
-        if not palavras_ok(it.get("product_title"), cfg.get("palavras")):
+        if vendas < vmin:                                               # poucas vendas = descarta
+            continue
+        if not palavras_ok(it.get("product_title"), cfg.get("palavras"), cfg.get("excluir")):
             continue
         por = ali_num(it.get("target_sale_price") or it.get("sale_price"))
         de = ali_num(it.get("target_original_price") or it.get("original_price")) or por
         link = it.get("promotion_link") or ""
         if por <= 0 or not link:
             continue
-        candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link,
-                           "nota": round(aval / 20, 1) if aval else None,
-                           "vendas": int(ali_num(it.get("lastest_volume"))),
+        if cfg.get("preco_min") and por < float(cfg["preco_min"]):     # barato demais = suspeito
+            continue
+        if cfg.get("preco_max") and por > float(cfg["preco_max"]):
+            continue
+        pid = str(it.get("product_id") or "")
+        url_prod = it.get("product_detail_url") or (f"https://pt.aliexpress.com/item/{pid}.html" if pid else "")
+        candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link, "url_prod": url_prod, "pid": pid,
+                           "nota": round(aval / 20, 1), "vendas": vendas,
                            "titulo": it.get("product_title"),
                            "img": it.get("product_main_image_url")})
-    return min(candidatos, key=lambda c: c["por"]) if candidatos else None
+    ordem = custo_beneficio(candidatos)
+    for c in ordem[:3]:
+        log(f"    opção R$ {c['por']:.2f} · {c['nota']}★ · {c['vendas']} vendas · {(c['titulo'] or '')[:58]}")
+    for c in ordem[:5]:
+        link = ali_link_produto(c, tracking)
+        if link:
+            c["link"] = link
+            return c
+    if ordem:
+        log("    AliExpress: não consegui link direto pro produto; ficou de fora hoje")
+    return None
 
 
 # ======================================================================
 # MERCADO LIVRE / AMAZON — links e preços colocados à mão no produtos.json
 # ======================================================================
 def manual_melhor(loja, cfg):
+    if loja == "Mercado Livre" and cfg.get("link") and (cfg.get("url") or cfg.get("item")):
+        o = ml_melhor(cfg)
+        if o:
+            return o
     if not cfg.get("link") or not cfg.get("por"):
         return None
     por = float(cfg["por"])
     return {"loja": loja, "de": float(cfg.get("de") or por), "por": por, "link": cfg["link"]}
+
+
+# ======================================================================
+# MERCADO LIVRE — API oficial (só PREÇO; o link de afiliado é o que você gerou)
+# ======================================================================
+ML_API = "https://api.mercadolibre.com"
+_ML_TOKEN = {}
+
+
+def ml_token():
+    cid, sec = os.environ.get("ML_CLIENT_ID"), os.environ.get("ML_CLIENT_SECRET")
+    if not cid or not sec:
+        return None
+    if "t" in _ML_TOKEN:
+        return _ML_TOKEN["t"]
+    try:
+        dados = urllib.parse.urlencode({"grant_type": "client_credentials",
+                                        "client_id": cid, "client_secret": sec}).encode()
+        r = http(ML_API + "/oauth/token", dados,
+                 {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"})
+        _ML_TOKEN["t"] = r.get("access_token")
+    except Exception as e:
+        log("  Mercado Livre: não consegui token da API:", e)
+        _ML_TOKEN["t"] = None
+    return _ML_TOKEN["t"]
+
+
+def ml_get(caminho):
+    tok = ml_token()
+    h = {"Accept": "application/json", "User-Agent": "robo-kaivolt"}
+    if tok:
+        h["Authorization"] = "Bearer " + tok
+    return http(ML_API + caminho, None, h)
+
+
+def ml_melhor(cfg):
+    """Atualiza o preço do anúncio escolhido. O link continua sendo o SEU link de afiliado."""
+    alvo = cfg.get("item") or cfg.get("url") or ""
+    m_prod = re.search(r"/p/(MLB\d+)", alvo)
+    m_item = re.search(r"(MLB)-?(\d{6,})", alvo)
+    try:
+        if m_prod:
+            d = ml_get(f"/products/{m_prod.group(1)}")
+            bw = d.get("buy_box_winner") or {}
+            por, de = bw.get("price"), bw.get("original_price")
+        elif m_item:
+            iid = m_item.group(1) + m_item.group(2)
+            d = ml_get(f"/items/{iid}")
+            if d.get("status") and d["status"] != "active":
+                log("  Mercado Livre: anúncio pausado/finalizado, usando preço manual")
+                return None
+            por, de = d.get("price"), d.get("original_price")
+        else:
+            return None
+        if not por:
+            return None
+        por = float(por); de = float(de or cfg.get("de") or por)
+        log(f"  Mercado Livre: preço atualizado pela API -> R$ {por:.2f}")
+        return {"loja": "Mercado Livre", "de": max(de, por), "por": por, "link": cfg["link"]}
+    except Exception as e:
+        log("  Mercado Livre: API não respondeu (", e, "), usando preço manual")
+        return None
 
 
 # ======================================================================
@@ -287,20 +417,61 @@ def main():
         enviar_ftp(resultado)
 
 
+def limpa_host(h):
+    h = (h or "").strip()
+    for pre in ("ftps://", "ftp://", "sftp://", "http://", "https://"):
+        if h.lower().startswith(pre):
+            h = h[len(pre):]
+    return h.strip("/").split("/")[0].split(":")[0]
+
+
 def enviar_ftp(resultado):
-    pasta = os.environ.get("FTP_PASTA", "public_html/ofertas")
+    host = limpa_host(os.environ["FTP_HOST"])
+    user, senha = os.environ["FTP_USER"].strip(), os.environ["FTP_PASS"]
+    dominio = os.environ.get("SITE_DOMINIO", "kaivolt.com.br")
     dados = json.dumps(resultado, ensure_ascii=False).encode("utf-8")
-    with ftplib.FTP_TLS(os.environ["FTP_HOST"], timeout=60) as ftp:
-        ftp.login(os.environ["FTP_USER"], os.environ["FTP_PASS"])
-        ftp.prot_p()
-        for parte in pasta.strip("/").split("/"):
+    try:
+        ftp = ftplib.FTP_TLS(host, timeout=60); ftp.login(user, senha); ftp.prot_p(); modo = "FTPS"
+    except (ftplib.error_perm, OSError, EOFError) as e:
+        if "Name or service" in str(e):
+            raise RuntimeError(f"FTP_HOST '{host}' não existe. Use o IP/host exato da tela Contas FTP da Hostinger.") from e
+        log("FTPS indisponível, tentando FTP normal:", e)
+        ftp = ftplib.FTP(host, timeout=60); ftp.login(user, senha); modo = "FTP"
+    with ftp:
+        def lista():
             try:
-                ftp.cwd(parte)
+                return [n.rsplit("/", 1)[-1] for n in ftp.nlst()]
             except ftplib.error_perm:
-                ftp.mkd(parte)
-                ftp.cwd(parte)
+                return []
+        log("FTP conectado em:", ftp.pwd(), "| conteúdo:", ", ".join(lista()[:12]))
+        # procura a pasta raiz do site (onde está o WordPress)
+        for _ in range(4):
+            nomes = lista()
+            if "wp-config.php" in nomes or "wp-content" in nomes:
+                break
+            if "public_html" in nomes:
+                ftp.cwd("public_html"); continue
+            if "domains" in nomes:
+                ftp.cwd("domains"); continue
+            if dominio in nomes:
+                ftp.cwd(dominio); continue
+            break
+        raiz = ftp.pwd()
+        log("pasta do site encontrada:", raiz)
+        try:
+            ftp.cwd("ofertas")
+        except ftplib.error_perm:
+            ftp.mkd("ofertas"); ftp.cwd("ofertas")
         ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
-    log("enviado para o site via FTP:", pasta + "/ofertas.json")
+        log(f"enviado via {modo} para:", ftp.pwd() + "/ofertas.json")
+    # confere se o site já está servindo o arquivo
+    try:
+        url = f"https://{dominio}/ofertas/ofertas.json?v={int(time.time())}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 robo-kaivolt"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            log("site OK:", url.split("?")[0], "->", r.status)
+    except Exception as e:
+        log("ATENÇÃO: o site ainda não mostra o arquivo:", e)
 
 
 if __name__ == "__main__":
