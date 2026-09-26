@@ -42,7 +42,8 @@
           "excluir": [
             "case",
             "capa",
-            "shell"
+            "shell",
+            "5000mah"
           ]
         },
         "Mercado Livre": {
@@ -99,8 +100,9 @@
           "preco_min": 15,
           "preco_max": 150,
           "excluir": [
-            "cabo para",
+            "cabo",
             "cable",
+            "lightning",
             "uk plug",
             "eua plug",
             "us plug",
@@ -154,7 +156,7 @@
           ]
         },
         "AliExpress": {
-          "busca": "cabo usb c para usb c 100w 2m",
+          "busca": "usb c cable 100w 2m",
           "palavras": [
             "100w"
           ],
@@ -264,7 +266,7 @@
           "preco_max": 400
         },
         "AliExpress": {
-          "busca": "fone bluetooth anc cancelamento de ruido",
+          "busca": "tws earbuds anc bluetooth 5.3",
           "palavras": [
             "anc"
           ],
@@ -273,7 +275,8 @@
           "excluir": [
             "case",
             "capa",
-            "estojo de silicone"
+            "silicone",
+            "protetor"
           ]
         },
         "Mercado Livre": {
