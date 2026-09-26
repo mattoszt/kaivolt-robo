@@ -1,0 +1,41 @@
+name: Robô Kaivolt
+
+on:
+  schedule:
+    - cron: "0 11 * * *"   # 08:00 horário de Brasília
+    - cron: "0 22 * * *"   # 19:00 horário de Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Buscar ofertas e publicar no site
+        env:
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          ALI_APP_KEY: ${{ secrets.ALI_APP_KEY }}
+          ALI_SECRET: ${{ secrets.ALI_SECRET }}
+          ALI_TRACKING_ID: ${{ secrets.ALI_TRACKING_ID }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+          FTP_PASTA: ${{ secrets.FTP_PASTA }}
+        run: python robo.py
+
+      - name: Guardar histórico de preços
+        run: |
+          git config user.name "robo-kaivolt"
+          git config user.email "robo@kaivolt.com.br"
+          git add historico.json
+          git diff --staged --quiet || git commit -m "histórico de preços $(date -u +%F)"
+          git push
