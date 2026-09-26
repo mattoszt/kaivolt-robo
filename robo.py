@@ -165,6 +165,26 @@ def ali_num(v):
         return 0.0
 
 
+def ali_link_produto(c, tracking):
+    """Gera o link de afiliado que abre direto no produto escolhido."""
+    url = c.get("url_prod")
+    if not url:
+        return c["link"]
+    try:
+        resp = ali_chamar("aliexpress.affiliate.link.generate",
+                          {"promotion_link_type": 0, "source_values": url, "tracking_id": tracking})
+        for v in resp.values():
+            try:
+                links = v["resp_result"]["result"]["promotion_links"]["promotion_link"]
+                if links and links[0].get("promotion_link"):
+                    return links[0]["promotion_link"]
+            except (KeyError, TypeError):
+                continue
+    except Exception as e:
+        log("    aviso: não consegui gerar link do produto:", e)
+    return c["link"]
+
+
 def ali_melhor(cfg, regras):
     tracking = os.environ.get("ALI_TRACKING_ID", "kaivolt")
     comum = {"target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR",
@@ -198,10 +218,15 @@ def ali_melhor(cfg, regras):
             continue
         if cfg.get("preco_max") and por > float(cfg["preco_max"]):
             continue
-        candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link,
+        pid = str(it.get("product_id") or "")
+        url_prod = it.get("product_detail_url") or (f"https://pt.aliexpress.com/item/{pid}.html" if pid else "")
+        candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link, "url_prod": url_prod,
                            "nota": round(aval / 20, 1), "vendas": vendas,
                            "titulo": it.get("product_title"),
                            "img": it.get("product_main_image_url")})
+    if candidatos:
+        melhor = min(candidatos, key=lambda c: c["por"])
+        melhor["link"] = ali_link_produto(melhor, tracking)
     for c in sorted(candidatos, key=lambda c: c["por"])[:3]:
         log(f"    ok  R$ {c['por']:.2f} · {c['nota']}★ · {c['vendas']} vendas · {(c['titulo'] or '')[:58]}")
     return min(candidatos, key=lambda c: c["por"]) if candidatos else None
