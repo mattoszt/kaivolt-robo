@@ -1,68 +1,247 @@
 {
-  "_leia": "Lista dos produtos que o robô acompanha. Para cada loja, use 'itemId/shopId' (Shopee), 'productId' (AliExpress) OU 'busca' com palavras-chave. Mercado Livre e Amazon: coloque 'link' (seu link de afiliado) e 'por' (preço) manualmente.",
+  "_leia": "Lista dos produtos que o robô acompanha. Para cada loja, use 'itemId/shopId' (Shopee), 'productId' (AliExpress) OU 'busca' com palavras-chave. Mercado Livre e Amazon: coloque 'link' (seu link de afiliado) e 'por' (preço) manualmente. 'preco_min'/'preco_max' (opcional) descartam ofertas suspeitas de tão baratas ou fora da faixa.",
   "regras": {
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
     "avaliacao_minima_aliexpress": 90,
-    "lojas_ativas": ["Shopee", "AliExpress", "Mercado Livre", "Amazon"]
+    "lojas_ativas": [
+      "Shopee",
+      "AliExpress",
+      "Mercado Livre",
+      "Amazon"
+    ],
+    "vendas_minimas_aliexpress": 100
   },
   "produtos": [
     {
       "id": "powerbank-10000",
       "n": "Power Bank 10.000 mAh com carga rápida",
-      "c": "celular", "ic": "powerbank", "img": "",
+      "c": "celular",
+      "ic": "powerbank",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "power bank 10000mah carga rapida", "palavras": ["10000"] },
-        "AliExpress":    { "busca": "power bank 10000mah 22.5w", "palavras": ["10000"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 },
-        "Amazon":        { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "power bank 10000mah carga rapida",
+          "palavras": [
+            "10000"
+          ],
+          "preco_min": 25,
+          "preco_max": 200
+        },
+        "AliExpress": {
+          "busca": "power bank 10000mah 22.5w",
+          "palavras": [
+            "10000"
+          ],
+          "preco_min": 25,
+          "preco_max": 200
+        },
+        "Mercado Livre": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        },
+        "Amazon": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "Shopee": [89.90, 49.90], "AliExpress": [79.90, 44.90], "Mercado Livre": [99.90, 59.90] }
+      "exemplo": {
+        "Shopee": [
+          89.9,
+          49.9
+        ],
+        "AliExpress": [
+          79.9,
+          44.9
+        ],
+        "Mercado Livre": [
+          99.9,
+          59.9
+        ]
+      }
     },
     {
       "id": "carregador-20w",
       "n": "Carregador turbo USB-C 20W",
-      "c": "celular", "ic": "charger", "img": "",
+      "c": "celular",
+      "ic": "charger",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "carregador usb-c 20w pd", "palavras": ["20w"] },
-        "AliExpress":    { "busca": "carregador usb c 20w pd", "palavras": ["20w"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "carregador usb-c 20w pd",
+          "palavras": [
+            "20w"
+          ],
+          "preco_min": 15,
+          "preco_max": 150
+        },
+        "AliExpress": {
+          "busca": "carregador usb c 20w pd",
+          "palavras": [
+            "20w"
+          ],
+          "preco_min": 15,
+          "preco_max": 150
+        },
+        "Mercado Livre": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "Shopee": [54.90, 36.90], "Mercado Livre": [59.90, 39.90], "AliExpress": [49.90, 29.90] }
+      "exemplo": {
+        "Shopee": [
+          54.9,
+          36.9
+        ],
+        "Mercado Livre": [
+          59.9,
+          39.9
+        ],
+        "AliExpress": [
+          49.9,
+          29.9
+        ]
+      }
     },
     {
       "id": "cabo-usbc-100w",
       "n": "Cabo USB-C 100W trançado 2 metros",
-      "c": "celular", "ic": "cable", "img": "",
+      "c": "celular",
+      "ic": "cable",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "cabo usb-c 100w 2m", "palavras": ["100w"] },
-        "AliExpress":    { "busca": "usb c cable 100w 2m", "palavras": ["100w"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "cabo usb-c 100w 2m",
+          "palavras": [
+            "100w"
+          ],
+          "preco_min": 10,
+          "preco_max": 120
+        },
+        "AliExpress": {
+          "busca": "usb c cable 100w 2m",
+          "palavras": [
+            "100w"
+          ],
+          "preco_min": 10,
+          "preco_max": 120
+        },
+        "Mercado Livre": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "AliExpress": [49.90, 22.90], "Shopee": [39.90, 27.90], "Mercado Livre": [49.90, 34.90] }
+      "exemplo": {
+        "AliExpress": [
+          49.9,
+          22.9
+        ],
+        "Shopee": [
+          39.9,
+          27.9
+        ],
+        "Mercado Livre": [
+          49.9,
+          34.9
+        ]
+      }
     },
     {
       "id": "mouse-gamer-rgb",
       "n": "Mouse gamer RGB 7200 DPI",
-      "c": "pc", "ic": "mouse", "img": "",
+      "c": "pc",
+      "ic": "mouse",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "mouse gamer rgb 7200 dpi", "palavras": ["mouse"] },
-        "AliExpress":    { "busca": "mouse gamer rgb 7200dpi", "palavras": ["mouse"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 },
-        "Amazon":        { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "mouse gamer rgb 7200 dpi",
+          "palavras": [
+            "mouse"
+          ],
+          "preco_min": 25,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "mouse gamer rgb 7200dpi",
+          "palavras": [
+            "mouse"
+          ],
+          "preco_min": 25,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        },
+        "Amazon": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "Amazon": [99.90, 69.90], "Mercado Livre": [109.90, 74.90], "AliExpress": [89.90, 52.90] }
+      "exemplo": {
+        "Amazon": [
+          99.9,
+          69.9
+        ],
+        "Mercado Livre": [
+          109.9,
+          74.9
+        ],
+        "AliExpress": [
+          89.9,
+          52.9
+        ]
+      }
     },
     {
       "id": "fone-tws-anc",
       "n": "Fone TWS com cancelamento de ruído",
-      "c": "audio", "ic": "earbuds", "img": "",
+      "c": "audio",
+      "ic": "earbuds",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "fone bluetooth tws cancelamento de ruido anc", "palavras": ["anc"] },
-        "AliExpress":    { "busca": "tws earbuds anc bluetooth 5.3", "palavras": ["anc"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "fone bluetooth tws cancelamento de ruido anc",
+          "palavras": [
+            "anc"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "tws earbuds anc bluetooth 5.3",
+          "palavras": [
+            "anc"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "Mercado Livre": {
+          "link": "",
+          "por": 0,
+          "de": 0
+        }
       },
-      "exemplo": { "AliExpress": [189.90, 99.90], "Shopee": [149.90, 109.90], "Mercado Livre": [199.90, 124.90] }
+      "exemplo": {
+        "AliExpress": [
+          189.9,
+          99.9
+        ],
+        "Shopee": [
+          149.9,
+          109.9
+        ],
+        "Mercado Livre": [
+          199.9,
+          124.9
+        ]
+      }
     }
   ]
 }

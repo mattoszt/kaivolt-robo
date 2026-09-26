@@ -102,6 +102,10 @@ def shopee_melhor(cfg, regras):
         por = float(n.get("priceMin") or n.get("price") or 0)
         if por <= 0:
             continue
+        if cfg.get("preco_min") and por < float(cfg["preco_min"]):
+            continue
+        if cfg.get("preco_max") and por > float(cfg["preco_max"]):
+            continue
         taxa = float(n.get("priceDiscountRate") or 0)
         de = round(por / (1 - taxa / 100), 2) if 0 < taxa < 95 else por
         link = n.get("offerLink") or shopee_link_curto(n.get("productLink"))
@@ -171,9 +175,13 @@ def ali_melhor(cfg, regras):
                           dict(comum, keywords=cfg["busca"], sort="LAST_VOLUME_DESC",
                                page_size=40, page_no=1))
     candidatos = []
+    vmin = regras.get("vendas_minimas_aliexpress", 100)
     for it in ali_produtos(resp):
         aval = ali_num(it.get("evaluate_rate"))
-        if aval and aval < regras["avaliacao_minima_aliexpress"]:
+        vendas = int(ali_num(it.get("lastest_volume")))
+        if not aval or aval < regras["avaliacao_minima_aliexpress"]:   # sem avaliação = descarta
+            continue
+        if vendas < vmin:                                               # poucas vendas = descarta
             continue
         if not palavras_ok(it.get("product_title"), cfg.get("palavras")):
             continue
@@ -182,11 +190,15 @@ def ali_melhor(cfg, regras):
         link = it.get("promotion_link") or ""
         if por <= 0 or not link:
             continue
+        if cfg.get("preco_min") and por < float(cfg["preco_min"]):     # barato demais = suspeito
+            continue
+        if cfg.get("preco_max") and por > float(cfg["preco_max"]):
+            continue
         candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link,
-                           "nota": round(aval / 20, 1) if aval else None,
-                           "vendas": int(ali_num(it.get("lastest_volume"))),
+                           "nota": round(aval / 20, 1), "vendas": vendas,
                            "titulo": it.get("product_title"),
                            "img": it.get("product_main_image_url")})
+        log(f"    ok  R$ {por:.2f} · {aval:.0f}% · {vendas} vendas · {(it.get('product_title') or '')[:60]}")
     return min(candidatos, key=lambda c: c["por"]) if candidatos else None
 
 
@@ -287,12 +299,27 @@ def main():
         enviar_ftp(resultado)
 
 
+def limpa_host(h):
+    h = (h or "").strip()
+    for pre in ("ftps://", "ftp://", "sftp://", "http://", "https://"):
+        if h.lower().startswith(pre):
+            h = h[len(pre):]
+    return h.strip("/").split("/")[0].split(":")[0]
+
+
 def enviar_ftp(resultado):
-    pasta = os.environ.get("FTP_PASTA", "public_html/ofertas")
+    pasta = (os.environ.get("FTP_PASTA") or "public_html/ofertas").strip()
+    host = limpa_host(os.environ["FTP_HOST"])
+    user, senha = os.environ["FTP_USER"].strip(), os.environ["FTP_PASS"]
     dados = json.dumps(resultado, ensure_ascii=False).encode("utf-8")
-    with ftplib.FTP_TLS(os.environ["FTP_HOST"], timeout=60) as ftp:
-        ftp.login(os.environ["FTP_USER"], os.environ["FTP_PASS"])
-        ftp.prot_p()
+    try:
+        ftp = ftplib.FTP_TLS(host, timeout=60); ftp.login(user, senha); ftp.prot_p(); modo = "FTPS"
+    except (ftplib.error_perm, OSError, EOFError) as e:
+        if isinstance(e, OSError) and not isinstance(e, (ConnectionError, TimeoutError)) and "Name or service" in str(e):
+            raise RuntimeError(f"FTP_HOST '{host}' não existe. Use o IP/host exato da tela Contas FTP da Hostinger.") from e
+        log("FTPS indisponível, tentando FTP normal:", e)
+        ftp = ftplib.FTP(host, timeout=60); ftp.login(user, senha); modo = "FTP"
+    with ftp:
         for parte in pasta.strip("/").split("/"):
             try:
                 ftp.cwd(parte)
@@ -300,7 +327,7 @@ def enviar_ftp(resultado):
                 ftp.mkd(parte)
                 ftp.cwd(parte)
         ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
-    log("enviado para o site via FTP:", pasta + "/ofertas.json")
+    log(f"enviado para o site via {modo}:", pasta + "/ofertas.json")
 
 
 if __name__ == "__main__":
