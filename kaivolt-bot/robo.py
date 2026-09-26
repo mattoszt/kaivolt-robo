@@ -1,1 +1,307 @@
+#!/usr/bin/env python3
+"""
+ROBÔ DA KAIVOLT
+Busca o menor preço (com boa qualidade) de cada produto nas lojas,
+gera os links de afiliado, guarda o histórico de preços e publica
+o arquivo ofertas.json que o site lê.
 
+Uso:
+  python robo.py            -> modo normal (usa as APIs reais)
+  python robo.py --demo     -> modo teste, sem APIs (usa os preços de "exemplo")
+  python robo.py --teste    -> mostra a resposta bruta das APIs (pra conferir)
+
+As chaves ficam em variáveis de ambiente (NUNCA escreva elas neste arquivo):
+  SHOPEE_APP_ID, SHOPEE_SECRET
+  ALI_APP_KEY, ALI_SECRET, ALI_TRACKING_ID
+  FTP_HOST, FTP_USER, FTP_PASS, FTP_PASTA   (para enviar ao site)
+Só usa bibliotecas que já vêm com o Python (não precisa instalar nada).
+"""
+import hashlib, hmac, json, os, sys, time, urllib.parse, urllib.request, ftplib, io
+from datetime import datetime, timezone, timedelta
+
+PASTA = os.path.dirname(os.path.abspath(__file__))
+ARQ_PRODUTOS = os.path.join(PASTA, "produtos.json")
+ARQ_HISTORICO = os.path.join(PASTA, "historico.json")
+ARQ_SAIDA = os.path.join(PASTA, "saida", "ofertas.json")
+
+DEMO = "--demo" in sys.argv
+TESTE = "--teste" in sys.argv
+
+
+def log(*a):
+    print("[kaivolt]", *a, flush=True)
+
+
+def ler_json(caminho, padrao):
+    try:
+        with open(caminho, encoding="utf-8") as f:
+            return json.load(f)
+    except FileNotFoundError:
+        return padrao
+
+
+def salvar_json(caminho, dados):
+    os.makedirs(os.path.dirname(caminho), exist_ok=True)
+    with open(caminho, "w", encoding="utf-8") as f:
+        json.dump(dados, f, ensure_ascii=False, indent=1)
+
+
+def http(url, dados=None, headers=None):
+    req = urllib.request.Request(url, data=dados, headers=headers or {})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def palavras_ok(titulo, palavras):
+    t = (titulo or "").lower()
+    return all(p.lower() in t for p in (palavras or []))
+
+
+# ======================================================================
+# SHOPEE — Open API de Afiliados (GraphQL)
+# ======================================================================
+SHOPEE_URL = "https://open-api.affiliate.shopee.com.br/graphql"
+
+
+def shopee_chamar(query):
+    app_id, secret = os.environ.get("SHOPEE_APP_ID"), os.environ.get("SHOPEE_SECRET")
+    if not app_id or not secret:
+        raise RuntimeError("faltam SHOPEE_APP_ID / SHOPEE_SECRET")
+    corpo = json.dumps({"query": query}, separators=(",", ":"))
+    ts = str(int(time.time()))
+    assinatura = hashlib.sha256((app_id + ts + corpo + secret).encode()).hexdigest()
+    headers = {
+        "Content-Type": "application/json",
+        "Authorization": f"SHA256 Credential={app_id}, Timestamp={ts}, Signature={assinatura}",
+    }
+    resp = http(SHOPEE_URL, corpo.encode(), headers)
+    if TESTE:
+        log("SHOPEE resposta:", json.dumps(resp, ensure_ascii=False)[:1500])
+    if resp.get("errors"):
+        raise RuntimeError(f"Shopee: {resp['errors']}")
+    return resp["data"]
+
+
+def shopee_melhor(cfg, regras):
+    campos = "itemId shopId productName price priceMin priceMax priceDiscountRate sales ratingStar imageUrl offerLink productLink"
+    if cfg.get("itemId"):
+        filtro = f'itemId: {int(cfg["itemId"])}' + (f', shopId: {int(cfg["shopId"])}' if cfg.get("shopId") else "")
+    else:
+        filtro = f'keyword: {json.dumps(cfg["busca"])}, sortType: 2'   # 2 = mais vendidos
+    q = f"{{ productOfferV2({filtro}, page: 1, limit: 30) {{ nodes {{ {campos} }} }} }}"
+    nodes = shopee_chamar(q)["productOfferV2"]["nodes"] or []
+
+    candidatos = []
+    for n in nodes:
+        nota = float(n.get("ratingStar") or 0)
+        vendas = int(n.get("sales") or 0)
+        if nota < regras["nota_minima"] or vendas < regras["vendas_minimas_shopee"]:
+            continue
+        if not palavras_ok(n.get("productName"), cfg.get("palavras")):
+            continue
+        por = float(n.get("priceMin") or n.get("price") or 0)
+        if por <= 0:
+            continue
+        taxa = float(n.get("priceDiscountRate") or 0)
+        de = round(por / (1 - taxa / 100), 2) if 0 < taxa < 95 else por
+        link = n.get("offerLink") or shopee_link_curto(n.get("productLink"))
+        candidatos.append({"loja": "Shopee", "de": de, "por": por, "link": link,
+                           "nota": nota, "vendas": vendas, "titulo": n.get("productName"),
+                           "img": n.get("imageUrl")})
+    return min(candidatos, key=lambda c: c["por"]) if candidatos else None
+
+
+def shopee_link_curto(url):
+    if not url:
+        return ""
+    q = f'mutation {{ generateShortLink(input: {{ originUrl: {json.dumps(url)}, subIds: ["kaivolt"] }}) {{ shortLink }} }}'
+    return shopee_chamar(q)["generateShortLink"]["shortLink"]
+
+
+# ======================================================================
+# ALIEXPRESS — Open Platform (Affiliate API)
+# ======================================================================
+ALI_URL = "https://api-sg.aliexpress.com/sync"
+
+
+def ali_chamar(metodo, params):
+    key, secret = os.environ.get("ALI_APP_KEY"), os.environ.get("ALI_SECRET")
+    if not key or not secret:
+        raise RuntimeError("faltam ALI_APP_KEY / ALI_SECRET")
+    p = {"app_key": key, "method": metodo, "sign_method": "sha256",
+         "timestamp": str(int(time.time() * 1000)), "format": "json", "v": "2.0"}
+    p.update({k: str(v) for k, v in params.items()})
+    base = "".join(k + p[k] for k in sorted(p))
+    p["sign"] = hmac.new(secret.encode(), base.encode(), hashlib.sha256).hexdigest().upper()
+    resp = http(ALI_URL + "?" + urllib.parse.urlencode(p))
+    if TESTE:
+        log("ALIEXPRESS resposta:", json.dumps(resp, ensure_ascii=False)[:1500])
+    if "error_response" in resp:
+        raise RuntimeError(f"AliExpress: {resp['error_response']}")
+    return resp
+
+
+def ali_produtos(resp):
+    """Acha a lista de produtos dentro da resposta, seja qual for o método."""
+    for v in resp.values():
+        try:
+            r = v["resp_result"]["result"]
+            return r["products"]["product"]
+        except (KeyError, TypeError):
+            continue
+    return []
+
+
+def ali_num(v):
+    try:
+        return float(str(v).replace("%", "").replace(",", "."))
+    except (TypeError, ValueError):
+        return 0.0
+
+
+def ali_melhor(cfg, regras):
+    tracking = os.environ.get("ALI_TRACKING_ID", "kaivolt")
+    comum = {"target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR",
+             "tracking_id": tracking}
+    if cfg.get("productId"):
+        resp = ali_chamar("aliexpress.affiliate.productdetail.get",
+                          dict(comum, product_ids=cfg["productId"]))
+    else:
+        resp = ali_chamar("aliexpress.affiliate.product.query",
+                          dict(comum, keywords=cfg["busca"], sort="LAST_VOLUME_DESC",
+                               page_size=40, page_no=1))
+    candidatos = []
+    for it in ali_produtos(resp):
+        aval = ali_num(it.get("evaluate_rate"))
+        if aval and aval < regras["avaliacao_minima_aliexpress"]:
+            continue
+        if not palavras_ok(it.get("product_title"), cfg.get("palavras")):
+            continue
+        por = ali_num(it.get("target_sale_price") or it.get("sale_price"))
+        de = ali_num(it.get("target_original_price") or it.get("original_price")) or por
+        link = it.get("promotion_link") or ""
+        if por <= 0 or not link:
+            continue
+        candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link,
+                           "nota": round(aval / 20, 1) if aval else None,
+                           "vendas": int(ali_num(it.get("lastest_volume"))),
+                           "titulo": it.get("product_title"),
+                           "img": it.get("product_main_image_url")})
+    return min(candidatos, key=lambda c: c["por"]) if candidatos else None
+
+
+# ======================================================================
+# MERCADO LIVRE / AMAZON — links e preços colocados à mão no produtos.json
+# ======================================================================
+def manual_melhor(loja, cfg):
+    if not cfg.get("link") or not cfg.get("por"):
+        return None
+    por = float(cfg["por"])
+    return {"loja": loja, "de": float(cfg.get("de") or por), "por": por, "link": cfg["link"]}
+
+
+# ======================================================================
+# MONTAGEM
+# ======================================================================
+def buscar_ofertas(prod, regras):
+    ofertas = []
+    for loja, cfg in prod.get("lojas", {}).items():
+        if loja not in regras["lojas_ativas"]:
+            continue
+        try:
+            if DEMO:
+                ex = prod.get("exemplo", {}).get(loja)
+                o = {"loja": loja, "de": ex[0], "por": ex[1], "link": "#"} if ex else None
+            elif loja == "Shopee":
+                o = shopee_melhor(cfg, regras)
+            elif loja == "AliExpress":
+                o = ali_melhor(cfg, regras)
+            else:
+                o = manual_melhor(loja, cfg)
+            if o:
+                ofertas.append(o)
+            elif loja in ("Shopee", "AliExpress"):
+                log(f"  {loja}: nenhuma oferta passou nos filtros de qualidade")
+            else:
+                log(f"  {loja}: sem link/preço preenchido no produtos.json (pulando)")
+        except Exception as e:           # uma loja com erro não derruba as outras
+            log(f"  {loja}: ERRO -> {e}")
+    return sorted(ofertas, key=lambda o: o["por"])
+
+
+def calcular_selo(hist, preco_hoje):
+    """'real' = hoje é o menor preço dos últimos 30 dias (com pelo menos 7 dias de histórico)."""
+    limite = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    antigos = [v for d, v in hist.items() if d >= limite and d != hoje()]
+    if len(antigos) < 7:
+        return ""
+    return "real" if preco_hoje <= min(antigos) else ""
+
+
+def hoje():
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
+def main():
+    base = ler_json(ARQ_PRODUTOS, None)
+    if not base:
+        sys.exit("produtos.json não encontrado")
+    regras = base["regras"]
+    historico = ler_json(ARQ_HISTORICO, {})
+    saida = []
+
+    for prod in base["produtos"]:
+        log("→", prod["n"])
+        ofertas = buscar_ofertas(prod, regras)
+        if not ofertas:
+            log("  (sem ofertas hoje, produto fica fora do site)")
+            continue
+        menor = ofertas[0]["por"]
+        h = historico.setdefault(prod["id"], {})
+        h[hoje()] = menor
+        for d in sorted(h)[:-90]:        # guarda só 90 dias
+            del h[d]
+        notas = [o["nota"] for o in ofertas if o.get("nota")]
+        img = prod.get("img") or ""
+        saida.append({
+            "id": prod["id"], "n": prod["n"], "c": prod["c"], "ic": prod.get("ic", ""),
+            "img": img, "nota": round(max(notas), 1) if notas else 4.5,
+            "selo": calcular_selo(h, menor),
+            "ofertas": [{"loja": o["loja"], "de": round(o["de"], 2), "por": round(o["por"], 2),
+                         "link": o["link"]} for o in ofertas],
+        })
+        log("  menor preço:", menor, "em", ofertas[0]["loja"])
+
+    if not saida:
+        log("NENHUM produto encontrado — o site continua com as ofertas anteriores (nada foi enviado).")
+        salvar_json(ARQ_HISTORICO, historico)
+        sys.exit(1)
+
+    resultado = {"atualizado": datetime.now(timezone.utc).isoformat(timespec="minutes"),
+                 "produtos": saida}
+    salvar_json(ARQ_SAIDA, resultado)
+    salvar_json(ARQ_HISTORICO, historico)
+    log(f"ok: {len(saida)} produtos em {ARQ_SAIDA}")
+
+    if not DEMO and os.environ.get("FTP_HOST"):
+        enviar_ftp(resultado)
+
+
+def enviar_ftp(resultado):
+    pasta = os.environ.get("FTP_PASTA", "public_html/ofertas")
+    dados = json.dumps(resultado, ensure_ascii=False).encode("utf-8")
+    with ftplib.FTP_TLS(os.environ["FTP_HOST"], timeout=60) as ftp:
+        ftp.login(os.environ["FTP_USER"], os.environ["FTP_PASS"])
+        ftp.prot_p()
+        for parte in pasta.strip("/").split("/"):
+            try:
+                ftp.cwd(parte)
+            except ftplib.error_perm:
+                ftp.mkd(parte)
+                ftp.cwd(parte)
+        ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
+    log("enviado para o site via FTP:", pasta + "/ofertas.json")
+
+
+if __name__ == "__main__":
+    main()
