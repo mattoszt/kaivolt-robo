@@ -1,5 +1,5 @@
 {
-  "_leia": "Lista dos produtos que o robô acompanha. Para cada loja, use 'itemId/shopId' (Shopee), 'productId' (AliExpress) OU 'busca' com palavras-chave. Mercado Livre e Amazon: coloque 'link' (seu link de afiliado) e 'por' (preço) manualmente. 'preco_min'/'preco_max' (opcional) descartam ofertas suspeitas de tão baratas ou fora da faixa. 'excluir' = palavras que NÃO podem estar no título (evita produto errado).",
+  "_leia": "Produtos que o robô acompanha. Shopee/AliExpress: 'busca' + 'palavras' (obrigatórias no título) + 'excluir' (proibidas) + 'preco_min'/'preco_max'. MERCADO LIVRE: 'url' = endereço normal do anúncio (o robô atualiza o preço pela API) e 'link' = SEU link de afiliado (meli.la). 'por'/'de' só são usados se a API falhar.",
   "regras": {
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
@@ -47,6 +47,7 @@
           ]
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -114,6 +115,7 @@
           ]
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -175,6 +177,7 @@
           ]
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -229,6 +232,7 @@
           "preco_max": 250
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -271,6 +275,7 @@
           "preco_max": 220
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -319,6 +324,7 @@
           "preco_max": 300
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -367,6 +373,7 @@
           "preco_max": 90
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -411,6 +418,7 @@
           "preco_max": 150
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -447,6 +455,7 @@
           ]
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -512,6 +521,7 @@
           "preco_max": 150
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -560,6 +570,7 @@
           "preco_max": 450
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -574,38 +585,63 @@
       "img": "",
       "lojas": {
         "Shopee": {
-          "busca": "headset gamer microfone",
-          "palavras": [
-            "headset"
-          ],
-          "excluir": [
-            "suporte",
-            "almofada",
-            "ear pad",
-            "espuma",
-            "adaptador",
-            "cabo"
-          ],
-          "preco_min": 40,
-          "preco_max": 400
-        },
-        "AliExpress": {
           "busca": "headset gamer com microfone",
           "palavras": [
             "headset"
           ],
           "excluir": [
-            "suporte",
-            "almofada",
-            "ear pad",
-            "espuma",
             "adaptador",
-            "cabo"
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "gaming headset microphone over ear",
+          "palavras": [
+            "headset"
+          ],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
           ],
           "preco_min": 40,
           "preco_max": 400
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -644,6 +680,7 @@
           "preco_max": 300
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -692,6 +729,7 @@
           "preco_max": 500
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -734,6 +772,7 @@
           "preco_max": 300
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -782,6 +821,7 @@
           "preco_max": 250
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -826,6 +866,7 @@
           "preco_max": 200
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -868,6 +909,7 @@
           "preco_max": 300
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -904,6 +946,7 @@
           ]
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -962,6 +1005,7 @@
           "preco_max": 150
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -1004,6 +1048,7 @@
           "preco_max": 400
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0
@@ -1021,14 +1066,26 @@
           "busca": "headphone bluetooth",
           "palavras": [],
           "excluir": [
-            "almofada",
-            "ear pad",
-            "espuma",
-            "capa",
-            "suporte",
-            "cabo",
             "adaptador",
-            "case"
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "capa",
+            "case",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
           ],
           "preco_min": 50,
           "preco_max": 400
@@ -1037,19 +1094,32 @@
           "busca": "headphone bluetooth over ear",
           "palavras": [],
           "excluir": [
-            "almofada",
-            "ear pad",
-            "espuma",
-            "capa",
-            "suporte",
-            "cabo",
             "adaptador",
-            "case"
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "capa",
+            "case",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
           ],
           "preco_min": 50,
           "preco_max": 400
         },
         "Mercado Livre": {
+          "url": "",
           "link": "",
           "por": 0,
           "de": 0

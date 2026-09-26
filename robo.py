@@ -16,7 +16,7 @@ As chaves ficam em variáveis de ambiente (NUNCA escreva elas neste arquivo):
   FTP_HOST, FTP_USER, FTP_PASS, FTP_PASTA   (para enviar ao site)
 Só usa bibliotecas que já vêm com o Python (não precisa instalar nada).
 """
-import hashlib, hmac, json, os, sys, time, urllib.parse, urllib.request, ftplib, io
+import hashlib, hmac, json, os, re, sys, time, urllib.parse, urllib.request, ftplib, io
 from datetime import datetime, timezone, timedelta
 
 PASTA = os.path.dirname(os.path.abspath(__file__))
@@ -114,7 +114,8 @@ def shopee_melhor(cfg, regras):
         candidatos.append({"loja": "Shopee", "de": de, "por": por, "link": link,
                            "nota": nota, "vendas": vendas, "titulo": n.get("productName"),
                            "img": n.get("imageUrl")})
-    return min(candidatos, key=lambda c: c["por"]) if candidatos else None
+    ordem = custo_beneficio(candidatos)
+    return ordem[0] if ordem else None
 
 
 def shopee_link_curto(url):
@@ -166,23 +167,39 @@ def ali_num(v):
 
 
 def ali_link_produto(c, tracking):
-    """Gera o link de afiliado que abre direto no produto escolhido."""
-    url = c.get("url_prod")
-    if not url:
-        return c["link"]
-    try:
-        resp = ali_chamar("aliexpress.affiliate.link.generate",
-                          {"promotion_link_type": 0, "source_values": url, "tracking_id": tracking})
-        for v in resp.values():
-            try:
-                links = v["resp_result"]["result"]["promotion_links"]["promotion_link"]
-                if links and links[0].get("promotion_link"):
-                    return links[0]["promotion_link"]
-            except (KeyError, TypeError):
-                continue
-    except Exception as e:
-        log("    aviso: não consegui gerar link do produto:", e)
-    return c["link"]
+    """Gera o link de afiliado que abre direto no produto escolhido (None se não der)."""
+    pid = c.get("pid")
+    urls = [u for u in [c.get("url_prod"),
+                        f"https://www.aliexpress.com/item/{pid}.html" if pid else None,
+                        f"https://pt.aliexpress.com/item/{pid}.html" if pid else None] if u]
+    for url in dict.fromkeys(urls):
+        try:
+            resp = ali_chamar("aliexpress.affiliate.link.generate",
+                              {"promotion_link_type": 0, "source_values": url, "tracking_id": tracking})
+            for v in resp.values():
+                try:
+                    links = v["resp_result"]["result"]["promotion_links"]["promotion_link"]
+                    if links and links[0].get("promotion_link"):
+                        return links[0]["promotion_link"]
+                except (KeyError, TypeError):
+                    continue
+        except Exception as e:
+            log("    aviso: link.generate falhou:", e)
+    return None
+
+
+def custo_beneficio(cands):
+    """Entre os que custam até 15% a mais que o mais barato, fica o de melhor nota, mais vendas e maior desconto."""
+    import math
+    if not cands:
+        return []
+    menor = min(c["por"] for c in cands)
+    def score(c):
+        desc = (1 - c["por"] / c["de"]) if c.get("de") and c["de"] > c["por"] else 0
+        return (c.get("nota") or 0) * 2 + math.log10(max(c.get("vendas") or 1, 1)) + desc * 2 - (c["por"] / menor - 1) * 4
+    faixa = [c for c in cands if c["por"] <= menor * 1.15]
+    resto = [c for c in cands if c not in faixa]
+    return sorted(faixa, key=score, reverse=True) + sorted(resto, key=lambda c: c["por"])
 
 
 def ali_melhor(cfg, regras):
@@ -220,26 +237,97 @@ def ali_melhor(cfg, regras):
             continue
         pid = str(it.get("product_id") or "")
         url_prod = it.get("product_detail_url") or (f"https://pt.aliexpress.com/item/{pid}.html" if pid else "")
-        candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link, "url_prod": url_prod,
+        candidatos.append({"loja": "AliExpress", "de": de, "por": por, "link": link, "url_prod": url_prod, "pid": pid,
                            "nota": round(aval / 20, 1), "vendas": vendas,
                            "titulo": it.get("product_title"),
                            "img": it.get("product_main_image_url")})
-    if candidatos:
-        melhor = min(candidatos, key=lambda c: c["por"])
-        melhor["link"] = ali_link_produto(melhor, tracking)
-    for c in sorted(candidatos, key=lambda c: c["por"])[:3]:
-        log(f"    ok  R$ {c['por']:.2f} · {c['nota']}★ · {c['vendas']} vendas · {(c['titulo'] or '')[:58]}")
-    return min(candidatos, key=lambda c: c["por"]) if candidatos else None
+    ordem = custo_beneficio(candidatos)
+    for c in ordem[:3]:
+        log(f"    opção R$ {c['por']:.2f} · {c['nota']}★ · {c['vendas']} vendas · {(c['titulo'] or '')[:58]}")
+    for c in ordem[:5]:
+        link = ali_link_produto(c, tracking)
+        if link:
+            c["link"] = link
+            return c
+    if ordem:
+        log("    AliExpress: não consegui link direto pro produto; ficou de fora hoje")
+    return None
 
 
 # ======================================================================
 # MERCADO LIVRE / AMAZON — links e preços colocados à mão no produtos.json
 # ======================================================================
 def manual_melhor(loja, cfg):
+    if loja == "Mercado Livre" and cfg.get("link") and (cfg.get("url") or cfg.get("item")):
+        o = ml_melhor(cfg)
+        if o:
+            return o
     if not cfg.get("link") or not cfg.get("por"):
         return None
     por = float(cfg["por"])
     return {"loja": loja, "de": float(cfg.get("de") or por), "por": por, "link": cfg["link"]}
+
+
+# ======================================================================
+# MERCADO LIVRE — API oficial (só PREÇO; o link de afiliado é o que você gerou)
+# ======================================================================
+ML_API = "https://api.mercadolibre.com"
+_ML_TOKEN = {}
+
+
+def ml_token():
+    cid, sec = os.environ.get("ML_CLIENT_ID"), os.environ.get("ML_CLIENT_SECRET")
+    if not cid or not sec:
+        return None
+    if "t" in _ML_TOKEN:
+        return _ML_TOKEN["t"]
+    try:
+        dados = urllib.parse.urlencode({"grant_type": "client_credentials",
+                                        "client_id": cid, "client_secret": sec}).encode()
+        r = http(ML_API + "/oauth/token", dados,
+                 {"Content-Type": "application/x-www-form-urlencoded", "Accept": "application/json"})
+        _ML_TOKEN["t"] = r.get("access_token")
+    except Exception as e:
+        log("  Mercado Livre: não consegui token da API:", e)
+        _ML_TOKEN["t"] = None
+    return _ML_TOKEN["t"]
+
+
+def ml_get(caminho):
+    tok = ml_token()
+    h = {"Accept": "application/json", "User-Agent": "robo-kaivolt"}
+    if tok:
+        h["Authorization"] = "Bearer " + tok
+    return http(ML_API + caminho, None, h)
+
+
+def ml_melhor(cfg):
+    """Atualiza o preço do anúncio escolhido. O link continua sendo o SEU link de afiliado."""
+    alvo = cfg.get("item") or cfg.get("url") or ""
+    m_prod = re.search(r"/p/(MLB\d+)", alvo)
+    m_item = re.search(r"(MLB)-?(\d{6,})", alvo)
+    try:
+        if m_prod:
+            d = ml_get(f"/products/{m_prod.group(1)}")
+            bw = d.get("buy_box_winner") or {}
+            por, de = bw.get("price"), bw.get("original_price")
+        elif m_item:
+            iid = m_item.group(1) + m_item.group(2)
+            d = ml_get(f"/items/{iid}")
+            if d.get("status") and d["status"] != "active":
+                log("  Mercado Livre: anúncio pausado/finalizado, usando preço manual")
+                return None
+            por, de = d.get("price"), d.get("original_price")
+        else:
+            return None
+        if not por:
+            return None
+        por = float(por); de = float(de or cfg.get("de") or por)
+        log(f"  Mercado Livre: preço atualizado pela API -> R$ {por:.2f}")
+        return {"loja": "Mercado Livre", "de": max(de, por), "por": por, "link": cfg["link"]}
+    except Exception as e:
+        log("  Mercado Livre: API não respondeu (", e, "), usando preço manual")
+        return None
 
 
 # ======================================================================
