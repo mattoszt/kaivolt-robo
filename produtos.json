@@ -1,16 +1,44 @@
 {
   "_leia": "Produtos que o robô acompanha. Shopee/AliExpress: 'busca' + 'palavras' (obrigatórias no título) + 'excluir' (proibidas) + 'preco_min'/'preco_max'. MERCADO LIVRE: 'url' = endereço normal do anúncio (o robô atualiza o preço pela API) e 'link' = SEU link de afiliado (meli.la). 'por'/'de' só são usados se a API falhar.",
   "regras": {
+    "_como_funciona": [
+      "nota_minima: nota mínima (0 a 5) na Shopee",
+      "avaliacao_minima_aliexpress: % mínimo de avaliações positivas no AliExpress (92% = umas 4,6 estrelas)",
+      "vendas_minimas_*: quantas vendas o anúncio precisa ter pra ser aceito",
+      "preco_suspeito_fator: preço abaixo de 45% da mediana dos concorrentes é descartado (golpe/falsificado)",
+      "dias_validade_manual: preço digitado à mão (ML/Amazon) só vale por esses dias se o robô não conseguir conferir",
+      "minimo_produtos_publicar: se sumir mais de 40% dos produtos de uma vez, o robô NÃO mexe no site",
+      "excluir_global: palavras que reprovam o anúncio em qualquer loja"
+    ],
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
-    "avaliacao_minima_aliexpress": 90,
+    "avaliacao_minima_aliexpress": 92,
     "lojas_ativas": [
       "Shopee",
       "AliExpress",
       "Mercado Livre",
       "Amazon"
     ],
-    "vendas_minimas_aliexpress": 50
+    "vendas_minimas_aliexpress": 100,
+    "preco_suspeito_fator": 0.45,
+    "dias_validade_manual": 7,
+    "minimo_produtos_publicar": 0.6,
+    "excluir_global": [
+      "réplica",
+      "replica",
+      "recondicionado",
+      "refurbished",
+      "seminovo",
+      "usado",
+      "com defeito",
+      "para peças",
+      "for parts",
+      "sample",
+      "amostra",
+      "1:1",
+      "clone",
+      "fake"
+    ]
   },
   "produtos": [
     {
@@ -28,8 +56,12 @@
           "preco_min": 25,
           "preco_max": 200,
           "excluir": [
-            "case",
-            "capa"
+            "100000",
+            "30000",
+            "50000",
+            "80000",
+            "capa",
+            "case"
           ]
         },
         "AliExpress": {
@@ -40,10 +72,14 @@
           "preco_min": 25,
           "preco_max": 200,
           "excluir": [
-            "case",
+            "100000",
+            "30000",
+            "50000",
+            "5000mah",
+            "80000",
             "capa",
-            "shell",
-            "5000mah"
+            "case",
+            "shell"
           ]
         },
         "Mercado Livre": {
@@ -53,12 +89,17 @@
           "link_meli": "https://meli.la/26GeHBz",
           "por": 143.09,
           "de": 169.9,
-          "titulo_ml": "Power Bank Portátil 10000mah Carregador Rápido 22.5w Display Preto"
+          "titulo_ml": "Power Bank Portátil 10000mah Carregador Rápido 22.5w Display Preto",
+          "preco_min": 25,
+          "preco_max": 229,
+          "verificado_em": "2026-09-27"
         },
         "Amazon": {
           "link": "",
           "por": 0,
-          "de": 0
+          "de": 0,
+          "preco_min": 25,
+          "preco_max": 200
         }
       },
       "exemplo": {
@@ -124,7 +165,10 @@
           "link_meli": "https://meli.la/2DiqRiu",
           "por": 89.9,
           "de": 109.9,
-          "titulo_ml": "Carregador Turbo 1 Saída Usb-c 20w + Cabo Usb-c I2go 1,5m Cor Branco"
+          "titulo_ml": "Carregador Turbo 1 Saída Usb-c 20w + Cabo Usb-c I2go 1,5m Cor Branco",
+          "preco_min": 15,
+          "preco_max": 150,
+          "verificado_em": "2026-09-27"
         }
       },
       "exemplo": {
@@ -189,7 +233,10 @@
           "link_meli": "https://meli.la/2ya2K5B",
           "por": 26.99,
           "de": 39.99,
-          "titulo_ml": "Cabo Carregador USB-C Tipo C Nylon Trançado Ultra Rapido 100w 2 Metros Transferencia De Dados Compativel Com iPhone 15 16 17 Tablet Notebook Samsung Xiaomi LG Motorola Smartwatch Branco Eletric Teck"
+          "titulo_ml": "Cabo Carregador USB-C Tipo C Nylon Trançado Ultra Rapido 100w 2 Metros Transferencia De Dados Compativel Com iPhone 15 16 17 Tablet Notebook Samsung Xiaomi LG Motorola Smartwatch Branco Eletric Teck",
+          "preco_min": 10,
+          "preco_max": 120,
+          "verificado_em": "2026-09-27"
         }
       },
       "exemplo": {
@@ -220,9 +267,12 @@
             "20000"
           ],
           "excluir": [
-            "case",
+            "100000",
+            "50000",
+            "5000mah",
+            "80000",
             "capa",
-            "5000mah"
+            "case"
           ],
           "preco_min": 45,
           "preco_max": 250
@@ -233,9 +283,12 @@
             "20000"
           ],
           "excluir": [
-            "case",
+            "100000",
+            "50000",
+            "5000mah",
+            "80000",
             "capa",
-            "5000mah"
+            "case"
           ],
           "preco_min": 45,
           "preco_max": 250
@@ -247,7 +300,10 @@
           "link_meli": "https://meli.la/25KUTRH",
           "por": 128.0,
           "de": 128.0,
-          "titulo_ml": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display"
+          "titulo_ml": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display",
+          "preco_min": 45,
+          "preco_max": 250,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -293,7 +349,10 @@
           "link_meli": "https://meli.la/1hdS91m",
           "por": 87.91,
           "de": 99.9,
-          "titulo_ml": "Power Bank 10000mah Magnético Para iPhone Magsafe Branco"
+          "titulo_ml": "Power Bank 10000mah Magnético Para iPhone Magsafe Branco",
+          "preco_min": 30,
+          "preco_max": 220,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -345,7 +404,10 @@
           "link_meli": "https://meli.la/1Qr79vq",
           "por": 208.99,
           "de": 208.99,
-          "titulo_ml": "Carregador Turbo Ugreen 65w Gan 3 Portas Cor Preto"
+          "titulo_ml": "Carregador Turbo Ugreen 65w Gan 3 Portas Cor Preto",
+          "preco_min": 40,
+          "preco_max": 334,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -397,7 +459,10 @@
           "link_meli": "https://meli.la/34a2HBG",
           "por": 28.47,
           "de": 30.9,
-          "titulo_ml": "Cabo Carregador Usb-c Lightning Pd 30w Kaidi Para iPhone Branco"
+          "titulo_ml": "Cabo Carregador Usb-c Lightning Pd 30w Kaidi Para iPhone Branco",
+          "preco_min": 8,
+          "preco_max": 90,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -445,7 +510,10 @@
           "link_meli": "https://meli.la/1ozAK8g",
           "por": 24.99,
           "de": 49.99,
-          "titulo_ml": "Suporte Celular Carro Magnético Rotativo 360dobrável Ventosa Preto"
+          "titulo_ml": "Suporte Celular Carro Magnético Rotativo 360dobrável Ventosa Preto",
+          "preco_min": 10,
+          "preco_max": 150,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -485,12 +553,17 @@
           "link_meli": "https://meli.la/2p6uuRE",
           "por": 89.9,
           "de": 189.9,
-          "titulo_ml": "Mouse Ótico para Jogos Logitech G203 LIGHTSYNC Preto"
+          "titulo_ml": "Mouse Ótico para Jogos Logitech G203 LIGHTSYNC Preto",
+          "preco_min": 25,
+          "preco_max": 300,
+          "verificado_em": "2026-09-27"
         },
         "Amazon": {
           "link": "",
           "por": 0,
-          "de": 0
+          "de": 0,
+          "preco_min": 25,
+          "preco_max": 300
         }
       },
       "exemplo": {
@@ -554,7 +627,10 @@
           "link_meli": "https://meli.la/2t9QSFY",
           "por": 59.64,
           "de": 93.32,
-          "titulo_ml": "Mouse Sem Fio 2.4g Recarregável Usb Dpi Ajustável 800-1600 Preto"
+          "titulo_ml": "Mouse Sem Fio 2.4g Recarregável Usb Dpi Ajustável 800-1600 Preto",
+          "preco_min": 15,
+          "preco_max": 150,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -603,7 +679,9 @@
           "url": "",
           "link": "",
           "por": 0,
-          "de": 0
+          "de": 0,
+          "preco_min": 60,
+          "preco_max": 450
         }
       }
     },
@@ -674,7 +752,9 @@
           "url": "",
           "link": "",
           "por": 0,
-          "de": 0
+          "de": 0,
+          "preco_min": 40,
+          "preco_max": 400
         }
       }
     },
@@ -716,7 +796,10 @@
           "link_meli": "https://meli.la/2bwcBTm",
           "por": 51.4,
           "de": 69.9,
-          "titulo_ml": "Adaptador Hub Usb Com 8 Portas Rj45 Hdmi Usb 3.0 E 2.0 Tipo C Micro Sd Cartão Ethernet Cabo Thunderbolt Dock Station Dex Macbook Air M1 M2 iPad Type C Tablet Computador Pc Notebook Extensor Voxo"
+          "titulo_ml": "Adaptador Hub Usb Com 8 Portas Rj45 Hdmi Usb 3.0 E 2.0 Tipo C Micro Sd Cartão Ethernet Cabo Thunderbolt Dock Station Dex Macbook Air M1 M2 iPad Type C Tablet Computador Pc Notebook Extensor Voxo",
+          "preco_min": 30,
+          "preco_max": 300,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -733,33 +816,44 @@
             "512"
           ],
           "excluir": [
-            "case",
-            "gaveta",
+            "16tb",
+            "1tb",
+            "2tb",
+            "4tb",
+            "8tb",
             "adaptador",
-            "enclosure",
             "caddy",
             "capa",
-            "dissipador"
+            "case",
+            "dissipador",
+            "enclosure",
+            "gaveta"
           ],
-          "preco_min": 80,
-          "preco_max": 500
+          "preco_min": 300,
+          "preco_max": 900
         },
         "AliExpress": {
-          "busca": "ssd sata 512gb",
+          "busca": "nvme ssd 512gb m.2",
           "palavras": [
-            "512"
+            "512",
+            "nvme"
           ],
           "excluir": [
-            "case",
-            "gaveta",
+            "16tb",
+            "1tb",
+            "2tb",
+            "4tb",
+            "8tb",
             "adaptador",
-            "enclosure",
             "caddy",
             "capa",
-            "dissipador"
+            "case",
+            "dissipador",
+            "enclosure",
+            "gaveta"
           ],
-          "preco_min": 80,
-          "preco_max": 500
+          "preco_min": 300,
+          "preco_max": 900
         },
         "Mercado Livre": {
           "item": "MLB5095889465",
@@ -768,7 +862,10 @@
           "link_meli": "https://meli.la/2uWSCQA",
           "por": 594.44,
           "de": 899.0,
-          "titulo_ml": "SSD M.2 NVMe KingSpec NX-512 512GB PCIe Gen3 x4 3400MB/s Dissipador"
+          "titulo_ml": "SSD M.2 NVMe KingSpec NX-512 512GB PCIe Gen3 x4 3400MB/s Dissipador",
+          "preco_min": 300,
+          "preco_max": 951,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -814,7 +911,10 @@
           "link_meli": "https://meli.la/1Ny8SMN",
           "por": 339.91,
           "de": 339.91,
-          "titulo_ml": "Webcam Full HD Logitech C920s com Microfone Embutido, Proteção de Privacidade, Widescreen 1080p e Conexão USB"
+          "titulo_ml": "Webcam Full HD Logitech C920s com Microfone Embutido, Proteção de Privacidade, Widescreen 1080p e Conexão USB",
+          "preco_min": 30,
+          "preco_max": 544,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -866,7 +966,10 @@
           "link_meli": "https://meli.la/2VeeJxh",
           "por": 27.5,
           "de": 39.9,
-          "titulo_ml": "Caneta Stylus Universal Alta Precisão Para Tablet Positivo Android Kateluo Branco"
+          "titulo_ml": "Caneta Stylus Universal Alta Precisão Para Tablet Positivo Android Kateluo Branco",
+          "preco_min": 20,
+          "preco_max": 250,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -914,7 +1017,10 @@
           "link_meli": "https://meli.la/2X41yip",
           "por": 33.5,
           "de": 33.5,
-          "titulo_ml": "Suporte Dobrável Giratório Ajustável 360° De Alumínio Para Tablet Celular Ipad Ate 12 Polegada Bamduu"
+          "titulo_ml": "Suporte Dobrável Giratório Ajustável 360° De Alumínio Para Tablet Celular Ipad Ate 12 Polegada Bamduu",
+          "preco_min": 15,
+          "preco_max": 200,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -960,7 +1066,10 @@
           "link_meli": "https://meli.la/32j95Uy",
           "por": 47.4,
           "de": 47.4,
-          "titulo_ml": "Kit Teclado E Mouse Sem Fio Bluetooth Tablet Compatível Com Android Ios E Windows Beexcellent"
+          "titulo_ml": "Kit Teclado E Mouse Sem Fio Bluetooth Tablet Compatível Com Android Ios E Windows Beexcellent",
+          "preco_min": 40,
+          "preco_max": 300,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -1000,7 +1109,10 @@
           "link_meli": "https://meli.la/19aGapv",
           "por": 196.59,
           "de": 389.0,
-          "titulo_ml": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto"
+          "titulo_ml": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
+          "preco_min": 50,
+          "preco_max": 400,
+          "verificado_em": "2026-09-27"
         }
       },
       "exemplo": {
@@ -1062,7 +1174,10 @@
           "link_meli": "https://meli.la/1mXK1o1",
           "por": 155.97,
           "de": 299.0,
-          "titulo_ml": "Fone De Ouvido Soundcore by Anker P20i Graves Poderosos e Impactantes Bluetooth 5.3 30H de Reprodução Resistência à Água 2 Mics IA para Chamadas Claras Personalização de Som via App Cor Azul-claro"
+          "titulo_ml": "Fone De Ouvido Soundcore by Anker P20i Graves Poderosos e Impactantes Bluetooth 5.3 30H de Reprodução Resistência à Água 2 Mics IA para Chamadas Claras Personalização de Som via App Cor Azul-claro",
+          "preco_min": 20,
+          "preco_max": 250,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -1102,13 +1217,16 @@
           "preco_max": 400
         },
         "Mercado Livre": {
-          "item": "MLB4771049235",
-          "url": "https://www.mercadolivre.com.br/caixa-de-som-portatil-basike-bluetooth-200w-com-graves-reforcados-e-prova-dagua/p/MLB73076146",
-          "link": "https://www.mercadolivre.com.br/caixa-de-som-portatil-basike-bluetooth-200w-com-graves-reforcados-e-prova-dagua/p/MLB73076146?pdp_filters=item_id%3AMLB4771049235&matt_word=ky20260925222946505&matt_tool=97504693",
-          "link_meli": "https://meli.la/25RKFNA",
-          "por": 591.04,
-          "de": 591.04,
-          "titulo_ml": "Caixa de Som Portátil Basike Bluetooth 200W Com Graves Reforçados e À Prova D'Água"
+          "item": "MLB4266850959",
+          "url": "https://produto.mercadolivre.com.br/MLB-4266850959-inova-caixa-som-bluetooth-20w-15h-portatil-potente-com-radio-_JM",
+          "link": "https://produto.mercadolivre.com.br/MLB-4266850959-inova-caixa-som-bluetooth-20w-15h-portatil-potente-com-radio-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "",
+          "por": 69.99,
+          "de": 117.97,
+          "titulo_ml": "Inova Caixa Som Bluetooth 20w 15h Portátil Potente Com Radio",
+          "preco_min": 40,
+          "preco_max": 400,
+          "verificado_em": "2026-09-27"
         }
       }
     },
@@ -1182,7 +1300,10 @@
           "link_meli": "https://meli.la/2u4xGn3",
           "por": 151.04,
           "de": 151.04,
-          "titulo_ml": "Basike Headphone Fone De Ouvido Bluetooth Sem Fio Wireless Mini Dobrável Com Microfone Anc Cancelamento De Ruido Hifi Aux Usb Para Gamer Pc Academia Over Ear Headset On Ear Confortável Ajustável Preto"
+          "titulo_ml": "Basike Headphone Fone De Ouvido Bluetooth Sem Fio Wireless Mini Dobrável Com Microfone Anc Cancelamento De Ruido Hifi Aux Usb Para Gamer Pc Academia Over Ear Headset On Ear Confortável Ajustável Preto",
+          "preco_min": 50,
+          "preco_max": 400,
+          "verificado_em": "2026-09-27"
         }
       }
     }

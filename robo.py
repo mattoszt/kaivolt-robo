@@ -52,11 +52,48 @@ def http(url, dados=None, headers=None):
         return json.loads(r.read().decode("utf-8"))
 
 
+REGRAS = {}                 # preenchido no main() com as regras do produtos.json
+MOTIVOS = {}                # contagem de reprovados por motivo (relatório no final)
+
+
+def reprova(motivo):
+    MOTIVOS[motivo] = MOTIVOS.get(motivo, 0) + 1
+    return False
+
+
 def palavras_ok(titulo, palavras, excluir=None):
     t = (titulo or "").lower()
-    if any(x.lower() in t for x in (excluir or [])):
-        return False
-    return all(p.lower() in t for p in (palavras or []))
+    proibidas = list(excluir or []) + list(REGRAS.get("excluir_global", []))
+    if any(x.lower() in t for x in proibidas):
+        return reprova("palavra proibida no título (réplica, usado, capa etc.)")
+    if not all(p.lower() in t for p in (palavras or [])):
+        return reprova("título não bate com o produto")
+    return True
+
+
+def tira_suspeitos(cands):
+    """Preço bom demais pra ser verdade: bem abaixo da mediana dos concorrentes = golpe/falsificado."""
+    fator = float(REGRAS.get("preco_suspeito_fator", 0.45))
+    if len(cands) < 4:
+        return cands
+    precos = sorted(c["por"] for c in cands)
+    mediana = precos[len(precos) // 2]
+    bons = []
+    for c in cands:
+        if c["por"] < mediana * fator:
+            reprova("preço bom demais pra ser verdade")
+            log(f"    suspeito descartado: R$ {c['por']:.2f} (mediana R$ {mediana:.2f}) · {(c.get('titulo') or '')[:50]}")
+        else:
+            bons.append(c)
+    return bons
+
+
+def faixa_ok(por, cfg):
+    if cfg.get("preco_min") and por < float(cfg["preco_min"]):
+        return reprova("abaixo do preço mínimo do produto (suspeito)")
+    if cfg.get("preco_max") and por > float(cfg["preco_max"]):
+        return reprova("acima do preço máximo do produto")
+    return True
 
 
 # ======================================================================
@@ -97,24 +134,22 @@ def shopee_melhor(cfg, regras):
     for n in nodes:
         nota = float(n.get("ratingStar") or 0)
         vendas = int(n.get("sales") or 0)
-        if nota < regras["nota_minima"] or vendas < regras["vendas_minimas_shopee"]:
-            continue
+        if nota < regras["nota_minima"]:
+            reprova("nota baixa"); continue
+        if vendas < regras["vendas_minimas_shopee"]:
+            reprova("poucas vendas"); continue
         if not palavras_ok(n.get("productName"), cfg.get("palavras"), cfg.get("excluir")):
             continue
         por = float(n.get("priceMin") or n.get("price") or 0)
-        if por <= 0:
-            continue
-        if cfg.get("preco_min") and por < float(cfg["preco_min"]):
-            continue
-        if cfg.get("preco_max") and por > float(cfg["preco_max"]):
+        if por <= 0 or not faixa_ok(por, cfg):
             continue
         taxa = float(n.get("priceDiscountRate") or 0)
         de = round(por / (1 - taxa / 100), 2) if 0 < taxa < 95 else por
         link = n.get("offerLink") or shopee_link_curto(n.get("productLink"))
-        candidatos.append({"loja": "Shopee", "de": de, "por": por, "link": link,
+        candidatos.append({"loja": "Shopee", "de": de, "por": por, "link": link, "pid": str(n.get("itemId") or ""),
                            "nota": nota, "vendas": vendas, "titulo": n.get("productName"),
                            "img": n.get("imageUrl")})
-    ordem = custo_beneficio(candidatos)
+    ordem = custo_beneficio(tira_suspeitos(candidatos))
     return ordem[0] if ordem else None
 
 
@@ -195,8 +230,8 @@ def custo_beneficio(cands):
         return []
     menor = min(c["por"] for c in cands)
     def score(c):
-        desc = (1 - c["por"] / c["de"]) if c.get("de") and c["de"] > c["por"] else 0
-        return (c.get("nota") or 0) * 2 + math.log10(max(c.get("vendas") or 1, 1)) + desc * 2 - (c["por"] / menor - 1) * 4
+        # o "preço de antes" das lojas não entra: é fácil de inflar
+        return (c.get("nota") or 0) * 2 + math.log10(max(c.get("vendas") or 1, 1)) - (c["por"] / menor - 1) * 4
     faixa = [c for c in cands if c["por"] <= menor * 1.15]
     resto = [c for c in cands if c not in faixa]
     return sorted(faixa, key=score, reverse=True) + sorted(resto, key=lambda c: c["por"])
@@ -221,19 +256,15 @@ def ali_melhor(cfg, regras):
         aval = ali_num(it.get("evaluate_rate"))
         vendas = int(ali_num(it.get("lastest_volume")))
         if not aval or aval < regras["avaliacao_minima_aliexpress"]:   # sem avaliação = descarta
-            continue
+            reprova("avaliação baixa ou sem avaliação"); continue
         if vendas < vmin:                                               # poucas vendas = descarta
-            continue
+            reprova("poucas vendas"); continue
         if not palavras_ok(it.get("product_title"), cfg.get("palavras"), cfg.get("excluir")):
             continue
         por = ali_num(it.get("target_sale_price") or it.get("sale_price"))
         de = ali_num(it.get("target_original_price") or it.get("original_price")) or por
         link = it.get("promotion_link") or ""
-        if por <= 0 or not link:
-            continue
-        if cfg.get("preco_min") and por < float(cfg["preco_min"]):     # barato demais = suspeito
-            continue
-        if cfg.get("preco_max") and por > float(cfg["preco_max"]):
+        if por <= 0 or not link or not faixa_ok(por, cfg):
             continue
         pid = str(it.get("product_id") or "")
         url_prod = it.get("product_detail_url") or (f"https://pt.aliexpress.com/item/{pid}.html" if pid else "")
@@ -241,7 +272,7 @@ def ali_melhor(cfg, regras):
                            "nota": round(aval / 20, 1), "vendas": vendas,
                            "titulo": it.get("product_title"),
                            "img": it.get("product_main_image_url")})
-    ordem = custo_beneficio(candidatos)
+    ordem = custo_beneficio(tira_suspeitos(candidatos))
     for c in ordem[:3]:
         log(f"    opção R$ {c['por']:.2f} · {c['nota']}★ · {c['vendas']} vendas · {(c['titulo'] or '')[:58]}")
     for c in ordem[:5]:
@@ -258,14 +289,37 @@ def ali_melhor(cfg, regras):
 # MERCADO LIVRE / AMAZON — links e preços colocados à mão no produtos.json
 # ======================================================================
 def manual_melhor(loja, cfg):
-    if loja == "Mercado Livre" and cfg.get("link") and (cfg.get("url") or cfg.get("item")):
-        o = ml_melhor(cfg)
-        if o:
-            return o
-    if not cfg.get("link") or not cfg.get("por"):
+    """Mercado Livre/Amazon: o produto é escolhido por você; o robô confere se continua valendo."""
+    if not cfg.get("link"):
+        return None
+    o = None
+    if loja == "Mercado Livre":
+        o = ml_melhor(cfg) if (cfg.get("url") or cfg.get("item")) else None
+        if o is False:                       # anúncio acabou/pausado: fora do site
+            reprova("anúncio do Mercado Livre pausado/finalizado")
+            return None
+        if not o and cfg.get("link_meli"):
+            o = ml_preco_pagina(cfg)
+    if o:
+        if not faixa_ok(o["por"], cfg):
+            log(f"  {loja}: preço R$ {o['por']:.2f} fora da faixa do produto, ficou de fora")
+            return None
+        return o
+    # sem preço ao vivo: só usa o preço digitado se ele for recente
+    if not cfg.get("por"):
+        return None
+    dias = int(REGRAS.get("dias_validade_manual", 7))
+    try:
+        idade = (datetime.now(timezone.utc).date() - datetime.strptime(cfg.get("verificado_em", "2000-01-01"), "%Y-%m-%d").date()).days
+    except ValueError:
+        idade = 999
+    if idade > dias:
+        reprova("preço manual velho (não deu pra conferir)")
+        log(f"  {loja}: preço não conferido há {idade} dias, ficou de fora pra não mostrar preço errado")
         return None
     por = float(cfg["por"])
-    return {"loja": loja, "de": float(cfg.get("de") or por), "por": por, "link": cfg["link"]}
+    return {"loja": loja, "de": float(cfg.get("de") or por), "por": por, "link": cfg["link"],
+            "pid": str(cfg.get("item") or ""), "titulo": cfg.get("titulo_ml") or cfg.get("titulo")}
 
 
 # ======================================================================
@@ -315,8 +369,8 @@ def ml_melhor(cfg):
             iid = m_item.group(1) + m_item.group(2)
             d = ml_get(f"/items/{iid}")
             if d.get("status") and d["status"] != "active":
-                log("  Mercado Livre: anúncio pausado/finalizado, usando preço manual")
-                return None
+                log("  Mercado Livre: anúncio pausado/finalizado, ficou de fora")
+                return False
             por, de = d.get("price"), d.get("original_price")
         else:
             return None
@@ -324,9 +378,40 @@ def ml_melhor(cfg):
             return None
         por = float(por); de = float(de or cfg.get("de") or por)
         log(f"  Mercado Livre: preço atualizado pela API -> R$ {por:.2f}")
-        return {"loja": "Mercado Livre", "de": max(de, por), "por": por, "link": cfg["link"]}
+        return {"loja": "Mercado Livre", "de": max(de, por), "por": por, "link": cfg["link"],
+                "pid": str(cfg.get("item") or ""), "titulo": cfg.get("titulo_ml")}
     except Exception as e:
-        log("  Mercado Livre: API não respondeu (", e, "), usando preço manual")
+        log("  Mercado Livre: API não respondeu (", e, "), conferindo pela página")
+        return None
+
+
+def ml_preco_pagina(cfg):
+    """Abre o teu link meli.la e lê o preço do produto em destaque (o mesmo que você escolheu)."""
+    try:
+        req = urllib.request.Request(cfg["link_meli"], headers={
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/128 Safari/537.36",
+            "Accept-Language": "pt-BR"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            html = r.read().decode("utf-8", "ignore")
+        i = html.find('"polycards":[')
+        if i < 0:
+            log("  Mercado Livre: página do link não trouxe o produto")
+            return None
+        card = json.JSONDecoder().raw_decode(html[i + len('"polycards":'):])[0][0]
+        iid = card.get("metadata", {}).get("id")
+        if cfg.get("item") and iid and iid != cfg["item"]:
+            log(f"  Mercado Livre: o link mostra outro anúncio ({iid}), confira o produto")
+            return None
+        comp = {x.get("type"): x for x in card.get("components", [])}
+        preco = comp.get("price", {}).get("price", {})
+        por = (preco.get("current_price") or {}).get("value")
+        if not por:
+            return None
+        log(f"  Mercado Livre: preço conferido na página -> R$ {float(por):.2f}")
+        return {"loja": "Mercado Livre", "de": float(por), "por": float(por), "link": cfg["link"],
+                "pid": str(cfg.get("item") or ""), "titulo": cfg.get("titulo_ml")}
+    except Exception as e:
+        log("  Mercado Livre: não consegui abrir a página do link (", e, ")")
         return None
 
 
@@ -368,6 +453,16 @@ def calcular_selo(hist, preco_hoje):
     return "real" if preco_hoje <= min(antigos) else ""
 
 
+def desconto_real(hist_anuncio, por):
+    """'De' honesto: o maior preço que o PRÓPRIO robô viu nesse mesmo anúncio nos últimos 30 dias.
+    O 'preço de antes' que as lojas mostram é ignorado (o AliExpress infla esse número).
+    Se o preço não caiu pelo menos 5%, não mostra desconto nenhum."""
+    limite = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    vistos = [v for d, v in hist_anuncio.items() if d >= limite]
+    maior = max(vistos, default=por)
+    return round(maior, 2) if maior >= por * 1.05 else por
+
+
 def hoje():
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
@@ -377,6 +472,7 @@ def main():
     if not base:
         sys.exit("produtos.json não encontrado")
     regras = base["regras"]
+    REGRAS.update(regras)
     historico = ler_json(ARQ_HISTORICO, {})
     saida = []
 
@@ -391,14 +487,23 @@ def main():
         h[hoje()] = menor
         for d in sorted(h)[:-90]:        # guarda só 90 dias
             del h[d]
+        anuncios = historico.setdefault("_anuncios", {})
+        for o in ofertas:
+            ha = anuncios.setdefault(f'{prod["id"]}|{o["loja"]}|{o.get("pid") or o["link"][:80]}', {})
+            ha[hoje()] = max(ha.get(hoje(), 0), o["por"])      # maior preço visto no dia
+            for d in sorted(ha)[:-35]:
+                del ha[d]
+            o["de"] = desconto_real(ha, o["por"])
         notas = [o["nota"] for o in ofertas if o.get("nota")]
+        vendas = [o["vendas"] for o in ofertas if o.get("vendas")]
         img = prod.get("img") or ""
         saida.append({
             "id": prod["id"], "n": prod["n"], "c": prod["c"], "ic": prod.get("ic", ""),
             "img": img, "nota": round(max(notas), 1) if notas else 4.5,
+            "vendas": max(vendas) if vendas else 0,
             "selo": calcular_selo(h, menor),
             "ofertas": [{"loja": o["loja"], "de": round(o["de"], 2), "por": round(o["por"], 2),
-                         "link": o["link"]} for o in ofertas],
+                         "link": o["link"], "t": (o.get("titulo") or "")[:90]} for o in ofertas],
         })
         log("  menor preço:", menor, "em", ofertas[0]["loja"])
 
@@ -406,6 +511,21 @@ def main():
         log("NENHUM produto encontrado — o site continua com as ofertas anteriores (nada foi enviado).")
         salvar_json(ARQ_HISTORICO, historico)
         sys.exit(1)
+
+    log("RELATÓRIO DE QUALIDADE — reprovados por motivo:")
+    for m, q in sorted(MOTIVOS.items(), key=lambda x: -x[1]):
+        log(f"   {q:4d} x {m}")
+
+    # trava: se sumiu muita coisa de uma vez, algo deu errado (API fora do ar etc.) -> não mexe no site
+    meta = historico.setdefault("_meta", {})
+    antes = int(meta.get("ultimo_total") or 0)
+    minimo = float(regras.get("minimo_produtos_publicar", 0.6))
+    if antes and len(saida) < antes * minimo:
+        log(f"TRAVA DE SEGURANÇA: hoje {len(saida)} produtos, antes {antes}. O site continua com as ofertas anteriores.")
+        meta["ultimo_total"] = max(len(saida), int(antes * 0.9))   # se continuar assim, libera aos poucos
+        salvar_json(ARQ_HISTORICO, historico)
+        sys.exit(1)
+    meta["ultimo_total"] = len(saida)
 
     resultado = {"atualizado": datetime.now(timezone.utc).isoformat(timespec="minutes"),
                  "produtos": saida}
