@@ -2,7 +2,7 @@ name: Robô Kaivolt
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # a cada 30 minutos
+        - cron: "13,43 * * * *"   # a cada 30 minutos
   workflow_dispatch:
 
 permissions:
