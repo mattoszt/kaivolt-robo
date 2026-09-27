@@ -1,1 +1,51 @@
+name: Canal Kaivolt (Telegram)
 
+on:
+  schedule:
+    - cron: "*/20 * * * *"   # a cada 20 minutos (o robô só posta das 8h às 23h)
+  workflow_dispatch:
+    inputs:
+      teste_telegram:
+        description: "Postar 1 oferta agora no Telegram (teste)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: robo-kaivolt        # mesma fila do robô do site: nunca rodam ao mesmo tempo
+  cancel-in-progress: false
+
+jobs:
+  postar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Postar oferta no canal
+        env:
+          ALI_APP_KEY: ${{ secrets.ALI_APP_KEY }}
+          ALI_SECRET: ${{ secrets.ALI_SECRET }}
+          ALI_TRACKING_ID: ${{ secrets.ALI_TRACKING_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FTP_HOST: ${{ secrets.FTP_HOST }}
+          FTP_USER: ${{ secrets.FTP_USER }}
+          FTP_PASS: ${{ secrets.FTP_PASS }}
+        run: python robo.py --canal ${{ github.event.inputs.teste_telegram == 'true' && '--tg-teste' || '' }}
+
+      - name: Guardar histórico
+        if: always()
+        run: |
+          git config user.name "robo-kaivolt"
+          git config user.email "robo@kaivolt.com.br"
+          git add historico.json
+          git diff --staged --quiet || git commit -m "histórico do canal"
+          git pull --rebase --quiet || true
+          git push
