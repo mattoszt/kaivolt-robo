@@ -767,26 +767,44 @@ def divulgar(saida, historico, regras):
 
 
 def pagina_zap(fila):
-    """Página kaivolt.com.br/ofertas/zap.html: os últimos posts prontos pra copiar e colar no canal do WhatsApp."""
+    """Página kaivolt.com.br/ofertas/zap.html: posts prontos pra copiar e colar no canal do WhatsApp.
+    Ao copiar, o post fica marcado como 'postado' (só neste celular) pra você não repetir."""
     import html as H
     itens = "".join(
-        f'<div class="p"><div class="h"><b>{H.escape(x["n"])}</b><span>{x["d"]}</span></div>'
-        f'<pre id="t{i}">{H.escape(x["txt"])}</pre>'
-        f'<div class="b"><button onclick="cp({i},this)">Copiar</button>'
-        f'<a href="https://wa.me/?text={urllib.parse.quote(x["txt"])}">Abrir no WhatsApp</a></div></div>'
-        for i, x in enumerate(fila)) or "<p>Nenhum post ainda. O robô posta às 12h, às 20h e quando algum preço cai de verdade.</p>"
+        f'<div class="p" data-id="{H.escape(x["d"] + "|" + x["n"])}"><div class="h"><b>{H.escape(x["n"])}</b><span>{x["d"]}</span></div>'
+        f'<pre>{H.escape(x["txt"])}</pre>'
+        f'<div class="b"><button class="c">Copiar</button><button class="m">Já postei</button></div><div class="ok">✓ Postado no canal</div></div>'
+        for x in fila) or "<p>Nenhum post ainda. O robô prepara um novo a cada 20 minutos, das 8h às 23h.</p>"
     return ("<!doctype html><html lang=pt-BR><head><meta charset=utf-8><meta name=robots content=noindex>"
-            "<meta name=viewport content='width=device-width,initial-scale=1'><title>Posts WhatsApp · Kaivolt</title>"
-            "<style>body{margin:0;background:#07060b;color:#f4f2ff;font-family:system-ui,sans-serif;padding:16px}"
-            "h1{font-size:20px}.p{background:#13101d;border:1px solid #2a2340;border-radius:14px;padding:14px;margin:0 0 14px}"
-            ".h{display:flex;justify-content:space-between;gap:10px;margin-bottom:8px}.h span{color:#9d97b3;font-size:13px}"
+            "<meta name=viewport content='width=device-width,initial-scale=1'><meta name=theme-color content='#07060b'>"
+            "<meta name=apple-mobile-web-app-capable content=yes><title>Kaivolt WhatsApp</title>"
+            "<style>body{margin:0;background:#07060b;color:#f4f2ff;font-family:system-ui,sans-serif;padding:0 16px 40px}"
+            ".top{position:sticky;top:0;background:#07060b;padding:14px 0 10px;z-index:2;display:flex;justify-content:space-between;align-items:center;gap:10px}"
+            "h1{font-size:19px;margin:0}.n{background:#22c55e;color:#04150a;font-weight:800;border-radius:99px;padding:5px 12px;font-size:14px}"
+            ".f{display:flex;gap:8px;margin:0 0 14px}.f button{flex:1;padding:10px;border-radius:10px;border:1px solid #2a2340;background:#13101d;color:#d9d4ee;font-weight:700}"
+            ".f button.on{background:#8b5cf6;color:#fff;border-color:#8b5cf6}"
+            ".p{background:#13101d;border:1px solid #2a2340;border-radius:14px;padding:14px;margin:0 0 14px}"
+            ".h{display:flex;justify-content:space-between;gap:10px;margin-bottom:8px}.h span{color:#9d97b3;font-size:13px;white-space:nowrap}"
             "pre{white-space:pre-wrap;font:14px/1.45 system-ui,sans-serif;margin:0 0 12px;color:#d9d4ee}"
-            ".b{display:flex;gap:8px}button,.b a{flex:1;text-align:center;padding:12px;border-radius:10px;border:0;font-weight:700;"
-            "font-size:15px;text-decoration:none}button{background:#8b5cf6;color:#fff}.b a{background:#1f9d55;color:#fff}</style></head>"
-            "<body><h1>Posts prontos pro WhatsApp</h1><p style='color:#9d97b3'>Toque em Copiar e cole no canal. O mais novo fica em cima.</p>"
+            ".b{display:flex;gap:8px}.b button{flex:1;padding:12px;border-radius:10px;border:0;font-weight:700;font-size:15px}"
+            ".c{background:#8b5cf6;color:#fff}.m{background:#221c35;color:#d9d4ee}"
+            ".ok{display:none;color:#22c55e;font-weight:700;margin-top:10px}.p.feito{opacity:.45}.p.feito .ok{display:block}.p.feito .b{display:none}"
+            "body.so-novos .p.feito{display:none}</style></head><body>"
+            "<div class=top><h1>Posts pro WhatsApp</h1><span class=n id=n></span></div>"
+            "<div class=f><button id=fn class=on>Só os novos</button><button id=ft>Todos</button></div>"
             + itens +
-            "<script>function cp(i,b){navigator.clipboard.writeText(document.getElementById('t'+i).innerText).then(function(){b.textContent='Copiado!';setTimeout(function(){b.textContent='Copiar'},1500)})}</script>"
-            "</body></html>")
+            "<script>var K='kv-zap-postados',S={};try{S=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}"
+            "function salva(){try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}}"
+            "function atualiza(){var n=0;document.querySelectorAll('.p').forEach(function(p){var f=!!S[p.dataset.id];p.classList.toggle('feito',f);if(!f)n++});"
+            "document.getElementById('n').textContent=n+(n==1?' novo':' novos')}"
+            "function marca(p){S[p.dataset.id]=1;salva();atualiza()}"
+            "document.body.classList.add('so-novos');"
+            "document.getElementById('fn').onclick=function(){document.body.classList.add('so-novos');this.classList.add('on');document.getElementById('ft').classList.remove('on')};"
+            "document.getElementById('ft').onclick=function(){document.body.classList.remove('so-novos');this.classList.add('on');document.getElementById('fn').classList.remove('on')};"
+            "document.querySelectorAll('.p').forEach(function(p){var t=p.querySelector('pre').innerText;"
+            "p.querySelector('.c').onclick=function(){var b=this;(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(function(){b.textContent='Copiado!';setTimeout(function(){marca(p)},900)},"
+            "function(){var r=document.createRange();r.selectNodeContents(p.querySelector('pre'));var s=getSelection();s.removeAllRanges();s.addRange(r);document.execCommand('copy');b.textContent='Copiado!';setTimeout(function(){marca(p)},900)})};"
+            "p.querySelector('.m').onclick=function(){marca(p)}});atualiza();</script></body></html>")
 
 
 def limpa_host(h):
