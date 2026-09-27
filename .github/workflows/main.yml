@@ -4,11 +4,6 @@ on:
   schedule:
     - cron: "*/30 * * * *"   # a cada 30 minutos
   workflow_dispatch:
-    inputs:
-      teste_telegram:
-        description: "Postar 1 oferta agora no Telegram (teste)"
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -43,7 +38,7 @@ jobs:
           FTP_PASTA: ${{ secrets.FTP_PASTA }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: python robo.py ${{ github.event.inputs.teste_telegram == 'true' && '--tg-teste' || '' }}
+        run: python robo.py --sem-canal     # o canal do Telegram roda no canal.yml
 
       - name: Guardar histórico de preços
         if: always()          # guarda o histórico mesmo se a trava de segurança parar a publicação
