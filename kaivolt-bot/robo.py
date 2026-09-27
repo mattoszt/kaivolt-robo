@@ -874,26 +874,56 @@ def enviar_ftp(resultado, extras=None):
         log("ATENÇÃO: o site ainda não mostra o arquivo:", e)
 
 
-def canal():
-    """Workflow do canal (roda de 20 em 20 min): lê as ofertas que já estão no site,
-    posta no Telegram e atualiza a página do WhatsApp. Não refaz a busca do site."""
-    base = ler_json(ARQ_PRODUTOS, None)
-    regras = base["regras"]
-    REGRAS.update(regras)
-    historico = ler_json(ARQ_HISTORICO, {})
+ARQ_CANAL = os.path.join(PASTA, "canal.json")
+
+
+def ler_ofertas_site():
     dominio = os.environ.get("SITE_DOMINIO", "kaivolt.com.br")
     try:
         req = urllib.request.Request(f"https://{dominio}/ofertas/ofertas.json?v={int(time.time())}",
                                      headers={"User-Agent": "Mozilla/5.0 robo-kaivolt"})
         with urllib.request.urlopen(req, timeout=30) as r:
-            saida = json.loads(r.read().decode("utf-8")).get("produtos", [])
+            return json.loads(r.read().decode("utf-8")).get("produtos", [])
     except Exception as e:
         log("Canal: não consegui ler as ofertas do site (", e, ") — sigo só com o garimpo")
-        saida = []
-    zap = divulgar(saida, historico, regras)
-    salvar_json(ARQ_HISTORICO, historico)
-    if not DEMO and os.environ.get("FTP_HOST") and zap:
-        enviar_ftp(None, {"zap.html": zap})
+        return []
+
+
+def canal():
+    """Workflow do canal: roda 1 vez por hora e fica ~45 min no ar postando no ritmo certo
+    (1 oferta a cada 'telegram_intervalo_min'). Assim os atrasos do agendador do GitHub
+    não fazem o canal ficar parado. O estado do canal fica em canal.json (separado do histórico
+    de preços, pra os dois robôs nunca brigarem pelo mesmo arquivo)."""
+    base = ler_json(ARQ_PRODUTOS, None)
+    regras = base["regras"]
+    REGRAS.update(regras)
+    estado = ler_json(ARQ_CANAL, {})
+    if not estado:                                   # primeira vez: traz o que estava no histórico
+        antigo = ler_json(ARQ_HISTORICO, {}).get("_divulgacao")
+        if antigo:
+            estado = {"_divulgacao": antigo}
+    teste = "--tg-teste" in sys.argv
+    rodadas = 1 if teste else int(os.environ.get("CANAL_RODADAS", "3"))
+    intervalo = int(regras.get("telegram_intervalo_min", 20))
+    for r in range(rodadas):
+        log(f"Canal: rodada {r + 1}/{rodadas}")
+        zap = divulgar(ler_ofertas_site(), estado, regras)
+        salvar_json(ARQ_CANAL, estado)
+        if not DEMO and os.environ.get("FTP_HOST") and zap:
+            try:
+                enviar_ftp(None, {"zap.html": zap})
+            except Exception as e:
+                log("Canal: não consegui atualizar a página do WhatsApp:", e)
+        if r < rodadas - 1:
+            # espera até a próxima vaga (último post + intervalo)
+            try:
+                ult = datetime.strptime(estado["_divulgacao"]["ultimo"], "%Y-%m-%d %H:%M")
+                falta = intervalo * 60 - (datetime.now(TZ_BR).replace(tzinfo=None) - ult).total_seconds()
+            except (KeyError, ValueError):
+                falta = intervalo * 60
+            espera = int(min(max(falta + 30, 60), intervalo * 60 + 30))
+            log(f"Canal: próxima rodada em {espera // 60} min")
+            time.sleep(espera)
 
 
 if __name__ == "__main__":
