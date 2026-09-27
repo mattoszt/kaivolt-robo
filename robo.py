@@ -16,7 +16,7 @@ As chaves ficam em variáveis de ambiente (NUNCA escreva elas neste arquivo):
   FTP_HOST, FTP_USER, FTP_PASS, FTP_PASTA   (para enviar ao site)
 Só usa bibliotecas que já vêm com o Python (não precisa instalar nada).
 """
-import hashlib, hmac, json, os, re, sys, time, urllib.parse, urllib.request, ftplib, io
+import hashlib, hmac, json, math, os, re, sys, time, urllib.parse, urllib.request, ftplib, io
 from datetime import datetime, timezone, timedelta
 
 PASTA = os.path.dirname(os.path.abspath(__file__))
@@ -536,10 +536,11 @@ def main():
     log(f"ok: {len(saida)} produtos em {ARQ_SAIDA}")
 
     zap = None
-    try:
-        zap = divulgar(saida, historico, regras)
-    except Exception as e:                      # divulgação nunca derruba o site
-        log("Divulgação: ERRO ->", e)
+    if "--sem-canal" not in sys.argv:           # com o workflow do canal separado, quem posta é ele
+        try:
+            zap = divulgar(saida, historico, regras)
+        except Exception as e:                  # divulgação nunca derruba o site
+            log("Divulgação: ERRO ->", e)
     salvar_json(ARQ_HISTORICO, historico)
 
     if not DEMO and os.environ.get("FTP_HOST"):
@@ -580,19 +581,20 @@ def montar_post(p, estilo):
     if o["loja"] == "AliExpress":
         L.append("Internacional · chega em 1 a 4 semanas")
     if p.get("vendas", 0) >= 10:
-        L.append(vendidos(p["vendas"]) + " na loja")
+        nota = f"⭐ {p['nota']:.1f}".replace(".", ",") + " · " if p.get("garimpo") and p.get("nota") else ""
+        L.append(nota + vendidos(p["vendas"]) + " na loja")
     outras = [f"{x['loja']} {reais(x['por'])}" for x in p["ofertas"][1:3]]
     if outras:
         L.append("Também em: " + " · ".join(outras))
     L.append("")
     if estilo == "tg":
         L.append(f'👉 <a href="{o["link"]}">Ver oferta no {o["loja"]}</a>')
-        L.append(f'Compare todas as lojas: <a href="https://{SITE}">{SITE}</a>')
+        L.append(f'Mais ofertas comparadas: <a href="https://{SITE}">{SITE}</a>' if p.get("garimpo") else f'Compare todas as lojas: <a href="https://{SITE}">{SITE}</a>')
         L.append("")
         L.append("<i>Preço pode mudar a qualquer momento.</i>")
     else:
         L.append(f"👉 {o['link']}")
-        L.append(f"Compare todas as lojas: {SITE}")
+        L.append(f"Mais ofertas comparadas: {SITE}" if p.get("garimpo") else f"Compare todas as lojas: {SITE}")
         L.append("")
         L.append("_Preço pode mudar a qualquer momento._")
     return "\n".join(L)
@@ -624,18 +626,94 @@ def tg_postar(p):
     return False
 
 
+def titulo_curto(t, n=75):
+    t = re.sub(r"\s+", " ", (t or "").strip())
+    if len(t) <= n:
+        return t
+    return t[:n].rsplit(" ", 1)[0].rstrip(",.-–/ ") + "..."
+
+
+def garimpo_ali(regras, st):
+    """Garimpo: busca produtos NOVOS no AliExpress (fora do catálogo do site), com filtro de qualidade
+    mais rígido, pra ter oferta o dia todo no canal sem repetir."""
+    if not (os.environ.get("ALI_APP_KEY") and os.environ.get("ALI_SECRET")):
+        return None
+    buscas = regras.get("garimpo_buscas") or []
+    if not buscas:
+        return None
+    tracking = os.environ.get("ALI_TRACKING_ID", "kaivolt")
+    vmin = int(regras.get("garimpo_vendas_min", 500))
+    amin = float(regras.get("garimpo_avaliacao_min", 94))
+    pmin, pmax = float(regras.get("garimpo_preco_min", 15)), float(regras.get("garimpo_preco_max", 400))
+    proibidas = [x.lower() for x in regras.get("garimpo_excluir", [])]
+    ja = st.setdefault("garimpo", {})
+    limite = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    for tentativa in range(3):                       # até 3 buscas diferentes por post
+        n = st.get("kw", 0)
+        kw = buscas[n % len(buscas)]
+        pagina = (n // len(buscas)) % 3 + 1          # cada volta completa na lista usa a próxima página
+        st["kw"] = n + 1
+        log(f"  Garimpo: buscando '{kw}'")
+        try:
+            resp = ali_chamar("aliexpress.affiliate.product.query", {
+                "target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR",
+                "tracking_id": tracking, "keywords": kw, "sort": "LAST_VOLUME_DESC", "page_size": 40, "page_no": pagina})
+        except Exception as e:
+            log("  Garimpo: AliExpress não respondeu:", e)
+            return None
+        cands = []
+        for it in ali_produtos(resp):
+            pid = str(it.get("product_id") or "")
+            titulo = it.get("product_title") or ""
+            aval, vendas = ali_num(it.get("evaluate_rate")), int(ali_num(it.get("lastest_volume")))
+            por = ali_num(it.get("target_sale_price") or it.get("sale_price"))
+            if not pid or ja.get(pid, "") >= limite:     # já postado nos últimos 30 dias
+                continue
+            if not aval or aval < amin or vendas < vmin or not (pmin <= por <= pmax):
+                continue
+            if any(x in titulo.lower() for x in proibidas) or not palavras_ok(titulo, None, None):
+                continue
+            cands.append({"loja": "AliExpress", "de": por, "por": por, "pid": pid, "titulo": titulo,
+                          "nota": round(aval / 20, 1), "vendas": vendas, "img": it.get("product_main_image_url"),
+                          "link": it.get("promotion_link") or "",
+                          "url_prod": it.get("product_detail_url") or f"https://pt.aliexpress.com/item/{pid}.html"})
+        cands = tira_suspeitos(cands)
+        cands.sort(key=lambda c: (c["nota"], math.log10(max(c["vendas"], 1))), reverse=True)
+        for c in cands[:4]:
+            link = ali_link_produto(c, tracking)
+            if link:
+                c["link"] = link
+                ja[c["pid"]] = hoje()
+                for k in sorted(ja, key=ja.get)[:-2000]:
+                    del ja[k]
+                return {"id": "g:" + c["pid"], "n": titulo_curto(c["titulo"]), "garimpo": 1,
+                        "nota": c["nota"], "vendas": c["vendas"], "ofertas": [c]}
+        log(f"  Garimpo: nada bom o suficiente em '{kw}', tentando outra busca")
+    return None
+
+
 def divulgar(saida, historico, regras):
-    """Regras do canal:
-    - posta só entre 9h e 22h (Brasília) e no máximo 'telegram_max_dia' posts por dia
-    - QUEDA REAL: produto que caiu 10% ou mais (pelo histórico do robô) é postado na hora
-    - DESTAQUE: às 12h e às 20h posta o produto mais vendido que não aparece há 5 dias
-    - não repete o mesmo produto em 3 dias, a não ser que o preço caia mais 5%"""
-    st = historico.setdefault("_divulgacao", {"postados": {}, "slots": {}, "fila_zap": []})
+    """Canal do Telegram (e página do WhatsApp):
+    - posta das 'telegram_inicio' às 'telegram_fim' (Brasília), 1 post a cada 'telegram_intervalo_min' minutos
+    - prioridade 1: produto do site que CAIU de preço de verdade (10%+)
+    - prioridade 2: destaque do site às 12h e às 20h
+    - resto do tempo: GARIMPO — produto novo do AliExpress com nota alta e muita venda, nunca repetido
+    - máximo 'telegram_max_dia' posts por dia"""
+    st = historico.setdefault("_divulgacao", {})
+    for k, v in (("postados", {}), ("slots", {}), ("fila_zap", []), ("garimpo", {}), ("kw", 0), ("ultimo", ""), ("dia", {})):
+        st.setdefault(k, v)
     agora = datetime.now(TZ_BR)
     dia = agora.strftime("%Y-%m-%d")
+    if st["dia"].get("d") != dia:
+        st["dia"] = {"d": dia, "n": 0}
     forcar = "--tg-teste" in sys.argv
-    feitos_hoje = sum(1 for v in st["postados"].values() if v["d"].startswith(dia))
-    max_dia = int(regras.get("telegram_max_dia", 6))
+    ini, fim = int(regras.get("telegram_inicio", 8)), int(regras.get("telegram_fim", 23))
+    intervalo = int(regras.get("telegram_intervalo_min", 45))
+    max_dia = int(regras.get("telegram_max_dia", 18))
+    try:
+        desde = (agora.replace(tzinfo=None) - datetime.strptime(st["ultimo"], "%Y-%m-%d %H:%M")).total_seconds() / 60
+    except ValueError:
+        desde = 9999
 
     def dias_desde(pid):
         v = st["postados"].get(pid)
@@ -643,35 +721,46 @@ def divulgar(saida, historico, regras):
             return 999
         return (agora.replace(tzinfo=None) - datetime.strptime(v["d"], "%Y-%m-%d %H:%M")).days
 
-    escolhidos = []
-    if forcar or (9 <= agora.hour < 22 and feitos_hoje < max_dia):
-        # 1) quedas reais de preço
-        quedas = sorted([p for p in saida if queda(p) >= int(regras.get("queda_minima_alerta", 10))], key=queda, reverse=True)
-        for p in quedas:
-            ult = st["postados"].get(p["id"])
-            if dias_desde(p["id"]) >= 3 or (ult and p["ofertas"][0]["por"] <= ult["p"] * 0.95):
-                escolhidos.append(p)
-            if len(escolhidos) >= 2:
-                break
-        # 2) destaque das 12h e das 20h
-        slot = f"{dia}-{agora.hour}"
-        if forcar or (agora.hour in (12, 20) and slot not in st["slots"]):
-            livres = [p for p in saida if dias_desde(p["id"]) >= 5 and p not in escolhidos] or [p for p in saida if p not in escolhidos]
-            livres.sort(key=lambda p: (p.get("vendas", 0), len(p["ofertas"])), reverse=True)
-            if livres:
-                escolhidos.append(livres[0])
-            st["slots"][slot] = 1
-        escolhidos = escolhidos[:max(0, max_dia - feitos_hoje)] if not forcar else escolhidos[:1]
+    pode = forcar or (ini <= agora.hour < fim and st["dia"]["n"] < max_dia and desde >= intervalo - 3)
+    if not pode:
+        log(f"  Canal: sem post agora ({st['dia']['n']}/{max_dia} hoje, último há {int(min(desde, 9999))} min)")
+        return pagina_zap(st["fila_zap"])
 
-    tem_tg = os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID")
-    for p in escolhidos:
+    post = None
+    # 1) queda real de preço num produto do site
+    for p in sorted([p for p in saida if queda(p) >= int(regras.get("queda_minima_alerta", 10))], key=queda, reverse=True):
+        ult = st["postados"].get(p["id"])
+        if dias_desde(p["id"]) >= 3 or (ult and p["ofertas"][0]["por"] <= ult["p"] * 0.95):
+            post = p; break
+    # 2) destaque do site às 12h e às 20h
+    slot = f"{dia}-{agora.hour}"
+    if not post and agora.hour in (12, 20) and slot not in st["slots"]:
+        livres = [p for p in saida if dias_desde(p["id"]) >= 5] or list(saida)
+        livres.sort(key=lambda p: (p.get("vendas", 0), len(p["ofertas"])), reverse=True)
+        if livres:
+            post = livres[0]
+        st["slots"][slot] = 1
+    # 3) garimpo: produto novo do AliExpress
+    if not post:
+        post = garimpo_ali(regras, st)
+    # 4) se o garimpo falhar, um produto do site que não aparece há mais tempo
+    if not post and saida:
+        post = sorted(saida, key=lambda p: -dias_desde(p["id"]))[0]
+        if dias_desde(post["id"]) < 2:
+            post = None
+
+    if post:
+        tem_tg = os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID")
         if tem_tg and not DEMO:
-            tg_postar(p)
-        st["postados"][p["id"]] = {"d": agora.strftime("%Y-%m-%d %H:%M"), "p": p["ofertas"][0]["por"]}
-        st["fila_zap"].insert(0, {"d": agora.strftime("%d/%m %H:%M"), "n": p["n"], "txt": montar_post(p, "zap")})
-    if escolhidos and not tem_tg:
-        log("  Telegram: faltam TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID nos Secrets (post só foi pra página do WhatsApp)")
-    st["fila_zap"] = st["fila_zap"][:15]
+            tg_postar(post)
+        else:
+            log("  Telegram: faltam TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID (post só foi pra página do WhatsApp)")
+        if not post.get("garimpo"):
+            st["postados"][post["id"]] = {"d": agora.strftime("%Y-%m-%d %H:%M"), "p": post["ofertas"][0]["por"]}
+        st["ultimo"] = agora.strftime("%Y-%m-%d %H:%M")
+        st["dia"]["n"] += 1
+        st["fila_zap"].insert(0, {"d": agora.strftime("%d/%m %H:%M"), "n": post["n"], "txt": montar_post(post, "zap")})
+    st["fila_zap"] = st["fila_zap"][:30]
     for k in sorted(st["slots"])[:-20]:
         del st["slots"][k]
     return pagina_zap(st["fila_zap"])
@@ -709,10 +798,11 @@ def limpa_host(h):
 
 
 def enviar_ftp(resultado, extras=None):
+    """resultado=None -> manda só os arquivos extras (ex.: zap.html do workflow do canal)."""
     host = limpa_host(os.environ["FTP_HOST"])
     user, senha = os.environ["FTP_USER"].strip(), os.environ["FTP_PASS"]
     dominio = os.environ.get("SITE_DOMINIO", "kaivolt.com.br")
-    dados = json.dumps(resultado, ensure_ascii=False).encode("utf-8")
+    dados = json.dumps(resultado, ensure_ascii=False).encode("utf-8") if resultado else None
     try:
         ftp = ftplib.FTP_TLS(host, timeout=60); ftp.login(user, senha); ftp.prot_p(); modo = "FTPS"
     except (ftplib.error_perm, OSError, EOFError) as e:
@@ -745,12 +835,15 @@ def enviar_ftp(resultado, extras=None):
             ftp.cwd("ofertas")
         except ftplib.error_perm:
             ftp.mkd("ofertas"); ftp.cwd("ofertas")
-        ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
-        log(f"enviado via {modo} para:", ftp.pwd() + "/ofertas.json")
+        if dados:
+            ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
+            log(f"enviado via {modo} para:", ftp.pwd() + "/ofertas.json")
         for nome, conteudo in (extras or {}).items():
             ftp.storbinary(f"STOR {nome}", io.BytesIO(conteudo.encode("utf-8") if isinstance(conteudo, str) else conteudo))
             log("enviado também:", ftp.pwd() + "/" + nome)
     # confere se o site já está servindo o arquivo
+    if not dados:
+        return
     try:
         url = f"https://{dominio}/ofertas/ofertas.json?v={int(time.time())}"
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 robo-kaivolt"})
@@ -760,5 +853,27 @@ def enviar_ftp(resultado, extras=None):
         log("ATENÇÃO: o site ainda não mostra o arquivo:", e)
 
 
+def canal():
+    """Workflow do canal (roda de 20 em 20 min): lê as ofertas que já estão no site,
+    posta no Telegram e atualiza a página do WhatsApp. Não refaz a busca do site."""
+    base = ler_json(ARQ_PRODUTOS, None)
+    regras = base["regras"]
+    REGRAS.update(regras)
+    historico = ler_json(ARQ_HISTORICO, {})
+    dominio = os.environ.get("SITE_DOMINIO", "kaivolt.com.br")
+    try:
+        req = urllib.request.Request(f"https://{dominio}/ofertas/ofertas.json?v={int(time.time())}",
+                                     headers={"User-Agent": "Mozilla/5.0 robo-kaivolt"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            saida = json.loads(r.read().decode("utf-8")).get("produtos", [])
+    except Exception as e:
+        log("Canal: não consegui ler as ofertas do site (", e, ") — sigo só com o garimpo")
+        saida = []
+    zap = divulgar(saida, historico, regras)
+    salvar_json(ARQ_HISTORICO, historico)
+    if not DEMO and os.environ.get("FTP_HOST") and zap:
+        enviar_ftp(None, {"zap.html": zap})
+
+
 if __name__ == "__main__":
-    main()
+    canal() if "--canal" in sys.argv else main()
