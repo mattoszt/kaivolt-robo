@@ -12,13 +12,33 @@
    "powerbank-10000": {
     "d": "2026-09-27 11:18",
     "p": 45.89
+   },
+   "cabo-usbc-100w": {
+    "d": "2026-09-27 12:18",
+    "p": 11.89
    }
   },
   "slots": {
    "2026-09-27-2": 1,
-   "2026-09-27-3": 1
+   "2026-09-27-3": 1,
+   "2026-09-27-12": 1
   },
   "fila_zap": [
+   {
+    "d": "27/09 12:58",
+    "n": "SMAILWOLF RS7 Bluetooth mouse para jogos sem fio PAW3311 macro driver...",
+    "txt": "*SMAILWOLF RS7 Bluetooth mouse para jogos sem fio PAW3311 macro driver...*\n\n💰 *R$ 62,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +10,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c32gPhcv\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "27/09 12:38",
+    "n": "Mouse sem fio Attack Shark X11, conexão tripla, PixArt PAW3311, base de...",
+    "txt": "*Mouse sem fio Attack Shark X11, conexão tripla, PixArt PAW3311, base de...*\n\n💰 *R$ 135,98* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 5,0 · +6,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3v2LEjb\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "27/09 12:18",
+    "n": "Cabo USB-C 100W trançado 2 metros",
+    "txt": "*Cabo USB-C 100W trançado 2 metros*\n\n💰 *R$ 11,89* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+6,6 mil vendidos na loja\nTambém em: Mercado Livre R$ 26,99\n\n👉 https://s.click.aliexpress.com/e/_c3Z1ua7F\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "27/09 11:58",
     "n": "Ortizan alto-falantes bluetooth 40w graves aprimorados portátil ao ar...",
@@ -95,13 +115,15 @@
    "1005010044222290": "2026-09-27",
    "1005006481410300": "2026-09-27",
    "1005012304464267": "2026-09-27",
-   "1005007805746081": "2026-09-27"
+   "1005007805746081": "2026-09-27",
+   "1005009176178082": "2026-09-27",
+   "1005009916144912": "2026-09-27"
   },
-  "kw": 12,
-  "ultimo": "2026-09-27 11:58",
+  "kw": 14,
+  "ultimo": "2026-09-27 12:58",
   "dia": {
    "d": "2026-09-27",
-   "n": 11
+   "n": 14
   }
  }
 }
