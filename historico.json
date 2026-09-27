@@ -29,11 +29,11 @@
  },
  "carregador-gan-65w": {
   "2026-09-26": 41.29,
-  "2026-09-27": 41.29
+  "2026-09-27": 43.26
  },
  "suporte-veicular": {
   "2026-09-26": 10.32,
-  "2026-09-27": 10.32
+  "2026-09-27": 11.24
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -41,15 +41,15 @@
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
-  "2026-09-27": 31.44
+  "2026-09-27": 44.51
  },
  "ssd-512": {
   "2026-09-26": 80.69,
-  "2026-09-27": 80.69
+  "2026-09-27": 594.44
  },
  "webcam-fullhd": {
   "2026-09-26": 32.29,
-  "2026-09-27": 32.29
+  "2026-09-27": 91.29
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -82,5 +82,127 @@
  "mouse-sem-fio": {
   "2026-09-26": 17.89,
   "2026-09-27": 17.89
+ },
+ "_anuncios": {
+  "powerbank-10000|AliExpress|1005012621183397": {
+   "2026-09-27": 45.89
+  },
+  "powerbank-10000|Mercado Livre|MLB4400972103": {
+   "2026-09-27": 143.09
+  },
+  "carregador-20w|AliExpress|1005010155263623": {
+   "2026-09-27": 15.89
+  },
+  "carregador-20w|Mercado Livre|MLB4106194513": {
+   "2026-09-27": 89.9
+  },
+  "cabo-usbc-100w|AliExpress|1005004912629247": {
+   "2026-09-27": 11.89
+  },
+  "cabo-usbc-100w|Mercado Livre|MLB6801226010": {
+   "2026-09-27": 26.99
+  },
+  "powerbank-20000|AliExpress|1005012267217366": {
+   "2026-09-27": 46.79
+  },
+  "powerbank-20000|Mercado Livre|MLB6306405776": {
+   "2026-09-27": 128.0
+  },
+  "powerbank-magsafe|Mercado Livre|MLB4540680129": {
+   "2026-09-27": 87.91
+  },
+  "powerbank-magsafe|AliExpress|1005010239569878": {
+   "2026-09-27": 109.13
+  },
+  "carregador-gan-65w|AliExpress|1005008800102990": {
+   "2026-09-27": 43.26
+  },
+  "carregador-gan-65w|Mercado Livre|MLB5220586997": {
+   "2026-09-27": 208.99
+  },
+  "cabo-lightning|AliExpress|1005012613871856": {
+   "2026-09-27": 8.21
+  },
+  "cabo-lightning|Mercado Livre|MLB6257122156": {
+   "2026-09-27": 28.47
+  },
+  "suporte-veicular|AliExpress|1005010487386351": {
+   "2026-09-27": 11.24
+  },
+  "suporte-veicular|Mercado Livre|MLB4663097633": {
+   "2026-09-27": 24.99
+  },
+  "mouse-gamer-rgb|AliExpress|1005006982650767": {
+   "2026-09-27": 25.99
+  },
+  "mouse-gamer-rgb|Mercado Livre|MLB1813858157": {
+   "2026-09-27": 89.9
+  },
+  "mouse-sem-fio|AliExpress|1005010653523244": {
+   "2026-09-27": 17.89
+  },
+  "mouse-sem-fio|Mercado Livre|MLB4507657743": {
+   "2026-09-27": 59.64
+  },
+  "headset-gamer|AliExpress|1005007171123835": {
+   "2026-09-27": 104.39
+  },
+  "hub-usbc|AliExpress|1005007038224873": {
+   "2026-09-27": 44.51
+  },
+  "hub-usbc|Mercado Livre|MLB7413454264": {
+   "2026-09-27": 51.4
+  },
+  "ssd-512|Mercado Livre|MLB5095889465": {
+   "2026-09-27": 594.44
+  },
+  "webcam-fullhd|AliExpress|1005008945387202": {
+   "2026-09-27": 91.29
+  },
+  "webcam-fullhd|Mercado Livre|MLB4144472660": {
+   "2026-09-27": 339.91
+  },
+  "caneta-stylus|Mercado Livre|MLB6577053496": {
+   "2026-09-27": 27.5
+  },
+  "suporte-tablet|AliExpress|1005012434177766": {
+   "2026-09-27": 16.17
+  },
+  "suporte-tablet|Mercado Livre|MLB4241308999": {
+   "2026-09-27": 33.5
+  },
+  "teclado-tablet|AliExpress|1005009384460790": {
+   "2026-09-27": 41.59
+  },
+  "teclado-tablet|Mercado Livre|MLB6666974796": {
+   "2026-09-27": 47.4
+  },
+  "fone-tws-anc|AliExpress|1005007987662567": {
+   "2026-09-27": 71.49
+  },
+  "fone-tws-anc|Mercado Livre|MLB5410636044": {
+   "2026-09-27": 196.59
+  },
+  "fone-tws|AliExpress|1005012099786090": {
+   "2026-09-27": 29.19
+  },
+  "fone-tws|Mercado Livre|MLB4262519541": {
+   "2026-09-27": 155.97
+  },
+  "caixa-som|AliExpress|1005007170742868": {
+   "2026-09-27": 41.11
+  },
+  "caixa-som|Mercado Livre|MLB4266850959": {
+   "2026-09-27": 69.99
+  },
+  "headphone-bt|AliExpress|1005009384116982": {
+   "2026-09-27": 112.51
+  },
+  "headphone-bt|Mercado Livre|MLB6891189052": {
+   "2026-09-27": 151.04
+  }
+ },
+ "_meta": {
+  "ultimo_total": 21
  }
 }
