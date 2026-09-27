@@ -856,7 +856,10 @@ def enviar_ftp(resultado, extras=None):
         if dados:
             ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
             log(f"enviado via {modo} para:", ftp.pwd() + "/ofertas.json")
-        for nome, conteudo in (extras or {}).items():
+        extras = dict(extras or {})
+        # sem cache no navegador pra zap.html e ofertas.json (senão o celular mostra versão velha por dias)
+        extras.setdefault(".htaccess", '<IfModule mod_headers.c>\n<FilesMatch "\\.(html|json)$">\n  Header set Cache-Control "no-cache, must-revalidate"\n</FilesMatch>\n</IfModule>\n')
+        for nome, conteudo in extras.items():
             ftp.storbinary(f"STOR {nome}", io.BytesIO(conteudo.encode("utf-8") if isinstance(conteudo, str) else conteudo))
             log("enviado também:", ftp.pwd() + "/" + nome)
     # confere se o site já está servindo o arquivo
