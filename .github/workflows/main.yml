@@ -39,6 +39,7 @@ jobs:
         run: python robo.py
 
       - name: Guardar histórico de preços
+        if: always()          # guarda o histórico mesmo se a trava de segurança parar a publicação
         run: |
           git config user.name "robo-kaivolt"
           git config user.email "robo@kaivolt.com.br"
