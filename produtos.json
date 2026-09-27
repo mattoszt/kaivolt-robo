@@ -8,7 +8,9 @@
       "preco_suspeito_fator: preço abaixo de 45% da mediana dos concorrentes é descartado (golpe/falsificado)",
       "dias_validade_manual: preço digitado à mão (ML/Amazon) só vale por esses dias se o robô não conseguir conferir",
       "minimo_produtos_publicar: se sumir mais de 40% dos produtos de uma vez, o robô NÃO mexe no site",
-      "excluir_global: palavras que reprovam o anúncio em qualquer loja"
+      "excluir_global: palavras que reprovam o anúncio em qualquer loja",
+      "telegram_max_dia: no máximo quantos posts por dia no canal (Telegram e WhatsApp)",
+      "queda_minima_alerta: queda de preço (%) que faz o robô postar na hora"
     ],
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
@@ -38,7 +40,9 @@
       "1:1",
       "clone",
       "fake"
-    ]
+    ],
+    "telegram_max_dia": 6,
+    "queda_minima_alerta": 10
   },
   "produtos": [
     {

@@ -408,8 +408,10 @@ def ml_preco_pagina(cfg):
         if not por:
             return None
         log(f"  Mercado Livre: preço conferido na página -> R$ {float(por):.2f}")
+        fotos = (card.get("pictures") or {}).get("pictures") or []
+        img = f"https://http2.mlstatic.com/D_NQ_NP_{fotos[0]['id']}-O.jpg" if fotos and fotos[0].get("id") else ""
         return {"loja": "Mercado Livre", "de": float(por), "por": float(por), "link": cfg["link"],
-                "pid": str(cfg.get("item") or ""), "titulo": cfg.get("titulo_ml")}
+                "pid": str(cfg.get("item") or ""), "titulo": cfg.get("titulo_ml"), "img": img}
     except Exception as e:
         log("  Mercado Livre: não consegui abrir a página do link (", e, ")")
         return None
@@ -503,7 +505,8 @@ def main():
             "vendas": max(vendas) if vendas else 0,
             "selo": calcular_selo(h, menor),
             "ofertas": [{"loja": o["loja"], "de": round(o["de"], 2), "por": round(o["por"], 2),
-                         "link": o["link"], "t": (o.get("titulo") or "")[:90]} for o in ofertas],
+                         "link": o["link"], "t": (o.get("titulo") or "")[:90],
+                         "img": o.get("img") or ""} for o in ofertas],
         })
         log("  menor preço:", menor, "em", ofertas[0]["loja"])
 
@@ -530,11 +533,171 @@ def main():
     resultado = {"atualizado": datetime.now(timezone.utc).isoformat(timespec="minutes"),
                  "produtos": saida}
     salvar_json(ARQ_SAIDA, resultado)
-    salvar_json(ARQ_HISTORICO, historico)
     log(f"ok: {len(saida)} produtos em {ARQ_SAIDA}")
 
+    zap = None
+    try:
+        zap = divulgar(saida, historico, regras)
+    except Exception as e:                      # divulgação nunca derruba o site
+        log("Divulgação: ERRO ->", e)
+    salvar_json(ARQ_HISTORICO, historico)
+
     if not DEMO and os.environ.get("FTP_HOST"):
-        enviar_ftp(resultado)
+        enviar_ftp(resultado, {"zap.html": zap} if zap else None)
+
+
+# ======================================================================
+# DIVULGAÇÃO — posta sozinho no canal do Telegram e prepara os posts do WhatsApp
+# ======================================================================
+TZ_BR = timezone(timedelta(hours=-3))
+SITE = "kaivolt.com.br"
+
+
+def reais(v):
+    return "R$ " + f"{v:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+
+
+def vendidos(v):
+    if v >= 1000:
+        return f"+{int(v / 100) / 10:g} mil vendidos".replace(".", ",")
+    return f"+{v} vendidos"
+
+
+def queda(p):
+    o = p["ofertas"][0]
+    return round((1 - o["por"] / o["de"]) * 100) if o.get("de") and o["de"] > o["por"] else 0
+
+
+def montar_post(p, estilo):
+    """estilo 'tg' = HTML do Telegram · 'zap' = negrito do WhatsApp (*assim*)."""
+    o, q = p["ofertas"][0], queda(p)
+    b = (lambda s: f"<b>{s}</b>") if estilo == "tg" else (lambda s: f"*{s}*")
+    esc = (lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")) if estilo == "tg" else (lambda s: s)
+    L = [b(esc(p["n"])), ""]
+    if q:
+        L.append(f"🔻 Caiu {q}%: era {reais(o['de'])} nos últimos dias")
+    L.append(f"💰 {b(reais(o['por']))} no {o['loja']}")
+    if o["loja"] == "AliExpress":
+        L.append("Internacional · chega em 1 a 4 semanas")
+    if p.get("vendas", 0) >= 10:
+        L.append(vendidos(p["vendas"]) + " na loja")
+    outras = [f"{x['loja']} {reais(x['por'])}" for x in p["ofertas"][1:3]]
+    if outras:
+        L.append("Também em: " + " · ".join(outras))
+    L.append("")
+    if estilo == "tg":
+        L.append(f'👉 <a href="{o["link"]}">Ver oferta no {o["loja"]}</a>')
+        L.append(f'Compare todas as lojas: <a href="https://{SITE}">{SITE}</a>')
+        L.append("")
+        L.append("<i>Preço pode mudar a qualquer momento.</i>")
+    else:
+        L.append(f"👉 {o['link']}")
+        L.append(f"Compare todas as lojas: {SITE}")
+        L.append("")
+        L.append("_Preço pode mudar a qualquer momento._")
+    return "\n".join(L)
+
+
+def tg_api(metodo, dados):
+    token = os.environ["TELEGRAM_BOT_TOKEN"].strip()
+    corpo = urllib.parse.urlencode(dados).encode()
+    req = urllib.request.Request(f"https://api.telegram.org/bot{token}/{metodo}", data=corpo)
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        return json.loads(e.read().decode() or "{}")
+
+
+def tg_postar(p):
+    chat = os.environ["TELEGRAM_CHAT_ID"].strip()
+    texto, img = montar_post(p, "tg"), p["ofertas"][0].get("img")
+    r = {}
+    if img:
+        r = tg_api("sendPhoto", {"chat_id": chat, "photo": img, "caption": texto, "parse_mode": "HTML"})
+    if not r.get("ok"):
+        r = tg_api("sendMessage", {"chat_id": chat, "text": texto, "parse_mode": "HTML"})
+    if r.get("ok"):
+        log("  Telegram: postado ->", p["n"])
+        return True
+    log("  Telegram: NÃO postou ->", r.get("description") or r)
+    return False
+
+
+def divulgar(saida, historico, regras):
+    """Regras do canal:
+    - posta só entre 9h e 22h (Brasília) e no máximo 'telegram_max_dia' posts por dia
+    - QUEDA REAL: produto que caiu 10% ou mais (pelo histórico do robô) é postado na hora
+    - DESTAQUE: às 12h e às 20h posta o produto mais vendido que não aparece há 5 dias
+    - não repete o mesmo produto em 3 dias, a não ser que o preço caia mais 5%"""
+    st = historico.setdefault("_divulgacao", {"postados": {}, "slots": {}, "fila_zap": []})
+    agora = datetime.now(TZ_BR)
+    dia = agora.strftime("%Y-%m-%d")
+    forcar = "--tg-teste" in sys.argv
+    feitos_hoje = sum(1 for v in st["postados"].values() if v["d"].startswith(dia))
+    max_dia = int(regras.get("telegram_max_dia", 6))
+
+    def dias_desde(pid):
+        v = st["postados"].get(pid)
+        if not v:
+            return 999
+        return (agora.replace(tzinfo=None) - datetime.strptime(v["d"], "%Y-%m-%d %H:%M")).days
+
+    escolhidos = []
+    if forcar or (9 <= agora.hour < 22 and feitos_hoje < max_dia):
+        # 1) quedas reais de preço
+        quedas = sorted([p for p in saida if queda(p) >= int(regras.get("queda_minima_alerta", 10))], key=queda, reverse=True)
+        for p in quedas:
+            ult = st["postados"].get(p["id"])
+            if dias_desde(p["id"]) >= 3 or (ult and p["ofertas"][0]["por"] <= ult["p"] * 0.95):
+                escolhidos.append(p)
+            if len(escolhidos) >= 2:
+                break
+        # 2) destaque das 12h e das 20h
+        slot = f"{dia}-{agora.hour}"
+        if forcar or (agora.hour in (12, 20) and slot not in st["slots"]):
+            livres = [p for p in saida if dias_desde(p["id"]) >= 5 and p not in escolhidos] or [p for p in saida if p not in escolhidos]
+            livres.sort(key=lambda p: (p.get("vendas", 0), len(p["ofertas"])), reverse=True)
+            if livres:
+                escolhidos.append(livres[0])
+            st["slots"][slot] = 1
+        escolhidos = escolhidos[:max(0, max_dia - feitos_hoje)] if not forcar else escolhidos[:1]
+
+    tem_tg = os.environ.get("TELEGRAM_BOT_TOKEN") and os.environ.get("TELEGRAM_CHAT_ID")
+    for p in escolhidos:
+        if tem_tg and not DEMO:
+            tg_postar(p)
+        st["postados"][p["id"]] = {"d": agora.strftime("%Y-%m-%d %H:%M"), "p": p["ofertas"][0]["por"]}
+        st["fila_zap"].insert(0, {"d": agora.strftime("%d/%m %H:%M"), "n": p["n"], "txt": montar_post(p, "zap")})
+    if escolhidos and not tem_tg:
+        log("  Telegram: faltam TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID nos Secrets (post só foi pra página do WhatsApp)")
+    st["fila_zap"] = st["fila_zap"][:15]
+    for k in sorted(st["slots"])[:-20]:
+        del st["slots"][k]
+    return pagina_zap(st["fila_zap"])
+
+
+def pagina_zap(fila):
+    """Página kaivolt.com.br/ofertas/zap.html: os últimos posts prontos pra copiar e colar no canal do WhatsApp."""
+    import html as H
+    itens = "".join(
+        f'<div class="p"><div class="h"><b>{H.escape(x["n"])}</b><span>{x["d"]}</span></div>'
+        f'<pre id="t{i}">{H.escape(x["txt"])}</pre>'
+        f'<div class="b"><button onclick="cp({i},this)">Copiar</button>'
+        f'<a href="https://wa.me/?text={urllib.parse.quote(x["txt"])}">Abrir no WhatsApp</a></div></div>'
+        for i, x in enumerate(fila)) or "<p>Nenhum post ainda. O robô posta às 12h, às 20h e quando algum preço cai de verdade.</p>"
+    return ("<!doctype html><html lang=pt-BR><head><meta charset=utf-8><meta name=robots content=noindex>"
+            "<meta name=viewport content='width=device-width,initial-scale=1'><title>Posts WhatsApp · Kaivolt</title>"
+            "<style>body{margin:0;background:#07060b;color:#f4f2ff;font-family:system-ui,sans-serif;padding:16px}"
+            "h1{font-size:20px}.p{background:#13101d;border:1px solid #2a2340;border-radius:14px;padding:14px;margin:0 0 14px}"
+            ".h{display:flex;justify-content:space-between;gap:10px;margin-bottom:8px}.h span{color:#9d97b3;font-size:13px}"
+            "pre{white-space:pre-wrap;font:14px/1.45 system-ui,sans-serif;margin:0 0 12px;color:#d9d4ee}"
+            ".b{display:flex;gap:8px}button,.b a{flex:1;text-align:center;padding:12px;border-radius:10px;border:0;font-weight:700;"
+            "font-size:15px;text-decoration:none}button{background:#8b5cf6;color:#fff}.b a{background:#1f9d55;color:#fff}</style></head>"
+            "<body><h1>Posts prontos pro WhatsApp</h1><p style='color:#9d97b3'>Toque em Copiar e cole no canal. O mais novo fica em cima.</p>"
+            + itens +
+            "<script>function cp(i,b){navigator.clipboard.writeText(document.getElementById('t'+i).innerText).then(function(){b.textContent='Copiado!';setTimeout(function(){b.textContent='Copiar'},1500)})}</script>"
+            "</body></html>")
 
 
 def limpa_host(h):
@@ -545,7 +708,7 @@ def limpa_host(h):
     return h.strip("/").split("/")[0].split(":")[0]
 
 
-def enviar_ftp(resultado):
+def enviar_ftp(resultado, extras=None):
     host = limpa_host(os.environ["FTP_HOST"])
     user, senha = os.environ["FTP_USER"].strip(), os.environ["FTP_PASS"]
     dominio = os.environ.get("SITE_DOMINIO", "kaivolt.com.br")
@@ -584,6 +747,9 @@ def enviar_ftp(resultado):
             ftp.mkd("ofertas"); ftp.cwd("ofertas")
         ftp.storbinary("STOR ofertas.json", io.BytesIO(dados))
         log(f"enviado via {modo} para:", ftp.pwd() + "/ofertas.json")
+        for nome, conteudo in (extras or {}).items():
+            ftp.storbinary(f"STOR {nome}", io.BytesIO(conteudo.encode("utf-8") if isinstance(conteudo, str) else conteudo))
+            log("enviado também:", ftp.pwd() + "/" + nome)
     # confere se o site já está servindo o arquivo
     try:
         url = f"https://{dominio}/ofertas/ofertas.json?v={int(time.time())}"
