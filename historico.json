@@ -9,7 +9,7 @@
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
-  "2026-09-27": 26.99
+  "2026-09-27": 11.89
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -65,7 +65,7 @@
  },
  "fone-tws": {
   "2026-09-26": 29.19,
-  "2026-09-27": 29.19
+  "2026-09-27": 155.97
  },
  "caixa-som": {
   "2026-09-26": 41.11,
@@ -261,12 +261,22 @@
    "cabo-lightning": {
     "d": "2026-09-27 02:59",
     "p": 9.95
+   },
+   "suporte-veicular": {
+    "d": "2026-09-27 03:13",
+    "p": 10.32
    }
   },
   "slots": {
-   "2026-09-27-2": 1
+   "2026-09-27-2": 1,
+   "2026-09-27-3": 1
   },
   "fila_zap": [
+   {
+    "d": "27/09 03:13",
+    "n": "Suporte veicular magnético",
+    "txt": "*Suporte veicular magnético*\n\n💰 *R$ 10,32* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+11,6 mil vendidos na loja\nTambém em: Mercado Livre R$ 24,99\n\n👉 https://s.click.aliexpress.com/e/_c4VwtJJf\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "27/09 02:59",
     "n": "Cabo USB-C para Lightning (iPhone)",
