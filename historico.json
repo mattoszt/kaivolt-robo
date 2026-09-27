@@ -9,7 +9,7 @@
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
-  "2026-09-27": 11.89
+  "2026-09-27": 26.99
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -255,5 +255,23 @@
  },
  "_meta": {
   "ultimo_total": 21
+ },
+ "_divulgacao": {
+  "postados": {
+   "cabo-lightning": {
+    "d": "2026-09-27 02:59",
+    "p": 9.95
+   }
+  },
+  "slots": {
+   "2026-09-27-2": 1
+  },
+  "fila_zap": [
+   {
+    "d": "27/09 02:59",
+    "n": "Cabo USB-C para Lightning (iPhone)",
+    "txt": "*Cabo USB-C para Lightning (iPhone)*\n\n💰 *R$ 9,95* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+26 mil vendidos na loja\nTambém em: Mercado Livre R$ 28,47\n\n👉 https://s.click.aliexpress.com/e/_c2wjpDfX\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   }
+  ]
  }
 }
