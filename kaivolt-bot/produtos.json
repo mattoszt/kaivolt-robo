@@ -1,68 +1,1311 @@
 {
-  "_leia": "Lista dos produtos que o robô acompanha. Para cada loja, use 'itemId/shopId' (Shopee), 'productId' (AliExpress) OU 'busca' com palavras-chave. Mercado Livre e Amazon: coloque 'link' (seu link de afiliado) e 'por' (preço) manualmente.",
+  "_leia": "Produtos que o robô acompanha. Shopee/AliExpress: 'busca' + 'palavras' (obrigatórias no título) + 'excluir' (proibidas) + 'preco_min'/'preco_max'. MERCADO LIVRE: 'url' = endereço normal do anúncio (o robô atualiza o preço pela API) e 'link' = SEU link de afiliado (meli.la). 'por'/'de' só são usados se a API falhar.",
   "regras": {
+    "_como_funciona": [
+      "nota_minima: nota mínima (0 a 5) na Shopee",
+      "avaliacao_minima_aliexpress: % mínimo de avaliações positivas no AliExpress (92% = umas 4,6 estrelas)",
+      "vendas_minimas_*: quantas vendas o anúncio precisa ter pra ser aceito",
+      "preco_suspeito_fator: preço abaixo de 45% da mediana dos concorrentes é descartado (golpe/falsificado)",
+      "dias_validade_manual: preço digitado à mão (ML/Amazon) só vale por esses dias se o robô não conseguir conferir",
+      "minimo_produtos_publicar: se sumir mais de 40% dos produtos de uma vez, o robô NÃO mexe no site",
+      "excluir_global: palavras que reprovam o anúncio em qualquer loja"
+    ],
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
-    "avaliacao_minima_aliexpress": 90,
-    "lojas_ativas": ["Shopee", "AliExpress", "Mercado Livre", "Amazon"]
+    "avaliacao_minima_aliexpress": 92,
+    "lojas_ativas": [
+      "Shopee",
+      "AliExpress",
+      "Mercado Livre",
+      "Amazon"
+    ],
+    "vendas_minimas_aliexpress": 100,
+    "preco_suspeito_fator": 0.45,
+    "dias_validade_manual": 7,
+    "minimo_produtos_publicar": 0.6,
+    "excluir_global": [
+      "réplica",
+      "replica",
+      "recondicionado",
+      "refurbished",
+      "seminovo",
+      "usado",
+      "com defeito",
+      "para peças",
+      "for parts",
+      "sample",
+      "amostra",
+      "1:1",
+      "clone",
+      "fake"
+    ]
   },
   "produtos": [
     {
       "id": "powerbank-10000",
       "n": "Power Bank 10.000 mAh com carga rápida",
-      "c": "celular", "ic": "powerbank", "img": "",
+      "c": "celular",
+      "ic": "powerbank",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "power bank 10000mah carga rapida", "palavras": ["10000"] },
-        "AliExpress":    { "busca": "power bank 10000mah 22.5w", "palavras": ["10000"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 },
-        "Amazon":        { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "power bank 10000mah carga rapida",
+          "palavras": [
+            "10000"
+          ],
+          "preco_min": 25,
+          "preco_max": 200,
+          "excluir": [
+            "100000",
+            "30000",
+            "50000",
+            "80000",
+            "capa",
+            "case"
+          ]
+        },
+        "AliExpress": {
+          "busca": "power bank 10000mAh fast charging",
+          "palavras": [
+            "10000"
+          ],
+          "preco_min": 25,
+          "preco_max": 200,
+          "excluir": [
+            "100000",
+            "30000",
+            "50000",
+            "5000mah",
+            "80000",
+            "capa",
+            "case",
+            "shell"
+          ]
+        },
+        "Mercado Livre": {
+          "item": "MLB4400972103",
+          "url": "https://www.mercadolivre.com.br/power-bank-portatil-10000mah-carregador-rapido-225w-display/up/MLBU3711858764",
+          "link": "https://www.mercadolivre.com.br/power-bank-portatil-10000mah-carregador-rapido-225w-display/up/MLBU3711858764?pdp_filters=item_id%3AMLB4400972103&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/26GeHBz",
+          "por": 143.09,
+          "de": 169.9,
+          "titulo_ml": "Power Bank Portátil 10000mah Carregador Rápido 22.5w Display Preto",
+          "preco_min": 25,
+          "preco_max": 229,
+          "verificado_em": "2026-09-27"
+        },
+        "Amazon": {
+          "link": "",
+          "por": 0,
+          "de": 0,
+          "preco_min": 25,
+          "preco_max": 200
+        }
       },
-      "exemplo": { "Shopee": [89.90, 49.90], "AliExpress": [79.90, 44.90], "Mercado Livre": [99.90, 59.90] }
+      "exemplo": {
+        "Shopee": [
+          89.9,
+          49.9
+        ],
+        "AliExpress": [
+          79.9,
+          44.9
+        ],
+        "Mercado Livre": [
+          99.9,
+          59.9
+        ]
+      }
     },
     {
       "id": "carregador-20w",
       "n": "Carregador turbo USB-C 20W",
-      "c": "celular", "ic": "charger", "img": "",
+      "c": "celular",
+      "ic": "charger",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "carregador usb-c 20w pd", "palavras": ["20w"] },
-        "AliExpress":    { "busca": "carregador usb c 20w pd", "palavras": ["20w"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "carregador usb-c 20w pd",
+          "palavras": [
+            "20w"
+          ],
+          "preco_min": 15,
+          "preco_max": 150,
+          "excluir": [
+            "cabo",
+            "cable"
+          ]
+        },
+        "AliExpress": {
+          "busca": "carregador usb c 20w pd",
+          "palavras": [
+            "20w",
+            "carregador"
+          ],
+          "preco_min": 15,
+          "preco_max": 150,
+          "excluir": [
+            "cabo",
+            "cable",
+            "lightning",
+            "uk plug",
+            "eua plug",
+            "us plug",
+            "plug uk",
+            "plug us",
+            "kr plug",
+            "coreano",
+            "korean"
+          ]
+        },
+        "Mercado Livre": {
+          "item": "MLB4106194513",
+          "url": "https://www.mercadolivre.com.br/carregador-turbo-1-saida-usb-c-20w-cabo-usb-c-i2go-15m-cor-branco/p/MLB26635493",
+          "link": "https://www.mercadolivre.com.br/carregador-turbo-1-saida-usb-c-20w-cabo-usb-c-i2go-15m-cor-branco/p/MLB26635493?pdp_filters=item_id%3AMLB4106194513&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2DiqRiu",
+          "por": 89.9,
+          "de": 109.9,
+          "titulo_ml": "Carregador Turbo 1 Saída Usb-c 20w + Cabo Usb-c I2go 1,5m Cor Branco",
+          "preco_min": 15,
+          "preco_max": 150,
+          "verificado_em": "2026-09-27"
+        }
       },
-      "exemplo": { "Shopee": [54.90, 36.90], "Mercado Livre": [59.90, 39.90], "AliExpress": [49.90, 29.90] }
+      "exemplo": {
+        "Shopee": [
+          54.9,
+          36.9
+        ],
+        "Mercado Livre": [
+          59.9,
+          39.9
+        ],
+        "AliExpress": [
+          49.9,
+          29.9
+        ]
+      }
     },
     {
       "id": "cabo-usbc-100w",
       "n": "Cabo USB-C 100W trançado 2 metros",
-      "c": "celular", "ic": "cable", "img": "",
+      "c": "celular",
+      "ic": "cable",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "cabo usb-c 100w 2m", "palavras": ["100w"] },
-        "AliExpress":    { "busca": "usb c cable 100w 2m", "palavras": ["100w"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "cabo usb-c 100w 2m",
+          "palavras": [
+            "100w"
+          ],
+          "preco_min": 10,
+          "preco_max": 120,
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "angulo",
+            "kit"
+          ]
+        },
+        "AliExpress": {
+          "busca": "usb c cable 100w 2m",
+          "palavras": [
+            "100w"
+          ],
+          "preco_min": 10,
+          "preco_max": 120,
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "angulo",
+            "elbow",
+            "cotovelo",
+            "3 cabos",
+            "kit",
+            "magnético",
+            "magnetico"
+          ]
+        },
+        "Mercado Livre": {
+          "item": "MLB6801226010",
+          "url": "https://www.mercadolivre.com.br/cabo-carregador-usb-c-tipo-c-nylon-trancado-ultra-rapido-100w-2-metros-transferencia-de-dados-compativel-com-iphone-15-16-17-tablet-notebook-samsung-xiaomi-lg-motorola-smartwatch-branco-eletric-teck/p/MLB69972713",
+          "link": "https://www.mercadolivre.com.br/cabo-carregador-usb-c-tipo-c-nylon-trancado-ultra-rapido-100w-2-metros-transferencia-de-dados-compativel-com-iphone-15-16-17-tablet-notebook-samsung-xiaomi-lg-motorola-smartwatch-branco-eletric-teck/p/MLB69972713?pdp_filters=item_id%3AMLB6801226010&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2ya2K5B",
+          "por": 26.99,
+          "de": 39.99,
+          "titulo_ml": "Cabo Carregador USB-C Tipo C Nylon Trançado Ultra Rapido 100w 2 Metros Transferencia De Dados Compativel Com iPhone 15 16 17 Tablet Notebook Samsung Xiaomi LG Motorola Smartwatch Branco Eletric Teck",
+          "preco_min": 10,
+          "preco_max": 120,
+          "verificado_em": "2026-09-27"
+        }
       },
-      "exemplo": { "AliExpress": [49.90, 22.90], "Shopee": [39.90, 27.90], "Mercado Livre": [49.90, 34.90] }
+      "exemplo": {
+        "AliExpress": [
+          49.9,
+          22.9
+        ],
+        "Shopee": [
+          39.9,
+          27.9
+        ],
+        "Mercado Livre": [
+          49.9,
+          34.9
+        ]
+      }
+    },
+    {
+      "id": "powerbank-20000",
+      "n": "Power Bank 20.000 mAh",
+      "c": "celular",
+      "ic": "powerbank",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "power bank 20000mah",
+          "palavras": [
+            "20000"
+          ],
+          "excluir": [
+            "100000",
+            "50000",
+            "5000mah",
+            "80000",
+            "capa",
+            "case"
+          ],
+          "preco_min": 45,
+          "preco_max": 250
+        },
+        "AliExpress": {
+          "busca": "power bank 20000mAh fast charging",
+          "palavras": [
+            "20000"
+          ],
+          "excluir": [
+            "100000",
+            "50000",
+            "5000mah",
+            "80000",
+            "capa",
+            "case"
+          ],
+          "preco_min": 45,
+          "preco_max": 250
+        },
+        "Mercado Livre": {
+          "item": "MLB6306405776",
+          "url": "https://www.mercadolivre.com.br/power-bank-basike-20000mah-preto-carga-rapida-225w-para-iphone-e-samsung-com-cabos-embutidos-e-display/p/MLB50592250",
+          "link": "https://www.mercadolivre.com.br/power-bank-basike-20000mah-preto-carga-rapida-225w-para-iphone-e-samsung-com-cabos-embutidos-e-display/p/MLB50592250?pdp_filters=item_id%3AMLB6306405776&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/25KUTRH",
+          "por": 128.0,
+          "de": 128.0,
+          "titulo_ml": "Power Bank Basike 20000mAh Preto, Carga Rápida 22.5W para iPhone e Samsung, Com Cabos Embutidos e Display",
+          "preco_min": 45,
+          "preco_max": 250,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "powerbank-magsafe",
+      "n": "Power Bank magnético (MagSafe)",
+      "c": "celular",
+      "ic": "powerbank",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "power bank magnético magsafe",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "case",
+            "capa",
+            "anel",
+            "ring"
+          ],
+          "preco_min": 30,
+          "preco_max": 220
+        },
+        "AliExpress": {
+          "busca": "magnetic power bank magsafe",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "case",
+            "capa",
+            "anel",
+            "ring"
+          ],
+          "preco_min": 30,
+          "preco_max": 220
+        },
+        "Mercado Livre": {
+          "item": "MLB4540680129",
+          "url": "https://www.mercadolivre.com.br/power-bank-10000mah-magnetico-para-iphone-magsafe/up/MLBU3857015826",
+          "link": "https://www.mercadolivre.com.br/power-bank-10000mah-magnetico-para-iphone-magsafe/up/MLBU3857015826?pdp_filters=item_id%3AMLB4540680129&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/1hdS91m",
+          "por": 87.91,
+          "de": 99.9,
+          "titulo_ml": "Power Bank 10000mah Magnético Para iPhone Magsafe Branco",
+          "preco_min": 30,
+          "preco_max": 220,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "carregador-gan-65w",
+      "n": "Carregador GaN 65W (notebook e celular)",
+      "c": "celular",
+      "ic": "charger",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "carregador gan 65w",
+          "palavras": [
+            "65w"
+          ],
+          "excluir": [
+            "cabo",
+            "cable",
+            "uk plug",
+            "eua plug",
+            "us plug",
+            "plug uk",
+            "plug us"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "gan charger 65w usb c",
+          "palavras": [
+            "65w"
+          ],
+          "excluir": [
+            "cabo",
+            "cable",
+            "uk plug",
+            "eua plug",
+            "us plug",
+            "plug uk",
+            "plug us"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "item": "MLB5220586997",
+          "url": "https://www.mercadolivre.com.br/carregador-turbo-ugreen-65w-gan-3-portas-cor-preto/p/MLB23144213",
+          "link": "https://www.mercadolivre.com.br/carregador-turbo-ugreen-65w-gan-3-portas-cor-preto/p/MLB23144213?pdp_filters=item_id%3AMLB5220586997&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/1Qr79vq",
+          "por": 208.99,
+          "de": 208.99,
+          "titulo_ml": "Carregador Turbo Ugreen 65w Gan 3 Portas Cor Preto",
+          "preco_min": 40,
+          "preco_max": 334,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "cabo-lightning",
+      "n": "Cabo USB-C para Lightning (iPhone)",
+      "c": "celular",
+      "ic": "cable",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "cabo usb c lightning",
+          "palavras": [
+            "lightning"
+          ],
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "adaptador",
+            "adapter",
+            "kit",
+            "3 cabos",
+            "magnético"
+          ],
+          "preco_min": 8,
+          "preco_max": 90
+        },
+        "AliExpress": {
+          "busca": "usb c to lightning cable fast charging",
+          "palavras": [
+            "lightning"
+          ],
+          "excluir": [
+            "90 graus",
+            "ângulo",
+            "adaptador",
+            "adapter",
+            "kit",
+            "3 cabos",
+            "magnético"
+          ],
+          "preco_min": 8,
+          "preco_max": 90
+        },
+        "Mercado Livre": {
+          "item": "MLB6257122156",
+          "url": "https://www.mercadolivre.com.br/cabo-carregador-usbc-lightning-pd-30w-kaidi-para-iphone/up/MLBU3792649535",
+          "link": "https://www.mercadolivre.com.br/cabo-carregador-usbc-lightning-pd-30w-kaidi-para-iphone/up/MLBU3792649535?pdp_filters=item_id%3AMLB6257122156&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/34a2HBG",
+          "por": 28.47,
+          "de": 30.9,
+          "titulo_ml": "Cabo Carregador Usb-c Lightning Pd 30w Kaidi Para iPhone Branco",
+          "preco_min": 8,
+          "preco_max": 90,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "suporte-veicular",
+      "n": "Suporte veicular magnético",
+      "c": "celular",
+      "ic": "carmount",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "suporte veicular magnético celular",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "capa",
+            "case",
+            "bike",
+            "moto",
+            "anel"
+          ],
+          "preco_min": 10,
+          "preco_max": 150
+        },
+        "AliExpress": {
+          "busca": "magnetic car phone holder",
+          "palavras": [
+            "magn"
+          ],
+          "excluir": [
+            "capa",
+            "case",
+            "bike",
+            "moto",
+            "anel"
+          ],
+          "preco_min": 10,
+          "preco_max": 150
+        },
+        "Mercado Livre": {
+          "item": "MLB4663097633",
+          "url": "https://www.mercadolivre.com.br/suporte-celular-carro-magnetico-rotativo-360dobravel-ventosa/up/MLBU3955900506",
+          "link": "https://www.mercadolivre.com.br/suporte-celular-carro-magnetico-rotativo-360dobravel-ventosa/up/MLBU3955900506?pdp_filters=item_id%3AMLB4663097633&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/1ozAK8g",
+          "por": 24.99,
+          "de": 49.99,
+          "titulo_ml": "Suporte Celular Carro Magnético Rotativo 360dobrável Ventosa Preto",
+          "preco_min": 10,
+          "preco_max": 150,
+          "verificado_em": "2026-09-27"
+        }
+      }
     },
     {
       "id": "mouse-gamer-rgb",
       "n": "Mouse gamer RGB 7200 DPI",
-      "c": "pc", "ic": "mouse", "img": "",
+      "c": "pc",
+      "ic": "mouse",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "mouse gamer rgb 7200 dpi", "palavras": ["mouse"] },
-        "AliExpress":    { "busca": "mouse gamer rgb 7200dpi", "palavras": ["mouse"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 },
-        "Amazon":        { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "mouse gamer rgb 7200 dpi",
+          "palavras": [
+            "mouse"
+          ],
+          "preco_min": 25,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "gaming mouse rgb 7200 dpi",
+          "palavras": [
+            "mouse"
+          ],
+          "preco_min": 25,
+          "preco_max": 300,
+          "excluir": [
+            "mousepad",
+            "mouse pad",
+            "tapete",
+            "bungee"
+          ]
+        },
+        "Mercado Livre": {
+          "item": "MLB1813858157",
+          "url": "https://www.mercadolivre.com.br/mouse-otico-para-jogos-logitech-g203-lightsync-preto/p/MLB16211422",
+          "link": "https://www.mercadolivre.com.br/mouse-otico-para-jogos-logitech-g203-lightsync-preto/p/MLB16211422?pdp_filters=item_id%3AMLB1813858157&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2p6uuRE",
+          "por": 89.9,
+          "de": 189.9,
+          "titulo_ml": "Mouse Ótico para Jogos Logitech G203 LIGHTSYNC Preto",
+          "preco_min": 25,
+          "preco_max": 300,
+          "verificado_em": "2026-09-27"
+        },
+        "Amazon": {
+          "link": "",
+          "por": 0,
+          "de": 0,
+          "preco_min": 25,
+          "preco_max": 300
+        }
       },
-      "exemplo": { "Amazon": [99.90, 69.90], "Mercado Livre": [109.90, 74.90], "AliExpress": [89.90, 52.90] }
+      "exemplo": {
+        "Amazon": [
+          99.9,
+          69.9
+        ],
+        "Mercado Livre": [
+          109.9,
+          74.9
+        ],
+        "AliExpress": [
+          89.9,
+          52.9
+        ]
+      }
+    },
+    {
+      "id": "mouse-sem-fio",
+      "n": "Mouse sem fio silencioso",
+      "c": "pc",
+      "ic": "mouse",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "mouse sem fio silencioso",
+          "palavras": [
+            "mouse"
+          ],
+          "excluir": [
+            "mousepad",
+            "mouse pad",
+            "tapete",
+            "bungee",
+            "skate",
+            "grip"
+          ],
+          "preco_min": 15,
+          "preco_max": 150
+        },
+        "AliExpress": {
+          "busca": "wireless mouse silent bluetooth 2.4g",
+          "palavras": [
+            "mouse"
+          ],
+          "excluir": [
+            "mousepad",
+            "mouse pad",
+            "tapete",
+            "bungee",
+            "skate",
+            "grip"
+          ],
+          "preco_min": 15,
+          "preco_max": 150
+        },
+        "Mercado Livre": {
+          "item": "MLB4507657743",
+          "url": "https://www.mercadolivre.com.br/mouse-sem-fio-24g-recarregavel-usb-dpi-ajustavel-8001600/up/MLBU3830544794",
+          "link": "https://www.mercadolivre.com.br/mouse-sem-fio-24g-recarregavel-usb-dpi-ajustavel-8001600/up/MLBU3830544794?pdp_filters=item_id%3AMLB4507657743&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2t9QSFY",
+          "por": 59.64,
+          "de": 93.32,
+          "titulo_ml": "Mouse Sem Fio 2.4g Recarregável Usb Dpi Ajustável 800-1600 Preto",
+          "preco_min": 15,
+          "preco_max": 150,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "teclado-mecanico",
+      "n": "Teclado mecânico compacto",
+      "c": "pc",
+      "ic": "keyboard",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "teclado mecânico compacto",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "capa",
+            "película",
+            "adesivo",
+            "switches",
+            "kit de teclas",
+            "descanso"
+          ],
+          "preco_min": 60,
+          "preco_max": 450
+        },
+        "AliExpress": {
+          "busca": "teclado mecânico 60% hot swap",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "capa",
+            "película",
+            "adesivo",
+            "switches",
+            "kit de teclas",
+            "descanso"
+          ],
+          "preco_min": 60,
+          "preco_max": 450
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0,
+          "preco_min": 60,
+          "preco_max": 450
+        }
+      }
+    },
+    {
+      "id": "headset-gamer",
+      "n": "Headset gamer com microfone",
+      "c": "pc",
+      "ic": "headset",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "headset gamer com microfone",
+          "palavras": [
+            "headset"
+          ],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "gaming headset microphone over ear",
+          "palavras": [
+            "headset"
+          ],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "Mercado Livre": {
+          "url": "",
+          "link": "",
+          "por": 0,
+          "de": 0,
+          "preco_min": 40,
+          "preco_max": 400
+        }
+      }
+    },
+    {
+      "id": "hub-usbc",
+      "n": "Hub USB-C com HDMI",
+      "c": "pc",
+      "ic": "hub",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "hub usb c hdmi",
+          "palavras": [
+            "hub"
+          ],
+          "excluir": [
+            "cabo",
+            "capa"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "usb c hub hdmi 7 in 1",
+          "palavras": [
+            "hub"
+          ],
+          "excluir": [
+            "cabo",
+            "capa"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "item": "MLB7413454264",
+          "url": "https://www.mercadolivre.com.br/adaptador-hub-usb-com-8-portas-rj45-hdmi-usb-30-e-20-tipo-c-micro-sd-cartao-ethernet-cabo-thunderbolt-dock-station-dex-macbook-air-m1-m2-ipad-type-c-tablet-computador-pc-notebook-extensor-voxo/p/MLB78752003",
+          "link": "https://www.mercadolivre.com.br/adaptador-hub-usb-com-8-portas-rj45-hdmi-usb-30-e-20-tipo-c-micro-sd-cartao-ethernet-cabo-thunderbolt-dock-station-dex-macbook-air-m1-m2-ipad-type-c-tablet-computador-pc-notebook-extensor-voxo/p/MLB78752003?pdp_filters=item_id%3AMLB7413454264&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2bwcBTm",
+          "por": 51.4,
+          "de": 69.9,
+          "titulo_ml": "Adaptador Hub Usb Com 8 Portas Rj45 Hdmi Usb 3.0 E 2.0 Tipo C Micro Sd Cartão Ethernet Cabo Thunderbolt Dock Station Dex Macbook Air M1 M2 iPad Type C Tablet Computador Pc Notebook Extensor Voxo",
+          "preco_min": 30,
+          "preco_max": 300,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "ssd-512",
+      "n": "SSD 512GB",
+      "c": "pc",
+      "ic": "ssd",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "ssd 512gb",
+          "palavras": [
+            "512"
+          ],
+          "excluir": [
+            "16tb",
+            "1tb",
+            "2tb",
+            "4tb",
+            "8tb",
+            "adaptador",
+            "caddy",
+            "capa",
+            "case",
+            "dissipador",
+            "enclosure",
+            "gaveta"
+          ],
+          "preco_min": 300,
+          "preco_max": 900
+        },
+        "AliExpress": {
+          "busca": "nvme ssd 512gb m.2",
+          "palavras": [
+            "512",
+            "nvme"
+          ],
+          "excluir": [
+            "16tb",
+            "1tb",
+            "2tb",
+            "4tb",
+            "8tb",
+            "adaptador",
+            "caddy",
+            "capa",
+            "case",
+            "dissipador",
+            "enclosure",
+            "gaveta"
+          ],
+          "preco_min": 300,
+          "preco_max": 900
+        },
+        "Mercado Livre": {
+          "item": "MLB5095889465",
+          "url": "https://www.mercadolivre.com.br/ssd-m2-nvme-kingspec-nx-512-512gb-pcie-gen3-x4-3400mbs-dissipador/p/MLB20815440",
+          "link": "https://www.mercadolivre.com.br/ssd-m2-nvme-kingspec-nx-512-512gb-pcie-gen3-x4-3400mbs-dissipador/p/MLB20815440?pdp_filters=item_id%3AMLB5095889465&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2uWSCQA",
+          "por": 594.44,
+          "de": 899.0,
+          "titulo_ml": "SSD M.2 NVMe KingSpec NX-512 512GB PCIe Gen3 x4 3400MB/s Dissipador",
+          "preco_min": 300,
+          "preco_max": 951,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "webcam-fullhd",
+      "n": "Webcam Full HD com microfone",
+      "c": "pc",
+      "ic": "webcam",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "webcam full hd",
+          "palavras": [
+            "webcam"
+          ],
+          "excluir": [
+            "capa",
+            "cover",
+            "tampa",
+            "suporte"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "webcam full hd 1080p microphone",
+          "palavras": [
+            "webcam"
+          ],
+          "excluir": [
+            "capa",
+            "cover",
+            "tampa",
+            "suporte"
+          ],
+          "preco_min": 30,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "item": "MLB4144472660",
+          "url": "https://www.mercadolivre.com.br/webcam-full-hd-logitech-c920s-com-microfone-embutido-protecao-de-privacidade-widescreen-1080p-e-conexao-usb/p/MLB18351904",
+          "link": "https://www.mercadolivre.com.br/webcam-full-hd-logitech-c920s-com-microfone-embutido-protecao-de-privacidade-widescreen-1080p-e-conexao-usb/p/MLB18351904?pdp_filters=item_id%3AMLB4144472660&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/1Ny8SMN",
+          "por": 339.91,
+          "de": 339.91,
+          "titulo_ml": "Webcam Full HD Logitech C920s com Microfone Embutido, Proteção de Privacidade, Widescreen 1080p e Conexão USB",
+          "preco_min": 30,
+          "preco_max": 544,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "caneta-stylus",
+      "n": "Caneta stylus para tablet",
+      "c": "tablet",
+      "ic": "stylus",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "caneta stylus tablet",
+          "palavras": [
+            "stylus"
+          ],
+          "excluir": [
+            "ponta",
+            "pontas",
+            "replacement",
+            "substituição",
+            "capa",
+            "estojo",
+            "luva"
+          ],
+          "preco_min": 20,
+          "preco_max": 250
+        },
+        "AliExpress": {
+          "busca": "stylus pen tablet universal",
+          "palavras": [
+            "stylus"
+          ],
+          "excluir": [
+            "ponta",
+            "pontas",
+            "replacement",
+            "substituição",
+            "capa",
+            "estojo",
+            "luva"
+          ],
+          "preco_min": 20,
+          "preco_max": 250
+        },
+        "Mercado Livre": {
+          "item": "MLB6577053496",
+          "url": "https://www.mercadolivre.com.br/caneta-stylus-universal-alta-precisao-para-tablet-positivo-android-kateluo-branco/p/MLB61699327",
+          "link": "https://www.mercadolivre.com.br/caneta-stylus-universal-alta-precisao-para-tablet-positivo-android-kateluo-branco/p/MLB61699327?pdp_filters=item_id%3AMLB6577053496&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2VeeJxh",
+          "por": 27.5,
+          "de": 39.9,
+          "titulo_ml": "Caneta Stylus Universal Alta Precisão Para Tablet Positivo Android Kateluo Branco",
+          "preco_min": 20,
+          "preco_max": 250,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "suporte-tablet",
+      "n": "Suporte de mesa para tablet",
+      "c": "tablet",
+      "ic": "stand",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "suporte tablet mesa",
+          "palavras": [
+            "suporte"
+          ],
+          "excluir": [
+            "carro",
+            "veicular",
+            "bike",
+            "moto",
+            "cama"
+          ],
+          "preco_min": 15,
+          "preco_max": 200
+        },
+        "AliExpress": {
+          "busca": "suporte tablet mesa ajustável",
+          "palavras": [
+            "suporte"
+          ],
+          "excluir": [
+            "carro",
+            "veicular",
+            "bike",
+            "moto",
+            "cama"
+          ],
+          "preco_min": 15,
+          "preco_max": 200
+        },
+        "Mercado Livre": {
+          "item": "MLB4241308999",
+          "url": "https://www.mercadolivre.com.br/suporte-dobravel-giratorio-ajustavel-360-de-aluminio-para-tablet-celular-ipad-ate-12-polegada-bamduu/p/MLB79850531",
+          "link": "https://www.mercadolivre.com.br/suporte-dobravel-giratorio-ajustavel-360-de-aluminio-para-tablet-celular-ipad-ate-12-polegada-bamduu/p/MLB79850531?pdp_filters=item_id%3AMLB4241308999&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2X41yip",
+          "por": 33.5,
+          "de": 33.5,
+          "titulo_ml": "Suporte Dobrável Giratório Ajustável 360° De Alumínio Para Tablet Celular Ipad Ate 12 Polegada Bamduu",
+          "preco_min": 15,
+          "preco_max": 200,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "teclado-tablet",
+      "n": "Teclado Bluetooth para tablet",
+      "c": "tablet",
+      "ic": "tabletcase",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "teclado bluetooth tablet",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "película",
+            "adesivo",
+            "capa para"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "AliExpress": {
+          "busca": "teclado bluetooth para tablet",
+          "palavras": [
+            "teclado"
+          ],
+          "excluir": [
+            "keycap",
+            "película",
+            "adesivo",
+            "capa para"
+          ],
+          "preco_min": 40,
+          "preco_max": 300
+        },
+        "Mercado Livre": {
+          "item": "MLB6666974796",
+          "url": "https://www.mercadolivre.com.br/kit-teclado-e-mouse-sem-fio-bluetooth-tablet-compativel-com-android-ios-e-windows-beexcellent/p/MLB65736408",
+          "link": "https://www.mercadolivre.com.br/kit-teclado-e-mouse-sem-fio-bluetooth-tablet-compativel-com-android-ios-e-windows-beexcellent/p/MLB65736408?pdp_filters=item_id%3AMLB6666974796&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/32j95Uy",
+          "por": 47.4,
+          "de": 47.4,
+          "titulo_ml": "Kit Teclado E Mouse Sem Fio Bluetooth Tablet Compatível Com Android Ios E Windows Beexcellent",
+          "preco_min": 40,
+          "preco_max": 300,
+          "verificado_em": "2026-09-27"
+        }
+      }
     },
     {
       "id": "fone-tws-anc",
       "n": "Fone TWS com cancelamento de ruído",
-      "c": "audio", "ic": "earbuds", "img": "",
+      "c": "audio",
+      "ic": "earbuds",
+      "img": "",
       "lojas": {
-        "Shopee":        { "busca": "fone bluetooth tws cancelamento de ruido anc", "palavras": ["anc"] },
-        "AliExpress":    { "busca": "tws earbuds anc bluetooth 5.3", "palavras": ["anc"] },
-        "Mercado Livre": { "link": "", "por": 0, "de": 0 }
+        "Shopee": {
+          "busca": "fone bluetooth tws cancelamento de ruido anc",
+          "palavras": [
+            "anc"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "tws earbuds anc bluetooth 5.3",
+          "palavras": [
+            "anc"
+          ],
+          "preco_min": 50,
+          "preco_max": 400,
+          "excluir": [
+            "case",
+            "capa",
+            "silicone",
+            "protetor"
+          ]
+        },
+        "Mercado Livre": {
+          "item": "MLB5410636044",
+          "url": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-54-soundcore-p30i-da-anker-cancelamento-de-ruido-adaptativo-graves-poderosos-45h-de-reproducao-estojo-2-em-1-com-suporte-para-celular-ip54-fone-sem-fio-tws-preto/p/MLB38176139",
+          "link": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-54-soundcore-p30i-da-anker-cancelamento-de-ruido-adaptativo-graves-poderosos-45h-de-reproducao-estojo-2-em-1-com-suporte-para-celular-ip54-fone-sem-fio-tws-preto/p/MLB38176139?pdp_filters=item_id%3AMLB5410636044&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/19aGapv",
+          "por": 196.59,
+          "de": 389.0,
+          "titulo_ml": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
+          "preco_min": 50,
+          "preco_max": 400,
+          "verificado_em": "2026-09-27"
+        }
       },
-      "exemplo": { "AliExpress": [189.90, 99.90], "Shopee": [149.90, 109.90], "Mercado Livre": [199.90, 124.90] }
+      "exemplo": {
+        "AliExpress": [
+          189.9,
+          99.9
+        ],
+        "Shopee": [
+          149.9,
+          109.9
+        ],
+        "Mercado Livre": [
+          199.9,
+          124.9
+        ]
+      }
+    },
+    {
+      "id": "fone-tws",
+      "n": "Fone Bluetooth TWS",
+      "c": "audio",
+      "ic": "earbuds",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "fone bluetooth tws",
+          "palavras": [],
+          "excluir": [
+            "case",
+            "capa",
+            "silicone",
+            "almofada",
+            "ponteira",
+            "estojo de",
+            "adaptador"
+          ],
+          "preco_min": 20,
+          "preco_max": 150
+        },
+        "AliExpress": {
+          "busca": "fone bluetooth tws 5.3",
+          "palavras": [],
+          "excluir": [
+            "case",
+            "capa",
+            "silicone",
+            "almofada",
+            "ponteira",
+            "estojo de",
+            "adaptador"
+          ],
+          "preco_min": 20,
+          "preco_max": 150
+        },
+        "Mercado Livre": {
+          "item": "MLB4262519541",
+          "url": "https://www.mercadolivre.com.br/fone-de-ouvido-soundcore-by-anker-p20i-graves-poderosos-e-impactantes-bluetooth-53-30h-de-reproducao-resistencia-agua-2-mics-ia-para-chamadas-claras-personalizacao-de-som-via-app-cor-azul-claro/p/MLB41678099",
+          "link": "https://www.mercadolivre.com.br/fone-de-ouvido-soundcore-by-anker-p20i-graves-poderosos-e-impactantes-bluetooth-53-30h-de-reproducao-resistencia-agua-2-mics-ia-para-chamadas-claras-personalizacao-de-som-via-app-cor-azul-claro/p/MLB41678099?pdp_filters=item_id%3AMLB4262519541&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/1mXK1o1",
+          "por": 155.97,
+          "de": 299.0,
+          "titulo_ml": "Fone De Ouvido Soundcore by Anker P20i Graves Poderosos e Impactantes Bluetooth 5.3 30H de Reprodução Resistência à Água 2 Mics IA para Chamadas Claras Personalização de Som via App Cor Azul-claro",
+          "preco_min": 20,
+          "preco_max": 250,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "caixa-som",
+      "n": "Caixa de som Bluetooth portátil",
+      "c": "audio",
+      "ic": "speaker",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "caixa de som bluetooth",
+          "palavras": [],
+          "excluir": [
+            "capa",
+            "case",
+            "bolsa",
+            "suporte",
+            "cabo",
+            "adaptador"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "caixa de som bluetooth portátil",
+          "palavras": [],
+          "excluir": [
+            "capa",
+            "case",
+            "bolsa",
+            "suporte",
+            "cabo",
+            "adaptador"
+          ],
+          "preco_min": 40,
+          "preco_max": 400
+        },
+        "Mercado Livre": {
+          "item": "MLB4266850959",
+          "url": "https://produto.mercadolivre.com.br/MLB-4266850959-inova-caixa-som-bluetooth-20w-15h-portatil-potente-com-radio-_JM",
+          "link": "https://produto.mercadolivre.com.br/MLB-4266850959-inova-caixa-som-bluetooth-20w-15h-portatil-potente-com-radio-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "",
+          "por": 69.99,
+          "de": 117.97,
+          "titulo_ml": "Inova Caixa Som Bluetooth 20w 15h Portátil Potente Com Radio",
+          "preco_min": 40,
+          "preco_max": 400,
+          "verificado_em": "2026-09-27"
+        }
+      }
+    },
+    {
+      "id": "headphone-bt",
+      "n": "Headphone Bluetooth",
+      "c": "audio",
+      "ic": "headset",
+      "img": "",
+      "lojas": {
+        "Shopee": {
+          "busca": "headphone bluetooth",
+          "palavras": [],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "capa",
+            "case",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "AliExpress": {
+          "busca": "headphone bluetooth over ear",
+          "palavras": [],
+          "excluir": [
+            "adaptador",
+            "almofada",
+            "auricular",
+            "bluetooth 5.3 fone",
+            "cabo",
+            "caixa de carga",
+            "capa",
+            "case",
+            "ear pad",
+            "earbud",
+            "earbuds",
+            "espuma",
+            "estojo de carga",
+            "fone de ouvido sem fio tws",
+            "in ear",
+            "in-ear",
+            "intra",
+            "suporte",
+            "true wireless",
+            "tws"
+          ],
+          "preco_min": 50,
+          "preco_max": 400
+        },
+        "Mercado Livre": {
+          "item": "MLB6891189052",
+          "url": "https://www.mercadolivre.com.br/basike-headphone-fone-de-ouvido-bluetooth-sem-fio-wireless-mini-dobravel-com-microfone-anc-cancelamento-de-ruido-hifi-aux-usb-para-gamer-pc-academia-over-ear-headset-on-ear-confortavel-ajustavel-preto/p/MLB47834868",
+          "link": "https://www.mercadolivre.com.br/basike-headphone-fone-de-ouvido-bluetooth-sem-fio-wireless-mini-dobravel-com-microfone-anc-cancelamento-de-ruido-hifi-aux-usb-para-gamer-pc-academia-over-ear-headset-on-ear-confortavel-ajustavel-preto/p/MLB47834868?pdp_filters=item_id%3AMLB6891189052&matt_word=ky20260925222946505&matt_tool=97504693",
+          "link_meli": "https://meli.la/2u4xGn3",
+          "por": 151.04,
+          "de": 151.04,
+          "titulo_ml": "Basike Headphone Fone De Ouvido Bluetooth Sem Fio Wireless Mini Dobrável Com Microfone Anc Cancelamento De Ruido Hifi Aux Usb Para Gamer Pc Academia Over Ear Headset On Ear Confortável Ajustável Preto",
+          "preco_min": 50,
+          "preco_max": 400,
+          "verificado_em": "2026-09-27"
+        }
+      }
     }
   ]
 }
