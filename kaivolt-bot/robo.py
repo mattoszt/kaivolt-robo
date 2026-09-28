@@ -792,16 +792,61 @@ def ml_url_ofertas(cat, pagina=1):
     return "https://www.mercadolivre.com.br/ofertas" + ("?" + "&".join(q) if q else "")
 
 
+# Vitrine do site: poucas categorias, fáceis de entender. Cada categoria do Mercado Livre cai num grupo,
+# e o título do produto confirma (ex.: um tênis que aparece em "Esportes" vai pra "Moda").
+GRUPOS = [  # (nome no site, emoji, categorias do ML que caem aqui)
+    ("Celular e Tech", "📱", ["MLB1051", "MLB1000", "MLB1648", "MLB1039"]),
+    ("Games", "🎮", ["MLB1144"]),
+    ("Moda", "👟", ["MLB1430", "MLB3937"]),
+    ("Beleza", "💄", ["MLB1246"]),
+    ("Esportes", "🏋️", ["MLB1276"]),
+    ("Casa", "🏠", ["MLB1574", "MLB5726", "MLB263532"]),
+    ("Carro", "🚗", ["MLB5672"]),
+    ("Pet", "🐾", ["MLB1071"]),
+    ("Brinquedos", "🧸", ["MLB1132"]),
+]
+GRUPO_DA_CAT = {c: g[0] for g in GRUPOS for c in g[2]}
+GRUPO_IC = {g[0]: g[1] for g in GRUPOS}
+GRUPO_ANTIGO = {"Celular": "Celular e Tech", "Eletrônicos": "Celular e Tech", "Informática": "Celular e Tech",
+                "Câmeras": "Celular e Tech", "Relógios": "Moda", "Eletrodomésticos": "Casa", "Ferramentas": "Casa",
+                "Automotivo": "Carro"}
+# palavras do título que decidem o grupo (a primeira regra que bater vence)
+GRUPO_PALAVRAS = [
+    ("Brinquedos", ["boneca", "brinquedo", "brinquedos", "lego", "pokémon", "pokemon", "controle remoto", "pelúcia", "pelucia", "quebra-cabeça"]),
+    ("Casa", ["ferramenta", "ferramentas", "furadeira", "parafusadeira", "relógio de parede", "relogio de parede"]),
+    ("Carro", ["automotivo", "automotiva", "para carro", "cobrir carro", "veicular", "pneu", "partida bateria"]),
+    ("Games", ["controle sem fio", "controle bluetooth", "controle para", "controle gamesir", "joystick", "ps4", "ps5", "playstation", "xbox", "nintendo", "gamer", "headset"]),
+    ("Pet", ["ração", "racao", "cachorro", "cachorros", "cão", "cães", "gato", "gatos", "pet", "pets", "coleira", "arranhador", "comedouro", "bebedouro", "tosa"]),
+    ("Beleza", ["perfume", "maquiagem", "secador", "prancha", "chapinha", "batom", "skincare", "hidratante", "cabelo", "barbeador", "depilador"]),
+    ("Moda", ["tênis", "tenis", "camiseta", "camisa", "cueca", "calça", "bermuda", "jaqueta", "moletom", "vestido", "mochila", "óculos", "relógio", "relogio", "pulseira", "colar", "brinco", "anel", "bolsa", "boné", "sandália", "chinelo", "meia"]),
+    ("Celular e Tech", ["celular", "smartphone", "fone", "carregador", "power bank", "cabo usb", "notebook", "monitor", "mouse", "teclado", "caixa de som", "smartwatch", "projetor", "tablet", "ssd", "roteador"]),
+    ("Esportes", ["academia", "bicicleta", "bike", "halter", "yoga", "corrida", "futebol", "patinete", "skate"]),
+    ("Casa", ["papel higiênico", "rolos", "cozinha", "panela", "air fryer", "fritadeira", "travesseiro", "lençol", "cortina", "organizador", "aspirador", "ventilador", "cafeteira", "furadeira", "parafusadeira", "ferramenta"]),
+]
+
+
+def grupo_do_produto(titulo, cat=None, nome_antigo=None):
+    t = (titulo or "").lower()
+    for g, palavras in GRUPO_PALAVRAS:        # palavra inteira (evita "coração" virar "ração")
+        if any(re.search(r"(?<![\wÀ-ú])" + re.escape(p) + r"(?![\wÀ-ú])", t) for p in palavras):
+            return g
+    if cat in GRUPO_DA_CAT:
+        return GRUPO_DA_CAT[cat]
+    if nome_antigo:
+        return GRUPO_ANTIGO.get(nome_antigo, nome_antigo if nome_antigo in GRUPO_IC else "Casa")
+    return "Casa"
+
+
 def achados_site(regras, historico):
-    """Seção 'Achados do dia' do site: a cada rodada lê 2 categorias das Ofertas do dia do Mercado Livre,
-    aplica o mesmo filtro de qualidade e guarda por até 'achados_horas'. Mistura as categorias no resultado."""
+    """Seção 'Achados do dia' do site: a cada rodada lê algumas categorias das Ofertas do dia do Mercado Livre,
+    aplica o mesmo filtro de qualidade, põe cada produto no grupo certo e guarda por até 'achados_horas'."""
     if not regras.get("achados_ativo", True):
         return []
-    cats = regras.get("achados_categorias") or [k for k in ML_CATS if k]
+    cats = regras.get("achados_categorias") or [c for g in GRUPOS for c in g[2]]
     meta = historico.setdefault("_achados_meta", {"n": 0})
     guard = historico.setdefault("_achados", {})
     agora = datetime.now(timezone.utc)
-    for _ in range(int(regras.get("achados_categorias_por_rodada", 2))):
+    for _ in range(int(regras.get("achados_categorias_por_rodada", 5))):
         cat = cats[meta["n"] % len(cats)]
         meta["n"] += 1
         try:
@@ -812,8 +857,9 @@ def achados_site(regras, historico):
         bons = ml_filtra(cards, regras)[:int(regras.get("achados_por_categoria", 8))]
         log(f"Achados: {ML_CATS.get(cat, (cat,))[0]} -> {len(cards)} lidas, {len(bons)} aprovadas")
         for c in bons:
-            nome, ic = ML_CATS.get(cat, ("Ofertas", "🔥"))
-            guard[c["pid"]] = {"n": titulo_curto(c["titulo"], 70), "t": c["titulo"][:140], "cat": nome, "ic": ic,
+            antes = guard.get(c["pid"], {})
+            guard[c["pid"]] = {"n": titulo_curto(c["titulo"], 70), "t": c["titulo"][:140],
+                               "cid": antes.get("cid") or cat,          # fica com a 1ª categoria em que apareceu
                                "loja": "Mercado Livre", "por": round(c["por"], 2), "nota": c["nota"],
                                "vendas": c["vendas"], "img": c["img"], "od": 1 if c["oferta_dia"] else 0,
                                "link": ml_link_afiliado(c["url"], c["item"], regras),
@@ -822,16 +868,19 @@ def achados_site(regras, historico):
     for k in [k for k, v in guard.items()
               if (agora - datetime.fromisoformat(v["visto"])).total_seconds() > horas * 3600]:
         del guard[k]
-    # mistura as categorias (um de cada por vez) pra vitrine não ficar só de uma coisa
-    ordem = [ML_CATS.get(c, (c,))[0] for c in cats]
-    por_cat = {n: [] for n in ordem}
+    # grupo final de cada produto (categoria do ML + confirmação pelo título)
+    for v in guard.values():
+        v["cat"] = grupo_do_produto(v.get("t") or v.get("n"), v.get("cid"), v.get("cat"))
+        v["ic"] = GRUPO_IC.get(v["cat"], "🔥")
+    # mistura os grupos (um de cada por vez, na ordem de GRUPOS) pra vitrine não ficar só de uma coisa
+    por_cat = {g[0]: [] for g in GRUPOS}
     for v in sorted(guard.values(), key=lambda v: (v["od"], v["nota"], math.log10(max(v["vendas"], 1))), reverse=True):
         por_cat.setdefault(v["cat"], []).append(v)
-    saida, maximo = [], int(regras.get("achados_max_site", 48))
+    saida, maximo = [], int(regras.get("achados_max_site", 56))
     while len(saida) < maximo and any(por_cat.values()):
         for cat in list(por_cat):
             if por_cat[cat] and len(saida) < maximo:
-                saida.append({k: v for k, v in por_cat[cat].pop(0).items() if k != "visto"})
+                saida.append({k: v for k, v in por_cat[cat].pop(0).items() if k in ("n", "cat", "ic", "loja", "por", "nota", "vendas", "img", "od", "link")})
     return saida
 
 
