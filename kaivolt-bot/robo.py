@@ -712,6 +712,7 @@ ML_CATS = {   # id da categoria no Mercado Livre -> (nome, emoji) — usado no s
     "MLB5672": ("Automotivo", "🚗"), "MLB1403": ("Mercado", "🛒"), "MLB1430": ("Moda", "👟"),
     "MLB1051": ("Celular", "📱"), "MLB1648": ("Informática", "💻"), "MLB1000": ("Eletrônicos", "🎧"),
     "MLB1144": ("Games", "🎮"), "MLB264586": ("Saúde", "🩺"), "MLB1039": ("Câmeras", "📷"),
+    "MLB3937": ("Relógios", "⌚"),
 }
 
 
@@ -822,7 +823,8 @@ def achados_site(regras, historico):
               if (agora - datetime.fromisoformat(v["visto"])).total_seconds() > horas * 3600]:
         del guard[k]
     # mistura as categorias (um de cada por vez) pra vitrine não ficar só de uma coisa
-    por_cat = {}
+    ordem = [ML_CATS.get(c, (c,))[0] for c in cats]
+    por_cat = {n: [] for n in ordem}
     for v in sorted(guard.values(), key=lambda v: (v["od"], v["nota"], math.log10(max(v["vendas"], 1))), reverse=True):
         por_cat.setdefault(v["cat"], []).append(v)
     saida, maximo = [], int(regras.get("achados_max_site", 48))
