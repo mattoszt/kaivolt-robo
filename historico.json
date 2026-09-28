@@ -27,7 +27,7 @@
  "powerbank-20000": {
   "2026-09-26": 46.79,
   "2026-09-27": 46.79,
-  "2026-09-28": 130.04
+  "2026-09-28": 46.79
  },
  "powerbank-magsafe": {
   "2026-09-26": 109.13,
@@ -400,8 +400,8 @@
   }
  },
  "_achados_meta": {
-  "n": 29,
-  "ali_n": 6
+  "n": 34,
+  "ali_n": 8
  },
  "_achados": {
   "MLB-5312090728": {
@@ -568,9 +568,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_818555-MLA99479472410_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/prancha-lizze-profissional-480-extreme/p/MLB24086423?pdp_filters=item_id%3AMLB6149410898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:38+00:00",
-   "cmp_em": "2026-09-28T06:38+00:00",
-   "cmp": [],
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -683,8 +681,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_628874-MLA111086008543_042026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/principia-kit-hidratacao-e-protecao-facial-ch-o1-ps-01-todo-tipo-de-pele-dianoite/p/MLB68915199?pdp_filters=item_id%3AMLB6695260200&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -700,11 +698,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_624170-MLA116562708364_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/cetaphil-locao-hidratante-corporal-e-facial-para-pele-seca-e-sensivel-473ml-hidratacao-por-48h/p/MLB20772474?pdp_filters=item_id%3AMLB2770275483&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": []
+   "ic": "💄"
   },
   "MLB6149243620": {
    "n": "Chapinha Lizze Profissional 480 Extreme",
@@ -717,11 +713,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_910411-MLA116496414555_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/chapinha-lizze-profissional-480-extreme/p/MLB8736693?pdp_filters=item_id%3AMLB6149243620&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": []
+   "ic": "💄"
   },
   "MLB3811719800": {
    "n": "Neve Supreme 16 rolos",
@@ -734,11 +728,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_952285-MLA112915649382_072026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/neve-supreme-16-rolos/p/MLB16084461?pdp_filters=item_id%3AMLB3811719800&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": []
+   "ic": "🏠"
   },
   "MLB5554213538": {
    "n": "Kit Principia para Rotina de Skincare Pele Sensível com Protetor...",
@@ -751,11 +743,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_761257-MLA108807654621_032026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-principia-para-rotina-de-skincare-pele-sensivel-com-protetor-solar-fps-60/p/MLB53618239?pdp_filters=item_id%3AMLB5554213538&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": []
+   "ic": "💄"
   },
   "MLB4825345256": {
    "n": "Escova dental ultramacia Curaprox Trio 3 unidades cores sortidas",
@@ -779,17 +769,15 @@
    "t": "Secador Taiff Style 2000w Motor Ac Preto 127 v",
    "cid": "MLB1246",
    "loja": "Mercado Livre",
-   "por": 242.86,
+   "por": 239.05,
    "nota": 4.9,
    "vendas": 50000,
    "img": "https://http2.mlstatic.com/D_NQ_NP_701108-MLA105261068161_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/secador-taiff-style-2000w-motor-ac-preto-127-v/p/MLB18920578?pdp_filters=item_id%3AMLB6818816600&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": []
+   "ic": "💄"
   },
   "MLB4354358531": {
    "n": "Lanterna Tática Mais Forte Do Mundo T9 Potente Recarregável Preto",
@@ -802,8 +790,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_815995-MLB100305922994_122025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/lanterna-tatica-mais-forte-do-mundo-t9-potente-recarregavel/up/MLBU3668983470?pdp_filters=item_id%3AMLB4354358531&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:38+00:00",
-   "cmp_em": "2026-09-28T06:38+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [
     {
      "loja": "AliExpress",
@@ -811,7 +799,7 @@
      "nota": 4.7,
      "vendas": 230,
      "t": "T9 Lanterna Tática Mais Forte Do Mundo Potente Sitio Fazenda",
-     "link": "https://s.click.aliexpress.com/e/_c2wc8icV"
+     "link": "https://s.click.aliexpress.com/e/_c4nhvjxB"
     }
    ],
    "cat": "Esportes",
@@ -828,8 +816,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_899152-MLB113410235826_072026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:38+00:00",
-   "cmp_em": "2026-09-28T06:38+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Esportes",
    "ic": "🏋️"
@@ -845,8 +833,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_878916-MLB117966667293_092026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-5408593708-tnis-casual-kappa-zenit-masculino-unissex-conforto-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:38+00:00",
-   "cmp_em": "2026-09-28T06:38+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -940,8 +928,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_855957-MLA110530079073_042026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-jskj-a520-tws-esportivo-com-bluetooth-e-microfone-ipx5-para-corrida/p/MLB68186839?pdp_filters=item_id%3AMLB6633070512&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Celular e Tech",
    "ic": "📱"
@@ -957,11 +945,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_947612-MLA99369632726_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/roku-streaming-stick-2025-para-tv-hdfhd-controle-por-voz-preto-de-voz-3-geracao-3840br/p/MLB54014512?pdp_filters=item_id%3AMLB5605745780&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Celular e Tech",
-   "ic": "📱",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": []
+   "ic": "📱"
   },
   "MLB5410636044": {
    "n": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de...",
@@ -974,9 +960,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_760745-MLA95700724020_102025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-54-soundcore-p30i-da-anker-cancelamento-de-ruido-adaptativo-graves-poderosos-45h-de-reproducao-estojo-2-em-1-com-suporte-para-celular-ip54-fone-sem-fio-tws-preto/p/MLB38176139?pdp_filters=item_id%3AMLB5410636044&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T07:01+00:00",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": [],
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -991,9 +975,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_944817-MLA99499902540_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-54-soundcore-p30i-da-anker-cancelamento-de-ruido-adaptativo-graves-poderosos-45h-de-reproducao-estojo-2-em-1-com-suporte-para-celular-ip54-fone-sem-fio-tws-branco/p/MLB40556904?pdp_filters=item_id%3AMLB5410758824&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T07:01+00:00",
-   "cmp_em": "2026-09-28T07:01+00:00",
-   "cmp": [],
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -1008,7 +990,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_885051-MLA115066205765_072026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/processador-de-audio-digital-stetsom-stx2436bt-com-bluetooth-top/p/MLB22317614?pdp_filters=item_id%3AMLB4629269324&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -1023,7 +1005,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_854028-MLA117416860537_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/suporte-tv-fixo-universal-10-a-100-polegadas-forte-para-todas-as-marcas/p/MLB45862017?pdp_filters=item_id%3AMLB3790915517&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -1038,7 +1020,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_716350-MLA95696281086_102025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-qcy-ht08-melobuds-pro-anc-conexao-cor-preto/p/MLB40586256?pdp_filters=item_id%3AMLB4508615585&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -1756,7 +1738,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_856825-MLA116709255776_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/bicicleta-infantil-25-anos-nathor-homem-aranha-aro-12-azulvermelho-com-rodinhas/p/MLB26194643?pdp_filters=item_id%3AMLB5656296854&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T07:01+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Esportes",
    "ic": "🏋️"
   },
@@ -1846,8 +1828,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_899986-MLA100030314443_122025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/controlador-sem-fio-bluetooth-e-24-easysmx-x05-branco/p/MLB38419041?pdp_filters=item_id%3AMLB4736912829&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Games",
    "ic": "🎮"
@@ -1863,8 +1845,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_786044-MLA99920305379_112025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/controle-bluetooth-sem-fio-easysmx-x05-para-pc-android-cor-preto/p/MLB39106719?pdp_filters=item_id%3AMLB6899289920&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [
     {
      "loja": "AliExpress",
@@ -1872,7 +1854,7 @@
      "nota": 4.9,
      "vendas": 596,
      "t": "Controle de efeito Hall sem fio EasySMX X05 compatível com PC/Switch/TV/Celular/Steam, con",
-     "link": "https://s.click.aliexpress.com/e/_c4l9SXVj"
+     "link": "https://s.click.aliexpress.com/e/_c3c1V5wz"
     }
    ],
    "cat": "Games",
@@ -1889,7 +1871,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_673950-MLA99394598783_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-headphone-dapon-h02d-bluetooth-51-over-ear-22h-preto/p/MLB24117280?pdp_filters=item_id%3AMLB4587377807&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -1904,7 +1886,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_987051-MLA88535124534_072025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/headset-qcy-h3-anc-adaptativo-bluetooth-53-multiponto-60h-cor-preto/p/MLB28965708?pdp_filters=item_id%3AMLB6486725960&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -1919,7 +1901,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_628100-MLA99480320238_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/controle-gamesir-t4-nova-lite-sem-fio-para-pc-switch-android-ios-steam-hall-effect-cor-space-purple/p/MLB53666291?pdp_filters=item_id%3AMLB6676753272&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -1934,7 +1916,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_621157-MLA99867561257_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/controle-gamesir-g7-se-com-fio-para-xbox-one-series-s-x-pc-hall-effect-botoes-mecanicos-cor-laranja/p/MLB41146585?pdp_filters=item_id%3AMLB3936392085&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -1949,7 +1931,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_962708-MLB89168749975_082025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4922329448-kit-suporte-compativel-xbox-serie-s-controle-fone-e-console-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -1979,8 +1961,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_872253-MLB96642336275_102025-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-3240424598-kit-9-pares-meias-puma-sapatilha-soquete-invisivel-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -1996,8 +1978,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_882952-MLB106804965837_022026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-1837525408-kit-com-10-cuecas-boxer-masculina-microfibra-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -2013,7 +1995,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_617361-MLB54128842596_032023-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3239976866-kit-6-pares-meias-puma-cano-medio-alto-atoalhada-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -2028,7 +2010,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_946503-MLB82989859698_032025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-1010954920-kit-6-cuecas-lupo-boxer-box-sem-costura-basic-microfibra-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -2043,7 +2025,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_932405-MLB77376616776_072024-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3746504707-chinelo-havaianas-masculino-top-max-comfort-anatmica-macia-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -2058,7 +2040,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_880773-MLB99691301191_112025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4330911507-mochila-viagem-executiva-grande-notebook-masculina-feminina-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -2073,8 +2055,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_750181-MLB112918532031_062026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/kit-100-conector-de-pressao-emenda-2-vias-sem-solda-eyecool/up/MLBU3946749238?pdp_filters=item_id%3AMLB4653515061&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
    "cmp": [],
    "cat": "Celular e Tech",
    "ic": "📱"
@@ -2182,7 +2164,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_749887-MLB93844774361_092025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-2178625164-camisa-termica-voker-segunda-pele-proteco-solar-uv-dry-fit-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:38+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -2197,7 +2179,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_676335-MLB117966752223_092026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4028845341-tnis-kappa-run-200-original-caminhada-academia-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:38+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -2212,7 +2194,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_867286-MLB109373136106_042026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4340888693-tnis-sandrini-aero-spark-corrida-academia-caminhada-leve-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:38+00:00",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -2506,6 +2488,145 @@
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c4Slz8sz",
    "visto": "2026-09-28T07:01+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "MLB7107541578": {
+   "n": "Microfone Hollyland Lark A1 Duo Usb-c cor Preto",
+   "t": "Microfone Hollyland Lark A1 Duo Usb-c cor Preto",
+   "cid": "MLB1144",
+   "loja": "Mercado Livre",
+   "por": 315.92,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_939138-MLA99956854929_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/microfone-hollyland-lark-a1-duo-usb-c-cor-preto/p/MLB51856257?pdp_filters=item_id%3AMLB7107541578&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T07:32+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "MLB3713007620": {
+   "n": "Chapinha de cabelo MQ Professional Hair Styling Max480 Slim Titanium...",
+   "t": "Chapinha de cabelo MQ Professional Hair Styling Max480 Slim Titanium preta",
+   "cid": "MLB1246",
+   "loja": "Mercado Livre",
+   "por": 338.52,
+   "nota": 4.8,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_780323-MLA100054765763_122025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/chapinha-de-cabelo-mq-professional-hair-styling-max480-slim-titanium-preta/p/MLB19685656?pdp_filters=item_id%3AMLB3713007620&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
+   "cmp": [],
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "MLB7023811646": {
+   "n": "800mlgarrafa Térmica Água Squeeze Inox Academiaquente E Frio Preto",
+   "t": "800mlgarrafa Térmica Água Squeeze Inox Academiaquente E Frio Preto",
+   "cid": "MLB1276",
+   "loja": "Mercado Livre",
+   "por": 37.9,
+   "nota": 4.8,
+   "vendas": 250000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_963485-MLB94579785063_102025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/800mlgarrafa-termica-agua-squeeze-inox-academiaquente-e-frio/up/MLBU2978929588?pdp_filters=item_id%3AMLB7023811646&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T07:32+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005007138811658": {
+   "n": "UGREEN USB C para USB Tipo C 100W Carregamento Rápido Para MacBook...",
+   "t": "UGREEN USB C para USB Tipo C 100W Carregamento Rápido Para MacBook iPhone 17 16 15 iPad Samsung S25 Xiaomi PD Carregamento Rápido 100W 5A US",
+   "busca": "ugreen usb c cable 100w",
+   "loja": "AliExpress",
+   "por": 38.19,
+   "nota": 5.0,
+   "vendas": 2057,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S278d8d48901247c5b0ed5019f99676c8V.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2uuX4JL",
+   "visto": "2026-09-28T07:32+00:00",
+   "cmp_em": "2026-09-28T07:32+00:00",
+   "cmp": [],
+   "cat": "Celular e Tech",
+   "ic": "📱"
+  },
+  "ali:1005009070525317": {
+   "n": "Cabo USB C UGREEN Multifuncional USB4 40Gbps PD3.1 240W com...",
+   "t": "Cabo USB C UGREEN Multifuncional USB4 40Gbps PD3.1 240W com Carregamento Rápido 8K60Hz para Monitor, Laptop, MacBook, iPhone 17, Samsung",
+   "busca": "ugreen usb c cable 100w",
+   "loja": "AliExpress",
+   "por": 74.2,
+   "nota": 5.0,
+   "vendas": 1460,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S19671b187961457e906baa7f20c3bfeas.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4TiRzUh",
+   "visto": "2026-09-28T07:32+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
+  },
+  "ali:1005004750343225": {
+   "n": "Cabo de Carregamento Rápido UGREEN 90 Graus PD100W 60W USB-C para...",
+   "t": "Cabo de Carregamento Rápido UGREEN 90 Graus PD100W 60W USB-C para USB-C para iPhone 17, Samsung, MacBook, iPad com Quick Charge 4.0",
+   "busca": "ugreen usb c cable 100w",
+   "loja": "AliExpress",
+   "por": 42.29,
+   "nota": 5.0,
+   "vendas": 1245,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfdf93293d26244a68f8f1249eeee9675F.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4OjlUZR",
+   "visto": "2026-09-28T07:32+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
+  },
+  "ali:1005009719153353": {
+   "n": "Escorredor de Pia de Plástico para Cozinha, Suporte para Esponja...",
+   "t": "Escorredor de Pia de Plástico para Cozinha, Suporte para Esponja, Sabão e Toalha, Organizador de Acessórios de Cozinha",
+   "busca": "kitchen storage organizer",
+   "loja": "AliExpress",
+   "por": 25.09,
+   "nota": 4.9,
+   "vendas": 7413,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa21731dc48cb4689ac94e00d0523d6c3a.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3pgLsvn",
+   "visto": "2026-09-28T07:32+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005012655638404": {
+   "n": "Suporte de Parede para Vassouras e Rodos em Aço Inoxidável Reforçado...",
+   "t": "Suporte de Parede para Vassouras e Rodos em Aço Inoxidável Reforçado com Ganchos Organizadores para Cozinha e Banheiro",
+   "busca": "kitchen storage organizer",
+   "loja": "AliExpress",
+   "por": 29.99,
+   "nota": 4.9,
+   "vendas": 4055,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sec2f404848064e5894e75c3f5fc715a35.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3NgIpKd",
+   "visto": "2026-09-28T07:32+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005008248056658": {
+   "n": "1pc cozinha caixa de armazenamento de ovos geladeira plástico fresco...",
+   "t": "1pc cozinha caixa de armazenamento de ovos geladeira plástico fresco 2 camadas tipo gaveta grande capacidade armazenamento casa cozinha orga",
+   "busca": "kitchen storage organizer",
+   "loja": "AliExpress",
+   "por": 75.39,
+   "nota": 4.9,
+   "vendas": 4054,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S12463028b1e8497b855f07cd927a97767.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3OXb39x",
+   "visto": "2026-09-28T07:32+00:00",
    "cat": "Casa",
    "ic": "🏠"
   }
