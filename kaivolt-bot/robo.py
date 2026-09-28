@@ -530,8 +530,14 @@ def main():
         sys.exit(1)
     meta["ultimo_total"] = len(saida)
 
+    try:
+        achados = achados_site(regras, historico)
+    except Exception as e:                      # achados nunca derrubam o site
+        log("Achados: ERRO ->", e)
+        achados = []
+    log(f"Achados do dia no site: {len(achados)}")
     resultado = {"atualizado": datetime.now(timezone.utc).isoformat(timespec="minutes"),
-                 "produtos": saida}
+                 "produtos": saida, "achados": achados}
     salvar_json(ARQ_SAIDA, resultado)
     log(f"ok: {len(saida)} produtos em {ARQ_SAIDA}")
 
@@ -699,6 +705,14 @@ def garimpo_ali(regras, st):
 # e monta o link de afiliado direto (matt_word/matt_tool), igual aos links do site.
 # ======================================================================
 ML_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
+ML_CATS = {   # id da categoria no Mercado Livre -> (nome, emoji) — usado no site e nos posts
+    "": ("Ofertas do dia", "🔥"), "MLB1574": ("Casa", "🏠"), "MLB5726": ("Eletrodomésticos", "🍳"),
+    "MLB1246": ("Beleza", "💄"), "MLB1276": ("Esportes", "🏋️"), "MLB263532": ("Ferramentas", "🔧"),
+    "MLB1071": ("Pet", "🐾"), "MLB1132": ("Brinquedos", "🧸"), "MLB1384": ("Bebês", "🍼"),
+    "MLB5672": ("Automotivo", "🚗"), "MLB1403": ("Mercado", "🛒"), "MLB1430": ("Moda", "👟"),
+    "MLB1051": ("Celular", "📱"), "MLB1648": ("Informática", "💻"), "MLB1000": ("Eletrônicos", "🎧"),
+    "MLB1144": ("Games", "🎮"), "MLB264586": ("Saúde", "🩺"), "MLB1039": ("Câmeras", "📷"),
+}
 
 
 def ml_num(inteiro, centavos=None):
@@ -750,39 +764,95 @@ def ml_link_afiliado(url_p, item, regras):
     return urllib.parse.urlunsplit((u.scheme, u.netloc, u.path, urllib.parse.urlencode(params), ""))
 
 
-def garimpo_ml(regras, st):
-    """Garimpo do Mercado Livre: pega as 'Ofertas do dia' das categorias de tecnologia, aplica o filtro
-    de qualidade (nota, vendas, faixa de preço, palavras proibidas), nunca repete em 30 dias.
-    O melhor vira o post; os outros bons vão pra aba 'Mercado Livre' da página do WhatsApp."""
-    cats = regras.get("ml_garimpo_categorias") or ["MLB1051", "MLB1648", "MLB1000", "MLB1144"]
+def ml_filtra(cards, regras, ja=None, limite=""):
+    """Filtro de qualidade do Mercado Livre (vale pro canal e pro site)."""
     nmin = float(regras.get("ml_garimpo_avaliacao_min", 4.7))
     vmin = int(regras.get("ml_garimpo_vendas_min", 1000))
     pmin, pmax = float(regras.get("ml_garimpo_preco_min", 15)), float(regras.get("ml_garimpo_preco_max", 400))
     proibidas = [x.lower() for x in regras.get("ml_garimpo_excluir", [])]
+    bons = []
+    for c in cards:
+        t = c["titulo"].lower()
+        if ja is not None and ja.get("ml:" + c["pid"], "") >= limite:
+            continue
+        if c["nota"] < nmin or c["vendas"] < vmin or not (pmin <= c["por"] <= pmax):
+            continue
+        if any(x in t for x in proibidas) or not palavras_ok(c["titulo"], None, None):
+            continue
+        bons.append(c)
+    bons.sort(key=lambda c: (c["oferta_dia"], c["nota"], math.log10(max(c["vendas"], 1))), reverse=True)
+    return bons
+
+
+def ml_url_ofertas(cat, pagina=1):
+    q = [f"category={cat}"] if cat else []
+    if pagina > 1:
+        q.append(f"page={pagina}")
+    return "https://www.mercadolivre.com.br/ofertas" + ("?" + "&".join(q) if q else "")
+
+
+def achados_site(regras, historico):
+    """Seção 'Achados do dia' do site: a cada rodada lê 2 categorias das Ofertas do dia do Mercado Livre,
+    aplica o mesmo filtro de qualidade e guarda por até 'achados_horas'. Mistura as categorias no resultado."""
+    if not regras.get("achados_ativo", True):
+        return []
+    cats = regras.get("achados_categorias") or [k for k in ML_CATS if k]
+    meta = historico.setdefault("_achados_meta", {"n": 0})
+    guard = historico.setdefault("_achados", {})
+    agora = datetime.now(timezone.utc)
+    for _ in range(int(regras.get("achados_categorias_por_rodada", 2))):
+        cat = cats[meta["n"] % len(cats)]
+        meta["n"] += 1
+        try:
+            cards = ml_cards_ofertas(ml_url_ofertas(cat))
+        except Exception as e:
+            log(f"Achados: não consegui ler {ML_CATS.get(cat, (cat,))[0]} ->", e)
+            continue
+        bons = ml_filtra(cards, regras)[:int(regras.get("achados_por_categoria", 8))]
+        log(f"Achados: {ML_CATS.get(cat, (cat,))[0]} -> {len(cards)} lidas, {len(bons)} aprovadas")
+        for c in bons:
+            nome, ic = ML_CATS.get(cat, ("Ofertas", "🔥"))
+            guard[c["pid"]] = {"n": titulo_curto(c["titulo"], 70), "t": c["titulo"][:140], "cat": nome, "ic": ic,
+                               "loja": "Mercado Livre", "por": round(c["por"], 2), "nota": c["nota"],
+                               "vendas": c["vendas"], "img": c["img"], "od": 1 if c["oferta_dia"] else 0,
+                               "link": ml_link_afiliado(c["url"], c["item"], regras),
+                               "visto": agora.isoformat(timespec="minutes")}
+    horas = float(regras.get("achados_horas", 36))
+    for k in [k for k, v in guard.items()
+              if (agora - datetime.fromisoformat(v["visto"])).total_seconds() > horas * 3600]:
+        del guard[k]
+    # mistura as categorias (um de cada por vez) pra vitrine não ficar só de uma coisa
+    por_cat = {}
+    for v in sorted(guard.values(), key=lambda v: (v["od"], v["nota"], math.log10(max(v["vendas"], 1))), reverse=True):
+        por_cat.setdefault(v["cat"], []).append(v)
+    saida, maximo = [], int(regras.get("achados_max_site", 48))
+    while len(saida) < maximo and any(por_cat.values()):
+        for cat in list(por_cat):
+            if por_cat[cat] and len(saida) < maximo:
+                saida.append({k: v for k, v in por_cat[cat].pop(0).items() if k != "visto"})
+    return saida
+
+
+def garimpo_ml(regras, st):
+    """Garimpo do Mercado Livre: pega as 'Ofertas do dia' de TODAS as categorias (em rodízio), aplica o filtro
+    de qualidade (nota, vendas, faixa de preço, palavras proibidas), nunca repete em 30 dias.
+    O melhor vira o post; os outros bons vão pra aba 'Mercado Livre' da página do WhatsApp."""
+    cats = regras.get("ml_garimpo_categorias")
+    if cats is None:
+        cats = [""]
     ja = st.setdefault("garimpo", {})
     limite = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
     for tentativa in range(2):
         n = st.get("ml_n", 0)
         cat, pagina = cats[n % len(cats)], (n // len(cats)) % 3 + 1
         st["ml_n"] = n + 1
-        url = f"https://www.mercadolivre.com.br/ofertas?category={cat}" + (f"&page={pagina}" if pagina > 1 else "")
-        log(f"  Garimpo ML: lendo ofertas {cat} (página {pagina})")
+        log(f"  Garimpo ML: lendo ofertas {ML_CATS.get(cat, (cat,))[0]} (página {pagina})")
         try:
-            cards = ml_cards_ofertas(url)
+            cards = ml_cards_ofertas(ml_url_ofertas(cat, pagina))
         except Exception as e:
             log("  Garimpo ML: não consegui ler a página ->", e)
             return None
-        cands = []
-        for c in cards:
-            t = c["titulo"].lower()
-            if ja.get("ml:" + c["pid"], "") >= limite:
-                continue
-            if c["nota"] < nmin or c["vendas"] < vmin or not (pmin <= c["por"] <= pmax):
-                continue
-            if any(x in t for x in proibidas) or not palavras_ok(c["titulo"], None, None):
-                continue
-            cands.append(c)
-        cands.sort(key=lambda c: (c["oferta_dia"], c["nota"], math.log10(max(c["vendas"], 1))), reverse=True)
+        cands = ml_filtra(cards, regras, ja, limite)
         log(f"  Garimpo ML: {len(cards)} ofertas lidas, {len(cands)} passaram no filtro")
         if not cands:
             continue
@@ -807,7 +877,7 @@ def divulgar(saida, historico, regras):
     - posta das 'telegram_inicio' às 'telegram_fim' (Brasília), 1 post a cada 'telegram_intervalo_min' minutos
     - prioridade 1: produto do site que CAIU de preço de verdade (10%+)
     - prioridade 2: destaque do site às 12h e às 20h
-    - resto do tempo: GARIMPO — produto novo do AliExpress com nota alta e muita venda, nunca repetido
+    - resto do tempo: GARIMPO — produto novo (Mercado Livre e AliExpress, todas as categorias) com nota alta e muita venda, nunca repetido
     - máximo 'telegram_max_dia' posts por dia"""
     st = historico.setdefault("_divulgacao", {})
     for k, v in (("postados", {}), ("slots", {}), ("fila_zap", []), ("garimpo", {}), ("kw", 0), ("ultimo", ""), ("dia", {})):
