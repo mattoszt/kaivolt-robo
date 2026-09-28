@@ -14,7 +14,9 @@
       "garimpo_*: o robô garimpa produtos NOVOS no AliExpress pro canal (fora do site) — só com nota e vendas altas, nunca repete",
       "garimpo_buscas: o que ele procura (em inglês acha mais coisa). Pode adicionar ou tirar à vontade",
       "ml_garimpo_*: o robô garimpa as 'Ofertas do dia' do Mercado Livre de TODAS as categorias (em rodízio: casa, beleza, pet, ferramentas, celular etc.) — nota 4,7+, 1.000+ vendas, R$15 a R$400, sem suplemento/remédio/produto adulto/vape. Já com o teu link de afiliado. Alterna com o garimpo do AliExpress. ml_garimpo_ativo: false desliga.",
-      "achados_*: seção 'Achados do dia' do site — a cada rodada lê 5 categorias do Mercado Livre (celular, games, moda, beleza, eletrônicos, esportes, relógios, informática, casa, eletrodomésticos, ferramentas, automotivo, pet, brinquedos — a ordem da lista é a prioridade na vitrine), guarda os aprovados por 36h e mostra até 56, misturando as categorias. achados_ativo: false desliga."
+      "achados_*: seção 'Achados do dia' do site — a cada rodada lê 5 categorias do Mercado Livre (celular, games, moda, beleza, eletrônicos, esportes, relógios, informática, casa, eletrodomésticos, ferramentas, automotivo, pet, brinquedos — a ordem da lista é a prioridade na vitrine), guarda os aprovados por 36h e mostra até 56, misturando as categorias. achados_ativo: false desliga.",
+      "achados_ali_*: o site também mostra achados do AliExpress (API oficial): a cada rodada faz 2 buscas da lista garimpo_buscas e coloca até 3 produtos de cada, com o mesmo filtro rígido do canal (nota 94%+, 500+ vendas). achados_ali_ativo: false desliga.",
+      "comparar_*: pra cada achado do site, o robô procura o MESMO produto nas outras lojas (AliExpress hoje; Shopee entra sozinha quando a API liberar). Só compara quando marca/modelo/capacidade batem. Preço abaixo de 55% do achado = cara de golpe, fica de fora. Acima de 1,8x não compensa. Aplica nota e vendas mínimas. Compara 10 por rodada e refaz a cada 24h."
     ],
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
@@ -45,9 +47,9 @@
       "clone",
       "fake"
     ],
-    "telegram_max_dia": 45,
+    "telegram_max_dia": 24,
     "queda_minima_alerta": 10,
-    "telegram_intervalo_min": 20,
+    "telegram_intervalo_min": 40,
     "telegram_inicio": 8,
     "telegram_fim": 23,
     "garimpo_vendas_min": 500,
@@ -293,7 +295,15 @@
     "achados_categorias_por_rodada": 5,
     "achados_por_categoria": 8,
     "achados_horas": 36,
-    "achados_max_site": 56
+    "achados_max_site": 64,
+    "achados_ali_ativo": true,
+    "achados_ali_buscas_por_rodada": 2,
+    "achados_ali_por_busca": 3,
+    "comparar_ativo": true,
+    "comparar_por_rodada": 10,
+    "comparar_validade_horas": 24,
+    "comparar_min_fator": 0.55,
+    "comparar_max_fator": 1.8
   },
   "produtos": [
     {
