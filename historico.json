@@ -82,7 +82,7 @@
  "fone-tws": {
   "2026-09-26": 29.19,
   "2026-09-27": 29.21,
-  "2026-09-28": 29.19
+  "2026-09-28": 155.9
  },
  "caixa-som": {
   "2026-09-26": 41.11,
@@ -400,7 +400,7 @@
   }
  },
  "_achados_meta": {
-  "n": 2
+  "n": 4
  },
  "_achados": {
   "MLB-5312090728": {
@@ -532,8 +532,8 @@
   "MLB6149410898": {
    "n": "Prancha Lizze Profissional 480 Extreme",
    "t": "Prancha Lizze Profissional 480 Extreme",
-   "cat": "Eletrodomésticos",
-   "ic": "🍳",
+   "cat": "Beleza",
+   "ic": "💄",
    "loja": "Mercado Livre",
    "por": 359.1,
    "nota": 4.9,
@@ -541,7 +541,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_818555-MLA99479472410_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/prancha-lizze-profissional-480-extreme/p/MLB24086423?pdp_filters=item_id%3AMLB6149410898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T05:47+00:00"
+   "visto": "2026-09-28T05:56+00:00"
   },
   "MLB4129672747": {
    "n": "Cafeteira Nescafé Dolce Gusto Mini Me Preta",
@@ -626,6 +626,216 @@
    "od": 0,
    "link": "https://www.mercadolivre.com.br/ventilador-de-teto-c-controle-6-vel-fenix-ventisol/p/MLB35556218?pdp_filters=item_id%3AMLB2735052332&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-28T05:47+00:00"
+  },
+  "MLB6695260200": {
+   "n": "Principia Kit Hidratação E Proteção Facial Ch-o1 + Ps-01 Todo Tipo De...",
+   "t": "Principia Kit Hidratação E Proteção Facial Ch-o1 + Ps-01 Todo Tipo De Pele Dia/noite",
+   "cat": "Beleza",
+   "ic": "💄",
+   "loja": "Mercado Livre",
+   "por": 49.29,
+   "nota": 5.0,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_628874-MLA111086008543_042026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/principia-kit-hidratacao-e-protecao-facial-ch-o1-ps-01-todo-tipo-de-pele-dianoite/p/MLB68915199?pdp_filters=item_id%3AMLB6695260200&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB2770275483": {
+   "n": "Cetaphil Loção Hidratante Corporal e Facial para Pele Seca e Sensível...",
+   "t": "Cetaphil Loção Hidratante Corporal e Facial para Pele Seca e Sensível 473ml - Hidratação por 48h",
+   "cat": "Beleza",
+   "ic": "💄",
+   "loja": "Mercado Livre",
+   "por": 88.1,
+   "nota": 4.9,
+   "vendas": 250000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_624170-MLA116562708364_092026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/cetaphil-locao-hidratante-corporal-e-facial-para-pele-seca-e-sensivel-473ml-hidratacao-por-48h/p/MLB20772474?pdp_filters=item_id%3AMLB2770275483&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB6149243620": {
+   "n": "Chapinha Lizze Profissional 480 Extreme",
+   "t": "Chapinha Lizze Profissional 480 Extreme",
+   "cat": "Beleza",
+   "ic": "💄",
+   "loja": "Mercado Livre",
+   "por": 399.0,
+   "nota": 4.9,
+   "vendas": 100000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_910411-MLA116496414555_082026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/chapinha-lizze-profissional-480-extreme/p/MLB8736693?pdp_filters=item_id%3AMLB6149243620&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB3811719800": {
+   "n": "Neve Supreme 16 rolos",
+   "t": "Neve Supreme 16 rolos",
+   "cat": "Beleza",
+   "ic": "💄",
+   "loja": "Mercado Livre",
+   "por": 25.59,
+   "nota": 4.9,
+   "vendas": 100000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_952285-MLA112915649382_072026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/neve-supreme-16-rolos/p/MLB16084461?pdp_filters=item_id%3AMLB3811719800&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB5554213538": {
+   "n": "Kit Principia para Rotina de Skincare Pele Sensível com Protetor...",
+   "t": "Kit Principia para Rotina de Skincare Pele Sensível com Protetor Solar FPS 60",
+   "cat": "Beleza",
+   "ic": "💄",
+   "loja": "Mercado Livre",
+   "por": 92.47,
+   "nota": 4.9,
+   "vendas": 100000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_761257-MLA108807654621_032026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/kit-principia-para-rotina-de-skincare-pele-sensivel-com-protetor-solar-fps-60/p/MLB53618239?pdp_filters=item_id%3AMLB5554213538&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB4825345256": {
+   "n": "Escova dental ultramacia Curaprox Trio 3 unidades cores sortidas",
+   "t": "Escova dental ultramacia Curaprox Trio 3 unidades cores sortidas",
+   "cat": "Beleza",
+   "ic": "💄",
+   "loja": "Mercado Livre",
+   "por": 97.99,
+   "nota": 4.9,
+   "vendas": 100000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_799919-MLU74220041741_012024-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/escova-dental-ultramacia-curaprox-trio-3-unidades-cores-sortidas/p/MLB18395563?pdp_filters=item_id%3AMLB4825345256&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB6818816600": {
+   "n": "Secador Taiff Style 2000w Motor Ac Preto 127 v",
+   "t": "Secador Taiff Style 2000w Motor Ac Preto 127 v",
+   "cat": "Beleza",
+   "ic": "💄",
+   "loja": "Mercado Livre",
+   "por": 227.0,
+   "nota": 4.9,
+   "vendas": 50000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_701108-MLA105261068161_012026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/secador-taiff-style-2000w-motor-ac-preto-127-v/p/MLB18920578?pdp_filters=item_id%3AMLB6818816600&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB4354358531": {
+   "n": "Lanterna Tática Mais Forte Do Mundo T9 Potente Recarregável Preto",
+   "t": "Lanterna Tática Mais Forte Do Mundo T9 Potente Recarregável Preto",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 48.0,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_815995-MLB100305922994_122025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/lanterna-tatica-mais-forte-do-mundo-t9-potente-recarregavel/up/MLBU3668983470?pdp_filters=item_id%3AMLB4354358531&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB-3102506128": {
+   "n": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
+   "t": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 48.47,
+   "nota": 4.8,
+   "vendas": 250000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_899152-MLB113410235826_072026-O.jpg",
+   "od": 1,
+   "link": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB-5408593708": {
+   "n": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
+   "t": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 86.9,
+   "nota": 4.7,
+   "vendas": 100000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_878916-MLB117966667293_092026-O.jpg",
+   "od": 1,
+   "link": "https://produto.mercadolivre.com.br/MLB-5408593708-tnis-casual-kappa-zenit-masculino-unissex-conforto-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB5872061294": {
+   "n": "Multivitamínico Growth Supplements em cápsula Sem sabor x 100g de 120...",
+   "t": "Multivitamínico Growth Supplements em cápsula Sem sabor x 100g de 120 un",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 52.9,
+   "nota": 4.9,
+   "vendas": 250000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_723031-MLA98380453196_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/multivitaminico-growth-supplements-em-capsula-sem-sabor-x-100g-de-120-un/p/MLB21555776?pdp_filters=item_id%3AMLB5872061294&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB4291609113": {
+   "n": "PENTA MAGNÉSIO - Bisglicinato + Dimalato + Citrato + Taurato + Óxido...",
+   "t": "PENTA MAGNÉSIO - Bisglicinato + Dimalato + Citrato + Taurato + Óxido de Magnésio - A Combinação Perfeita de 5 Magnésios com Máxima Pureza e ",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 55.63,
+   "nota": 4.9,
+   "vendas": 50000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_604175-MLA113496610054_072026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/penta-magnesio-bisglicinato-dimalato-citrato-taurato-oxido-de-magnesio-a-combinacao-perfeita-de-5-magnesios-com-maxima-pureza-e-biodisponibilidade-60-capsulas/p/MLB61669343?pdp_filters=item_id%3AMLB4291609113&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB5552965854": {
+   "n": "Coenzima Q10 Forged Nutrition Forged Clean em cápsula Sem sabor x 30g...",
+   "t": "Coenzima Q10 Forged Nutrition Forged Clean em cápsula Sem sabor x 30g de 60 un",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 69.9,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_637238-MLA107348538091_022026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/coenzima-q10-forged-nutrition-forged-clean-em-capsula-sem-sabor-x-30g-de-60-un/p/MLB30465601?pdp_filters=item_id%3AMLB5552965854&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB5874365436": {
+   "n": "Ômega 3 Epa Dha 240 Cápsulas Dark Lab",
+   "t": "Ômega 3 Epa Dha 240 Cápsulas Dark Lab",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 104.9,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_876329-MLA99502619184_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/mega-3-epa-dha-240-capsulas-dark-lab/p/MLB60940335?pdp_filters=item_id%3AMLB5874365436&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
+  },
+  "MLB5761715520": {
+   "n": "NAC 600mg - Fórmula Exclusiva com Máxima Concentração e Pureza...",
+   "t": "NAC 600mg - Fórmula Exclusiva com Máxima Concentração e Pureza - N-Acetil L-Cisteína - 60 Cápsulas",
+   "cat": "Esportes",
+   "ic": "🏋️",
+   "loja": "Mercado Livre",
+   "por": 45.77,
+   "nota": 4.8,
+   "vendas": 50000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_690214-MLA113495617962_072026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/nac-600mg-formula-exclusiva-com-maxima-concentracao-e-pureza-n-acetil-l-cisteina-60-capsulas/p/MLB58579835?pdp_filters=item_id%3AMLB5761715520&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T05:56+00:00"
   }
  }
 }
