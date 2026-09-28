@@ -859,6 +859,10 @@ def enviar_ftp(resultado, extras=None):
         extras = dict(extras or {})
         # sem cache no navegador pra zap.html e ofertas.json (senão o celular mostra versão velha por dias)
         extras.setdefault(".htaccess", '<IfModule mod_headers.c>\n<FilesMatch "\\.(html|json)$">\n  Header set Cache-Control "no-cache, must-revalidate"\n</FilesMatch>\n</IfModule>\n')
+        # página do grupo (anúncios): se existir grupo.html no repositório, vai junto pro site
+        arq_grupo = os.path.join(PASTA, "grupo.html")
+        if os.path.exists(arq_grupo):
+            extras.setdefault("grupo.html", open(arq_grupo, encoding="utf-8").read())
         for nome, conteudo in extras.items():
             ftp.storbinary(f"STOR {nome}", io.BytesIO(conteudo.encode("utf-8") if isinstance(conteudo, str) else conteudo))
             log("enviado também:", ftp.pwd() + "/" + nome)
