@@ -337,7 +337,7 @@
   }
  },
  "_meta": {
-  "ultimo_total": 20
+  "ultimo_total": 21
  },
  "_divulgacao": {
   "postados": {
@@ -400,15 +400,14 @@
   }
  },
  "_achados_meta": {
-  "n": 19,
-  "ali_n": 2
+  "n": 24,
+  "ali_n": 4
  },
  "_achados": {
   "MLB-5312090728": {
    "n": "Sapateira Organizador Sapatos Empilhável Vertical 6 Andares",
    "t": "Sapateira Organizador Sapatos Empilhável Vertical 6 Andares",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 131.55,
    "nota": 4.8,
@@ -416,15 +415,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_726678-MLB85638884735_062025-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-5312090728-sapateira-organizador-sapatos-empilhavel-vertical-6-andares-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
-   "cmp": []
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB5223037602": {
    "n": "Kit 2 Travesseiros Select Royal Toque De Plumas Linha Hotel Cor Branco",
    "t": "Kit 2 Travesseiros Select Royal Toque De Plumas Linha Hotel Cor Branco",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 149.51,
    "nota": 4.8,
@@ -432,15 +432,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_993747-MLA99504199216_112025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/kit-2-travesseiros-select-royal-toque-de-plumas-linha-hotel-cor-branco/p/MLB35297722?pdp_filters=item_id%3AMLB5223037602&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
-   "cmp": []
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB3333707681": {
    "n": "Travesseiro Ajustável - I Wanna Sleep - Snow® Cor Branco",
    "t": "Travesseiro Ajustável - I Wanna Sleep - Snow® Cor Branco",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 313.0,
    "nota": 4.8,
@@ -448,15 +449,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_793097-MLA112163407284_062026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/travesseiro-ajustavel-i-wanna-sleep-snow-cor-branco/p/MLB23153789?pdp_filters=item_id%3AMLB3333707681&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
-   "cmp": []
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB-3965059663": {
    "n": "Jogo De Lençol 400 Fios Ponto Palito Cama Queen 3 Pçs Saldão",
    "t": "Jogo De Lençol 400 Fios Ponto Palito Cama Queen 3 Pçs Saldão",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 30.93,
    "nota": 4.7,
@@ -464,15 +466,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_931976-MLB91576298821_092025-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-3965059663-jogo-de-lencol-400-fios-ponto-palito-cama-queen-3-pcs-saldo-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
-   "cmp": []
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB-1920593249": {
    "n": "Cortina Blackout Tecido Grosso 2,80x2,30 Porta Sala Quarto",
    "t": "Cortina Blackout Tecido Grosso 2,80x2,30 Porta Sala Quarto",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 78.9,
    "nota": 4.7,
@@ -480,15 +483,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_957891-MLB94465852219_102025-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-1920593249-cortina-blackout-tecido-grosso-280x230-porta-sala-quarto-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
-   "cmp": []
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB7564635266": {
    "n": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Rishon",
    "t": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Rishon",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 97.62,
    "nota": 4.9,
@@ -496,13 +500,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_900432-MLA113518359539_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-10-pote-de-vidro-marmita-hermetico-640ml-freezer-fitness-rishon/p/MLB63904966?pdp_filters=item_id%3AMLB7564635266&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB5574851656": {
    "n": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno...",
    "t": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 107.77,
    "nota": 4.9,
@@ -510,13 +517,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_942823-MLA113526261849_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-10-potes-hermeticos-vidro-640ml-starhouse-marmita-forno-micro-ondas-airfryer-com-4-travas-de-super-vedacao/p/MLB53222689?pdp_filters=item_id%3AMLB5574851656&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB4172731751": {
    "n": "Percarbonato De Sódio Limpador Clareador Tira Manchas - 3kg",
    "t": "Percarbonato De Sódio Limpador Clareador Tira Manchas - 3kg",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB1574",
    "loja": "Mercado Livre",
    "por": 62.0,
    "nota": 4.9,
@@ -524,7 +534,11 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_823757-MLB113315184785_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/percarbonato-de-sodio-limpador-clareador-tira-manchas--3kg/up/MLBU3381928452?pdp_filters=item_id%3AMLB4172731751&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB3225819794": {
    "n": "Balança Digital Corporal Bioimpedância Aplicativo Bluetooth Relaxmedic",
@@ -537,7 +551,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_669691-MLA106901751604_022026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/balanca-digital-corporal-bioimpedancia-aplicativo-bluetooth-relaxmedic/p/MLB21814751?pdp_filters=item_id%3AMLB3225819794&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:11+00:00",
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -552,7 +568,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_818555-MLA99479472410_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/prancha-lizze-profissional-480-extreme/p/MLB24086423?pdp_filters=item_id%3AMLB6149410898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -567,7 +585,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_626577-MLA99520084810_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-mini-me-preta/p/MLB15154780?pdp_filters=item_id%3AMLB4129672747&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:11+00:00",
+   "visto": "2026-09-28T06:38+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -582,7 +600,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_899500-MLA100080591947_122025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/secador-taiff-tourmaline-ion-2100w-alta-performance-preto/p/MLB23888631?pdp_filters=item_id%3AMLB2195602469&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:11+00:00",
+   "visto": "2026-09-28T06:38+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -597,7 +615,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_773776-MLA106648864819_022026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/aspirador-vertical-wap-power-speed-max-ci10-3-em-1-1600w-127v/p/MLB62021471?pdp_filters=item_id%3AMLB6161133722&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:11+00:00",
+   "visto": "2026-09-28T06:38+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -612,7 +630,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_633098-MLA92276027266_092025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-11-litros-1800w-8-funcoes-philco-paf11b/p/MLB56550237?pdp_filters=item_id%3AMLB4856696863&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:11+00:00",
+   "visto": "2026-09-28T06:38+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -756,8 +774,7 @@
   "MLB4354358531": {
    "n": "Lanterna Tática Mais Forte Do Mundo T9 Potente Recarregável Preto",
    "t": "Lanterna Tática Mais Forte Do Mundo T9 Potente Recarregável Preto",
-   "cat": "Esportes",
-   "ic": "🏋️",
+   "cid": "MLB1276",
    "loja": "Mercado Livre",
    "por": 48.0,
    "nota": 4.9,
@@ -765,8 +782,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_815995-MLB100305922994_122025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/lanterna-tatica-mais-forte-do-mundo-t9-potente-recarregavel/up/MLBU3668983470?pdp_filters=item_id%3AMLB4354358531&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
    "cmp": [
     {
      "loja": "AliExpress",
@@ -774,9 +791,11 @@
      "nota": 4.7,
      "vendas": 230,
      "t": "T9 Lanterna Tática Mais Forte Do Mundo Potente Sitio Fazenda",
-     "link": "https://s.click.aliexpress.com/e/_c3uzTcnx"
+     "link": "https://s.click.aliexpress.com/e/_c2wc8icV"
     }
-   ]
+   ],
+   "cat": "Esportes",
+   "ic": "🏋️"
   },
   "MLB-3102506128": {
    "n": "Top Puma Original Feminino Alta Sustentação Academia Fitness",
@@ -789,8 +808,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_899152-MLB113410235826_072026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-3102506128-top-puma-original-feminino-alta-sustentaco-academia-fitness-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
    "cmp": [],
    "cat": "Esportes",
    "ic": "🏋️"
@@ -806,8 +825,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_878916-MLB117966667293_092026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-5408593708-tnis-casual-kappa-zenit-masculino-unissex-conforto-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:29+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -992,8 +1011,7 @@
   "MLB4102012303": {
    "n": "Mini Projeto Hy300 Smart Portátil Full Hd 4k Android 11 Wi-fi...",
    "t": "Mini Projeto Hy300 Smart Portátil Full Hd 4k Android 11 Wi-fi Bluetooth Mini Projetor Home Theater Cinema Em Casa TV Imagem Nítida Som Poten",
-   "cat": "Celular e Tech",
-   "ic": "📱",
+   "cid": "MLB1648",
    "loja": "Mercado Livre",
    "por": 186.42,
    "nota": 4.7,
@@ -1001,13 +1019,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_624953-MLA106205004742_022026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/mini-projeto-hy300-smart-portatil-full-hd-4k-android-11-wi-fi-bluetooth-mini-projetor-home-theater-cinema-em-casa-tv-imagem-nitida-som-potente-compativel-com-diversos-dispositivos-branco-vlx/p/MLB51539641?pdp_filters=item_id%3AMLB4102012303&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
   },
   "MLB5270143384": {
    "n": "Relógio Masculino Preto Saint Germain Houston Full Black 40mm Fundo...",
    "t": "Relógio Masculino Preto Saint Germain Houston Full Black 40mm Fundo Preto",
-   "cat": "Moda",
-   "ic": "👟",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 135.0,
    "nota": 4.8,
@@ -1015,15 +1034,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_956846-MLA99963696157_112025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/relogio-masculino-preto-saint-germain-houston-full-black-40mm-fundo-preto/p/MLB19821291?pdp_filters=item_id%3AMLB5270143384&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
-   "cmp": []
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Moda",
+   "ic": "👟"
   },
   "MLB-4223700849": {
    "n": "Relógio S11 Smartwatch Microwear Serie11 Gps Chatgpt Whatsap",
    "t": "Relógio S11 Smartwatch Microwear Serie11 Gps Chatgpt Whatsap",
-   "cat": "Moda",
-   "ic": "👟",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 123.99,
    "nota": 4.7,
@@ -1031,15 +1051,16 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_779314-MLB109648282500_042026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-4223700849-relogio-s11-smartwatch-microwear-serie11-gps-chatgpt-whatsap-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00",
-   "cmp_em": "2026-09-28T06:29+00:00",
-   "cmp": []
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Moda",
+   "ic": "👟"
   },
   "MLB4077314251": {
    "n": "Relógio De Parede Grande Led Digital P/ Academia Hospital Preto",
    "t": "Relógio De Parede Grande Led Digital P/ Academia Hospital Preto",
-   "cat": "Casa",
-   "ic": "🏠",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 75.4,
    "nota": 4.9,
@@ -1047,13 +1068,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_872725-MLB69933039441_062023-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/relogio-de-parede-grande-led-digital-p-academia-hospital/up/MLBU3206351128?pdp_filters=item_id%3AMLB4077314251&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
   },
   "MLB-5646929746": {
    "n": "Kit 10 Mini Porta Jóias Viagem Maleta Caixa Zíper Atacado",
    "t": "Kit 10 Mini Porta Jóias Viagem Maleta Caixa Zíper Atacado",
-   "cat": "Moda",
-   "ic": "👟",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 68.59,
    "nota": 4.9,
@@ -1061,13 +1083,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_823805-MLB111571419116_062026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-5646929746-kit-10-mini-porta-joias-viagem-maleta-caixa-ziper-atacado-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
   },
   "MLB6675783224": {
    "n": "Pulseira Berloques Prata 925 Coração Zircônias Com Garantia",
    "t": "Pulseira Berloques Prata 925 Coração Zircônias Com Garantia",
-   "cat": "Moda",
-   "ic": "👟",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 217.55,
    "nota": 4.9,
@@ -1075,13 +1098,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_689005-MLB69719020901_052023-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/pulseira-berloques-prata-925-coracao-zirconias-com-garantia/up/MLBU1981824906?pdp_filters=item_id%3AMLB6675783224&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
   },
   "MLB6166313818": {
    "n": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
    "t": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
-   "cat": "Moda",
-   "ic": "👟",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 285.0,
    "nota": 4.8,
@@ -1089,13 +1113,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/relogio-inteligente-gps-smartwatch-amoled-3atm-sport-gps-caixa-preto/p/MLB62756066?pdp_filters=item_id%3AMLB6166313818&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
   },
   "MLB3557264671": {
    "n": "Relógio Casio Masculino Digital Preto de Resina W-59-1VQ",
    "t": "Relógio Casio Masculino Digital Preto de Resina W-59-1VQ",
-   "cat": "Moda",
-   "ic": "👟",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 92.0,
    "nota": 4.8,
@@ -1103,13 +1128,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_684326-MLA115755090874_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/relogio-casio-masculino-digital-preto-de-resina-w-59-1vq/p/MLB21693452?pdp_filters=item_id%3AMLB3557264671&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
   },
   "MLB4264782097": {
    "n": "Kit Relógio Colar E Brincos Ponto De Luz Feminino Luxo Silver Saint...",
    "t": "Kit Relógio Colar E Brincos Ponto De Luz Feminino Luxo Silver Saint Germain Presente Original Joias Prata Elegante Clássico 28mm",
-   "cat": "Moda",
-   "ic": "👟",
+   "cid": "MLB3937",
    "loja": "Mercado Livre",
    "por": 98.0,
    "nota": 4.8,
@@ -1117,13 +1143,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_981420-MLA95134441788_102025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-relogio-colar-e-brincos-ponto-de-luz-feminino-luxo-silver-saint-germain-presente-original-joias-prata-elegante-classico-28mm/p/MLB54547148?pdp_filters=item_id%3AMLB4264782097&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
   },
   "MLB3391196931": {
    "n": "Fillamento Pla Preto 1kg Alta Velocidade High Speed Peças Impressas...",
    "t": "Fillamento Pla Preto 1kg Alta Velocidade High Speed Peças Impressas 3d Decorativas Fabricação Nacional Excelente Acabamento Modelos Enfeites",
-   "cat": "Celular e Tech",
-   "ic": "📱",
+   "cid": "MLB1648",
    "loja": "Mercado Livre",
    "por": 99.65,
    "nota": 4.9,
@@ -1131,7 +1158,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_724744-MLA116492813246_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fillamento-pla-preto-1kg-alta-velocidade-high-speed-pecas-impressas-3d-decorativas-fabricacao-nacional-excelente-acabamento-modelos-enfeites/p/MLB24741975?pdp_filters=item_id%3AMLB3391196931&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
   },
   "MLB4325362869": {
    "n": "Projetor de Estrelas Astronauta para Quarto com Luz Nebulosa e Galáxia",
@@ -1150,8 +1179,7 @@
   "MLB4355568241": {
    "n": "Suporte Para Monitores Articulado De Mesa Pistão A Gás 13-32 Preto...",
    "t": "Suporte Para Monitores Articulado De Mesa Pistão A Gás 13-32 Preto Com Pintura Eletrostástica",
-   "cat": "Celular e Tech",
-   "ic": "📱",
+   "cid": "MLB1648",
    "loja": "Mercado Livre",
    "por": 109.47,
    "nota": 4.9,
@@ -1159,13 +1187,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_880128-MLB114847862467_072026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/suporte-para-monitores-articulado-de-mesa-pistao-a-gas-1332/up/MLBU3662344755?pdp_filters=item_id%3AMLB4355568241&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
   },
   "MLB4092211279": {
    "n": "Monitor Gamer Portátil 15.6 1080p Fhd Ips Com Hdmi Usb Preto 127/220v",
    "t": "Monitor Gamer Portátil 15.6 1080p Fhd Ips Com Hdmi Usb Preto 127/220v",
-   "cat": "Games",
-   "ic": "🎮",
+   "cid": "MLB1648",
    "loja": "Mercado Livre",
    "por": 384.45,
    "nota": 4.9,
@@ -1173,13 +1202,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_653941-MLB97526232737_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/monitor-gamer-portatil-156-1080p-fhd-ips-com-hdmi-usb/up/MLBU3228796835?pdp_filters=item_id%3AMLB4092211279&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Games",
+   "ic": "🎮"
   },
   "MLB6204416228": {
    "n": "Power Bank Basike 20000mAh para Notebook e Celular com Cabo USB-C 65W",
    "t": "Power Bank Basike 20000mAh para Notebook e Celular com Cabo USB-C 65W",
-   "cat": "Celular e Tech",
-   "ic": "📱",
+   "cid": "MLB1648",
    "loja": "Mercado Livre",
    "por": 212.42,
    "nota": 4.9,
@@ -1187,13 +1217,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_720399-MLA116701969973_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/power-bank-basike-20000mah-para-notebook-e-celular-com-cabo-usb-c-65w/p/MLB63033418?pdp_filters=item_id%3AMLB6204416228&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
   },
   "MLB6191264962": {
    "n": "Monitor Portátil 15.6''com Usb C Dupla/hdmi Fhd 1080p 60hz",
    "t": "Monitor Portátil 15.6''com Usb C Dupla/hdmi Fhd 1080p 60hz",
-   "cat": "Celular e Tech",
-   "ic": "📱",
+   "cid": "MLB1648",
    "loja": "Mercado Livre",
    "por": 392.37,
    "nota": 4.8,
@@ -1201,13 +1232,14 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_626700-MLA99662959648_122025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/monitor-portatil-156com-usb-c-duplahdmi-fhd-1080p-60hz/p/MLB62751919?pdp_filters=item_id%3AMLB6191264962&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
   },
   "MLB4867074696": {
    "n": "Monitor LED 20 Brazil PC 20WR - 1600x900, 75Hz, 5ms - HDMI/VGA - Preto",
    "t": "Monitor LED 20 Brazil PC 20WR - 1600x900, 75Hz, 5ms - HDMI/VGA - Preto",
-   "cat": "Celular e Tech",
-   "ic": "📱",
+   "cid": "MLB1648",
    "loja": "Mercado Livre",
    "por": 205.2,
    "nota": 4.7,
@@ -1215,7 +1247,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_722855-MLA105308780576_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/monitor-led-20-brazil-pc-20wr-1600x900-75hz-5ms-hdmivga-preto/p/MLB28562373?pdp_filters=item_id%3AMLB4867074696&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:01+00:00"
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
   },
   "MLB4003454229": {
    "n": "Chave Combinada Catraca Jogo De Chaves Com 15 Peças Dobevi Preto",
@@ -1688,7 +1722,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_856825-MLA116709255776_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/bicicleta-infantil-25-anos-nathor-homem-aranha-aro-12-azulvermelho-com-rodinhas/p/MLB26194643?pdp_filters=item_id%3AMLB5656296854&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T06:11+00:00",
+   "visto": "2026-09-28T06:38+00:00",
    "cat": "Esportes",
    "ic": "🏋️"
   },
@@ -2024,7 +2058,9 @@
    "link": "https://s.click.aliexpress.com/e/_c3HF3F65",
    "visto": "2026-09-28T06:29+00:00",
    "cat": "Celular e Tech",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": []
   },
   "ali:1005003416182958": {
    "n": "UGREEN 65W GaN Charger Quick Charge 4.0 3.0 Tipo C PD Carregador USB...",
@@ -2098,6 +2134,175 @@
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3NFFUpR",
    "visto": "2026-09-28T06:29+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "MLB-2178625164": {
+   "n": "Camisa Térmica Voker Segunda Pele Proteção Solar Uv Dry Fit",
+   "t": "Camisa Térmica Voker Segunda Pele Proteção Solar Uv Dry Fit",
+   "cid": "MLB1276",
+   "loja": "Mercado Livre",
+   "por": 36.96,
+   "nota": 4.7,
+   "vendas": 250000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_749887-MLB93844774361_092025-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-2178625164-camisa-termica-voker-segunda-pele-proteco-solar-uv-dry-fit-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "MLB-4028845341": {
+   "n": "Tênis Kappa Run 200 Original Caminhada Academia",
+   "t": "Tênis Kappa Run 200 Original Caminhada Academia",
+   "cid": "MLB1276",
+   "loja": "Mercado Livre",
+   "por": 78.8,
+   "nota": 4.7,
+   "vendas": 100000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_676335-MLB117966752223_092026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-4028845341-tnis-kappa-run-200-original-caminhada-academia-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "MLB-4340888693": {
+   "n": "Tênis Sandrini Aero Spark Corrida Academia Caminhada Leve",
+   "t": "Tênis Sandrini Aero Spark Corrida Academia Caminhada Leve",
+   "cid": "MLB1276",
+   "loja": "Mercado Livre",
+   "por": 135.0,
+   "nota": 4.7,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_867286-MLB109373136106_042026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-4340888693-tnis-sandrini-aero-spark-corrida-academia-caminhada-leve-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "MLB2966328848": {
+   "n": "Balança De Bioimpedância Profissional 8 Sensores Digital App...",
+   "t": "Balança De Bioimpedância Profissional 8 Sensores Digital App - Relaxmedic",
+   "cid": "MLB5726",
+   "loja": "Mercado Livre",
+   "por": 350.26,
+   "nota": 4.8,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_612271-MLA106970701186_022026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/balanca-de-bioimpedancia-profissional-8-sensores-digital-app-relaxmedic/p/MLB15702180?pdp_filters=item_id%3AMLB2966328848&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "MLB5279459433": {
+   "n": "Escova modeladora/cacheadora Gokoco GD037 rosa",
+   "t": "Escova modeladora/cacheadora Gokoco GD037 rosa",
+   "cid": "MLB5726",
+   "loja": "Mercado Livre",
+   "por": 187.53,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_948762-MLA114998537162_082026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/escova-modeladoracacheadora-gokoco-gd037-rosa/p/MLB77612240?pdp_filters=item_id%3AMLB5279459433&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005011593260413": {
+   "n": "Carregador de Telefone Baseus 30W USB C PD3.0 QC3.0 PPS Carregamento...",
+   "t": "Carregador de Telefone Baseus 30W USB C PD3.0 QC3.0 PPS Carregamento Rápido para iPhone 17 16 15 1 Pro Max iPad Xiaomi Carregador Rápido GaN",
+   "busca": "baseus power bank",
+   "loja": "AliExpress",
+   "por": 75.43,
+   "nota": 5.0,
+   "vendas": 871,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb3a82fd981964da9ae9f4471a9fa2156q.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3XfgV7J",
+   "visto": "2026-09-28T06:38+00:00",
+   "cmp_em": "2026-09-28T06:38+00:00",
+   "cmp": [],
+   "cat": "Celular e Tech",
+   "ic": "📱"
+  },
+  "ali:1005011551096285": {
+   "n": "Carregador Baseus 45W GaN para iPhone 17 16 15 Pro Max Samsung Galaxy...",
+   "t": "Carregador Baseus 45W GaN para iPhone 17 16 15 Pro Max Samsung Galaxy Carregador Rápido USB C Portátil PD",
+   "busca": "baseus power bank",
+   "loja": "AliExpress",
+   "por": 82.86,
+   "nota": 4.9,
+   "vendas": 9553,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd8fa24cfd6664291bf1de190cde4885a4.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4VoaHkv",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
+  },
+  "ali:1005011999799292": {
+   "n": "Carregador Rápido Baseus 70W Tipo C USB com Suporte QC PD PPS 65W...",
+   "t": "Carregador Rápido Baseus 70W Tipo C USB com Suporte QC PD PPS 65W, Carregador Portátil para iPhone 17 16 15 e Carregador para Laptop Macbook",
+   "busca": "baseus power bank",
+   "loja": "AliExpress",
+   "por": 139.67,
+   "nota": 4.9,
+   "vendas": 3999,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S70442b44fad24a83bfaf15b81a351d9d2.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4C0iiHJ",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
+  },
+  "ali:1005010044103077": {
+   "n": "8 peças por pacote mini alicates de silicone colorido de aço...",
+   "t": "8 peças por pacote mini alicates de silicone colorido de aço inoxidável, clipe de lanche pequeno, clipe de bolo, clipe de mão pequeno, ferra",
+   "busca": "silicone kitchen utensils set",
+   "loja": "AliExpress",
+   "por": 26.49,
+   "nota": 4.9,
+   "vendas": 900,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2e2bfc526c3d4ccfb597ac0c6dcc0652I.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4enrssN",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005006997354157": {
+   "n": "Conjunto de Utensílios de Cozinha com 12 Peças, Espátulas de Silicone...",
+   "t": "Conjunto de Utensílios de Cozinha com 12 Peças, Espátulas de Silicone com Cabo de Madeira, Kit de Ferramentas de Cozinha com Suporte, Utensí",
+   "busca": "silicone kitchen utensils set",
+   "loja": "AliExpress",
+   "por": 75.39,
+   "nota": 4.9,
+   "vendas": 766,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Ac7d11ac1874c4c67ba98ccc535e87a04Z.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4db6bA5",
+   "visto": "2026-09-28T06:38+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005009045177568": {
+   "n": "2 pçs agitar fritar espátula bife utensílios de cozinha alça de aço...",
+   "t": "2 pçs agitar fritar espátula bife utensílios de cozinha alça de aço inoxidável conjunto de utensílios de cozinha de silicone conjunto de fer",
+   "busca": "silicone kitchen utensils set",
+   "loja": "AliExpress",
+   "por": 28.79,
+   "nota": 4.9,
+   "vendas": 556,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S859219b430894cfb9d6e5d5e30e8ca1bm.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3A3jzhL",
+   "visto": "2026-09-28T06:38+00:00",
    "cat": "Casa",
    "ic": "🏠"
   }
