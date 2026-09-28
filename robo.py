@@ -578,6 +578,8 @@ def montar_post(p, estilo):
     if q:
         L.append(f"🔻 Caiu {q}%: era {reais(o['de'])} nos últimos dias")
     L.append(f"💰 {b(reais(o['por']))} no {o['loja']}")
+    if p.get("oferta_dia"):
+        L.append("🏷️ Oferta do dia do Mercado Livre")
     if o["loja"] == "AliExpress":
         L.append("Internacional · chega em 1 a 4 semanas")
     if p.get("vendas", 0) >= 10:
@@ -692,6 +694,114 @@ def garimpo_ali(regras, st):
     return None
 
 
+# ======================================================================
+# GARIMPO DO MERCADO LIVRE — lê a página pública "Ofertas do dia" (a API de busca do ML dá 403)
+# e monta o link de afiliado direto (matt_word/matt_tool), igual aos links do site.
+# ======================================================================
+ML_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
+
+
+def ml_num(inteiro, centavos=None):
+    return float(inteiro.replace(".", "")) + (int(centavos) / 100 if centavos else 0)
+
+
+def ml_cards_ofertas(url):
+    """Lê os cards (polycards) de uma página de ofertas do Mercado Livre."""
+    import html as H
+    req = urllib.request.Request(url, headers={"User-Agent": ML_UA, "Accept-Language": "pt-BR"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        if "account-verification" in r.geturl():
+            raise RuntimeError("o Mercado Livre pediu verificação (bloqueou o robô nesta rodada)")
+        pagina = r.read().decode("utf-8", "ignore")
+    cards = []
+    for bloco in pagina.split('class="andes-card poly-card')[1:]:
+        m = re.search(r'<a href="([^"]+)"[^>]*class="poly-component__title"[^>]*>(.*?)</a>', bloco, re.S)
+        cur = re.search(r'poly-price__current.*?aria-label="([\d.]+) reais(?: com (\d+) centavos?)?"', bloco, re.S)
+        if not m or not cur:
+            continue
+        url_p = H.unescape(m.group(1))
+        nota = re.search(r'Classificação ([\d.]+) de 5 estrelas\.(?: Mais de ([\d.,]+)\s*(mil)? produtos? vendidos?)?', bloco)
+        vend = 0
+        if nota and nota.group(2):
+            vend = int(float(nota.group(2).replace(".", "").replace(",", ".")) * (1000 if nota.group(3) else 1))
+        foto = re.search(r'class="poly-component__picture"[^>]*?(?:data-src|src)="(https://[^"]+)"', bloco)
+        fid = re.search(r'(\d+-ML[A-Z]\d+_\d+)', foto.group(1)) if foto else None
+        wid = re.search(r'[#&?]wid=(MLB\d+)', url_p)
+        pid = re.search(r'/(?:p|up)/(MLBU?\d+)', url_p) or re.search(r'(MLB-?\d+)', url_p)
+        tags = " ".join(re.findall(r'polylabel-fw-semibold">([A-ZÁÉÍÓÚÂÊÔÃÕÇ ]{4,})<', bloco))
+        cards.append({
+            "url": url_p, "titulo": H.unescape(re.sub(r"<[^>]+>", "", m.group(2))).strip(),
+            "nota": float(nota.group(1)) if nota else 0.0, "vendas": vend, "por": ml_num(*cur.groups()),
+            "img": f"https://http2.mlstatic.com/D_NQ_NP_{fid.group(1)}-O.jpg" if fid else "",
+            "item": wid.group(1) if wid else "", "pid": (wid.group(1) if wid else (pid.group(1) if pid else url_p[:80])),
+            "oferta_dia": "OFERTA DO DIA" in tags or "RELÂMPAGO" in tags,
+        })
+    return cards
+
+
+def ml_link_afiliado(url_p, item, regras):
+    """Link direto do produto com o teu código de afiliado (mesmo formato dos links do site)."""
+    base = url_p.split("#", 1)[0]
+    u = urllib.parse.urlsplit(base)
+    q = dict(urllib.parse.parse_qsl(u.query))
+    params = {"pdp_filters": f"item_id:{item}"} if item else ({"pdp_filters": q["pdp_filters"]} if q.get("pdp_filters") else {})
+    params["matt_word"] = regras.get("ml_matt_word", "ky20260925222946505")
+    params["matt_tool"] = regras.get("ml_matt_tool", "97504693")
+    return urllib.parse.urlunsplit((u.scheme, u.netloc, u.path, urllib.parse.urlencode(params), ""))
+
+
+def garimpo_ml(regras, st):
+    """Garimpo do Mercado Livre: pega as 'Ofertas do dia' das categorias de tecnologia, aplica o filtro
+    de qualidade (nota, vendas, faixa de preço, palavras proibidas), nunca repete em 30 dias.
+    O melhor vira o post; os outros bons vão pra aba 'Mercado Livre' da página do WhatsApp."""
+    cats = regras.get("ml_garimpo_categorias") or ["MLB1051", "MLB1648", "MLB1000", "MLB1144"]
+    nmin = float(regras.get("ml_garimpo_avaliacao_min", 4.7))
+    vmin = int(regras.get("ml_garimpo_vendas_min", 1000))
+    pmin, pmax = float(regras.get("ml_garimpo_preco_min", 15)), float(regras.get("ml_garimpo_preco_max", 400))
+    proibidas = [x.lower() for x in regras.get("ml_garimpo_excluir", [])]
+    ja = st.setdefault("garimpo", {})
+    limite = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    for tentativa in range(2):
+        n = st.get("ml_n", 0)
+        cat, pagina = cats[n % len(cats)], (n // len(cats)) % 3 + 1
+        st["ml_n"] = n + 1
+        url = f"https://www.mercadolivre.com.br/ofertas?category={cat}" + (f"&page={pagina}" if pagina > 1 else "")
+        log(f"  Garimpo ML: lendo ofertas {cat} (página {pagina})")
+        try:
+            cards = ml_cards_ofertas(url)
+        except Exception as e:
+            log("  Garimpo ML: não consegui ler a página ->", e)
+            return None
+        cands = []
+        for c in cards:
+            t = c["titulo"].lower()
+            if ja.get("ml:" + c["pid"], "") >= limite:
+                continue
+            if c["nota"] < nmin or c["vendas"] < vmin or not (pmin <= c["por"] <= pmax):
+                continue
+            if any(x in t for x in proibidas) or not palavras_ok(c["titulo"], None, None):
+                continue
+            cands.append(c)
+        cands.sort(key=lambda c: (c["oferta_dia"], c["nota"], math.log10(max(c["vendas"], 1))), reverse=True)
+        log(f"  Garimpo ML: {len(cards)} ofertas lidas, {len(cands)} passaram no filtro")
+        if not cands:
+            continue
+        posts = []
+        for c in cands[:13]:
+            ja["ml:" + c["pid"]] = hoje()
+            of = {"loja": "Mercado Livre", "de": c["por"], "por": c["por"], "pid": c["pid"], "titulo": c["titulo"],
+                  "nota": c["nota"], "vendas": c["vendas"], "img": c["img"],
+                  "link": ml_link_afiliado(c["url"], c["item"], regras)}
+            posts.append({"id": "ml:" + c["pid"], "n": titulo_curto(c["titulo"]), "garimpo": 1, "oferta_dia": c["oferta_dia"],
+                          "nota": c["nota"], "vendas": c["vendas"], "ofertas": [of]})
+        for k in sorted(ja, key=ja.get)[:-3000]:
+            del ja[k]
+        agora = datetime.now(TZ_BR).strftime("%d/%m %H:%M")
+        st["ml_extras"] = [{"d": agora, "n": p["n"], "txt": montar_post(p, "zap")} for p in posts[1:]]
+        return posts[0]
+    return None
+
+
 def divulgar(saida, historico, regras):
     """Canal do Telegram (e página do WhatsApp):
     - posta das 'telegram_inicio' às 'telegram_fim' (Brasília), 1 post a cada 'telegram_intervalo_min' minutos
@@ -724,7 +834,7 @@ def divulgar(saida, historico, regras):
     pode = forcar or (ini <= agora.hour < fim and st["dia"]["n"] < max_dia and desde >= intervalo - 3)
     if not pode:
         log(f"  Canal: sem post agora ({st['dia']['n']}/{max_dia} hoje, último há {int(min(desde, 9999))} min)")
-        return pagina_zap(st["fila_zap"])
+        return pagina_zap(st["fila_zap"], st.get("ml_extras"))
 
     post = None
     # 1) queda real de preço num produto do site
@@ -740,9 +850,16 @@ def divulgar(saida, historico, regras):
         if livres:
             post = livres[0]
         st["slots"][slot] = 1
-    # 3) garimpo: produto novo do AliExpress
+    # 3) garimpo: produto novo, alternando Mercado Livre e AliExpress (se um falhar, tenta o outro)
     if not post:
-        post = garimpo_ali(regras, st)
+        ordem = [garimpo_ml, garimpo_ali] if st.get("vez_ml", True) else [garimpo_ali, garimpo_ml]
+        if not regras.get("ml_garimpo_ativo", True):
+            ordem = [garimpo_ali]
+        for f in ordem:
+            post = f(regras, st)
+            if post:
+                break
+        st["vez_ml"] = not st.get("vez_ml", True)
     # 4) se o garimpo falhar, um produto do site que não aparece há mais tempo
     if not post and saida:
         post = sorted(saida, key=lambda p: -dias_desde(p["id"]))[0]
@@ -763,13 +880,22 @@ def divulgar(saida, historico, regras):
     st["fila_zap"] = st["fila_zap"][:30]
     for k in sorted(st["slots"])[:-20]:
         del st["slots"][k]
-    return pagina_zap(st["fila_zap"])
+    return pagina_zap(st["fila_zap"], st.get("ml_extras"))
 
 
-def pagina_zap(fila):
+def pagina_zap(fila, extras=None):
     """Página kaivolt.com.br/ofertas/zap.html: posts prontos pra copiar e colar no canal do WhatsApp.
     Ao copiar, o post fica marcado como 'postado' (só neste celular) pra você não repetir."""
     import html as H
+    extras = extras or []
+    itens_ml = "".join(
+        f'<div class="p x" data-id="{H.escape("ml|" + x["n"])}"><div class="h"><b>{H.escape(x["n"])}</b><span>{x["d"]}</span></div>'
+        f'<pre>{H.escape(x["txt"])}</pre>'
+        f'<div class="b"><button class="c">Copiar</button><button class="m">Já postei</button></div><div class="ok">✓ Postado no canal</div></div>'
+        for x in extras)
+    if itens_ml:
+        itens_ml = ('<h2>Mais achados do Mercado Livre</h2><p class=s>Ofertas do dia que passaram no filtro de qualidade. '
+                    'Já estão com o teu link de afiliado: escolhe as melhores e posta.</p>' + itens_ml)
     itens = "".join(
         f'<div class="p" data-id="{H.escape(x["d"] + "|" + x["n"])}"><div class="h"><b>{H.escape(x["n"])}</b><span>{x["d"]}</span></div>'
         f'<pre>{H.escape(x["txt"])}</pre>'
@@ -785,14 +911,15 @@ def pagina_zap(fila):
             ".f button.on{background:#8b5cf6;color:#fff;border-color:#8b5cf6}"
             ".p{background:#13101d;border:1px solid #2a2340;border-radius:14px;padding:14px;margin:0 0 14px}"
             ".h{display:flex;justify-content:space-between;gap:10px;margin-bottom:8px}.h span{color:#9d97b3;font-size:13px;white-space:nowrap}"
-            "pre{white-space:pre-wrap;font:14px/1.45 system-ui,sans-serif;margin:0 0 12px;color:#d9d4ee}"
+            "pre{white-space:pre-wrap;overflow-wrap:anywhere;font:14px/1.45 system-ui,sans-serif;margin:0 0 12px;color:#d9d4ee}"
             ".b{display:flex;gap:8px}.b button{flex:1;padding:12px;border-radius:10px;border:0;font-weight:700;font-size:15px}"
             ".c{background:#8b5cf6;color:#fff}.m{background:#221c35;color:#d9d4ee}"
             ".ok{display:none;color:#22c55e;font-weight:700;margin-top:10px}.p.feito{opacity:.45}.p.feito .ok{display:block}.p.feito .b{display:none}"
-            "body.so-novos .p.feito{display:none}</style></head><body>"
+            "body.so-novos .p.feito{display:none}h2{font-size:17px;margin:26px 0 4px}.s{color:#9d97b3;font-size:13px;margin:0 0 12px}"
+            ".p.x{border-color:#3b2d6b}</style></head><body>"
             "<div class=top><h1>Posts pro WhatsApp</h1><span class=n id=n></span></div>"
             "<div class=f><button id=fn class=on>Só os novos</button><button id=ft>Todos</button></div>"
-            + itens +
+            + itens + itens_ml +
             "<script>var K='kv-zap-postados',S={};try{S=JSON.parse(localStorage.getItem(K)||'{}')}catch(e){}"
             "function salva(){try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}}"
             "function atualiza(){var n=0;document.querySelectorAll('.p').forEach(function(p){var f=!!S[p.dataset.id];p.classList.toggle('feito',f);if(!f)n++});"

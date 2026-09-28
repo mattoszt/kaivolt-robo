@@ -12,7 +12,8 @@
       "queda_minima_alerta: queda de preço (%) que faz o robô postar na hora",
       "telegram_max_dia / telegram_intervalo_min / telegram_inicio / telegram_fim: quantos posts por dia no canal, de quanto em quanto tempo e em que horário",
       "garimpo_*: o robô garimpa produtos NOVOS no AliExpress pro canal (fora do site) — só com nota e vendas altas, nunca repete",
-      "garimpo_buscas: o que ele procura (em inglês acha mais coisa). Pode adicionar ou tirar à vontade"
+      "garimpo_buscas: o que ele procura (em inglês acha mais coisa). Pode adicionar ou tirar à vontade",
+      "ml_garimpo_*: o robô garimpa as 'Ofertas do dia' do Mercado Livre (celular, informática, eletrônicos, games) — nota 4,7+, 1.000+ vendas, R$15 a R$400, já com o teu link de afiliado. Alterna com o garimpo do AliExpress. Os outros achados bons aparecem na página do WhatsApp (seção 'Mais achados do Mercado Livre'). ml_garimpo_ativo: false desliga."
     ],
     "nota_minima": 4.5,
     "vendas_minimas_shopee": 100,
@@ -119,7 +120,50 @@
       "usb wifi adapter",
       "hdmi cable 4k",
       "usb c 240w cable"
-    ]
+    ],
+    "ml_garimpo_ativo": true,
+    "ml_garimpo_categorias": [
+      "MLB1051",
+      "MLB1648",
+      "MLB1000",
+      "MLB1144"
+    ],
+    "ml_garimpo_avaliacao_min": 4.7,
+    "ml_garimpo_vendas_min": 1000,
+    "ml_garimpo_preco_min": 15,
+    "ml_garimpo_preco_max": 400,
+    "ml_garimpo_excluir": [
+      "espião",
+      "espiao",
+      "câmera escondida",
+      "camera escondida",
+      "capinha",
+      "capa para",
+      "capa p/",
+      "película",
+      "pelicula",
+      "chip ",
+      "recarga",
+      "gift card",
+      "cartão presente",
+      "vitrine",
+      "recondicionado",
+      "seminovo",
+      "assinatura",
+      "licença",
+      "licenca",
+      "ativação",
+      "ativacao",
+      "chave de",
+      "filamento",
+      "pilha",
+      "tampa",
+      "refil",
+      "peça de reposição",
+      "peca de reposicao"
+    ],
+    "ml_matt_word": "ky20260925222946505",
+    "ml_matt_tool": "97504693"
   },
   "produtos": [
     {
