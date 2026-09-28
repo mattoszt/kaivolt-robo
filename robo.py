@@ -909,12 +909,17 @@ def comparar_ali(ref, ident, regras):
     if not (os.environ.get("ALI_APP_KEY") and os.environ.get("ALI_SECRET")):
         return None
     tracking = os.environ.get("ALI_TRACKING_ID", "kaivolt")
-    busca = " ".join(ident["marca"] + ident["modelo"] + ident["spec"] + ident["nomes"][:1])
-    resp = ali_chamar("aliexpress.affiliate.product.query", {
-        "target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR", "tracking_id": tracking,
-        "keywords": busca, "sort": "LAST_VOLUME_DESC", "page_size": 30, "page_no": 1})
+    itens = []
+    for busca in dict.fromkeys([" ".join(ident["marca"] + ident["modelo"] + ident["spec"] + ident["nomes"][:1]),
+                                " ".join(ident["marca"] + ident["modelo"] + ident["spec"])]):
+        resp = ali_chamar("aliexpress.affiliate.product.query", {
+            "target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR", "tracking_id": tracking,
+            "keywords": busca, "sort": "LAST_VOLUME_DESC", "page_size": 30, "page_no": 1})
+        itens = [it for it in ali_produtos(resp) if mesmo_produto(ident, it.get("product_title") or "")]
+        if itens:
+            break                                    # achou com o nome; senão tenta só marca + modelo
     cands = []
-    for it in ali_produtos(resp):
+    for it in itens:
         tit = it.get("product_title") or ""
         aval, vendas = ali_num(it.get("evaluate_rate")), int(ali_num(it.get("lastest_volume")))
         por = ali_num(it.get("target_sale_price") or it.get("sale_price"))
@@ -1042,6 +1047,9 @@ def achados_site(regras, historico):
     horas = float(regras.get("achados_horas", 36))
     for k in [k for k, v in guard.items()
               if (agora - datetime.fromisoformat(v["visto"])).total_seconds() > horas * 3600]:
+        del guard[k]
+    proib = [x.lower() for x in regras.get("ml_garimpo_excluir", [])]
+    for k in [k for k, v in guard.items() if any(x in (v.get("t") or v.get("n") or "").lower() for x in proib)]:
         del guard[k]
     try:
         comparar_achados(regras, guard, agora)
