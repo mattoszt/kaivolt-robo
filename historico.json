@@ -9,7 +9,7 @@
   "2026-09-26": 15.89,
   "2026-09-27": 15.89,
   "2026-09-28": 15.9,
-  "2026-09-29": 89.9
+  "2026-09-29": 15.99
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -483,8 +483,8 @@
   }
  },
  "_achados_meta": {
-  "n": 419,
-  "ali_n": 160
+  "n": 424,
+  "ali_n": 162
  },
  "_achados": {
   "MLB-5312090728": {
@@ -651,8 +651,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_818555-MLA99479472410_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/prancha-lizze-profissional-480-extreme/p/MLB24086423?pdp_filters=item_id%3AMLB6149410898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
-   "cmp_em": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -760,14 +760,14 @@
    "t": "Principia Kit Hidratação E Proteção Facial Ch-o1 + Ps-01 Todo Tipo De Pele Dia/noite",
    "cid": "MLB1246",
    "loja": "Mercado Livre",
-   "por": 52.03,
+   "por": 54.77,
    "nota": 5.0,
    "vendas": 10000,
    "img": "https://http2.mlstatic.com/D_NQ_NP_628874-MLA111086008543_042026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/principia-kit-hidratacao-e-protecao-facial-ch-o1-ps-01-todo-tipo-de-pele-dianoite/p/MLB68915199?pdp_filters=item_id%3AMLB6695260200&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:56+00:00",
-   "cmp_em": "2026-09-29T20:56+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -800,8 +800,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_910411-MLA116496414555_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/chapinha-lizze-profissional-480-extreme/p/MLB8736693?pdp_filters=item_id%3AMLB6149243620&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
-   "cmp_em": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -926,8 +926,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_760745-MLA95700724020_102025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fone-de-ouvido-bluetooth-54-soundcore-p30i-da-anker-cancelamento-de-ruido-adaptativo-graves-poderosos-45h-de-reproducao-estojo-2-em-1-com-suporte-para-celular-ip54-fone-sem-fio-tws-preto/p/MLB38176139?pdp_filters=item_id%3AMLB5410636044&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:56+00:00",
-   "cmp_em": "2026-09-29T20:56+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Celular e Tech",
    "ic": "📱"
@@ -1323,23 +1323,6 @@
    "cat": "Casa",
    "ic": "🏠"
   },
-  "MLB6741204392": {
-   "n": "Parafusadeira Furadeira Impacto 13mm 21v Brushless 2 Bateria...",
-   "t": "Parafusadeira Furadeira Impacto 13mm 21v Brushless 2 Bateria Azul-petróleo 127/220v",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 389.49,
-   "nota": 4.9,
-   "vendas": 5000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_729580-MLB111418672043_052026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-impacto-13mm-21v-brushless-2-bateria/up/MLBU3958594646?pdp_filters=item_id%3AMLB6741204392&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T09:33+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-09-29T14:00+00:00",
-   "cmp": []
-  },
   "MLB-4227100265": {
    "n": "Capa Cobrir Carro 100% Forrada Impermeável Couro Anti-gato",
    "t": "Capa Cobrir Carro 100% Forrada Impermeável Couro Anti-gato",
@@ -1368,7 +1351,18 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_600865-MLA99412521708_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-2-radio-comuncador-16-ch-12km-baofeng-777s-ht-cor-preto/p/MLB25880439?pdp_filters=item_id%3AMLB3798452685&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 124.54,
+     "nota": 4.9,
+     "vendas": 165,
+     "t": "Kit 2 Rádio Comunicador Walk Talk Baofeng 777s com 16 Canais Alcance de 12Km 2 Duas Pçs - ",
+     "link": "https://s.click.aliexpress.com/e/_c3jT8NPF"
+    }
+   ],
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -1417,7 +1411,9 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_756476-MLA117807618909_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-4-radios-comunicadores-walkie-talkie-profissional-eventos-ht-uhf-radinho-walk-talk-com-fone-microfone-e-acessorios-comunicacao-segura-longo-distancia-seguranca-garcom-portatil-antena-ptt-davely/p/MLB79480370?pdp_filters=item_id%3AMLB4595818533&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
+   "cmp": [],
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -1434,7 +1430,9 @@
    "link": "https://www.mercadolivre.com.br/som-automotivo-radio-pioneer-bluetooth-usb-lancamento-mp3/up/MLBU3425141084?pdp_filters=item_id%3AMLB4206360459&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-29T21:30+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-09-29T21:55+00:00",
+   "cmp": []
   },
   "MLB4873923933": {
    "n": "Auxiliar Partida Bateria Compressor Ar Automotivo Vigomot",
@@ -1532,7 +1530,9 @@
    "link": "https://www.mercadolivre.com.br/racao-seca-formula-natural-gatos-castrados-adultos-salmao-10-kg/p/MLB61672441?pdp_filters=item_id%3AMLB7125050310&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-29T21:30+00:00",
    "cat": "Pet",
-   "ic": "🐾"
+   "ic": "🐾",
+   "cmp_em": "2026-09-29T21:55+00:00",
+   "cmp": []
   },
   "MLB4599154451": {
    "n": "2.0L Newpet fonte de água bebedouro para gatos e cães Usb",
@@ -1547,7 +1547,9 @@
    "link": "https://www.mercadolivre.com.br/20l-newpet-fonte-de-agua-bebedouro-para-gatos-e-caes-usb/p/MLB37097113?pdp_filters=item_id%3AMLB4599154451&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-29T21:30+00:00",
    "cat": "Pet",
-   "ic": "🐾"
+   "ic": "🐾",
+   "cmp_em": "2026-09-29T21:55+00:00",
+   "cmp": []
   },
   "MLB6822590504": {
    "n": "Kit 3pct Ração 3.03 kg Quatree Supreme Gatos Filhotes Salmao",
@@ -1707,8 +1709,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_719636-MLA99381510294_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/power-bank-basike-20000mah-preto-carga-rapida-225w-para-iphone-e-samsung-com-cabos-embutidos-e-display/p/MLB50592250?pdp_filters=item_id%3AMLB6306405776&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
-   "cmp_em": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Celular e Tech",
    "ic": "📱"
@@ -1775,7 +1777,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_899986-MLA100030314443_122025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/controlador-sem-fio-bluetooth-e-24-easysmx-x05-branco/p/MLB38419041?pdp_filters=item_id%3AMLB4736912829&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -1790,7 +1792,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_786044-MLA99920305379_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/controle-bluetooth-sem-fio-easysmx-x05-para-pc-android-cor-preto/p/MLB39106719?pdp_filters=item_id%3AMLB6899289920&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -1868,15 +1870,15 @@
    "visto": "2026-09-28T09:58+00:00",
    "cat": "Games",
    "ic": "🎮",
-   "cmp_em": "2026-09-28T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [
     {
      "loja": "AliExpress",
-     "por": 227.85,
+     "por": 228.31,
      "nota": 4.9,
-     "vendas": 2596,
+     "vendas": 2613,
      "t": "GameSir G7 SE Xbox Gaming Controller Gamepad com fio para Xbox Series X, Xbox Series S, Xb",
-     "link": "https://s.click.aliexpress.com/e/_c3H7Qovn"
+     "link": "https://s.click.aliexpress.com/e/_c3PPfZ9n"
     }
    ]
   },
@@ -1972,7 +1974,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_946503-MLB82989859698_032025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-1010954920-kit-6-cuecas-lupo-boxer-box-sem-costura-basic-microfibra-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -1987,7 +1989,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_888688-MLB85934048501_062025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3746504707-chinelo-havaianas-masculino-top-max-comfort-anatmica-macia-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -3020,21 +3022,6 @@
    "cat": "Casa",
    "ic": "🏠"
   },
-  "MLB4430580245": {
-   "n": "Super Tweeter Jbl St400 Trio Prateado Para Autos Pickups Y Suv 120mm...",
-   "t": "Super Tweeter Jbl St400 Trio Prateado Para Autos Pickups Y Suv 120mm X 140mm X 1 Unidad",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 75.79,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_732853-MLA99833142343_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/super-tweeter-jbl-st400-trio-prateado-para-autos-pickups-y-suv-120mm-x-140mm-x-1-unidad/p/MLB6184301?pdp_filters=item_id%3AMLB4430580245&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T09:33+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
   "MLB4094164333": {
    "n": "Auxiliar De Partida Automotivo Carregador Veicular Bateria",
    "t": "Auxiliar De Partida Automotivo Carregador Veicular Bateria",
@@ -3198,7 +3185,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_627901-MLA99509685830_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/secador-de-cabelo-profissional-lizze-extreme/p/MLB18572364?pdp_filters=item_id%3AMLB6149360952&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T14:33+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -3560,7 +3547,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_889196-MLA116742504084_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-2-controle-para-ps4-sem-fio-redfin-para-ps4-pc-bluetooth-touchpad-vibracao-dupla-joystick-compativel-ps4-videogame-tv-pc-celular-android-manete-smart-tv-headset-redfin/p/MLB64316157?pdp_filters=item_id%3AMLB4807666625&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T11:57+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -4047,13 +4034,13 @@
    "t": "Controle xbox Series X|S Series X|S",
    "cid": "MLB1144",
    "loja": "Mercado Livre",
-   "por": 339.48,
+   "por": 343.17,
    "nota": 4.8,
    "vendas": 100000,
    "img": "https://http2.mlstatic.com/D_NQ_NP_658374-MLA99957214369_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/controle-xbox-series-xs-series-xs/p/MLB16268160?pdp_filters=item_id%3AMLB4809913099&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T11:57+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -4207,7 +4194,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_730513-MLB80451340719_112024-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3806655487-tnis-flyer-runner-mesh-bdp-puma-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:56+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -4366,13 +4353,13 @@
    "t": "REDRAGON SMD RGB MX Switch 3Pin Clicky Tátil Linear Silencioso Vermelho Azul Preto Marrom Roxo Switche Para Teclado Mecânico Backlit",
    "busca": "redragon keyboard",
    "loja": "AliExpress",
-   "por": 21.05,
+   "por": 21.12,
    "nota": 4.9,
-   "vendas": 2590,
+   "vendas": 2591,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2941d1ef843044ee9c0e6df5767b7127U.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3Z4qgIt",
-   "visto": "2026-09-29T04:57+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -4381,13 +4368,13 @@
    "t": "REDRAGON SMD RGB MX Switch 3Pin Clicky Tátil Linear Silencioso Vermelho Azul Preto Marrom Roxo Switche Para Teclado Mecânico Backlit",
    "busca": "redragon keyboard",
    "loja": "AliExpress",
-   "por": 21.74,
+   "por": 21.81,
    "nota": 4.8,
-   "vendas": 1713,
+   "vendas": 1715,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2941d1ef843044ee9c0e6df5767b7127U.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3TA1ALT",
-   "visto": "2026-09-29T04:57+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -4396,13 +4383,13 @@
    "t": "Conjunto de 11 Peças: Corda de Puxar, Faixas de Resistência, Equipamento de Fitness Portátil, Faixa para Tornozelo, Expansor de Peito, Faixa",
    "busca": "resistance bands set",
    "loja": "AliExpress",
-   "por": 38.19,
+   "por": 38.29,
    "nota": 4.9,
    "vendas": 2775,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6202653ca60242018690dacaefa7711fy.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c36DhZUv",
-   "visto": "2026-09-29T05:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Esportes",
    "ic": "🏋️"
   },
@@ -4411,13 +4398,13 @@
    "t": "Conjunto de 11 Faixas de Resistência TPE, Faixas de Resistência com Âncora para Porta, Alças, Bolsa de Transporte, Faixas para Pernas e Torn",
    "busca": "resistance bands set",
    "loja": "AliExpress",
-   "por": 39.79,
+   "por": 39.89,
    "nota": 4.9,
    "vendas": 1574,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1c91a3f845ac4db4bd0929b6f485c35fh.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c4FKg50D",
-   "visto": "2026-09-29T05:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -4426,13 +4413,13 @@
    "t": "6 pçs/set moda fosco dial feminino relógio de quartzo pulseira de couro relógios de pulso coração conjunto de jóias (sem caixa)",
    "busca": "resistance bands set",
    "loja": "AliExpress",
-   "por": 15.99,
+   "por": 16.04,
    "nota": 4.9,
-   "vendas": 1515,
+   "vendas": 1523,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0b5ca97ebd57447da44bfc36b8636920v.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c4tEAPPn",
-   "visto": "2026-09-29T05:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -4494,7 +4481,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_926114-MLB117195635829_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/bicicleta-equilibrio-infantil-aro-12-balance-pitukinha-colli/up/MLBU3833055048?pdp_filters=item_id%3AMLB4510590445&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Esportes",
    "ic": "🏋️"
   },
@@ -4903,7 +4890,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_811323-MLB107191504939_022026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/caminhao-dinossauro-engolidor-de-carrinhos-kit-6-carrinhos/up/MLBU3785479535?pdp_filters=item_id%3AMLB6251226784&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
   },
@@ -5012,8 +4999,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_813874-MLB112499025488_062026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-3374416249-calca-legging-poliamida-sem-costura-benevola-leg-confortavel-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T17:58+00:00",
-   "cmp_em": "2026-09-29T17:58+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -5063,7 +5050,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_634812-MLA113252241103_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/papel-higienico-toque-de-seda-folha-dupla-24-unidades-neve/p/MLB16084455?pdp_filters=item_id%3AMLB1931827853&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:56+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -5525,8 +5512,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_957731-MLA88311983821_072025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/basike-fone-de-ouvido-sem-fio-esportivo-bluetooth60-tws-corrida-gancho-prova-dagua-com-gan-tela-led-dupla-suporta-chamadas-de-voz-adequadas-para-android-e-ios-cor-rosa/p/MLB53029275?pdp_filters=item_id%3AMLB4306855319&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
-   "cmp_em": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Celular e Tech",
    "ic": "📱"
@@ -7078,7 +7065,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_790904-MLA108570211465_032026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/papel-higienico-familiar-folha-dupla-kit-24-rolos-de-30-m/p/MLB66453791?pdp_filters=item_id%3AMLB6474450898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -7138,7 +7125,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_634253-MLB112633208602_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-com-350-figurinhas-da-copa-do-mundo-2026--50-envelopes/up/MLBU3924524440?pdp_filters=item_id%3AMLB6661097288&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T14:59+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
   },
@@ -7635,7 +7622,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_678535-MLB90456861115_082025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-5397056680-caminho-de-engolir-dinossauro-a-diverso-esta-garantida-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
   },
@@ -7742,7 +7729,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_732844-MLA115671731761_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/papel-higienico-neve-supreme-folha-tripla-leve-32-pague-28/p/MLB16084447?pdp_filters=item_id%3AMLB3811504878&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -7954,7 +7941,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_762912-MLA105696431793_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/controle-sem-fio-joystick-generico-bluetooth-compativel-para-ps4-videogame-tv-samsung-pc-p4-ps-4-manete-pc-gamer-tv-smart-controle-bluetooth-celular-headset-sem-fio-com-p2-marca-redfin/p/MLB39960346?pdp_filters=item_id%3AMLB5811879470&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -7984,7 +7971,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_974980-MLA112776013576_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/mochila-jiesipote-9242-prova-dagua-reforcada-expansivel-cor-preto/p/MLB74678961?pdp_filters=item_id%3AMLB4839435023&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -8044,7 +8031,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_733140-MLA116738727712_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/revlon-uniq-one-tratamento-capilar-10-em-1-leave-in-150ml-frasco-completo/p/MLB65977023?pdp_filters=item_id%3AMLB4571774956&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:56+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -8913,7 +8900,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_826850-MLA116465697992_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/carregador-30w-turbo-para-iphone-8-x-xr-11-12-13-14-pro-max-fonte-usb-c-cor-branca-dtimp/p/MLB47814270?pdp_filters=item_id%3AMLB4171634813&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -9123,8 +9110,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_816395-MLB116306138652_092026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-5455269586-kit-10-pares-meias-zhamaro-algodo-sapatilha-100-invisivel-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
-   "cmp_em": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -9232,7 +9219,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_800449-MLB80053192786_102024-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-5147251938-kit-9-pares-meias-puma-soquete-cano-curto-sapatilha-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -9655,7 +9642,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_768333-MLB112364157496_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/par-analogicos-magneticos-hall-effect-para-controle-de-xbox/up/MLBU1992759098?pdp_filters=item_id%3AMLB4998638884&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -9893,11 +9880,9 @@
    "nota": 4.9,
    "vendas": 5000,
    "img": "https://http2.mlstatic.com/D_NQ_NP_680597-MLB110991138915_042026-O.jpg",
-   "od": 1,
+   "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-100-bolinhas-para-piscina-coloridas-5-cores-nao-amassam/up/MLBU3921887661?pdp_filters=item_id%3AMLB4639871813&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
-   "cmp_em": "2026-09-29T20:32+00:00",
-   "cmp": [],
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
   },
@@ -9912,8 +9897,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_955274-MLB114284084737_072026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-panelinhas-inox-infantil-cozinha-brinquedo-10-pecas/up/MLBU3084960569?pdp_filters=item_id%3AMLB4012772609&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
-   "cmp_em": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
+   "cmp_em": "2026-09-29T21:55+00:00",
    "cmp": [],
    "cat": "Brinquedos",
    "ic": "🧸"
@@ -9929,7 +9914,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_631641-MLA115957780725_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/triciclo-infantil-rosa-maral-2-em-1-passeio-e-pedal-com-buzina/p/MLB57083030?pdp_filters=item_id%3AMLB3539705202&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
   },
@@ -10083,7 +10068,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_812206-MLA93073248860_092025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/power-bank-baseus-turbo-bipow2-pro-20000mah-225w-cor-preto/p/MLB58097097?pdp_filters=item_id%3AMLB4231829061&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -10098,7 +10083,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_751309-MLA100932701094_122025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/power-bank-65w-20000mah-com-display-carregamento-rapido-power-para-celular-samsung-e-motorola-e-iphone-2-saidas-com-cabo-embutido-tipo-c-com-cabo-rapidoresistencia-tracao-superalta-cor-preto/p/MLB63184560?pdp_filters=item_id%3AMLB6058625182&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -10128,7 +10113,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_895611-MLB71856953547_092023-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4057042938-chinelo-havaianas-dual-masculina-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -10250,7 +10235,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_780721-MLB113201554137_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-3-jogos-brinquedos-educativos-numeros-letras-alfabeto/up/MLBU3640377910?pdp_filters=item_id%3AMLB5981243130&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T20:32+00:00",
+   "visto": "2026-09-29T21:55+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
   },
@@ -10358,6 +10343,21 @@
    "visto": "2026-09-29T21:30+00:00",
    "cat": "Games",
    "ic": "🎮"
+  },
+  "MLB6756757832": {
+   "n": "Power Bank Turbo Portátil 20000mah Turbo 22.5w Premium Universal...",
+   "t": "Power Bank Turbo Portátil 20000mah Turbo 22.5w Premium Universal Rápida Carga Para Celular iPhone Xiaomi Motorola LG Smartwatch Tablet Displ",
+   "cid": "MLB1051",
+   "loja": "Mercado Livre",
+   "por": 69.99,
+   "nota": 4.8,
+   "vendas": 50000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_753409-MLA110029138996_042026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/power-bank-turbo-portatil-20000mah-turbo-225w-premium-universal-rapida-carga-para-celular-iphone-xiaomi-motorola-lg-smartwatch-tablet-display-digital-viagens-festa-ios-hardline-preto-ou-b/p/MLB65588451?pdp_filters=item_id%3AMLB6756757832&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-29T21:55+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
   }
  }
 }
