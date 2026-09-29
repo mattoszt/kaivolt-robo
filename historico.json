@@ -9,7 +9,7 @@
   "2026-09-26": 15.89,
   "2026-09-27": 15.89,
   "2026-09-28": 15.9,
-  "2026-09-29": 89.9
+  "2026-09-29": 15.9
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -33,7 +33,7 @@
   "2026-09-26": 46.79,
   "2026-09-27": 46.79,
   "2026-09-28": 46.79,
-  "2026-09-29": 130.04
+  "2026-09-29": 46.79
  },
  "powerbank-magsafe": {
   "2026-09-26": 109.13,
@@ -87,7 +87,7 @@
   "2026-09-26": 16.17,
   "2026-09-27": 17.43,
   "2026-09-28": 17.45,
-  "2026-09-29": 17.45
+  "2026-09-29": 15.48
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -117,7 +117,7 @@
   "2026-09-26": 8.21,
   "2026-09-27": 10.3,
   "2026-09-28": 8.18,
-  "2026-09-29": 27.85
+  "2026-09-29": 8.18
  },
  "mouse-sem-fio": {
   "2026-09-26": 17.89,
@@ -256,7 +256,8 @@
    "2026-09-29": 27.5
   },
   "suporte-tablet|AliExpress|1005012434177766": {
-   "2026-09-27": 16.17
+   "2026-09-27": 16.17,
+   "2026-09-29": 15.48
   },
   "suporte-tablet|Mercado Livre|MLB4241308999": {
    "2026-09-27": 33.5,
@@ -469,8 +470,8 @@
   }
  },
  "_achados_meta": {
-  "n": 229,
-  "ali_n": 86
+  "n": 234,
+  "ali_n": 88
  },
  "_achados": {
   "MLB-5312090728": {
@@ -535,8 +536,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_833331-MLB91182119648_092025-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-3965059663-jogo-de-lencol-400-fios-ponto-palito-cama-queen-3-pcs-saldo-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -552,8 +553,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_957891-MLB94465852219_102025-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-1920593249-cortina-blackout-tecido-grosso-280x230-porta-sala-quarto-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -586,8 +587,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_942823-MLA113526261849_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-10-potes-hermeticos-vidro-640ml-starhouse-marmita-forno-micro-ondas-airfryer-com-4-travas-de-super-vedacao/p/MLB53222689?pdp_filters=item_id%3AMLB5574851656&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -637,8 +638,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_818555-MLA99479472410_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/prancha-lizze-profissional-480-extreme/p/MLB24086423?pdp_filters=item_id%3AMLB6149410898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:56+00:00",
-   "cmp_em": "2026-09-29T01:56+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -654,8 +655,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_626577-MLA99520084810_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-mini-me-preta/p/MLB15154780?pdp_filters=item_id%3AMLB4129672747&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:56+00:00",
-   "cmp_em": "2026-09-29T01:56+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -688,8 +689,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_773776-MLA106648864819_022026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/aspirador-vertical-wap-power-speed-max-ci10-3-em-1-1600w-127v/p/MLB62021471?pdp_filters=item_id%3AMLB6161133722&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:56+00:00",
-   "cmp_em": "2026-09-29T01:56+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -705,8 +706,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_633098-MLA92276027266_092025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-11-litros-1800w-8-funcoes-philco-paf11b/p/MLB56550237?pdp_filters=item_id%3AMLB4856696863&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:56+00:00",
-   "cmp_em": "2026-09-29T01:56+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -786,8 +787,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_910411-MLA116496414555_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/chapinha-lizze-profissional-480-extreme/p/MLB8736693?pdp_filters=item_id%3AMLB6149243620&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T02:28+00:00",
-   "cmp_em": "2026-09-29T02:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -914,8 +915,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_749739-MLB116040608078_092026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-5408593708-tnis-casual-kappa-zenit-masculino-unissex-conforto-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T02:28+00:00",
-   "cmp_em": "2026-09-29T02:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -1061,8 +1062,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_956846-MLA99963696157_112025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/relogio-masculino-preto-saint-germain-houston-full-black-40mm-fundo-preto/p/MLB19821291?pdp_filters=item_id%3AMLB5270143384&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -1078,8 +1079,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_779314-MLB109648282500_042026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-4223700849-relogio-s11-smartwatch-microwear-serie11-gps-chatgpt-whatsap-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -1095,8 +1096,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_872725-MLB69933039441_062023-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/relogio-de-parede-grande-led-digital-p-academia-hospital/up/MLBU3206351128?pdp_filters=item_id%3AMLB4077314251&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -1146,7 +1147,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_984233-MLA105531058053_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/relogio-inteligente-gps-smartwatch-amoled-3atm-sport-gps-caixa-preto/p/MLB62756066?pdp_filters=item_id%3AMLB6166313818&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -1191,11 +1192,11 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_724744-MLA116492813246_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fillamento-pla-preto-1kg-alta-velocidade-high-speed-pecas-impressas-3d-decorativas-fabricacao-nacional-excelente-acabamento-modelos-enfeites/p/MLB24741975?pdp_filters=item_id%3AMLB3391196931&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T10:32+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
+   "cmp": [],
    "cat": "Celular e Tech",
-   "ic": "📱",
-   "cmp_em": "2026-09-28T10:57+00:00",
-   "cmp": []
+   "ic": "📱"
   },
   "MLB4325362869": {
    "n": "Projetor de Estrelas Astronauta para Quarto com Luz Nebulosa e Galáxia",
@@ -2568,8 +2569,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_852088-MLA114251303045_072026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/relogio-smartwatch-aurafit-g6-com-5atm-e-gps-verde-militar-verde-militar-sport-verde-militarpreto/p/MLB75081110?pdp_filters=item_id%3AMLB5065758741&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -2788,7 +2789,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_971061-MLA105116883587_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/relogio-inteligente-gps-smartwatch-amoled-3atm-sport-gps-caixa-cinza/p/MLB62974231?pdp_filters=item_id%3AMLB4418625931&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -3578,7 +3579,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_639218-MLA112743784625_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/emeet-s600-4k-webcam-1080p-60fps-camera-para-pc-streaming-con-microfone-automatico-full-hd-videoconferencia/p/MLB23122766?pdp_filters=item_id%3AMLB6851504006&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -3653,7 +3654,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_985748-MLA113670424044_072026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fechadura-digital-de-sobrepor-intelbras-fr-101/p/MLB20938205?pdp_filters=item_id%3AMLB6889891232&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -3797,13 +3798,13 @@
    "t": "Enchen ms003 barbeador de folha compacto com aparador de precisão pop-up tipo-c carregamento com indicador 7000rpm motor forte",
    "busca": "electric shaver men",
    "loja": "AliExpress",
-   "por": 38.49,
+   "por": 38.59,
    "nota": 4.9,
-   "vendas": 12743,
+   "vendas": 12879,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6777d18a8c204c6584db13cfdb4fdcc5S.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c4pGYg1J",
-   "visto": "2026-09-28T10:57+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -3812,13 +3813,13 @@
    "t": "Vgr V-353 barbeador profissional navalha elétrica máquina de barbear portátil aparador de barba recarregável mini barbeador para homem",
    "busca": "electric shaver men",
    "loja": "AliExpress",
-   "por": 42.49,
+   "por": 42.5,
    "nota": 4.9,
-   "vendas": 12491,
+   "vendas": 12421,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S88766a6cb2f640ab893bd3cd63128d30q.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3fd7IXj",
-   "visto": "2026-09-28T10:57+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -3889,11 +3890,11 @@
    "loja": "AliExpress",
    "por": 192.59,
    "nota": 4.9,
-   "vendas": 8206,
+   "vendas": 8210,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6632c3536c984a60b28fe11cd349b438E.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c2vX24j7",
-   "visto": "2026-09-28T11:31+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -3908,7 +3909,7 @@
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S92b35c79db374bd8af678f246bea797en.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3w4bDW5",
-   "visto": "2026-09-28T11:31+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -3917,13 +3918,13 @@
    "t": "Zealot-S32 Alto-falante sem fio portátil, Subwoofer ao ar livre, impermeável, IPX 6, emparelhamento duplo, bateria 1800mAh",
    "busca": "portable bluetooth speaker waterproof",
    "loja": "AliExpress",
-   "por": 80.29,
+   "por": 80.39,
    "nota": 4.9,
    "vendas": 4138,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S834f12d4bcb84e2b8c96b9a81f728a0dj.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3wC1GGH",
-   "visto": "2026-09-28T11:31+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -4013,7 +4014,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_727580-MLA93869936858_102025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/bola-de-futebol-trionda-training-copa-do-mundo-da-fifa-26tm-adidas/p/MLB54774833?pdp_filters=item_id%3AMLB4253907211&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Esportes",
    "ic": "🏋️"
   },
@@ -4371,7 +4372,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_961178-MLB112153608802_062026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-2067885628-top-puma-academia-fitness-original-nadador-alta-sustentaco-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Esportes",
    "ic": "🏋️"
   },
@@ -4510,7 +4511,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_730513-MLB80451340719_112024-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3806655487-tnis-flyer-runner-mesh-bdp-puma-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T02:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -4570,8 +4571,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_819521-MLB82469767267_022025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/olevs-relogio-feminino-original-quartz-a-prova-dagua-9961/up/MLBU3017928428?pdp_filters=item_id%3AMLB6484481184&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
-   "cmp_em": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -4647,8 +4648,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_818498-MLA99527505846_122025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/chapinha-profissional-mq-pro-480-turbo-cor-black-e-detalhes-silver/p/MLB26703117?pdp_filters=item_id%3AMLB4083341170&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T02:28+00:00",
-   "cmp_em": "2026-09-29T02:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -5060,7 +5061,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_805455-MLA99487191924_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/caixa-papel-sulfite-a4-report-10-resmas-de-500-folhas-kit/p/MLB11286621?pdp_filters=item_id%3AMLB6984694256&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -5075,7 +5076,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_709426-MLA112774973926_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/placa-mae-gigabyte-ultra-durable-a520m-k-v2/p/MLB24456876?pdp_filters=item_id%3AMLB4343005385&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -5287,7 +5288,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_968094-MLB112262213139_052026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4167700535-kit-2-short-duplo-compresso-fitness-bermuda-treino-feminino-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T22:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -5400,8 +5401,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_894729-MLB115651249026_092026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-4054011533-tnis-kappa-sparta-unissex-original-confortavel-caminhada-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T02:28+00:00",
-   "cmp_em": "2026-09-29T02:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
+   "cmp_em": "2026-09-29T02:56+00:00",
    "cmp": [],
    "cat": "Moda",
    "ic": "👟"
@@ -5417,7 +5418,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_672676-MLB96555670802_112025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3896678839-kit-3-bermuda-masculina-importada-seda-secagem-rapida-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -5909,7 +5910,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_968384-MLA109938381052_042026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/papel-higienico-supra-folha-tripla-24-rolos/p/MLB38655102?pdp_filters=item_id%3AMLB4943866566&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T02:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -6286,7 +6287,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_740271-MLB104616492147_012026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-5218212908-smartwatch-feminino-relogio-inteligente-esportivo-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-28T23:55+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -7207,7 +7208,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_601754-MLB114824694582_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-4-tintas-epson-544-originais-ecotank-l3250-l3150-l3110/up/MLBU4714521235?pdp_filters=item_id%3AMLB7419650454&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -7222,7 +7223,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_920452-MLA99875518403_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-mini-me-vermelha-e-preta/p/MLB15154783?pdp_filters=item_id%3AMLB5829150562&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:56+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -7237,7 +7238,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_933795-MLA115633578810_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/secador-de-cabelos-philcopsc3500-4-em-1dobravelmotorbldc-prateado/p/MLB50269368?pdp_filters=item_id%3AMLB6500132902&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:56+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Beleza",
    "ic": "💄"
   },
@@ -7417,7 +7418,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_621055-MLA91966913733_092025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/monitor-gamer-aoc-serie-b30-215-full-hd-gaming-120hz-1ms-22b30hm23-cor-preto/p/MLB50200257?pdp_filters=item_id%3AMLB4644357019&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Games",
    "ic": "🎮"
   },
@@ -7507,7 +7508,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_865718-MLA99950871363_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/combo-teclado-e-mouse-sem-fio-logitech-mk235-layout-abnt2/p/MLB37790373?pdp_filters=item_id%3AMLB3934657461&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -7537,7 +7538,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_900432-MLA113518359539_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-10-pote-de-vidro-marmita-hermetico-640ml-freezer-fitness-rishon/p/MLB63904966?pdp_filters=item_id%3AMLB6600701296&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -7672,7 +7673,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_959175-MLA99913831529_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/amaciante-ype-pro-ultra-7l/p/MLB20806906?pdp_filters=item_id%3AMLB3798505815&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T01:28+00:00",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -7780,6 +7781,51 @@
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3LPsvhT",
    "visto": "2026-09-29T02:28+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "MLB-1726772938": {
+   "n": "Bermuda Masculina Esportiva Kit 4 Peças",
+   "t": "Bermuda Masculina Esportiva Kit 4 Peças",
+   "cid": "MLB1276",
+   "loja": "Mercado Livre",
+   "por": 77.06,
+   "nota": 4.8,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_904489-MLB106920505144_022026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-1726772938-bermuda-masculina-esportiva-kit-4-pecas-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-29T02:56+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "MLB3611214641": {
+   "n": "Aparelho de Jantar e Chá Ryo Maresia 20 Peças Off White e Marrom...",
+   "t": "Aparelho de Jantar e Chá Ryo Maresia 20 Peças Off White e Marrom Oxford",
+   "cid": "MLB1574",
+   "loja": "Mercado Livre",
+   "por": 281.1,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_619198-MLA96107579199_102025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/aparelho-de-jantar-e-cha-ryo-maresia-20-pecas-off-white-e-marrom-oxford/p/MLB33630217?pdp_filters=item_id%3AMLB3611214641&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-09-29T02:56+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007129391382": {
+   "n": "VGR 353 Barbeador elétrico recarregável de lâmina única Pro para...",
+   "t": "VGR 353 Barbeador elétrico recarregável de lâmina única Pro para homens navalha portátil",
+   "busca": "electric shaver men",
+   "loja": "AliExpress",
+   "por": 46.99,
+   "nota": 4.9,
+   "vendas": 12421,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S88766a6cb2f640ab893bd3cd63128d30q.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c36W4WZf",
+   "visto": "2026-09-29T02:56+00:00",
    "cat": "Beleza",
    "ic": "💄"
   }
