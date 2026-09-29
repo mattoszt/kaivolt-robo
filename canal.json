@@ -36,6 +36,10 @@
    "mouse-sem-fio": {
     "d": "2026-09-28 12:20",
     "p": 17.89
+   },
+   "carregador-gan-65w": {
+    "d": "2026-09-28 20:39",
+    "p": 62.19
    }
   },
   "slots": {
@@ -43,9 +47,15 @@
    "2026-09-27-3": 1,
    "2026-09-27-12": 1,
    "2026-09-27-20": 1,
-   "2026-09-28-12": 1
+   "2026-09-28-12": 1,
+   "2026-09-28-20": 1
   },
   "fila_zap": [
+   {
+    "d": "28/09 20:39",
+    "n": "Carregador GaN 65W (notebook e celular)",
+    "txt": "*Carregador GaN 65W (notebook e celular)*\n\n💰 *R$ 62,19* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+5,7 mil vendidos na loja\nTambém em: Mercado Livre R$ 208,99\n\n👉 https://s.click.aliexpress.com/e/_c43EEZch\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "28/09 19:59",
     "n": "Olevs Relógio Feminino Original Quartz À Prova D'água 9961 Preto Dourado",
@@ -190,11 +200,6 @@
     "d": "27/09 19:18",
     "n": "Kz edx pro 10mm circuito magnético duplo unidade dinâmica fone de ouvido...",
     "txt": "*Kz edx pro 10mm circuito magnético duplo unidade dinâmica fone de ouvido...*\n\n💰 *R$ 25,29* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +47,4 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3BnCh17\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "27/09 18:58",
-    "n": "Pulseira magnética para Xiaomi Mi Band 11 10 9 8, acessórios, pulseira...",
-    "txt": "*Pulseira magnética para Xiaomi Mi Band 11 10 9 8, acessórios, pulseira...*\n\n💰 *R$ 16,31* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,8 · +2,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4nyz07L\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -352,10 +357,10 @@
    "ml:MLB-3709886219": "2026-09-28"
   },
   "kw": 56,
-  "ultimo": "2026-09-28 19:59",
+  "ultimo": "2026-09-28 20:39",
   "dia": {
    "d": "2026-09-28",
-   "n": 18
+   "n": 19
   },
   "ml_n": 9,
   "ml_extras": [
