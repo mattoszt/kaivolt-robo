@@ -102,7 +102,7 @@
   "2026-09-27": 17.43,
   "2026-09-28": 17.45,
   "2026-09-29": 15.26,
-  "2026-09-30": 15.18
+  "2026-09-30": 33.5
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -545,8 +545,8 @@
   }
  },
  "_achados_meta": {
-  "n": 624,
-  "ali_n": 241
+  "n": 629,
+  "ali_n": 243
  },
  "_achados": {
   "MLB7564635266": {
@@ -560,8 +560,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_900432-MLA113518359539_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-10-pote-de-vidro-marmita-hermetico-640ml-freezer-fitness-rishon/p/MLB63904966?pdp_filters=item_id%3AMLB7564635266&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -577,8 +577,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_942823-MLA113526261849_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-10-potes-hermeticos-vidro-640ml-starhouse-marmita-forno-micro-ondas-airfryer-com-4-travas-de-super-vedacao/p/MLB53222689?pdp_filters=item_id%3AMLB5574851656&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -611,8 +611,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_818555-MLA99479472410_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/prancha-lizze-profissional-480-extreme/p/MLB24086423?pdp_filters=item_id%3AMLB6149410898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:57+00:00",
-   "cmp_em": "2026-09-30T17:57+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -645,8 +645,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_773776-MLA106648864819_022026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/aspirador-vertical-wap-power-speed-max-ci10-3-em-1-1600w-127v/p/MLB62021471?pdp_filters=item_id%3AMLB6161133722&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -662,8 +662,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_633098-MLA92276027266_092025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/fritadeira-air-fryer-oven-11-litros-1800w-8-funcoes-philco-paf11b/p/MLB56550237?pdp_filters=item_id%3AMLB4856696863&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -746,7 +746,7 @@
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-principia-para-rotina-de-skincare-pele-sensivel-com-protetor-solar-fps-60/p/MLB53618239?pdp_filters=item_id%3AMLB5554213538&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-29T17:58+00:00",
-   "cmp_em": "2026-09-29T17:58+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Beleza",
    "ic": "💄"
@@ -843,7 +843,9 @@
    "link": "https://www.mercadolivre.com.br/relogio-de-parede-grande-led-digital-p-academia-hospital/up/MLBU3206351128?pdp_filters=item_id%3AMLB4077314251&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-30T17:57+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-09-30T18:34+00:00",
+   "cmp": []
   },
   "MLB-5646929746": {
    "n": "Kit 10 Mini Porta Jóias Viagem Maleta Caixa Zíper Atacado",
@@ -907,7 +909,9 @@
    "link": "https://www.mercadolivre.com.br/power-bank-basike-20000mah-para-notebook-e-celular-com-cabo-usb-c-65w/p/MLB63033418?pdp_filters=item_id%3AMLB6204416228&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-30T17:57+00:00",
    "cat": "Celular e Tech",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-09-30T18:34+00:00",
+   "cmp": []
   },
   "MLB4489955434": {
    "n": "Esmerilhadeira Bosch 4,5\" 220V 710W GWS 700 06013A30E0",
@@ -920,8 +924,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_670719-MLA99986706915_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/esmerilhadeira-bosch-45-220v-710w-gws-700-06013a30e0/p/MLB19109935?pdp_filters=item_id%3AMLB4489955434&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -937,8 +941,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_612148-MLB89576622881_082025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-5117726760-lavadora-de-alta-presso-lav-1600-1600-lbfpol-vonder-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -980,8 +984,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_637780-MLA103727463283_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/maquina-de-solda-inversora-portatil-war-shark-bivolt-110v220v-mma-tig-amarelo/p/MLB63879053?pdp_filters=item_id%3AMLB7608843970&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [
     {
      "loja": "AliExpress",
@@ -989,7 +993,7 @@
      "nota": 4.8,
      "vendas": 4043,
      "t": "ATTACK SHARK X11 Mouse Gamer sem Fio, Tri-Mode, PAW3311, Até 1000 Hz, 59±3g",
-     "link": "https://s.click.aliexpress.com/e/_c2IIcNyV"
+     "link": "https://s.click.aliexpress.com/e/_c2xb1RCN"
     }
    ],
    "cat": "Casa",
@@ -1049,8 +1053,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_600865-MLA99412521708_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-2-radio-comuncador-16-ch-12km-baofeng-777s-ht-cor-preto/p/MLB25880439?pdp_filters=item_id%3AMLB3798452685&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
-   "cmp_em": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [
     {
      "loja": "AliExpress",
@@ -1058,7 +1062,7 @@
      "nota": 4.9,
      "vendas": 165,
      "t": "Kit 2 Rádio Comunicador Walk Talk Baofeng 777s com 16 Canais Alcance de 12Km 2 Duas Pçs - ",
-     "link": "https://s.click.aliexpress.com/e/_c4U92sjJ"
+     "link": "https://s.click.aliexpress.com/e/_c3Q1twTX"
     }
    ],
    "cat": "Carro",
@@ -1075,8 +1079,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_756476-MLA117807618909_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-4-radios-comunicadores-walkie-talkie-profissional-eventos-ht-uhf-radinho-walk-talk-com-fone-microfone-e-acessorios-comunicacao-segura-longo-distancia-seguranca-garcom-portatil-antena-ptt-davely/p/MLB79480370?pdp_filters=item_id%3AMLB4595818533&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
-   "cmp_em": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Celular e Tech",
    "ic": "📱"
@@ -1160,8 +1164,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_948000-MLA101823824285_122025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/racao-seca-formula-natural-gatos-castrados-adultos-salmao-10-kg/p/MLB61672441?pdp_filters=item_id%3AMLB7125050310&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T10:32+00:00",
-   "cmp_em": "2026-09-30T10:32+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Pet",
    "ic": "🐾"
@@ -1409,7 +1413,9 @@
    "link": "https://produto.mercadolivre.com.br/MLB-3746504707-chinelo-havaianas-masculino-top-max-comfort-anatmica-macia-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-09-30T17:31+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-09-30T18:34+00:00",
+   "cmp": []
   },
   "MLB-4330911507": {
    "n": "Mochila Viagem Executiva Grande Notebook Masculina Feminina",
@@ -1622,9 +1628,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_923337-MLA113455559253_062026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-38-a-bateria-bosch-gsr-120-li/p/MLB44894619?pdp_filters=item_id%3AMLB4118781885&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
-   "cmp": [],
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -1889,7 +1893,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_670568-MLA113572446412_072026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/percarbonato-de-sodio-100-puro-tira-manchas-alvejante-1kg-calisul/p/MLB75542419?pdp_filters=item_id%3AMLB7590447370&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -2328,7 +2332,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_930342-MLA99833216367_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/racao-quatree-life-gatos-ad-salmao-101kg-sem-transgenicos/p/MLB25336599?pdp_filters=item_id%3AMLB4782992848&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -2463,7 +2467,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_810775-MLA116163543260_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/premier-nutricao-clinica-hipoalergico-cordeiro-cao-adulto-porte-pequeno-pele-sensivel-10kg/p/MLB16067794?pdp_filters=item_id%3AMLB4186367505&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -2763,7 +2767,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_686944-MLA117576243199_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/biofresh-super-premium-natural-racao-para-gatos-castrados-sabor-frango-75kg/p/MLB22445588?pdp_filters=item_id%3AMLB5345479412&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T03:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -3429,7 +3433,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_988931-MLA99932626459_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/racao-quatree-life-para-gatos-castrados-salmao-e-arroz-101-kg/p/MLB28128999?pdp_filters=item_id%3AMLB4259107483&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -3671,7 +3675,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_659633-MLA117032776949_092026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-lavagem-shampoo-cera-tok-final-intense-sintra-fast-vonixx/p/MLB37821126?pdp_filters=item_id%3AMLB4273146969&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -3819,13 +3823,13 @@
    "t": "Tapete de rato grande antiderrapante de borracha para PC, computador, jogos, com borda costurada, para jogos como CS GO, LOL e Dota.",
    "busca": "large desk mat",
    "loja": "AliExpress",
-   "por": 15.69,
+   "por": 15.59,
    "nota": 4.9,
-   "vendas": 5545,
+   "vendas": 5519,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se7ec839d911d4427b7de8c0808a4ffadG.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3ZNy35x",
-   "visto": "2026-09-30T01:56+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
   },
@@ -3864,13 +3868,13 @@
    "t": "Copo de agitação esportivo de ângulo único de aço inoxidável multicolorido design simples à prova de vazamentos adequado para copos de fitne",
    "busca": "stainless steel water bottle",
    "loja": "AliExpress",
-   "por": 40.99,
+   "por": 40.79,
    "nota": 4.9,
    "vendas": 4327,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1ff8a1cb5f1d4b54ab44a3abb40392f89.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c4bCTWtR",
-   "visto": "2026-09-30T02:29+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Moda",
    "ic": "👟"
   },
@@ -3879,13 +3883,13 @@
    "t": "Garrafa Térmica TYESO para Carro, Frasco Isolado, Copo Térmico para Esportes ao Ar Livre e Viagens, Frascos a Vácuo em Aço Inoxidável",
    "busca": "stainless steel water bottle",
    "loja": "AliExpress",
-   "por": 61.62,
+   "por": 61.26,
    "nota": 4.9,
-   "vendas": 4178,
+   "vendas": 4151,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc5418bc5ac14a858331a116c22e14e7H.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c4nOUzsD",
-   "visto": "2026-09-30T02:29+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -3894,13 +3898,13 @@
    "t": "1-15 pçs portátil de aço inoxidável bicicleta garrafa de água em linha reta beber ao ar livre esportes viagem chaleira garrafa de água de me",
    "busca": "stainless steel water bottle",
    "loja": "AliExpress",
-   "por": 24.79,
+   "por": 24.69,
    "nota": 4.9,
    "vendas": 4174,
    "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb234cb5dc3b841368b79843a337fa8d8W.jpg",
    "od": 0,
    "link": "https://s.click.aliexpress.com/e/_c3kSXkwD",
-   "visto": "2026-09-30T02:29+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Esportes",
    "ic": "🏋️"
   },
@@ -4202,7 +4206,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_929753-MLB92089732862_092025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/galao-reserva-tanque-combustivel-gasolina-20-litros-vermelho/up/MLBU3365848773?pdp_filters=item_id%3AMLB5598363700&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -4757,7 +4761,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_920452-MLA99875518403_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/cafeteira-nescafe-dolce-gusto-mini-me-vermelha-e-preta/p/MLB15154783?pdp_filters=item_id%3AMLB5829150562&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -4877,7 +4881,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_790904-MLA108570211465_032026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/papel-higienico-familiar-folha-dupla-kit-24-rolos-de-30-m/p/MLB66453791?pdp_filters=item_id%3AMLB6474450898&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:57+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -5248,13 +5252,15 @@
    "t": "Jogo de Jantar e Chá Oxford Mendi Marfim de Cerâmica com 20 Peças",
    "cid": "MLB1574",
    "loja": "Mercado Livre",
-   "por": 265.05,
+   "por": 227.9,
    "nota": 4.9,
    "vendas": 5000,
    "img": "https://http2.mlstatic.com/D_NQ_NP_636799-MLA95689845192_102025-O.jpg",
-   "od": 0,
+   "od": 1,
    "link": "https://www.mercadolivre.com.br/jogo-de-jantar-e-cha-oxford-mendi-marfim-de-ceramica-com-20-pecas/p/MLB32551422?pdp_filters=item_id%3AMLB5360100032&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T07:32+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
+   "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -5269,7 +5275,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_861641-MLA100053796807_122025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/cooktop-5-bocas-a-gas-atlas-agile-up-mega-chama-preto/p/MLB50829128?pdp_filters=item_id%3AMLB4082731117&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -6607,7 +6613,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_606677-MLA115733886141_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/air-fryer-britania-65l-1700w-8-funcoes-painel-digital-redstone-baf65a/p/MLB68834252?pdp_filters=item_id%3AMLB4992043843&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -6895,7 +6901,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_788157-MLB89014839851_072025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3878042641-lavadora-de-alta-presso-lav-1600-1600-lbfpol-vonder-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -6955,7 +6961,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_954952-MLA112052411495_052026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/granvita-quatree-super-premium-supreme-cao-adulto-racas-pequenas-seca/p/MLB21173691?pdp_filters=item_id%3AMLB4625700955&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -7272,8 +7278,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_605578-MLA113633610823_062026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/kit-10-pote-de-vidro-marmita-hermetico-370ml-freezer-fitness-rishon/p/MLB66060206?pdp_filters=item_id%3AMLB4925283537&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -7458,7 +7464,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_840426-MLA104261970721_012026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/mercusys-mc510-camera-de-seguranca-wi-fi-externa-2k-3mp-rotacao-360-visao-noturna-colorida-deteccao-de-pessoas-e-rastreamento-de-movimento-ip65-audio-bidirecional-alexa-e-microsd-ate-512-gb/p/MLB64083531?pdp_filters=item_id%3AMLB6160472112&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T02:57+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -7482,13 +7488,13 @@
    "t": "Motor Partida Voklswage Fusca Brasilia Kombi 1300 1500 1600",
    "cid": "MLB5672",
    "loja": "Mercado Livre",
-   "por": 282.28,
+   "por": 283.71,
    "nota": 4.9,
    "vendas": 1000,
    "img": "https://http2.mlstatic.com/D_NQ_NP_880712-MLB100819428201_122025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/motor-partida-voklswage-fusca-brasilia-kombi-1300-1500-1600/up/MLBU3663629134?pdp_filters=item_id%3AMLB4348723249&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-29T21:30+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -7625,7 +7631,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_606677-MLA115733886141_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/s429049631-air-fryer-britania-65l-1700w-8-funcoes-painel-digital-redstone-baf65a/p/MLB68835767?pdp_filters=item_id%3AMLB7303325040&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T13:04+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -8096,7 +8102,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_717275-MLB101662952393_122025-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4136485883-frente-titan-2025-completa-cg-titan-160-adaptada-2014-a-2024-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -8205,8 +8211,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_894907-MLA112423102796_062026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/purificador-hidrofiltros-facile-c3-agua-natural-selo-inmetro-preto/p/MLB23487354?pdp_filters=item_id%3AMLB3605484231&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -8579,15 +8585,13 @@
    "t": "Cadeirinha Infantil Para Carro 9-36kg Passeio Com Segurança Cadeirinha Infantil Cinza",
    "cid": "MLB5672",
    "loja": "Mercado Livre",
-   "por": 349.51,
+   "por": 316.7,
    "nota": 4.9,
    "vendas": 1000,
    "img": "https://http2.mlstatic.com/D_NQ_NP_651922-MLA98738646630_112025-O.jpg",
-   "od": 1,
+   "od": 0,
    "link": "https://www.mercadolivre.com.br/cadeirinha-infantil-para-carro-9-36kg-passeio-com-seguranca-cadeirinha-infantil-cinza/p/MLB62449119?pdp_filters=item_id%3AMLB4322091123&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T05:57+00:00",
-   "cmp_em": "2026-09-30T05:57+00:00",
-   "cmp": [],
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -8771,7 +8775,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_605595-MLA99451063456_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/racao-bionatural-para-gatos-castrados-sabor-frango-75kg/p/MLB42123469?pdp_filters=item_id%3AMLB5452664488&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -8966,8 +8970,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_681126-MLA115545993062_082026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-compacta-1500-psilibras-1400w-300lh-com-aplicador-de-detergente-e-lanca-regulavel-220v/p/MLB25371983?pdp_filters=item_id%3AMLB3393222713&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T13:04+00:00",
-   "cmp_em": "2026-09-30T13:04+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -9073,7 +9077,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_731661-MLA115313272270_082026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/pneu-wanli-17575r14-86t-sp203-aro-14/p/MLB37142454?pdp_filters=item_id%3AMLB5457098136&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -9180,8 +9184,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_750133-MLA81329150741_122024-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/lavadora-de-alta-pressao-krcher-1994-3780-1200w-cor-amarelo/p/MLB40583845?pdp_filters=item_id%3AMLB3392895409&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
-   "cmp_em": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Casa",
    "ic": "🏠"
@@ -9516,7 +9520,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_907636-MLB116324870462_092026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-4996061914-lavadora-de-alta-presso-economica-potente-1400w-vonder-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -9621,7 +9625,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_763202-MLA99983293037_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/kit-30-cabides-de-madeira-antiderrapantes-irsina-com-gancho-giratorio/p/MLB53043155?pdp_filters=item_id%3AMLB4131992167&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T16:58+00:00",
+   "visto": "2026-09-30T18:34+00:00",
    "cat": "Casa",
    "ic": "🏠"
   },
@@ -9666,8 +9670,8 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_946107-MLA99439717802_112025-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/racao-seca-matisse-gato-castrado-sabor-cordeiro-75kg/p/MLB24157415?pdp_filters=item_id%3AMLB3969970052&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-09-30T17:31+00:00",
-   "cmp_em": "2026-09-30T17:31+00:00",
+   "visto": "2026-09-30T18:34+00:00",
+   "cmp_em": "2026-09-30T18:34+00:00",
    "cmp": [],
    "cat": "Pet",
    "ic": "🐾"
@@ -9825,6 +9829,36 @@
    "visto": "2026-09-30T17:57+00:00",
    "cat": "Celular e Tech",
    "ic": "📱"
+  },
+  "ali:1005009567267948": {
+   "n": "Mouse pad g-gengar computador portátil anime teclado mouse tapete...",
+   "t": "Mouse pad g-gengar computador portátil anime teclado mouse tapete grande mousepad teclados gamers decoracion tapete de mesa mouse pads",
+   "busca": "large desk mat",
+   "loja": "AliExpress",
+   "por": 34.48,
+   "nota": 4.9,
+   "vendas": 3234,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0e2aa60d159a4204bedc23a525d45174e.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4eoYlnx",
+   "visto": "2026-09-30T18:34+00:00",
+   "cat": "Celular e Tech",
+   "ic": "📱"
+  },
+  "ali:1005007698962723": {
+   "n": "Tapete de mouse personalizado impressão diy grande playmat jogos...",
+   "t": "Tapete de mouse personalizado impressão diy grande playmat jogos personalizado tamanho xxl gamer escritório mousepad logotipo oem descontos ",
+   "busca": "large desk mat",
+   "loja": "AliExpress",
+   "por": 22.42,
+   "nota": 4.9,
+   "vendas": 2396,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8b64e96f09dd460bbec65ff2064f9b92v.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3Kkqe17",
+   "visto": "2026-09-30T18:34+00:00",
+   "cat": "Games",
+   "ic": "🎮"
   }
  }
 }
