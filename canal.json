@@ -18,8 +18,8 @@
     "p": 11.89
    },
    "powerbank-magsafe": {
-    "d": "2026-09-27 14:37",
-    "p": 82.77
+    "d": "2026-09-30 14:59",
+    "p": 85.19
    },
    "suporte-tablet": {
     "d": "2026-09-27 20:17",
@@ -66,6 +66,11 @@
    "2026-09-30-12": 1
   },
   "fila_zap": [
+   {
+    "d": "30/09 14:59",
+    "n": "Power Bank magnético (MagSafe)",
+    "txt": "*Power Bank magnético (MagSafe)*\n\n🔻 Caiu 15%: era R$ 99,90 nos últimos dias\n💰 *R$ 85,19* no Mercado Livre\n\n👉 https://www.mercadolivre.com.br/power-bank-10000mah-magnetico-para-iphone-magsafe/up/MLBU3857015826?pdp_filters=item_id%3AMLB4540680129&matt_word=ky20260925222946505&matt_tool=97504693\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "30/09 14:19",
     "n": "Supercoffee 3.0 380g Super Coffee Caffeine Army Sabor Baunilha",
@@ -210,11 +215,6 @@
     "d": "28/09 20:39",
     "n": "Carregador GaN 65W (notebook e celular)",
     "txt": "*Carregador GaN 65W (notebook e celular)*\n\n💰 *R$ 62,19* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+5,7 mil vendidos na loja\nTambém em: Mercado Livre R$ 208,99\n\n👉 https://s.click.aliexpress.com/e/_c43EEZch\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "28/09 19:59",
-    "n": "Olevs Relógio Feminino Original Quartz À Prova D'água 9961 Preto Dourado",
-    "txt": "*Olevs Relógio Feminino Original Quartz À Prova D'água 9961 Preto Dourado*\n\n💰 *R$ 131,89* no Mercado Livre\n🏷️ Oferta do dia do Mercado Livre\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/olevs-relogio-feminino-original-quartz-a-prova-dagua-9961/up/MLBU3017928428?pdp_filters=item_id%3AMLB6484481184&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -542,10 +542,10 @@
    "ml:MLB-3836604070": "2026-09-30"
   },
   "kw": 71,
-  "ultimo": "2026-09-30 14:19",
+  "ultimo": "2026-09-30 14:59",
   "dia": {
    "d": "2026-09-30",
-   "n": 10
+   "n": 11
   },
   "ml_n": 24,
   "ml_extras": [
