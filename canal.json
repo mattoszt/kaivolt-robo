@@ -48,6 +48,10 @@
    "teclado-tablet": {
     "d": "2026-09-29 20:01",
     "p": 47.4
+   },
+   "caixa-som": {
+    "d": "2026-09-30 12:19",
+    "p": 49.79
    }
   },
   "slots": {
@@ -58,9 +62,20 @@
    "2026-09-28-12": 1,
    "2026-09-28-20": 1,
    "2026-09-29-12": 1,
-   "2026-09-29-20": 1
+   "2026-09-29-20": 1,
+   "2026-09-30-12": 1
   },
   "fila_zap": [
+   {
+    "d": "30/09 12:19",
+    "n": "Caixa de som Bluetooth portátil",
+    "txt": "*Caixa de som Bluetooth portátil*\n\n💰 *R$ 49,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+1,8 mil vendidos na loja\nTambém em: Mercado Livre R$ 69,99\n\n👉 https://s.click.aliexpress.com/e/_c4l7AMXf\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "30/09 11:39",
+    "n": "Kit Fran Love Kit Gloss Labial E Lápis Labial By Franciny",
+    "txt": "*Kit Fran Love Kit Gloss Labial E Lápis Labial By Franciny*\n\n💰 *R$ 51,74* no Mercado Livre\n🏷️ Oferta do dia do Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/kit-fran-love-kit-gloss-labial-e-lapis-labial-by-franciny/p/MLB2081604757?pdp_filters=item_id%3AMLB6620238180&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "30/09 10:59",
     "n": "Prensagem manual de alho ralador cortador ferramenta cozinha descascador...",
@@ -200,16 +215,6 @@
     "d": "28/09 17:58",
     "n": "Suporte Magnético para Carregador Sem Fio de Carro 15W com Carregamento...",
     "txt": "*Suporte Magnético para Carregador Sem Fio de Carro 15W com Carregamento...*\n\n💰 *R$ 23,42* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +5,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4q2EUdr\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "28/09 17:18",
-    "n": "Roku Streaming Stick 2025 Para Tv Hd/fhd Controle Por Voz Preto De Voz 3ª...",
-    "txt": "*Roku Streaming Stick 2025 Para Tv Hd/fhd Controle Por Voz Preto De Voz 3ª...*\n\n💰 *R$ 256,41* no Mercado Livre\n⭐ 4,9 · +100 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/roku-streaming-stick-2025-para-tv-hdfhd-controle-por-voz-preto-de-voz-3-geracao-3840br/p/MLB54014512?pdp_filters=item_id%3AMLB4327007547&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "28/09 16:00",
-    "n": "ND Óculos de sol polarizados com escurecimento, óculos redondos retrô punk...",
-    "txt": "*ND Óculos de sol polarizados com escurecimento, óculos redondos retrô punk...*\n\n💰 *R$ 28,89* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +16,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3tFTUvX\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -489,77 +494,90 @@
    "ml:MLB-5186402308": "2026-09-30",
    "ml:MLB-4231289143": "2026-09-30",
    "ml:MLB-4020676149": "2026-09-30",
-   "1005007987710373": "2026-09-30"
+   "1005007987710373": "2026-09-30",
+   "ml:MLB6620238180": "2026-09-30",
+   "ml:MLB7119734754": "2026-09-30",
+   "ml:MLB4409314137": "2026-09-30",
+   "ml:MLB3946172085": "2026-09-30",
+   "ml:MLB4411178403": "2026-09-30",
+   "ml:MLB3592538749": "2026-09-30",
+   "ml:MLB6460698788": "2026-09-30",
+   "ml:MLB-5108051664": "2026-09-30",
+   "ml:MLB5044931195": "2026-09-30",
+   "ml:MLB4936144107": "2026-09-30",
+   "ml:MLB2734254766": "2026-09-30",
+   "ml:MLB-4220612811": "2026-09-30",
+   "ml:MLB3734589330": "2026-09-30"
   },
   "kw": 67,
-  "ultimo": "2026-09-30 10:59",
+  "ultimo": "2026-09-30 12:19",
   "dia": {
    "d": "2026-09-30",
-   "n": 5
+   "n": 7
   },
-  "ml_n": 19,
+  "ml_n": 21,
   "ml_extras": [
    {
-    "d": "30/09 10:19",
-    "n": "Kit 9 Pares Meias Puma Soquete Cano Curto Sapatilha Original",
-    "txt": "*Kit 9 Pares Meias Puma Soquete Cano Curto Sapatilha Original*\n\n💰 *R$ 62,92* no Mercado Livre\n⭐ 4,9 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-5147251938-kit-9-pares-meias-puma-soquete-cano-curto-sapatilha-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Kaisasa Shampoo Tonalizante Para Cobrir Cabelo Cinzento，shampoo...",
+    "txt": "*Kaisasa Shampoo Tonalizante Para Cobrir Cabelo Cinzento，shampoo...*\n\n💰 *R$ 98,74* no Mercado Livre\n🏷️ Oferta do dia do Mercado Livre\n⭐ 4,7 · +10 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/kaisasa-shampoo-tonalizante-para-cobrir-cabelo-cinzentoshampoo-naturalshampoo-para-cabelo-grisalhoblack-hair-shampooshampoo-cabelos-grisalhosmarrom-escuro/p/MLB51196059?pdp_filters=item_id%3AMLB7119734754&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Tênis Flyer Runner Mesh Feminino Puma",
-    "txt": "*Tênis Flyer Runner Mesh Feminino Puma*\n\n💰 *R$ 199,49* no Mercado Livre\n⭐ 4,9 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-4091855423-tnis-flyer-runner-mesh-feminino-puma-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Lâmina Philips Oneblade Qp220/51 2 Unidades - Original 2 Und",
+    "txt": "*Lâmina Philips Oneblade Qp220/51 2 Unidades - Original 2 Und*\n\n💰 *R$ 144,77* no Mercado Livre\n⭐ 5,0 · +1 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/lamina-philips-oneblade-qp22051-2-unidades--original-2-und/up/MLBU3720385942?pdp_filters=item_id%3AMLB4409314137&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Kit 6 Cuecas Box Sem Costura Boxer Lupo Microfibra Original",
-    "txt": "*Kit 6 Cuecas Box Sem Costura Boxer Lupo Microfibra Original*\n\n💰 *R$ 131,12* no Mercado Livre\n⭐ 4,9 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-1010958094-kit-6-cuecas-box-sem-costura-boxer-lupo-microfibra-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Perfume Lattafa Asad 100ml Eau De Parfum Original Árabe Original Com Nota...",
+    "txt": "*Perfume Lattafa Asad 100ml Eau De Parfum Original Árabe Original Com Nota...*\n\n💰 *R$ 177,65* no Mercado Livre\n⭐ 4,8 · +100 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/perfume-lattafa-asad-100ml-eau-de-parfum-original-arabe-original-com-nota-fiscal-e-selo-original-lataffa/up/MLBU2927448939?pdp_filters=item_id%3AMLB3946172085&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Kit 4 Cuecas Boxer Lupo Algodão Confortável Box Original",
-    "txt": "*Kit 4 Cuecas Boxer Lupo Algodão Confortável Box Original*\n\n💰 *R$ 78,99* no Mercado Livre\n⭐ 4,8 · +250 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-1871146249-kit-4-cuecas-boxer-lupo-algodo-confortavel-box-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Creme Corporal Cicatricure Maternity Antiestrias 250ml - Gestante e Pós...",
+    "txt": "*Creme Corporal Cicatricure Maternity Antiestrias 250ml - Gestante e Pós...*\n\n💰 *R$ 57,41* no Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/creme-corporal-cicatricure-maternity-antiestrias-250ml-gestante-e-pos-parto/p/MLB19509656?pdp_filters=item_id%3AMLB4411178403&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Calça Jeans Masculina Tradicional Corte Reto",
-    "txt": "*Calça Jeans Masculina Tradicional Corte Reto*\n\n💰 *R$ 59,99* no Mercado Livre\n⭐ 4,8 · +100 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-4392538214-calca-jeans-masculina-tradicional-corte-reto-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Protetor Térmico Capilar Profissional Fluído Para Escova Defrizante Dacca...",
+    "txt": "*Protetor Térmico Capilar Profissional Fluído Para Escova Defrizante Dacca...*\n\n💰 *R$ 37,83* no Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/protetor-termico-capilar-profissional-fluido-para-escova-defrizante-dacca-professional/p/MLB24614593?pdp_filters=item_id%3AMLB3592538749&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Kit 10 Pares Meia Lupo Original Masculina Cano Médio Algodão",
-    "txt": "*Kit 10 Pares Meia Lupo Original Masculina Cano Médio Algodão*\n\n💰 *R$ 114,99* no Mercado Livre\n⭐ 4,8 · +50 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-1230533155-kit-10-pares-meia-lupo-original-masculina-cano-medio-algodo-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Kit Crina De Cavalo Maycrene Crescimento Rápido + Sérum",
+    "txt": "*Kit Crina De Cavalo Maycrene Crescimento Rápido + Sérum*\n\n💰 *R$ 42,36* no Mercado Livre\n⭐ 4,8 · +5 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/kit-crina-de-cavalo-maycrene-crescimento-rapido--serum/up/MLBU3839192965?pdp_filters=item_id%3AMLB6460698788&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Boné Ny New York Yankees Unissex Blogueira Fitão Regulável",
-    "txt": "*Boné Ny New York Yankees Unissex Blogueira Fitão Regulável*\n\n💰 *R$ 29,99* no Mercado Livre\n⭐ 4,8 · +50 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-5343717398-bone-ny-new-york-yankees-unissex-blogueira-fito-regulavel-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Kit Gypsy 4 Cabelo 2 Jumbo 400 Gramas +2 Nina Softex + Anéis",
+    "txt": "*Kit Gypsy 4 Cabelo 2 Jumbo 400 Gramas +2 Nina Softex + Anéis*\n\n💰 *R$ 58,04* no Mercado Livre\n⭐ 4,8 · +5 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-5108051664-kit-gypsy-4-cabelo-2-jumbo-400-gramas-2-nina-softex-aneis-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Shorts Esportivo Masculino Slim Fit Com Elastano Poliamida",
-    "txt": "*Shorts Esportivo Masculino Slim Fit Com Elastano Poliamida*\n\n💰 *R$ 37,90* no Mercado Livre\n⭐ 4,8 · +50 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-5159817994-shorts-esportivo-masculino-slim-fit-com-elastano-poliamida-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Modelador De Cachos Pente Dear Quente Íons Negativosportátil Rosa 127-220v",
+    "txt": "*Modelador De Cachos Pente Dear Quente Íons Negativosportátil Rosa 127-220v*\n\n💰 *R$ 184,14* no Mercado Livre\n⭐ 4,8 · +5 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/modelador-de-cachos-pente-dear-quente-ions-negativosportatil/up/MLBU4705149870?pdp_filters=item_id%3AMLB5044931195&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Kit 5 Peças All Black Dry 3 Camisetas E 2 Bermudas Alpha",
-    "txt": "*Kit 5 Peças All Black Dry 3 Camisetas E 2 Bermudas Alpha*\n\n💰 *R$ 161,00* no Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-3994231661-kit-5-pecas-all-black-dry-3-camisetas-e-2-bermudas-alpha-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Escova Oval Seca Modela Alisa E Volumiza Easy Pink - Taiff",
+    "txt": "*Escova Oval Seca Modela Alisa E Volumiza Easy Pink - Taiff*\n\n💰 *R$ 139,99* no Mercado Livre\n⭐ 4,8 · +1 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/escova-oval-seca-modela-alisa-e-volumiza-easy-pink-taiff/p/MLB25327708?pdp_filters=item_id%3AMLB4936144107&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Kit Com 4 Cuecas Boxer Microfibra Mash Box Sem Costura",
-    "txt": "*Kit Com 4 Cuecas Boxer Microfibra Mash Box Sem Costura*\n\n💰 *R$ 71,24* no Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-5186402308-kit-com-4-cuecas-boxer-microfibra-mash-box-sem-costura-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Tônico Sos Crescimento 100ml",
+    "txt": "*Tônico Sos Crescimento 100ml*\n\n💰 *R$ 59,42* no Mercado Livre\n⭐ 4,8 · +1 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/tonico-sos-crescimento-100ml/up/MLBU754379588?pdp_filters=item_id%3AMLB2734254766&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Tênis Feminino Academia Treino O2x Original Ortopédico Cinza",
-    "txt": "*Tênis Feminino Academia Treino O2x Original Ortopédico Cinza*\n\n💰 *R$ 49,90* no Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-4231289143-tnis-feminino-academia-treino-o2x-original-ortopedico-cinza-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Cabelo Orgânico 65cm Cacheado Gypsy 320g Oasis Crochet Braid",
+    "txt": "*Cabelo Orgânico 65cm Cacheado Gypsy 320g Oasis Crochet Braid*\n\n💰 *R$ 64,57* no Mercado Livre\n⭐ 4,7 · +1 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-4220612811-cabelo-orgnico-65cm-cacheado-gypsy-320g-oasis-crochet-braid-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    },
    {
-    "d": "30/09 10:19",
-    "n": "Camiseta Basica Masculina Algodão Lisa Malha Peruana Premium",
-    "txt": "*Camiseta Basica Masculina Algodão Lisa Malha Peruana Premium*\n\n💰 *R$ 39,90* no Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-4020676149-camiseta-basica-masculina-algodo-lisa-malha-peruana-premium-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+    "d": "30/09 11:39",
+    "n": "Perfume Feelin Impulse For Him Hinode 100ml Produto Origina",
+    "txt": "*Perfume Feelin Impulse For Him Hinode 100ml Produto Origina*\n\n💰 *R$ 82,16* no Mercado Livre\n⭐ 4,7 · +1 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/perfume-feelin-impulse-for-him-hinode-100ml-produto-origina/p/MLB23181352?pdp_filters=item_id%3AMLB3734589330&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
-  "vez_ml": true
+  "vez_ml": false
  }
 }
