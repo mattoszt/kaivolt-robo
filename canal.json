@@ -10,8 +10,8 @@
     "p": 10.32
    },
    "powerbank-10000": {
-    "d": "2026-09-27 11:18",
-    "p": 45.89
+    "d": "2026-10-01 08:41",
+    "p": 41.3
    },
    "cabo-usbc-100w": {
     "d": "2026-09-27 12:18",
@@ -50,8 +50,8 @@
     "p": 47.4
    },
    "caixa-som": {
-    "d": "2026-09-30 12:19",
-    "p": 49.79
+    "d": "2026-10-01 08:21",
+    "p": 40.8
    },
    "caneta-stylus": {
     "d": "2026-09-30 20:19",
@@ -71,6 +71,21 @@
    "2026-09-30-20": 1
   },
   "fila_zap": [
+   {
+    "d": "01/10 09:01",
+    "n": "Carregador Original Para iPhone 11 12 13 14 15 16 Fonte + Cabo 20w PD...",
+    "txt": "*Carregador Original Para iPhone 11 12 13 14 15 16 Fonte + Cabo 20w PD...*\n\n💰 *R$ 25,99* na Shopee\n⭐ 4,9 · +4,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/5VVklljSG9\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "01/10 08:41",
+    "n": "Power Bank 10.000 mAh com carga rápida",
+    "txt": "*Power Bank 10.000 mAh com carga rápida*\n\n🔻 Caiu 10%: era R$ 45,89 nos últimos dias\n💰 *R$ 41,30* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+654 vendidos na loja\nTambém em: Shopee R$ 45,99 · Mercado Livre R$ 125,00\n\n👉 https://s.click.aliexpress.com/e/_c3L4cyA9\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "01/10 08:21",
+    "n": "Caixa de som Bluetooth portátil",
+    "txt": "*Caixa de som Bluetooth portátil*\n\n🔻 Caiu 11%: era R$ 45,60 nos últimos dias\n💰 *R$ 40,80* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+1,6 mil vendidos na loja\nTambém em: Shopee R$ 44,90 · Mercado Livre R$ 69,99\n\n👉 https://s.click.aliexpress.com/e/_c4PUTknr\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "01/10 02:00",
     "n": "Parafusadeira Furadeira De Impacto The Black Tools Tbkit18 Com Maleta",
@@ -205,21 +220,6 @@
     "d": "29/09 18:03",
     "n": "Adaptador WiFi 6 USB3.0 1800Mbps 5G/2.4GHz Dongle USB Wi-Fi Sem Fio Placa...",
     "txt": "*Adaptador WiFi 6 USB3.0 1800Mbps 5G/2.4GHz Dongle USB Wi-Fi Sem Fio Placa...*\n\n💰 *R$ 25,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3ESnT9X\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "29/09 17:23",
-    "n": "Kit Lavagem Shampoo Cera Tok Final Intense Sintra Fast Vonixx",
-    "txt": "*Kit Lavagem Shampoo Cera Tok Final Intense Sintra Fast Vonixx*\n\n💰 *R$ 176,79* no Mercado Livre\n⭐ 4,9 · +50 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/kit-lavagem-shampoo-cera-tok-final-intense-sintra-fast-vonixx/p/MLB37821126?pdp_filters=item_id%3AMLB4273146969&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "29/09 16:05",
-    "n": "Fone de Ouvido KZ EDX PRO X com Driver Dinâmico, HIFI, Graves Potentes...",
-    "txt": "*Fone de Ouvido KZ EDX PRO X com Driver Dinâmico, HIFI, Graves Potentes...*\n\n💰 *R$ 33,29* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +46 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3vroqpF\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "29/09 15:25",
-    "n": "Esmerilhadeira Bosch 4,5\" 220V 710W GWS 700 06013A30E0",
-    "txt": "*Esmerilhadeira Bosch 4,5\" 220V 710W GWS 700 06013A30E0*\n\n💰 *R$ 301,85* no Mercado Livre\n⭐ 4,9 · +100 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/esmerilhadeira-bosch-45-220v-710w-gws-700-06013a30e0/p/MLB19109935?pdp_filters=item_id%3AMLB4489955434&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -615,13 +615,14 @@
    "ml:MLB7224653928": "2026-10-01",
    "ml:MLB5316612904": "2026-10-01",
    "ml:MLB4907296759": "2026-10-01",
-   "ml:MLB5414412058": "2026-10-01"
+   "ml:MLB5414412058": "2026-10-01",
+   "shp:23297548294": "2026-10-01"
   },
-  "kw": 77,
-  "ultimo": "2026-10-01 02:00",
+  "kw": 80,
+  "ultimo": "2026-10-01 09:01",
   "dia": {
    "d": "2026-10-01",
-   "n": 1
+   "n": 4
   },
   "ml_n": 30,
   "ml_extras": [
@@ -687,6 +688,10 @@
    }
   ],
   "vez_ml": false,
-  "vez": 1
+  "vez": 3,
+  "shopee_n": 1,
+  "shopee_q": {
+   "Celular": 1
+  }
  }
 }
