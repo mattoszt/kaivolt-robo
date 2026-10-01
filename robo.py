@@ -535,9 +535,10 @@ def main():
 
     try:
         achados = achados_site(regras, historico)
-    except Exception as e:                      # achados nunca derrubam o site
-        log("Achados: ERRO ->", e)
-        achados = []
+    except Exception as e:                      # erro nos achados: não publica (o site continua com a versão anterior, que estava boa)
+        log("Achados: ERRO ->", e, "— nada foi publicado; o site continua com as ofertas anteriores.")
+        salvar_json(ARQ_HISTORICO, historico)
+        sys.exit(1)
     log(f"Achados do dia no site: {len(achados)}")
     resultado = {"atualizado": datetime.now(timezone.utc).isoformat(timespec="minutes"),
                  "produtos": saida, "achados": achados}
@@ -1411,6 +1412,16 @@ def ofertas_do_achado(v, guard, regras):
     return sorted(ofs, key=lambda o: (bool(o.get("sim")), o["por"]))
 
 
+def ofertas_seguro(v, guard, regras):
+    """ofertas_do_achado que nunca derruba a vitrine: se um produto der erro, ele sai só com a própria loja."""
+    try:
+        return ofertas_do_achado(v, guard, regras)
+    except Exception as e:
+        log("    aviso: comparação do produto falhou ->", str(e)[:100])
+        return [{"loja": v["loja"], "por": v["por"], "nota": v["nota"], "vendas": v["vendas"],
+                 "t": v.get("t", "")[:90], "link": v["link"]}]
+
+
 def _mantem_comparacao(novo, antes):
     """Quando o mesmo produto aparece de novo, mantém a comparação entre lojas que já foi feita (vale 24h)."""
     for k in ("cmp", "cmp_em", "cmp_v"):
@@ -1513,7 +1524,7 @@ def achados_site(regras, historico):
             del guard[k]
     # vitrine: cada aba alterna as lojas (ML, Shopee, Ali, ML...) e as abas se misturam em "Todos"
     por_cat = {g[0]: [] for g in GRUPOS}
-    nlojas = {id(v): len(ofertas_do_achado(v, guard, regras)) for v in guard.values()}   # em quantas lojas o MESMO produto foi achado
+    nlojas = {id(v): len(ofertas_seguro(v, guard, regras)) for v in guard.values()}   # em quantas lojas o MESMO produto foi achado
     for v in sorted(guard.values(), key=lambda v: (nlojas[id(v)], v["od"], v["nota"], math.log10(max(v["vendas"], 1))), reverse=True):
         por_cat.setdefault(v["cat"], []).append(v)
     ordem_lojas = ["Mercado Livre", "Shopee", "AliExpress"]
@@ -1538,7 +1549,7 @@ def achados_site(regras, historico):
                     continue                           # o mesmo anúncio apareceu em duas categorias
                 vistos.add(chave)
                 item = {k: v[k] for k in ("n", "cat", "ic", "loja", "por", "nota", "vendas", "img", "od", "link") if k in v}
-                item["ofertas"] = ofertas_do_achado(v, guard, regras)
+                item["ofertas"] = ofertas_seguro(v, guard, regras)
                 links = {o["link"] for o in item["ofertas"] if not o.get("sim")}
                 if links & links_vistos:
                     continue                           # esse produto já saiu num card (com todas as lojas dentro)
