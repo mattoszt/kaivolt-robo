@@ -1176,7 +1176,8 @@ def _preco_ok(por, ref, regras, loja, titulo):
 
 ML_BLOQUEADO = {"on": False}
 TIPO_STOP = set("""original novo nova premium profissional super mega hot sale global model oficial lançamento lancamento promoção
-promocao brinde frete grátis gratis pronta entrega qualidade universal portátil portatil kit conjunto jogo par pares unidade""".split())
+promocao brinde frete grátis gratis pronta entrega qualidade universal portátil portatil kit conjunto jogo par pares unidade
+fio bluetooth wireless usb mini grande led rgb""".split())
 
 
 def tipo_do_produto(titulo):
