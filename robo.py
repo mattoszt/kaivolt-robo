@@ -1192,7 +1192,13 @@ def specs_proximas(specs, tk):
 SUBTIPOS = [set(x.split()) for x in (
     "headphone headset overear concha", "tws earbud earbuds intra intraauricular gancho earhook", "gps", "gamer gaming",
     "infantil criança crianças kids bebê", "cachorro cachorros cão cães", "gato gatos", "masculino masculina", "feminino feminina",
-    "mecânico mecanico", "wireless sem", "pendurado pescoço")]
+    "mecânico mecanico", "pendurado pescoço",
+    # plataforma/compatibilidade: controle de PS5 não é controle de Xbox, cabo Lightning não é USB-C
+    "ps5 ps4 ps3 playstation dualsense dualshock psvr", "xbox", "switch nintendo joycon", "iphone ios lightning magsafe",
+    "android", "macbook", "usbc typec", "microusb", "steam deck")]
+# marcas fortes: só vale o MESMO produto (um "parecido" de outra marca confunde o cliente)
+SO_IGUAL = set("""sony nintendo microsoft apple samsung lg philips xiaomi motorola dell hp asus acer lenovo canon epson jbl bosch
+dewalt makita karcher oster arno electrolux playstation xbox""".split())
 
 
 def parecido(ident, tipo, titulo, cat):
@@ -1331,11 +1337,12 @@ def comparar_achados(regras, guard, agora):
         feitos += 1
         grupo = grupo_do_produto(titulo, v.get("cid"), None, v.get("busca"), v.get("g")) or ""
         oficial = bool(set(ident["marca"]) & SO_LOJA_OFICIAL)   # marca de loja oficial: só o MESMO produto
+        forte = oficial or bool((set(ident["marca"]) | set(tipo_do_produto(titulo))) & SO_IGUAL) or bool(set(_norm(titulo)) & SO_IGUAL)
         for loja in ("Mercado Livre", "Shopee", "AliExpress"):
             if loja == v["loja"] or (loja == "AliExpress" and (oficial or grupo in ("Moda", "Beleza"))):
                 continue                               # réplica é comum nessas marcas/abas no AliExpress
             try:
-                o = comparar_loja(loja, v, ident, grupo, regras, so_igual=oficial)
+                o = comparar_loja(loja, v, ident, grupo, regras, so_igual=forte)
                 if o:
                     v["cmp"].append(o)
             except Exception as e:
@@ -1345,7 +1352,7 @@ def comparar_achados(regras, guard, agora):
                 f"{o['loja']} R$ {o['por']:.2f}{' (parecido)' if o.get('sim') else ''}" for o in v["cmp"]))
 
 
-CMP_VERSAO = 5          # sobe quando a regra do comparador muda: as comparações antigas são refeitas
+CMP_VERSAO = 6          # sobe quando a regra do comparador muda: as comparações antigas são refeitas
 
 
 def ofertas_do_achado(v, guard, regras):
@@ -1355,10 +1362,11 @@ def ofertas_do_achado(v, guard, regras):
     ofs = [{"loja": v["loja"], "por": v["por"], "nota": v["nota"], "vendas": v["vendas"], "t": v.get("t", "")[:90], "link": v["link"]}]
     ident = identidade(titulo)
     oficial = bool(set(ident["marca"]) & SO_LOJA_OFICIAL)
+    forte = oficial or bool(set(_norm(titulo)) & SO_IGUAL)          # marca forte: só o MESMO produto, nunca um parecido
     sem_ali = oficial or v.get("cat") in ("Moda", "Beleza")
     if v.get("cmp_v") == CMP_VERSAO:
         ofs += [o for o in v.get("cmp", []) if o["loja"] != v["loja"] and not (sem_ali and o["loja"] == "AliExpress")
-                and not (oficial and o.get("sim"))]
+                and not (forte and o.get("sim"))]
     lojas = {o["loja"] for o in ofs}
     # o mesmo produto que a vitrine já tem em outra loja
     if ident["marca"] or ident["modelo"]:
@@ -1371,7 +1379,7 @@ def ofertas_do_achado(v, guard, regras):
                             "t": w.get("t", "")[:90], "link": w["link"]})
                 lojas.add(w["loja"])
     # lojas que ainda faltam: um produto PARECIDO que a vitrine já tem (mesma aba)
-    if not oficial:
+    if not forte:
         tipo = tipo_do_produto(titulo)
         for loja in ("Mercado Livre", "Shopee", "AliExpress"):
             if loja in lojas or (loja == "AliExpress" and sem_ali):
