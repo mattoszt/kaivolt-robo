@@ -16,7 +16,7 @@ As chaves ficam em variáveis de ambiente (NUNCA escreva elas neste arquivo):
   FTP_HOST, FTP_USER, FTP_PASS, FTP_PASTA   (para enviar ao site)
 Só usa bibliotecas que já vêm com o Python (não precisa instalar nada).
 """
-import hashlib, hmac, json, math, os, re, sys, time, urllib.parse, urllib.request, ftplib, io
+import hashlib, hmac, json, math, os, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request, ftplib, io
 from datetime import datetime, timezone, timedelta
 
 PASTA = os.path.dirname(os.path.abspath(__file__))
@@ -48,8 +48,11 @@ def salvar_json(caminho, dados):
 
 def http(url, dados=None, headers=None):
     req = urllib.request.Request(url, data=dados, headers=headers or {})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return json.loads(r.read().decode("utf-8"))
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return json.loads(r.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:           # mostra o motivo que a loja mandou (sem mostrar chaves)
+        raise RuntimeError(f"HTTP {e.code}: {e.read().decode('utf-8', 'ignore')[:300]}")
 
 
 REGRAS = {}                 # preenchido no main() com as regras do produtos.json
@@ -575,6 +578,10 @@ def queda(p):
     return round((1 - o["por"] / o["de"]) * 100) if o.get("de") and o["de"] > o["por"] else 0
 
 
+def na_loja(loja):
+    return "na Shopee" if loja == "Shopee" else f"no {loja}"
+
+
 def montar_post(p, estilo):
     """estilo 'tg' = HTML do Telegram · 'zap' = negrito do WhatsApp (*assim*)."""
     o, q = p["ofertas"][0], queda(p)
@@ -583,7 +590,7 @@ def montar_post(p, estilo):
     L = [b(esc(p["n"])), ""]
     if q:
         L.append(f"🔻 Caiu {q}%: era {reais(o['de'])} nos últimos dias")
-    L.append(f"💰 {b(reais(o['por']))} no {o['loja']}")
+    L.append(f"💰 {b(reais(o['por']))} {na_loja(o['loja'])}")
     if p.get("oferta_dia"):
         L.append("🏷️ Oferta do dia do Mercado Livre")
     if o["loja"] == "AliExpress":
@@ -596,7 +603,7 @@ def montar_post(p, estilo):
         L.append("Também em: " + " · ".join(outras))
     L.append("")
     if estilo == "tg":
-        L.append(f'👉 <a href="{o["link"]}">Ver oferta no {o["loja"]}</a>')
+        L.append(f'👉 <a href="{o["link"]}">Ver oferta {na_loja(o["loja"])}</a>')
         L.append(f'Mais ofertas comparadas: <a href="https://{SITE}">{SITE}</a>' if p.get("garimpo") else f'Compare todas as lojas: <a href="https://{SITE}">{SITE}</a>')
         L.append("")
         L.append("<i>Preço pode mudar a qualquer momento.</i>")
@@ -792,40 +799,140 @@ def ml_url_ofertas(cat, pagina=1):
     return "https://www.mercadolivre.com.br/ofertas" + ("?" + "&".join(q) if q else "")
 
 
-# Vitrine do site: poucas categorias, fáceis de entender. Cada categoria do Mercado Livre cai num grupo,
-# e o título do produto confirma (ex.: um tênis que aparece em "Esportes" vai pra "Moda").
-GRUPOS = [  # (nome no site, emoji, categorias do ML que caem aqui)
-    ("Celular e Tech", "📱", ["MLB1051", "MLB1000", "MLB1648", "MLB1039"]),
-    ("Games", "🎮", ["MLB1144"]),
-    ("Moda", "👟", ["MLB1430", "MLB3937"]),
-    ("Beleza", "💄", ["MLB1246"]),
-    ("Esportes", "🏋️", ["MLB1276"]),
-    ("Casa", "🏠", ["MLB1574", "MLB5726", "MLB263532"]),
-    ("Carro", "🚗", ["MLB5672"]),
-    ("Pet", "🐾", ["MLB1071"]),
-    ("Brinquedos", "🧸", ["MLB1132"]),
+# ======================================================================
+# GRUPOS (ABAS) DO SITE — cada aba só mostra o que promete: a palavra do título confirma
+# ======================================================================
+GRUPOS = [  # (nome na aba, emoji, categorias do Mercado Livre que alimentam a aba, preço máximo no site)
+    ("Celular", "📱", ["MLB1051"], 3000),
+    ("Tech", "💻", ["MLB1648", "MLB1039"], 2500),
+    ("Áudio e TV", "🎧", ["MLB1000"], 3000),
+    ("Games", "🎮", ["MLB1144"], 1200),
+    ("Moda", "👟", ["MLB1430", "MLB3937"], 600),
+    ("Beleza", "💄", ["MLB1246"], 500),
+    ("Esportes", "🏋️", ["MLB1276"], 800),
+    ("Casa", "🏠", ["MLB1574"], 800),
+    ("Eletro", "🍳", ["MLB5726"], 1800),
+    ("Ferramentas", "🔧", ["MLB263532"], 800),
+    ("Carro", "🚗", ["MLB5672"], 800),
+    ("Pet", "🐾", ["MLB1071"], 500),
+    ("Brinquedos", "🧸", ["MLB1132"], 500),
+    ("Bebês", "🍼", ["MLB1384"], 800),
 ]
 GRUPO_DA_CAT = {c: g[0] for g in GRUPOS for c in g[2]}
 GRUPO_IC = {g[0]: g[1] for g in GRUPOS}
-GRUPO_ANTIGO = {"Celular": "Celular e Tech", "Eletrônicos": "Celular e Tech", "Informática": "Celular e Tech",
-                "Câmeras": "Celular e Tech", "Relógios": "Moda", "Eletrodomésticos": "Casa", "Ferramentas": "Casa",
-                "Automotivo": "Carro"}
-# palavras do título que decidem o grupo (a primeira regra que bater vence)
+GRUPO_TETO = {g[0]: g[3] for g in GRUPOS}
+GRUPO_ESTRITO = {"Games", "Áudio e TV", "Celular"}   # categoria do ML sozinha não basta: o título precisa ter a palavra da aba
+
+# Palavras do título que decidem a aba (a primeira regra que bater vence — a ordem importa!).
+# Tudo sem acento e em minúsculas; palavra inteira (coração não vira ração) e aceita plural.
 GRUPO_PALAVRAS = [
-    ("Brinquedos", ["boneca", "brinquedo", "brinquedos", "lego", "pokémon", "pokemon", "controle remoto", "pelúcia", "pelucia", "quebra-cabeça"]),
-    ("Casa", ["ferramenta", "ferramentas", "furadeira", "parafusadeira", "relógio de parede", "relogio de parede"]),
-    ("Carro", ["automotivo", "automotiva", "para carro", "cobrir carro", "veicular", "pneu", "partida bateria"]),
-    ("Games", ["controle sem fio", "controle bluetooth", "controle para", "controle gamesir", "joystick", "ps4", "ps5", "playstation", "xbox", "nintendo", "gamer", "headset"]),
-    ("Pet", ["ração", "racao", "cachorro", "cachorros", "cão", "cães", "gato", "gatos", "pet", "pets", "coleira", "arranhador", "comedouro", "bebedouro", "tosa"]),
-    ("Beleza", ["perfume", "maquiagem", "secador", "prancha", "chapinha", "batom", "skincare", "hidratante", "cabelo", "barbeador", "depilador"]),
-    ("Moda", ["tênis", "tenis", "camiseta", "camisa", "cueca", "calça", "bermuda", "jaqueta", "moletom", "vestido", "mochila", "óculos", "relógio", "relogio", "pulseira", "colar", "brinco", "anel", "bolsa", "boné", "sandália", "chinelo", "meia"]),
-    ("Celular e Tech", ["celular", "smartphone", "fone", "carregador", "power bank", "cabo usb", "notebook", "monitor", "mouse", "teclado", "caixa de som", "smartwatch", "projetor", "tablet", "ssd", "roteador"]),
-    ("Esportes", ["academia", "bicicleta", "bike", "halter", "yoga", "corrida", "futebol", "patinete", "skate"]),
-    ("Casa", ["papel higiênico", "rolos", "cozinha", "panela", "air fryer", "fritadeira", "travesseiro", "lençol", "cortina", "organizador", "aspirador", "ventilador", "cafeteira", "furadeira", "parafusadeira", "ferramenta"]),
+    ("Brinquedos", ["pet eletronico", "bichinho virtual"]),          # "pet" de brinquedo não é produto pra pet
+    ("Pet", ["racao", "cachorro", "caes", "gato", "pet", "coleira", "arranhador", "comedouro", "bebedouro", "tosa",
+             "peitoral", "focinheira", "petisco", "areia sanitaria", "caminha pet", "antipulgas", "aquario", "pelos de pet"]),
+    ("Bebês", ["bebe", "fralda", "mamadeira", "chupeta", "mordedor", "berco", "carrinho de bebe", "cadeirinha", "banheira",
+               "baba eletronica", "enxoval", "esterilizador", "andador", "bebe conforto", "baby", "cadeira de carro infantil",
+               "cadeira infantil", "assento infantil"]),
+    ("Áudio e TV", ["headset", "headphone", "fone", "fones", "earbuds", "earphone", "microfone", "caixa de som",
+                    "caixinha de som", "soundbar"]),                  # headset/fone pra console é áudio, não é jogo
+    ("Games", ["ps5", "ps4", "ps3", "playstation", "xbox", "nintendo", "switch lite", "dualsense", "joystick", "gamepad",
+               "videogame", "video game", "console", "steam deck", "controle sem fio", "controle bluetooth", "controle para ps",
+               "controle para xbox", "controle para pc", "controle para celular", "controle gamer", "controle gamesir",
+               "controle ps5", "controle ps4", "controle xbox", "midia fisica", "jogo ps5", "jogo ps4", "jogo xbox",
+               "jogo para ps", "jogo nintendo", "volante gamer", "retro game", "game stick", "cartao psn"]),
+    ("Brinquedos", ["boneca", "brinquedo", "lego", "pokemon", "pelucia", "quebra cabeca", "carrinho de brinquedo", "carrinhos de brinquedo", "pista de carrinhos", "pista de carros",
+                    "carro de controle remoto",
+                    "carro controle remoto", "helicoptero", "dinossauro", "massinha", "slime", "blocos de montar", "bloco de montar",
+                    "hot wheels", "jogo de tabuleiro", "jogo educativo", "jogo de cartas", "baralho", "cama elastica", "nerf",
+                    "lancador", "pistola de agua", "fidget", "fantasia", "miniatura", "action figure", "tapete de atividades",
+                    "pula pula", "piscina de bolinhas", "patinho", "pop it"]),
+    ("Carro", ["automotivo", "automotiva", "veicular", "para carro", "de carro", "do carro", "pneu", "partida bateria",
+               "auxiliar de partida", "para brisa", "kit lavagem", "cera automotiva", "multimidia", "som automotivo", "dashcam",
+               "dash cam", "camera veicular", "calibrador de pneu", "capa de volante", "tapete automotivo", "porta malas",
+               "retrovisor", "capa de banco", "cheirinho automotivo"]),
+    ("Ferramentas", ["ferramenta", "furadeira", "parafusadeira", "chave de fenda", "chaves de precisao", "alicate universal",
+                     "alicate de corte", "alicate de bico", "trena", "serra", "lixadeira", "esmerilhadeira", "multimetro",
+                     "ferro de solda", "soldador", "pistola de cola", "nivel a laser", "maleta de ferramentas",
+                     "caixa de ferramentas", "kit de chaves", "martelo", "grampeador", "fita metrica", "broca", "chave de impacto"]),
+    ("Eletro", ["air fryer", "airfryer", "fritadeira", "liquidificador", "batedeira", "cafeteira", "sanduicheira", "microondas",
+                "micro ondas", "geladeira", "fogao", "cooktop", "lavadora", "maquina de lavar", "aspirador", "robo aspirador", "ventilador",
+                "climatizador", "ar condicionado", "ferro de passar", "passadeira", "purificador", "umidificador",
+                "processador de alimentos", "multiprocessador", "mixer", "espremedor", "chaleira eletrica", "panela eletrica",
+                "grill", "grelha eletrica", "forno eletrico", "torradeira", "balanca de cozinha", "balanca digital",
+                "aquecedor", "bebedouro eletrico", "triturador", "moedor de cafe", "escova eletrica de limpeza"]),
+    ("Casa", ["cadeira", "guarda roupa", "escrivaninha", "estante"]),   # cadeira gamer/escritório é móvel
+    ("Áudio e TV", ["fone", "fones", "headset", "headphone", "earbuds", "earphone", "tws", "caixa de som", "caixinha de som",
+                    "soundbar", "smart tv", "tv", "televisao", "televisor", "projetor", "microfone", "home theater",
+                    "amplificador", "tv box", "conversor digital", "antena", "som bluetooth", "alto falante", "radio", "walkie talkie", "radinho"]),
+    ("Celular", ["celular", "smartphone", "iphone", "galaxy", "redmi", "poco", "moto g", "carregador", "power bank", "powerbank",
+                 "cabo usb", "cabo lightning", "cabo tipo c", "cabo type c", "cabo carregador", "pelicula", "capinha",
+                 "capa para celular", "suporte celular", "suporte de celular", "suporte para celular", "suporte telefone",
+                 "suporte de telefone", "suporte para telefone", "tripe celular", "tripe para celular", "pop socket", "magsafe",
+                 "selfie", "carregamento sem fio", "carregador sem fio", "ring light celular", "lente celular", "gimbal"]),
+    ("Tech", ["notebook", "laptop", "monitor", "mouse", "teclado", "mousepad", "webcam", "ssd", "hub usb", "hub tipo c",
+              "usb c hub", "roteador", "repetidor", "wifi", "impressora", "tablet", "smartwatch", "smart watch", "smartband",
+              "relogio inteligente", "pulseira inteligente", "fonte atx", "placa de video", "gabinete", "kindle", "cabo hdmi",
+              "adaptador", "camera", "ring light", "tripe", "drone", "cooler", "pc gamer", "computador", "hd externo",
+              "suporte notebook", "suporte para notebook", "lampada inteligente", "tomada inteligente", "alexa", "echo dot"]),
+    ("Esportes", ["academia", "bicicleta", "bike", "ciclismo", "halter", "yoga", "corrida", "futebol", "patinete", "skate",
+                  "musculacao", "elastico de exercicio", "faixa elastica", "faixas de resistencia",
+                  "corda de pular", "tapete de yoga", "luva de boxe", "boxe", "caneleira", "joelheira", "cotoveleira",
+                  "esteira", "natacao", "mochila de hidratacao", "garrafa esportiva", "squeeze", "pistola de massagem",
+                  "massage gun", "legging", "bola de futebol", "bola de basquete", "bola de volei", "kit halteres"]),
+    ("Beleza", ["perfume", "maquiagem", "secador", "prancha", "chapinha", "batom", "skincare", "hidratante", "cabelo",
+                "barbeador", "depilador", "creme", "shampoo", "condicionador", "protetor solar", "serum", "mascara facial",
+                "esmalte", "unha", "aparador", "barba", "trimmer", "pente", "base liquida", "corretivo", "gloss", "rimel",
+                "sombra", "pincel", "pele", "facial", "rosto", "booster", "modelador de cachos", "alisador", "escova de cabelo",
+                "escova secadora", "massageador facial", "cilios"]),
+    ("Moda", ["tenis", "camiseta", "camisa", "cueca", "calcinha", "sutia", "biquini", "sunga", "calca", "bermuda", "short",
+              "jaqueta", "casaco", "moletom", "vestido", "saia", "blusa", "regata", "pijama", "mochila", "oculos", "relogio",
+              "pulseira", "colar", "brinco", "anel", "alianca", "joia", "bolsa", "bone", "chapeu", "sandalia", "chinelo",
+              "sapato", "sapatilha", "bota", "meia", "carteira", "cinto", "lenco", "gravata", "bijuteria", "necessaire"]),
+    ("Casa", ["lencol", "travesseiro", "cortina", "organizador", "pote", "marmita", "varal", "luminaria", "lampada", "fita led",
+              "luz led", "luz solar", "luzes", "tira de led", "luminaria led", "lampada led", "led strip", "tapete", "toalha", "edredom", "cobertor", "colcha",
+              "colchao", "cabide", "vassoura", "rodo", "mop", "decoracao", "espelho", "prateleira", "gaveta", "lixeira",
+              "cesto", "panela", "frigideira", "faca", "tabua", "garrafa termica", "copo", "caneca", "xicara", "prato",
+              "talher", "escorredor", "utensilio", "cozinha", "papel higienico", "rolos", "sabao", "detergente", "cadeira",
+              "mesa", "sofa", "ventosa", "sapateira", "jogo de cama", "jogo de panelas", "jogo de facas", "jogo de toalhas",
+              "jogo de lencol", "sensor de movimento", "chuveiro", "ducha", "torneira", "fechadura"]),
 ]
 
 
-# dica de grupo pela busca (em inglês) do AliExpress, usada quando o título não decide
+def _txt(s):
+    """minúsculas, sem acento, hífen/barra viram espaço (micro-ondas = microondas)"""
+    s = unicodedata.normalize("NFKD", (s or "").lower())
+    s = "".join(ch for ch in s if not unicodedata.combining(ch))
+    return re.sub(r"[\s\-_/]+", " ", s)
+
+
+def _regex_grupo(palavras):
+    ps = sorted({_txt(p) for p in palavras}, key=len, reverse=True)
+    return re.compile(r"(?<![a-z0-9])(?:" + "|".join(re.escape(p) for p in ps) + r")(?:s|es)?(?![a-z0-9])")
+
+
+GRUPO_REGEX = [(g, _regex_grupo(p)) for g, p in GRUPO_PALAVRAS]
+
+# marcas de roupa, calçado, relógio e cosmético: nas lojas com muita réplica (AliExpress/Shopee) a gente nem mostra
+REPLICA_MARCAS = ["nike", "adidas", "puma", "lacoste", "gucci", "louis vuitton", "chanel", "rolex", "oakley", "ray ban", "rayban",
+                  "calvin klein", "tommy", "fila", "new balance", "vans", "converse", "jordan", "yeezy", "champion", "supreme",
+                  "balenciaga", "prada", "versace", "hugo boss", "armani", "michael kors", "casio", "seiko", "g shock", "gshock",
+                  "under armour", "reebok", "asics", "mizuno", "kappa", "lupo", "havaianas", "olympikus", "mormaii", "technos",
+                  "cetaphil", "principia", "taiff", "lizze", "apple", "airpods", "samsung", "jbl", "sony", "playstation"]
+
+
+def tem_marca_replica(titulo):
+    t = _txt(titulo)
+    return any(re.search(r"(?<![a-z0-9])" + re.escape(_txt(m)) + r"(?![a-z0-9])", t) for m in REPLICA_MARCAS)
+
+
+def grupo_pelo_titulo(titulo):
+    t = _txt(titulo)
+    for g, rx in GRUPO_REGEX:
+        if rx.search(t):
+            return g
+    return None
+
+
+# dica de grupo pela busca (em inglês) antiga do AliExpress — só pra achados velhos que ainda estão guardados
 DICA_BUSCA = [
     ("Pet", ["pet", "cat", "dog"]), ("Carro", ["car "]),
     ("Beleza", ["makeup", "hair", "shaver", "nail"]),
@@ -836,22 +943,127 @@ DICA_BUSCA = [
 ]
 
 
-def grupo_do_produto(titulo, cat=None, nome_antigo=None, busca=None):
-    t = (titulo or "").lower()
-    for g, palavras in GRUPO_PALAVRAS:        # palavra inteira (evita "coração" virar "ração")
-        if any(re.search(r"(?<![\wÀ-ú])" + re.escape(p) + r"(?![\wÀ-ú])", t) for p in palavras):
-            return g
+def grupo_do_produto(titulo, cat=None, nome_antigo=None, busca=None, hint=None):
+    """Aba do produto, ou None quando ele NÃO deve aparecer (não combina com o que a aba promete).
+    - hint: aba da busca que achou o produto (AliExpress/Shopee) — o título tem que concordar
+    - cat: categoria do Mercado Livre de onde veio — vale quando o título não decide"""
+    g = grupo_pelo_titulo(titulo)
+    if hint:
+        return hint if g in (None, hint) else None
+    if g:
+        return g
     if cat in GRUPO_DA_CAT:
-        return GRUPO_DA_CAT[cat]
+        g2 = GRUPO_DA_CAT[cat]
+        return None if g2 in GRUPO_ESTRITO else g2
     if busca:
         b = " " + busca.lower() + " "
-        for g, palavras in DICA_BUSCA:
+        for gg, palavras in DICA_BUSCA:
             if any(p in b for p in palavras):
-                return g
-        return "Celular e Tech"                # o resto das buscas do Ali é de eletrônicos
-    if nome_antigo:
-        return GRUPO_ANTIGO.get(nome_antigo, nome_antigo if nome_antigo in GRUPO_IC else "Casa")
-    return "Casa"
+                return gg
+        return "Tech"
+    if nome_antigo in GRUPO_IC:
+        return nome_antigo
+    return None
+
+
+# Buscas por aba (AliExpress em inglês, Shopee em português). O robô gira por aqui: cada rodada pega
+# algumas abas e, dentro de cada uma, a próxima busca da lista. Pode editar/aumentar em produtos.json
+# (regras -> "grupos_buscas") sem mexer no código.
+GRUPOS_BUSCAS = {
+    "Celular": {
+        "ali": ["ugreen gan charger 65w", "baseus power bank 20000mah", "usb c cable 100w braided", "magsafe wireless charger",
+                "phone tripod bluetooth remote", "phone cooling fan", "lightning cable fast charging", "wireless charging stand",
+                "phone stand desk adjustable", "baseus magnetic power bank"],
+        "shopee": ["carregador turbo 20w", "power bank 20000mah", "cabo usb c 100w", "carregador sem fio magnético",
+                   "tripé celular com controle", "suporte celular mesa", "cabo lightning iphone", "carregador tomada 65w",
+                   "suporte celular bicicleta", "carregador portátil magsafe"]},
+    "Tech": {
+        "ali": ["wireless mouse bluetooth", "mechanical keyboard hot swappable", "usb c hub hdmi", "webcam 1080p", "mouse pad large desk",
+                "laptop stand aluminum", "smart watch amoled", "smart band fitness", "usb microphone condenser", "laptop cooling pad",
+                "wifi 6 router", "bluetooth keyboard tablet"],
+        "shopee": ["mouse sem fio", "teclado mecânico", "hub usb c", "webcam full hd", "mousepad grande", "suporte notebook",
+                   "smartwatch", "relógio inteligente", "microfone usb", "cooler notebook", "roteador wifi", "teclado bluetooth"]},
+    "Áudio e TV": {
+        "ali": ["bluetooth earbuds tws", "qcy earbuds", "anc headphones wireless", "bluetooth speaker portable", "soundbar tv",
+                "gaming headset", "neckband earphones", "tv box android 4k", "projector 4k portable", "wired earphones with mic",
+                "lavalier wireless microphone"],
+        "shopee": ["fone bluetooth", "fone tws", "caixa de som bluetooth", "soundbar", "headset gamer", "tv box",
+                   "projetor portátil", "microfone lapela", "fone de ouvido com fio", "caixa de som portátil", "suporte tv parede"]},
+    "Games": {
+        "ali": ["gamepad bluetooth controller", "ps5 controller", "nintendo switch case", "switch joycon grip", "game controller phone",
+                "retro game console handheld", "ps5 headset stand", "xbox controller thumb grips", "game stick 4k"],
+        "shopee": ["controle ps5", "controle ps4", "controle xbox", "nintendo switch", "jogo ps5", "jogo ps4", "console retro game",
+                   "controle gamepad celular", "cabo hdmi ps5", "volante gamer"]},
+    "Moda": {
+        "ali": ["men quartz watch", "polarized sunglasses", "women handbag", "waterproof backpack", "men casual sneakers",
+                "leather wallet men", "baseball cap", "stainless steel bracelet", "oversized t shirt", "hoodie men", "cotton socks",
+                "leather belt men"],
+        "shopee": ["camiseta masculina algodão", "tênis masculino casual", "relógio masculino", "óculos de sol polarizado",
+                   "mochila impermeável", "bolsa feminina", "bermuda masculina", "kit meias", "boné", "carteira masculina couro",
+                   "jaqueta corta vento", "moletom canguru", "cinto masculino"]},
+    "Beleza": {
+        "ali": ["hair clipper trimmer", "hair straightener", "ionic hair dryer", "electric shaver men", "makeup brush set",
+                "nail art kit", "facial steamer", "eyelash curler", "hair curler automatic", "beard trimmer", "makeup organizer"],
+        "shopee": ["secador de cabelo", "chapinha", "aparador de pelos", "barbeador elétrico", "kit pincéis maquiagem",
+                   "organizador maquiagem", "modelador cachos", "escova alisadora", "kit skincare", "massageador facial"]},
+    "Esportes": {
+        "ali": ["resistance bands set", "jump rope", "yoga mat", "adjustable dumbbell", "bike phone holder", "cycling gloves",
+                "sports water bottle", "running armband", "gym gloves", "knee brace", "bicycle light", "massage gun"],
+        "shopee": ["elástico exercício kit", "corda de pular", "tapete yoga", "halter ajustável", "luva academia",
+                   "garrafa esportiva", "suporte celular bike", "faixa elástica", "pistola de massagem", "caneleira",
+                   "bola de futebol", "joelheira"]},
+    "Casa": {
+        "ali": ["led strip lights", "storage organizer box", "vacuum storage bags", "night light motion sensor", "shower head high pressure",
+                "wall shelf adhesive", "cable organizer", "smart led bulb", "door stopper", "drawer organizer", "solar light outdoor"],
+        "shopee": ["organizador gaveta", "fita led", "luminária led", "varal de luzes", "jogo de lençol", "kit organizador",
+                   "cabides", "lixeira pia", "prateleira adesiva", "tapete antiderrapante", "ducha pressurizada", "cortina blackout"]},
+    "Eletro": {
+        "ali": ["electric kettle", "portable blender", "milk frother", "electric food chopper", "coffee grinder electric",
+                "electric lunch box", "garment steamer", "robot vacuum", "humidifier", "digital kitchen scale", "usb neck fan"],
+        "shopee": ["air fryer", "liquidificador portátil", "cafeteira", "sanduicheira", "ventilador", "umidificador",
+                   "balança cozinha digital", "chaleira elétrica", "mixer", "processador alimentos", "aspirador portátil", "panela elétrica"]},
+    "Ferramentas": {
+        "ali": ["cordless electric screwdriver", "tool kit set", "laser measure", "digital multimeter", "soldering iron kit",
+                "precision screwdriver set", "glue gun", "cordless drill", "wire stripper"],
+        "shopee": ["parafusadeira sem fio", "kit ferramentas", "trena laser", "multímetro digital", "kit chaves de precisão",
+                   "furadeira", "nível a laser", "pistola de cola quente", "caixa de ferramentas"]},
+    "Carro": {
+        "ali": ["car phone holder magnetic", "car vacuum cleaner", "car trunk organizer", "dash cam", "car jump starter",
+                "tire inflator portable", "car seat cover", "car led interior light", "tire pressure gauge", "windshield sun shade",
+                "obd2 scanner"],
+        "shopee": ["aspirador automotivo", "suporte veicular", "calibrador pneu portátil", "câmera veicular", "organizador porta malas",
+                   "capa volante", "kit limpeza automotiva", "carregador veicular", "auxiliar partida", "tapete automotivo"]},
+    "Pet": {
+        "ali": ["dog harness no pull", "cat toys interactive", "pet grooming glove", "automatic pet feeder", "retractable dog leash",
+                "cat litter mat", "pet water fountain", "dog chew toys", "pet hair remover", "cat scratching board"],
+        "shopee": ["peitoral cachorro", "brinquedo gato", "luva escova pet", "fonte bebedouro gato", "arranhador gato", "comedouro pet",
+                   "coleira cachorro", "cama pet", "tapete higiênico", "brinquedo cachorro"]},
+    "Brinquedos": {
+        "ali": ["building blocks set", "rc car remote control", "toy car track", "kids puzzle", "slime kit", "kids drawing tablet",
+                "magnetic tiles", "water gun", "toy dinosaur"],
+        "shopee": ["blocos de montar", "carrinho controle remoto", "quebra-cabeça", "massinha de modelar", "pista carrinhos",
+                   "boneca", "pelúcia", "jogo de tabuleiro", "pistola de água", "nerf"]},
+    "Bebês": {
+        "ali": ["baby monitor", "baby bottle", "baby toys", "baby carrier", "stroller organizer", "baby bath", "teething toy"],
+        "shopee": ["mamadeira", "babá eletrônica", "mordedor", "banheira bebê", "tapete atividades bebê", "chupeta", "kit higiene bebê",
+                   "organizador carrinho bebê"]},
+}
+
+
+def proxima_busca(meta, loja, regras):
+    """Rodízio das buscas: devolve (aba, termo, volta). Uma aba por vez e, dentro dela, o próximo termo da lista."""
+    buscas = regras.get("grupos_buscas") or GRUPOS_BUSCAS
+    nomes = [g[0] for g in GRUPOS if buscas.get(g[0], {}).get(loja)]
+    if not nomes:
+        return None, None, 0
+    n = meta.get(loja + "_n", 0)
+    meta[loja + "_n"] = n + 1
+    g = nomes[n % len(nomes)]
+    lista = buscas[g][loja]
+    q = meta.setdefault(loja + "_q", {})
+    i = q.get(g, 0)
+    q[g] = i + 1
+    return g, lista[i % len(lista)], i // len(lista)       # (aba, termo, nº da volta nessa lista)
 
 
 # ======================================================================
@@ -980,7 +1192,7 @@ def comparar_achados(regras, guard, agora):
         if not (ident["marca"] or ident["modelo"]):
             continue                                   # produto genérico: não dá pra garantir que é o mesmo
         feitos += 1
-        grupo = grupo_do_produto(v.get("t") or v.get("n"), v.get("cid"), v.get("cat"), v.get("busca"))
+        grupo = grupo_do_produto(v.get("t") or v.get("n"), v.get("cid"), None, v.get("busca"), v.get("g")) or ""
         for loja, f in (("AliExpress", comparar_ali), ("Shopee", comparar_shopee)):
             if loja == v["loja"]:
                 continue
@@ -1013,25 +1225,64 @@ def ofertas_do_achado(v, guard, regras):
     return sorted(ofs, key=lambda o: o["por"])
 
 
+def _mantem_comparacao(novo, antes):
+    """Quando o mesmo produto aparece de novo, mantém a comparação entre lojas que já foi feita (vale 24h)."""
+    for k in ("cmp", "cmp_em"):
+        if k in antes:
+            novo[k] = antes[k]
+
+
+def ml_filtra_site(cards, regras, cat):
+    """Filtro de qualidade dos achados do site (Mercado Livre): nota, vendas, palavras proibidas, aba certa
+    e preço máximo da aba (celular/TV aceitam produto mais caro; pet/beleza não)."""
+    nmin = float(regras.get("achados_nota_min", regras.get("ml_garimpo_avaliacao_min", 4.7)))
+    vmin = int(regras.get("achados_ml_vendas_min", 500))
+    pmin = float(regras.get("ml_garimpo_preco_min", 15))
+    proibidas = [x.lower() for x in regras.get("ml_garimpo_excluir", [])]
+    bons = []
+    for c in cards:
+        t = c["titulo"].lower()
+        if c["nota"] < nmin or c["vendas"] < vmin:
+            continue
+        if any(x in t for x in proibidas) or not palavras_ok(c["titulo"], None, None):
+            continue
+        g = grupo_do_produto(c["titulo"], cat)
+        if not g:
+            reprova("fora da aba (não segue o que a aba promete)")
+            continue
+        if not (pmin <= c["por"] <= GRUPO_TETO.get(g, 600)):
+            continue
+        c["grupo"] = g
+        bons.append(c)
+    bons.sort(key=lambda c: (c["oferta_dia"], c["nota"], math.log10(max(c["vendas"], 1))), reverse=True)
+    return bons
+
+
 def achados_site(regras, historico):
-    """Seção 'Achados do dia' do site: a cada rodada lê algumas categorias das Ofertas do dia do Mercado Livre,
-    aplica o mesmo filtro de qualidade, põe cada produto no grupo certo e guarda por até 'achados_horas'."""
+    """Seção 'Achados do dia' do site: a cada rodada lê algumas categorias das Ofertas do dia do Mercado Livre
+    (páginas 1 e 2, em rodízio) e faz buscas por aba na Shopee e no AliExpress. Cada produto só entra na aba
+    que combina com o título; fica guardado por até 'achados_horas'."""
     if not regras.get("achados_ativo", True):
         return []
     cats = regras.get("achados_categorias") or [c for g in GRUPOS for c in g[2]]
     meta = historico.setdefault("_achados_meta", {"n": 0})
     guard = historico.setdefault("_achados", {})
     agora = datetime.now(timezone.utc)
+    paginas = max(1, int(regras.get("achados_paginas", 2)))
     for _ in range(int(regras.get("achados_categorias_por_rodada", 5))):
-        cat = cats[meta["n"] % len(cats)]
-        meta["n"] += 1
+        n = meta["n"]
+        cat, pagina = cats[n % len(cats)], (n // len(cats)) % paginas + 1
+        meta["n"] = n + 1
+        nome = ML_CATS.get(cat, (cat,))[0]
         try:
-            cards = ml_cards_ofertas(ml_url_ofertas(cat))
+            cards = ml_cards_ofertas(ml_url_ofertas(cat, pagina))
         except Exception as e:
-            log(f"Achados: não consegui ler {ML_CATS.get(cat, (cat,))[0]} ->", e)
+            log(f"Achados: não consegui ler {nome} (pág. {pagina}) ->", e)
+            if "verificação" in str(e):
+                break                                   # o ML bloqueou: não insiste nesta rodada
             continue
-        bons = ml_filtra(cards, regras)[:int(regras.get("achados_por_categoria", 8))]
-        log(f"Achados: {ML_CATS.get(cat, (cat,))[0]} -> {len(cards)} lidas, {len(bons)} aprovadas")
+        bons = ml_filtra_site(cards, regras, cat)[:int(regras.get("achados_por_categoria", 14))]
+        log(f"Achados: {nome} (pág. {pagina}) -> {len(cards)} lidas, {len(bons)} aprovadas")
         for c in bons:
             antes = guard.get(c["pid"], {})
             guard[c["pid"]] = {"n": titulo_curto(c["titulo"], 70), "t": c["titulo"][:140],
@@ -1040,10 +1291,12 @@ def achados_site(regras, historico):
                                "vendas": c["vendas"], "img": c["img"], "od": 1 if c["oferta_dia"] else 0,
                                "link": ml_link_afiliado(c["url"], c["item"], regras),
                                "visto": agora.isoformat(timespec="minutes")}
-    try:
-        achados_ali(regras, meta, guard, agora)
-    except Exception as e:                       # AliExpress nunca derruba os achados do ML
-        log("Achados AliExpress: ERRO ->", e)
+            _mantem_comparacao(guard[c["pid"]], antes)
+    for nome_fn, fn in (("AliExpress", achados_ali), ("Shopee", achados_shopee)):
+        try:
+            fn(regras, meta, guard, agora)
+        except Exception as e:                       # uma loja nunca derruba os achados das outras
+            log(f"Achados {nome_fn}: ERRO ->", e)
     horas = float(regras.get("achados_horas", 36))
     for k in [k for k, v in guard.items()
               if (agora - datetime.fromisoformat(v["visto"])).total_seconds() > horas * 3600]:
@@ -1055,25 +1308,40 @@ def achados_site(regras, historico):
         comparar_achados(regras, guard, agora)
     except Exception as e:                       # comparador nunca derruba os achados
         log("Comparador: ERRO ->", e)
-    # grupo final de cada produto (categoria do ML + confirmação pelo título)
-    for v in guard.values():
-        v["cat"] = grupo_do_produto(v.get("t") or v.get("n"), v.get("cid"), v.get("cat"), v.get("busca"))
-        v["ic"] = GRUPO_IC.get(v["cat"], "🔥")
-    # mistura os grupos (um de cada por vez, na ordem de GRUPOS) pra vitrine não ficar só de uma coisa
+    # aba final de cada produto (título + categoria/busca de origem); o que não combina com nenhuma aba sai
+    for k in list(guard):
+        v = guard[k]
+        g = grupo_do_produto(v.get("t") or v.get("n"), v.get("cid"), None, v.get("busca"), v.get("g"))
+        if not g:
+            del guard[k]
+            continue
+        v["cat"], v["ic"] = g, GRUPO_IC[g]
+    # o que fica guardado: no máximo 'achados_guarda_por_loja' por aba E por loja (os vistos mais recentemente),
+    # pra uma loja com muito produto não empurrar as outras pra fora da aba
+    teto = int(regras.get("achados_guarda_por_loja", 10))
+    por_grupo = {}
+    for k, v in guard.items():
+        por_grupo.setdefault((v["cat"], v["loja"]), []).append(k)
+    for ks in por_grupo.values():
+        for k in sorted(ks, key=lambda k: (guard[k]["visto"], guard[k].get("nota", 0)), reverse=True)[teto:]:
+            del guard[k]
+    # vitrine: cada aba alterna as lojas (ML, Shopee, Ali, ML...) e as abas se misturam em "Todos"
     por_cat = {g[0]: [] for g in GRUPOS}
     for v in sorted(guard.values(), key=lambda v: (v["od"], v["nota"], math.log10(max(v["vendas"], 1))), reverse=True):
         por_cat.setdefault(v["cat"], []).append(v)
-    for g, lista in por_cat.items():            # dentro de cada grupo, alterna as lojas (ML, Ali, ML, Ali...)
+    ordem_lojas = ["Mercado Livre", "Shopee", "AliExpress"]
+    por_aba = int(regras.get("achados_por_grupo_site", 12))
+    for g, lista in por_cat.items():
         lojas = {}
         for v in lista:
             lojas.setdefault(v["loja"], []).append(v)
         mix = []
         while any(lojas.values()):
-            for l in sorted(lojas, key=lambda l: l != "Mercado Livre"):
+            for l in sorted(lojas, key=lambda l: ordem_lojas.index(l) if l in ordem_lojas else 9):
                 if lojas[l]:
                     mix.append(lojas[l].pop(0))
-        por_cat[g] = mix
-    saida, maximo = [], int(regras.get("achados_max_site", 56))
+        por_cat[g] = mix[:por_aba]
+    saida, maximo = [], int(regras.get("achados_max_site", 200))
     while len(saida) < maximo and any(por_cat.values()):
         for cat in list(por_cat):
             if por_cat[cat] and len(saida) < maximo:
@@ -1082,29 +1350,33 @@ def achados_site(regras, historico):
                 item["ofertas"] = ofertas_do_achado(v, guard, regras)
                 item["por"] = item["ofertas"][0]["por"]          # "a partir de": o menor preço entre as lojas
                 saida.append(item)
+    resumo = {g: sum(1 for i in saida if i["cat"] == g) for g in por_cat}
+    log("Achados por aba: " + " · ".join(f"{g} {q}" for g, q in resumo.items()))
     return saida
 
 
 def achados_ali(regras, meta, guard, agora):
-    """Achados do AliExpress pelo site (API oficial de afiliados): a cada rodada faz algumas buscas
-    da lista 'garimpo_buscas', com o mesmo filtro rígido do garimpo do canal."""
+    """Achados do AliExpress pelo site (API oficial de afiliados): a cada rodada faz algumas buscas por aba
+    (lista GRUPOS_BUSCAS), com o mesmo filtro rígido do garimpo do canal."""
     if not regras.get("achados_ali_ativo", True) or not (os.environ.get("ALI_APP_KEY") and os.environ.get("ALI_SECRET")):
-        return
-    buscas = regras.get("garimpo_buscas") or []
-    if not buscas:
         return
     tracking = os.environ.get("ALI_TRACKING_ID", "kaivolt")
     vmin = int(regras.get("garimpo_vendas_min", 500))
     amin = float(regras.get("garimpo_avaliacao_min", 94))
-    pmin, pmax = float(regras.get("garimpo_preco_min", 15)), float(regras.get("garimpo_preco_max", 400))
-    proibidas = [x.lower() for x in regras.get("garimpo_excluir", [])]
-    for _ in range(int(regras.get("achados_ali_buscas_por_rodada", 2))):
-        n = meta.get("ali_n", 0)
-        kw = buscas[n % len(buscas)]
-        meta["ali_n"] = n + 1
-        resp = ali_chamar("aliexpress.affiliate.product.query", {
-            "target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR",
-            "tracking_id": tracking, "keywords": kw, "sort": "LAST_VOLUME_DESC", "page_size": 40, "page_no": 1})
+    pmin = float(regras.get("garimpo_preco_min", 15))
+    proibidas = [x.lower() for x in regras.get("garimpo_excluir", []) + regras.get("ml_garimpo_excluir", [])]
+    for _ in range(int(regras.get("achados_ali_buscas_por_rodada", 4))):
+        g, kw, volta = proxima_busca(meta, "ali", regras)
+        if not kw:
+            return
+        pmax = min(float(regras.get("achados_preco_max_externas", 600)), GRUPO_TETO.get(g, 600))
+        try:
+            resp = ali_chamar("aliexpress.affiliate.product.query", {
+                "target_currency": "BRL", "target_language": "PT", "ship_to_country": "BR",
+                "tracking_id": tracking, "keywords": kw, "sort": "LAST_VOLUME_DESC", "page_size": 40, "page_no": volta % 2 + 1})
+        except Exception as e:
+            log(f"Achados AliExpress: '{kw}' ERRO ->", e)
+            continue
         cands = []
         for it in ali_produtos(resp):
             pid = str(it.get("product_id") or "")
@@ -1115,22 +1387,172 @@ def achados_ali(regras, meta, guard, agora):
                 continue
             if any(x in titulo.lower() for x in proibidas) or not palavras_ok(titulo, None, None):
                 continue
+            if not grupo_do_produto(titulo, hint=g):
+                reprova("fora da aba (não segue o que a aba promete)")
+                continue
+            if g in ("Moda", "Beleza", "Esportes") and tem_marca_replica(titulo):
+                reprova("marca com muita réplica (AliExpress/Shopee)")
+                continue
             cands.append({"loja": "AliExpress", "por": por, "pid": pid, "titulo": titulo, "nota": round(aval / 20, 1),
                           "vendas": vendas, "img": it.get("product_main_image_url") or "",
                           "url_prod": it.get("product_detail_url") or f"https://pt.aliexpress.com/item/{pid}.html"})
         cands = tira_suspeitos(cands)
         cands.sort(key=lambda c: (c["nota"], math.log10(max(c["vendas"], 1))), reverse=True)
         novos = 0
-        for c in cands[:int(regras.get("achados_ali_por_busca", 3))]:
+        for c in cands[:int(regras.get("achados_ali_por_busca", 4))]:
             chave = "ali:" + c["pid"]
             link = (guard.get(chave) or {}).get("link") or ali_link_produto(c, tracking)
             if not link:
                 continue
-            guard[chave] = {"n": titulo_curto(c["titulo"], 70), "t": c["titulo"][:140], "busca": kw,
+            antes = guard.get(chave) or {}
+            guard[chave] = {"n": titulo_curto(c["titulo"], 70), "t": c["titulo"][:140], "g": g,
                             "loja": "AliExpress", "por": round(c["por"], 2), "nota": c["nota"], "vendas": c["vendas"],
                             "img": c["img"], "od": 0, "link": link, "visto": agora.isoformat(timespec="minutes")}
+            _mantem_comparacao(guard[chave], antes)
             novos += 1
-        log(f"Achados AliExpress: '{kw}' -> {len(cands)} aprovados, {novos} no site")
+        log(f"Achados AliExpress: [{g}] '{kw}' -> {len(cands)} aprovados, {novos} no site")
+
+
+# ======================================================================
+# SHOPEE — achados do site e garimpo do canal (busca por aba, API oficial de afiliados)
+# ======================================================================
+def shopee_ok():
+    return bool(os.environ.get("SHOPEE_APP_ID") and os.environ.get("SHOPEE_SECRET"))
+
+
+def shopee_busca(kw, pagina=1, limite=30):
+    campos = "itemId shopId productName price priceMin priceMax priceDiscountRate sales ratingStar imageUrl offerLink productLink"
+    q = f"{{ productOfferV2(keyword: {json.dumps(kw)}, sortType: 2, page: {int(pagina)}, limit: {int(limite)}) {{ nodes {{ {campos} }} }} }}"
+    return shopee_chamar(q)["productOfferV2"]["nodes"] or []
+
+
+def shopee_cands(nodes, regras, g, vendas_min=None):
+    """Filtro de qualidade da Shopee: nota, vendas, faixa de preço, palavras proibidas e aba certa."""
+    nmin = float(regras.get("achados_shopee_nota_min", 4.7))
+    vmin = int(vendas_min if vendas_min is not None else regras.get("achados_shopee_vendas_min", 300))
+    pmin = float(regras.get("garimpo_preco_min", 15))
+    pmax = min(float(regras.get("achados_preco_max_externas", 600)), GRUPO_TETO.get(g, 600))
+    proibidas = [x.lower() for x in regras.get("garimpo_excluir", []) + regras.get("ml_garimpo_excluir", [])]
+    out = []
+    for n in nodes:
+        pid, tit = str(n.get("itemId") or ""), n.get("productName") or ""
+        try:
+            nota, vendas = float(n.get("ratingStar") or 0), int(n.get("sales") or 0)
+            por = float(n.get("priceMin") or n.get("price") or 0)
+        except (TypeError, ValueError):
+            continue
+        if not pid:
+            continue
+        if nota < nmin:
+            reprova("nota baixa")
+            continue
+        if vendas < vmin or not (pmin <= por <= pmax):
+            continue
+        if any(x in tit.lower() for x in proibidas) or not palavras_ok(tit, None, None):
+            continue
+        if not grupo_do_produto(tit, hint=g):
+            reprova("fora da aba (não segue o que a aba promete)")
+            continue
+        if g in ("Moda", "Beleza", "Esportes") and tem_marca_replica(tit):
+            reprova("marca com muita réplica (AliExpress/Shopee)")
+            continue
+        out.append({"loja": "Shopee", "por": por, "pid": pid, "titulo": tit, "nota": round(nota, 1), "vendas": vendas,
+                    "img": n.get("imageUrl") or "", "link": n.get("offerLink") or "", "url_prod": n.get("productLink") or ""})
+    out = tira_suspeitos(out)
+    out.sort(key=lambda c: (c["nota"], math.log10(max(c["vendas"], 1))), reverse=True)
+    return out
+
+
+def shopee_link(c):
+    """Link de afiliado do produto (o offerLink da busca; se não vier, gera um link curto)."""
+    if c.get("link"):
+        return c["link"]
+    if c.get("url_prod"):
+        try:
+            return shopee_link_curto(c["url_prod"])
+        except Exception as e:
+            log("    aviso: link curto da Shopee falhou:", e)
+    return ""
+
+
+def achados_shopee(regras, meta, guard, agora):
+    """Achados da Shopee pelo site: a cada rodada faz algumas buscas por aba (em português) e guarda os melhores."""
+    if not regras.get("achados_shopee_ativo", True) or not shopee_ok():
+        return
+    for _ in range(int(regras.get("achados_shopee_buscas_por_rodada", 4))):
+        g, kw, volta = proxima_busca(meta, "shopee", regras)
+        if not kw:
+            return
+        try:
+            nodes = shopee_busca(kw, pagina=volta % 2 + 1)
+        except Exception as e:
+            log(f"Achados Shopee: '{kw}' ERRO ->", e)
+            continue
+        cands = shopee_cands(nodes, regras, g)
+        novos = 0
+        for c in cands[:int(regras.get("achados_shopee_por_busca", 4))]:
+            chave = "shp:" + c["pid"]
+            link = (guard.get(chave) or {}).get("link") or shopee_link(c)
+            if not link:
+                continue
+            antes = guard.get(chave) or {}
+            guard[chave] = {"n": titulo_curto(c["titulo"], 70), "t": c["titulo"][:140], "g": g,
+                            "loja": "Shopee", "por": round(c["por"], 2), "nota": c["nota"], "vendas": c["vendas"],
+                            "img": c["img"], "od": 0, "link": link, "visto": agora.isoformat(timespec="minutes")}
+            _mantem_comparacao(guard[chave], antes)
+            novos += 1
+        log(f"Achados Shopee: [{g}] '{kw}' -> {len(nodes)} lidos, {len(cands)} aprovados, {novos} no site")
+
+
+def garimpo_shopee(regras, st):
+    """Garimpo do canal na Shopee: produto novo (nunca repetido em 30 dias), nota alta e muita venda, aba por aba."""
+    if not shopee_ok() or not regras.get("garimpo_shopee_ativo", True):
+        return None
+    ja = st.setdefault("garimpo", {})
+    limite = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d")
+    for _ in range(3):                               # até 3 buscas diferentes por post
+        g, kw, volta = proxima_busca(st, "shopee", regras)
+        if not kw:
+            return None
+        log(f"  Garimpo Shopee: [{g}] buscando '{kw}'")
+        try:
+            nodes = shopee_busca(kw, pagina=volta % 3 + 1)
+        except Exception as e:
+            log("  Garimpo Shopee: a Shopee não respondeu:", e)
+            return None
+        cands = [c for c in shopee_cands(nodes, regras, g, int(regras.get("garimpo_shopee_vendas_min", 1000)))
+                 if ja.get("shp:" + c["pid"], "") < limite]
+        for c in cands[:4]:
+            link = shopee_link(c)
+            if not link:
+                continue
+            ja["shp:" + c["pid"]] = hoje()
+            for k in sorted(ja, key=ja.get)[:-3000]:
+                del ja[k]
+            c["link"], c["de"] = link, c["por"]
+            return {"id": "shp:" + c["pid"], "n": titulo_curto(c["titulo"]), "garimpo": 1,
+                    "nota": c["nota"], "vendas": c["vendas"], "ofertas": [c]}
+        log(f"  Garimpo Shopee: nada bom o suficiente em '{kw}', tentando outra busca")
+    return None
+
+
+def shopee_teste():
+    """python robo.py --shopee-teste  -> confere se as chaves da Shopee funcionam (não mostra nenhuma chave)."""
+    if not shopee_ok():
+        log("SHOPEE: faltam SHOPEE_APP_ID / SHOPEE_SECRET (cadastre em Settings > Secrets > Actions)")
+        return 1
+    try:
+        nodes = shopee_busca("fone bluetooth", limite=10)
+    except Exception as e:
+        log("SHOPEE: a API respondeu com erro ->", e)
+        return 1
+    log(f"SHOPEE: API OK — {len(nodes)} produtos na busca 'fone bluetooth'")
+    for n in nodes[:5]:
+        log(f"   · {str(n.get('productName'))[:60]} | R$ {n.get('priceMin') or n.get('price')} | nota {n.get('ratingStar')} | "
+            f"{n.get('sales')} vendas | link de afiliado: {'sim' if n.get('offerLink') else 'NÃO veio'}")
+    bons = shopee_cands(nodes, REGRAS or {}, "Áudio e TV", 0)
+    log(f"SHOPEE: {len(bons)} desses passariam no filtro de qualidade do site")
+    return 0
 
 
 def garimpo_ml(regras, st):
@@ -1220,16 +1642,20 @@ def divulgar(saida, historico, regras):
         if livres:
             post = livres[0]
         st["slots"][slot] = 1
-    # 3) garimpo: produto novo, alternando Mercado Livre e AliExpress (se um falhar, tenta o outro)
+    # 3) garimpo: produto novo, girando entre Mercado Livre, AliExpress e Shopee (se um falhar, tenta o próximo)
     if not post:
-        ordem = [garimpo_ml, garimpo_ali] if st.get("vez_ml", True) else [garimpo_ali, garimpo_ml]
+        fontes = [garimpo_ml, garimpo_ali, garimpo_shopee]
         if not regras.get("ml_garimpo_ativo", True):
-            ordem = [garimpo_ali]
-        for f in ordem:
-            post = f(regras, st)
+            fontes = [garimpo_ali, garimpo_shopee]
+        vez = int(st.get("vez", 0))
+        for i in range(len(fontes)):                       # a loja da vez; se ela falhar, tenta a próxima
+            idx = (vez + i) % len(fontes)
+            post = fontes[idx](regras, st)
             if post:
+                st["vez"] = idx + 1                        # a próxima vez começa na loja seguinte
                 break
-        st["vez_ml"] = not st.get("vez_ml", True)
+        else:
+            st["vez"] = vez + 1
     # 4) se o garimpo falhar, um produto do site que não aparece há mais tempo
     if not post and saida:
         post = sorted(saida, key=lambda p: -dias_desde(p["id"]))[0]
@@ -1428,4 +1854,7 @@ def canal():
 
 
 if __name__ == "__main__":
+    if "--shopee-teste" in sys.argv:
+        REGRAS.update((ler_json(ARQ_PRODUTOS, {}) or {}).get("regras", {}))
+        sys.exit(shopee_teste())
     canal() if "--canal" in sys.argv else main()
