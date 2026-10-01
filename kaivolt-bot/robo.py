@@ -736,7 +736,7 @@ def ml_cards_ofertas(url):
             raise RuntimeError("o Mercado Livre pediu verificação (bloqueou o robô nesta rodada)")
         pagina = r.read().decode("utf-8", "ignore")
     cards = []
-    for bloco in pagina.split('class="andes-card poly-card')[1:]:
+    for bloco in re.split(r'class="(?:andes-card )?poly-card(?=[ "])', pagina)[1:]:
         m = re.search(r'<a href="([^"]+)"[^>]*class="poly-component__title"[^>]*>(.*?)</a>', bloco, re.S)
         cur = re.search(r'poly-price__current.*?aria-label="([\d.]+) reais(?: com (\d+) centavos?)?"', bloco, re.S)
         if not m or not cur:
@@ -1074,8 +1074,12 @@ MARCAS = set("""ugreen baseus anker soundcore xiaomi redmi poco samsung motorola
 tronsmart jbl kz aula redragon attack shark logitech hyperx havit fantech easysmx gamesir 8bitdo multilaser intelbras positivo
 inova basike jskj pioneer bosch vonder tramontina electrolux oster arno britania philco mondial wap taiff lizze gama cadence
 puma kappa lupo havaianas casio technos mormaii olympikus nike adidas fila oakley amazfit huawei realme honor tp-link mercusys
-roku philips lg sony dapon kaidi hoco pmcell geonav i2go elg exbom knup lehmox tomate fontastic newpet relaxmedic nathor""".split())
-UNID_SPEC = ("mah", "w", "gb", "tb")
+roku philips lg sony dapon kaidi hoco pmcell geonav i2go elg exbom knup lehmox tomate fontastic newpet relaxmedic nathor
+asus acer dell hp epson canon brother karcher dewalt makita worx stanley hikvision sandisk kingston seagate adata lexar
+corsair razer steelseries elgin lenoxx tcl hisense semp aoc gigabyte msi nokia infinix tecno nintendo microsoft hasbro
+mattel lego estrela xalingo chicco avent tommee lillo kuka nuk mam premier pedigree whiskas furminator kemei wahl babyliss
+gaomon vinik tomshoo mijia dreame roborock eufy tuya sonoff shelly yeelight ecovacs""".split())
+UNID_SPEC = ("mah", "w", "gb", "tb", "ml", "kg", "l")
 # marcas de roupa, calçado, relógio e cosmético: no AliExpress quase sempre é réplica -> não compara lá
 SO_LOJA_OFICIAL = set("""puma kappa lupo havaianas casio technos mormaii olympikus nike adidas fila oakley principia taiff lizze
 gama cetaphil apple samsung jbl""".split())
@@ -1085,7 +1089,7 @@ STOP = set("de da do das dos para com e sem a o as os em no na kit un und unid o
 def _norm(t):
     t = (t or "").lower()
     t = re.sub(r"(?<=\d)[.,](?=\d{3}\b)", "", t)               # 20.000 -> 20000
-    t = re.sub(r"(\d)\s+(mah|w|gb|tb)\b", r"\1\2", t)            # 20000 mah -> 20000mah
+    t = re.sub(r"(\d)\s+(mah|w|gb|tb|ml|kg|l)\b", r"\1\2", t)            # 20000 mah -> 20000mah
     t = re.sub(r"(?<=[a-z0-9])-(?=[a-z0-9])", "", t)             # w-218h -> w218h
     return re.findall(r"[a-z0-9À-ú\-]+", t)
 
@@ -1098,15 +1102,49 @@ def identidade(titulo):
     spec = [w for w in tk if re.fullmatch(r"\d+(%s)" % "|".join(UNID_SPEC), w)]
     modelo = [w for w in tk if re.search(r"\d", w) and re.search(r"[a-z]", w) and w not in spec
               and not re.fullmatch(r"\d+(mm|cm|m|km|ml|l|kg|g|v|a|h|hz|pol|pcs|x|p|k|ghz|mp|pçs|peças|ch|cores|pares|un)", w) and len(w) >= 2]
-    return {"marca": marca[:1], "modelo": modelo[:2], "spec": spec[:1],
-            "nomes": [w for w in tk if w not in STOP and not re.search(r"\d", w) and w not in MARCAS][:2]}
+    nomes = [w for w in tk if w not in STOP and not re.search(r"\d", w) and w not in MARCAS and len(w) > 2]
+    return {"marca": marca[:1], "modelo": modelo[:2], "spec": spec[:1], "nomes": nomes[:2], "nomes3": nomes[:3],
+            "qtd": qtd_pecas(titulo), "tokens": set(tk)}
+
+
+ACESSORIO = set("""capa capinha case pelicula película protetor suporte cabo adaptador refil refis filtro carcaça carcaca bateria
+tampa almofadas almofada borracha pecas peças reposição reposicao substituição substituicao fonte pulseira correia
+tapete bolsa estojo skin adesivo""".split())
+
+
+def qtd_pecas(titulo):
+    """Quantas peças vêm no anúncio (kit 6, 10 pares, 3 un...). Sem aviso = 1 peça."""
+    t = (titulo or "").lower()
+    m = re.search(r"\bkit\s*(?:com\s*)?(\d{1,3})\b", t) or re.search(
+        r"\b(\d{1,3})\s*(?:pares?|pcs|pç|pçs|peças|pecas|unidades|un|und|rolos|potes|pack)\b", t) or re.search(
+        r"\b(?:c|com)/?\s*(\d{1,3})\s*(?:un|und|unidades|pares|peças)", t)
+    return int(m.group(1)) if m else 1
+
+
+def _sing(w):
+    return w[:-1] if len(w) > 3 and w.endswith("s") else w
 
 
 def mesmo_produto(ident, titulo):
+    """Só vale quando dá pra ter certeza: marca + modelo + capacidade batem E a quantidade (kit) é a mesma."""
     if not (ident["marca"] or ident["modelo"]):
         return False
     tk = set(_norm(titulo))
-    return all(w in tk for w in ident["marca"] + ident["modelo"] + ident["spec"])
+    if not all(w in tk for w in ident["marca"] + ident["modelo"] + ident["spec"]):
+        return False
+    if ident.get("qtd", 1) != qtd_pecas(titulo):
+        return False
+    orig = ident.get("tokens", set())
+    if (tk & ACESSORIO) - orig:                       # "capa/cabo/suporte pro X" não é o X
+        return False
+    if re.search(r"\b(?:para|pra|p/|compat[ií]vel(?: com)?)\s+(?:[\w\-]+\s+){0,2}(?:%s)\b" % "|".join(map(re.escape, ident["marca"] or ["~~"])), (titulo or "").lower()) \
+            and not re.search(r"\b(?:para|pra|p/|compat[ií]vel)\b", " ".join(orig)):
+        return False
+    if not ident["modelo"] and not ident["spec"]:        # só a marca não basta: o nome do produto também tem que bater
+        sg = {_sing(w) for w in tk}
+        if not all(_sing(w) in sg for w in ident.get("nomes3", [])):
+            return False
+    return True
 
 
 def _preco_ok(por, ref, regras, loja, titulo):
@@ -1152,6 +1190,44 @@ def comparar_ali(ref, ident, regras):
     return None
 
 
+ML_BLOQUEADO = {"on": False}
+
+
+def comparar_ml(ref, ident, regras):
+    """Procura o MESMO produto no Mercado Livre (busca por marca + modelo + capacidade) e devolve o melhor anúncio."""
+    if ML_BLOQUEADO["on"]:
+        return None
+    busca = " ".join(ident["marca"] + ident["modelo"] + ident["spec"] + ident["nomes"][:2])
+    slug = "-".join(re.sub(r"[^a-z0-9]+", " ", _txt(busca)).split())
+    if not slug:
+        return None
+    time.sleep(1.2)
+    try:
+        cards = ml_cards_ofertas(f"https://lista.mercadolivre.com.br/{slug}")
+    except Exception as e:
+        if "verificação" in str(e):
+            ML_BLOQUEADO["on"] = True                   # o ML bloqueou: para de procurar nele nesta rodada
+        log("      comparador ML:", str(e)[:120])
+        return None
+    nmin, vmin = float(regras.get("nota_minima", 4.5)), int(regras.get("comparar_ml_vendas_min", 50))
+    cands = []
+    for c in cards[:40]:
+        host = urllib.parse.urlsplit(c["url"]).netloc
+        if "mercadolivre.com.br" not in host or host.startswith("click"):
+            continue                                      # anúncio patrocinado (link de clique): não dá pra gerar o link certo
+        if not mesmo_produto(ident, c["titulo"]) or c["nota"] < nmin or c["vendas"] < vmin:
+            continue
+        if not palavras_ok(c["titulo"], None, None) or not _preco_ok(c["por"], ref, regras, "Mercado Livre", c["titulo"]):
+            continue
+        cands.append({"loja": "Mercado Livre", "por": c["por"], "nota": c["nota"], "vendas": c["vendas"],
+                      "titulo": c["titulo"], "c": c})
+    c = (custo_beneficio(cands) or [None])[0]
+    if not c:
+        return None
+    return {"loja": "Mercado Livre", "por": round(c["por"], 2), "nota": c["nota"], "vendas": c["vendas"],
+            "t": c["titulo"][:90], "link": ml_link_afiliado(c["c"]["url"], c["c"]["item"], regras)}
+
+
 def comparar_shopee(ref, ident, regras):
     if not (os.environ.get("SHOPEE_APP_ID") and os.environ.get("SHOPEE_SECRET")):
         return None                                   # entra sozinho quando a API da Shopee for liberada
@@ -1177,29 +1253,31 @@ def comparar_achados(regras, guard, agora):
     """Compara alguns achados por rodada (os que ainda não foram comparados, ou comparados há +24h)."""
     if not regras.get("comparar_ativo", True):
         return
-    limite = int(regras.get("comparar_por_rodada", 10))
+    limite = int(regras.get("comparar_por_rodada", 18))
     validade = float(regras.get("comparar_validade_horas", 24)) * 3600
     fila = [v for v in guard.values()
-            if not v.get("cmp_em") or (agora - datetime.fromisoformat(v["cmp_em"])).total_seconds() > validade]
-    fila.sort(key=lambda v: (v.get("od", 0), v.get("nota", 0)), reverse=True)
+            if not v.get("cmp_em") or v.get("cmp_v") != CMP_VERSAO
+            or (agora - datetime.fromisoformat(v["cmp_em"])).total_seconds() > validade]
+    fila.sort(key=lambda v: (not v.get("cmp_em"), v.get("od", 0), v.get("nota", 0)), reverse=True)   # os nunca comparados primeiro
     feitos = 0
     for v in fila:
         if feitos >= limite:
             break
         ident = identidade(v.get("t") or v.get("n"))
-        v["cmp_em"] = agora.isoformat(timespec="minutes")
+        v["cmp_em"], v["cmp_v"] = agora.isoformat(timespec="minutes"), CMP_VERSAO
         v["cmp"] = []
         if not (ident["marca"] or ident["modelo"]):
             continue                                   # produto genérico: não dá pra garantir que é o mesmo
         feitos += 1
         grupo = grupo_do_produto(v.get("t") or v.get("n"), v.get("cid"), None, v.get("busca"), v.get("g")) or ""
-        for loja, f in (("AliExpress", comparar_ali), ("Shopee", comparar_shopee)):
-            if loja == v["loja"]:
+        oficial = grupo in ("Moda", "Beleza") or bool(set(ident["marca"]) & SO_LOJA_OFICIAL)
+        # marca de roupa/relógio/cosmético: no AliExpress é quase sempre réplica -> só Mercado Livre x Shopee, com preço bem parecido
+        r2 = dict(regras, comparar_min_fator=0.75, comparar_max_fator=1.35) if oficial else regras
+        for loja, f in (("Mercado Livre", comparar_ml), ("Shopee", comparar_shopee), ("AliExpress", comparar_ali)):
+            if loja == v["loja"] or (oficial and loja == "AliExpress"):
                 continue
-            if grupo in ("Moda", "Beleza") or set(ident["marca"]) & SO_LOJA_OFICIAL:
-                continue                               # risco alto de réplica/pacote diferente: não compara com AliExpress nem Shopee
             try:
-                o = f(v["por"], ident, regras)
+                o = f(v["por"], ident, r2)
                 if o:
                     v["cmp"].append(o)
             except Exception as e:
@@ -1208,18 +1286,23 @@ def comparar_achados(regras, guard, agora):
             log(f"  Comparado: {v['n'][:45]} -> " + ", ".join(f"{o['loja']} R$ {o['por']:.2f}" for o in v["cmp"]))
 
 
+CMP_VERSAO = 3          # sobe quando a regra do comparador muda: as comparações antigas são refeitas
+
+
 def ofertas_do_achado(v, guard, regras):
-    """Lista final de lojas do achado (a própria + comparações + o mesmo produto achado em outra loja da vitrine)."""
+    """Lista final de lojas do achado: a própria + o MESMO produto nas outras lojas (comparador + vitrine).
+    Quanto mais lojas com o produto idêntico, mais opções aparecem (até 3)."""
     ofs = [{"loja": v["loja"], "por": v["por"], "nota": v["nota"], "vendas": v["vendas"], "t": v.get("t", "")[:90], "link": v["link"]}]
-    ofs += [o for o in v.get("cmp", []) if o["loja"] != v["loja"]]
     ident = identidade(v.get("t") or v.get("n"))
+    oficial = v.get("cat") in ("Moda", "Beleza") or bool(set(ident["marca"]) & SO_LOJA_OFICIAL)
+    r2 = dict(regras, comparar_min_fator=0.75, comparar_max_fator=1.35) if oficial else regras
+    if v.get("cmp_v") == CMP_VERSAO:
+        ofs += [o for o in v.get("cmp", []) if o["loja"] != v["loja"] and not (oficial and o["loja"] == "AliExpress")]
     if ident["marca"] or ident["modelo"]:
         for w in guard.values():
-            if w is v or w["loja"] in {o["loja"] for o in ofs}:
+            if w is v or w["loja"] in {o["loja"] for o in ofs} or (oficial and w["loja"] == "AliExpress"):
                 continue
-            if v.get("cat") in ("Moda", "Beleza") or set(ident["marca"]) & SO_LOJA_OFICIAL:
-                continue                               # moda/beleza/marca de loja oficial: só mostra a loja de origem
-            if mesmo_produto(ident, w.get("t") or w.get("n")) and _preco_ok(w["por"], v["por"], regras, w["loja"], w.get("t", "")):
+            if mesmo_produto(ident, w.get("t") or w.get("n")) and _preco_ok(w["por"], v["por"], r2, w["loja"], w.get("t", "")):
                 ofs.append({"loja": w["loja"], "por": w["por"], "nota": w["nota"], "vendas": w["vendas"],
                             "t": w.get("t", "")[:90], "link": w["link"]})
     return sorted(ofs, key=lambda o: o["por"])
@@ -1227,7 +1310,7 @@ def ofertas_do_achado(v, guard, regras):
 
 def _mantem_comparacao(novo, antes):
     """Quando o mesmo produto aparece de novo, mantém a comparação entre lojas que já foi feita (vale 24h)."""
-    for k in ("cmp", "cmp_em"):
+    for k in ("cmp", "cmp_em", "cmp_v"):
         if k in antes:
             novo[k] = antes[k]
 
@@ -1327,7 +1410,8 @@ def achados_site(regras, historico):
             del guard[k]
     # vitrine: cada aba alterna as lojas (ML, Shopee, Ali, ML...) e as abas se misturam em "Todos"
     por_cat = {g[0]: [] for g in GRUPOS}
-    for v in sorted(guard.values(), key=lambda v: (v["od"], v["nota"], math.log10(max(v["vendas"], 1))), reverse=True):
+    nlojas = {id(v): len(ofertas_do_achado(v, guard, regras)) for v in guard.values()}   # em quantas lojas o MESMO produto foi achado
+    for v in sorted(guard.values(), key=lambda v: (nlojas[id(v)], v["od"], v["nota"], math.log10(max(v["vendas"], 1))), reverse=True):
         por_cat.setdefault(v["cat"], []).append(v)
     ordem_lojas = ["Mercado Livre", "Shopee", "AliExpress"]
     por_aba = int(regras.get("achados_por_grupo_site", 12))
@@ -1341,7 +1425,7 @@ def achados_site(regras, historico):
                 if lojas[l]:
                     mix.append(lojas[l].pop(0))
         por_cat[g] = mix[:por_aba]
-    saida, maximo, vistos = [], int(regras.get("achados_max_site", 200)), set()
+    saida, maximo, vistos, links_vistos = [], int(regras.get("achados_max_site", 200)), set(), set()
     while len(saida) < maximo and any(por_cat.values()):
         for cat in list(por_cat):
             if por_cat[cat] and len(saida) < maximo:
@@ -1352,6 +1436,10 @@ def achados_site(regras, historico):
                 vistos.add(chave)
                 item = {k: v[k] for k in ("n", "cat", "ic", "loja", "por", "nota", "vendas", "img", "od", "link") if k in v}
                 item["ofertas"] = ofertas_do_achado(v, guard, regras)
+                links = {o["link"] for o in item["ofertas"]}
+                if links & links_vistos:
+                    continue                           # esse produto já saiu num card (com todas as lojas dentro)
+                links_vistos |= links
                 item["por"] = item["ofertas"][0]["por"]          # "a partir de": o menor preço entre as lojas
                 saida.append(item)
     resumo = {g: sum(1 for i in saida if i["cat"] == g) for g in por_cat}
@@ -1556,6 +1644,22 @@ def shopee_teste():
             f"{n.get('sales')} vendas | link de afiliado: {'sim' if n.get('offerLink') else 'NÃO veio'}")
     bons = shopee_cands(nodes, REGRAS or {}, "Áudio e TV", 0)
     log(f"SHOPEE: {len(bons)} desses passariam no filtro de qualidade do site")
+    return 0
+
+
+def comparar_teste(titulo, preco):
+    """python robo.py --comparar-teste "título do produto" 120  -> mostra onde o mesmo produto foi achado nas 3 lojas."""
+    ident = identidade(titulo)
+    log("Identidade:", ident)
+    if not (ident["marca"] or ident["modelo"]):
+        log("Sem marca nem modelo: produto genérico, o comparador não compara (não dá pra garantir que é o mesmo).")
+        return 0
+    for loja, f in (("Mercado Livre", comparar_ml), ("Shopee", comparar_shopee), ("AliExpress", comparar_ali)):
+        try:
+            o = f(preco, ident, REGRAS)
+            log(f"  {loja}: " + (f"R$ {o['por']:.2f} · nota {o['nota']} · {o['vendas']} vendas · {o['t'][:60]} · link {'ok' if o['link'] else 'SEM LINK'}" if o else "não achou o mesmo produto"))
+        except Exception as e:
+            log(f"  {loja}: ERRO -> {str(e)[:200]}")
     return 0
 
 
@@ -1861,4 +1965,8 @@ if __name__ == "__main__":
     if "--shopee-teste" in sys.argv:
         REGRAS.update((ler_json(ARQ_PRODUTOS, {}) or {}).get("regras", {}))
         sys.exit(shopee_teste())
+    if "--comparar-teste" in sys.argv:
+        REGRAS.update((ler_json(ARQ_PRODUTOS, {}) or {}).get("regras", {}))
+        i = sys.argv.index("--comparar-teste")
+        sys.exit(comparar_teste(sys.argv[i + 1], float(sys.argv[i + 2].replace(",", "."))))
     canal() if "--canal" in sys.argv else main()
