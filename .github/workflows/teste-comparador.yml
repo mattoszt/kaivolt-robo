@@ -1,0 +1,33 @@
+name: Teste do comparador de preços (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      produto:
+        description: "Título do produto (com marca e modelo)"
+        default: "Fone de ouvido Bluetooth Soundcore P30i Anker"
+      preco:
+        description: "Preço de referência em R$"
+        default: "120"
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Procurar o mesmo produto no Mercado Livre, Shopee e AliExpress
+        env:
+          SHOPEE_APP_ID: ${{ secrets.SHOPEE_APP_ID }}
+          SHOPEE_SECRET: ${{ secrets.SHOPEE_SECRET }}
+          ALI_APP_KEY: ${{ secrets.ALI_APP_KEY }}
+          ALI_SECRET: ${{ secrets.ALI_SECRET }}
+          ALI_TRACKING_ID: ${{ secrets.ALI_TRACKING_ID }}
+          PRODUTO: ${{ github.event.inputs.produto }}
+          PRECO: ${{ github.event.inputs.preco }}
+        run: python robo.py --comparar-teste "$PRODUTO" "$PRECO"
