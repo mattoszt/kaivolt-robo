@@ -1196,8 +1196,8 @@ def comparar_achados(regras, guard, agora):
         for loja, f in (("AliExpress", comparar_ali), ("Shopee", comparar_shopee)):
             if loja == v["loja"]:
                 continue
-            if loja == "AliExpress" and (grupo in ("Moda", "Beleza") or set(ident["marca"]) & SO_LOJA_OFICIAL):
-                continue                               # risco alto de réplica: não coloca o AliExpress como opção
+            if grupo in ("Moda", "Beleza") or set(ident["marca"]) & SO_LOJA_OFICIAL:
+                continue                               # risco alto de réplica/pacote diferente: não compara com AliExpress nem Shopee
             try:
                 o = f(v["por"], ident, regras)
                 if o:
@@ -1217,8 +1217,8 @@ def ofertas_do_achado(v, guard, regras):
         for w in guard.values():
             if w is v or w["loja"] in {o["loja"] for o in ofs}:
                 continue
-            if "AliExpress" in (w["loja"], v["loja"]) and (v.get("cat") in ("Moda", "Beleza") or set(ident["marca"]) & SO_LOJA_OFICIAL):
-                continue
+            if v.get("cat") in ("Moda", "Beleza") or set(ident["marca"]) & SO_LOJA_OFICIAL:
+                continue                               # moda/beleza/marca de loja oficial: só mostra a loja de origem
             if mesmo_produto(ident, w.get("t") or w.get("n")) and _preco_ok(w["por"], v["por"], regras, w["loja"], w.get("t", "")):
                 ofs.append({"loja": w["loja"], "por": w["por"], "nota": w["nota"], "vendas": w["vendas"],
                             "t": w.get("t", "")[:90], "link": w["link"]})
@@ -1341,11 +1341,15 @@ def achados_site(regras, historico):
                 if lojas[l]:
                     mix.append(lojas[l].pop(0))
         por_cat[g] = mix[:por_aba]
-    saida, maximo = [], int(regras.get("achados_max_site", 200))
+    saida, maximo, vistos = [], int(regras.get("achados_max_site", 200)), set()
     while len(saida) < maximo and any(por_cat.values()):
         for cat in list(por_cat):
             if por_cat[cat] and len(saida) < maximo:
                 v = por_cat[cat].pop(0)
+                chave = (v["loja"], _txt(v.get("t") or v.get("n"))[:45])
+                if chave in vistos:
+                    continue                           # o mesmo anúncio apareceu em duas categorias
+                vistos.add(chave)
                 item = {k: v[k] for k in ("n", "cat", "ic", "loja", "por", "nota", "vendas", "img", "od", "link") if k in v}
                 item["ofertas"] = ofertas_do_achado(v, guard, regras)
                 item["por"] = item["ofertas"][0]["por"]          # "a partir de": o menor preço entre as lojas
