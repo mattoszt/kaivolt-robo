@@ -1089,6 +1089,7 @@ STOP = set("de da do das dos para com e sem a o as os em no na kit un und unid o
 def _norm(t):
     t = (t or "").lower()
     t = re.sub(r"(?<=\d)[.,](?=\d{3}\b)", "", t)               # 20.000 -> 20000
+    t = re.sub(r"(?<=\d)[.,](?=\d)", "p", t)                      # 22.5w -> 22p5w (decimal não vira dois números)
     t = re.sub(r"(\d)\s+(mah|w|gb|tb|ml|kg|l)\b", r"\1\2", t)            # 20000 mah -> 20000mah
     t = re.sub(r"(?<=[a-z0-9])-(?=[a-z0-9])", "", t)             # w-218h -> w218h
     return re.findall(r"[a-z0-9À-ú\-]+", t)
@@ -1099,11 +1100,11 @@ def identidade(titulo):
     tk = _norm(titulo)
     marca = [w for i, w in enumerate(tk) if w in MARCAS              # "para iPhone"/"compatível Xiaomi" não é a marca
              and not any(x in ("para", "compatível", "compativel", "p", "pra", "compatible") for x in tk[max(0, i - 3):i])]
-    spec = [w for w in tk if re.fullmatch(r"\d+(%s)" % "|".join(UNID_SPEC), w)]
+    spec = [w for w in tk if re.fullmatch(r"\d+(?:p\d+)?(%s)" % "|".join(UNID_SPEC), w)]
     modelo = [w for w in tk if re.search(r"\d", w) and re.search(r"[a-z]", w) and w not in spec
               and not re.fullmatch(r"\d+(mm|cm|m|km|ml|l|kg|g|v|a|h|hz|pol|pcs|x|p|k|ghz|mp|pçs|peças|ch|cores|pares|un)", w) and len(w) >= 2]
     nomes = [w for w in tk if w not in STOP and not re.search(r"\d", w) and w not in MARCAS and len(w) > 2]
-    return {"marca": marca[:1], "modelo": modelo[:2], "spec": spec[:1], "nomes": nomes[:2], "nomes3": nomes[:3],
+    return {"marca": marca[:1], "modelo": modelo[:2], "spec": spec[:4], "nomes": nomes[:2], "nomes3": nomes[:3],
             "qtd": qtd_pecas(titulo), "tokens": set(tk)}
 
 
@@ -1132,6 +1133,9 @@ def mesmo_produto(ident, titulo):
     tk = set(_norm(titulo))
     if not all(w in tk for w in ident["marca"] + ident["modelo"] + ident["spec"]):
         return False
+    esp = "|".join(UNID_SPEC)
+    if {w for w in tk if re.fullmatch(r"\d+(?:p\d+)?(%s)" % esp, w)} != set(ident["spec"]):
+        return False                                  # capacidade/potência diferente (ex.: 22,5W x 65W) = outro produto
     if ident.get("qtd", 1) != qtd_pecas(titulo):
         return False
     orig = ident.get("tokens", set())
@@ -1286,7 +1290,7 @@ def comparar_achados(regras, guard, agora):
             log(f"  Comparado: {v['n'][:45]} -> " + ", ".join(f"{o['loja']} R$ {o['por']:.2f}" for o in v["cmp"]))
 
 
-CMP_VERSAO = 3          # sobe quando a regra do comparador muda: as comparações antigas são refeitas
+CMP_VERSAO = 4          # sobe quando a regra do comparador muda: as comparações antigas são refeitas
 
 
 def ofertas_do_achado(v, guard, regras):
