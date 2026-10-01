@@ -643,6 +643,8 @@ def tg_postar(p):
 
 def titulo_curto(t, n=75):
     t = re.sub(r"\s+", " ", (t or "").strip())
+    t = re.sub(r"^\d{1,2}\s*[.)]\s+", "", t)                 # "1. Relógio..." -> "Relógio..."
+    t = re.sub(r"^\d{1,2}\s*(?:pcs?|peças?|pçs?)\s+", "", t, flags=re.I)   # "1pc luva..." -> "luva..."
     if len(t) <= n:
         return t
     return t[:n].rsplit(" ", 1)[0].rstrip(",.-–/ ") + "..."
@@ -1097,6 +1099,16 @@ def _norm(t):
     return re.findall(r"[a-z0-9À-ú\-]+", t)
 
 
+# "modelos" que na verdade são característica comum (4x4, 3D, 4K, 5G, 3em1, bluetooth v5.4...): não identificam produto nenhum
+MODELO_GENERICO = (r"\d+x\d+|[2-9]d|[2-9]k|[3-6]g|\d+(?:in|em)\d+|v\d+(?:p\d+)?|usb\d+|\d+(?:p\d+)?(?:mm|cm|ml|pol)|\d+p\d*[a-z]*|"
+                   r"ps[345]|xbox\d*|ip\d+|[a-z]?\d{4}|\d+(?:p\d+)?[a-z]{1,2}")
+
+
+def modelo_forte(m):
+    """Modelo que de fato identifica o produto: 4+ caracteres, letras e pelo menos 2 números (x68he, h02d, lp40, p30i)."""
+    return len(m) >= 4 and bool(re.search(r"[a-z]", m)) and len(re.findall(r"\d", m)) >= 2
+
+
 def identidade(titulo):
     """Marca, modelo e capacidade do produto. Sem marca nem modelo = não dá pra comparar com segurança."""
     tk = _norm(titulo)
@@ -1104,7 +1116,8 @@ def identidade(titulo):
              and not any(x in ("para", "compatível", "compativel", "p", "pra", "compatible") for x in tk[max(0, i - 3):i])]
     spec = [w for w in tk if re.fullmatch(r"\d+(?:p\d+)?(%s)" % "|".join(UNID_SPEC), w)]
     modelo = [w for w in tk if re.search(r"\d", w) and re.search(r"[a-z]", w) and w not in spec
-              and not re.fullmatch(r"\d+(mm|cm|m|km|ml|l|kg|g|v|a|h|hz|pol|pcs|x|p|k|ghz|mp|pçs|peças|ch|cores|pares|un)", w) and len(w) >= 2]
+              and not re.fullmatch(r"\d+(mm|cm|m|km|ml|l|kg|g|v|a|h|hz|pol|pcs|x|p|k|ghz|mp|pçs|peças|ch|cores|pares|un)", w)
+              and not re.fullmatch(MODELO_GENERICO, w) and len(w) >= 2]
     nomes = [w for w in tk if w not in STOP and not re.search(r"\d", w) and w not in MARCAS and len(w) > 2]
     return {"marca": marca[:1], "modelo": modelo[:2], "spec": spec[:4], "nomes": nomes[:2], "nomes3": nomes[:3],
             "qtd": qtd_pecas(titulo), "tokens": set(tk)}
@@ -1146,7 +1159,7 @@ def mesmo_produto(ident, titulo):
     if re.search(r"\b(?:para|pra|p/|compat[ií]vel(?: com)?)\s+(?:[\w\-]+\s+){0,2}(?:%s)\b" % "|".join(map(re.escape, ident["marca"] or ["~~"])), (titulo or "").lower()) \
             and not re.search(r"\b(?:para|pra|p/|compat[ií]vel)\b", " ".join(orig)):
         return False
-    if not ident["modelo"] and not ident["spec"]:        # só a marca não basta: o nome do produto também tem que bater
+    if not any(modelo_forte(m) for m in ident["modelo"]):  # sem modelo forte (só marca / "ps4" / "4x4"): o nome do produto também tem que bater
         sg = {_sing(w) for w in tk}
         if not all(_sing(w) in sg for w in ident.get("nomes3", [])):
             return False
@@ -1209,6 +1222,8 @@ def parecido(ident, tipo, titulo, cat):
     sg = {_sing(w) for w in tk}
     if _sing(tipo[0]) not in sg or sum(1 for w in tipo if _sing(w) in sg) < 2:
         return False                                  # o 1º nome (o que o produto É) e mais um têm que bater
+    if _sing(tipo[0]) not in {_sing(w) for w in _norm(titulo)[:6]}:
+        return False                                  # e o produto tem que ser ISSO mesmo (não "kit com sapato + relógio")
     orig = ident.get("tokens", set())
     if any(bool(g & orig) != bool(g & tk) for g in SUBTIPOS):
         return False
@@ -1352,7 +1367,7 @@ def comparar_achados(regras, guard, agora):
                 f"{o['loja']} R$ {o['por']:.2f}{' (parecido)' if o.get('sim') else ''}" for o in v["cmp"]))
 
 
-CMP_VERSAO = 6          # sobe quando a regra do comparador muda: as comparações antigas são refeitas
+CMP_VERSAO = 7          # sobe quando a regra do comparador muda: as comparações antigas são refeitas
 
 
 def ofertas_do_achado(v, guard, regras):
