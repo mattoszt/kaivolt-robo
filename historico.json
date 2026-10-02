@@ -5,7 +5,8 @@
   "2026-09-28": 45.89,
   "2026-09-29": 135.9,
   "2026-09-30": 45.89,
-  "2026-10-01": 39.99
+  "2026-10-01": 39.99,
+  "2026-10-02": 39.99
  },
  "carregador-20w": {
   "2026-09-26": 15.89,
@@ -13,7 +14,8 @@
   "2026-09-28": 15.9,
   "2026-09-29": 15.99,
   "2026-09-30": 15.89,
-  "2026-10-01": 15.99
+  "2026-10-01": 15.99,
+  "2026-10-02": 15.99
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -21,7 +23,8 @@
   "2026-09-28": 11.89,
   "2026-09-29": 11.91,
   "2026-09-30": 11.89,
-  "2026-10-01": 11.21
+  "2026-10-01": 11.21,
+  "2026-10-02": 11.21
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -29,7 +32,8 @@
   "2026-09-28": 71.59,
   "2026-09-29": 71.79,
   "2026-09-30": 71.39,
-  "2026-10-01": 51.99
+  "2026-10-01": 51.99,
+  "2026-10-02": 51.99
  },
  "mouse-gamer-rgb": {
   "2026-09-26": 25.99,
@@ -37,7 +41,8 @@
   "2026-09-28": 25.49,
   "2026-09-29": 25.59,
   "2026-09-30": 25.4,
-  "2026-10-01": 25.39
+  "2026-10-01": 25.39,
+  "2026-10-02": 25.39
  },
  "powerbank-20000": {
   "2026-09-26": 46.79,
@@ -45,7 +50,8 @@
   "2026-09-28": 46.79,
   "2026-09-29": 46.79,
   "2026-09-30": 46.79,
-  "2026-10-01": 46.79
+  "2026-10-01": 46.79,
+  "2026-10-02": 46.79
  },
  "powerbank-magsafe": {
   "2026-09-26": 109.13,
@@ -53,7 +59,8 @@
   "2026-09-28": 85.19,
   "2026-09-29": 85.19,
   "2026-09-30": 85.19,
-  "2026-10-01": 49.99
+  "2026-10-01": 49.99,
+  "2026-10-02": 49.99
  },
  "carregador-gan-65w": {
   "2026-09-26": 41.29,
@@ -61,7 +68,8 @@
   "2026-09-28": 62.19,
   "2026-09-29": 47.49,
   "2026-09-30": 47.19,
-  "2026-10-01": 59.01
+  "2026-10-01": 59.01,
+  "2026-10-02": 59.01
  },
  "suporte-veicular": {
   "2026-09-26": 10.32,
@@ -69,7 +77,8 @@
   "2026-09-28": 10.5,
   "2026-09-29": 10.38,
   "2026-09-30": 11.24,
-  "2026-10-01": 10.46
+  "2026-10-01": 10.46,
+  "2026-10-02": 10.46
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -77,7 +86,8 @@
   "2026-09-28": 104.49,
   "2026-09-29": 104.81,
   "2026-09-30": 104.21,
-  "2026-10-01": 45.49
+  "2026-10-01": 45.49,
+  "2026-10-02": 45.49
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
@@ -85,7 +95,8 @@
   "2026-09-28": 44.49,
   "2026-09-29": 44.69,
   "2026-09-30": 44.39,
-  "2026-10-01": 40.9
+  "2026-10-01": 40.9,
+  "2026-10-02": 40.9
  },
  "ssd-512": {
   "2026-09-26": 80.69,
@@ -93,7 +104,8 @@
   "2026-09-28": 594.44,
   "2026-09-29": 594.44,
   "2026-09-30": 594.44,
-  "2026-10-01": 594.44
+  "2026-10-01": 594.44,
+  "2026-10-02": 594.44
  },
  "webcam-fullhd": {
   "2026-09-26": 32.29,
@@ -101,7 +113,8 @@
   "2026-09-28": 37.99,
   "2026-09-29": 38.81,
   "2026-09-30": 38.69,
-  "2026-10-01": 31.99
+  "2026-10-01": 31.99,
+  "2026-10-02": 31.99
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -109,7 +122,8 @@
   "2026-09-28": 20.81,
   "2026-09-29": 20.89,
   "2026-09-30": 20.79,
-  "2026-10-01": 20.7
+  "2026-10-01": 20.7,
+  "2026-10-02": 20.7
  },
  "suporte-tablet": {
   "2026-09-26": 16.17,
@@ -117,7 +131,8 @@
   "2026-09-28": 17.45,
   "2026-09-29": 15.26,
   "2026-09-30": 15.18,
-  "2026-10-01": 15.15
+  "2026-10-01": 15.15,
+  "2026-10-02": 15.15
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -125,7 +140,8 @@
   "2026-09-28": 46.29,
   "2026-09-29": 47.4,
   "2026-09-30": 47.4,
-  "2026-10-01": 41.99
+  "2026-10-01": 41.99,
+  "2026-10-02": 41.99
  },
  "fone-tws": {
   "2026-09-26": 29.19,
@@ -133,7 +149,8 @@
   "2026-09-28": 29.19,
   "2026-09-29": 25.59,
   "2026-09-30": 25.39,
-  "2026-10-01": 20.09
+  "2026-10-01": 20.09,
+  "2026-10-02": 20.09
  },
  "caixa-som": {
   "2026-09-26": 41.11,
@@ -141,7 +158,8 @@
   "2026-09-28": 45.6,
   "2026-09-29": 49.99,
   "2026-09-30": 49.79,
-  "2026-10-01": 40.8
+  "2026-10-01": 40.8,
+  "2026-10-02": 40.8
  },
  "headphone-bt": {
   "2026-09-26": 112.51,
@@ -149,7 +167,8 @@
   "2026-09-28": 112.69,
   "2026-09-29": 113.09,
   "2026-09-30": 112.39,
-  "2026-10-01": 66.88
+  "2026-10-01": 66.88,
+  "2026-10-02": 66.88
  },
  "cabo-lightning": {
   "2026-09-26": 8.21,
@@ -157,7 +176,8 @@
   "2026-09-28": 8.18,
   "2026-09-29": 8.24,
   "2026-09-30": 8.0,
-  "2026-10-01": 8.0
+  "2026-10-01": 8.0,
+  "2026-10-02": 8.0
  },
  "mouse-sem-fio": {
   "2026-09-26": 17.89,
@@ -165,7 +185,8 @@
   "2026-09-28": 17.89,
   "2026-09-29": 19.5,
   "2026-09-30": 19.39,
-  "2026-10-01": 17.69
+  "2026-10-01": 17.69,
+  "2026-10-02": 17.69
  },
  "_anuncios": {
   "powerbank-10000|AliExpress|1005012621183397": {
@@ -173,28 +194,32 @@
    "2026-09-28": 45.89,
    "2026-09-29": 45.89,
    "2026-09-30": 45.89,
-   "2026-10-01": 45.89
+   "2026-10-01": 45.89,
+   "2026-10-02": 41.3
   },
   "powerbank-10000|Mercado Livre|MLB4400972103": {
    "2026-09-27": 143.09,
    "2026-09-28": 143.09,
    "2026-09-29": 143.09,
    "2026-09-30": 135.99,
-   "2026-10-01": 135.99
+   "2026-10-01": 135.99,
+   "2026-10-02": 125.0
   },
   "carregador-20w|AliExpress|1005010155263623": {
    "2026-09-27": 15.89,
    "2026-09-28": 15.9,
    "2026-09-29": 15.99,
    "2026-09-30": 15.99,
-   "2026-10-01": 15.99
+   "2026-10-01": 15.99,
+   "2026-10-02": 15.99
   },
   "carregador-20w|Mercado Livre|MLB4106194513": {
    "2026-09-27": 89.9,
    "2026-09-28": 89.9,
    "2026-09-29": 89.9,
    "2026-09-30": 89.9,
-   "2026-10-01": 89.9
+   "2026-10-01": 89.9,
+   "2026-10-02": 89.9
   },
   "cabo-usbc-100w|AliExpress|1005004912629247": {
    "2026-09-27": 11.89,
@@ -208,28 +233,32 @@
    "2026-09-28": 26.99,
    "2026-09-29": 26.99,
    "2026-09-30": 26.99,
-   "2026-10-01": 26.02
+   "2026-10-01": 26.02,
+   "2026-10-02": 26.0
   },
   "powerbank-20000|AliExpress|1005012267217366": {
    "2026-09-27": 46.79,
    "2026-09-28": 46.79,
    "2026-09-29": 46.79,
    "2026-09-30": 46.79,
-   "2026-10-01": 46.79
+   "2026-10-01": 46.79,
+   "2026-10-02": 46.79
   },
   "powerbank-20000|Mercado Livre|MLB6306405776": {
    "2026-09-27": 136.88,
    "2026-09-28": 130.04,
    "2026-09-29": 130.04,
    "2026-09-30": 130.04,
-   "2026-10-01": 136.88
+   "2026-10-01": 136.88,
+   "2026-10-02": 136.88
   },
   "powerbank-magsafe|Mercado Livre|MLB4540680129": {
    "2026-09-27": 99.9,
    "2026-09-28": 85.19,
    "2026-09-29": 85.19,
    "2026-09-30": 85.19,
-   "2026-10-01": 85.19
+   "2026-10-01": 85.19,
+   "2026-10-02": 85.19
   },
   "powerbank-magsafe|AliExpress|1005010239569878": {
    "2026-09-27": 120.99,
@@ -243,68 +272,78 @@
    "2026-09-28": 208.99,
    "2026-09-29": 208.99,
    "2026-09-30": 208.99,
-   "2026-10-01": 208.99
+   "2026-10-01": 208.99,
+   "2026-10-02": 208.99
   },
   "cabo-lightning|AliExpress|1005012613871856": {
    "2026-09-27": 8.21,
    "2026-09-28": 8.18,
    "2026-09-29": 8.24,
    "2026-09-30": 8.24,
-   "2026-10-01": 8.03
+   "2026-10-01": 8.03,
+   "2026-10-02": 8.0
   },
   "cabo-lightning|Mercado Livre|MLB6257122156": {
    "2026-09-27": 28.47,
    "2026-09-28": 28.47,
    "2026-09-29": 28.47,
    "2026-09-30": 28.47,
-   "2026-10-01": 28.47
+   "2026-10-01": 28.47,
+   "2026-10-02": 27.6
   },
   "suporte-veicular|AliExpress|1005010487386351": {
    "2026-09-27": 11.24,
    "2026-09-30": 11.3,
-   "2026-10-01": 11.24
+   "2026-10-01": 11.24,
+   "2026-10-02": 11.21
   },
   "suporte-veicular|Mercado Livre|MLB4663097633": {
    "2026-09-27": 24.99,
    "2026-09-28": 24.99,
    "2026-09-29": 24.99,
    "2026-09-30": 24.99,
-   "2026-10-01": 24.99
+   "2026-10-01": 24.99,
+   "2026-10-02": 24.99
   },
   "mouse-gamer-rgb|AliExpress|1005006982650767": {
    "2026-09-27": 25.99,
    "2026-09-28": 25.49,
    "2026-09-29": 25.59,
    "2026-09-30": 25.59,
-   "2026-10-01": 25.4
+   "2026-10-01": 25.4,
+   "2026-10-02": 25.39
   },
   "mouse-gamer-rgb|Mercado Livre|MLB1813858157": {
    "2026-09-27": 89.9,
    "2026-09-28": 89.9,
    "2026-09-29": 89.9,
    "2026-09-30": 130.07,
-   "2026-10-01": 105.33
+   "2026-10-01": 105.33,
+   "2026-10-02": 105.33
   },
   "mouse-sem-fio|AliExpress|1005010653523244": {
    "2026-09-27": 17.89,
    "2026-09-28": 17.89,
    "2026-09-29": 19.5,
    "2026-09-30": 19.5,
-   "2026-10-01": 19.39
+   "2026-10-01": 19.39,
+   "2026-10-02": 19.34
   },
   "mouse-sem-fio|Mercado Livre|MLB4507657743": {
    "2026-09-27": 59.64,
    "2026-09-28": 59.64,
    "2026-09-29": 59.64,
    "2026-09-30": 59.64,
-   "2026-10-01": 59.64
+   "2026-10-01": 59.64,
+   "2026-10-02": 59.64
   },
   "headset-gamer|AliExpress|1005007171123835": {
    "2026-09-27": 104.39,
    "2026-09-28": 104.49,
    "2026-09-29": 104.81,
    "2026-09-30": 104.81,
-   "2026-10-01": 104.21
+   "2026-10-01": 104.21,
+   "2026-10-02": 103.99
   },
   "hub-usbc|AliExpress|1005007038224873": {
    "2026-09-27": 44.51,
@@ -318,14 +357,16 @@
    "2026-09-28": 51.4,
    "2026-09-29": 51.4,
    "2026-09-30": 51.4,
-   "2026-10-01": 69.9
+   "2026-10-01": 69.9,
+   "2026-10-02": 50.29
   },
   "ssd-512|Mercado Livre|MLB5095889465": {
    "2026-09-27": 594.44,
    "2026-09-28": 594.44,
    "2026-09-29": 594.44,
    "2026-09-30": 594.44,
-   "2026-10-01": 594.44
+   "2026-10-01": 594.44,
+   "2026-10-02": 594.44
   },
   "webcam-fullhd|AliExpress|1005008945387202": {
    "2026-09-27": 91.29,
@@ -336,14 +377,16 @@
    "2026-09-28": 339.91,
    "2026-09-29": 399.9,
    "2026-09-30": 339.91,
-   "2026-10-01": 357.31
+   "2026-10-01": 357.31,
+   "2026-10-02": 340.85
   },
   "caneta-stylus|Mercado Livre|MLB6577053496": {
    "2026-09-27": 27.5,
    "2026-09-28": 27.5,
    "2026-09-29": 27.5,
    "2026-09-30": 27.5,
-   "2026-10-01": 27.5
+   "2026-10-01": 27.5,
+   "2026-10-02": 27.5
   },
   "suporte-tablet|AliExpress|1005012434177766": {
    "2026-09-27": 16.17,
@@ -354,7 +397,8 @@
    "2026-09-28": 33.5,
    "2026-09-29": 33.5,
    "2026-09-30": 33.5,
-   "2026-10-01": 33.5
+   "2026-10-01": 33.5,
+   "2026-10-02": 33.5
   },
   "teclado-tablet|AliExpress|1005009384460790": {
    "2026-09-27": 41.59
@@ -364,21 +408,24 @@
    "2026-09-28": 47.4,
    "2026-09-29": 47.4,
    "2026-09-30": 47.4,
-   "2026-10-01": 47.4
+   "2026-10-01": 47.4,
+   "2026-10-02": 47.4
   },
   "fone-tws-anc|AliExpress|1005007987662567": {
    "2026-09-27": 71.49,
    "2026-09-28": 71.59,
    "2026-09-29": 71.79,
    "2026-09-30": 71.79,
-   "2026-10-01": 71.39
+   "2026-10-01": 71.39,
+   "2026-10-02": 68.29
   },
   "fone-tws-anc|Mercado Livre|MLB5410636044": {
    "2026-09-27": 196.59,
    "2026-09-28": 196.59,
    "2026-09-29": 196.59,
    "2026-09-30": 196.59,
-   "2026-10-01": 196.59
+   "2026-10-01": 196.59,
+   "2026-10-02": 196.59
   },
   "fone-tws|AliExpress|1005012099786090": {
    "2026-09-27": 29.19,
@@ -390,7 +437,8 @@
    "2026-09-28": 155.97,
    "2026-09-29": 155.9,
    "2026-09-30": 155.9,
-   "2026-10-01": 155.97
+   "2026-10-01": 155.97,
+   "2026-10-02": 155.9
   },
   "caixa-som|AliExpress|1005007170742868": {
    "2026-09-27": 41.11
@@ -400,21 +448,24 @@
    "2026-09-28": 69.99,
    "2026-09-29": 69.99,
    "2026-09-30": 69.99,
-   "2026-10-01": 69.99
+   "2026-10-01": 69.99,
+   "2026-10-02": 69.99
   },
   "headphone-bt|AliExpress|1005009384116982": {
    "2026-09-27": 112.51,
    "2026-09-28": 112.69,
    "2026-09-29": 113.09,
    "2026-09-30": 113.09,
-   "2026-10-01": 112.39
+   "2026-10-01": 112.39,
+   "2026-10-02": 105.11
   },
   "headphone-bt|Mercado Livre|MLB6891189052": {
    "2026-09-27": 151.04,
    "2026-09-28": 151.04,
    "2026-09-29": 151.04,
    "2026-09-30": 151.04,
-   "2026-10-01": 158.99
+   "2026-10-01": 158.99,
+   "2026-10-02": 158.99
   },
   "carregador-20w|AliExpress|1005008923724270": {
    "2026-09-27": 16.27,
@@ -462,7 +513,8 @@
    "2026-09-28": 20.81,
    "2026-09-29": 20.89,
    "2026-09-30": 20.89,
-   "2026-10-01": 20.79
+   "2026-10-01": 20.79,
+   "2026-10-02": 20.7
   },
   "suporte-tablet|AliExpress|1005012051118560": {
    "2026-09-27": 16.43
@@ -474,7 +526,8 @@
    "2026-09-27": 45.6,
    "2026-09-28": 45.6,
    "2026-09-29": 45.6,
-   "2026-10-01": 40.8
+   "2026-10-01": 40.8,
+   "2026-10-02": 40.8
   },
   "teclado-tablet|AliExpress|1005006996429338": {
    "2026-09-27": 50.59,
@@ -534,90 +587,114 @@
   "suporte-tablet|AliExpress|1005010439453151": {
    "2026-09-29": 15.26,
    "2026-09-30": 15.26,
-   "2026-10-01": 15.18
+   "2026-10-01": 15.18,
+   "2026-10-02": 15.15
   },
   "fone-tws|AliExpress|1005012013858942": {
    "2026-09-29": 25.59,
    "2026-09-30": 25.59,
-   "2026-10-01": 25.39
+   "2026-10-01": 25.39,
+   "2026-10-02": 25.39
   },
   "powerbank-10000|Shopee|58256077874": {
-   "2026-10-01": 45.99
+   "2026-10-01": 45.99,
+   "2026-10-02": 39.99
   },
   "carregador-20w|Shopee|22892846443": {
-   "2026-10-01": 24.99
+   "2026-10-01": 24.99,
+   "2026-10-02": 24.99
   },
   "cabo-usbc-100w|Shopee|58215621878": {
    "2026-10-01": 14.88
   },
   "powerbank-20000|Shopee|22898922862": {
-   "2026-10-01": 46.99
+   "2026-10-01": 46.99,
+   "2026-10-02": 46.99
   },
   "powerbank-magsafe|Shopee|20798323083": {
-   "2026-10-01": 49.99
+   "2026-10-01": 49.99,
+   "2026-10-02": 49.99
   },
   "carregador-gan-65w|Shopee|58258487918": {
-   "2026-10-01": 129.9
+   "2026-10-01": 129.9,
+   "2026-10-02": 129.9
   },
   "cabo-lightning|Shopee|23492528295": {
-   "2026-10-01": 13.99
+   "2026-10-01": 13.99,
+   "2026-10-02": 13.99
   },
   "suporte-veicular|Shopee|14766183690": {
-   "2026-10-01": 10.46
+   "2026-10-01": 10.46,
+   "2026-10-02": 10.46
   },
   "mouse-gamer-rgb|Shopee|58214472841": {
-   "2026-10-01": 46.48
+   "2026-10-01": 46.48,
+   "2026-10-02": 46.48
   },
   "mouse-sem-fio|Shopee|22294689106": {
-   "2026-10-01": 17.69
+   "2026-10-01": 17.69,
+   "2026-10-02": 17.69
   },
   "teclado-mecanico|Shopee|58261389057": {
-   "2026-10-01": 74.88
+   "2026-10-01": 74.88,
+   "2026-10-02": 74.88
   },
   "headset-gamer|Shopee|58254577063": {
-   "2026-10-01": 45.49
+   "2026-10-01": 45.49,
+   "2026-10-02": 45.49
   },
   "hub-usbc|Shopee|58214825723": {
-   "2026-10-01": 40.9
+   "2026-10-01": 40.9,
+   "2026-10-02": 40.9
   },
   "webcam-fullhd|Shopee|56855656714": {
    "2026-10-01": 33.39
   },
   "suporte-tablet|Shopee|22898870546": {
-   "2026-10-01": 15.99
+   "2026-10-01": 15.99,
+   "2026-10-02": 15.99
   },
   "teclado-tablet|Shopee|58266634550": {
-   "2026-10-01": 41.99
+   "2026-10-01": 41.99,
+   "2026-10-02": 41.99
   },
   "fone-tws-anc|Shopee|58254797070": {
-   "2026-10-01": 51.99
+   "2026-10-01": 51.99,
+   "2026-10-02": 51.99
   },
   "fone-tws|Shopee|22499665012": {
    "2026-10-01": 20.5
   },
   "caixa-som|Shopee|40833924998": {
-   "2026-10-01": 44.9
+   "2026-10-01": 44.9,
+   "2026-10-02": 44.9
   },
   "headphone-bt|Shopee|23399043568": {
-   "2026-10-01": 66.88
+   "2026-10-01": 66.88,
+   "2026-10-02": 66.88
   },
   "carregador-gan-65w|AliExpress|1005007302320007": {
-   "2026-10-01": 59.15
+   "2026-10-01": 59.15,
+   "2026-10-02": 59.01
   },
   "headset-gamer|Shopee|22493707539": {
    "2026-10-01": 42.43
   },
   "hub-usbc|AliExpress|1005006904690516": {
-   "2026-10-01": 87.19
+   "2026-10-01": 87.19,
+   "2026-10-02": 86.99
   },
   "webcam-fullhd|Shopee|23794414130": {
-   "2026-10-01": 31.99
+   "2026-10-01": 31.99,
+   "2026-10-02": 31.99
   },
   "webcam-fullhd|AliExpress|1005012743158038": {
-   "2026-10-01": 36.29
+   "2026-10-01": 36.29,
+   "2026-10-02": 36.2
   },
   "fone-tws|Shopee|29364698440": {
-   "2026-10-01": 20.09
+   "2026-10-01": 20.09,
+   "2026-10-02": 20.09
   },
   "carregador-20w|AliExpress|1005006861025488": {
    "2026-10-01": 18.69
@@ -629,13 +706,16 @@
    "2026-10-01": 45.98
   },
   "cabo-usbc-100w|AliExpress|1005006070707746": {
-   "2026-10-01": 11.21
+   "2026-10-01": 11.21,
+   "2026-10-02": 11.21
   },
   "cabo-usbc-100w|Shopee|22499569040": {
-   "2026-10-01": 14.88
+   "2026-10-01": 14.88,
+   "2026-10-02": 14.88
   },
   "teclado-tablet|AliExpress|1005006996354541": {
-   "2026-10-01": 61.29
+   "2026-10-01": 61.29,
+   "2026-10-02": 61.29
   },
   "mouse-sem-fio|Shopee|58259566511": {
    "2026-10-01": 17.49
@@ -705,14 +785,14 @@
   }
  },
  "_achados_meta": {
-  "n": 954,
-  "ali_n": 523,
+  "n": 959,
+  "ali_n": 528,
   "ali_q": {
-   "Beleza": 18,
-   "Esportes": 18,
-   "Casa": 18,
-   "Eletro": 18,
-   "Ferramentas": 18,
+   "Beleza": 19,
+   "Esportes": 19,
+   "Casa": 19,
+   "Eletro": 19,
+   "Ferramentas": 19,
    "Carro": 18,
    "Pet": 18,
    "Brinquedos": 18,
@@ -723,16 +803,16 @@
    "Games": 18,
    "Moda": 18
   },
-  "shopee_n": 392,
+  "shopee_n": 400,
   "shopee_q": {
-   "Celular": 28,
-   "Tech": 28,
-   "Áudio e TV": 28,
-   "Games": 28,
-   "Moda": 28,
-   "Beleza": 28,
-   "Esportes": 28,
-   "Casa": 28,
+   "Celular": 29,
+   "Tech": 29,
+   "Áudio e TV": 29,
+   "Games": 29,
+   "Moda": 29,
+   "Beleza": 29,
+   "Esportes": 29,
+   "Casa": 29,
    "Eletro": 28,
    "Ferramentas": 28,
    "Carro": 28,
@@ -827,7 +907,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_677330-MLB118307874883_092026-O.jpg",
    "od": 1,
    "link": "https://produto.mercadolivre.com.br/MLB-4053759377-pista-carrinhos-dinossauro-caminho-lancador-6-carrinhos-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T21:31+00:00",
+   "visto": "2026-10-02T00:39+00:00",
    "cmp": [
     {
      "loja": "Shopee",
@@ -840,34 +920,6 @@
     }
    ],
    "cmp_em": "2026-10-01T05:31+00:00",
-   "cmp_v": 7,
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "MLB7277554990": {
-   "n": "Livro Interativo Bilingue Pt/en Com Som E Toque Para Criança...",
-   "t": "Livro Interativo Bilingue Pt/en Com Som E Toque Para Criança Rosa-chiclete",
-   "cid": "MLB1132",
-   "loja": "Mercado Livre",
-   "por": 41.0,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_898300-MLB115265611517_072026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/livro-interativo-bilingue-pten-com-som-e-toque-para-crianca/up/MLBU4466440795?pdp_filters=item_id%3AMLB7277554990&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T21:31+00:00",
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 30.8,
-     "nota": 5.0,
-     "vendas": 278,
-     "t": "Livro Infantil Bilíngue Português Inglês Livro Interativo com Som Toque Inteligente Educat",
-     "link": "https://s.shopee.com.br/3LRGZw2syE",
-     "sim": true
-    }
-   ],
-   "cmp_em": "2026-10-01T10:58+00:00",
    "cmp_v": 7,
    "cat": "Brinquedos",
    "ic": "🧸"
@@ -969,42 +1021,6 @@
    "cat": "Games",
    "ic": "🎮"
   },
-  "ali:1005006967312961": {
-   "n": "Nebulizador de malha silenciosa Inalador de asma portátil Atomizador...",
-   "t": "Nebulizador de malha silenciosa Inalador de asma portátil Atomizador Cuidados de saúde infantil Mini umidificador portátil",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 23.3,
-   "nota": 4.9,
-   "vendas": 8097,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0fe6513e9a0e4519b560cecc99273f00n.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2JOVaRf",
-   "visto": "2026-10-01T10:33+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-10-01T16:31+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012640153580": {
-   "n": "Ventilador de spray portátil mini umidificador ventilador 4...",
-   "t": "Ventilador de spray portátil mini umidificador ventilador 4 velocidades vento poderoso usb recarregável spray água névoa ventilador ao ar li",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 28.79,
-   "nota": 4.9,
-   "vendas": 5968,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4aa502d01d384c9bb65a9aac199d7cf56.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3VDWy2d",
-   "visto": "2026-10-01T10:33+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-10-01T16:58+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
   "MLB4191973484": {
    "n": "Extratora de Sujeira Portátil WAP Spot Cleaner W3 Borrifa Esfrega e...",
    "t": "Extratora de Sujeira Portátil WAP Spot Cleaner W3 Borrifa Esfrega e Extrai 1450W de Potência e Bico de Autolimpeza",
@@ -1088,42 +1104,6 @@
      "sim": true
     }
    ]
-  },
-  "ali:1005006678203227": {
-   "n": "Balança Digital de Café de Alta Precisão com Timer, Tela LED...",
-   "t": "Balança Digital de Café de Alta Precisão com Timer, Tela LED, Recarregável via USB, 3kg 0.1g, Balança de Cozinha Precisa para Espresso, Supo",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 50.81,
-   "nota": 4.9,
-   "vendas": 7218,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S02d7d4ef52144d15a418495b84d1b6d97.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4tLJ9tB",
-   "visto": "2026-10-01T11:58+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-10-01T17:33+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007010062101": {
-   "n": "Balança digital para café com temporizador e visor LED, recarregável...",
-   "t": "Balança digital para café com temporizador e visor LED, recarregável por USB, ideal para espresso. Capacidade máxima de 3 kg, precisão de 0,",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 47.69,
-   "nota": 4.9,
-   "vendas": 7070,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sda777dddfca84e2c917946d8c6b2a67eU.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3WioPj7",
-   "visto": "2026-10-01T11:58+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-10-01T17:33+00:00",
-   "cmp_v": 7,
-   "cmp": []
   },
   "MLB7574530136": {
    "n": "Controle Joystick Sem Fio Sony PlayStation 5 DualSense Midnight Black",
@@ -1647,88 +1627,6 @@
    "cmp_v": 7,
    "cmp": []
   },
-  "ali:1005011587207559": {
-   "n": "Acessório de Alisamento de Cabelo Aprimorado com Bico de Fluxo de Ar...",
-   "t": "Acessório de Alisamento de Cabelo Aprimorado com Bico de Fluxo de Ar Suave SenCiciMen X9 para Dyson Airwrap HS01 HS05 HS08",
-   "g": "Beleza",
-   "loja": "AliExpress",
-   "por": 69.79,
-   "nota": 4.9,
-   "vendas": 763,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9e19f0baf5dc481b94efab4d7fcbbd47F.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3GIG1FT",
-   "visto": "2026-10-01T15:59+00:00",
-   "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-10-01T21:57+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010043944957": {
-   "n": "Conjunto de faixas de resistência para exercícios, com 5 níveis de...",
-   "t": "Conjunto de faixas de resistência para exercícios, com 5 níveis de resistência, adequado para a pele, para fitness interno, treinamento de f",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 22.62,
-   "nota": 4.9,
-   "vendas": 714,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S350dec1391f940bc931288ad5ae2cc2bP.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4o3W5tn",
-   "visto": "2026-10-01T15:59+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️",
-   "cmp_em": "2026-10-01T21:57+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 14.65,
-     "nota": 4.9,
-     "vendas": 1470,
-     "t": "3 KIT Thera Band Faixa Elástica 1,5 Metro Para Exercícios Multifuncionais",
-     "link": "https://s.shopee.com.br/113MCK5QXv",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005006727800218": {
-   "n": "Conjunto de treino de corpo inteiro - Expansor de peito com 5 faixas...",
-   "t": "Conjunto de treino de corpo inteiro - Expansor de peito com 5 faixas de resistência removíveis para pilates, flexões e treinamento muscular ",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 25.41,
-   "nota": 4.9,
-   "vendas": 638,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S13b4d818bf93487aad800e5c00126673O.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c42cYqBB",
-   "visto": "2026-10-01T15:59+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️",
-   "cmp_em": "2026-10-01T21:57+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010332322675": {
-   "n": "Conjunto de Faixas de Resistência para Natação com Pás de Mão e...",
-   "t": "Conjunto de Faixas de Resistência para Natação com Pás de Mão e Alças, Bandas de Exercício para Mulheres e Homens, Corda Elástica de 1,2m",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 51.39,
-   "nota": 4.9,
-   "vendas": 556,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9b185b3d362f473985e49077806792edS.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2zBiSqH",
-   "visto": "2026-10-01T15:59+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️",
-   "cmp_em": "2026-10-01T21:57+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
   "MLB4273146969": {
    "n": "Kit Lavagem Shampoo Cera Tok Final Intense Sintra Fast Vonixx",
    "t": "Kit Lavagem Shampoo Cera Tok Final Intense Sintra Fast Vonixx",
@@ -1961,123 +1859,6 @@
    "cmp_v": 7,
    "cmp": []
   },
-  "ali:1005005370448406": {
-   "n": "JR100-6 Corda de Pular de PVC com 6 mm de diâmetro e Núcleo...",
-   "t": "JR100-6 Corda de Pular de PVC com 6 mm de diâmetro e Núcleo Rosqueado, 3,2 metros de comprimento com cabo de 15,5 cm, NEVERTOOLATE, BOA QUAL",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 56.3,
-   "nota": 4.8,
-   "vendas": 657,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd2f32b905f6346d291e23f9dd52ce419V.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2vNpn3T",
-   "visto": "2026-10-01T17:33+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
-  },
-  "ali:1005012479528890": {
-   "n": "2 Sacos de Vácuo 3D para Armazenamento, Sacos de Compressão para...",
-   "t": "2 Sacos de Vácuo 3D para Armazenamento, Sacos de Compressão para Economizar Espaço, Sem Bomba, Sacos Selados para Edredons, Roupas e Coberto",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 27.51,
-   "nota": 4.9,
-   "vendas": 2479,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf40df1f4403349c5a7eb03729025ba70o.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3IbLeaH",
-   "visto": "2026-10-01T17:33+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-10-01T22:56+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 16.99,
-     "nota": 4.9,
-     "vendas": 335,
-     "t": "Rolo Saco Embalagem A Vácuo Ranhura Seladora 20 CM * 5 Metros",
-     "link": "https://s.shopee.com.br/5fpC9X8nCu",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005007170985608": {
-   "n": "5 sacos de armazenamento a vácuo dos pces ou 1 bomba dos pces, sacos...",
-   "t": "5 sacos de armazenamento a vácuo dos pces ou 1 bomba dos pces, sacos selados do vácuo sacos que economizam espaço para edredons roupas trave",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 17.19,
-   "nota": 4.9,
-   "vendas": 2294,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf1e42c1f009e4078b6c91fc405baba2ao.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2zFLOgp",
-   "visto": "2026-10-01T17:33+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-10-01T22:56+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 15.99,
-     "nota": 4.9,
-     "vendas": 426,
-     "t": "Rolo Saco Embalagem A Vácuo Ranhura Seladora Bobina-Enviar imediato",
-     "link": "https://s.shopee.com.br/6AlSkS6tBz",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005013255563566": {
-   "n": "1 rolo de sacos a vácuo para alimentos, 500cm por rolo...",
-   "t": "1 rolo de sacos a vácuo para alimentos, 500cm por rolo, reutilizáveis, sem bpa, sacos seladores a vácuo de alimentos para armazenamento vac,",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 20.24,
-   "nota": 4.9,
-   "vendas": 2289,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa941b1ec02a24050aef26bd5cbdc5115l.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3KPqjF7",
-   "visto": "2026-10-01T17:33+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-10-01T22:56+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 13.48,
-     "nota": 4.8,
-     "vendas": 444,
-     "t": "Rolo Bobina Saco a Vácuo Seladora Para Alimentos 15cm 25cm 30cm",
-     "link": "https://s.shopee.com.br/3g47lrKjpC",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005012742976701": {
-   "n": "Mini Bomba de Ar Portátil com Bateria de 1300mAh Recarregável via USB...",
-   "t": "Mini Bomba de Ar Portátil com Bateria de 1300mAh Recarregável via USB para Inflar e Desinflar Flutuadores de Piscina, Colchões Infláveis, Sa",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 57.79,
-   "nota": 4.9,
-   "vendas": 2256,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb2bf6039fe274bf29fee059173160fb29.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3h5CQG1",
-   "visto": "2026-10-01T17:33+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-10-01T22:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
   "ali:1005010806367710": {
    "n": "Espumador de leite magnético portátil Homefish, mini vaporizador...",
    "t": "Espumador de leite magnético portátil Homefish, mini vaporizador elétrico de leite, espumador de leite para misturar leite quente e frio.",
@@ -2207,58 +1988,12 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_881651-MLA113773112109_062026-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-impacto-the-black-tools-c2-baterias-amarelo-e-preto-60hz/p/MLB60516061?pdp_filters=item_id%3AMLB6709083852&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T20:57+00:00",
+   "visto": "2026-10-02T00:39+00:00",
    "cmp": [],
    "cmp_em": "2026-10-01T17:58+00:00",
    "cmp_v": 7,
    "cat": "Ferramentas",
    "ic": "🔧"
-  },
-  "MLB5517303258": {
-   "n": "Auxiliar Partida Bateria Portátil Compressor Ar Emergência",
-   "t": "Auxiliar Partida Bateria Portátil Compressor Ar Emergência",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 248.0,
-   "nota": 4.9,
-   "vendas": 5000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_738065-MLB91261208029_082025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/auxiliar-partida-bateria-portatil-compressor-ar-emergencia/up/MLBU3314936937?pdp_filters=item_id%3AMLB5517303258&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-10-01T23:27+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 179.99,
-     "nota": 4.9,
-     "vendas": 2242,
-     "t": "Auxiliar de Partida Carregador Bateria Com Compressor de Ar Emergência Portátil Veicular A",
-     "link": "https://s.shopee.com.br/4B0NHcKBAE",
-     "sim": true
-    }
-   ]
-  },
-  "MLB7483695532": {
-   "n": "Kit 2 Farol De Milha Moto Led Auxiliares Dual Colo 80w 8-85v Ambos...",
-   "t": "Kit 2 Farol De Milha Moto Led Auxiliares Dual Colo 80w 8-85v Ambos Lados",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 66.82,
-   "nota": 4.9,
-   "vendas": 500,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_634102-MLB115173231168_082026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/kit-2-farol-de-milha-moto-led-auxiliares-dual-colo-80w-885v/up/MLBU4875493391?pdp_filters=item_id%3AMLB7483695532&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-10-01T23:27+00:00",
-   "cmp_v": 7,
-   "cmp": []
   },
   "MLB7185739618": {
    "n": "MoveBrinca Casa De Boneca Infantil 4 Andares Com Luzes LED 14...",
@@ -2271,7 +2006,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_729521-MLA113364010356_072026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/movebrinca-casa-de-boneca-infantil-4-andares-com-luzes-led-14-ambientes-moveis-e-acessorios-brinquedo-de-montar-para-meninas-com-escorregador-balanco-decoracao-de-casinha-faz-de-conta/p/MLB75496604?pdp_filters=item_id%3AMLB7185739618&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T21:31+00:00",
+   "visto": "2026-10-02T00:39+00:00",
    "cmp": [],
    "cmp_em": "2026-10-01T17:58+00:00",
    "cmp_v": 7,
@@ -2473,7 +2208,20 @@
    "link": "https://s.click.aliexpress.com/e/_c3bSf3Kh",
    "visto": "2026-10-01T18:36+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 129.0,
+     "nota": 4.9,
+     "vendas": 248,
+     "t": "QCY MeloBuds N20 Fones De Ouvido Sem Fio Híbridos Com Cancelamento De Ruído",
+     "link": "https://s.shopee.com.br/3g47sxs7OT",
+     "sim": true
+    }
+   ]
   },
   "ali:1005012370783314": {
    "n": "Fones de Ouvido Sem Fio QCY H3 ANC Hi-Res Audio Bluetooth 5.4 Over...",
@@ -2488,7 +2236,20 @@
    "link": "https://s.click.aliexpress.com/e/_c4UEDVPT",
    "visto": "2026-10-01T18:36+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 219.0,
+     "nota": 4.9,
+     "vendas": 132,
+     "t": "QCY H3 ANC Fones De Ouvido Sem Fio Bluetooth 5.4 Sobre Fone 43dB Com Cancelamento De Ruído",
+     "link": "https://s.shopee.com.br/7AdzeRnjxv",
+     "sim": false
+    }
+   ]
   },
   "ali:1005009192340430": {
    "n": "Fones de ouvido magnéticos planos HIFIMAN HE400se com ímãs furtivos",
@@ -2503,7 +2264,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3zhImHb",
    "visto": "2026-10-01T18:36+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:4001219964250": {
    "n": "Gamepad sem fio 8BitDo N30 2.4G para NES originais",
@@ -2777,36 +2541,6 @@
    "visto": "2026-10-01T18:59+00:00",
    "cat": "Casa",
    "ic": "🏠"
-  },
-  "ali:1005007345384902": {
-   "n": "Conjunto de Chaves de Precisão 132 em 1 com Pontas Magnéticas...",
-   "t": "Conjunto de Chaves de Precisão 132 em 1 com Pontas Magnéticas Phillips e Torx, Caixa de Armazenamento e Kit de Ferramentas Manuais Pequenas ",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 64.89,
-   "nota": 4.9,
-   "vendas": 2671,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2100f88badf84e7497279c3554ff3964v.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4tcMVAZ",
-   "visto": "2026-10-01T18:59+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "ali:1005007477049037": {
-   "n": "Conjunto de chave de fenda elétrica de precisão 154 em 1 com 120 bits...",
-   "t": "Conjunto de chave de fenda elétrica de precisão 154 em 1 com 120 bits de chave de fenda magnética sem fio tipo-c kit de ferramentas de repar",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 191.59,
-   "nota": 4.9,
-   "vendas": 2319,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/See4fd6efbe9a41f6b597e21dc3bb725e9.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3oah0nX",
-   "visto": "2026-10-01T18:59+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
   },
   "ali:1005007908127318": {
    "n": "Câmera Veicular 70mai 4K A810 Conjunto Frontal e Traseiro Suporte...",
@@ -3452,36 +3186,6 @@
    "cat": "Ferramentas",
    "ic": "🔧"
   },
-  "ali:1005008248040797": {
-   "n": "Pistola de Cola Quente Elétrica para Bateria Dewalt 18V, Pistola de...",
-   "t": "Pistola de Cola Quente Elétrica para Bateria Dewalt 18V, Pistola de Cola Quente Sem Fio, Bastão de Cola de 11mm, Pistola de Solda a Ar Quent",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 82.59,
-   "nota": 4.9,
-   "vendas": 713,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8790a3ca31ff40fc8b3c05b90e145258y.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3E2vLav",
-   "visto": "2026-10-01T20:33+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "ali:1005007476595602": {
-   "n": "Pistola de Pulverização com Válvula Liga/Desliga, Agente Espumante...",
-   "t": "Pistola de Pulverização com Válvula Liga/Desliga, Agente Espumante, Pistola de Pulverização sem Necessidade de Limpeza, Pistola de Cola de P",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 53.89,
-   "nota": 4.9,
-   "vendas": 684,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se92a5d5cbf7b443eb8ba2207c1a4f912t.jpeg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2zl5evF",
-   "visto": "2026-10-01T20:33+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
   "shp:46013185900": {
    "n": "Parafusadeira Furadeira 48V Bateria De Lítio 2 Velocidades Uso...",
    "t": "Parafusadeira Furadeira 48V Bateria De Lítio 2 Velocidades Uso Doméstico Com Baterias Duplas E Caixa De Ferramentas",
@@ -3571,36 +3275,6 @@
    "visto": "2026-10-01T23:55+00:00",
    "cat": "Beleza",
    "ic": "💄"
-  },
-  "MLB5179543751": {
-   "n": "Serra Circular Para Madeira 7.1/4pol 1600w - Hs7010 Makita Cor...",
-   "t": "Serra Circular Para Madeira 7.1/4pol 1600w - Hs7010 Makita Cor Azul-turquesa",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 607.9,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_867381-MLA113927657655_062026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/serra-circular-para-madeira-714pol-1600w-hs7010-makita-cor-azul-turquesa/p/MLB15462506?pdp_filters=item_id%3AMLB5179543751&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB7520768606": {
-   "n": "Serra Makita 4100nh3zx Mármore com 2 Discos Diámetro 110mm 1300W",
-   "t": "Serra Makita 4100nh3zx Mármore com 2 Discos Diámetro 110mm 1300W",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 389.0,
-   "nota": 4.9,
-   "vendas": 5000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_707426-MLU72340464209_102023-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/serra-makita-4100nh3zx-marmore-com-2-discos-diametro-110mm-1300w/p/MLB41524182?pdp_filters=item_id%3AMLB7520768606&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
   },
   "ali:1005006863769758": {
    "n": "Copo de água do bebê palha bonito anti-asfixia jardim de infância...",
@@ -3706,141 +3380,6 @@
    "visto": "2026-10-01T20:57+00:00",
    "cat": "Celular",
    "ic": "📱"
-  },
-  "shp:23599348005": {
-   "n": "Tripé Bastão Para Celular Com Controle Portátil 1,70M Selfie Foto...",
-   "t": "Tripé Bastão Para Celular Com Controle Portátil 1,70M Selfie Foto Vídeo Gravação Retrátil Ajustável Preto Extensível",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 43.99,
-   "nota": 4.9,
-   "vendas": 1463,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lr-mmo1nbxhniti2b",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1qcTSGrTms",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:23695153298": {
-   "n": "Inova Bastão de selfie Tripé Magnético telescópico 170cm Bluetooth...",
-   "t": "Inova Bastão de selfie Tripé Magnético telescópico 170cm Bluetooth com controle remoto para celular com suporte de tripé",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 79.98,
-   "nota": 4.9,
-   "vendas": 529,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m1-mr8erp30awp2c0",
-   "od": 0,
-   "link": "https://s.shopee.com.br/qjwGQvHoq",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:58206952370": {
-   "n": "Tripé de Selfie Bluetooth com Controle Remoto - 1,7m Retrátil...",
-   "t": "Tripé de Selfie Bluetooth com Controle Remoto - 1,7m Retrátil Compatível com iPhone e Samsung",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 34.99,
-   "nota": 4.9,
-   "vendas": 382,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m2-mrqeq0ufdurp56",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4fwepTgh2j",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:58206795494": {
-   "n": "Pau de Selfie 1,7m com Tripé Bluetooth Controle Remoto Bastão Selfie...",
-   "t": "Pau de Selfie 1,7m com Tripé Bluetooth Controle Remoto Bastão Selfie para Celular Foto Vídeo Live",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 37.99,
-   "nota": 4.9,
-   "vendas": 263,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8261u-mlqfnr2hlwcl15",
-   "od": 0,
-   "link": "https://s.shopee.com.br/50ZVE5fQMp",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:23098550947": {
-   "n": "Tripé Selfie Stick Extensível com Controle Remoto Sem Fio para Grupos...",
-   "t": "Tripé Selfie Stick Extensível com Controle Remoto Sem Fio para Grupos de Selfies e Streaming ao Vivo",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 24.99,
-   "nota": 4.8,
-   "vendas": 2885,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-macpq7by7y4v34",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3LRG76hKCW",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:22597307453": {
-   "n": "Mouse sem fio dual band receptor nano 2,4ghz / Bluetooth RGB...",
-   "t": "Mouse sem fio dual band receptor nano 2,4ghz / Bluetooth RGB recarregável MS-S350L",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 17.99,
-   "nota": 4.9,
-   "vendas": 9916,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8258o-mts6opcfhceia2",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1BMlu5zNQv",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:58200908577": {
-   "n": "Mouse Home Office Sem Fio - Bateria Interna Recarregável e LED RGB...",
-   "t": "Mouse Home Office Sem Fio - Bateria Interna Recarregável e LED RGB Wireless",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 21.9,
-   "nota": 4.9,
-   "vendas": 4777,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhelddzuvu2tea",
-   "od": 0,
-   "link": "https://s.shopee.com.br/2BFJKeewxq",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:22594721498": {
-   "n": "Mouse Sem Fio Home Office - Recarregável com Bateria Interna e LED RGB",
-   "t": "Mouse Sem Fio Home Office - Recarregável com Bateria Interna e LED RGB",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 21.9,
-   "nota": 4.9,
-   "vendas": 2080,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mi86cl1tjf2a2d",
-   "od": 0,
-   "link": "https://s.shopee.com.br/Lnf9HlvgX",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:22092485261": {
-   "n": "Mouse Sem Fio Recarregável Wireless Led Rgb Ergonômico Novo",
-   "t": "Mouse Sem Fio Recarregável Wireless Led Rgb Ergonômico Novo",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 17.29,
-   "nota": 4.9,
-   "vendas": 1977,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825am-mq97yj5xmz2j55",
-   "od": 0,
-   "link": "https://s.shopee.com.br/W75LalILY",
-   "visto": "2026-10-01T20:57+00:00",
-   "cat": "Tech",
-   "ic": "💻"
   },
   "MLB-6289002788": {
    "n": "Celular Xiaomi Redmi Note 15 256gb 8gb Ram Lançamento 2026",
@@ -4241,21 +3780,6 @@
    "cat": "Tech",
    "ic": "💻"
   },
-  "shp:19698315816": {
-   "n": "Teclado Mecânico AITEK Delta TM6101 60% RGB Switch Vermelho USB Com...",
-   "t": "Teclado Mecânico AITEK Delta TM6101 60% RGB Switch Vermelho USB Com Fio ABNT2 61 Teclas",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 99.98,
-   "nota": 4.9,
-   "vendas": 385,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m6-mqqx1gayxog225",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5VVlrKpXdF",
-   "visto": "2026-10-01T21:31+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
   "MLB6517763600": {
    "n": "Impressora multifuncional cor Epson EcoTank L3250",
    "t": "Impressora multifuncional cor Epson EcoTank L3250",
@@ -4316,21 +3840,6 @@
    "cat": "Celular",
    "ic": "📱"
   },
-  "MLB4256347551": {
-   "n": "Processador de Áudio Digital Automotivo Stetsom STX2448 com Crossover...",
-   "t": "Processador de Áudio Digital Automotivo Stetsom STX2448 com Crossover e Equalizador",
-   "cid": "MLB1000",
-   "loja": "Mercado Livre",
-   "por": 225.79,
-   "nota": 4.9,
-   "vendas": 100000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_706699-MLA99442468740_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/processador-de-audio-digital-automotivo-stetsom-stx2448-com-crossover-e-equalizador/p/MLB22655991?pdp_filters=item_id%3AMLB4256347551&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
   "MLB6880186832": {
    "n": "Star Fox - Nintendo Switch 2",
    "t": "Star Fox - Nintendo Switch 2",
@@ -4375,21 +3884,6 @@
    "visto": "2026-10-01T21:57+00:00",
    "cat": "Celular",
    "ic": "📱"
-  },
-  "MLB7353143836": {
-   "n": "Kit 5 Alicate De Corte Precisão Rente Diagonal Eletronica Azul",
-   "t": "Kit 5 Alicate De Corte Precisão Rente Diagonal Eletronica Azul",
-   "cid": "MLB3937",
-   "loja": "Mercado Livre",
-   "por": 37.05,
-   "nota": 4.9,
-   "vendas": 500,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_709511-MLB114412605926_082026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/kit-5-alicate-de-corte-precisao-rente-diagonal-eletronica/up/MLBU4607461767?pdp_filters=item_id%3AMLB7353143836&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
   },
   "ali:1005007171109909": {
    "n": "Furadeira/Parafusadeira Makita DDF487 18V a Bateria de Lítio Sem...",
@@ -4631,66 +4125,6 @@
    "cat": "Brinquedos",
    "ic": "🧸"
   },
-  "shp:57358236213": {
-   "n": "Soundbar Gamer Para PC e Notebook Caixa de Som 6W RMS USB P2 ACS-4512",
-   "t": "Soundbar Gamer Para PC e Notebook Caixa de Som 6W RMS USB P2 ACS-4512",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 53.98,
-   "nota": 4.9,
-   "vendas": 681,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lg-mmrv51iope6fb3",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4VdDRAvUHp",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:23597914886": {
-   "n": "Caixa De Som Soundbar Led Para Computador Pc Usb P2 Gamer...",
-   "t": "Caixa De Som Soundbar Led Para Computador Pc Usb P2 Gamer 1002/1090/1104/1136",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 39.8,
-   "nota": 4.9,
-   "vendas": 537,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-82620-mjk62qqn3wu82f",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1LgCEYEnup",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:58214810046": {
-   "n": "Caixa De Som Para PC TV Notebook Knup RO829 6W Soundbar Gamer P2",
-   "t": "Caixa De Som Para PC TV Notebook Knup RO829 6W Soundbar Gamer P2",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 39.69,
-   "nota": 4.9,
-   "vendas": 452,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825ah-mqz92q14jbb5ab",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4fwddTuqww",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:58213183417": {
-   "n": "Soundbar para PC Gamer Caixa De Som Potente Som Estéreo Com Fio USB...",
-   "t": "Soundbar para PC Gamer Caixa De Som Potente Som Estéreo Com Fio USB P2 Pc Notebook USB FD009",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 39.98,
-   "nota": 4.9,
-   "vendas": 380,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825at-mrrp592yetqgde",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5AsuEOsww1",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
   "shp:23697546634": {
    "n": "Controle Bluetooth Sem Fio Compatível Com Ps4 Pc Notebook Celular...",
    "t": "Controle Bluetooth Sem Fio Compatível Com Ps4 Pc Notebook Celular Android iOS Wireless Aquattro",
@@ -4765,246 +4199,6 @@
    "visto": "2026-10-01T21:57+00:00",
    "cat": "Games",
    "ic": "🎮"
-  },
-  "shp:53707116674": {
-   "n": "Cinto Lateral Elástico Sem Fivela , Ajustável Feminino E Masculino...",
-   "t": "4 Peças Cinto Lateral Elástico Sem Fivela , Ajustável Feminino E Masculino Para Calcinha Jeans",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 17.15,
-   "nota": 4.9,
-   "vendas": 783,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-82602-mlq94nh89ddu41",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5AsvUZ21dq",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "shp:23794206460": {
-   "n": "Cinto Social Infantil Masculino de Couro Sintético Cinto Para...",
-   "t": "Cinto Social Infantil Masculino de Couro Sintético Cinto Para Crianças Com Regulagem 80cm/85cm",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 16.11,
-   "nota": 4.9,
-   "vendas": 719,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81ztz-ml5chhw3hatifc",
-   "od": 0,
-   "link": "https://s.shopee.com.br/20vtikE54T",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "shp:21897666627": {
-   "n": "Kit Sapato Social Masculino Confortável Dia a Dia com Cinto Dupla Face",
-   "t": "Kit Sapato Social Masculino Confortável Dia a Dia com Cinto Dupla Face",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 53.95,
-   "nota": 4.9,
-   "vendas": 648,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lubfged3b52dd7",
-   "od": 0,
-   "link": "https://s.shopee.com.br/2VsAJfCB3a",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "shp:53762469226": {
-   "n": "Cinto Masculino Couro Dupla Face 2 Em 1 Preto e Marrom Premium...",
-   "t": "Cinto Masculino Couro Dupla Face 2 Em 1 Preto e Marrom Premium Elegante",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 21.9,
-   "nota": 4.9,
-   "vendas": 608,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-824g8-mpn188o1q0wb14",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8V9NSgpKsw",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "shp:58252152185": {
-   "n": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
-   "t": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 24.99,
-   "nota": 4.9,
-   "vendas": 9695,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-81zwr-mieih5tm8i6b73",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3g46Zp4ycY",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:22493344923": {
-   "n": "Necessaire Feminina Personalizada com Inicial Box com Alça Porta...",
-   "t": "Necessaire Feminina Personalizada com Inicial Box com Alça Porta Maquiagem Bolsa Viagem",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 23.66,
-   "nota": 4.9,
-   "vendas": 7082,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m0-mm9n38usw7wn9a",
-   "od": 0,
-   "link": "https://s.shopee.com.br/gQW8INYZq",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:19699843252": {
-   "n": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
-   "t": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 21.23,
-   "nota": 4.9,
-   "vendas": 5791,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdy4-mcc4llc8xbix14",
-   "od": 0,
-   "link": "https://s.shopee.com.br/qjwKbMvEt",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:58250629480": {
-   "n": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água Kit 3...",
-   "t": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água Kit 3 Bolsas",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 20.99,
-   "nota": 4.9,
-   "vendas": 4171,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-821da-mh23m6gqzw9553",
-   "od": 0,
-   "link": "https://s.shopee.com.br/9KiUSDqYza",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:16720227042": {
-   "n": "Corda Pular Aço Crossfit 3M Rolamento Speed Profissional Corda...",
-   "t": "Corda Pular Aço Crossfit 3M Rolamento Speed Profissional Corda Crossfit Entrega Rápida",
-   "g": "Esportes",
-   "loja": "Shopee",
-   "por": 22.99,
-   "nota": 4.9,
-   "vendas": 1480,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8259r-mqwxai001xj7a0",
-   "od": 0,
-   "link": "https://s.shopee.com.br/BUFXNTn4r",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
-  },
-  "shp:58213924416": {
-   "n": "Corda de Pular com Rolamento 360° e Cabo de Aço Ajustável até 3 m...",
-   "t": "Corda de Pular com Rolamento 360° e Cabo de Aço Ajustável até 3 m para Academia e Treino",
-   "g": "Esportes",
-   "loja": "Shopee",
-   "por": 18.89,
-   "nota": 4.9,
-   "vendas": 1355,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lp-mqevyaxo9clc5d",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1BMmjDPz39",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
-  },
-  "shp:18198044739": {
-   "n": "Corda de Pular Crossfit Profissional 3M - NL",
-   "t": "Corda de Pular Crossfit Profissional 3M - NL",
-   "g": "Esportes",
-   "loja": "Shopee",
-   "por": 16.9,
-   "nota": 4.9,
-   "vendas": 822,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m5ob74m7j06q71",
-   "od": 0,
-   "link": "https://s.shopee.com.br/9fLKqptcnq",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
-  },
-  "shp:22799138014": {
-   "n": "Corda de Pular Crossfit Profissional 3M",
-   "t": "Corda de Pular Crossfit Profissional 3M",
-   "g": "Esportes",
-   "loja": "Shopee",
-   "por": 15.99,
-   "nota": 4.9,
-   "vendas": 589,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgqwyi33vpxj59",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8AWX44zKqf",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
-  },
-  "shp:23897176041": {
-   "n": "Fita de LED Mangueira Neon 5 Metros IP65 Flexível Com ou Sem Fonte |...",
-   "t": "Fita de LED Mangueira Neon 5 Metros IP65 Flexível Com ou Sem Fonte | 8 Cores",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 19.9,
-   "nota": 4.9,
-   "vendas": 10873,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lp9nlkeeniol65",
-   "od": 0,
-   "link": "https://s.shopee.com.br/qjwEp0HEY",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
-  "shp:18297774180": {
-   "n": "Fita de LED Mangueira Neon 5 Metros IP65 Flexível Com ou Sem Fonte |...",
-   "t": "Fita de LED Mangueira Neon 5 Metros IP65 Flexível Com ou Sem Fonte | 8 Cores",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 22.9,
-   "nota": 4.9,
-   "vendas": 8500,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rff0-m3wg4rvxyqqt4e",
-   "od": 0,
-   "link": "https://s.shopee.com.br/gQW2W0uZX",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
-  "shp:17168094031": {
-   "n": "1 a 10 Metros Fita Mangueira Led 5050 Branco Frio/Quente 110v/220v de...",
-   "t": "1 a 10 Metros Fita Mangueira Led 5050 Branco Frio/Quente 110v/220v de + Fonte de Alimentação/Rabicho",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 18.15,
-   "nota": 4.9,
-   "vendas": 5005,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820le-mq6qgxsbidj7b9",
-   "od": 0,
-   "link": "https://s.shopee.com.br/7faGTA5qQI",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
-  "shp:22192697105": {
-   "n": "Fita de LED Mangueira Neon 5 Metros IP65 Flexível Com ou Sem Fonte |...",
-   "t": "Fita de LED Mangueira Neon 5 Metros IP65 Flexível Com ou Sem Fonte | 8 Cores",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 19.9,
-   "nota": 4.9,
-   "vendas": 4537,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rbmw-lpgwaykgq07ub3",
-   "od": 0,
-   "link": "https://s.shopee.com.br/W75qD1XuW",
-   "visto": "2026-10-01T21:57+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
   },
   "shp:53312814680": {
    "n": "Liquidificador Portátil Blender Elgin Daily Blend 350w 750ml 2 Copos...",
@@ -5152,21 +4346,6 @@
    "cat": "Ferramentas",
    "ic": "🔧"
   },
-  "MLB5716114044": {
-   "n": "Fralda Geriátrica Adulto Confort Master Pants | Tamanho P/M | 32...",
-   "t": "Fralda Geriátrica Adulto Confort Master Pants | Tamanho P/M | 32 Unidades",
-   "cid": "MLB1246",
-   "loja": "Mercado Livre",
-   "por": 72.41,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_727198-MLA99923432149_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/fralda-geriatrica-adulto-confort-master-pants-tamanho-pm-32-unidades/p/MLB56236618?pdp_filters=item_id%3AMLB5716114044&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
   "MLB5397690990": {
    "n": "Kit Wella Invigo Nutri Enrich Shampoo e Condicionador 2 L",
    "t": "Kit Wella Invigo Nutri Enrich Shampoo e Condicionador 2 L",
@@ -5181,36 +4360,6 @@
    "visto": "2026-10-01T23:55+00:00",
    "cat": "Beleza",
    "ic": "💄"
-  },
-  "MLB4326551795": {
-   "n": "Bola de Futebol De Campo Penalty Bravo Xxiv Branco e Azul Ultra...",
-   "t": "Bola de Futebol De Campo Penalty Bravo Xxiv Branco e Azul Ultra Fusion Alta Durabilidade",
-   "cid": "MLB1276",
-   "loja": "Mercado Livre",
-   "por": 74.99,
-   "nota": 4.8,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_875898-MLA115358612634_082026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/bola-de-futebol-de-campo-penalty-bravo-xxiv-branco-e-azul-ultra-fusion-alta-durabilidade/p/MLB27895686?pdp_filters=item_id%3AMLB4326551795&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
-  },
-  "MLB6418614274": {
-   "n": "Bicicleta Spinning Romantic Crown Preto Roda Inércia 13kg",
-   "t": "Bicicleta Spinning Romantic Crown Preto Roda Inércia 13kg",
-   "cid": "MLB1276",
-   "loja": "Mercado Livre",
-   "por": 737.98,
-   "nota": 4.8,
-   "vendas": 5000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_888363-MLA112174121516_062026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/bicicleta-spinning-romantic-crown-preto-roda-inercia-13kg/p/MLB62816576?pdp_filters=item_id%3AMLB6418614274&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
   },
   "MLB-5906265712": {
    "n": "Patinete Infantil 3 Rodas Com Luz Led Menino Menina 40 Kg",
@@ -5256,157 +4405,6 @@
    "visto": "2026-10-01T22:29+00:00",
    "cat": "Eletro",
    "ic": "🍳"
-  },
-  "MLB6248700942": {
-   "n": "Máquina de Lavar Brastemp 14Kg Branca Smart Sensor- BWJ14AB",
-   "t": "Máquina de Lavar Brastemp 14Kg Branca Smart Sensor- BWJ14AB",
-   "cid": "MLB5726",
-   "loja": "Mercado Livre",
-   "por": 1737.0,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_986650-MLA96608230621_102025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/maquina-de-lavar-brastemp-14kg-branca-smart-sensor-bwj14ab/p/MLB61372818?pdp_filters=item_id%3AMLB6248700942&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Eletro",
-   "ic": "🍳"
-  },
-  "MLB5701841518": {
-   "n": "Pistola De Pintura E Pulverizadora Elétrica Portátil Hvlp 1.250l C/5...",
-   "t": "Pistola De Pintura E Pulverizadora Elétrica Portátil Hvlp 1.250l C/5 Bicos E Acessórios 600w Tpp150 The Black Tools",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 199.9,
-   "nota": 4.8,
-   "vendas": 5000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_650275-MLA114597010784_082026-O.jpg",
-   "od": 1,
-   "link": "https://www.mercadolivre.com.br/pistola-de-pintura-e-pulverizadora-eletrica-portatil-hvlp-1250l-c5-bicos-e-acessorios-600w-tpp150-the-black-tools/p/MLB55898949?pdp_filters=item_id%3AMLB5701841518&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cmp_em": "2026-10-01T22:29+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB5316612904": {
-   "n": "Parafusadeira Chave De Impacto A Bateria Lítio 21v Motor Brushless...",
-   "t": "Parafusadeira Chave De Impacto A Bateria Lítio 21v Motor Brushless 800nm 80kgf.m Tb21ix The Black Tools",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 394.9,
-   "nota": 4.7,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_793824-MLA118387664379_092026-O.jpg",
-   "od": 1,
-   "link": "https://www.mercadolivre.com.br/parafusadeira-chave-de-impacto-a-bateria-litio-21v-motor-brushless-800nm-80kgfm-tb21ix-the-black-tools/p/MLB47104607?pdp_filters=item_id%3AMLB5316612904&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cmp_em": "2026-10-01T22:29+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 248.99,
-     "nota": 4.7,
-     "vendas": 503,
-     "t": "Chave De Impacto Parafusadeira Furadeira Portátil 1/2\" com 2 Baterias 48v",
-     "link": "https://s.shopee.com.br/6VOIuyxQ9I",
-     "sim": true
-    }
-   ],
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB-2872858451": {
-   "n": "Serra Mármore Profissional Vonder Smv1300s 1300w Tip/maquita",
-   "t": "Serra Mármore Profissional Vonder Smv1300s 1300w Tip/maquita",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 275.08,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_733700-MLB91532938232_092025-O.jpg",
-   "od": 0,
-   "link": "https://produto.mercadolivre.com.br/MLB-2872858451-serra-marmore-profissional-vonder-smv1300s-1300w-tipmaquita-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB7608843970": {
-   "n": "Máquina De Solda Inversora Portatil War Shark Bivolt 110v/220v Mma...",
-   "t": "Máquina De Solda Inversora Portatil War Shark Bivolt 110v/220v Mma Tig Amarelo",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 252.33,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_637780-MLA103727463283_012026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/maquina-de-solda-inversora-portatil-war-shark-bivolt-110v220v-mma-tig-amarelo/p/MLB63879053?pdp_filters=item_id%3AMLB7608843970&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB5825114736": {
-   "n": "Bolsa Maleta De Ferramentas Grande 18 Polegadas Reforçada 16 Bolsos...",
-   "t": "Bolsa Maleta De Ferramentas Grande 18 Polegadas Reforçada 16 Bolsos Para Eletricista E Profissionais - Fundo Firme Em Borracha Travunker",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 78.99,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_703234-MLA108088081754_032026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/bolsa-maleta-de-ferramentas-grande-18-polegadas-reforcada-16-bolsos-para-eletricista-e-profissionais-fundo-firme-em-borracha-travunker/p/MLB53999249?pdp_filters=item_id%3AMLB5825114736&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB6926131616": {
-   "n": "Serra Mármore Makita 1300W 220V 4100NH3ZX2",
-   "t": "Serra Mármore Makita 1300W 220V 4100NH3ZX2",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 338.43,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_899730-MLA92618006218_092025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/serra-marmore-makita-1300w-220v-4100nh3zx2/p/MLB46454504?pdp_filters=item_id%3AMLB6926131616&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB-4746424594": {
-   "n": "Esmerilhadeira Angular Corte E Desbaste 115mm 850w Makita",
-   "t": "Esmerilhadeira Angular Corte E Desbaste 115mm 850w Makita",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 336.84,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_617378-MLB76596867094_062024-O.jpg",
-   "od": 0,
-   "link": "https://produto.mercadolivre.com.br/MLB-4746424594-esmerilhadeira-angular-corte-e-desbaste-115mm-850w-makita-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "MLB4268042659": {
-   "n": "Parafusadeira Furadeira De Impacto The Black Tools Profissional...",
-   "t": "Parafusadeira Furadeira De Impacto The Black Tools Profissional TB-21PX 2 Baterias Com Maleta 60Hz Amarelo",
-   "cid": "MLB263532",
-   "loja": "Mercado Livre",
-   "por": 159.9,
-   "nota": 4.8,
-   "vendas": 250000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_981459-MLA117136184907_092026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/parafusadeira-furadeira-de-impacto-the-black-tools-profissional-tb-21px-2-baterias-com-maleta-60hz-amarelo/p/MLB30144703?pdp_filters=item_id%3AMLB4268042659&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
   },
   "ali:1005007010271723": {
    "n": "Travesseiro de vedação angry blob gordinho 3d novidade leão marinho...",
@@ -6101,21 +5099,6 @@
    "cat": "Áudio e TV",
    "ic": "🎧"
   },
-  "shp:57950307493": {
-   "n": "Fone De Ouvido Headset Gamer Profissional Branco Led RGB PC USB P2/P3...",
-   "t": "Fone De Ouvido Headset Gamer Profissional Branco Led RGB PC USB P2/P3 Celular Vídeogame Xbox PS4 PS5",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 69.98,
-   "nota": 4.9,
-   "vendas": 673,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgdnp9k1dpmv45",
-   "od": 0,
-   "link": "https://s.shopee.com.br/7faGVJ4usP",
-   "visto": "2026-10-01T22:29+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
   "shp:58252516251": {
    "n": "Vídeo Game Portátil Retrô S10 com 520 Jogos em 1 – Clássicos Infantis...",
    "t": "Vídeo Game Portátil Retrô S10 com 520 Jogos em 1 – Clássicos Infantis e Nostálgicos",
@@ -6202,58 +5185,10 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_942757-MLB99270901282_112025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/macaco-tipo-sanfona-universal-2000-kg-carros-passeio-com-nf/up/MLBU1097705499?pdp_filters=item_id%3AMLB2015064288&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp": [],
    "cmp_em": "2026-10-01T22:56+00:00",
    "cmp_v": 7,
-   "cmp": [],
-   "cat": "Carro",
-   "ic": "🚗"
-  },
-  "MLB-6988374376": {
-   "n": "Capa De Chuva Roupa Conjunto Para Motoqueiro Reforçada Kit",
-   "t": "Capa De Chuva Roupa Conjunto Para Motoqueiro Reforçada Kit",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 175.28,
-   "nota": 4.8,
-   "vendas": 500,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_981645-MLB117498447865_092026-O.jpg",
-   "od": 1,
-   "link": "https://produto.mercadolivre.com.br/MLB-6988374376-capa-de-chuva-roupa-conjunto-para-motoqueiro-reforcada-kit-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cmp_em": "2026-10-01T22:56+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Carro",
-   "ic": "🚗"
-  },
-  "MLB4522026804": {
-   "n": "Kit 2 Pneus 175/70R14 Firestone F-600 84T Aro 14",
-   "t": "Kit 2 Pneus 175/70R14 Firestone F-600 84T Aro 14",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 667.24,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_736784-MLA118554959231_102026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/kit-2-pneus-17570r14-firestone-f-600-84t-aro-14/p/MLB27720999?pdp_filters=item_id%3AMLB4522026804&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
-  "MLB4792971644": {
-   "n": "Motor Partida 11 Dentes Vw Gol Saveiro G5 G6 Fox Golf Voyage",
-   "t": "Motor Partida 11 Dentes Vw Gol Saveiro G5 G6 Fox Golf Voyage",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 305.0,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_830161-MLB76842773158_062024-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/motor-partida-11-dentes-vw-gol-saveiro-g5-g6-fox-golf-voyage/up/MLBU1760177595?pdp_filters=item_id%3AMLB4792971644&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -6287,36 +5222,6 @@
    "cat": "Áudio e TV",
    "ic": "🎧"
   },
-  "MLB-4136485883": {
-   "n": "Frente Titan 2025 Completa Cg Titan 160 Adaptada 2014 A 2024",
-   "t": "Frente Titan 2025 Completa Cg Titan 160 Adaptada 2014 A 2024",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 340.1,
-   "nota": 4.9,
-   "vendas": 5000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_717275-MLB101662952393_122025-O.jpg",
-   "od": 0,
-   "link": "https://produto.mercadolivre.com.br/MLB-4136485883-frente-titan-2025-completa-cg-titan-160-adaptada-2014-a-2024-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
-  "MLB5598363700": {
-   "n": "Galão Reserva Tanque Combustível Gasolina 20 Litros Vermelho",
-   "t": "Galão Reserva Tanque Combustível Gasolina 20 Litros Vermelho",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 213.4,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_929753-MLB92089732862_092025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/galao-reserva-tanque-combustivel-gasolina-20-litros-vermelho/up/MLBU3365848773?pdp_filters=item_id%3AMLB5598363700&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
   "MLB-6535119824": {
    "n": "Caja Para Moto Top Case Maletero De Aluminio Para Moto 65l",
    "t": "Caja Para Moto Top Case Maletero De Aluminio Para Moto 65l",
@@ -6328,37 +5233,7 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_953002-MLB106897984079_022026-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-6535119824-caja-para-moto-top-case-maletero-de-aluminio-para-moto-65l-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
-  "MLB3701330300": {
-   "n": "Alarme para carro Cyber Exact EX360 Universal Pósitron",
-   "t": "Alarme para carro Cyber Exact EX360 Universal Pósitron",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 233.1,
-   "nota": 4.8,
-   "vendas": 100000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_701004-MLA99436302962_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/alarme-para-carro-cyber-exact-ex360-universal-positron/p/MLB23494041?pdp_filters=item_id%3AMLB3701330300&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
-  "MLB3234085005": {
-   "n": "Kit 2 Capa De Chuva Reforçada Pvc Transparente Resistente...",
-   "t": "Kit 2 Capa De Chuva Reforçada Pvc Transparente Resistente Transparente Único",
-   "cid": "MLB5672",
-   "loja": "Mercado Livre",
-   "por": 31.25,
-   "nota": 4.8,
-   "vendas": 100000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_902305-MLB88750630332_082025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/kit-2-capa-de-chuva-reforcada-pvc-transparente-resistente/up/MLBU1725544651?pdp_filters=item_id%3AMLB3234085005&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
+   "visto": "2026-10-02T00:39+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -6391,10 +5266,10 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_769137-MLB99400687631_112025-O.jpg",
    "od": 1,
    "link": "https://www.mercadolivre.com.br/formula-natural-fresh-meat-filhotes-mini-e-peq-25-kg/up/MLBU1719509046?pdp_filters=item_id%3AMLB2049948853&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp": [],
    "cmp_em": "2026-10-01T22:56+00:00",
    "cmp_v": 7,
-   "cmp": [],
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -6413,129 +5288,6 @@
    "cmp_em": "2026-10-01T22:56+00:00",
    "cmp_v": 7,
    "cmp": [],
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB4431128560": {
-   "n": "Kit 2 Pelúcias P/cachorro,macaco E Girafa C/apito Savana Pet",
-   "t": "Kit 2 Pelúcias P/cachorro,macaco E Girafa C/apito Savana Pet",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 38.22,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_628269-MLB74422160379_022024-O.jpg",
-   "od": 1,
-   "link": "https://www.mercadolivre.com.br/kit-2-pelucias-pcachorromacaco-e-girafa-capito-savana-pet/up/MLBU787467038?pdp_filters=item_id%3AMLB4431128560&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cmp_em": "2026-10-01T22:56+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB4196115459": {
-   "n": "Ração Quatree Supreme Gatos Castrados Frango E Batata Doce 10,1 kg",
-   "t": "Ração Quatree Supreme Gatos Castrados Frango E Batata Doce 10,1 kg",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 183.91,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_729927-MLA108260586639_032026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/racao-quatree-supreme-gatos-castrados-frango-e-batata-doce-101-kg/p/MLB22361583?pdp_filters=item_id%3AMLB4196115459&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB4259107483": {
-   "n": "Ração Quatree Life Para Gatos Castrados Salmão E Arroz 10,1 kg",
-   "t": "Ração Quatree Life Para Gatos Castrados Salmão E Arroz 10,1 kg",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 159.9,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_988931-MLA99932626459_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/racao-quatree-life-para-gatos-castrados-salmao-e-arroz-101-kg/p/MLB28128999?pdp_filters=item_id%3AMLB4259107483&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB4709734559": {
-   "n": "Golden Formula cães adultos de pequeno porte frango e arroz 15kg",
-   "t": "Golden Formula cães adultos de pequeno porte frango e arroz 15kg",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 108.36,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_846665-MLA116256193756_092026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/golden-formula-caes-adultos-de-pequeno-porte-frango-e-arroz-15kg/p/MLB10777716?pdp_filters=item_id%3AMLB4709734559&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB3875742393": {
-   "n": "Gran Plus Menu Castrados Para Gato Adulto Sabor Salmão Y Arroz De...",
-   "t": "Gran Plus Menu Castrados Para Gato Adulto Sabor Salmão Y Arroz De 10.1 Kg",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 137.4,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_638615-MLA99935523171_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/gran-plus-menu-castrados-para-gato-adulto-sabor-salmao-y-arroz-de-101-kg/p/MLB10190736?pdp_filters=item_id%3AMLB3875742393&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB4022136737": {
-   "n": "Ração Golden Special Gatos Adultos Frango E Carne 10,1 Kg",
-   "t": "Ração Golden Special Gatos Adultos Frango E Carne 10,1 Kg",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 139.32,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_941669-MLA99931956469_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/racao-golden-special-gatos-adultos-frango-e-carne-101-kg/p/MLB29089153?pdp_filters=item_id%3AMLB4022136737&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB4254646695": {
-   "n": "Ração Quatree Life Gatos Ad Salmão 10,1kg (sem Transgênicos)",
-   "t": "Ração Quatree Life Gatos Ad Salmão 10,1kg (sem Transgênicos)",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 143.91,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_930342-MLA99833216367_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/racao-quatree-life-gatos-ad-salmao-101kg-sem-transgenicos/p/MLB25336599?pdp_filters=item_id%3AMLB4254646695&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "MLB6516028916": {
-   "n": "Cama Suspensa Grande Cachorros Looxopet Textilene Preto 110x77x21cm",
-   "t": "Cama Suspensa Grande Cachorros Looxopet Textilene Preto 110x77x21cm",
-   "cid": "MLB1071",
-   "loja": "Mercado Livre",
-   "por": 246.24,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_783323-MLA111952984942_062026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/cama-suspensa-grande-cachorros-looxopet-textilene-preto-110x77x21cm/p/MLB52113480?pdp_filters=item_id%3AMLB6516028916&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
    "cat": "Pet",
    "ic": "🐾"
   },
@@ -6565,51 +5317,6 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_811323-MLB107191504939_022026-O.jpg",
    "od": 0,
    "link": "https://www.mercadolivre.com.br/caminhao-dinossauro-engolidor-de-carrinhos-kit-6-carrinhos/up/MLBU3785479535?pdp_filters=item_id%3AMLB6251226784&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "MLB6238753368": {
-   "n": "Miniatura Nissan Skyline Gt-r R34 Brian Velozes e Furiosos 1:32 Metal...",
-   "t": "Miniatura Nissan Skyline Gt-r R34 Brian Velozes e Furiosos 1:32 Metal Colecionável Prata",
-   "cid": "MLB1132",
-   "loja": "Mercado Livre",
-   "por": 55.97,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_702098-MLA105474202457_012026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/miniatura-nissan-skyline-gt-r-r34-brian-velozes-e-furiosos-132-metal-colecionavel-prata/p/MLB64684812?pdp_filters=item_id%3AMLB6238753368&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "MLB4287637614": {
-   "n": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
-   "t": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
-   "cid": "MLB1132",
-   "loja": "Mercado Livre",
-   "por": 299.9,
-   "nota": 4.8,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_917104-MLA96155675715_102025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/cama-elastica-pula-pula-infantil-trampolim-14-metros-atentu/p/MLB28717101?pdp_filters=item_id%3AMLB4287637614&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "MLB6030772670": {
-   "n": "Kit 24 Bolha De Sabão Bolhinha Lembrancinha Aniversário Fazedor De...",
-   "t": "Kit 24 Bolha De Sabão Bolhinha Lembrancinha Aniversário Fazedor De Bolhas De Sabão Lança Bolha Gigante Criança Infantil Kit Brinquedos Ataca",
-   "cid": "MLB1132",
-   "loja": "Mercado Livre",
-   "por": 59.17,
-   "nota": 4.8,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_864809-MLA114861867230_082026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/kit-24-bolha-de-sabao-bolhinha-lembrancinha-aniversario-fazedor-de-bolhas-de-sabao-lanca-bolha-gigante-crianca-infantil-kit-brinquedos-atacado-babuu-brinquedos-educativos/p/MLB62978394?pdp_filters=item_id%3AMLB6030772670&matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-10-01T22:56+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
@@ -6644,39 +5351,6 @@
    "cat": "Brinquedos",
    "ic": "🧸"
   },
-  "MLB4081318501": {
-   "n": "Cama Elástica Infantil Pula-pula Trampolim 1,4m Com Tela De Proteção...",
-   "t": "Cama Elástica Infantil Pula-pula Trampolim 1,4m Com Tela De Proteção E Estrutura Reforçada Para Crianças Marqs Home",
-   "cid": "MLB1132",
-   "loja": "Mercado Livre",
-   "por": 295.39,
-   "nota": 4.8,
-   "vendas": 5000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_967162-MLA99869773619_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/cama-elastica-infantil-pula-pula-trampolim-14m-com-tela-de-protecao-e-estrutura-reforcada-para-criancas-marqs-home/p/MLB50669015?pdp_filters=item_id%3AMLB4081318501&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "MLB6668630508": {
-   "n": "Banheira Dobrável Spa Adulto Ofurô Ou Gelo 254 L Premium Azul...",
-   "t": "Banheira Dobrável Spa Adulto Ofurô Ou Gelo 254 L Premium Azul Estrelado Banheira Dobrável Spa",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 95.0,
-   "nota": 4.8,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_930031-MLB109968080594_042026-O.jpg",
-   "od": 1,
-   "link": "https://www.mercadolivre.com.br/banheira-dobravel-spa-adulto-ofuro-ou-gelo-254-l-premium/up/MLBU3928071808?pdp_filters=item_id%3AMLB6668630508&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cmp_em": "2026-10-01T22:56+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
   "MLB4672248547": {
    "n": "3 Em 1 Carrinho Bebé ,dobrável,versátil E Prático! Reversíve Preto",
    "t": "3 Em 1 Carrinho Bebé ,dobrável,versátil E Prático! Reversíve Preto",
@@ -6704,141 +5378,6 @@
    ],
    "cat": "Bebês",
    "ic": "🍼"
-  },
-  "MLB4148481832": {
-   "n": "Huggies Fralda Descartável Máxima Proteção G - 136 Un",
-   "t": "Huggies Fralda Descartável Máxima Proteção G - 136 Un",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 145.9,
-   "nota": 4.9,
-   "vendas": 100000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_749827-MLA99338537280_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/huggies-fralda-descartavel-maxima-protecao-g-136-un/p/MLB17336383?pdp_filters=item_id%3AMLB4148481832&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB3646373243": {
-   "n": "Huggies Fralda Descartável Máxima Proteção XG - 112 Un",
-   "t": "Huggies Fralda Descartável Máxima Proteção XG - 112 Un",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 145.9,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_782627-MLA99928206837_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/huggies-fralda-descartavel-maxima-protecao-xg-112-un/p/MLB17336025?pdp_filters=item_id%3AMLB3646373243&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB4641589414": {
-   "n": "Huggies Fralda Descartável Máxima Proteção XXG - 112 Un",
-   "t": "Huggies Fralda Descartável Máxima Proteção XXG - 112 Un",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 145.9,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_939152-MLA99933491581_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/huggies-fralda-descartavel-maxima-protecao-xxg-112-un/p/MLB34295736?pdp_filters=item_id%3AMLB4641589414&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB5537222254": {
-   "n": "Cadeira De Alimentação Infantil 3 Em 1 Harmony Maxi Baby - Cinza",
-   "t": "Cadeira De Alimentação Infantil 3 Em 1 Harmony Maxi Baby - Cinza",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 259.0,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_612441-MLA99520261016_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/cadeira-de-alimentacao-infantil-3-em-1-harmony-maxi-baby-cinza/p/MLB53258842?pdp_filters=item_id%3AMLB5537222254&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB4146524091": {
-   "n": "Baba Eletrônica Baby Monitor Visão Noturna Dual Audio Cor Branco G.Eye",
-   "t": "Baba Eletrônica Baby Monitor Visão Noturna Dual Audio Cor Branco G.Eye",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 210.9,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_906317-MLA99964561647_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/baba-eletronica-baby-monitor-visao-noturna-dual-audio-cor-branco-geye/p/MLB53365359?pdp_filters=item_id%3AMLB4146524091&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB5282479705": {
-   "n": "Lenços/toalhas Umedecidos Baby Free 500un Hipoalergênico Kit 12...",
-   "t": "Lenços/toalhas Umedecidos Baby Free 500un Hipoalergênico Kit 12 Pacotes",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 75.51,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_651813-MLB116618594868_092026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/lencostoalhas-umedecidos-baby-free-500un-hipoalergenico/up/MLBU5290032220?pdp_filters=item_id%3AMLB5282479705&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB4458890485": {
-   "n": "Carrinho Passeio Bebê Reversível Berço Moisés Conforto Preto",
-   "t": "Carrinho Passeio Bebê Reversível Berço Moisés Conforto Preto",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 692.81,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_618081-MLB105838208022_022026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/carrinho-passeio-bebe-reversivel-berco-moises-conforto/up/MLBU3766804681?pdp_filters=item_id%3AMLB4458890485&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB-5743581538": {
-   "n": "Carrinho De Bebê Passeio Reversivel Chique Conforto 3 Em 1",
-   "t": "Carrinho De Bebê Passeio Reversivel Chique Conforto 3 Em 1",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 729.89,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_993140-MLB116338350574_092026-O.jpg",
-   "od": 0,
-   "link": "https://produto.mercadolivre.com.br/MLB-5743581538-carrinho-de-beb-passeio-reversivel-chique-conforto-3-em-1-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "MLB4167454451": {
-   "n": "Portão Segurança Retrátil 1.5 Metros Proteção Criança E Pet Branco",
-   "t": "Portão Segurança Retrátil 1.5 Metros Proteção Criança E Pet Branco",
-   "cid": "MLB1384",
-   "loja": "Mercado Livre",
-   "por": 139.65,
-   "nota": 4.9,
-   "vendas": 1000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_829411-MLB91927006020_092025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/portao-seguranca-retratil-15-metros-protecao-crianca-e-pet/up/MLBU3373758494?pdp_filters=item_id%3AMLB4167454451&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Pet",
-   "ic": "🐾"
   },
   "MLB5290388062": {
    "n": "Microfone Lapela Hollyland Lark M2 Combo Usb-c E Lightning Preto",
@@ -7050,21 +5589,6 @@
    "cat": "Moda",
    "ic": "👟"
   },
-  "shp:19399337322": {
-   "n": "Kit 4 Camiseta Oversized Masculino Tecido Texturizado",
-   "t": "Kit 4 Camiseta Oversized Masculino Tecido Texturizado",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 149.9,
-   "nota": 4.9,
-   "vendas": 2306,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m6gwd9ewv22vfc",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4B0Nvamf91",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
   "shp:22092926686": {
    "n": "Creme Modelador Forte #todecacho Cachos dos Sonhos 500ml",
    "t": "Creme Modelador Forte #todecacho Cachos dos Sonhos 500ml",
@@ -7121,21 +5645,6 @@
    "img": "https://cf.shopee.com.br/file/br-11134207-820lb-mlawfiyx0umcdc",
    "od": 0,
    "link": "https://s.shopee.com.br/8AWX85VM24",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:58200148485": {
-   "n": "Prancha Modeladora Triondas 22mm Modelador Triplo de Cachos e Ondas...",
-   "t": "Prancha Modeladora Triondas 22mm Modelador Triplo de Cachos e Ondas Naturais em Cerâmica 200°C",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 39.99,
-   "nota": 4.9,
-   "vendas": 1092,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825at-mgfh7ra9n66ga5",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8pmDvJSogG",
    "visto": "2026-10-01T22:56+00:00",
    "cat": "Beleza",
    "ic": "💄"
@@ -7200,21 +5709,6 @@
    "cat": "Esportes",
    "ic": "🏋️"
   },
-  "shp:58253023205": {
-   "n": "Colchonete de Academia Profissional 90x40x3cm Compacto Espuma D28...",
-   "t": "Colchonete de Academia Profissional 90x40x3cm Compacto Espuma D28 Impermeável Azul Preto Mat Yoga Pilates",
-   "g": "Esportes",
-   "loja": "Shopee",
-   "por": 23.0,
-   "nota": 4.8,
-   "vendas": 1220,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lt-msiuk3yb5ssk03",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3g47loqg8U",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️"
-  },
   "shp:22698825515": {
    "n": "Luminária De Led Sobrepor Bastão Recarregável Sem Fio Com Suporte...",
    "t": "Luminária De Led Sobrepor Bastão Recarregável Sem Fio Com Suporte Magnético E Touch 3 cores com Controle Remoto",
@@ -7271,21 +5765,6 @@
    "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdrftv9dkxixd7",
    "od": 0,
    "link": "https://s.shopee.com.br/BUFbO40Ha",
-   "visto": "2026-10-01T22:56+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
-  "shp:58212944537": {
-   "n": "Luminária Sem Fio Recarregável Ultra LED Tamanho Ajustável 20 A 80cm...",
-   "t": "Luminária Sem Fio Recarregável Ultra LED Tamanho Ajustável 20 A 80cm Para Quarto Sala E Home Office",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 20.86,
-   "nota": 4.9,
-   "vendas": 2909,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8257t-mq5p2z6hnke8c5",
-   "od": 0,
-   "link": "https://s.shopee.com.br/Lnfnh3Mwb",
    "visto": "2026-10-01T22:56+00:00",
    "cat": "Casa",
    "ic": "🏠"
@@ -7765,21 +6244,6 @@
    "cat": "Tech",
    "ic": "💻"
   },
-  "MLB5080970133": {
-   "n": "Impressora Multifuncional L4360 Wi-fi Ecotank Epson",
-   "t": "Impressora Multifuncional L4360 Wi-fi Ecotank Epson",
-   "cid": "MLB1648",
-   "loja": "Mercado Livre",
-   "por": 1499.0,
-   "nota": 4.9,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_709681-MLA113660184429_062026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/impressora-multifuncional-l4360-wi-fi-ecotank-epson/p/MLB65436824?pdp_filters=item_id%3AMLB5080970133&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:27+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
   "MLB4749893485": {
    "n": "Antena Starlink Internet Via Satélite Standard V4",
    "t": "Antena Starlink Internet Via Satélite Standard V4",
@@ -7911,51 +6375,6 @@
    "img": "https://http2.mlstatic.com/D_NQ_NP_617361-MLB54128842596_032023-O.jpg",
    "od": 0,
    "link": "https://produto.mercadolivre.com.br/MLB-3239976866-kit-6-pares-meias-puma-cano-medio-alto-atoalhada-original-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:27+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "MLB-4057042938": {
-   "n": "Chinelo Havaianas Dual Masculina",
-   "t": "Chinelo Havaianas Dual Masculina",
-   "cid": "MLB1430",
-   "loja": "Mercado Livre",
-   "por": 57.66,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_895611-MLB71856953547_092023-O.jpg",
-   "od": 0,
-   "link": "https://produto.mercadolivre.com.br/MLB-4057042938-chinelo-havaianas-dual-masculina-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:27+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "MLB-3962940727": {
-   "n": "Camiseta Daily T-shirt Insider",
-   "t": "Camiseta Daily T-shirt Insider",
-   "cid": "MLB1430",
-   "loja": "Mercado Livre",
-   "por": 125.0,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_870126-MLB118148003601_092026-O.jpg",
-   "od": 0,
-   "link": "https://produto.mercadolivre.com.br/MLB-3962940727-camiseta-daily-t-shirt-insider-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:27+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "MLB-5298029156": {
-   "n": "Tênis Jada Feminino Puma",
-   "t": "Tênis Jada Feminino Puma",
-   "cid": "MLB1430",
-   "loja": "Mercado Livre",
-   "por": 229.99,
-   "nota": 4.9,
-   "vendas": 50000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_706517-MLB82678208779_022025-O.jpg",
-   "od": 0,
-   "link": "https://produto.mercadolivre.com.br/MLB-5298029156-tnis-jada-feminino-puma-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
    "visto": "2026-10-01T23:27+00:00",
    "cat": "Moda",
    "ic": "👟"
@@ -9264,66 +7683,6 @@
    "cat": "Casa",
    "ic": "🏠"
   },
-  "MLB2695763036": {
-   "n": "Kit 4000 Papel Toalha Interfolha Branco Puro Para Secar Mãos",
-   "t": "Kit 4000 Papel Toalha Interfolha Branco Puro Para Secar Mãos",
-   "cid": "MLB1574",
-   "loja": "Mercado Livre",
-   "por": 37.73,
-   "nota": 4.8,
-   "vendas": 100000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_738656-MLB110085341277_042026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/kit-4000-papel-toalha-interfolha-branco-puro-para-secar-maos/up/MLBU1423692715?pdp_filters=item_id%3AMLB2695763036&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:55+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
-  "MLB3297970619": {
-   "n": "Esfregão Perfect Pro Mop 360° Balde Inox Cabo Longo Microfibra 16L",
-   "t": "Esfregão Perfect Pro Mop 360° Balde Inox Cabo Longo Microfibra 16L",
-   "cid": "MLB1574",
-   "loja": "Mercado Livre",
-   "por": 147.4,
-   "nota": 4.8,
-   "vendas": 100000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_878694-MLA99840378519_112025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/esfregao-perfect-pro-mop-360-balde-inox-cabo-longo-microfibra-16l/p/MLB19969083?pdp_filters=item_id%3AMLB3297970619&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:55+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
-  "MLB6668488468": {
-   "n": "Fechadura Eletronica Digital Com Biometria, Senha, Cartão Ic E Tuya...",
-   "t": "Fechadura Eletronica Digital Com Biometria, Senha, Cartão Ic E Tuya App Bluetooth LAZORO LAM-525B",
-   "cid": "MLB1574",
-   "loja": "Mercado Livre",
-   "por": 298.16,
-   "nota": 4.8,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_787439-MLA104930046625_012026-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/fechadura-eletronica-digital-com-biometria-senha-cartao-ic-e-tuya-app-bluetooth-lazoro-lam-525b/p/MLB63423468?pdp_filters=item_id%3AMLB6668488468&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:55+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
-  "MLB3366933943": {
-   "n": "Vaso Sanitário Monobloco Caixa Acoplada Privada Completo Cor Branco...",
-   "t": "Vaso Sanitário Monobloco Caixa Acoplada Privada Completo Cor Branco - VAB0004",
-   "cid": "MLB1574",
-   "loja": "Mercado Livre",
-   "por": 650.9,
-   "nota": 4.8,
-   "vendas": 10000,
-   "img": "https://http2.mlstatic.com/D_NQ_NP_936968-MLA95666211942_102025-O.jpg",
-   "od": 0,
-   "link": "https://www.mercadolivre.com.br/vaso-sanitario-monobloco-caixa-acoplada-privada-completo-cor-branco-vab0004/p/MLB24236258?pdp_filters=item_id%3AMLB3366933943&matt_word=ky20260925222946505&matt_tool=97504693",
-   "visto": "2026-10-01T23:55+00:00",
-   "cat": "Casa",
-   "ic": "🏠"
-  },
   "MLB7701796588": {
    "n": "Câmera Inteligente Resistente a Chuva e Poeira iM7 S Branca Intelbras",
    "t": "Câmera Inteligente Resistente a Chuva e Poeira iM7 S Branca Intelbras",
@@ -10280,9 +8639,1802 @@
    "visto": "2026-10-01T23:55+00:00",
    "cat": "Bebês",
    "ic": "🍼"
+  },
+  "MLB4216019291": {
+   "n": "Tesoura Elétrica Aitoolzo Sem Fio Tecidos Papelão Couro 127/220v...",
+   "t": "Tesoura Elétrica Aitoolzo Sem Fio Tecidos Papelão Couro 127/220v Laranja",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 161.99,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_934659-MLB94992522190_102025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/tesoura-eletrica-aitoolzo-sem-fio-tecidos-papelao-couro/up/MLBU3433206321?pdp_filters=item_id%3AMLB4216019291&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 138.99,
+     "nota": 5.0,
+     "vendas": 244,
+     "t": "Tesoura Elétrica Aitoolzo Sem Fio Tecidos Papelão Couro 127/220v Laranja",
+     "link": "https://s.shopee.com.br/1Vzc0QcHRE",
+     "sim": true
+    }
+   ],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB-3474027367": {
+   "n": "Kit Catraca E Cinta 9m 50mm Gancho J 5 Ton Caminhão",
+   "t": "Kit Catraca E Cinta 9m 50mm Gancho J 5 Ton Caminhão",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 47.33,
+   "nota": 4.8,
+   "vendas": 50000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_842238-MLB89160131601_082025-O.jpg",
+   "od": 1,
+   "link": "https://produto.mercadolivre.com.br/MLB-3474027367-kit-catraca-e-cinta-9m-50mm-gancho-j-5-ton-caminho-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 29.99,
+     "nota": 4.8,
+     "vendas": 326,
+     "t": "Catraca Para Cinta de Amarração com Gancho Reforçado Até 5 Toneladas Para Caminhão Carreta",
+     "link": "https://s.shopee.com.br/9KiTlEBYSr",
+     "sim": true
+    }
+   ],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB3892146035": {
+   "n": "Maquina Assentar Pisos Porcelanatos Elétrica Com Ventosa Até 50kg A...",
+   "t": "Maquina Assentar Pisos Porcelanatos Elétrica Com Ventosa Até 50kg A Bateria 21v Ttm21b The Black Tools",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 279.9,
+   "nota": 4.8,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_959183-MLA115108826020_082026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/maquina-assentar-pisos-porcelanatos-eletrica-com-ventosa-ate-50kg-a-bateria-21v-ttm21b-the-black-tools/p/MLB41375008?pdp_filters=item_id%3AMLB3892146035&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "MLB7087881248": {
+   "n": "Serra Mármore Cortador 1800w 4.3/8 Pol Corte 45° Aitoolzo",
+   "t": "Serra Mármore Cortador 1800w 4.3/8 Pol Corte 45° Aitoolzo",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 234.52,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_780349-MLA114062793003_072026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/serra-marmore-cortador-1800w-438-pol-corte-45-aitoolzo/p/MLB74927454?pdp_filters=item_id%3AMLB7087881248&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB6748949464": {
+   "n": "Plaina Elétrica Manual Profissional 780w 16500rpm Cor Preto",
+   "t": "Plaina Elétrica Manual Profissional 780w 16500rpm Cor Preto",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 259.9,
+   "nota": 4.7,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_803656-MLA110552563172_052026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/plaina-eletrica-manual-profissional-780w-16500rpm-cor-preto/p/MLB69418789?pdp_filters=item_id%3AMLB6748949464&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB5575665640": {
+   "n": "Lavadora de alta pressão LAV 1600, 1.600 lbf/pol² VONDER",
+   "t": "Lavadora de alta pressão LAV 1600, 1.600 lbf/pol² VONDER",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 303.32,
+   "nota": 4.9,
+   "vendas": 50000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_981018-MLA116439963941_082026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/lavadora-de-alta-pressao-lav-1600-1600-lbfpol-vonder/p/MLB32978518?pdp_filters=item_id%3AMLB5575665640&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "MLB-2936353798": {
+   "n": "Espaçador Nivelador Cunha Larga Porcelanato 500 Peças Cortag",
+   "t": "Espaçador Nivelador Cunha Larga Porcelanato 500 Peças Cortag",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 116.29,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_726791-MLA115595179077_082026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-2936353798-espacador-nivelador-cunha-larga-porcelanato-500-pecas-cortag-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB7466143280": {
+   "n": "Nível Laser Verde 16 Linhas War Shark 2 Bateria+1.2m Tripé",
+   "t": "Nível Laser Verde 16 Linhas War Shark 2 Bateria+1.2m Tripé",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 212.38,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_770451-MLA113890807023_062026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/nivel-laser-verde-16-linhas-war-shark-2-bateria12m-tripe/p/MLB62445524?pdp_filters=item_id%3AMLB7466143280&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "MLB2069749711": {
+   "n": "Alicate amperímetro digital fluke 302 plus 400A",
+   "t": "Alicate amperímetro digital fluke 302 plus 400A",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 327.65,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_749921-MLA99446585288_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/alicate-amperimetro-digital-fluke-302-plus-400a/p/MLB21090756?pdp_filters=item_id%3AMLB2069749711&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB7580305092": {
+   "n": "Serra Circular Para Madeira 7.1/4pol 1600w - Hs7010 Makita Cor...",
+   "t": "Serra Circular Para Madeira 7.1/4pol 1600w - Hs7010 Makita Cor Azul-turquesa",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 607.9,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_790579-MLA99998058691_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/serra-circular-para-madeira-714pol-1600w-hs7010-makita-cor-azul-turquesa/p/MLB15462505?pdp_filters=item_id%3AMLB7580305092&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB4118781885": {
+   "n": "Parafusadeira E Furadeira 3/8 A Bateria Bosch Gsr 120-li",
+   "t": "Parafusadeira E Furadeira 3/8 A Bateria Bosch Gsr 120-li",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 359.91,
+   "nota": 4.9,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_923337-MLA113455559253_062026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/parafusadeira-e-furadeira-38-a-bateria-bosch-gsr-120-li/p/MLB44894619?pdp_filters=item_id%3AMLB4118781885&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB4209427765": {
+   "n": "Jogo De Brocas Furadeira Para Madeira Concreto Meta Bosch",
+   "t": "Jogo De Brocas Furadeira Para Madeira Concreto Meta Bosch",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 64.9,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_608923-MLB92681614659_092025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/jogo-de-brocas-furadeira-para-madeira-concreto-meta-bosch/up/MLBU3423161157?pdp_filters=item_id%3AMLB4209427765&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB4907296759": {
+   "n": "Alicate Hidráulico Para Tubos Pex De 16/20/26/32mm, Alicate...",
+   "t": "Alicate Hidráulico Para Tubos Pex De 16/20/26/32mm, Alicate Multicamadas Com 4 Matrizes+NF Amarelo",
+   "cid": "MLB263532",
+   "loja": "Mercado Livre",
+   "por": 345.0,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_815124-MLA96862603445_102025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/alicate-hidraulico-para-tubos-pex-de-16202632mm-alicate-multicamadas-com-4-matrizesnf-amarelo/p/MLB51900973?pdp_filters=item_id%3AMLB4907296759&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB5471882690": {
+   "n": "Kit Chave Ignição Cg 150 Titan 2004 2005 2006 2007 2008 5pçs",
+   "t": "Kit Chave Ignição Cg 150 Titan 2004 2005 2006 2007 2008 5pçs",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 184.72,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_835200-MLB89821865577_082025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/kit-chave-ignicao-cg-150-titan-2004-2005-2006-2007-2008-5pcs/up/MLBU3266814433?pdp_filters=item_id%3AMLB5471882690&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB5303392714": {
+   "n": "Par Retrovisor Modelo Fixo Tiger Triumph 1200 Rosca Honda",
+   "t": "Par Retrovisor Modelo Fixo Tiger Triumph 1200 Rosca Honda",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 38.0,
+   "nota": 4.8,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_966856-MLB109869981277_032026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/par-retrovisor-modelo-fixo-tiger-triumph-1200-rosca-honda/up/MLBU3045987534?pdp_filters=item_id%3AMLB5303392714&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 26.79,
+     "nota": 4.8,
+     "vendas": 861,
+     "t": "Retrovisor Par Z400 Modelo Kawasaki Rosca Honda Fixo Haste Mini Esportivo Titan Fan 125 15",
+     "link": "https://s.shopee.com.br/9V1tXL2i81",
+     "sim": true
+    }
+   ],
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB5505292964": {
+   "n": "Carburador Fusca 1300 H30 Gasolina Kuerl H30 Novo 1973-1986",
+   "t": "Carburador Fusca 1300 H30 Gasolina Kuerl H30 Novo 1973-1986",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 236.91,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_638275-MLB101119518059_122025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/carburador-fusca-1300-h30-gasolina-kuerl-h30-novo-19731986/up/MLBU3305991630?pdp_filters=item_id%3AMLB5505292964&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB6627944970": {
+   "n": "Teste Analisador Bateria Ferramentas Reparo Carros 3ah-200ah",
+   "t": "Teste Analisador Bateria Ferramentas Reparo Carros 3ah-200ah",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 133.49,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_969130-MLB110435669710_052026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/teste-analisador-bateria-ferramentas-reparo-carros-3ah200ah/up/MLBU3899518283?pdp_filters=item_id%3AMLB6627944970&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "MLB4683515047": {
+   "n": "Ventoinha E Defletor Saveiro, Gol G5 G6 G7 G8, Voyage , Fox",
+   "t": "Ventoinha E Defletor Saveiro, Gol G5 G6 G7 G8, Voyage , Fox",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 283.01,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_757395-MLB96073563718_102025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/ventoinha-e-defletor-saveiro-gol-g5-g6-g7-g8-voyage--fox/up/MLBU2779170109?pdp_filters=item_id%3AMLB4683515047&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB5082533082": {
+   "n": "Par Bandeja Balança Inferior Dianteira Kwid 2018 2019 A 2024",
+   "t": "Par Bandeja Balança Inferior Dianteira Kwid 2018 2019 A 2024",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 263.33,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_605390-MLB112818216472_072026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/par-bandeja-balanca-inferior-dianteira-kwid-2018-2019-a-2024/up/MLBU1546949749?pdp_filters=item_id%3AMLB5082533082&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB2094127919": {
+   "n": "Chave Seta Palio Siena Strada Sem Limpador Traseiro 96 A 09",
+   "t": "Chave Seta Palio Siena Strada Sem Limpador Traseiro 96 A 09",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 199.99,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_643052-MLB115813980955_082026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/chave-seta-palio-siena-strada-sem-limpador-traseiro-96-a-09/up/MLBU1419903304?pdp_filters=item_id%3AMLB2094127919&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB3141280254": {
+   "n": "Radiador Água Marelli Astra Zafira 99-2007 Manual Original",
+   "t": "Radiador Água Marelli Astra Zafira 99-2007 Manual Original",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 378.0,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_655444-MLB114107249587_072026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/radiador-agua-marelli-astra-zafira-992007-manual-original/up/MLBU1742241851?pdp_filters=item_id%3AMLB3141280254&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB5384507664": {
+   "n": "Limpa Vidros Glazy 4 Em 1 Redutor Atrito e Risco Vonixx 500mL",
+   "t": "Limpa Vidros Glazy 4 Em 1 Redutor Atrito e Risco Vonixx 500mL",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 28.0,
+   "nota": 4.8,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_837227-MLA99934521973_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/limpa-vidros-glazy-4-em-1-redutor-atrito-e-risco-vonixx-500ml/p/MLB44018124?pdp_filters=item_id%3AMLB5384507664&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB3291177661": {
+   "n": "2 Uni Cavalete Apoio Automotivo Para Veículos De 2 Toneladas",
+   "t": "2 Uni Cavalete Apoio Automotivo Para Veículos De 2 Toneladas",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 99.0,
+   "nota": 4.8,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_837405-MLB91751154981_092025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/2-uni-cavalete-apoio-automotivo-para-veiculos-de-2-toneladas/up/MLBU1726195659?pdp_filters=item_id%3AMLB3291177661&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB4126348968": {
+   "n": "Bobina Capa Descartável Para Banco Automóvel Universal Transparente",
+   "t": "Bobina Capa Descartável Para Banco Automóvel Universal Transparente",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 111.91,
+   "nota": 4.8,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_985630-MLB109541009923_032026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/bobina-capa-descartavel-para-banco-automovel-universal/up/MLBU778153348?pdp_filters=item_id%3AMLB4126348968&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "MLB6652803730": {
+   "n": "Kit 3 Suporte De Capacete Parede Kingbr Com Gancho Porta Chaves...",
+   "t": "Kit 3 Suporte De Capacete Parede Kingbr Com Gancho Porta Chaves Organizador Acompanha Parafusos E Buchas Para Capacete De Moto Bike Motocros",
+   "cid": "MLB5672",
+   "loja": "Mercado Livre",
+   "por": 20.66,
+   "nota": 4.8,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_618589-MLA109776465522_042026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/kit-3-suporte-de-capacete-parede-kingbr-com-gancho-porta-chaves-organizador-acompanha-parafusos-e-buchas-para-capacete-de-moto-bike-motocross-e-skate-cor-preto/p/MLB68353573?pdp_filters=item_id%3AMLB6652803730&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "MLB6428197404": {
+   "n": "Jambo Pet - Pato de Pelúcia Interativo Big Duck, Brinquedo com Som...",
+   "t": "Jambo Pet - Pato de Pelúcia Interativo Big Duck, Brinquedo com Som para Cães",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 31.26,
+   "nota": 4.8,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_707191-MLA96419111170_102025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/jambo-pet-pato-de-pelucia-interativo-big-duck-brinquedo-com-som-para-caes/p/MLB26113912?pdp_filters=item_id%3AMLB6428197404&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB4418914966": {
+   "n": "Kit 2 Pelúcia P/ Cachorro, Macaco E Macaca Apito Savana Pet",
+   "t": "Kit 2 Pelúcia P/ Cachorro, Macaco E Macaca Apito Savana Pet",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 35.49,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_794569-MLB116665797485_082026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/kit-2-pelucia-p-cachorro-macaco-e-macaca-apito-savana-pet/up/MLBU784356705?pdp_filters=item_id%3AMLB4418914966&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB-6162659940": {
+   "n": "Gaiola Hamster Roedor Completa 3 Andares Savana Pet",
+   "t": "Gaiola Hamster Roedor Completa 3 Andares Savana Pet",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 129.27,
+   "nota": 4.8,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_876173-MLB98218002635_112025-O.jpg",
+   "od": 1,
+   "link": "https://produto.mercadolivre.com.br/MLB-6162659940-gaiola-hamster-roedor-completa-3-andares-savana-pet-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 142.9,
+     "nota": 4.9,
+     "vendas": 720,
+     "t": "Gaiola para Hamster e Roedores 3 Andares Completa com Acessórios Pet Prime",
+     "link": "https://s.shopee.com.br/6fhiiqWsPk",
+     "sim": true
+    }
+   ],
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB4504391295": {
+   "n": "Tapete Coletor Higiênico Areia Para Gatos 60x45cm + Brinde",
+   "t": "Tapete Coletor Higiênico Areia Para Gatos 60x45cm + Brinde",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 33.82,
+   "nota": 5.0,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_666618-MLB108043434939_032026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/tapete-coletor-higienico-areia-para-gatos-60x45cm--brinde/up/MLBU3818021259?pdp_filters=item_id%3AMLB4504391295&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 49.9,
+     "nota": 5.0,
+     "vendas": 446,
+     "t": "Tapete Coletor Higiênico Areia Ração Para Gatos 60x45cm + BRINDE",
+     "link": "https://s.shopee.com.br/qjviGoITa",
+     "sim": false
+    }
+   ],
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB7711252220": {
+   "n": "Colete Peitoral Caes Ajustavel Refletivo Alca Reforcada Cáqui Peito...",
+   "t": "Colete Peitoral Caes Ajustavel Refletivo Alca Reforcada Cáqui Peito 46-65 Cm",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 45.54,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_966111-MLB118529159531_092026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/colete-peitoral-caes-ajustavel-refletivo-alca-reforcada/up/MLBU5328601046?pdp_filters=item_id%3AMLB7711252220&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB5766534530": {
+   "n": "Kit Platafoma Para Passaros E Escada De Madeira Calopsita Madeira",
+   "t": "Kit Platafoma Para Passaros E Escada De Madeira  Calopsita Madeira",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 47.4,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_957727-MLB113072562917_062026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/kit-platafoma-para-passaros-e-escada-de-madeira--calopsita/up/MLBU3468351268?pdp_filters=item_id%3AMLB5766534530&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB6406379690": {
+   "n": "Brinquedo Suspenso Para Calopsitas Bicar 2madeira",
+   "t": "Brinquedo Suspenso Para Calopsitas Bicar 2madeira",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 33.0,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_614335-MLB108049948357_032026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/brinquedo-suspenso-para-calopsitas-bicar/up/MLBU3818180061?pdp_filters=item_id%3AMLB6406379690&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "MLB-1928947624": {
+   "n": "Guia Para Cães Coleira Peitoral Com Alça Reforçado Pit Bull",
+   "t": "Guia Para Cães Coleira Peitoral Com Alça Reforçado Pit Bull",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 34.64,
+   "nota": 4.7,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_957813-MLB116716878432_092026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-1928947624-guia-para-ces-coleira-peitoral-com-alca-reforcado-pit-bull-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB7513706416": {
+   "n": "Assento Pet Para Carro Tamanho Grande Cachorro Gato Até 30kg Cor Preto",
+   "t": "Assento Pet Para Carro Tamanho Grande Cachorro Gato Até 30kg Cor Preto",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 145.53,
+   "nota": 4.7,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_948369-MLA114768318622_082026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/assento-pet-para-carro-tamanho-grande-cachorro-gato-ate-30kg-cor-preto/p/MLB77283551?pdp_filters=item_id%3AMLB7513706416&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB5336948010": {
+   "n": "Bloco De Sal Mineral Ovinos Blokus Nutrição Carneiros 12kg",
+   "t": "Bloco De Sal Mineral Ovinos Blokus Nutrição Carneiros 12kg",
+   "cid": "MLB1071",
+   "loja": "Mercado Livre",
+   "por": 137.0,
+   "nota": 4.7,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_694351-MLA99932090853_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/bloco-de-sal-mineral-ovinos-blokus-nutricao-carneiros-12kg/p/MLB25468012?pdp_filters=item_id%3AMLB5336948010&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "MLB5402893316": {
+   "n": "Mesinha Infantil Com 2 Cadeiras Educativa Alfabeto Completo Atacarejo...",
+   "t": "Mesinha Infantil Com 2 Cadeiras Educativa Alfabeto Completo Atacarejo Kids",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 189.23,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_675755-MLA116320253672_092026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/mesinha-infantil-com-2-cadeiras-educativa-alfabeto-completo-atacarejo-kids/p/MLB50368079?pdp_filters=item_id%3AMLB5402893316&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 200.9,
+     "nota": 4.9,
+     "vendas": 297,
+     "t": "Mesa Infantil com 2 cadeira Mesinha brinquedoteca mesinha de estudo e atividades",
+     "link": "https://s.shopee.com.br/7KxOyow88Q",
+     "sim": true
+    }
+   ],
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "MLB3907620745": {
+   "n": "Pista Carrinho Dinossauro Looping Radical Som Luz 92 Peças",
+   "t": "Pista Carrinho Dinossauro Looping Radical Som Luz 92 Peças",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 55.1,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_803542-MLA101458866279_122025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/pista-carrinho-dinossauro-looping-radical-som-luz-92-pecas/p/MLB42243145?pdp_filters=item_id%3AMLB3907620745&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "MLB3958090767": {
+   "n": "Balanço Cadeirinha Infantil Suspenso Madeira Quintal Jardim Marrom",
+   "t": "Balanço Cadeirinha Infantil Suspenso Madeira Quintal Jardim Marrom",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 87.16,
+   "nota": 4.7,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_777044-MLB114339958702_082026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/balanco-cadeirinha-infantil-suspenso-madeira-quintal-jardim/up/MLBU2972937181?pdp_filters=item_id%3AMLB3958090767&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 89.9,
+     "nota": 4.9,
+     "vendas": 227,
+     "t": "Cadeirinha de Balanço Infantil Unitária até 10 Anos Madeira Diversas Cores",
+     "link": "https://s.shopee.com.br/40gxJ7n0jw",
+     "sim": true
+    }
+   ],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB6501269354": {
+   "n": "Carrinho Controle Remoto Recarregável Grande Off Road Cross Preto",
+   "t": "Carrinho Controle Remoto Recarregável Grande Off Road Cross Preto",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 124.33,
+   "nota": 4.7,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_733838-MLA108481965898_032026-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/carrinho-controle-remoto-recarregavel-grande-off-road-cross-preto/p/MLB66994952?pdp_filters=item_id%3AMLB6501269354&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 74.99,
+     "nota": 4.9,
+     "vendas": 377,
+     "t": "Carrinho De Controle Remoto Drift Nissan GTR Ferrari Recarregável Tração 4x4 Brinquedo Pre",
+     "link": "https://s.shopee.com.br/3B7q1ATSAe",
+     "sim": true
+    }
+   ],
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "MLB4942708931": {
+   "n": "Perler Beads 48 Cores 24000peças Pixel Art Diy Kit Infantil",
+   "t": "Perler Beads 48 Cores 24000peças Pixel Art Diy Kit Infantil",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 71.54,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_615671-MLA114174667446_082026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/perler-beads-48-cores-24000pecas-pixel-art-diy-kit-infantil/p/MLB2099120747?pdp_filters=item_id%3AMLB4942708931&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "MLB7062398492": {
+   "n": "Boneca Bebê Reborn De Silicone Realista Menina Cereja 48cm",
+   "t": "Boneca Bebê Reborn De Silicone Realista Menina Cereja 48cm",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 224.29,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_867514-MLA113927691313_062026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/boneca-bebe-reborn-de-silicone-realista-menina-cereja-48cm/p/MLB67828970?pdp_filters=item_id%3AMLB7062398492&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB4233801433": {
+   "n": "Boneca Bebê Reborn 48cm Menina Realista Corpo De Silicone",
+   "t": "Boneca Bebê Reborn 48cm Menina Realista Corpo De Silicone",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 239.62,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_709798-MLA100047945497_122025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/boneca-bebe-reborn-48cm-menina-realista-corpo-de-silicone/p/MLB58685899?pdp_filters=item_id%3AMLB4233801433&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB-4124482387": {
+   "n": "Kit 20 Bola Futebol Vinil Pingo Dente De Leite Sortidas",
+   "t": "Kit 20 Bola Futebol Vinil Pingo Dente De Leite Sortidas",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 72.78,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_691861-MLB89724157454_082025-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-4124482387-kit-20-bola-futebol-vinil-pingo-dente-de-leite-sortidas-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "MLB6636146820": {
+   "n": "Carrinho Controle Remoto Mini Escavadeira Trator Recarregável Solta...",
+   "t": "Carrinho Controle Remoto Mini Escavadeira Trator Recarregável Solta Fumaça Led Car Maxi Toys - AMARELO",
+   "cid": "MLB1132",
+   "loja": "Mercado Livre",
+   "por": 86.91,
+   "nota": 4.8,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_686865-MLA109677433930_042026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/carrinho-controle-remoto-mini-escavadeira-trator-recarregavel-solta-fumaca-led-car-maxi-toys-amarelo/p/MLB68249719?pdp_filters=item_id%3AMLB6636146820&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "MLB1744597741": {
+   "n": "Mesinha Didática Infantil Com 2 Cadeiras Poliplac Com Nf Colorida",
+   "t": "Mesinha Didática Infantil Com 2 Cadeiras Poliplac Com Nf Colorida",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 142.9,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_701608-MLB92798362344_092025-O.jpg",
+   "od": 1,
+   "link": "https://www.mercadolivre.com.br/mesinha-didatica-infantil-com-2-cadeiras-poliplac-com-nf/up/MLBU1966999924?pdp_filters=item_id%3AMLB1744597741&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 99.85,
+     "nota": 4.6,
+     "vendas": 416,
+     "t": "Mesa Infantil Plástico Mesinha Educativa Didática 2 Cadeiras Com Letras e Números",
+     "link": "https://s.shopee.com.br/1gJ2eztoZw",
+     "sim": true
+    }
+   ],
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "MLB4551702553": {
+   "n": "Escova De Limpeza Nylon Para Tubo Mamadeira Canudo Copo Branco",
+   "t": "Escova De Limpeza  Nylon Para Tubo Mamadeira Canudo Copo Branco",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 20.12,
+   "nota": 5.0,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_910922-MLB108454508562_032026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/escova-de-limpeza--nylon-para-tubo-mamadeira-canudo-copo/up/MLBU3853439531?pdp_filters=item_id%3AMLB4551702553&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 12.99,
+     "nota": 4.8,
+     "vendas": 1971,
+     "t": "Kit Escova De Limpeza Aço Metal Nylon Multiuso + duas espátulas",
+     "link": "https://s.shopee.com.br/60S1UYmk9D",
+     "sim": true
+    },
+    {
+     "loja": "AliExpress",
+     "por": 12.89,
+     "nota": 4.9,
+     "vendas": 735,
+     "t": "Escova de Limpeza Multiuso 10/1PC, Escovas Espirais de Nylon para Óculos, Teclados, Joias,",
+     "link": "https://s.click.aliexpress.com/e/_c3PMOefn",
+     "sim": true
+    }
+   ],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB-1588803733": {
+   "n": "Mochila Bolsa Maternidade Lequeen Moda Multifuncional Cinza",
+   "t": "Mochila Bolsa Maternidade Lequeen Moda Multifuncional Cinza",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 198.0,
+   "nota": 4.9,
+   "vendas": 10000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_868537-MLB115363443889_072026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-1588803733-mochila-bolsa-maternidade-lequeen-moda-multifuncional-cinza-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "MLB-4479097983": {
+   "n": "Kit 12 Pares Meia Bebê Menino Bichinho Infantil Inverno 3 D",
+   "t": "Kit 12 Pares Meia Bebê Menino Bichinho Infantil Inverno 3 D",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 59.75,
+   "nota": 4.9,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_814076-MLB107416893639_022026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-4479097983-kit-12-pares-meia-beb-menino-bichinho-infantil-inverno-3-d-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB3359733791": {
+   "n": "Mochila Bolsa Lequeen Smart Multifuncional Moderna Cor Rosa Com Cinza...",
+   "t": "Mochila Bolsa Lequeen Smart Multifuncional Moderna Cor Rosa Com Cinza Bolsa Maternidade Grande 26l Mochila Maternidade Com Trocador Conta Co",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 194.0,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_729982-MLA113870158604_072026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/mochila-bolsa-lequeen-smart-multifuncional-moderna-cor-rosa-com-cinza-bolsa-maternidade-grande-26l-mochila-maternidade-com-trocador-conta-com-17-bolsos-para-organizacao-completa-encaixe-usb-e-trocador/p/MLB23999564?pdp_filters=item_id%3AMLB3359733791&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "MLB5698477164": {
+   "n": "Berço Moisés Portátil Bebê Infantil Balanço Compacto Cinza Portátil...",
+   "t": "Berço Moisés Portátil Bebê Infantil Balanço Compacto Cinza Portátil Balanço Compacto Cinza",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 537.0,
+   "nota": 4.9,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_845789-MLB108223310335_032026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/berco-moises-portatil-bebe-infantil-balanco-compacto-cinza/up/MLBU3424840670?pdp_filters=item_id%3AMLB5698477164&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB-2047792571": {
+   "n": "5 Potes De Vidro Armazenar Leite Materno, Graduação 200ml",
+   "t": "5 Potes De Vidro Armazenar Leite Materno, Graduação 200ml",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 31.02,
+   "nota": 4.8,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_999219-MLB91463681863_092025-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-2047792571-5-potes-de-vidro-armazenar-leite-materno-graduaco-200ml-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "MLB-3411931795": {
+   "n": "Macacão Longo Para Bebê Menina Charlote 03 Peças",
+   "t": "Macacão Longo Para Bebê Menina Charlote 03 Peças",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 63.78,
+   "nota": 4.8,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_790873-MLB116659954899_082026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-3411931795-macaco-longo-para-beb-menina-charlote-03-pecas-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB-3847871807": {
+   "n": "Saida De Maternidade Menina Vestido Faixinha 04 Peças Amanda",
+   "t": "Saida De Maternidade Menina Vestido Faixinha 04 Peças Amanda",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 70.22,
+   "nota": 4.8,
+   "vendas": 500,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_662549-MLB116214098762_092026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-3847871807-saida-de-maternidade-menina-vestido-faixinha-04-pecas-amanda-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "MLB5210640440": {
+   "n": "Bomba De Mama Vestível Mãos Livres De Cabeça Dupla 8×flanges",
+   "t": "Bomba De Mama Vestível Mãos Livres De Cabeça Dupla 8×flanges",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 174.96,
+   "nota": 4.7,
+   "vendas": 5000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_858030-MLB112701352350_062026-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/bomba-de-mama-vestivel-maos-livres-de-cabeca-dupla-8flanges/up/MLBU2881786809?pdp_filters=item_id%3AMLB5210640440&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB-3614978375": {
+   "n": "Manta Bebê Sherpa Algodão Saída Maternidade Menina Ou Menino",
+   "t": "Manta Bebê Sherpa Algodão Saída Maternidade Menina Ou Menino",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 27.9,
+   "nota": 4.7,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_725420-MLB117148647461_092026-O.jpg",
+   "od": 0,
+   "link": "https://produto.mercadolivre.com.br/MLB-3614978375-manta-beb-sherpa-algodo-saida-maternidade-menina-ou-menino-_JM?matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "MLB3877277032": {
+   "n": "Fralda Descartável Personalidade Total Care P, 70 Unidades, Com...",
+   "t": "Fralda Descartável Personalidade Total Care P, 70 Unidades, Com Proteção de Até 12h",
+   "cid": "MLB1384",
+   "loja": "Mercado Livre",
+   "por": 67.24,
+   "nota": 4.7,
+   "vendas": 1000,
+   "img": "https://http2.mlstatic.com/D_NQ_NP_968288-MLA99880646863_112025-O.jpg",
+   "od": 0,
+   "link": "https://www.mercadolivre.com.br/fralda-descartavel-personalidade-total-care-p-70-unidades-com-protecao-de-ate-12h/p/MLB19559158?pdp_filters=item_id%3AMLB3877277032&matt_word=ky20260925222946505&matt_tool=97504693",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005010706820447": {
+   "n": "Cluster de cílios volume pessoal cílios inteligentes diy modelador de...",
+   "t": "Cluster de cílios volume pessoal cílios inteligentes diy modelador de cílios extensão de cílios em quadrinhos cluster + inferior + picos",
+   "g": "Beleza",
+   "loja": "AliExpress",
+   "por": 17.06,
+   "nota": 4.9,
+   "vendas": 789,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1be997ce0b2446bab4ce8e5fe1bbd6bfS.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3iOVfCH",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "ali:1005006678263089": {
+   "n": "Bolany bicicleta garrafa de água 600ml mountain bike garrafa de água...",
+   "t": "Bolany bicicleta garrafa de água 600ml mountain bike garrafa de água pp5 calor-protegido por gelo garrafa esportes ao ar livre copo",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 28.29,
+   "nota": 4.9,
+   "vendas": 2172,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S52ee56b01adf402dae79f1f1e7573891u.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3bZ39sz",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005009460441851": {
+   "n": "Garrafas de água isoladas para bicicleta, 610ml, pp5, calor e...",
+   "t": "Garrafas de água isoladas para bicicleta, 610ml, pp5, calor e proteção contra gelo, copo para esportes ao ar livre, ciclismo, garrafa de águ",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 32.11,
+   "nota": 4.9,
+   "vendas": 2169,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S24d3bd0132d14c8e868a3efe42de123fR.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c45JKaGv",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005009229050928": {
+   "n": "Rockbros 620ml garrafa de água ciclismo água fria isolada garrafa...",
+   "t": "Rockbros 620ml garrafa de água ciclismo água fria isolada garrafa térmica silicone esportes ao ar livre mtb bicicleta estrada garrafa",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 36.39,
+   "nota": 4.9,
+   "vendas": 2058,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1b7da86d4f244fe8a4c3284dffef292e1.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3RyQHW1",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005007170928711": {
+   "n": "Garrafa de água esportiva com canudo de rastreamento de tempo à prova...",
+   "t": "Garrafa de água esportiva com canudo de rastreamento de tempo à prova de vazamento com trava para fácil transporte, ideal para aventuras ao ",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 16.08,
+   "nota": 4.9,
+   "vendas": 2043,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S84ddb6c15ae44647b7e67cef38ed7c57H.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3FUTAuD",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005008144921318": {
+   "n": "Luz noturna inteligente toliet, lâmpada com sensor de movimento que...",
+   "t": "Luz noturna inteligente toliet, lâmpada com sensor de movimento que muda de 7 cores, luzes led rgb gradientes para banheiro, cômoda, noite",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 41.89,
+   "nota": 4.9,
+   "vendas": 1090,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb8a93d10fa8745aeb3e7dd3388034bb3D.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c331nJMz",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005010530156049": {
+   "n": "Usb/dc plug ajustável pir infravermelho sensor de movimento humano...",
+   "t": "Usb/dc plug ajustável pir infravermelho sensor de movimento humano interruptor dc5v 12v 24v interruptor inteligente para luz led tira noite ",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 18.12,
+   "nota": 4.9,
+   "vendas": 915,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S209222240e824243a274dadd4e25b1d5B.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c44q9zah",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007264401683": {
+   "n": "Lâmpada led usb e27 recarregável, bateria inteligente, controle de...",
+   "t": "Lâmpada led usb e27 recarregável, bateria inteligente, controle de toque, lâmpadas led reguláveis com temporização",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 31.0,
+   "nota": 4.8,
+   "vendas": 1187,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5bb5666fdf304791b02b214ed565584f0.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3h194sh",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007985237746": {
+   "n": "Lâmpada Noturna LED HPH com Sensor de Movimento Inteligente, 2 Peças...",
+   "t": "Lâmpada Noturna LED HPH com Sensor de Movimento Inteligente, 2 Peças, Iluminação Automática, Recarregável por USB, Sem Fio, Sucção Magnética",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 25.69,
+   "nota": 4.8,
+   "vendas": 1143,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf2f935b3fa8143f69a32bf5af054bf8f3.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3r5PgaV",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007791679929": {
+   "n": "Kit de Acessórios para Aspirador Robô Xiaomi Mijia 1C 2C 1T...",
+   "t": "Kit de Acessórios para Aspirador Robô Xiaomi Mijia 1C 2C 1T STYTJ01ZHM e Dreame F9: Mop, Tanque de Água, Filtro HEPA, Escova Principal, Esco",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 16.19,
+   "nota": 4.9,
+   "vendas": 1336,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S052cf46c4bc8494cb154f4abc1ca8d7cm.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3mSajGV",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005012374606082": {
+   "n": "Caixa de Poeira para Xiaomi Roborock S5 S50 S51 S52 S55 S6 T4 T6...",
+   "t": "Caixa de Poeira para Xiaomi Roborock S5 S50 S51 S52 S55 S6 T4 T6, Acessórios para Aspirador de Pó Robô, Caixa de Armazenamento de Poeira, Ki",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 45.89,
+   "nota": 4.9,
+   "vendas": 1280,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2e3035b7e39a47d1b2504bba5623acc1P.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2v1Abrx",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005008248114360": {
+   "n": "【Opcional】 Acessórios originais para aspirador de robô Dreame X40...",
+   "t": "【Opcional】 Acessórios originais para aspirador de robô Dreame X40 Ultra, escova de rolo, filtro, saco de pó, pano de esfregão, escova latera",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 18.47,
+   "nota": 4.9,
+   "vendas": 1254,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scf63df9409bf4fc98ed98551ab0a1c92e.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4q3xnyN",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005008248168010": {
+   "n": "Filtro hepa para roborock e3 e4 e5 s5 s50 s55 s60 s5 max s6 s6 puro...",
+   "t": "Filtro hepa para roborock e3 e4 e5 s5 s50 s55 s60 s5 max s6 s6 puro s6 maxv para xiaomi 1s sdjqr01rr robô vácuo acessórios parte",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 17.41,
+   "nota": 4.9,
+   "vendas": 1239,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0a56bc1c7ed4491ebde5299665336339S.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3QIbnEZ",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005012262922822": {
+   "n": "Chave de Fenda Elétrica Sem Fio DEWALT | Torque de 3.6V 5N.m |...",
+   "t": "Chave de Fenda Elétrica Sem Fio DEWALT |   Torque de 3.6V 5N.m |   Mandril de 1/4 de polegada |   Bateria de Íon de Lítio 1300mAh HT422",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 119.59,
+   "nota": 4.9,
+   "vendas": 4278,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbc303ef2fdba42f4a136cdcb77e545cdU.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2wsVbED",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005007039610340": {
+   "n": "Worx wx242 mini conjunto de chave de fenda elétrica inteligente sem...",
+   "t": "Worx wx242 mini conjunto de chave de fenda elétrica inteligente sem fio chave de fenda elétrica recarregável com 30 bits conjunto ferramenta",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 220.79,
+   "nota": 4.9,
+   "vendas": 4083,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S92a13ab94a35457e8ba0a8ad6f283d01f.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3t4Av5n",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005010044121323": {
+   "n": "10mm sem escova de 2 velocidades furadeira elétrica sem fio chave de...",
+   "t": "10mm sem escova de 2 velocidades furadeira elétrica sem fio chave de fenda metal chuck furadeira ferramenta elétrica para makita 18v bateria",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 135.99,
+   "nota": 4.9,
+   "vendas": 4067,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3ef2c668f89d4df5b000db5e252b4803l.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3d6UfcV",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005010379212073": {
+   "n": "Worx 4v mini conjunto de chave de fenda elétrica wx242 wx241 wx240...",
+   "t": "Worx 4v mini conjunto de chave de fenda elétrica wx242 wx241 wx240 chaves de fenda elétricas sem fio inteligentes usb recarregável ferrament",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 200.59,
+   "nota": 4.9,
+   "vendas": 3915,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S80ac849841df4a228adb79b8be92a63dI.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3UVdyWl",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:19199866082": {
+   "n": "Suporte de peito ajustável para telefones celulares e câmeras GoPro...",
+   "t": "Suporte de peito ajustável para telefones celulares e câmeras GoPro para peito de motocicleta e bicicleta",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 22.9,
+   "nota": 4.9,
+   "vendas": 3792,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-me8dbv27szy8f0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1LgD6bcDeY",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58251425003": {
+   "n": "Suporte de peito ajustável para telefones celulares e câmeras GoPro...",
+   "t": "Suporte de peito ajustável para telefones celulares e câmeras GoPro para peito de motocicleta e bicicleta Envio rápido",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 21.5,
+   "nota": 4.9,
+   "vendas": 2821,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhtbser5knb685",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1qcThWaJdd",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58201263673": {
+   "n": "Suporte de peito ajustável para telefones celulares e câmeras GoPro...",
+   "t": "Suporte de peito ajustável para telefones celulares e câmeras GoPro para peito de motocicleta e bicicleta loja canaa",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 22.9,
+   "nota": 4.9,
+   "vendas": 2704,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8225c-mhj9a2r544cidb",
+   "od": 0,
+   "link": "https://s.shopee.com.br/Lnfulg1gS",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:23097538559": {
+   "n": "Suporte Para Telefone Celular De Motocicleta Com Capacete Pequeno E...",
+   "t": "Suporte Para Telefone Celular De Motocicleta Com Capacete Pequeno E Navegação Elétrica De Bicicleta À Prova D'água",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 21.88,
+   "nota": 4.9,
+   "vendas": 1879,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-mb9klv511evj5a",
+   "od": 0,
+   "link": "https://s.shopee.com.br/gQWJNel0U",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:22693562781": {
+   "n": "Suporte Para Celular GPS Bike Bicicleta E Moto Em Aluminio",
+   "t": "Suporte Para Celular GPS Bike Bicicleta E Moto Em Aluminio",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 15.88,
+   "nota": 4.9,
+   "vendas": 1731,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8261x-ml0txranjz7rdd",
+   "od": 0,
+   "link": "https://s.shopee.com.br/qjwVge7fX",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:43050661409": {
+   "n": "Mousepad Gamer APEX Control Mouse pad Grande 49x42 Mouse Pad Branco...",
+   "t": "Mousepad Gamer APEX Control Mouse pad Grande 49x42 Mouse Pad Branco Preto Blade Red Girl Titorion",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 69.89,
+   "nota": 5.0,
+   "vendas": 1591,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820ll-mt9nwp01ce80b8",
+   "od": 0,
+   "link": "https://s.shopee.com.br/80D72rHRfh",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:3580493544": {
+   "n": "Mousepad Gamer Preto Sem Desenho Extra Grande 90 X 40 Cm",
+   "t": "Mousepad Gamer Preto Sem Desenho Extra Grande 90 X 40 Cm",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 41.55,
+   "nota": 5.0,
+   "vendas": 784,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820ls-mofwnibhd7gl70",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6q19eiLt2a",
+   "visto": "2026-10-02T00:39+00:00",
+   "cmp_em": "2026-10-02T00:39+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:22393975400": {
+   "n": "MousePad Grande Rosa Desk Pad Couro Gamer Office",
+   "t": "MousePad Grande Rosa Desk Pad Couro Gamer Office",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 19.9,
+   "nota": 4.9,
+   "vendas": 2818,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-82602-mmdcdzfop4oy2e",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2BFIixlpq1",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:23594243643": {
+   "n": "MousePad Grande Caramelo Desk Pad Couro Gamer Office",
+   "t": "MousePad Grande Caramelo Desk Pad Couro Gamer Office",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 19.9,
+   "nota": 4.9,
+   "vendas": 1482,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8261k-mmdczcdp0oaqd5",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8KpxRTGAzn",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:44200899566": {
+   "n": "Mousepad Gamer Grande Mouse pad 90x40 Mousepad Branco Preto Deskpad...",
+   "t": "Mousepad Gamer Grande Mouse pad 90x40 Mousepad Branco Preto Deskpad Escritório Speed Titorion",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 49.9,
+   "nota": 4.9,
+   "vendas": 477,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lr-mtpau8ynjcaof0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/5VVm4GQxkS",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:21797750996": {
+   "n": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI...",
+   "t": "Projetor  HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI Wifi Bluetooth Alto Falante Embutido",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 199.99,
+   "nota": 4.9,
+   "vendas": 302,
+   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-mo10500wvtoj56",
+   "od": 0,
+   "link": "https://s.shopee.com.br/905eEhI2QR",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:23193526951": {
+   "n": "Projetor A10 Android TV 4K Dual Band WIFI 6.0 Bluetooth 5.0 Cinema...",
+   "t": "Projetor A10 Android TV 4K Dual Band WIFI 6.0 Bluetooth 5.0 Cinema Portátil Escritório Sala",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 379.89,
+   "nota": 4.9,
+   "vendas": 205,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7reny-m2dww4o1m4u0e8",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8fSnq5JJ6L",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:22597276119": {
+   "n": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI...",
+   "t": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI Wifi Bluetooth Alto Falante Embutido",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 193.99,
+   "nota": 4.8,
+   "vendas": 733,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rbl7-lpxoeo2vr0ta2f",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9pelEEErjO",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:22697281112": {
+   "n": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI...",
+   "t": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI Wifi Bluetooth Alto Falante Embutido",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 199.99,
+   "nota": 4.8,
+   "vendas": 666,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lpxmay8ur8yv0e",
+   "od": 0,
+   "link": "https://s.shopee.com.br/AUuS1SCKNa",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:22997890423": {
+   "n": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI...",
+   "t": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI Wifi Bluetooth Alto Falante Embutido",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 193.99,
+   "nota": 4.8,
+   "vendas": 414,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820l4-mrtw16a3cs1ya0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8AWXFALD7A",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:58262137609": {
+   "n": "Relógio Digital Vintage Feminino Masculino - Pulseira de Aço...",
+   "t": "1. Relógio Digital Vintage Feminino Masculino - Pulseira de Aço Inoxidável, À Prova de Respingos, Com Alarme e Lume Notu",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 15.5,
+   "nota": 4.9,
+   "vendas": 2413,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820me-mp88gvtw4qo640",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6VOJG6VxHW",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:23994017710": {
+   "n": "KIT 10-30 Relógio De Led M4 Atacado Revenda Festa Lembrancinha...",
+   "t": "KIT 10-30 Relógio De Led M4 Atacado Revenda Festa Lembrancinha Presente À Prova D'água",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 42.9,
+   "nota": 4.9,
+   "vendas": 1509,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-ma30h4y1s9bt78",
+   "od": 0,
+   "link": "https://s.shopee.com.br/5LCLrxaOeL",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:26385084513": {
+   "n": "Relógio De Pulso Esportivo De 50M À Prova De Choque Para Homens Com...",
+   "t": "Relógio De Pulso Esportivo De 50M À Prova De Choque Para Homens Com Caixa De Resina Alça Antiderrapante Presente De Verã",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 15.92,
+   "nota": 4.8,
+   "vendas": 2838,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8260t-mjl7s49a0z5tdc",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7VGqRwS9Fo",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:58253071629": {
+   "n": "Relógio Masculino Pulseira Corrente Prata Dourado Quartzo Luxo",
+   "t": "Relógio Masculino Pulseira Corrente Prata Dourado Quartzo Luxo",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 25.9,
+   "nota": 4.8,
+   "vendas": 2218,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjlznigr6ward1",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6L4t3nWacV",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:19044723152": {
+   "n": "Sapato Social Masculino Confortável Elegante com Carteira Cinto e...",
+   "t": "Sapato Social Masculino Confortável Elegante com Carteira Cinto e Relógio DIRETO DA FÁBRICA",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 59.99,
+   "nota": 4.8,
+   "vendas": 2207,
+   "img": "https://cf.shopee.com.br/file/f9ef4adba7d0bcfcfa9f6fd7e2d48af2",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9fLL1vJtr5",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:23994387054": {
+   "n": "Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olhos Gueixa",
+   "t": "Kit Dupla Renovadores Faciais Kokeshi Pele Porcelana Olhos Gueixa",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 39.9,
+   "nota": 4.9,
+   "vendas": 11049,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820l6-mq3nf4vg8k5f75",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1LgBvz06qJ",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:58209822698": {
+   "n": "Kit Spa Facial 6 Peças, Skincare Completo para Limpeza e Massagem...",
+   "t": "Kit Spa Facial 6 Peças, Skincare Completo para Limpeza e Massagem Relaxante",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 21.99,
+   "nota": 4.9,
+   "vendas": 3201,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-820nv-mnmsp9q7jugyec",
+   "od": 0,
+   "link": "https://s.shopee.com.br/AKb1p9PxHB",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:22494710306": {
+   "n": "Kit skincare rosa mosqueta limpeza de pele bruma facial",
+   "t": "Kit skincare rosa mosqueta limpeza de pele bruma facial",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 64.14,
+   "nota": 4.9,
+   "vendas": 3165,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhkyomigibr553",
+   "od": 0,
+   "link": "https://s.shopee.com.br/AUuS1SPJwC",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:58213226546": {
+   "n": "Kit 2 Pomadas Para Prevenção De Assaduras Babymed Azul 45g",
+   "t": "Kit 2 Pomadas Para Prevenção De Assaduras Babymed Azul 45g",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 17.99,
+   "nota": 4.9,
+   "vendas": 2670,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lf-mpwpu8x3uvwhe1",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1qcThWwJWj",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:58260208303": {
+   "n": "Kit Hidratação Pele de Porcelana + Olhos de Gueixa + Pele Plena...",
+   "t": "Kit Hidratação Pele de Porcelana + Olhos de Gueixa +  Pele Plena Kokeshi",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 64.72,
+   "nota": 4.9,
+   "vendas": 2630,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820ll-mqbxypplxc0055",
+   "od": 0,
+   "link": "https://s.shopee.com.br/113MhzzUDU",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:20497992339": {
+   "n": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "t": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 16.98,
+   "nota": 4.9,
+   "vendas": 2806,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rfhm-m404a9wf1gzlff",
+   "od": 0,
+   "link": "https://s.shopee.com.br/gQWJO0kvU",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:21497221662": {
+   "n": "Luva Para Treino Academia CrossFit o Par Masculino/Feminino",
+   "t": "Luva Para Treino Academia CrossFit o Par Masculino/Feminino",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 15.54,
+   "nota": 4.9,
+   "vendas": 2186,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mer8ajz9ee4i87",
+   "od": 0,
+   "link": "https://s.shopee.com.br/qjwVh07aX",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:22193623225": {
+   "n": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "t": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 16.98,
+   "nota": 4.9,
+   "vendas": 1165,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lo-mrgorjmsekn81f",
+   "od": 0,
+   "link": "https://s.shopee.com.br/113MhzzUFa",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:28878994617": {
+   "n": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "t": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 16.98,
+   "nota": 4.9,
+   "vendas": 887,
+   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-mrtyq7mng5qe8b",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1gJ3VDwwtm",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:58216123125": {
+   "n": "Luvas Esportivas Femininas Sem Dedos Silicone Antiderrapante com...",
+   "t": "Luvas Esportivas Femininas Sem Dedos Silicone Antiderrapante com Almofadas para Academia",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 26.98,
+   "nota": 4.9,
+   "vendas": 802,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lh-mrtwecbypr7r65",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3LRHUHqbWG",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:58264179277": {
+   "n": "Jogo De Lençol 400 Fios Micropercal 3 Peças Cama Casal Queen King...",
+   "t": "Jogo De Lençol 400 Fios Micropercal 3 Peças Cama Casal Queen King Solteiro Elástico Toque Macio",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 23.7,
+   "nota": 4.9,
+   "vendas": 16438,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m9-mtb3g1rx9p1cf5",
+   "od": 0,
+   "link": "https://s.shopee.com.br/5fpCGZmBpi",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:43079698414": {
+   "n": "Kit Lençol Casal 03 Peças Jogo de Cama Com Elastico Fronhas em Ponto...",
+   "t": "Kit Lençol Casal 03 Peças Jogo de Cama Com Elastico Fronhas em Ponto Palito 400 fios Toque Macio",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 30.9,
+   "nota": 4.9,
+   "vendas": 5361,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lt-mmjspccz4npcc3",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7VGqRwfD7F",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:8880947046": {
+   "n": "Jogo de Lençol Solteiro 2 Pç Casal 3 Pç Queen 3 Pç 400 fios Ponto...",
+   "t": "Jogo de Lençol Solteiro 2 Pç Casal 3 Pç Queen 3 Pç 400 fios Ponto Palito Micro Percal",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 25.99,
+   "nota": 4.9,
+   "vendas": 4460,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0sr7gtc4f41f8",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7KxQFdfqSC",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:10220123465": {
+   "n": "Jogo de Lençol Queen 400 fios Luna 3 Peças Casal Solteiro Ponto...",
+   "t": "Jogo de Lençol Queen 400 fios Luna 3 Peças  Casal Solteiro Ponto Palito Micro Percal",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 25.99,
+   "nota": 4.9,
+   "vendas": 4253,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0w19ysrf2cgbd",
+   "od": 0,
+   "link": "https://s.shopee.com.br/70KZr1h786",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:22197398647": {
+   "n": "Kit Jogo Lençol 400 fios Micropercal Ponto Palito : Solteiro 2 Peças...",
+   "t": "Kit Jogo Lençol 400 fios Micropercal Ponto Palito : Solteiro 2 Peças - Casal ; Queen ou King 3 Peças",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 25.5,
+   "nota": 4.8,
+   "vendas": 5893,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-ltf8zb5vrxtr14",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6fhjSPiNo0",
+   "visto": "2026-10-02T00:39+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
   }
  },
  "teclado-mecanico": {
-  "2026-10-01": 74.88
+  "2026-10-01": 74.88,
+  "2026-10-02": 74.88
  }
 }
