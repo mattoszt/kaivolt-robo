@@ -38,8 +38,8 @@
     "p": 17.89
    },
    "carregador-gan-65w": {
-    "d": "2026-09-28 20:39",
-    "p": 62.19
+    "d": "2026-10-02 16:45",
+    "p": 99.9
    },
    "fone-tws": {
     "d": "2026-09-29 12:23",
@@ -78,6 +78,16 @@
    "2026-10-02-12": 1
   },
   "fila_zap": [
+   {
+    "d": "02/10 16:45",
+    "n": "Carregador GaN 65W (notebook e celular)",
+    "txt": "*Carregador GaN 65W (notebook e celular)*\n\n🔻 Caiu 23%: era R$ 129,90 nos últimos dias\n💰 *R$ 99,90* na Shopee\n+208 vendidos na loja\nTambém em: Mercado Livre R$ 208,99\n\n👉 https://s.shopee.com.br/gQUuGZokf\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "02/10 16:25",
+    "n": "Caixa de Armazenamento Sob o Assento, Organizador Universal para Carro...",
+    "txt": "*Caixa de Armazenamento Sob o Assento, Organizador Universal para Carro...*\n\n💰 *R$ 24,39* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4WdNjDX\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "02/10 16:05",
     "n": "The Legend of Zelda: Link's Awakening Standard Edition (Físico)",
@@ -217,16 +227,6 @@
     "d": "01/10 21:28",
     "n": "Headset gamer com fio com iluminação, microfone ajustável, som surround...",
     "txt": "*Headset gamer com fio com iluminação, microfone ajustável, som surround...*\n\n💰 *R$ 45,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3QbDdUV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "01/10 20:57",
-    "n": "Cabo Flexível 1,5mm Rolo 100 Metros Unipolar 750v",
-    "txt": "*Cabo Flexível 1,5mm Rolo 100 Metros Unipolar 750v*\n\n💰 *R$ 34,76* no Mercado Livre\n🏷️ Oferta do dia do Mercado Livre\n⭐ 4,8 · +10 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-4390461217-cabo-flexivel-15mm-rolo-100-metros-unipolar-750v-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "01/10 20:37",
-    "n": "Coleira Peitoral Cachorro E Gato, Conjunto De Guia + Coleira Tipo Colete...",
-    "txt": "*Coleira Peitoral Cachorro E Gato, Conjunto De Guia + Coleira Tipo Colete...*\n\n💰 *R$ 15,99* na Shopee\n⭐ 4,9 · +3,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/9zyBJSfuAb\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -887,13 +887,14 @@
    "ml:MLB4579916027": "2026-10-02",
    "ml:MLB7185036972": "2026-10-02",
    "ml:MLB5100389173": "2026-10-02",
-   "ml:MLB4998638884": "2026-10-02"
+   "ml:MLB4998638884": "2026-10-02",
+   "1005012807919163": "2026-10-02"
   },
-  "kw": 110,
-  "ultimo": "2026-10-02 16:05",
+  "kw": 111,
+  "ultimo": "2026-10-02 16:45",
   "dia": {
    "d": "2026-10-02",
-   "n": 23
+   "n": 25
   },
   "ml_n": 52,
   "ml_extras": [
@@ -929,7 +930,7 @@
    }
   ],
   "vez_ml": false,
-  "vez": 1,
+  "vez": 2,
   "shopee_n": 21,
   "shopee_q": {
    "Celular": 2,
