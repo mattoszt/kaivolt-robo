@@ -6,8 +6,8 @@
     "p": 8.23
    },
    "suporte-veicular": {
-    "d": "2026-09-27 03:13",
-    "p": 10.32
+    "d": "2026-10-02 20:17",
+    "p": 10.37
    },
    "powerbank-10000": {
     "d": "2026-10-02 17:19",
@@ -75,9 +75,25 @@
    "2026-09-30-20": 1,
    "2026-10-01-12": 1,
    "2026-10-01-20": 1,
-   "2026-10-02-12": 1
+   "2026-10-02-12": 1,
+   "2026-10-02-20": 1
   },
   "fila_zap": [
+   {
+    "d": "02/10 20:57",
+    "n": "Suporte Celular Carro Veicular Trava Automática anti queda",
+    "txt": "*Suporte Celular Carro Veicular Trava Automática anti queda*\n\n💰 *R$ 23,98* na Shopee\n⭐ 4,9 · +4,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/BUGVnlqJ4\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "02/10 20:37",
+    "n": "Para tesla modelo y juniper tronco organizador caixa de armazenamento...",
+    "txt": "*Para tesla modelo y juniper tronco organizador caixa de armazenamento...*\n\n💰 *R$ 310,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3WjkJPb\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "02/10 20:17",
+    "n": "Suporte veicular magnético",
+    "txt": "*Suporte veicular magnético*\n\n💰 *R$ 10,37* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+11,1 mil vendidos na loja\nTambém em: Shopee R$ 11,99 · Mercado Livre R$ 24,99\n\n👉 https://s.click.aliexpress.com/e/_c3r4j7Sh\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "02/10 19:59",
     "n": "Caixa De Som Jbl Ci6s Plus Arandela Quadrada 160w Rms Cor Branco",
@@ -212,21 +228,6 @@
     "d": "02/10 10:46",
     "n": "Ferramenta Rotativa Elétrica USB Multifuncional EADY, Mini Furadeira e Kit...",
     "txt": "*Ferramenta Rotativa Elétrica USB Multifuncional EADY, Mini Furadeira e Kit...*\n\n💰 *R$ 45,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +677 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c2uNFojB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "02/10 10:26",
-    "n": "Vela Ngk De Moto Cg 150 160 Titan Fan Start Bros 150 160 Original",
-    "txt": "*Vela Ngk De Moto Cg 150 160 Titan Fan Start Bros 150 160 Original*\n\n💰 *R$ 33,05* no Mercado Livre\n⭐ 4,9 · +10 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/vela-ngk-de-moto-cg-150-160--titan-fan-start-bros-150-160/up/MLBU1426742064?pdp_filters=item_id%3AMLB2671717426&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "02/10 10:06",
-    "n": "Teclado Mecanico TGT Sherman V3 C1, Rainbow, ABNT2, Switch Marrom, Preto...",
-    "txt": "*Teclado Mecanico TGT Sherman V3 C1, Rainbow, ABNT2, Switch Marrom, Preto...*\n\n💰 *R$ 91,90* na Shopee\n⭐ 4,9 · +1,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/6fhjFTl6GK\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "02/10 09:46",
-    "n": "Conjunto de Chaves de Precisão 132 em 1 com Pontas Magnéticas Phillips e...",
-    "txt": "*Conjunto de Chaves de Precisão 132 em 1 com Pontas Magnéticas Phillips e...*\n\n💰 *R$ 66,21* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4CFfXy9\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -913,13 +914,15 @@
    "1005007476800352": "2026-10-02",
    "shp:48456298850": "2026-10-02",
    "ml:MLB6628687694": "2026-10-02",
-   "ml:MLB5043577676": "2026-10-02"
+   "ml:MLB5043577676": "2026-10-02",
+   "1005009045223604": "2026-10-02",
+   "shp:23993565028": "2026-10-02"
   },
-  "kw": 113,
-  "ultimo": "2026-10-02 19:59",
+  "kw": 115,
+  "ultimo": "2026-10-02 20:57",
   "dia": {
    "d": "2026-10-02",
-   "n": 34
+   "n": 37
   },
   "ml_n": 55,
   "ml_extras": [
@@ -930,8 +933,8 @@
    }
   ],
   "vez_ml": false,
-  "vez": 1,
-  "shopee_n": 24,
+  "vez": 3,
+  "shopee_n": 25,
   "shopee_q": {
    "Celular": 2,
    "Tech": 2,
@@ -943,7 +946,7 @@
    "Casa": 2,
    "Eletro": 2,
    "Ferramentas": 2,
-   "Carro": 1,
+   "Carro": 2,
    "Pet": 1,
    "Brinquedos": 1,
    "Bebês": 1
