@@ -78,6 +78,16 @@
   },
   "fila_zap": [
    {
+    "d": "01/10 22:48",
+    "n": "Mamadeira Infantil 330ml Anticólica Buba +4m Bpa Free",
+    "txt": "*Mamadeira Infantil 330ml Anticólica Buba +4m Bpa Free*\n\n💰 *R$ 29,90* na Shopee\n⭐ 5,0 · +1,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/LnfFHpVtu\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "01/10 22:28",
+    "n": "Corda de pular brilhante – Corda de pular dobrável e portátil para...",
+    "txt": "*Corda de pular brilhante – Corda de pular dobrável e portátil para...*\n\n💰 *R$ 38,19* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +567 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3U85siH\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
     "d": "01/10 22:08",
     "n": "Mouse Sem Fio Recarregável Bluetooth2.4g Gamer Ergonômico",
     "txt": "*Mouse Sem Fio Recarregável Bluetooth2.4g Gamer Ergonômico*\n\n💰 *R$ 55,27* no Mercado Livre\n🏷️ Oferta do dia do Mercado Livre\n⭐ 4,9 · +5 mil vendidos na loja\n\n👉 https://produto.mercadolivre.com.br/MLB-5381436588-mouse-sem-fio-recarregavel-bluetooth24g-gamer-ergonmico-_JM?matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
@@ -216,16 +226,6 @@
     "d": "01/10 12:42",
     "n": "Carregador + Cabo C Apple Original Turbo iPhone 15 16 17 Branco",
     "txt": "*Carregador + Cabo C Apple Original Turbo iPhone 15 16 17 Branco*\n\n💰 *R$ 189,99* no Mercado Livre\n⭐ 5,0 · +1 mil vendidos na loja\n\n👉 https://www.mercadolivre.com.br/carregador--cabo-c-apple-original-turbo-iphone-15-16-17/up/MLBU4854291855?pdp_filters=item_id%3AMLB7472632166&matt_word=ky20260925222946505&matt_tool=97504693\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "01/10 12:22",
-    "n": "Suporte Porta Controle Videogame Gamer Para Ps4 Xbox Ps5",
-    "txt": "*Suporte Porta Controle Videogame Gamer Para Ps4 Xbox Ps5*\n\n💰 *R$ 19,85* na Shopee\n⭐ 4,7 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8V9MGbRv0M\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "01/10 12:04",
-    "n": "Headphone Bluetooth",
-    "txt": "*Headphone Bluetooth*\n\n💰 *R$ 66,88* na Shopee\n+11,8 mil vendidos na loja\nTambém em: AliExpress R$ 105,11 · Mercado Livre R$ 158,99\n\n👉 https://s.shopee.com.br/2qUzUKL9ND\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -798,13 +798,15 @@
    "ml:MLB7247931730": "2026-10-02",
    "ml:MLB5474167858": "2026-10-02",
    "ml:MLB4463974607": "2026-10-02",
-   "ml:MLB5671248180": "2026-10-02"
+   "ml:MLB5671248180": "2026-10-02",
+   "1005011867894072": "2026-10-02",
+   "shp:21997786584": "2026-10-02"
   },
-  "kw": 98,
-  "ultimo": "2026-10-01 22:08",
+  "kw": 99,
+  "ultimo": "2026-10-01 22:48",
   "dia": {
    "d": "2026-10-01",
-   "n": 42
+   "n": 44
   },
   "ml_n": 44,
   "ml_extras": [
@@ -870,8 +872,8 @@
    }
   ],
   "vez_ml": false,
-  "vez": 1,
-  "shopee_n": 13,
+  "vez": 3,
+  "shopee_n": 14,
   "shopee_q": {
    "Celular": 1,
    "Tech": 1,
@@ -885,7 +887,8 @@
    "Ferramentas": 1,
    "Carro": 1,
    "Pet": 1,
-   "Brinquedos": 1
+   "Brinquedos": 1,
+   "Bebês": 1
   }
  }
 }
