@@ -38,8 +38,8 @@
     "p": 17.39
    },
    "carregador-gan-65w": {
-    "d": "2026-10-02 16:45",
-    "p": 99.9
+    "d": "2026-10-08 12:04",
+    "p": 60.19
    },
    "fone-tws": {
     "d": "2026-10-05 12:06",
@@ -65,7 +65,6 @@
   "slots": {
    "2026-09-27-2": 1,
    "2026-09-27-3": 1,
-   "2026-09-27-12": 1,
    "2026-09-27-20": 1,
    "2026-09-28-12": 1,
    "2026-09-28-20": 1,
@@ -82,9 +81,25 @@
    "2026-10-06-12": 1,
    "2026-10-06-20": 1,
    "2026-10-07-12": 1,
-   "2026-10-07-20": 1
+   "2026-10-07-20": 1,
+   "2026-10-08-12": 1
   },
   "fila_zap": [
+   {
+    "d": "08/10 12:04",
+    "n": "Carregador GaN 65W (notebook e celular)",
+    "txt": "*Carregador GaN 65W (notebook e celular)*\n\n💰 *R$ 60,19* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+5,3 mil vendidos na loja\nTambém em: Shopee R$ 129,90 · Mercado Livre R$ 181,82\n\n👉 https://s.click.aliexpress.com/e/_c4nFhh0z\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "08/10 11:44",
+    "n": "Enchen ms003 barbeador de folha compacto com aparador de precisão pop-up...",
+    "txt": "*Enchen ms003 barbeador de folha compacto com aparador de precisão pop-up...*\n\n💰 *R$ 37,29* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +13,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4WtbB8l\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "08/10 11:24",
+    "n": "Microfone de lapela duplo redondo magnético A’Gold 2 em 1 iphone tipo c...",
+    "txt": "*Microfone de lapela duplo redondo magnético A’Gold 2 em 1 iphone tipo c...*\n\n💰 *R$ 69,99* na Shopee\n⭐ 4,9 · +3,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/W7G92Udel\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "08/10 10:51",
     "n": "Tronsmart caixa de som Trip 2 caixa som bluetooth, Alto-falante portátil...",
@@ -219,21 +234,6 @@
     "d": "07/10 16:25",
     "n": "Smartwatch GPS BETTDOW com aplicativo de IA integrado, 100 modos...",
     "txt": "*Smartwatch GPS BETTDOW com aplicativo de IA integrado, 100 modos...*\n\n💰 *R$ 315,00* na Shopee\n⭐ 4,9 · +1,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/9fLUFfhe01\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "07/10 16:05",
-    "n": "1 peça, cortador de vegetais, triturador de alho multifuncional, picador...",
-    "txt": "*1 peça, cortador de vegetais, triturador de alho multifuncional, picador...*\n\n💰 *R$ 35,19* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4tjKu9P\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "07/10 15:45",
-    "n": "Cabo USB-C para Lightning / Tipo C para Tipo C 30W PD Carregamento...",
-    "txt": "*Cabo USB-C para Lightning / Tipo C para Tipo C 30W PD Carregamento...*\n\n💰 *R$ 29,00* na Shopee\n⭐ 5,0 · +1,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/4VdN6tePOX\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "07/10 15:25",
-    "n": "Conjunto de Utensílios de Cozinha com 12 Peças, Espátulas de Silicone com...",
-    "txt": "*Conjunto de Utensílios de Cozinha com 12 Peças, Espátulas de Silicone com...*\n\n💰 *R$ 69,49* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +705 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3Ydzv1F\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1252,15 +1252,17 @@
    "shp:51006015979": "2026-10-08",
    "1005010044095266": "2026-10-08",
    "shp:27893329314": "2026-10-08",
-   "1005010279408693": "2026-10-08"
+   "1005010279408693": "2026-10-08",
+   "shp:22994336598": "2026-10-08",
+   "1005011587163710": "2026-10-08"
   },
-  "kw": 216,
-  "ultimo": "2026-10-08 10:51",
+  "kw": 217,
+  "ultimo": "2026-10-08 12:04",
   "dia": {
    "d": "2026-10-08",
-   "n": 8
+   "n": 11
   },
-  "ml_n": 121,
+  "ml_n": 122,
   "ml_extras": [
    {
     "d": "05/10 22:51",
@@ -1325,11 +1327,11 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 100,
+  "shopee_n": 101,
   "shopee_q": {
    "Celular": 8,
    "Tech": 8,
-   "Áudio e TV": 7,
+   "Áudio e TV": 8,
    "Games": 7,
    "Moda": 7,
    "Beleza": 7,
