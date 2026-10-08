@@ -26,8 +26,8 @@
     "p": 16.99
    },
    "carregador-20w": {
-    "d": "2026-09-27 21:48",
-    "p": 15.89
+    "d": "2026-10-08 20:01",
+    "p": 16.69
    },
    "powerbank-20000": {
     "d": "2026-09-27 22:08",
@@ -63,7 +63,6 @@
    }
   },
   "slots": {
-   "2026-09-27-2": 1,
    "2026-09-27-3": 1,
    "2026-09-27-20": 1,
    "2026-09-28-12": 1,
@@ -82,9 +81,25 @@
    "2026-10-06-20": 1,
    "2026-10-07-12": 1,
    "2026-10-07-20": 1,
-   "2026-10-08-12": 1
+   "2026-10-08-12": 1,
+   "2026-10-08-20": 1
   },
   "fila_zap": [
+   {
+    "d": "08/10 20:01",
+    "n": "Carregador turbo USB-C 20W",
+    "txt": "*Carregador turbo USB-C 20W*\n\n💰 *R$ 16,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+4,3 mil vendidos na loja\nTambém em: Shopee R$ 24,99 · Mercado Livre R$ 89,90\n\n👉 https://s.click.aliexpress.com/e/_c3oka4Vx\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "08/10 19:41",
+    "n": "Fone de Ouvido Sem Fio Lenovo XT53 para Jogos, Bluetooth 5.3, Baixa...",
+    "txt": "*Fone de Ouvido Sem Fio Lenovo XT53 para Jogos, Bluetooth 5.3, Baixa...*\n\n💰 *R$ 49,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +10,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3nuy1Iv\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "08/10 19:21",
+    "n": "Suporte de peito ajustável para telefones celulares e câmeras GoPro para...",
+    "txt": "*Suporte de peito ajustável para telefones celulares e câmeras GoPro para...*\n\n💰 *R$ 21,50* na Shopee\n⭐ 4,9 · +3,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/2gBl7nHoqX\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "08/10 19:01",
     "n": "3 pçs/set, cinto de tensão de yoga, faixa elástica de resistência de...",
@@ -219,21 +234,6 @@
     "d": "08/10 09:50",
     "n": "Kit 400 Toalhas Umedecidas Chameguinho Baby Lenço Umedecido Infantil...",
     "txt": "*Kit 400 Toalhas Umedecidas Chameguinho Baby Lenço Umedecido Infantil...*\n\n💰 *R$ 24,90* na Shopee\n⭐ 4,9 · +6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AAHlzk6DBJ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "08/10 09:29",
-    "n": "Capa de Silicone Macia 3D com Desenho Animado Fofo para Fone de Ouvido...",
-    "txt": "*Capa de Silicone Macia 3D com Desenho Animado Fofo para Fone de Ouvido...*\n\n💰 *R$ 23,10* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,7 · +610 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3EnI6LX\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "08/10 09:02",
-    "n": "Meia Calça De Lã Térmica Translúcida Forrada Pelinho Pelúcia",
-    "txt": "*Meia Calça De Lã Térmica Translúcida Forrada Pelinho Pelúcia*\n\n💰 *R$ 29,90* na Shopee\n⭐ 4,9 · +3,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/7KxaZqrrks\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "08/10 08:42",
-    "n": "Conjunto de 100 pincéis de maquiagem para lábios, aplicador de extensão de...",
-    "txt": "*Conjunto de 100 pincéis de maquiagem para lábios, aplicador de extensão de...*\n\n💰 *R$ 17,27* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +12,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3vHXi0t\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1274,15 +1274,17 @@
    "shp:22996121313": "2026-10-08",
    "1005006996257844": "2026-10-08",
    "shp:22899492397": "2026-10-08",
-   "1005006863788773": "2026-10-08"
+   "1005006863788773": "2026-10-08",
+   "shp:58251425003": "2026-10-08",
+   "1005009648930863": "2026-10-08"
   },
-  "kw": 227,
-  "ultimo": "2026-10-08 19:01",
+  "kw": 228,
+  "ultimo": "2026-10-08 20:01",
   "dia": {
    "d": "2026-10-08",
-   "n": 31
+   "n": 34
   },
-  "ml_n": 132,
+  "ml_n": 133,
   "ml_extras": [
    {
     "d": "05/10 22:51",
@@ -1347,9 +1349,9 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 111,
+  "shopee_n": 113,
   "shopee_q": {
-   "Celular": 8,
+   "Celular": 9,
    "Tech": 8,
    "Áudio e TV": 8,
    "Games": 8,
@@ -1362,7 +1364,7 @@
    "Carro": 8,
    "Pet": 8,
    "Brinquedos": 8,
-   "Bebês": 7
+   "Bebês": 8
   }
  }
 }
