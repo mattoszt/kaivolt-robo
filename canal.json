@@ -50,8 +50,8 @@
     "p": 41.99
    },
    "caixa-som": {
-    "d": "2026-10-04 08:35",
-    "p": 40.8
+    "d": "2026-10-10 20:18",
+    "p": 44.9
    },
    "caneta-stylus": {
     "d": "2026-09-30 20:19",
@@ -63,7 +63,6 @@
    }
   },
   "slots": {
-   "2026-09-28-20": 1,
    "2026-09-29-12": 1,
    "2026-09-29-20": 1,
    "2026-09-30-12": 1,
@@ -82,9 +81,25 @@
    "2026-10-08-20": 1,
    "2026-10-09-12": 1,
    "2026-10-09-20": 1,
-   "2026-10-10-12": 1
+   "2026-10-10-12": 1,
+   "2026-10-10-20": 1
   },
   "fila_zap": [
+   {
+    "d": "10/10 20:58",
+    "n": "Conjunto completo de pincéis de maquiagem clássico de 12 peças com...",
+    "txt": "*Conjunto completo de pincéis de maquiagem clássico de 12 peças com...*\n\n💰 *R$ 21,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,5 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3Yk4oAd\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "10/10 20:38",
+    "n": "2026 Novo Ventilador de Mesa USB Dobrável, Mini Ventilador Portátil a...",
+    "txt": "*2026 Novo Ventilador de Mesa USB Dobrável, Mini Ventilador Portátil a...*\n\n💰 *R$ 42,40* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,7 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c2yfwJxb\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "10/10 20:18",
+    "n": "Caixa de som Bluetooth portátil",
+    "txt": "*Caixa de som Bluetooth portátil*\n\n💰 *R$ 44,90* na Shopee\n+1,9 mil vendidos na loja\nTambém em: AliExpress R$ 47,99\n\n👉 https://s.shopee.com.br/9fLUnAVzwb\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "10/10 19:59",
     "n": "Air Fryer Britânia 5,5L Antiaderente Gold 1500W BFR51",
@@ -219,21 +234,6 @@
     "d": "10/10 10:44",
     "n": "Espuma de leite sem fio elétrica tipo-c liquidificador portátil de aço...",
     "txt": "*Espuma de leite sem fio elétrica tipo-c liquidificador portátil de aço...*\n\n💰 *R$ 19,04* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +5 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3Ww1BWZ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "10/10 10:24",
-    "n": "Kit De Aglomerados De Cílios DIY 570 Unidades-Ferramenta De Vedação E...",
-    "txt": "*Kit De Aglomerados De Cílios DIY 570 Unidades-Ferramenta De Vedação E...*\n\n💰 *R$ 27,12* na Shopee\n⭐ 4,9 · +4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/2qVDiBqq8e\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "10/10 10:04",
-    "n": "Mais novo relógio inteligente 2024 completo redondo smartwatch masculino...",
-    "txt": "*Mais novo relógio inteligente 2024 completo redondo smartwatch masculino...*\n\n💰 *R$ 66,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3actUKN\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "10/10 09:44",
-    "n": "Extratora e Higienizadora Portatil WAP SpotCleaner W3 1450W",
-    "txt": "*Extratora e Higienizadora Portatil WAP SpotCleaner W3 1450W*\n\n💰 *R$ 531,99* na Shopee\n⭐ 5,0 · +1,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/7AeDcDDKQB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1357,15 +1357,17 @@
    "shp:58251858484": "2026-10-10",
    "1005010285491493": "2026-10-10",
    "shp:20816818949": "2026-10-10",
-   "shp:20199322470": "2026-10-10"
+   "shp:20199322470": "2026-10-10",
+   "1005007129243662": "2026-10-10",
+   "1005012011213056": "2026-10-10"
   },
-  "kw": 275,
-  "ultimo": "2026-10-10 19:59",
+  "kw": 278,
+  "ultimo": "2026-10-10 20:58",
   "dia": {
    "d": "2026-10-10",
-   "n": 34
+   "n": 37
   },
-  "ml_n": 174,
+  "ml_n": 176,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1374,8 +1376,8 @@
    }
   ],
   "vez_ml": false,
-  "vez": 3,
-  "shopee_n": 177,
+  "vez": 2,
+  "shopee_n": 180,
   "shopee_q": {
    "Celular": 13,
    "Tech": 13,
@@ -1386,9 +1388,9 @@
    "Esportes": 13,
    "Casa": 13,
    "Eletro": 13,
-   "Ferramentas": 12,
-   "Carro": 12,
-   "Pet": 12,
+   "Ferramentas": 13,
+   "Carro": 13,
+   "Pet": 13,
    "Brinquedos": 12,
    "Bebês": 12
   }
