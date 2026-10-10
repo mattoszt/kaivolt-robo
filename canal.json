@@ -86,6 +86,16 @@
   },
   "fila_zap": [
    {
+    "d": "10/10 16:42",
+    "n": "Conjunto de processador de alimentos elétrico sem fio, processador de...",
+    "txt": "*Conjunto de processador de alimentos elétrico sem fio, processador de...*\n\n💰 *R$ 75,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +748 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4eO9fSZ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "10/10 16:22",
+    "n": "Bola de Pelúcia Sonora para Cães com Guizo Suave 15cm Morder Gastar...",
+    "txt": "*Bola de Pelúcia Sonora para Cães com Guizo Suave 15cm Morder Gastar...*\n\n💰 *R$ 18,97* na Shopee\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1Vzqzh8UIV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
     "d": "10/10 16:02",
     "n": "Cozedor Aquecedor Portátil para até 7 Ovos Elétrico 220V Prático Cozinha",
     "txt": "*Cozedor Aquecedor Portátil para até 7 Ovos Elétrico 220V Prático Cozinha*\n\n💰 *R$ 29,99* na Shopee\n⭐ 4,9 · +6,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AAHpX9kITp\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
@@ -224,16 +234,6 @@
     "d": "09/10 21:31",
     "n": "Suporte para TV Universal Fixo Smart LED LCD 4K Parede Painel 32 40 42 50...",
     "txt": "*Suporte para TV Universal Fixo Smart LED LCD 4K Parede Painel 32 40 42 50...*\n\n💰 *R$ 19,99* na Shopee\n⭐ 4,9 · +2,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1B2GjXXev\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "09/10 20:59",
-    "n": "5.0 inteligente bluetooth áudio óculos de sol ciclismo condução óculos...",
-    "txt": "*5.0 inteligente bluetooth áudio óculos de sol ciclismo condução óculos...*\n\n💰 *R$ 24,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +14,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c2yJzj5R\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "09/10 20:39",
-    "n": "Repetidor Wifi Kp-3007 Expansor De Sinal Sem Fio Roteador",
-    "txt": "*Repetidor Wifi Kp-3007 Expansor De Sinal Sem Fio Roteador*\n\n💰 *R$ 33,50* na Shopee\n⭐ 4,8 · +1,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8Kq9rV5wUf\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1346,15 +1346,17 @@
    "1005011798390205": "2026-10-10",
    "shp:12059053145": "2026-10-10",
    "1005007096900737": "2026-10-10",
-   "shp:22093291651": "2026-10-10"
+   "shp:22093291651": "2026-10-10",
+   "shp:58203737570": "2026-10-10",
+   "1005006860909295": "2026-10-10"
   },
-  "kw": 262,
-  "ultimo": "2026-10-10 16:02",
+  "kw": 266,
+  "ultimo": "2026-10-10 16:42",
   "dia": {
    "d": "2026-10-10",
-   "n": 23
+   "n": 25
   },
-  "ml_n": 167,
+  "ml_n": 169,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1363,8 +1365,8 @@
    }
   ],
   "vez_ml": false,
-  "vez": 3,
-  "shopee_n": 163,
+  "vez": 2,
+  "shopee_n": 166,
   "shopee_q": {
    "Celular": 12,
    "Tech": 12,
@@ -1375,9 +1377,9 @@
    "Esportes": 12,
    "Casa": 12,
    "Eletro": 12,
-   "Ferramentas": 11,
-   "Carro": 11,
-   "Pet": 11,
+   "Ferramentas": 12,
+   "Carro": 12,
+   "Pet": 12,
    "Brinquedos": 11,
    "Bebês": 11
   }
