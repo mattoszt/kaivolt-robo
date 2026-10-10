@@ -42,7 +42,7 @@
     "p": 60.19
    },
    "fone-tws": {
-    "d": "2026-10-05 12:06",
+    "d": "2026-10-10 12:19",
     "p": 20.09
    },
    "teclado-tablet": {
@@ -63,7 +63,6 @@
    }
   },
   "slots": {
-   "2026-09-28-12": 1,
    "2026-09-28-20": 1,
    "2026-09-29-12": 1,
    "2026-09-29-20": 1,
@@ -82,9 +81,25 @@
    "2026-10-08-12": 1,
    "2026-10-08-20": 1,
    "2026-10-09-12": 1,
-   "2026-10-09-20": 1
+   "2026-10-09-20": 1,
+   "2026-10-10-12": 1
   },
   "fila_zap": [
+   {
+    "d": "10/10 12:59",
+    "n": "Adaptador WiFi Bluetooth 5.4 de 1300Mbps, Adaptador USB Dual Band...",
+    "txt": "*Adaptador WiFi Bluetooth 5.4 de 1300Mbps, Adaptador USB Dual Band...*\n\n💰 *R$ 28,51* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3v7ztU5\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "10/10 12:39",
+    "n": "Bluetooth Mouse Sem Fio Luz De Fundo LED I RGB 2.4G Jogo De Modo Duplo 7...",
+    "txt": "*Bluetooth Mouse Sem Fio Luz De Fundo LED I RGB 2.4G Jogo De Modo Duplo 7...*\n\n💰 *R$ 31,00* na Shopee\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/3qNlKMeXqG\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "10/10 12:19",
+    "n": "Fone Bluetooth TWS",
+    "txt": "*Fone Bluetooth TWS*\n\n💰 *R$ 20,09* na Shopee\n+7,2 mil vendidos na loja\nTambém em: AliExpress R$ 24,59 · Mercado Livre R$ 146,00\n\n👉 https://s.shopee.com.br/2BFWkNlaKt\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "10/10 11:59",
     "n": "KZ-D-Fi Fones De Ouvido com Redução De Ruído, HiFi Bass Earbuds Monitor...",
@@ -219,21 +234,6 @@
     "d": "09/10 17:40",
     "n": "Processador Compacto Britânia 300W Turbo Preto BMP900P",
     "txt": "*Processador Compacto Britânia 300W Turbo Preto BMP900P*\n\n💰 *R$ 119,90* na Shopee\n⭐ 4,9 · +4,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AUuePMFopV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "09/10 17:20",
-    "n": "Conjunto de Fitas de LED RGB 5050 de Baixa Tensão 5V com Controle Remoto...",
-    "txt": "*Conjunto de Fitas de LED RGB 5050 de Baixa Tensão 5V com Controle Remoto...*\n\n💰 *R$ 16,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +5,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3g9hZsl\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "09/10 16:44",
-    "n": "Tapete Porta de Entrada 40x75cm Capacho Antiderrapante Lavável...",
-    "txt": "*Tapete Porta de Entrada 40x75cm Capacho Antiderrapante Lavável...*\n\n💰 *R$ 36,91* na Shopee\n⭐ 5,0 · +2,8 mil vendidos na loja\n\n👉 https://s.shopee.com.br/6L55RhVkPs\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "09/10 16:24",
-    "n": "Copo de agitação esportivo de ângulo único de aço inoxidável multicolorido...",
-    "txt": "*Copo de agitação esportivo de ângulo único de aço inoxidável multicolorido...*\n\n💰 *R$ 39,41* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3z14kxf\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1335,15 +1335,17 @@
    "1005009582433501": "2026-10-10",
    "1005008500786114": "2026-10-10",
    "shp:18899359612": "2026-10-10",
-   "1005006995996124": "2026-10-10"
+   "1005006995996124": "2026-10-10",
+   "shp:58203181146": "2026-10-10",
+   "1005007345426036": "2026-10-10"
   },
-  "kw": 257,
-  "ultimo": "2026-10-10 11:59",
+  "kw": 258,
+  "ultimo": "2026-10-10 12:59",
   "dia": {
    "d": "2026-10-10",
-   "n": 11
+   "n": 14
   },
-  "ml_n": 162,
+  "ml_n": 163,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1353,10 +1355,10 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 154,
+  "shopee_n": 156,
   "shopee_q": {
-   "Celular": 11,
-   "Tech": 11,
+   "Celular": 12,
+   "Tech": 12,
    "Áudio e TV": 11,
    "Games": 11,
    "Moda": 11,
