@@ -58,12 +58,11 @@
     "p": 20.79
    },
    "headphone-bt": {
-    "d": "2026-10-06 20:00",
+    "d": "2026-10-11 20:00",
     "p": 66.88
    }
   },
   "slots": {
-   "2026-09-29-20": 1,
    "2026-09-30-12": 1,
    "2026-09-30-20": 1,
    "2026-10-01-12": 1,
@@ -82,9 +81,25 @@
    "2026-10-09-20": 1,
    "2026-10-10-12": 1,
    "2026-10-10-20": 1,
-   "2026-10-11-12": 1
+   "2026-10-11-12": 1,
+   "2026-10-11-20": 1
   },
   "fila_zap": [
+   {
+    "d": "11/10 20:00",
+    "n": "Headphone Bluetooth",
+    "txt": "*Headphone Bluetooth*\n\n💰 *R$ 66,88* na Shopee\n+10,6 mil vendidos na loja\nTambém em: AliExpress R$ 98,47 · Mercado Livre R$ 151,04\n\n👉 https://s.shopee.com.br/7KxenZJOJr\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "11/10 19:40",
+    "n": "Dobrável selfie vara extensível retrátil sem fio bluetooth remoto tripé...",
+    "txt": "*Dobrável selfie vara extensível retrátil sem fio bluetooth remoto tripé...*\n\n💰 *R$ 67,71* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +895 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c30bsduV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "11/10 19:20",
+    "n": "Mini Ventilador Turbo Portátil 120 Níveis De Velocidade Mudo Display LED...",
+    "txt": "*Mini Ventilador Turbo Portátil 120 Níveis De Velocidade Mudo Display LED...*\n\n💰 *R$ 27,99* na Shopee\n⭐ 4,9 · +2,2 mil vendidos na loja\n\n👉 https://s.shopee.com.br/7AeFf1Vl03\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "11/10 19:00",
     "n": "Guarda-chuva dobrável automático, resistente ao vento, com superfície...",
@@ -219,21 +234,6 @@
     "d": "11/10 10:05",
     "n": "Brinquedo elétrico para gatos com 2 cordas, brinquedo interativo com penas...",
     "txt": "*Brinquedo elétrico para gatos com 2 cordas, brinquedo interativo com penas...*\n\n💰 *R$ 25,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4PB5nnL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "11/10 09:45",
-    "n": "Novo Mouse Gamer Sem Fio M348 Superleve Bluetooth 2.4G com Chip Flagship e...",
-    "txt": "*Novo Mouse Gamer Sem Fio M348 Superleve Bluetooth 2.4G com Chip Flagship e...*\n\n💰 *R$ 47,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,7 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3dbn5Xb\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "11/10 09:25",
-    "n": "Kit 5 Caixas Massinha de Modelar Soft Acrilex 12 Cores 180g Cada Infantil...",
-    "txt": "*Kit 5 Caixas Massinha de Modelar Soft Acrilex 12 Cores 180g Cada Infantil...*\n\n💰 *R$ 29,99* na Shopee\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/7VH4jAAGjB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "11/10 08:59",
-    "n": "Mouse Bluetooth Attack Shark X3/X3PRO, PixArt PAW3395, 26000dpi, Conexão...",
-    "txt": "*Mouse Bluetooth Attack Shark X3/X3PRO, PixArt PAW3395, 26000dpi, Conexão...*\n\n💰 *R$ 159,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +949 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4CcHuoD\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1395,15 +1395,17 @@
    "shp:58256192543": "2026-10-11",
    "1005007096678920": "2026-10-11",
    "shp:58250711316": "2026-10-11",
-   "1005012594290335": "2026-10-11"
+   "1005012594290335": "2026-10-11",
+   "shp:47252846558": "2026-10-11",
+   "1005007805561514": "2026-10-11"
   },
-  "kw": 312,
-  "ultimo": "2026-10-11 19:00",
+  "kw": 313,
+  "ultimo": "2026-10-11 20:00",
   "dia": {
    "d": "2026-10-11",
-   "n": 32
+   "n": 35
   },
-  "ml_n": 198,
+  "ml_n": 199,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1413,7 +1415,7 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 232,
+  "shopee_n": 233,
   "shopee_q": {
    "Celular": 17,
    "Tech": 17,
@@ -1423,7 +1425,7 @@
    "Beleza": 17,
    "Esportes": 17,
    "Casa": 17,
-   "Eletro": 16,
+   "Eletro": 17,
    "Ferramentas": 16,
    "Carro": 16,
    "Pet": 16,
