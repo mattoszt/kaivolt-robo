@@ -2,8 +2,8 @@
  "_divulgacao": {
   "postados": {
    "cabo-lightning": {
-    "d": "2026-10-06 10:43",
-    "p": 9.32
+    "d": "2026-10-11 12:00",
+    "p": 9.14
    },
    "suporte-veicular": {
     "d": "2026-10-07 20:17",
@@ -63,7 +63,6 @@
    }
   },
   "slots": {
-   "2026-09-29-12": 1,
    "2026-09-29-20": 1,
    "2026-09-30-12": 1,
    "2026-09-30-20": 1,
@@ -82,9 +81,25 @@
    "2026-10-09-12": 1,
    "2026-10-09-20": 1,
    "2026-10-10-12": 1,
-   "2026-10-10-20": 1
+   "2026-10-10-20": 1,
+   "2026-10-11-12": 1
   },
   "fila_zap": [
+   {
+    "d": "11/10 12:00",
+    "n": "Cabo USB-C para Lightning (iPhone)",
+    "txt": "*Cabo USB-C para Lightning (iPhone)*\n\n💰 *R$ 9,14* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+4,2 mil vendidos na loja\nTambém em: Shopee R$ 13,99 · Mercado Livre R$ 28,47\n\n👉 https://s.click.aliexpress.com/e/_c4Usz5Ah\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "11/10 11:40",
+    "n": "Conjunto de Faixas de Resistência para Natação com Pás de Mão e Alças...",
+    "txt": "*Conjunto de Faixas de Resistência para Natação com Pás de Mão e Alças...*\n\n💰 *R$ 49,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +561 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c2RnAv2h\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "11/10 11:20",
+    "n": "Conjunto de Livro de Cílios Postiços de Grande Capacidade, com Cola...",
+    "txt": "*Conjunto de Livro de Cílios Postiços de Grande Capacidade, com Cola...*\n\n💰 *R$ 36,26* na Shopee\n⭐ 4,9 · +1,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/2LYybVNgrc\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "11/10 10:45",
     "n": "Coleira para Cães de 1.5M/2M/5M/3M/15M, Média, Pequena e Longa, em Látex e...",
@@ -219,21 +234,6 @@
     "d": "10/10 16:22",
     "n": "Bola de Pelúcia Sonora para Cães com Guizo Suave 15cm Morder Gastar...",
     "txt": "*Bola de Pelúcia Sonora para Cães com Guizo Suave 15cm Morder Gastar...*\n\n💰 *R$ 18,97* na Shopee\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1Vzqzh8UIV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "10/10 16:02",
-    "n": "Cozedor Aquecedor Portátil para até 7 Ovos Elétrico 220V Prático Cozinha",
-    "txt": "*Cozedor Aquecedor Portátil para até 7 Ovos Elétrico 220V Prático Cozinha*\n\n💰 *R$ 29,99* na Shopee\n⭐ 4,9 · +6,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AAHpX9kITp\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "10/10 15:42",
-    "n": "Prensa de hambúrguer de aço inoxidável, prensa de carne para torta de...",
-    "txt": "*Prensa de hambúrguer de aço inoxidável, prensa de carne para torta de...*\n\n💰 *R$ 17,71* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c2QkQ1o5\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "10/10 15:22",
-    "n": "cortina Blackout PVC 3,00x2,80 com tecido voil xadrez",
-    "txt": "*cortina Blackout PVC 3,00x2,80 com tecido voil xadrez*\n\n💰 *R$ 99,96* na Shopee\n⭐ 4,9 · +4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8AWl9TnZzL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1372,15 +1372,17 @@
    "1005007171647074": "2026-10-11",
    "1005010572759416": "2026-10-11",
    "shp:22599193786": "2026-10-11",
-   "1005006728349935": "2026-10-11"
+   "1005006728349935": "2026-10-11",
+   "shp:52653272166": "2026-10-11",
+   "1005010332322675": "2026-10-11"
   },
-  "kw": 290,
-  "ultimo": "2026-10-11 10:45",
+  "kw": 292,
+  "ultimo": "2026-10-11 12:00",
   "dia": {
    "d": "2026-10-11",
-   "n": 8
+   "n": 11
   },
-  "ml_n": 184,
+  "ml_n": 185,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1390,14 +1392,14 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 201,
+  "shopee_n": 202,
   "shopee_q": {
    "Celular": 15,
    "Tech": 15,
    "Áudio e TV": 15,
    "Games": 15,
    "Moda": 15,
-   "Beleza": 14,
+   "Beleza": 15,
    "Esportes": 14,
    "Casa": 14,
    "Eletro": 14,
