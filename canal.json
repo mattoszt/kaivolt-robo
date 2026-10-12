@@ -22,8 +22,8 @@
     "p": 81.91
    },
    "suporte-tablet": {
-    "d": "2026-10-06 12:03",
-    "p": 16.99
+    "d": "2026-10-12 20:00",
+    "p": 15.08
    },
    "carregador-20w": {
     "d": "2026-10-08 20:01",
@@ -63,7 +63,6 @@
    }
   },
   "slots": {
-   "2026-09-30-20": 1,
    "2026-10-01-12": 1,
    "2026-10-01-20": 1,
    "2026-10-02-12": 1,
@@ -82,9 +81,25 @@
    "2026-10-10-20": 1,
    "2026-10-11-12": 1,
    "2026-10-11-20": 1,
-   "2026-10-12-12": 1
+   "2026-10-12-12": 1,
+   "2026-10-12-20": 1
   },
   "fila_zap": [
+   {
+    "d": "12/10 20:00",
+    "n": "Suporte de mesa para tablet",
+    "txt": "*Suporte de mesa para tablet*\n\n💰 *R$ 15,08* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+2,2 mil vendidos na loja\nTambém em: Shopee R$ 15,99\n\n👉 https://s.click.aliexpress.com/e/_c2IjIfWp\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "12/10 19:40",
+    "n": "Hytoos brocas de carboneto de segurança para unhas, revestimento verde...",
+    "txt": "*Hytoos brocas de carboneto de segurança para unhas, revestimento verde...*\n\n💰 *R$ 33,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c44kmTzR\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "12/10 19:20",
+    "n": "VGR barbeador elétrico masculino maquininha de barbear masculino Barbeador...",
+    "txt": "*VGR barbeador elétrico masculino maquininha de barbear masculino Barbeador...*\n\n💰 *R$ 209,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c324eToV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "12/10 19:00",
     "n": "Kemei KM-90-4 profissional 11500 rpm máquina de cortar cabelo para...",
@@ -219,21 +234,6 @@
     "d": "12/10 09:57",
     "n": "Areia para Gato Classic 12kg Pipicat",
     "txt": "*Areia para Gato Classic 12kg Pipicat*\n\n💰 *R$ 36,08* na Shopee\n⭐ 5,0 · +1,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/4fwukayFRj\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "12/10 09:37",
-    "n": "Espuma de leite varinha espuma de café portátil fabricante de espuma para...",
-    "txt": "*Espuma de leite varinha espuma de café portátil fabricante de espuma para...*\n\n💰 *R$ 54,30* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +723 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3rFzrPx\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "12/10 09:03",
-    "n": "Carregador 12V Inteligente para Carros | Display Digital | Reparação de...",
-    "txt": "*Carregador 12V Inteligente para Carros | Display Digital | Reparação de...*\n\n💰 *R$ 178,00* na Shopee\n⭐ 4,9 · +1,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8AWlkkMKVM\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "12/10 08:43",
-    "n": "Novo Smartwatch Robusto Zeblaze Stratos 4 PRO 2026 com GPS, AMOLED...",
-    "txt": "*Novo Smartwatch Robusto Zeblaze Stratos 4 PRO 2026 com GPS, AMOLED...*\n\n💰 *R$ 399,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,4 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4L3N1X3\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1434,15 +1434,17 @@
    "shp:45963529104": "2026-10-12",
    "1005011781315520": "2026-10-12",
    "shp:22494216736": "2026-10-12",
-   "1005009123132582": "2026-10-12"
+   "1005009123132582": "2026-10-12",
+   "1005008084640360": "2026-10-12",
+   "1005009503437876": "2026-10-12"
   },
-  "kw": 345,
-  "ultimo": "2026-10-12 19:00",
+  "kw": 349,
+  "ultimo": "2026-10-12 20:00",
   "dia": {
    "d": "2026-10-12",
-   "n": 31
+   "n": 34
   },
-  "ml_n": 220,
+  "ml_n": 222,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1452,10 +1454,10 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 276,
+  "shopee_n": 282,
   "shopee_q": {
-   "Celular": 20,
-   "Tech": 20,
+   "Celular": 21,
+   "Tech": 21,
    "Áudio e TV": 20,
    "Games": 20,
    "Moda": 20,
@@ -1464,10 +1466,10 @@
    "Casa": 20,
    "Eletro": 20,
    "Ferramentas": 20,
-   "Carro": 19,
-   "Pet": 19,
-   "Brinquedos": 19,
-   "Bebês": 19
+   "Carro": 20,
+   "Pet": 20,
+   "Brinquedos": 20,
+   "Bebês": 20
   }
  }
 }
