@@ -18,8 +18,8 @@
     "p": 10.06
    },
    "powerbank-magsafe": {
-    "d": "2026-09-30 14:59",
-    "p": 85.19
+    "d": "2026-10-12 12:43",
+    "p": 81.91
    },
    "suporte-tablet": {
     "d": "2026-10-06 12:03",
@@ -34,8 +34,8 @@
     "p": 46.79
    },
    "mouse-sem-fio": {
-    "d": "2026-10-07 12:03",
-    "p": 17.39
+    "d": "2026-10-12 12:23",
+    "p": 17.49
    },
    "carregador-gan-65w": {
     "d": "2026-10-08 12:04",
@@ -63,7 +63,6 @@
    }
   },
   "slots": {
-   "2026-09-30-12": 1,
    "2026-09-30-20": 1,
    "2026-10-01-12": 1,
    "2026-10-01-20": 1,
@@ -82,9 +81,25 @@
    "2026-10-10-12": 1,
    "2026-10-10-20": 1,
    "2026-10-11-12": 1,
-   "2026-10-11-20": 1
+   "2026-10-11-20": 1,
+   "2026-10-12-12": 1
   },
   "fila_zap": [
+   {
+    "d": "12/10 13:03",
+    "n": "Baseus hdmi-compatível switcher 4k 60hz bidirecional 1x2/2x1 hdr adaptador...",
+    "txt": "*Baseus hdmi-compatível switcher 4k 60hz bidirecional 1x2/2x1 hdr adaptador...*\n\n💰 *R$ 48,51* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,4 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3nrs3SD\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "12/10 12:43",
+    "n": "Power Bank magnético (MagSafe)",
+    "txt": "*Power Bank magnético (MagSafe)*\n\n🔻 Caiu 18%: era R$ 99,90 nos últimos dias\n💰 *R$ 81,91* no Mercado Livre\n+154 vendidos na loja\nTambém em: Shopee R$ 214,96\n\n👉 https://www.mercadolivre.com.br/power-bank-10000mah-magnetico-para-iphone-magsafe/up/MLBU3857015826?pdp_filters=item_id%3AMLB4540680129&matt_word=ky20260925222946505&matt_tool=97504693\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "12/10 12:23",
+    "n": "Mouse sem fio silencioso",
+    "txt": "*Mouse sem fio silencioso*\n\n💰 *R$ 17,49* na Shopee\n+6 mil vendidos na loja\nTambém em: AliExpress R$ 19,28\n\n👉 https://s.shopee.com.br/9Kiki7T8VV\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "12/10 11:56",
     "n": "Guarda-chuvas sombrinha grandes reforçados com bolsa feminina masculina 10...",
@@ -219,21 +234,6 @@
     "d": "11/10 17:39",
     "n": "Garrafa Térmica de Aço Inoxidável WATERSY 500ml, Frasco a Vácuo Isolado...",
     "txt": "*Garrafa Térmica de Aço Inoxidável WATERSY 500ml, Frasco a Vácuo Isolado...*\n\n💰 *R$ 54,50* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4OQBhTT\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "11/10 17:19",
-    "n": "Mouse pads gundam mouse pad jogos grande dywan gamer teclado tapete de...",
-    "txt": "*Mouse pads gundam mouse pad jogos grande dywan gamer teclado tapete de...*\n\n💰 *R$ 31,80* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +890 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4sDGjZn\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "11/10 16:59",
-    "n": "1 Par de Tiras Universais para Preenchimento de Frestas de Assento de...",
-    "txt": "*1 Par de Tiras Universais para Preenchimento de Frestas de Assento de...*\n\n💰 *R$ 15,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3lgvww9\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "11/10 16:39",
-    "n": "Sapatilha Feminina Mary Jane Confortável Luxo Elegante Sapato Feminino...",
-    "txt": "*Sapatilha Feminina Mary Jane Confortável Luxo Elegante Sapato Feminino...*\n\n💰 *R$ 49,90* na Shopee\n⭐ 4,9 · +1,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/50Zl1EpbXc\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1416,15 +1416,16 @@
    "1005008077516375": "2026-10-12",
    "shp:58212580166": "2026-10-12",
    "1005012011213128": "2026-10-12",
-   "shp:58205432494": "2026-10-12"
+   "shp:58205432494": "2026-10-12",
+   "1005007038599400": "2026-10-12"
   },
-  "kw": 323,
-  "ultimo": "2026-10-12 11:56",
+  "kw": 324,
+  "ultimo": "2026-10-12 13:03",
   "dia": {
    "d": "2026-10-12",
-   "n": 11
+   "n": 14
   },
-  "ml_n": 209,
+  "ml_n": 210,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1433,7 +1434,7 @@
    }
   ],
   "vez_ml": false,
-  "vez": 3,
+  "vez": 2,
   "shopee_n": 257,
   "shopee_q": {
    "Celular": 19,
