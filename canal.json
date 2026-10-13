@@ -6,8 +6,8 @@
     "p": 9.14
    },
    "suporte-veicular": {
-    "d": "2026-10-07 20:17",
-    "p": 10.46
+    "d": "2026-10-13 12:24",
+    "p": 10.99
    },
    "powerbank-10000": {
     "d": "2026-10-05 18:32",
@@ -67,7 +67,6 @@
    }
   },
   "slots": {
-   "2026-10-01-12": 1,
    "2026-10-01-20": 1,
    "2026-10-02-12": 1,
    "2026-10-02-20": 1,
@@ -86,9 +85,25 @@
    "2026-10-11-12": 1,
    "2026-10-11-20": 1,
    "2026-10-12-12": 1,
-   "2026-10-12-20": 1
+   "2026-10-12-20": 1,
+   "2026-10-13-12": 1
   },
   "fila_zap": [
+   {
+    "d": "13/10 13:04",
+    "n": "Carregador sem fio Essager-Qi para carro, suporte do telefone, ventilação...",
+    "txt": "*Carregador sem fio Essager-Qi para carro, suporte do telefone, ventilação...*\n\n💰 *R$ 63,29* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c44oyK0t\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "13/10 12:44",
+    "n": "ROCKBROS Óculos De Ciclismo, MTB Road Bike Eyewear, Condução, Óculos De...",
+    "txt": "*ROCKBROS Óculos De Ciclismo, MTB Road Bike Eyewear, Condução, Óculos De...*\n\n💰 *R$ 76,29* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4reqwd3\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "13/10 12:24",
+    "n": "Suporte veicular magnético",
+    "txt": "*Suporte veicular magnético*\n\n💰 *R$ 10,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+8,2 mil vendidos na loja\nTambém em: Shopee R$ 11,99 · Mercado Livre R$ 24,99\n\n👉 https://s.click.aliexpress.com/e/_c4eoylKp\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "13/10 11:49",
     "n": "Mouse gamer RGB 7200 DPI",
@@ -223,21 +238,6 @@
     "d": "12/10 17:42",
     "n": "Ventilador Umidificador Portátil Mini de Mão Recarregável USB com Spray de...",
     "txt": "*Ventilador Umidificador Portátil Mini de Mão Recarregável USB com Spray de...*\n\n💰 *R$ 25,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3iugcLr\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "12/10 17:22",
-    "n": "Top Academia Forro Duplo Alça Fina Suplex Premium Com Elástico Feminino...",
-    "txt": "*Top Academia Forro Duplo Alça Fina Suplex Premium Com Elástico Feminino...*\n\n💰 *R$ 24,90* na Shopee\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/W7NNEcE3E\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "12/10 16:45",
-    "n": "Bermuda Térmica Keeper Anti Assaduras Resistente sem Costura Masculina...",
-    "txt": "*Bermuda Térmica Keeper Anti Assaduras Resistente sem Costura Masculina...*\n\n💰 *R$ 28,35* na Shopee\n⭐ 4,9 · +1,8 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AAHsf5SqxY\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "12/10 16:25",
-    "n": "Luz de armário magnética sem fios, com carregamento USB, LED, sensor...",
-    "txt": "*Luz de armário magnética sem fios, com carregamento USB, LED, sensor...*\n\n💰 *R$ 17,13* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3wZlSbJ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1457,15 +1457,17 @@
    "1005008500809079": "2026-10-13",
    "1005006860973779": "2026-10-13",
    "1005010572640949": "2026-10-13",
-   "shp:23092951296": "2026-10-13"
+   "shp:23092951296": "2026-10-13",
+   "1005006904666475": "2026-10-13",
+   "1005006994382991": "2026-10-13"
   },
-  "kw": 378,
-  "ultimo": "2026-10-13 11:49",
+  "kw": 380,
+  "ultimo": "2026-10-13 13:04",
   "dia": {
    "d": "2026-10-13",
-   "n": 11
+   "n": 14
   },
-  "ml_n": 234,
+  "ml_n": 235,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1474,8 +1476,8 @@
    }
   ],
   "vez_ml": false,
-  "vez": 4,
-  "shopee_n": 314,
+  "vez": 2,
+  "shopee_n": 317,
   "shopee_q": {
    "Celular": 23,
    "Tech": 23,
@@ -1483,9 +1485,9 @@
    "Games": 23,
    "Moda": 23,
    "Beleza": 23,
-   "Esportes": 22,
-   "Casa": 22,
-   "Eletro": 22,
+   "Esportes": 23,
+   "Casa": 23,
+   "Eletro": 23,
    "Ferramentas": 22,
    "Carro": 22,
    "Pet": 22,
