@@ -30,7 +30,7 @@
     "p": 17.23
    },
    "powerbank-20000": {
-    "d": "2026-10-09 12:04",
+    "d": "2026-10-14 20:10",
     "p": 46.79
    },
    "mouse-sem-fio": {
@@ -67,7 +67,6 @@
    }
   },
   "slots": {
-   "2026-10-02-20": 1,
    "2026-10-04-20": 1,
    "2026-10-05-12": 1,
    "2026-10-06-12": 1,
@@ -86,9 +85,25 @@
    "2026-10-12-20": 1,
    "2026-10-13-12": 1,
    "2026-10-13-20": 1,
-   "2026-10-14-12": 1
+   "2026-10-14-12": 1,
+   "2026-10-14-20": 1
   },
   "fila_zap": [
+   {
+    "d": "14/10 20:10",
+    "n": "Power Bank 20.000 mAh",
+    "txt": "*Power Bank 20.000 mAh*\n\n💰 *R$ 46,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+3,6 mil vendidos na loja\nTambém em: Shopee R$ 46,99\n\n👉 https://s.click.aliexpress.com/e/_c3YZAhzj\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "14/10 19:50",
+    "n": "Ventilador de Teto Ventisol Fênix Inverter Controle Remoto Led Integrada...",
+    "txt": "*Ventilador de Teto Ventisol Fênix Inverter Controle Remoto Led Integrada...*\n\n💰 *R$ 329,46* na Shopee\n⭐ 4,9 · +1,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/3B8Bu2UawB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "14/10 19:30",
+    "n": "Conjunto de 11 Peças: Corda de Puxar, Faixas de Resistência, Equipamento...",
+    "txt": "*Conjunto de 11 Peças: Corda de Puxar, Faixas de Resistência, Equipamento...*\n\n💰 *R$ 38,19* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,5 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3zf2u6p\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "14/10 19:11",
     "n": "Jogo de Lençol Veneza Percal 300 fios Lese Bordado Inglês Micropercal King...",
@@ -223,21 +238,6 @@
     "d": "14/10 09:59",
     "n": "Removedor de Pelos Elétrico para Roupas, Removedor de Fiapos de Tecido...",
     "txt": "*Removedor de Pelos Elétrico para Roupas, Removedor de Fiapos de Tecido...*\n\n💰 *R$ 24,31* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3QtJRiV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "14/10 09:39",
-    "n": "Baba Eletrônica Com Monitor Visão Noturna, Câmera c/ Audio Sensor de...",
-    "txt": "*Baba Eletrônica Com Monitor Visão Noturna, Câmera c/ Audio Sensor de...*\n\n💰 *R$ 259,99* na Shopee\n⭐ 5,0 · +1,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8KqHNa5SD8\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "14/10 09:13",
-    "n": "Lâmpada Solar Multifuncional para Decoração de Jardim ao Ar Livre, Luz LED...",
-    "txt": "*Lâmpada Solar Multifuncional para Decoração de Jardim ao Ar Livre, Luz LED...*\n\n💰 *R$ 21,89* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +18,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4FsNmj7\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "14/10 08:53",
-    "n": "Pelúcias Gabby’s Dollhouse 27cm – Pandy Paws, Catnip e Almofagato | Fofas...",
-    "txt": "*Pelúcias Gabby’s Dollhouse 27cm – Pandy Paws, Catnip e Almofagato | Fofas...*\n\n💰 *R$ 42,77* na Shopee\n⭐ 5,0 · +1,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/5VW5gaNaGH\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1515,15 +1515,17 @@
    "1005007857201207": "2026-10-14",
    "shp:20997314315": "2026-10-14",
    "1005005908829758": "2026-10-14",
-   "shp:40877150108": "2026-10-14"
+   "shp:40877150108": "2026-10-14",
+   "1005006678088538": "2026-10-14",
+   "shp:21997455105": "2026-10-14"
   },
-  "kw": 421,
-  "ultimo": "2026-10-14 19:11",
+  "kw": 422,
+  "ultimo": "2026-10-14 20:10",
   "dia": {
    "d": "2026-10-14",
-   "n": 31
+   "n": 34
   },
-  "ml_n": 271,
+  "ml_n": 272,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1533,7 +1535,7 @@
   ],
   "vez_ml": false,
   "vez": 3,
-  "shopee_n": 400,
+  "shopee_n": 401,
   "shopee_q": {
    "Celular": 29,
    "Tech": 29,
@@ -1543,7 +1545,7 @@
    "Beleza": 29,
    "Esportes": 29,
    "Casa": 29,
-   "Eletro": 28,
+   "Eletro": 29,
    "Ferramentas": 28,
    "Carro": 28,
    "Pet": 28,
