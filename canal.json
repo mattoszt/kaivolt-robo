@@ -26,8 +26,8 @@
     "p": 15.08
    },
    "carregador-20w": {
-    "d": "2026-10-08 20:01",
-    "p": 16.69
+    "d": "2026-10-14 12:37",
+    "p": 17.23
    },
    "powerbank-20000": {
     "d": "2026-10-09 12:04",
@@ -67,7 +67,6 @@
    }
   },
   "slots": {
-   "2026-10-02-12": 1,
    "2026-10-02-20": 1,
    "2026-10-04-20": 1,
    "2026-10-05-12": 1,
@@ -86,9 +85,25 @@
    "2026-10-12-12": 1,
    "2026-10-12-20": 1,
    "2026-10-13-12": 1,
-   "2026-10-13-20": 1
+   "2026-10-13-20": 1,
+   "2026-10-14-12": 1
   },
   "fila_zap": [
+   {
+    "d": "14/10 13:17",
+    "n": "Tronsmart caixa de som Trip 2 Bluetoth Alto-falante portátil sem fio com...",
+    "txt": "*Tronsmart caixa de som Trip 2 Bluetoth Alto-falante portátil sem fio com...*\n\n💰 *R$ 174,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +894 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4sSXwDJ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "14/10 12:57",
+    "n": "Pelúcias Importadas da Casa Mágica da Gabby – Pandy Paws Gatuno Catnip e...",
+    "txt": "*Pelúcias Importadas da Casa Mágica da Gabby – Pandy Paws Gatuno Catnip e...*\n\n💰 *R$ 42,77* na Shopee\n⭐ 5,0 · +1,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/3LRbdz9kKE\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "14/10 12:37",
+    "n": "Carregador turbo USB-C 20W",
+    "txt": "*Carregador turbo USB-C 20W*\n\n💰 *R$ 17,23* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+4,5 mil vendidos na loja\nTambém em: Shopee R$ 24,99 · Mercado Livre R$ 89,90\n\n👉 https://s.click.aliexpress.com/e/_c3M5vM6h\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "14/10 11:58",
     "n": "Design de cabeça de corte ajustável com carregamento USB para máquina de...",
@@ -223,21 +238,6 @@
     "d": "13/10 17:12",
     "n": "Cabo HDMI 2.1 2.0 UGREEN Ultra Alta Velocidade 4K 8K/60Hz 4K/120Hz para...",
     "txt": "*Cabo HDMI 2.1 2.0 UGREEN Ultra Alta Velocidade 4K 8K/60Hz 4K/120Hz para...*\n\n💰 *R$ 39,09* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c36VpGe5\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "13/10 16:52",
-    "n": "Abridor de Rosca Interna Externa para Tubo PVC Tamanhos 1/2 e 3/4...",
-    "txt": "*Abridor de Rosca Interna Externa para Tubo PVC Tamanhos 1/2 e 3/4...*\n\n💰 *R$ 25,98* na Shopee\n⭐ 4,8 · +1,2 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8pmWrL6en6\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "13/10 16:32",
-    "n": "GRWIBEOU Adaptador USB2.0 de 1300Mbps WIFI 6+BT5.4 Banda Dupla 2.4G/5Ghz...",
-    "txt": "*GRWIBEOU Adaptador USB2.0 de 1300Mbps WIFI 6+BT5.4 Banda Dupla 2.4G/5Ghz...*\n\n💰 *R$ 26,80* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +589 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4XekMw5\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "13/10 16:08",
-    "n": "Aquecedor Panela de Cera Quente Panela Elétrica para Depilação Termocera...",
-    "txt": "*Aquecedor Panela de Cera Quente Panela Elétrica para Depilação Termocera...*\n\n💰 *R$ 38,90* na Shopee\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.shopee.com.br/113fTvAkpW\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1496,15 +1496,17 @@
    "1005012172817375": "2026-10-14",
    "shp:17690009744": "2026-10-14",
    "1005012993839899": "2026-10-14",
-   "1005008830684400": "2026-10-14"
+   "1005008830684400": "2026-10-14",
+   "shp:23593894892": "2026-10-14",
+   "1005010728859543": "2026-10-14"
   },
-  "kw": 410,
-  "ultimo": "2026-10-14 11:58",
+  "kw": 411,
+  "ultimo": "2026-10-14 13:17",
   "dia": {
    "d": "2026-10-14",
-   "n": 11
+   "n": 14
   },
-  "ml_n": 260,
+  "ml_n": 261,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1514,7 +1516,7 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 375,
+  "shopee_n": 377,
   "shopee_q": {
    "Celular": 27,
    "Tech": 27,
@@ -1527,8 +1529,8 @@
    "Eletro": 27,
    "Ferramentas": 27,
    "Carro": 27,
-   "Pet": 26,
-   "Brinquedos": 26,
+   "Pet": 27,
+   "Brinquedos": 27,
    "Bebês": 26
   }
  }
