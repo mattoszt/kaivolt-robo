@@ -46,8 +46,8 @@
     "p": 20.09
    },
    "teclado-tablet": {
-    "d": "2026-10-09 20:01",
-    "p": 41.99
+    "d": "2026-10-15 12:02",
+    "p": 45.87
    },
    "caixa-som": {
     "d": "2026-10-10 20:18",
@@ -67,7 +67,6 @@
    }
   },
   "slots": {
-   "2026-10-04-20": 1,
    "2026-10-05-12": 1,
    "2026-10-06-12": 1,
    "2026-10-06-20": 1,
@@ -86,9 +85,20 @@
    "2026-10-13-12": 1,
    "2026-10-13-20": 1,
    "2026-10-14-12": 1,
-   "2026-10-14-20": 1
+   "2026-10-14-20": 1,
+   "2026-10-15-12": 1
   },
   "fila_zap": [
+   {
+    "d": "15/10 12:02",
+    "n": "Teclado Bluetooth para tablet",
+    "txt": "*Teclado Bluetooth para tablet*\n\n💰 *R$ 45,87* na Shopee\n+3,2 mil vendidos na loja\nTambém em: Mercado Livre R$ 49,90 · AliExpress R$ 50,49\n\n👉 https://s.shopee.com.br/9fLfvvw5db\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "15/10 11:42",
+    "n": "Carregador Turbo 20w Compatível iPhone + Cabo Lightning",
+    "txt": "*Carregador Turbo 20w Compatível iPhone + Cabo Lightning*\n\n💰 *R$ 25,90* na Shopee\n⭐ 4,9 · +3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/Lo0rZevvt\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "15/10 11:22",
     "n": "UGREEN-Suporte Vertical Laptop, Alumínio, Portátil, Suporte para Notebook...",
@@ -228,16 +238,6 @@
     "d": "14/10 16:19",
     "n": "Mouse sem fio Attack Shark X11, conexão tripla, PixArt PAW3311, base de...",
     "txt": "*Mouse sem fio Attack Shark X11, conexão tripla, PixArt PAW3311, base de...*\n\n💰 *R$ 126,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +7,7 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3G1k5dF\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "14/10 15:59",
-    "n": "Tapete Coletor de Areia para Gato Dupla Camada Anti Derramamento Vários...",
-    "txt": "*Tapete Coletor de Areia para Gato Dupla Camada Anti Derramamento Vários...*\n\n💰 *R$ 35,97* na Shopee\n⭐ 4,9 · +1,9 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8fT8CHk9qi\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "14/10 15:39",
-    "n": "Conjunto de Ferramentas para Remoção de Pelos de Animais, Luvas...",
-    "txt": "*Conjunto de Ferramentas para Remoção de Pelos de Animais, Luvas...*\n\n💰 *R$ 15,60* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c42b93RR\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1533,13 +1533,14 @@
    "1005006863947065": "2026-10-15",
    "1005008559222113": "2026-10-15",
    "shp:4682059998": "2026-10-15",
-   "1005007345090088": "2026-10-15"
+   "1005007345090088": "2026-10-15",
+   "shp:58263335250": "2026-10-15"
   },
   "kw": 433,
-  "ultimo": "2026-10-15 11:22",
+  "ultimo": "2026-10-15 12:02",
   "dia": {
    "d": "2026-10-15",
-   "n": 9
+   "n": 11
   },
   "ml_n": 282,
   "ml_extras": [
@@ -1550,10 +1551,10 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 420,
+  "vez": 3,
+  "shopee_n": 421,
   "shopee_q": {
-   "Celular": 30,
+   "Celular": 31,
    "Tech": 30,
    "Áudio e TV": 30,
    "Games": 30,
