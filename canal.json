@@ -2,8 +2,8 @@
  "_divulgacao": {
   "postados": {
    "cabo-lightning": {
-    "d": "2026-10-11 12:00",
-    "p": 9.14
+    "d": "2026-10-16 12:31",
+    "p": 8.05
    },
    "suporte-veicular": {
     "d": "2026-10-13 12:24",
@@ -67,7 +67,6 @@
    }
   },
   "slots": {
-   "2026-10-06-12": 1,
    "2026-10-06-20": 1,
    "2026-10-07-12": 1,
    "2026-10-07-20": 1,
@@ -86,9 +85,25 @@
    "2026-10-14-12": 1,
    "2026-10-14-20": 1,
    "2026-10-15-12": 1,
-   "2026-10-15-20": 1
+   "2026-10-15-20": 1,
+   "2026-10-16-12": 1
   },
   "fila_zap": [
+   {
+    "d": "16/10 13:11",
+    "n": "Bateria P/ Controle Xbox 360 + 1 Cabo Carregador 1.4m",
+    "txt": "*Bateria P/ Controle Xbox 360 + 1 Cabo Carregador 1.4m*\n\n💰 *R$ 19,98* na Shopee\n⭐ 4,7 · +1,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AAHyzHiIvC\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "16/10 12:51",
+    "n": "Kz edx pro x iem fones de ouvido unidade dinâmica alta fidelidade graves...",
+    "txt": "*Kz edx pro x iem fones de ouvido unidade dinâmica alta fidelidade graves...*\n\n💰 *R$ 38,09* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +20,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3XEVa7T\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "16/10 12:31",
+    "n": "Cabo USB-C para Lightning (iPhone)",
+    "txt": "*Cabo USB-C para Lightning (iPhone)*\n\n💰 *R$ 8,05* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+15,9 mil vendidos na loja\nTambém em: Shopee R$ 13,90 · Mercado Livre R$ 24,90\n\n👉 https://s.click.aliexpress.com/e/_c4qfOWFx\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "16/10 12:01",
     "n": "Mouse gamer RGB 7200 DPI",
@@ -223,21 +238,6 @@
     "d": "15/10 16:56",
     "n": "Blocos de Montar Magnético Construção Bastãos e Bolas Brinquedo Educativo...",
     "txt": "*Blocos de Montar Magnético Construção Bastãos e Bolas Brinquedo Educativo...*\n\n💰 *R$ 27,99* na Shopee\n⭐ 4,9 · +2,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/6q1Vfid0n3\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "15/10 16:36",
-    "n": "Bolsa organizadora para artigos de higiene feminina, estojo para...",
-    "txt": "*Bolsa organizadora para artigos de higiene feminina, estojo para...*\n\n💰 *R$ 15,89* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +21,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c375mEBT\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "15/10 16:16",
-    "n": "Coleira Peitoral Cachorro E Gato, Conjunto De Guia + Coleira Tipo Colete...",
-    "txt": "*Coleira Peitoral Cachorro E Gato, Conjunto De Guia + Coleira Tipo Colete...*\n\n💰 *R$ 15,35* na Shopee\n⭐ 4,9 · +1,9 mil vendidos na loja\n\n👉 https://s.shopee.com.br/4qGRFIaErO\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "15/10 15:56",
-    "n": "Fita de LED RGB Inteligente com Controle Remoto Bluetooth, Fita de Luz de...",
-    "txt": "*Fita de LED RGB Inteligente com Controle Remoto Bluetooth, Fita de Luz de...*\n\n💰 *R$ 26,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3oyS8tr\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1567,15 +1567,17 @@
    "shp:22394836346": "2026-10-16",
    "1005007168828250": "2026-10-16",
    "shp:56215017523": "2026-10-16",
-   "1005008750426047": "2026-10-16"
+   "1005008750426047": "2026-10-16",
+   "1005008289267671": "2026-10-16",
+   "shp:23198779450": "2026-10-16"
   },
-  "kw": 451,
-  "ultimo": "2026-10-16 12:01",
+  "kw": 452,
+  "ultimo": "2026-10-16 13:11",
   "dia": {
    "d": "2026-10-16",
-   "n": 11
+   "n": 14
   },
-  "ml_n": 301,
+  "ml_n": 302,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1584,13 +1586,13 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 447,
+  "vez": 3,
+  "shopee_n": 452,
   "shopee_q": {
-   "Celular": 32,
-   "Tech": 32,
-   "Áudio e TV": 32,
-   "Games": 32,
+   "Celular": 33,
+   "Tech": 33,
+   "Áudio e TV": 33,
+   "Games": 33,
    "Moda": 32,
    "Beleza": 32,
    "Esportes": 32,
@@ -1600,7 +1602,7 @@
    "Carro": 32,
    "Pet": 32,
    "Brinquedos": 32,
-   "Bebês": 31
+   "Bebês": 32
   }
  }
 }
