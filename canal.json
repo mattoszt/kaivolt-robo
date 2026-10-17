@@ -22,8 +22,8 @@
     "p": 84.91
    },
    "suporte-tablet": {
-    "d": "2026-10-12 20:00",
-    "p": 15.08
+    "d": "2026-10-17 20:05",
+    "p": 15.35
    },
    "carregador-20w": {
     "d": "2026-10-16 09:39",
@@ -71,7 +71,6 @@
    }
   },
   "slots": {
-   "2026-10-07-20": 1,
    "2026-10-08-12": 1,
    "2026-10-08-20": 1,
    "2026-10-09-12": 1,
@@ -90,9 +89,25 @@
    "2026-10-15-20": 1,
    "2026-10-16-12": 1,
    "2026-10-16-20": 1,
-   "2026-10-17-12": 1
+   "2026-10-17-12": 1,
+   "2026-10-17-20": 1
   },
   "fila_zap": [
+   {
+    "d": "17/10 20:05",
+    "n": "Suporte de mesa para tablet",
+    "txt": "*Suporte de mesa para tablet*\n\n💰 *R$ 15,35* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+2,3 mil vendidos na loja\nTambém em: Shopee R$ 15,99\n\n👉 https://s.click.aliexpress.com/e/_c38giNln\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "17/10 19:45",
+    "n": "Capa De Silicone Para Volante De Carro Automóveis Multicolorida Elástica...",
+    "txt": "*Capa De Silicone Para Volante De Carro Automóveis Multicolorida Elástica...*\n\n💰 *R$ 16,88* na Shopee\n⭐ 4,8 · +1,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1BNCIgz4Se\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "17/10 19:25",
+    "n": "Soprador Turbo Potente de 580.000 RPM, Aspirador de Pó Sem Fio, Soprador...",
+    "txt": "*Soprador Turbo Potente de 580.000 RPM, Aspirador de Pó Sem Fio, Soprador...*\n\n💰 *R$ 115,10* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3mHYrBF\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "17/10 19:06",
     "n": "Caixa de Ferramentas Profissional 14/16/18/20/23 Polegadas - Bolsa de...",
@@ -227,21 +242,6 @@
     "d": "17/10 09:52",
     "n": "Senbenbao X55 Fones De Ouvido TWS Sono Sem Fio Bluetooth Display Led Alta...",
     "txt": "*Senbenbao X55 Fones De Ouvido TWS Sono Sem Fio Bluetooth Display Led Alta...*\n\n💰 *R$ 16,40* na Shopee\n⭐ 4,8 · +20,2 mil vendidos na loja\n\n👉 https://s.shopee.com.br/3LRcOItKVb\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "17/10 09:32",
-    "n": "Aparador de pelos do nariz elétrico MIJIA, lâmina com revestimento...",
-    "txt": "*Aparador de pelos do nariz elétrico MIJIA, lâmina com revestimento...*\n\n💰 *R$ 65,32* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4CA8QPJ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "17/10 09:07",
-    "n": "Tripé Selfie Stick Extensível com Controle Remoto Sem Fio para Grupos de...",
-    "txt": "*Tripé Selfie Stick Extensível com Controle Remoto Sem Fio para Grupos de...*\n\n💰 *R$ 24,99* na Shopee\n⭐ 4,8 · +1,9 mil vendidos na loja\n\n👉 https://s.shopee.com.br/6L5H5Yn36X\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "17/10 08:47",
-    "n": "Vgr 071 aparador de cabelo profissional máquina de cortar cabelo...",
-    "txt": "*Vgr 071 aparador de cabelo profissional máquina de cortar cabelo...*\n\n💰 *R$ 53,26* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c42Gx4Sz\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1628,15 +1628,17 @@
    "1005007009950627": "2026-10-17",
    "shp:21960376746": "2026-10-17",
    "1005012014002561": "2026-10-17",
-   "shp:22298939116": "2026-10-17"
+   "shp:22298939116": "2026-10-17",
+   "1005011692496508": "2026-10-17",
+   "shp:58261263365": "2026-10-17"
   },
-  "kw": 498,
-  "ultimo": "2026-10-17 19:06",
+  "kw": 499,
+  "ultimo": "2026-10-17 20:05",
   "dia": {
    "d": "2026-10-17",
-   "n": 31
+   "n": 34
   },
-  "ml_n": 331,
+  "ml_n": 332,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1646,7 +1648,7 @@
   ],
   "vez_ml": false,
   "vez": 3,
-  "shopee_n": 500,
+  "shopee_n": 501,
   "shopee_q": {
    "Celular": 36,
    "Tech": 36,
@@ -1658,7 +1660,7 @@
    "Casa": 36,
    "Eletro": 36,
    "Ferramentas": 36,
-   "Carro": 35,
+   "Carro": 36,
    "Pet": 35,
    "Brinquedos": 35,
    "Bebês": 35
