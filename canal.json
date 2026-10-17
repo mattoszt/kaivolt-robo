@@ -34,8 +34,8 @@
     "p": 46.79
    },
    "mouse-sem-fio": {
-    "d": "2026-10-12 12:23",
-    "p": 17.49
+    "d": "2026-10-17 12:27",
+    "p": 18.58
    },
    "carregador-gan-65w": {
     "d": "2026-10-16 09:12",
@@ -71,7 +71,6 @@
    }
   },
   "slots": {
-   "2026-10-07-12": 1,
    "2026-10-07-20": 1,
    "2026-10-08-12": 1,
    "2026-10-08-20": 1,
@@ -90,9 +89,25 @@
    "2026-10-15-12": 1,
    "2026-10-15-20": 1,
    "2026-10-16-12": 1,
-   "2026-10-16-20": 1
+   "2026-10-16-20": 1,
+   "2026-10-17-12": 1
   },
   "fila_zap": [
+   {
+    "d": "17/10 13:07",
+    "n": "Bola de brinquedo inteligente para animais de estimação, brinquedo...",
+    "txt": "*Bola de brinquedo inteligente para animais de estimação, brinquedo...*\n\n💰 *R$ 19,29* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3O8t3rL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "17/10 12:47",
+    "n": "Bolsa de Armazenamento em Feltro para Porta-Malas do Carro, Organizador de...",
+    "txt": "*Bolsa de Armazenamento em Feltro para Porta-Malas do Carro, Organizador de...*\n\n💰 *R$ 80,00* na Shopee\n⭐ 4,9 · +1,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AAHzQgr9WL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "17/10 12:27",
+    "n": "Mouse sem fio silencioso",
+    "txt": "*Mouse sem fio silencioso*\n\n💰 *R$ 18,58* na Shopee\n+6 mil vendidos na loja\nTambém em: AliExpress R$ 19,69\n\n👉 https://s.shopee.com.br/BUeOwl20G\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "17/10 11:50",
     "n": "Mouse Gamer Sem Fio KYSONA Jupiter X Ultra PAW3950 8000Hz 54L15 MCU Fibra...",
@@ -227,21 +242,6 @@
     "d": "16/10 17:29",
     "n": "Lmetjma cortador de mandolina ajustável, fatiador de vegetais em aço...",
     "txt": "*Lmetjma cortador de mandolina ajustável, fatiador de vegetais em aço...*\n\n💰 *R$ 140,09* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +716 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3epAeXx\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "16/10 16:54",
-    "n": "Brinquedo Quebra Cabeça Educativo Montessori Tabuleiros C/ Pinos Animais...",
-    "txt": "*Brinquedo Quebra Cabeça Educativo Montessori Tabuleiros C/ Pinos Animais...*\n\n💰 *R$ 19,90* na Shopee\n⭐ 5,0 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1qcrJIQFi2\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "16/10 16:34",
-    "n": "Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador Pneu...",
-    "txt": "*Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador Pneu...*\n\n💰 *R$ 69,99* na Shopee\n⭐ 4,9 · +2,8 mil vendidos na loja\n\n👉 https://s.shopee.com.br/4B0m4CLJOK\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "16/10 16:14",
-    "n": "Abridor de latas de aço inoxidável multifuncional, abridor de garrafas com...",
-    "txt": "*Abridor de latas de aço inoxidável multifuncional, abridor de garrafas com...*\n\n💰 *R$ 24,49* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3jszM33\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1609,15 +1609,17 @@
    "1005009719281141": "2026-10-17",
    "1005010759531585": "2026-10-17",
    "shp:18925092309": "2026-10-17",
-   "1005012524162015": "2026-10-17"
+   "1005012524162015": "2026-10-17",
+   "shp:58267939235": "2026-10-17",
+   "1005010089098893": "2026-10-17"
   },
-  "kw": 482,
-  "ultimo": "2026-10-17 11:50",
+  "kw": 483,
+  "ultimo": "2026-10-17 13:07",
   "dia": {
    "d": "2026-10-17",
-   "n": 11
+   "n": 14
   },
-  "ml_n": 322,
+  "ml_n": 323,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1627,7 +1629,7 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 486,
+  "shopee_n": 487,
   "shopee_q": {
    "Celular": 35,
    "Tech": 35,
@@ -1639,7 +1641,7 @@
    "Casa": 35,
    "Eletro": 35,
    "Ferramentas": 35,
-   "Carro": 34,
+   "Carro": 35,
    "Pet": 34,
    "Brinquedos": 34,
    "Bebês": 34
