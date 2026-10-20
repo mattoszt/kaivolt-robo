@@ -42,7 +42,7 @@
     "p": 56.28
    },
    "fone-tws": {
-    "d": "2026-10-15 20:10",
+    "d": "2026-10-20 20:11",
     "p": 20.09
    },
    "teclado-tablet": {
@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-10-20": 1,
    "2026-10-11-12": 1,
    "2026-10-11-20": 1,
    "2026-10-12-12": 1,
@@ -98,9 +97,25 @@
    "2026-10-18-20": 1,
    "2026-10-19-12": 1,
    "2026-10-19-20": 1,
-   "2026-10-20-12": 1
+   "2026-10-20-12": 1,
+   "2026-10-20-20": 1
   },
   "fila_zap": [
+   {
+    "d": "20/10 20:11",
+    "n": "Fone Bluetooth TWS",
+    "txt": "*Fone Bluetooth TWS*\n\n💰 *R$ 20,09* na Shopee\n+3,6 mil vendidos na loja\nTambém em: AliExpress R$ 25,39 · Mercado Livre R$ 146,00\n\n👉 https://s.shopee.com.br/7VHJyejYHx\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "20/10 19:51",
+    "n": "Smartwatch S10 Pro Relogio Inteligente Serie 10 Bluetooth Chamada...",
+    "txt": "*Smartwatch S10 Pro Relogio Inteligente Serie 10 Bluetooth Chamada...*\n\n💰 *R$ 54,90* na Shopee\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/LoA6FJape\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "20/10 19:31",
+    "n": "Fones de Ouvido Sem Fio QCY H3 ANC Hi-Res Audio Bluetooth 5.4 Over Ear com...",
+    "txt": "*Fones de Ouvido Sem Fio QCY H3 ANC Hi-Res Audio Bluetooth 5.4 Over Ear com...*\n\n💰 *R$ 152,72* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +5,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4L2kHxF\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "20/10 19:12",
     "n": "Para tesla modelo y juniper 2025 sob o assento caixa de armazenamento...",
@@ -235,21 +250,6 @@
     "d": "20/10 10:20",
     "n": "Escova Secadora de Cabelo 4 em 1 110V/220V – Alisador Elétrico Quente e...",
     "txt": "*Escova Secadora de Cabelo 4 em 1 110V/220V – Alisador Elétrico Quente e...*\n\n💰 *R$ 49,88* na Shopee\n⭐ 4,8 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/5VWFcWiym5\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/10 10:00",
-    "n": "Moderna lâmpada de parede led minimalista luz led quarto cabeceira longa...",
-    "txt": "*Moderna lâmpada de parede led minimalista luz led quarto cabeceira longa...*\n\n💰 *R$ 84,76* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +633 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3zrwbet\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/10 09:40",
-    "n": "Tênis Infantil Casual Masculino Menino Confortável Solado Macio 26 ao 33...",
-    "txt": "*Tênis Infantil Casual Masculino Menino Confortável Solado Macio 26 ao 33...*\n\n💰 *R$ 48,99* na Shopee\n⭐ 4,9 · +2,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/5VWFZkV07d\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/10 09:12",
-    "n": "Carregador Veicular Baseus 30W 60W PD3.0 USB Tipo C para iPhone Séries...",
-    "txt": "*Carregador Veicular Baseus 30W 60W PD3.0 USB Tipo C para iPhone Séries...*\n\n💰 *R$ 28,39* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 5,0 · +1,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c31IMNjF\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1748,15 +1748,17 @@
    "shp:47363191123": "2026-10-20",
    "1005008248055606": "2026-10-20",
    "shp:54500982919": "2026-10-20",
-   "1005008972029878": "2026-10-20"
+   "1005008972029878": "2026-10-20",
+   "1005012204345276": "2026-10-20",
+   "shp:18399889068": "2026-10-20"
   },
-  "kw": 595,
-  "ultimo": "2026-10-20 19:12",
+  "kw": 596,
+  "ultimo": "2026-10-20 20:11",
   "dia": {
    "d": "2026-10-20",
-   "n": 32
+   "n": 35
   },
-  "ml_n": 393,
+  "ml_n": 394,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1765,11 +1767,11 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 586,
+  "vez": 3,
+  "shopee_n": 590,
   "shopee_q": {
-   "Celular": 42,
-   "Tech": 42,
+   "Celular": 43,
+   "Tech": 43,
    "Áudio e TV": 42,
    "Games": 42,
    "Moda": 42,
@@ -1780,8 +1782,8 @@
    "Ferramentas": 42,
    "Carro": 42,
    "Pet": 42,
-   "Brinquedos": 41,
-   "Bebês": 41
+   "Brinquedos": 42,
+   "Bebês": 42
   }
  }
 }
