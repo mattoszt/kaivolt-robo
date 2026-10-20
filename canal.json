@@ -46,8 +46,8 @@
     "p": 20.09
    },
    "teclado-tablet": {
-    "d": "2026-10-15 12:02",
-    "p": 45.87
+    "d": "2026-10-20 12:02",
+    "p": 41.99
    },
    "caixa-som": {
     "d": "2026-10-19 08:33",
@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-10-12": 1,
    "2026-10-10-20": 1,
    "2026-10-11-12": 1,
    "2026-10-11-20": 1,
@@ -98,9 +97,20 @@
    "2026-10-18-12": 1,
    "2026-10-18-20": 1,
    "2026-10-19-12": 1,
-   "2026-10-19-20": 1
+   "2026-10-19-20": 1,
+   "2026-10-20-12": 1
   },
   "fila_zap": [
+   {
+    "d": "20/10 12:02",
+    "n": "Teclado Bluetooth para tablet",
+    "txt": "*Teclado Bluetooth para tablet*\n\n💰 *R$ 41,99* na Shopee\n+3,2 mil vendidos na loja\nTambém em: Mercado Livre R$ 49,90 · AliExpress R$ 50,09\n\n👉 https://s.shopee.com.br/5LCpJgtI3P\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "20/10 11:42",
+    "n": "Jogo de Lençol Queen 400 fios Luna 3 Peças Casal Solteiro Ponto Palito...",
+    "txt": "*Jogo de Lençol Queen 400 fios Luna 3 Peças Casal Solteiro Ponto Palito...*\n\n💰 *R$ 25,99* na Shopee\n⭐ 4,9 · +7,8 mil vendidos na loja\n\n👉 https://s.shopee.com.br/4B0s7i1H1J\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "20/10 11:22",
     "n": "Fones de Ouvido KZ Eldar com Driver Dinâmico 1DD, IEM Balanceado, Monitor...",
@@ -240,16 +250,6 @@
     "d": "19/10 16:34",
     "n": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI Wifi...",
     "txt": "*Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI Wifi...*\n\n💰 *R$ 199,99* na Shopee\n⭐ 4,8 · +1,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/3g4aFwSvpM\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "19/10 16:17",
-    "n": "Conjunto de Pontas de Chave de Fenda Hexagonal com Ponta Esférica, Chave...",
-    "txt": "*Conjunto de Pontas de Chave de Fenda Hexagonal com Ponta Esférica, Chave...*\n\n💰 *R$ 17,52* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3USDcyD\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "19/10 15:57",
-    "n": "Suporte para Telefone Móvel de Motocicleta e Bicicleta Elétrica com...",
-    "txt": "*Suporte para Telefone Móvel de Motocicleta e Bicicleta Elétrica com...*\n\n💰 *R$ 61,60* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4OJCH1B\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1726,13 +1726,14 @@
    "shp:58251587379": "2026-10-20",
    "1005010572688811": "2026-10-20",
    "shp:22499437358": "2026-10-20",
-   "1005011526149696": "2026-10-20"
+   "1005011526149696": "2026-10-20",
+   "shp:10220123465": "2026-10-20"
   },
   "kw": 582,
-  "ultimo": "2026-10-20 11:22",
+  "ultimo": "2026-10-20 12:02",
   "dia": {
    "d": "2026-10-20",
-   "n": 9
+   "n": 11
   },
   "ml_n": 381,
   "ml_extras": [
@@ -1743,8 +1744,8 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 567,
+  "vez": 3,
+  "shopee_n": 568,
   "shopee_q": {
    "Celular": 41,
    "Tech": 41,
@@ -1753,7 +1754,7 @@
    "Moda": 41,
    "Beleza": 41,
    "Esportes": 41,
-   "Casa": 40,
+   "Casa": 41,
    "Eletro": 40,
    "Ferramentas": 40,
    "Carro": 40,
