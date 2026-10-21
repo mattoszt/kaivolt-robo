@@ -10,8 +10,8 @@
     "p": 11.99
    },
    "powerbank-10000": {
-    "d": "2026-10-05 18:32",
-    "p": 36.55
+    "d": "2026-10-21 18:52",
+    "p": 39.08
    },
    "cabo-usbc-100w": {
     "d": "2026-10-19 08:53",
@@ -101,6 +101,21 @@
    "2026-10-21-12": 1
   },
   "fila_zap": [
+   {
+    "d": "21/10 19:12",
+    "n": "Mini Mixer Portátil Misturador de Bebidas Batedor Espumador Leite USB...",
+    "txt": "*Mini Mixer Portátil Misturador de Bebidas Batedor Espumador Leite USB...*\n\n💰 *R$ 19,99* na Shopee\n⭐ 4,9 · +3,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1LgiqIUHJw\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "21/10 18:52",
+    "n": "Power Bank 10.000 mAh com carga rápida",
+    "txt": "*Power Bank 10.000 mAh com carga rápida*\n\n🔻 Caiu 15%: era R$ 45,89 nos últimos dias\n💰 *R$ 39,08* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+706 vendidos na loja\nTambém em: Shopee R$ 44,06 · Mercado Livre R$ 89,98\n\n👉 https://s.click.aliexpress.com/e/_c3b8JAHb\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "21/10 18:32",
+    "n": "Fone de ouvido sem fio para jogos MCHOSE V9 Pro Tri-Mode, 2.4G e Bluetooth...",
+    "txt": "*Fone de ouvido sem fio para jogos MCHOSE V9 Pro Tri-Mode, 2.4G e Bluetooth...*\n\n💰 *R$ 209,61* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,7 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3Vi9hFj\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "21/10 18:12",
     "n": "Massageador Elétrico Profissional Muscular Pistola Original Massagem Gun",
@@ -235,21 +250,6 @@
     "d": "21/10 08:54",
     "n": "Balança Digital Alta Precisão até 10kg Cozinha Dieta Alimentos Super...",
     "txt": "*Balança Digital Alta Precisão até 10kg Cozinha Dieta Alimentos Super...*\n\n💰 *R$ 16,90* na Shopee\n⭐ 4,9 · +5,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/30ovTHduml\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "21/10 08:34",
-    "n": "Mouse gamer RGB 7200 DPI",
-    "txt": "*Mouse gamer RGB 7200 DPI*\n\n🔻 Caiu 12%: era R$ 28,39 nos últimos dias\n💰 *R$ 25,04* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+162 vendidos na loja\nTambém em: Shopee R$ 44,62 · Mercado Livre R$ 104,54\n\n👉 https://s.click.aliexpress.com/e/_c3MgxaPf\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/10 22:57",
-    "n": "TOPK 4 Polegadas USB Mini Ventilador Portátil para Acampamento, Ventilador...",
-    "txt": "*TOPK 4 Polegadas USB Mini Ventilador Portátil para Acampamento, Ventilador...*\n\n💰 *R$ 29,01* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +17,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3j2Sy29\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/10 22:37",
-    "n": "20 Gancho De Parede Forte Transparente Com Ventosa Para Cozinha / Banheiro...",
-    "txt": "*20 Gancho De Parede Forte Transparente Com Ventosa Para Cozinha / Banheiro...*\n\n💰 *R$ 15,99* na Shopee\n⭐ 4,7 · +2,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/BUk5JLDkR\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1783,15 +1783,17 @@
    "1005012438706201": "2026-10-21",
    "shp:22894233535": "2026-10-21",
    "1005006995365103": "2026-10-21",
-   "shp:23698124308": "2026-10-21"
+   "shp:23698124308": "2026-10-21",
+   "1005009508910625": "2026-10-21",
+   "shp:22094896315": "2026-10-21"
   },
-  "kw": 617,
-  "ultimo": "2026-10-21 18:12",
+  "kw": 618,
+  "ultimo": "2026-10-21 19:12",
   "dia": {
    "d": "2026-10-21",
-   "n": 28
+   "n": 31
   },
-  "ml_n": 412,
+  "ml_n": 413,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1801,7 +1803,7 @@
   ],
   "vez_ml": false,
   "vez": 3,
-  "shopee_n": 623,
+  "shopee_n": 625,
   "shopee_q": {
    "Celular": 45,
    "Tech": 45,
@@ -1810,8 +1812,8 @@
    "Moda": 45,
    "Beleza": 45,
    "Esportes": 45,
-   "Casa": 44,
-   "Eletro": 44,
+   "Casa": 45,
+   "Eletro": 45,
    "Ferramentas": 44,
    "Carro": 44,
    "Pet": 44,
