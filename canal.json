@@ -30,8 +30,8 @@
     "p": 15.21
    },
    "powerbank-20000": {
-    "d": "2026-10-14 20:10",
-    "p": 46.79
+    "d": "2026-10-21 12:01",
+    "p": 45.99
    },
    "mouse-sem-fio": {
     "d": "2026-10-17 12:27",
@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-11-12": 1,
    "2026-10-11-20": 1,
    "2026-10-12-12": 1,
    "2026-10-12-20": 1,
@@ -98,9 +97,20 @@
    "2026-10-19-12": 1,
    "2026-10-19-20": 1,
    "2026-10-20-12": 1,
-   "2026-10-20-20": 1
+   "2026-10-20-20": 1,
+   "2026-10-21-12": 1
   },
   "fila_zap": [
+   {
+    "d": "21/10 12:01",
+    "n": "Power Bank 20.000 mAh",
+    "txt": "*Power Bank 20.000 mAh*\n\n💰 *R$ 45,99* na Shopee\n+984 vendidos na loja\nTambém em: AliExpress R$ 46,79 · Mercado Livre R$ 136,88\n\n👉 https://s.shopee.com.br/6L5O2LLemq\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "21/10 11:41",
+    "n": "VGR 353 Barbeador elétrico recarregável de lâmina única Pro para homens...",
+    "txt": "*VGR 353 Barbeador elétrico recarregável de lâmina única Pro para homens...*\n\n💰 *R$ 41,61* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +10,4 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4DZCBoz\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "21/10 11:21",
     "n": "SUPORTE Articulado de Parede para Tv/monitor 32\" A 55\"",
@@ -240,16 +250,6 @@
     "d": "20/10 16:35",
     "n": "Processador de Alimentos Multifuncional 16 em 1 com Cabo, Ralador...",
     "txt": "*Processador de Alimentos Multifuncional 16 em 1 com Cabo, Ralador...*\n\n💰 *R$ 94,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3RdH6CD\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/10 16:16",
-    "n": "Garrafa Personalizada Nome Alumínio 600ml Clean Hidratação c/ Alça...",
-    "txt": "*Garrafa Personalizada Nome Alumínio 600ml Clean Hidratação c/ Alça...*\n\n💰 *R$ 23,88* na Shopee\n⭐ 4,7 · +2,8 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1gJXRvo18K\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/10 15:56",
-    "n": "por pacote mini alicates de silicone colorido de aço inoxidável, clipe de...",
-    "txt": "*por pacote mini alicates de silicone colorido de aço inoxidável, clipe de...*\n\n💰 *R$ 23,21* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +864 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4Cjn4cD\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1765,15 +1765,16 @@
    "1005007171197331": "2026-10-21",
    "shp:22093160276": "2026-10-21",
    "1005010271025726": "2026-10-21",
-   "shp:58212490237": "2026-10-21"
+   "shp:58212490237": "2026-10-21",
+   "1005007129391382": "2026-10-21"
   },
-  "kw": 606,
-  "ultimo": "2026-10-21 11:21",
+  "kw": 607,
+  "ultimo": "2026-10-21 12:01",
   "dia": {
    "d": "2026-10-21",
-   "n": 9
+   "n": 11
   },
-  "ml_n": 402,
+  "ml_n": 403,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1782,7 +1783,7 @@
    }
   ],
   "vez_ml": false,
-  "vez": 3,
+  "vez": 2,
   "shopee_n": 605,
   "shopee_q": {
    "Celular": 44,
