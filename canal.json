@@ -6,7 +6,7 @@
     "p": 9.74
    },
    "suporte-veicular": {
-    "d": "2026-10-18 20:06",
+    "d": "2026-10-24 12:06",
     "p": 11.99
    },
    "powerbank-10000": {
@@ -18,8 +18,8 @@
     "p": 10.11
    },
    "powerbank-magsafe": {
-    "d": "2026-10-23 11:55",
-    "p": 84.91
+    "d": "2026-10-24 11:26",
+    "p": 77.94
    },
    "suporte-tablet": {
     "d": "2026-10-17 20:05",
@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-13-12": 1,
    "2026-10-13-20": 1,
    "2026-10-14-12": 1,
    "2026-10-14-20": 1,
@@ -98,9 +97,25 @@
    "2026-10-21-12": 1,
    "2026-10-21-20": 1,
    "2026-10-22-20": 1,
-   "2026-10-23-12": 1
+   "2026-10-23-12": 1,
+   "2026-10-24-12": 1
   },
   "fila_zap": [
+   {
+    "d": "24/10 12:06",
+    "n": "Suporte veicular magnético",
+    "txt": "*Suporte veicular magnético*\n\n💰 *R$ 11,99* na Shopee\n+6,2 mil vendidos na loja\nTambém em: AliExpress R$ 13,51 · Mercado Livre R$ 24,99\n\n👉 https://s.shopee.com.br/4fxDx0Aeyq\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "24/10 11:46",
+    "n": "2 unidades de preenchimento para o espaço entre os bancos do carro, tira...",
+    "txt": "*2 unidades de preenchimento para o espaço entre os bancos do carro, tira...*\n\n💰 *R$ 17,47* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +6,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4nbNaUX\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "24/10 11:26",
+    "n": "Power Bank magnético (MagSafe)",
+    "txt": "*Power Bank magnético (MagSafe)*\n\n🔻 Caiu 26%: era R$ 105,94 nos últimos dias\n💰 *R$ 77,94* na Shopee\n+314 vendidos na loja\nTambém em: Mercado Livre R$ 84,91\n\n👉 https://s.shopee.com.br/4LKKwSfovQ\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "23/10 22:13",
     "n": "Carregador iPhone Turbo Tipo-C 20W + Cabo Lightining para IPhone Carga...",
@@ -235,21 +250,6 @@
     "d": "21/10 19:32",
     "n": "Corda de Pular Sem Fio com Rolamento Duplo para Treinamento Fitness e...",
     "txt": "*Corda de Pular Sem Fio com Rolamento Duplo para Treinamento Fitness e...*\n\n💰 *R$ 23,24* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3GpiyJB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "21/10 19:12",
-    "n": "Mini Mixer Portátil Misturador de Bebidas Batedor Espumador Leite USB...",
-    "txt": "*Mini Mixer Portátil Misturador de Bebidas Batedor Espumador Leite USB...*\n\n💰 *R$ 19,99* na Shopee\n⭐ 4,9 · +3,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/1LgiqIUHJw\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "21/10 18:52",
-    "n": "Power Bank 10.000 mAh com carga rápida",
-    "txt": "*Power Bank 10.000 mAh com carga rápida*\n\n🔻 Caiu 15%: era R$ 45,89 nos últimos dias\n💰 *R$ 39,08* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+706 vendidos na loja\nTambém em: Shopee R$ 44,06 · Mercado Livre R$ 89,98\n\n👉 https://s.click.aliexpress.com/e/_c3b8JAHb\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "21/10 18:32",
-    "n": "Fone de ouvido sem fio para jogos MCHOSE V9 Pro Tri-Mode, 2.4G e Bluetooth...",
-    "txt": "*Fone de ouvido sem fio para jogos MCHOSE V9 Pro Tri-Mode, 2.4G e Bluetooth...*\n\n💰 *R$ 209,61* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,7 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3Vi9hFj\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1804,15 +1804,16 @@
    "1005012649993817": "2026-10-23",
    "shp:58263249722": "2026-10-24",
    "1005006863862389": "2026-10-24",
-   "shp:22392685500": "2026-10-24"
+   "shp:22392685500": "2026-10-24",
+   "1005012983812567": "2026-10-24"
   },
-  "kw": 630,
-  "ultimo": "2026-10-23 22:13",
+  "kw": 631,
+  "ultimo": "2026-10-24 12:06",
   "dia": {
    "d": "2026-10-24",
-   "n": 0
+   "n": 3
   },
-  "ml_n": 424,
+  "ml_n": 425,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1821,7 +1822,7 @@
    }
   ],
   "vez_ml": false,
-  "vez": 3,
+  "vez": 2,
   "shopee_n": 645,
   "shopee_q": {
    "Celular": 47,
