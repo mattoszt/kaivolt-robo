@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-14-12": 1,
    "2026-10-14-20": 1,
    "2026-10-15-12": 1,
    "2026-10-15-20": 1,
@@ -98,9 +97,25 @@
    "2026-10-22-20": 1,
    "2026-10-23-12": 1,
    "2026-10-24-12": 1,
-   "2026-10-24-20": 1
+   "2026-10-24-20": 1,
+   "2026-10-26-20": 1
   },
   "fila_zap": [
+   {
+    "d": "26/10 21:25",
+    "n": "Kit 50/40/30/20/10 Máscara Labial Pink Cristal Hidratante para Lábios |...",
+    "txt": "*Kit 50/40/30/20/10 Máscara Labial Pink Cristal Hidratante para Lábios |...*\n\n💰 *R$ 15,50* na Shopee\n⭐ 5,0 · +1,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/7fauVWPhzu\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "26/10 21:05",
+    "n": "Cabo 2.1 compatível com hdmi, ultra alta velocidade, 8k/60hz, 4k/120hz...",
+    "txt": "*Cabo 2.1 compatível com hdmi, ultra alta velocidade, 8k/60hz, 4k/120hz...*\n\n💰 *R$ 17,50* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +5,1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c38PQqDv\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "26/10 20:45",
+    "n": "Carteira Masculina Couro P.U - THE MAN.",
+    "txt": "*Carteira Masculina Couro P.U - THE MAN.*\n\n💰 *R$ 16,99* na Shopee\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/906I3E5mIM\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "26/10 16:50",
     "n": "Adaptador Carplay 4 em 1 Novo e Atualizado 2026, Wireless, Android Auto...",
@@ -235,21 +250,6 @@
     "d": "24/10 20:06",
     "n": "Power Bank 10.000 mAh com carga rápida",
     "txt": "*Power Bank 10.000 mAh com carga rápida*\n\n🔻 Caiu 15%: era R$ 45,89 nos últimos dias\n💰 *R$ 39,08* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+719 vendidos na loja\nTambém em: Shopee R$ 44,06 · Mercado Livre R$ 89,99\n\n👉 https://s.click.aliexpress.com/e/_c3HDQegf\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "24/10 18:20",
-    "n": "Saco de armazenamento de cabo usb multifuncional viagem portátil linha...",
-    "txt": "*Saco de armazenamento de cabo usb multifuncional viagem portátil linha...*\n\n💰 *R$ 15,13* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +14,5 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3OBNt6n\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "24/10 18:00",
-    "n": "Bola Campo Topper Resistente Para Jogos e Treinos",
-    "txt": "*Bola Campo Topper Resistente Para Jogos e Treinos*\n\n💰 *R$ 69,99* na Shopee\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.shopee.com.br/LoGMBicLz\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "24/10 17:40",
-    "n": "Garrafa Térmica de 800ml/1000ml para Água Fria e Quente, Termos para Água...",
-    "txt": "*Garrafa Térmica de 800ml/1000ml para Água Fria e Quente, Termos para Água...*\n\n💰 *R$ 54,09* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +7,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c40xYtc7\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1834,15 +1834,18 @@
    "1005010487383304": "2026-10-26",
    "shp:23694205380": "2026-10-26",
    "1005010044152501": "2026-10-26",
-   "1005012910419762": "2026-10-26"
+   "1005012910419762": "2026-10-26",
+   "shp:58266505350": "2026-10-26",
+   "1005006995745620": "2026-10-27",
+   "shp:23398747829": "2026-10-27"
   },
-  "kw": 648,
-  "ultimo": "2026-10-26 16:50",
+  "kw": 649,
+  "ultimo": "2026-10-26 21:25",
   "dia": {
    "d": "2026-10-26",
-   "n": 6
+   "n": 9
   },
-  "ml_n": 440,
+  "ml_n": 441,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1851,15 +1854,15 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 674,
+  "vez": 3,
+  "shopee_n": 678,
   "shopee_q": {
    "Celular": 49,
    "Tech": 49,
-   "Áudio e TV": 48,
-   "Games": 48,
-   "Moda": 48,
-   "Beleza": 48,
+   "Áudio e TV": 49,
+   "Games": 49,
+   "Moda": 49,
+   "Beleza": 49,
    "Esportes": 48,
    "Casa": 48,
    "Eletro": 48,
