@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-14-20": 1,
    "2026-10-15-12": 1,
    "2026-10-15-20": 1,
    "2026-10-16-12": 1,
@@ -98,9 +97,20 @@
    "2026-10-23-12": 1,
    "2026-10-24-12": 1,
    "2026-10-24-20": 1,
-   "2026-10-26-20": 1
+   "2026-10-26-20": 1,
+   "2026-10-28-12": 1
   },
   "fila_zap": [
+   {
+    "d": "28/10 13:15",
+    "n": "Suporte de Parede para Vassouras e Rodos em Aço Inoxidável Reforçado com...",
+    "txt": "*Suporte de Parede para Vassouras e Rodos em Aço Inoxidável Reforçado com...*\n\n💰 *R$ 30,39* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c32lC06R\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "28/10 12:55",
+    "n": "Jaqueta Corta Vento Feminino Repelente a Agua Super Leve Facil de Guardar...",
+    "txt": "*Jaqueta Corta Vento Feminino Repelente a Agua Super Leve Facil de Guardar...*\n\n💰 *R$ 37,36* na Shopee\n⭐ 4,9 · +1,1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/4LKVA9JsGs\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "27/10 22:50",
     "n": "Cabo USB C UGREEN UNO PD100W de Carregamento Rápido para iPhone 17 16 15...",
@@ -240,16 +250,6 @@
     "d": "25/10 13:41",
     "n": "Barrcur masculino polarizado sunclasses tr90 leve pesca viagem óculos de...",
     "txt": "*Barrcur masculino polarizado sunclasses tr90 leve pesca viagem óculos de...*\n\n💰 *R$ 22,27* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +9,5 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3zuajcL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "25/10 13:21",
-    "n": "Caixa de som Bluetooth portátil",
-    "txt": "*Caixa de som Bluetooth portátil*\n\n🔻 Caiu 12%: era R$ 47,29 nos últimos dias\n💰 *R$ 41,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+4,8 mil vendidos na loja\nTambém em: Shopee R$ 46,98\n\n👉 https://s.click.aliexpress.com/e/_c3FaCaWj\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "25/10 13:01",
-    "n": "Cabo USB-C 100W trançado 2 metros",
-    "txt": "*Cabo USB-C 100W trançado 2 metros*\n\n🔻 Caiu 16%: era R$ 11,91 nos últimos dias\n💰 *R$ 10,02* no AliExpress\nInternacional · chega em 1 a 4 semanas\n+5,5 mil vendidos na loja\nTambém em: Shopee R$ 13,79 · Mercado Livre R$ 23,99\n\n👉 https://s.click.aliexpress.com/e/_c3Xpzb9H\nCompare todas as lojas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1846,15 +1846,17 @@
    "shp:47210210282": "2026-10-27",
    "shp:41019740801": "2026-10-28",
    "1005007635370831": "2026-10-28",
-   "1005003635923396": "2026-10-28"
+   "1005003635923396": "2026-10-28",
+   "shp:22691898961": "2026-10-28",
+   "1005012655638404": "2026-10-28"
   },
-  "kw": 657,
-  "ultimo": "2026-10-27 22:50",
+  "kw": 658,
+  "ultimo": "2026-10-28 13:15",
   "dia": {
    "d": "2026-10-28",
-   "n": 0
+   "n": 2
   },
-  "ml_n": 447,
+  "ml_n": 448,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1864,13 +1866,13 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 689,
+  "shopee_n": 691,
   "shopee_q": {
    "Celular": 50,
    "Tech": 50,
    "Áudio e TV": 50,
-   "Games": 49,
-   "Moda": 49,
+   "Games": 50,
+   "Moda": 50,
    "Beleza": 49,
    "Esportes": 49,
    "Casa": 49,
