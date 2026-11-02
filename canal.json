@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-16-20": 1,
    "2026-10-17-12": 1,
    "2026-10-17-20": 1,
    "2026-10-18-12": 1,
@@ -98,9 +97,25 @@
    "2026-10-28-12": 1,
    "2026-10-30-20": 1,
    "2026-11-01-12": 1,
-   "2026-11-01-20": 1
+   "2026-11-01-20": 1,
+   "2026-11-02-12": 1
   },
   "fila_zap": [
+   {
+    "d": "02/11 13:15",
+    "n": "Carregador Sem Fio de 15W para Carro, Suporte para Telefone com Luz RGB...",
+    "txt": "*Carregador Sem Fio de 15W para Carro, Suporte para Telefone com Luz RGB...*\n\n💰 *R$ 49,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4XabKiF\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "02/11 12:55",
+    "n": "Scvcn óculos de visão noturna ciclismo óculos de condução moda polarizada...",
+    "txt": "*Scvcn óculos de visão noturna ciclismo óculos de condução moda polarizada...*\n\n💰 *R$ 23,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c34P0T6f\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "02/11 12:35",
+    "n": "Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit...",
+    "txt": "*Parafusadeira Furadeira 25V Nakasaki Sem Fio a Bateria Profissional Kit...*\n\n💰 *R$ 89,99* na Shopee\n⭐ 4,9 · +3,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/6q1y5pAOL3\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "01/11 21:09",
     "n": "​ Ulanzi TT88 Overhead Selfie Stick Tripé sem fio Magsafe e clipe de...",
@@ -235,21 +250,6 @@
     "d": "30/10 16:11",
     "n": "Não puxe o arnês do cão, Colete acolchoado macio ajustável, alça de...",
     "txt": "*Não puxe o arnês do cão, Colete acolchoado macio ajustável, alça de...*\n\n💰 *R$ 52,39* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3bmFQYL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 11:40",
-    "n": "Almofada De Banho Infantil c/ Trava Segura Regulável Antiderrapante p...",
-    "txt": "*Almofada De Banho Infantil c/ Trava Segura Regulável Antiderrapante p...*\n\n💰 *R$ 34,99* na Shopee\n⭐ 4,9 · +1,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/5VWVevhDhJ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 11:20",
-    "n": "Brinquedos interativos para gatos 3F: brinquedo de treinamento com...",
-    "txt": "*Brinquedos interativos para gatos 3F: brinquedo de treinamento com...*\n\n💰 *R$ 83,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4P1u2KB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 11:00",
-    "n": "Mouse Gamer Sem Fio AJAZZ AJ139 V2 MC/AJ139 PRO com Sensor PAW3311/PAW3395...",
-    "txt": "*Mouse Gamer Sem Fio AJAZZ AJ139 V2 MC/AJ139 PRO com Sensor PAW3311/PAW3395...*\n\n💰 *R$ 127,82* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3DHbS6R\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1890,15 +1890,18 @@
    "1005013266302236": "2026-11-01",
    "1005011743758411": "2026-11-01",
    "shp:23094819028": "2026-11-01",
-   "1005009791864974": "2026-11-02"
+   "1005009791864974": "2026-11-02",
+   "shp:58217601055": "2026-11-02",
+   "1005012014086255": "2026-11-02",
+   "1005012308662113": "2026-11-02"
   },
-  "kw": 703,
-  "ultimo": "2026-11-01 21:09",
+  "kw": 705,
+  "ultimo": "2026-11-02 13:15",
   "dia": {
    "d": "2026-11-02",
-   "n": 0
+   "n": 3
   },
-  "ml_n": 477,
+  "ml_n": 479,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1908,7 +1911,7 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 764,
+  "shopee_n": 769,
   "shopee_q": {
    "Celular": 55,
    "Tech": 55,
@@ -1918,11 +1921,11 @@
    "Beleza": 55,
    "Esportes": 55,
    "Casa": 55,
-   "Eletro": 54,
-   "Ferramentas": 54,
-   "Carro": 54,
-   "Pet": 54,
-   "Brinquedos": 54,
+   "Eletro": 55,
+   "Ferramentas": 55,
+   "Carro": 55,
+   "Pet": 55,
+   "Brinquedos": 55,
    "Bebês": 54
   }
  }
