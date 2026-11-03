@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-17-20": 1,
    "2026-10-18-12": 1,
    "2026-10-18-20": 1,
    "2026-10-19-12": 1,
@@ -98,9 +97,25 @@
    "2026-11-01-12": 1,
    "2026-11-01-20": 1,
    "2026-11-02-12": 1,
-   "2026-11-02-20": 1
+   "2026-11-02-20": 1,
+   "2026-11-03-12": 1
   },
   "fila_zap": [
+   {
+    "d": "03/11 12:39",
+    "n": "5v usb tuya zigbee 3.0 cob led luz de tira 1m-5m branco quente flexível...",
+    "txt": "*5v usb tuya zigbee 3.0 cob led luz de tira 1m-5m branco quente flexível...*\n\n💰 *R$ 39,73* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3xov7c7\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "03/11 12:19",
+    "n": "Organizador de Cosmético Porta Pincel Maquiagem Penteadeira 4 Divisórias...",
+    "txt": "*Organizador de Cosmético Porta Pincel Maquiagem Penteadeira 4 Divisórias...*\n\n💰 *R$ 15,99* na Shopee\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/W7w7z59ac\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "03/11 11:59",
+    "n": "Toocki 4 em 1 carregador de carro retrátil 105w carregador de telefone...",
+    "txt": "*Toocki 4 em 1 carregador de carro retrátil 105w carregador de telefone...*\n\n💰 *R$ 85,13* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c33kX92n\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "02/11 21:05",
     "n": "Fone de Ouvido Bluetooth Sem Fio J760- Cancelamento de Ruído Conforto",
@@ -235,21 +250,6 @@
     "d": "31/10 09:12",
     "n": "1 unidade de faixa de proteção para a patela em couro de vaca, protetor de...",
     "txt": "*1 unidade de faixa de proteção para a patela em couro de vaca, protetor de...*\n\n💰 *R$ 18,25* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +534 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3hpP9gX\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 21:17",
-    "n": "Jogo de Lençol Padronado 500 Fios Cama Solteiro Casal Queen King Micro...",
-    "txt": "*Jogo de Lençol Padronado 500 Fios Cama Solteiro Casal Queen King Micro...*\n\n💰 *R$ 39,99* na Shopee\n⭐ 4,9 · +1,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/6AmD5mT75J\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 20:57",
-    "n": "Mchose x9 e-sports gaming headset enc isolamento de ruído 360 microfone...",
-    "txt": "*Mchose x9 e-sports gaming headset enc isolamento de ruído 360 microfone...*\n\n💰 *R$ 361,61* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,6 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3KwcwUL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 20:37",
-    "n": "Camisa Masculina Cotton Peruano 40.1 Tecido Grosso de Alta Gramatura com...",
-    "txt": "*Camisa Masculina Cotton Peruano 40.1 Tecido Grosso de Alta Gramatura com...*\n\n💰 *R$ 39,90* na Shopee\n⭐ 4,9 · +1,9 mil vendidos na loja\n\n👉 https://s.shopee.com.br/2VsugK1uCB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1896,15 +1896,18 @@
    "1005012308662113": "2026-11-02",
    "shp:45004572291": "2026-11-02",
    "1005010348318908": "2026-11-02",
-   "shp:58262957321": "2026-11-03"
+   "shp:58262957321": "2026-11-03",
+   "1005009672170547": "2026-11-03",
+   "shp:23393888849": "2026-11-03",
+   "1005007805634254": "2026-11-03"
   },
-  "kw": 706,
-  "ultimo": "2026-11-02 21:05",
+  "kw": 708,
+  "ultimo": "2026-11-03 12:39",
   "dia": {
    "d": "2026-11-03",
-   "n": 0
+   "n": 3
   },
-  "ml_n": 480,
+  "ml_n": 482,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1913,15 +1916,15 @@
    }
   ],
   "vez_ml": false,
-  "vez": 3,
-  "shopee_n": 773,
+  "vez": 2,
+  "shopee_n": 776,
   "shopee_q": {
    "Celular": 56,
    "Tech": 56,
    "Áudio e TV": 56,
-   "Games": 55,
-   "Moda": 55,
-   "Beleza": 55,
+   "Games": 56,
+   "Moda": 56,
+   "Beleza": 56,
    "Esportes": 55,
    "Casa": 55,
    "Eletro": 55,
