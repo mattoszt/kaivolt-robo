@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-17-12": 1,
    "2026-10-17-20": 1,
    "2026-10-18-12": 1,
    "2026-10-18-20": 1,
@@ -98,9 +97,25 @@
    "2026-10-30-20": 1,
    "2026-11-01-12": 1,
    "2026-11-01-20": 1,
-   "2026-11-02-12": 1
+   "2026-11-02-12": 1,
+   "2026-11-02-20": 1
   },
   "fila_zap": [
+   {
+    "d": "02/11 21:05",
+    "n": "Fone de Ouvido Bluetooth Sem Fio J760- Cancelamento de Ruído Conforto",
+    "txt": "*Fone de Ouvido Bluetooth Sem Fio J760- Cancelamento de Ruído Conforto*\n\n💰 *R$ 40,98* na Shopee\n⭐ 4,9 · +2,2 mil vendidos na loja\n\n👉 https://s.shopee.com.br/9pfaEMx8nj\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "02/11 20:45",
+    "n": "Carteira porta-cartões minimalista fina de metal com bloqueio RFID...",
+    "txt": "*Carteira porta-cartões minimalista fina de metal com bloqueio RFID...*\n\n💰 *R$ 15,89* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,7 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c39FfxqP\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "02/11 20:25",
+    "n": "Kit Higiene Bebê 5 Peças Escova, Pente, Tesoura E Cortador",
+    "txt": "*Kit Higiene Bebê 5 Peças Escova, Pente, Tesoura E Cortador*\n\n💰 *R$ 59,99* na Shopee\n⭐ 4,9 · +4,2 mil vendidos na loja\n\n👉 https://s.shopee.com.br/2BG93WygaD\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "02/11 13:15",
     "n": "Carregador Sem Fio de 15W para Carro, Suporte para Telefone com Luz RGB...",
@@ -235,21 +250,6 @@
     "d": "30/10 20:37",
     "n": "Camisa Masculina Cotton Peruano 40.1 Tecido Grosso de Alta Gramatura com...",
     "txt": "*Camisa Masculina Cotton Peruano 40.1 Tecido Grosso de Alta Gramatura com...*\n\n💰 *R$ 39,90* na Shopee\n⭐ 4,9 · +1,9 mil vendidos na loja\n\n👉 https://s.shopee.com.br/2VsugK1uCB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 16:51",
-    "n": "6 pçs/set relógio feminino moda flores pulseira de couro analógico...",
-    "txt": "*6 pçs/set relógio feminino moda flores pulseira de couro analógico...*\n\n💰 *R$ 15,31* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +560 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3oB6ZZv\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 16:31",
-    "n": "Fones de ouvido Bluetooth sem fio SPOETRY com redução de ruído confortável...",
-    "txt": "*Fones de ouvido Bluetooth sem fio SPOETRY com redução de ruído confortável...*\n\n💰 *R$ 59,90* na Shopee\n⭐ 4,9 · +2,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/LoPpQ65gj\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "30/10 16:11",
-    "n": "Não puxe o arnês do cão, Colete acolchoado macio ajustável, alça de...",
-    "txt": "*Não puxe o arnês do cão, Colete acolchoado macio ajustável, alça de...*\n\n💰 *R$ 52,39* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3bmFQYL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1893,15 +1893,18 @@
    "1005009791864974": "2026-11-02",
    "shp:58217601055": "2026-11-02",
    "1005012014086255": "2026-11-02",
-   "1005012308662113": "2026-11-02"
+   "1005012308662113": "2026-11-02",
+   "shp:45004572291": "2026-11-02",
+   "1005010348318908": "2026-11-02",
+   "shp:58262957321": "2026-11-03"
   },
-  "kw": 705,
-  "ultimo": "2026-11-02 13:15",
+  "kw": 706,
+  "ultimo": "2026-11-02 21:05",
   "dia": {
    "d": "2026-11-02",
-   "n": 3
+   "n": 6
   },
-  "ml_n": 479,
+  "ml_n": 480,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1910,12 +1913,12 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 769,
+  "vez": 3,
+  "shopee_n": 773,
   "shopee_q": {
-   "Celular": 55,
-   "Tech": 55,
-   "Áudio e TV": 55,
+   "Celular": 56,
+   "Tech": 56,
+   "Áudio e TV": 56,
    "Games": 55,
    "Moda": 55,
    "Beleza": 55,
@@ -1926,7 +1929,7 @@
    "Carro": 55,
    "Pet": 55,
    "Brinquedos": 55,
-   "Bebês": 54
+   "Bebês": 55
   }
  }
 }
