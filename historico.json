@@ -341,7 +341,7 @@
   "2026-11-02": 56.79,
   "2026-11-03": 45.7,
   "2026-11-04": 45.59,
-  "2026-11-05": 45.49
+  "2026-11-05": 52.49
  },
  "suporte-veicular": {
   "2026-09-26": 10.32,
@@ -384,7 +384,7 @@
   "2026-11-02": 11.99,
   "2026-11-03": 11.99,
   "2026-11-04": 11.99,
-  "2026-11-05": 11.99
+  "2026-11-05": 13.21
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -526,7 +526,7 @@
   "2026-11-02": 31.24,
   "2026-11-03": 31.24,
   "2026-11-04": 31.24,
-  "2026-11-05": 31.24
+  "2026-11-05": 39.27
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -741,7 +741,7 @@
   "2026-11-02": 41.79,
   "2026-11-03": 46.99,
   "2026-11-04": 46.99,
-  "2026-11-05": 46.98
+  "2026-11-05": 46.99
  },
  "headphone-bt": {
   "2026-09-26": 112.51,
@@ -870,7 +870,7 @@
   "2026-11-02": 18.58,
   "2026-11-03": 18.58,
   "2026-11-04": 18.58,
-  "2026-11-05": 17.8
+  "2026-11-05": 19.41
  },
  "_anuncios": {
   "powerbank-10000|AliExpress|1005012621183397": {
@@ -1576,7 +1576,6 @@
    "2026-09-28": 91.29
   },
   "webcam-fullhd|Mercado Livre|MLB4144472660": {
-   "2026-09-30": 339.91,
    "2026-10-01": 357.31,
    "2026-10-02": 340.85,
    "2026-10-03": 340.85,
@@ -1610,7 +1609,8 @@
    "2026-10-31": 342.35,
    "2026-11-01": 342.35,
    "2026-11-02": 342.35,
-   "2026-11-03": 342.35
+   "2026-11-03": 342.35,
+   "2026-11-05": 339.91
   },
   "caneta-stylus|Mercado Livre|MLB6577053496": {
    "2026-10-02": 27.5,
@@ -2123,7 +2123,6 @@
    "2026-10-27": 49.89
   },
   "carregador-gan-65w|AliExpress|1005006678018718": {
-   "2026-09-28": 62.19,
    "2026-09-29": 62.39,
    "2026-10-02": 62.29,
    "2026-10-03": 62.29,
@@ -2157,7 +2156,8 @@
    "2026-10-31": 67.41,
    "2026-11-01": 58.99,
    "2026-11-02": 56.79,
-   "2026-11-03": 57.99
+   "2026-11-03": 57.99,
+   "2026-11-05": 52.49
   },
   "suporte-tablet|AliExpress|1005012479790240": {
    "2026-09-27": 17.43,
@@ -3603,7 +3603,8 @@
    "2026-10-30": 13.18,
    "2026-10-31": 13.19,
    "2026-11-01": 13.19,
-   "2026-11-02": 13.19
+   "2026-11-02": 13.19,
+   "2026-11-05": 13.21
   },
   "caixa-som|Shopee|22194652188": {
    "2026-10-30": 46.99
@@ -3741,40 +3742,40 @@
   }
  },
  "_achados_meta": {
-  "n": 2324,
-  "ali_n": 4588,
+  "n": 2325,
+  "ali_n": 4593,
   "ali_q": {
    "Beleza": 309,
    "Esportes": 309,
    "Casa": 309,
    "Eletro": 309,
    "Ferramentas": 309,
-   "Carro": 308,
-   "Pet": 308,
-   "Brinquedos": 308,
-   "Bebês": 308,
-   "Celular": 308,
+   "Carro": 309,
+   "Pet": 309,
+   "Brinquedos": 309,
+   "Bebês": 309,
+   "Celular": 309,
    "Tech": 308,
    "Áudio e TV": 308,
    "Games": 308,
    "Moda": 308
   },
-  "shopee_n": 6896,
+  "shopee_n": 6904,
   "shopee_q": {
-   "Celular": 493,
-   "Tech": 493,
+   "Celular": 494,
+   "Tech": 494,
    "Áudio e TV": 493,
    "Games": 493,
    "Moda": 493,
    "Beleza": 493,
    "Esportes": 493,
    "Casa": 493,
-   "Eletro": 492,
-   "Ferramentas": 492,
-   "Carro": 492,
-   "Pet": 492,
-   "Brinquedos": 492,
-   "Bebês": 492
+   "Eletro": 493,
+   "Ferramentas": 493,
+   "Carro": 493,
+   "Pet": 493,
+   "Brinquedos": 493,
+   "Bebês": 493
   }
  },
  "_achados": {
@@ -4340,67 +4341,10 @@
    "link": "https://s.shopee.com.br/9pfcapKf2v",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Pet",
-   "ic": "🐾"
-  },
-  "shp:20697090758": {
-   "n": "Mascara Homem Aranha + Luva Homem Aranha Lança Teia Spider Man...",
-   "t": "Mascara Homem Aranha + Luva Homem Aranha Lança Teia Spider Man Brinquedo Presente",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 39.99,
-   "nota": 4.9,
-   "vendas": 2107,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lvoz0pjo8p4cee",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1gJurou9Pj",
-   "visto": "2026-11-04T11:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "shp:23592641999": {
-   "n": "Luva Lança Teia + Máscara Homem Aranha Infantil Brinquedo Spider Man...",
-   "t": "Luva Lança Teia + Máscara Homem Aranha Infantil Brinquedo Spider Man Herói Lançador",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 39.9,
-   "nota": 4.9,
-   "vendas": 2008,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lvorqr8kh1wma4",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8fTfCgTVD7",
-   "visto": "2026-11-04T11:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "shp:48003827717": {
-   "n": "Brinquedo Lançador M16 Com Luneta Silenciador e Dardos Nerf",
-   "t": "Brinquedo Lançador M16 Com Luneta Silenciador e Dardos Nerf",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 69.99,
-   "nota": 4.9,
-   "vendas": 706,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81ztc-miqy91d2za4j32",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8VAF0NU8YA",
-   "visto": "2026-11-04T11:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
-  },
-  "shp:18199524516": {
-   "n": "Lançador de Avião Catapulta Brinquedo Planador Pistola Infantil Tiro...",
-   "t": "Lançador de Avião Catapulta Brinquedo Planador Pistola Infantil Tiro ao Alvo",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 26.9,
-   "nota": 4.9,
-   "vendas": 638,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lp-mmannbpgn6dgda",
-   "od": 0,
-   "link": "https://s.shopee.com.br/9KjLzuQxrR",
-   "visto": "2026-11-04T11:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🐾",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:47151802200": {
    "n": "Astgn X Basike Carregador Basike Ba-CAR046 20W Turbo – USB-C PD + USB...",
@@ -4415,7 +4359,10 @@
    "link": "https://s.shopee.com.br/7VHhoXh9hr",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Celular",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22792888075": {
    "n": "Carregador Portatil Power Bank Turbo i2GO 20000mAh 20W Com Diplay 1...",
@@ -4430,7 +4377,20 @@
    "link": "https://s.shopee.com.br/7fb80qgWMq",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Celular",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 96.36,
+     "nota": 4.9,
+     "vendas": 1073,
+     "t": "Carregador Portátil 20000mah，Power Bank Portátil，Pilhas Recarregáveis，Powerbank Portátil， ",
+     "link": "https://s.click.aliexpress.com/e/_c3fog4Fv",
+     "sim": true
+    }
+   ]
   },
   "shp:18497750315": {
    "n": "Cabo Turbo iPhone 20w Tipo-c / Lightning Baseus 2m",
@@ -4445,7 +4405,10 @@
    "link": "https://s.shopee.com.br/70LRDcj3im",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Celular",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22992986746": {
    "n": "Carregador Cabo e Fonte Turbo PD 20W Saída Tipo-C para Tipo C 1m...",
@@ -4460,7 +4423,10 @@
    "link": "https://s.shopee.com.br/3VlZ3BwNpA",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Celular",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58201429567": {
    "n": "Carregador Portátil Bateria 10000Mah Turbo 20W Com Cabo IPHONE TIPO-C...",
@@ -4475,7 +4441,10 @@
    "link": "https://s.shopee.com.br/3LS8qsx1A9",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Celular",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23693885927": {
    "n": "Repetidor Wifi Kp-3007 Expansor De Sinal Sem Fio Roteador",
@@ -4505,7 +4474,20 @@
    "link": "https://s.shopee.com.br/50aMpwzP3N",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 254.2,
+     "nota": 4.9,
+     "vendas": 10095,
+     "t": "Projetor MAGCUBIC HY300 PRO 8K Android 14 Dual Wifi6 290ANSI Allwinner H726 BT5.4 1080P 12",
+     "link": "https://s.click.aliexpress.com/e/_c2QPWn4R",
+     "sim": false
+    }
+   ]
   },
   "shp:23193526951": {
    "n": "Projetor A10 Android TV 4K Dual Band WIFI 6.0 Bluetooth 5.0 Cinema...",
@@ -4520,7 +4502,20 @@
    "link": "https://s.shopee.com.br/qknsIFGVi",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 262.81,
+     "nota": 4.9,
+     "vendas": 10095,
+     "t": "Projetor Magcubic 8K Wifi6 290ANSI Android 14 Dual WIFI Allwinner H726 BT5.4 1280*720P Cin",
+     "link": "https://s.click.aliexpress.com/e/_c3ISGv5t",
+     "sim": true
+    }
+   ]
   },
   "shp:22793516210": {
    "n": "Home Projetor A10 Android TV 4K Dual Band WIFI 6.0 Bluetooth 5.0...",
@@ -4535,7 +4530,20 @@
    "link": "https://s.shopee.com.br/2LZbf39YT7",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 355.61,
+     "nota": 4.9,
+     "vendas": 233,
+     "t": "HONGTOP-P10 Projetor Home Smart TV, Versão Global, WiFi, 1080P, Android, 4GB, 64GB, foco e",
+     "link": "https://s.click.aliexpress.com/e/_c3IwAOg7",
+     "sim": true
+    }
+   ]
   },
   "shp:22697281112": {
    "n": "Projetor HY300 Original Portátil Smart Android 11 4K Ultra HD HDMI...",
@@ -4583,7 +4591,10 @@
    "link": "https://s.shopee.com.br/3qOPRo8FCq",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58268550998": {
    "n": "Suporte Controle PS5 Xbox Gamer Porta Controle Organizador de Mesa...",
@@ -4598,7 +4609,10 @@
    "link": "https://s.shopee.com.br/7puYD9t15k",
    "visto": "2026-11-04T11:37+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005011995200530": {
    "n": "Link de Pagamento Especial DP",
@@ -4631,7 +4645,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3IioUWL",
    "visto": "2026-11-04T18:54+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010379165209": {
    "n": "[Visor Esportivo Ajustável e Respirável] Boné Esportivo com Visor...",
@@ -4646,7 +4663,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4my7doT",
    "visto": "2026-11-04T18:54+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005005587095528": {
    "n": "SLECKTON Custom Logo Retro Baseball Cap para homens e mulheres...",
@@ -4661,7 +4681,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4L26TH9",
    "visto": "2026-11-04T18:54+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005009505024147": {
    "n": "Moda pequeno grande preto organizador de higiene pessoal e maquiagem...",
@@ -4694,7 +4717,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3Wv0cib",
    "visto": "2026-11-04T18:54+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008077537525": {
    "n": "26 buracos acrílico pincéis de maquiagem titular desktop batom...",
@@ -5071,21 +5097,6 @@
    "cat": "Eletro",
    "ic": "🍳"
   },
-  "shp:58255348849": {
-   "n": "Mini Soprador Ventilador De Ar e Aspirador Portátil 2 em 1 Alta...",
-   "t": "Mini Soprador Ventilador De Ar e Aspirador Portátil 2 em 1 Alta Potência Sem Fio 130.000 Rpm",
-   "g": "Eletro",
-   "loja": "Shopee",
-   "por": 49.89,
-   "nota": 4.8,
-   "vendas": 1147,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81zty-mkvotw3dhslfbf",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3qOPvnE3cK",
-   "visto": "2026-11-04T18:54+00:00",
-   "cat": "Eletro",
-   "ic": "🍳"
-  },
   "shp:58216757516": {
    "n": "Jogo Chaves De Fenda Precisão Com 115 peças 1 Kit Ferramentas P...",
    "t": "Jogo Chaves De Fenda Precisão Com 115 peças 1 Kit Ferramentas P/ Manutenção Celular Notebook Tablet Reparação",
@@ -5142,21 +5153,6 @@
    "img": "https://cf.shopee.com.br/file/br-11134207-820lm-mspkfn17xeroa2",
    "od": 0,
    "link": "https://s.shopee.com.br/7Aertv1VOj",
-   "visto": "2026-11-04T18:54+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧"
-  },
-  "shp:52851022937": {
-   "n": "Kit com 10 Bits Magnéticos Duplos Philips PH2 Com Limitador de Torque...",
-   "t": "Kit com 10 Bits Magnéticos Duplos Philips PH2 Com Limitador de Torque Para Parafusadeira e Precisão",
-   "g": "Ferramentas",
-   "loja": "Shopee",
-   "por": 24.99,
-   "nota": 4.8,
-   "vendas": 239,
-   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-mgt3xnkffl7302",
-   "od": 0,
-   "link": "https://s.shopee.com.br/7VHiIX0Eit",
    "visto": "2026-11-04T18:54+00:00",
    "cat": "Ferramentas",
    "ic": "🔧"
@@ -5535,13 +5531,13 @@
    "t": "Blocos de montar Construção Educativos Desenho Animado Brinquedo infantil Partículas Coleção Quebra-Cabeça Colecionaveis",
    "g": "Brinquedos",
    "loja": "Shopee",
-   "por": 15.99,
+   "por": 19.8,
    "nota": 4.9,
-   "vendas": 665,
+   "vendas": 674,
    "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mfd55o0c581sf0",
    "od": 0,
    "link": "https://s.shopee.com.br/5AtnsuzvvZ",
-   "visto": "2026-11-05T00:24+00:00",
+   "visto": "2026-11-05T22:01+00:00",
    "cat": "Brinquedos",
    "ic": "🧸"
   },
@@ -5619,21 +5615,6 @@
    "img": "https://cf.shopee.com.br/file/br-11134207-820lm-mulgic1u4kqre9",
    "od": 0,
    "link": "https://s.shopee.com.br/1qdLunH1Vf",
-   "visto": "2026-11-05T00:24+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "shp:22298929134": {
-   "n": "SUN Fun Colorido Bebê Chocalho Mordedor Mão Agarrando Brinquedo Para...",
-   "t": "SUN Fun Colorido Bebê Chocalho Mordedor Mão Agarrando Brinquedo Para Carrinho E Berço",
-   "g": "Bebês",
-   "loja": "Shopee",
-   "por": 18.99,
-   "nota": 4.9,
-   "vendas": 1205,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-824g5-mepxba2tcsg75e",
-   "od": 0,
-   "link": "https://s.shopee.com.br/BV7vjNMtR",
    "visto": "2026-11-05T00:24+00:00",
    "cat": "Bebês",
    "ic": "🍼"
@@ -7770,6 +7751,636 @@
    "visto": "2026-11-05T15:51+00:00",
    "cat": "Casa",
    "ic": "🏠"
+  },
+  "ali:1005009960307408": {
+   "n": "Suporte Magnético Dobrável para Telefone de Carro 360 ° Suporte de...",
+   "t": "Suporte Magnético Dobrável para Telefone de Carro 360 °   Suporte de Painel Ajustável com Rotação para iPhone, Huawei e Xiaomi",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 19.32,
+   "nota": 4.9,
+   "vendas": 25577,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9232b43fddab4d01800b51745b5a0e70f.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3hzpY4b",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005009054880430": {
+   "n": "Suporte Magnético para Celular YZ para Tesla Modelo 3/Y/YT Highland...",
+   "t": "Suporte Magnético para Celular YZ para Tesla Modelo 3/Y/YT Highland Juniper 2026, Suporte de Ventilação para Carro com Rotação de 360 Graus",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 94.79,
+   "nota": 4.9,
+   "vendas": 18551,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5cfa7fe685ce46f5a27a921854b3f852s.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4LEEKjh",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005010323886133": {
+   "n": "Suporte Magnético Dobrável para Telefone com Ímã Forte 360 ° Suporte...",
+   "t": "Suporte Magnético Dobrável para Telefone com Ímã Forte 360 °   Suporte de Celular para Painel e Para-brisa com Sucção a Vácuo para Carro, co",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 15.17,
+   "nota": 4.9,
+   "vendas": 12711,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9885938599f84df19ffb5bd77278be986.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3GnrDIj",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005007344783753": {
+   "n": "Topk suporte magnético do telefone do carro ventilação de ar suporte...",
+   "t": "Topk suporte magnético do telefone do carro ventilação de ar suporte do telefone do carro para magsafe iphone 15 14 13 promax xiaomi samsung",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 29.59,
+   "nota": 4.9,
+   "vendas": 12386,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7d6bd83eb1c74dd18fc432c0275c00caC.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4eXFUSR",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005013265864947": {
+   "n": "Escova de Limpeza Automática para Animais de Estimação, Removedor de...",
+   "t": "Escova de Limpeza Automática para Animais de Estimação, Removedor de Pelos com Um Clique, Pente para Limpeza de Pelos Domésticos para Cães e",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 16.59,
+   "nota": 4.9,
+   "vendas": 8424,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8184975a37ee4a4f86d4465a9ea022e8F.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3wY7pFl",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005007345281536": {
+   "n": "Pet grooming luvas cão gato banho luva de limpeza shampoo purificador...",
+   "t": "Pet grooming luvas cão gato banho luva de limpeza shampoo purificador limpo macio silicone remoção do cabelo luva mão proteção da pele",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 16.12,
+   "nota": 4.9,
+   "vendas": 5128,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb71a735d57b84d0c9745694bd0d29447H.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3Gg9979",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005006861870207": {
+   "n": "Rolo Removedor de Pelos de Animais de Estimação - Pelos de Cães e...",
+   "t": "Rolo Removedor de Pelos de Animais de Estimação - Pelos de Cães e Gatos com Base Autolimpante, Ferramenta Eficiente para Remoção de Pelos de",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 19.61,
+   "nota": 4.9,
+   "vendas": 4238,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf67d3fbe6a7c43cdad741bff3130ce34l.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3DOTR63",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005010653162925": {
+   "n": "Conjunto de Trilhos Magnéticos Elétricos com Veículos Antigravidade...",
+   "t": "Conjunto de Trilhos Magnéticos Elétricos com Veículos Antigravidade - Mais de 100 Peças, Brinquedos de Construção STEM, Ferrovia Criativa DI",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 202.99,
+   "nota": 4.9,
+   "vendas": 1598,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd84e8d517d554ac2a76b3b2ec60fcf76T.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2R9NrRz",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005007476627737": {
+   "n": "Crianças elétrica mágica flexível pista brinquedo carro de engenharia...",
+   "t": "Crianças elétrica mágica flexível pista brinquedo carro de engenharia crianças brinquedos educativos trem brinquedos para crianças presente ",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 27.89,
+   "nota": 4.9,
+   "vendas": 936,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2207b0a25168416481a878e0c80a10aeO.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2ws1LYn",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005010037015354": {
+   "n": "Pista de corrida flexível crianças brinquedos diy rampa de carro de...",
+   "t": "Pista de corrida flexível crianças brinquedos diy rampa de carro de corrida de pista dupla compatível 1/64th carros portátil roll up menino ",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 102.05,
+   "nota": 4.9,
+   "vendas": 848,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc1bf1694e0f449c9a734dbe7515a4602o.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3DOYlj5",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005010530053881": {
+   "n": "Brinquedos de Trem Magnético DIY para Crianças, Carro de Trilho...",
+   "t": "Brinquedos de Trem Magnético DIY para Crianças, Carro de Trilho Mágico Eletrônico, Brinquedo Educativo para Crianças, Presente de Natal",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 194.79,
+   "nota": 4.9,
+   "vendas": 819,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S966edfa9f97b49eead4d83dda2ceb02fI.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4Cfpyvz",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005007016063799": {
+   "n": "Dispositivo de monitoramento infantil sem fio com tela de 5...",
+   "t": "Dispositivo de monitoramento infantil sem fio com tela de 5 polegadas, câmera de segurança para bebês com zoom digital, detector de temperat",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 205.22,
+   "nota": 4.9,
+   "vendas": 4874,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se670847124d041c9a039f290a10dbb4fo.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3BaMehz",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005007171042908": {
+   "n": "Monitor de Bebê com Vídeo de 3.2 Polegadas, Câmera de Segurança com...",
+   "t": "Monitor de Bebê com Vídeo de 3.2 Polegadas, Câmera de Segurança com Pan e Tilt, Visão Noturna, VOX, Comunicação Bidirecional, Monitoramento ",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 201.04,
+   "nota": 4.9,
+   "vendas": 4723,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7232d24619544da39bd233ed79f54ba37.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4KKltuJ",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005001604803924": {
+   "n": "Novo monitor de bebê com vídeo de 5 polegadas com câmera e áudio...",
+   "t": "Novo monitor de bebê com vídeo de 5 polegadas com câmera e áudio, zoom 4X, bateria de 22 horas, alcance de 1000 pés, sensor de temperatura d",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 423.05,
+   "nota": 4.9,
+   "vendas": 3705,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2fc6b1f391584457bd01d4fc52983b3bp.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4p6imMj",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005006966240636": {
+   "n": "Monitor de Bebê HTMCK de 3,5 Polegadas com Câmera, Tela LCD, Babá...",
+   "t": "Monitor de Bebê HTMCK de 3,5 Polegadas com Câmera, Tela LCD, Babá Eletrônica Sem Fio, Áudio e Vídeo Bidirecional, Rádio para Segurança Infan",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 166.17,
+   "nota": 4.9,
+   "vendas": 3425,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S31c70815018044069614a286de9de7f4X.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3v4xdiL",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005008077522639": {
+   "n": "Suporte dobrável para telefone de mesa VRIG MG-04 com 360 ° Suporte...",
+   "t": "Suporte dobrável para telefone de mesa VRIG MG-04 com 360 °   Suporte magnético giratório para telefone com altura ajustável para iPhone",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 100.29,
+   "nota": 5.0,
+   "vendas": 1387,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0ef61900ceb34ee9a4d3b0ed2d034c38s.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3Z5PFTH",
+   "visto": "2026-11-05T22:01+00:00",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005007168495742": {
+   "n": "Suporte Universal Ajustável de Braço Longo para Celular - Suporte de...",
+   "t": "Suporte Universal Ajustável de Braço Longo para Celular - Suporte de Mesa Compatível com iPhone, Samsung, Xiaomi, Huawei - Ideal para Cabece",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 15.02,
+   "nota": 4.9,
+   "vendas": 14379,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6e0334162b614a41bda8503a0a269892Q.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3IeXmUx",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005010242196069": {
+   "n": "Suporte do telefone do avião portátil suporte de viagem mesa vôo...",
+   "t": "Suporte do telefone do avião portátil suporte de viagem mesa vôo dobrável ajustável rotativo selfie segurando trem assento suporte",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 16.12,
+   "nota": 4.9,
+   "vendas": 3630,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb424eec7c40a4ea994335889f2b142d4s.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3GyzY6f",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005013266230064": {
+   "n": "Suporte de Telefone Portátil Dobrável de Silicone e Alumínio, Suporte...",
+   "t": "Suporte de Telefone Portátil Dobrável de Silicone e Alumínio, Suporte de Telefone Flexível e Ajustável, Suporte Antiderrapante Multiângulo",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 25.59,
+   "nota": 4.9,
+   "vendas": 2071,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S906301426aa044eb815b491b15dc8a3bw.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2JE2nFz",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58204705757": {
+   "n": "Air Fryer Oven Philco 11L 8 Funções Visor 1800W PAF11B",
+   "t": "Air Fryer Oven Philco 11L 8 Funções Visor 1800W PAF11B",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 349.9,
+   "nota": 5.0,
+   "vendas": 1033,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825bb-muw81q77356v3f",
+   "od": 0,
+   "link": "https://s.shopee.com.br/906Xt2Sum2",
+   "visto": "2026-11-05T22:01+00:00",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:58206311996": {
+   "n": "Fritadeira Elétrica Sem Óleo Air Fryer Oven 2 em 1 Mondial...",
+   "t": "Fritadeira Elétrica Sem Óleo Air Fryer Oven 2 em 1 Mondial AFON-12L-BI 12L Digital",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 590.93,
+   "nota": 5.0,
+   "vendas": 784,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-82609-mlggs0cncgzzc8",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8pn7gjTY6z",
+   "visto": "2026-11-05T22:01+00:00",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:22794193064": {
+   "n": "Air Fryer Rosa Britânia 5,5L Cesto Pinkstone 1500W BAFE53",
+   "t": "Air Fryer Rosa Britânia 5,5L Cesto Pinkstone 1500W BAFE53",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 261.9,
+   "nota": 5.0,
+   "vendas": 718,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8258r-munydl9glxc281",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8AXQtVW5Sv",
+   "visto": "2026-11-05T22:01+00:00",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:23899478491": {
+   "n": "Kit 10 Potes de Vidro Herméticos 640ml Marmita 4 Travas para Freezer...",
+   "t": "Kit 10 Potes de Vidro Herméticos 640ml Marmita 4 Travas para Freezer Air fryer Forno e Micro-ondas Super Vedação Fitness",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 114.9,
+   "nota": 4.9,
+   "vendas": 1375,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lz-mu2433umjp4w9f",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2BGDkTsvdZ",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:22798642389": {
+   "n": "Fritadeira Sem Óleo AirFryer HQ 4,8 litros Preto HQ-AF4.8LMP",
+   "t": "Fritadeira Sem Óleo AirFryer HQ 4,8 litros Preto HQ-AF4.8LMP",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 230.53,
+   "nota": 4.9,
+   "vendas": 1091,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820l5-mr0bk1tj3eo755",
+   "od": 0,
+   "link": "https://s.shopee.com.br/114GMKxN0E",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:22693213497": {
+   "n": "Nível Laser Trena Profissional Level Pro3 Estágios Nivelador",
+   "t": "Nível Laser Trena Profissional Level Pro3 Estágios Nivelador",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 23.99,
+   "nota": 4.9,
+   "vendas": 4079,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdy3-lyn25qe6smpyae",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1W0WxGDXxB",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:23094088227": {
+   "n": "Level Pro3: Nível Laser Profissional com Trena 2.5m, 3 Estágios e...",
+   "t": "Level Pro3: Nível Laser Profissional com Trena 2.5m, 3 Estágios e Régua, Baterias AG13 Incluídas",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 39.9,
+   "nota": 4.9,
+   "vendas": 478,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rat8-masky3d2japv71",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1BjAVJG00",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:18799254950": {
+   "n": "8/12/16 Linhas Nível a Laser profissional Ajustável nível laser 360 °...",
+   "t": "8/12/16 Linhas Nível a Laser profissional Ajustável nível laser 360 ° Medição Da Linha De Ferramentas nível de mão",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 147.87,
+   "nota": 4.9,
+   "vendas": 392,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-luyeior6w8lw82",
+   "od": 0,
+   "link": "https://s.shopee.com.br/gRPxjGieC",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:58263620922": {
+   "n": "Nível Laser Recarregável 12/16 Linhas Verde Profissional 3d...",
+   "t": "Nível Laser Recarregável 12/16 Linhas Verde Profissional 3d Autonivelante Com Controle 360 4d",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 169.0,
+   "nota": 4.9,
+   "vendas": 379,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-824it-mpyucym95sen4c",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9fMEgGiSO2",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:18197637337": {
+   "n": "Nível Laser Profissional Trena Level Pro3 Estágios Nivelador",
+   "t": "Nível Laser Profissional Trena Level Pro3 Estágios Nivelador",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 24.99,
+   "nota": 4.9,
+   "vendas": 377,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rcd2-lrrbewr198xa59",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1BNgYeEodL",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:27083093496": {
+   "n": "Quebra Cabeça 500 Peças - 1000 Peças - 2000 Peças Premium - Escolha...",
+   "t": "Quebra Cabeça 500 Peças - 1000 Peças - 2000 Peças Premium - Escolha Desenhos",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 37.99,
+   "nota": 4.9,
+   "vendas": 743,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820l9-mq2r298znmdfef",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1qdNLsgwI1",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:22293710213": {
+   "n": "Kit 5 Quebra Cabeça Mdf 9 Peças Jogo pedagógico Fazenda Animais",
+   "t": "Kit 5 Quebra Cabeça Mdf 9 Peças Jogo pedagógico Fazenda Animais",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 25.99,
+   "nota": 4.9,
+   "vendas": 738,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m636c8uqqmk2bd",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1gJx9ZhZcy",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:58214870993": {
+   "n": "Kit De Contas NANCI Perler Hama , Caixa De Quebra-Cabeça DIY De 2.6...",
+   "t": "Kit De Contas NANCI Perler Hama , Caixa De Quebra-Cabeça DIY De 2.6 Mm , De Decoração De Artesanato Artesanal",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 23.98,
+   "nota": 4.9,
+   "vendas": 685,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825az-mr0j1larml8s67",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1W0WxGiCxz",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:22194826973": {
+   "n": "Mapa Do Brasil Quebra-Cabeça Brinquedo Educativo Estados e Região Em...",
+   "t": "Mapa Do Brasil Quebra-Cabeça Brinquedo Educativo Estados e Região Em MDF Jogo Pedagógico",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 16.89,
+   "nota": 4.9,
+   "vendas": 665,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81ztc-mjokexilvwn5ef",
+   "od": 0,
+   "link": "https://s.shopee.com.br/W7zlQm0zt",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:23098638250": {
+   "n": "Tapetinho de Atividades para Bebê com Piano Musical, Luzes e Sons",
+   "t": "Tapetinho de Atividades para Bebê com Piano Musical, Luzes e Sons",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 79.9,
+   "nota": 4.9,
+   "vendas": 426,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-maxpiueeb2bz23",
+   "od": 0,
+   "link": "https://s.shopee.com.br/70LTVNf0Qv",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:58204666393": {
+   "n": "Tapete Infantil Bebê Inflável Água Atividades Sensorial Almofada...",
+   "t": "Tapete Infantil Bebê Inflável Água Atividades Sensorial Almofada Menino e Menina",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 21.9,
+   "nota": 4.9,
+   "vendas": 406,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81ztc-mkbkseuvyb5tb7",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7fbAIbcT4z",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:23198643282": {
+   "n": "Tapete de Atividades para Bebê com Piano Musical Interativo – Luzes...",
+   "t": "Tapete de Atividades para Bebê com Piano Musical Interativo – Luzes, Sons e Brinquedos Removíveis",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 79.9,
+   "nota": 4.9,
+   "vendas": 395,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-maxscfr2g6wp3b",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8pn7gkY1iM",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:58206989988": {
+   "n": "Tapete Infantil Dobrável Dupla Face À Prova D'água Atividade Bebê...",
+   "t": "Tapete Infantil Dobrável Dupla Face À Prova D'água Atividade Bebê Impermeável 180*200*0.8cm-S13",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 90.99,
+   "nota": 4.9,
+   "vendas": 393,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820md-moglyw9s77ydb1",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9APy5MWl2O",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:23115750110": {
+   "n": "Tapete de Atividades Dupla Face Infantil Bebê Gigante Tatame...",
+   "t": "Tapete de Atividades Dupla Face Infantil Bebê Gigante Tatame Educativo Criança",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 47.9,
+   "nota": 4.9,
+   "vendas": 356,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820mb-mlf893artrlzd1",
+   "od": 0,
+   "link": "https://s.shopee.com.br/80E0hDbCPH",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:44862821968": {
+   "n": "100/50 unidades Interruptores de Teclado Mecânico...",
+   "t": "100/50 unidades Interruptores de Teclado Mecânico, Azul/Preto/Vermelho/Castanho, DIY Troca a Quente, Som de Clique",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 35.37,
+   "nota": 5.0,
+   "vendas": 202,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825b1-mu1sn6p1o7bb9b",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9zz54tl2wK",
+   "visto": "2026-11-05T22:01+00:00",
+   "cmp_em": "2026-11-05T22:01+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:45707967320": {
+   "n": "Interruptores De Teclado Mecânico Clicky & Tátil , Lineares...",
+   "t": "Interruptores De Teclado Mecânico Clicky & Tátil , Lineares Universais Com design À Prova De Poeira , Personalizáveis E ",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 58.75,
+   "nota": 4.9,
+   "vendas": 203,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825ak-muacu50kym0x1d",
+   "od": 0,
+   "link": "https://s.shopee.com.br/BV9MpMTtN",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:22297445792": {
+   "n": "Teclado Gamer Semi Mecânico Com Fio 104 Teclas LED Colorido À Prova...",
+   "t": "Teclado Gamer Semi Mecânico Com Fio 104 Teclas LED Colorido À Prova D'água Gamer e Trabalho Preto/Rosa/Branco/Roxo/Azul",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 69.8,
+   "nota": 4.8,
+   "vendas": 200,
+   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-mrfa4ynpzpc2c6",
+   "od": 0,
+   "link": "https://s.shopee.com.br/W7zlRLDDT",
+   "visto": "2026-11-05T22:01+00:00",
+   "cat": "Tech",
+   "ic": "💻"
   }
  },
  "teclado-mecanico": {
