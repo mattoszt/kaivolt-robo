@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-19-12": 1,
    "2026-10-19-20": 1,
    "2026-10-20-12": 1,
    "2026-10-20-20": 1,
@@ -98,9 +97,20 @@
    "2026-11-02-20": 1,
    "2026-11-03-12": 1,
    "2026-11-04-20": 1,
-   "2026-11-06-20": 1
+   "2026-11-06-20": 1,
+   "2026-11-08-12": 1
   },
   "fila_zap": [
+   {
+    "d": "08/11 12:21",
+    "n": "Viseira de sol do carro mutil-bolso organizador de armazenamento...",
+    "txt": "*Viseira de sol do carro mutil-bolso organizador de armazenamento...*\n\n💰 *R$ 15,34* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4dBdwJ9\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "08/11 12:01",
+    "n": "Aspirador de pó sem fio Xiaomi para carro, mini aspirador portátil com...",
+    "txt": "*Aspirador de pó sem fio Xiaomi para carro, mini aspirador portátil com...*\n\n💰 *R$ 374,95* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 5,0 · +672 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3yaFtN9\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "07/11 22:05",
     "n": "Kit com 24 Meias Vários Modelos Econômico Algodão",
@@ -240,16 +250,6 @@
     "d": "04/11 14:05",
     "n": "Adaptador wi-fi Fengvi-usb 3.0, receptor sem fio para desktop e laptop...",
     "txt": "*Adaptador wi-fi Fengvi-usb 3.0, receptor sem fio para desktop e laptop...*\n\n💰 *R$ 39,69* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +866 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3HRRQrz\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "03/11 22:53",
-    "n": "KZ ZS10 PRO X Metal Headset drivers híbridos HIFI Bass Fones de ouvido...",
-    "txt": "*KZ ZS10 PRO X Metal Headset drivers híbridos HIFI Bass Fones de ouvido...*\n\n💰 *R$ 120,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,5 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3NuKWbl\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "03/11 22:33",
-    "n": "Carrinho de Boneca Rosa Passeio Infantil Leve e Resistente Menina",
-    "txt": "*Carrinho de Boneca Rosa Passeio Infantil Leve e Resistente Menina*\n\n💰 *R$ 99,59* na Shopee\n⭐ 4,9 · +1,4 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8AXNwEy2zx\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1931,15 +1931,17 @@
    "shp:23493478708": "2026-11-07",
    "1005007899249660": "2026-11-08",
    "1005006994559594": "2026-11-08",
-   "shp:22299321807": "2026-11-08"
+   "shp:22299321807": "2026-11-08",
+   "1005013410819298": "2026-11-08",
+   "1005010044086073": "2026-11-08"
   },
-  "kw": 753,
-  "ultimo": "2026-11-07 22:05",
+  "kw": 761,
+  "ultimo": "2026-11-08 12:21",
   "dia": {
    "d": "2026-11-08",
-   "n": 0
+   "n": 2
   },
-  "ml_n": 504,
+  "ml_n": 506,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1948,17 +1950,17 @@
    }
   ],
   "vez_ml": false,
-  "vez": 3,
-  "shopee_n": 831,
+  "vez": 2,
+  "shopee_n": 834,
   "shopee_q": {
    "Celular": 60,
    "Tech": 60,
    "Áudio e TV": 60,
    "Games": 60,
    "Moda": 60,
-   "Beleza": 59,
-   "Esportes": 59,
-   "Casa": 59,
+   "Beleza": 60,
+   "Esportes": 60,
+   "Casa": 60,
    "Eletro": 59,
    "Ferramentas": 59,
    "Carro": 59,
