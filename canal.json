@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-19-20": 1,
    "2026-10-20-12": 1,
    "2026-10-20-20": 1,
    "2026-10-21-12": 1,
@@ -98,9 +97,20 @@
    "2026-11-03-12": 1,
    "2026-11-04-20": 1,
    "2026-11-06-20": 1,
-   "2026-11-08-12": 1
+   "2026-11-08-12": 1,
+   "2026-11-08-20": 1
   },
   "fila_zap": [
+   {
+    "d": "08/11 20:59",
+    "n": "Carregador Lightning Turbo Para 11 12 13 14 Pro X XR 20W Cabo Tipo C...",
+    "txt": "*Carregador Lightning Turbo Para 11 12 13 14 Pro X XR 20W Cabo Tipo C...*\n\n💰 *R$ 39,90* na Shopee\n⭐ 4,8 · +3,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8pnCVVzxO6\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "08/11 20:39",
+    "n": "Óculos de sol polarizados Moda e tendência Proteção UV Óculos de condução...",
+    "txt": "*Óculos de sol polarizados Moda e tendência Proteção UV Óculos de condução...*\n\n💰 *R$ 38,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4OZVUeP\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "08/11 17:11",
     "n": "Hagibis organizador eletrônico bolsa de viagem eva hardshell pu bolsa de...",
@@ -240,16 +250,6 @@
     "d": "04/11 20:14",
     "n": "Pesos de Vidro para Fermentação Transparentes com Alça, para Potes Mason...",
     "txt": "*Pesos de Vidro para Fermentação Transparentes com Alça, para Potes Mason...*\n\n💰 *R$ 27,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,5 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3uJcSxd\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "04/11 19:54",
-    "n": "Cabo USB-C para USB-C Toocki 240W PD 3.1 com Carregamento Rápido e...",
-    "txt": "*Cabo USB-C para USB-C Toocki 240W PD 3.1 com Carregamento Rápido e...*\n\n💰 *R$ 18,37* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +5,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3yKL0TH\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "04/11 19:34",
-    "n": "mochila saco masculina e feminina sport bolsa sacola impermeavel bolsa de...",
-    "txt": "*mochila saco masculina e feminina sport bolsa sacola impermeavel bolsa de...*\n\n💰 *R$ 17,99* na Shopee\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8pn685hMDJ\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1935,15 +1935,17 @@
    "1005013410819298": "2026-11-08",
    "1005010044086073": "2026-11-08",
    "1005006994490826": "2026-11-08",
-   "shp:21799836330": "2026-11-08"
+   "shp:21799836330": "2026-11-08",
+   "1005006996377513": "2026-11-08",
+   "shp:58253326285": "2026-11-08"
   },
-  "kw": 765,
-  "ultimo": "2026-11-08 17:11",
+  "kw": 769,
+  "ultimo": "2026-11-08 20:59",
   "dia": {
    "d": "2026-11-08",
-   "n": 5
+   "n": 7
   },
-  "ml_n": 508,
+  "ml_n": 510,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1952,10 +1954,10 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 836,
+  "vez": 3,
+  "shopee_n": 841,
   "shopee_q": {
-   "Celular": 60,
+   "Celular": 61,
    "Tech": 60,
    "Áudio e TV": 60,
    "Games": 60,
@@ -1965,10 +1967,10 @@
    "Casa": 60,
    "Eletro": 60,
    "Ferramentas": 60,
-   "Carro": 59,
-   "Pet": 59,
-   "Brinquedos": 59,
-   "Bebês": 59
+   "Carro": 60,
+   "Pet": 60,
+   "Brinquedos": 60,
+   "Bebês": 60
   }
  }
 }
