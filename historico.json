@@ -46,7 +46,7 @@
   "2026-11-08": 38.89,
   "2026-11-09": 38.89,
   "2026-11-10": 45.89,
-  "2026-11-11": 38.89
+  "2026-11-11": 45.89
  },
  "carregador-20w": {
   "2026-09-26": 15.89,
@@ -95,7 +95,7 @@
   "2026-11-08": 17.74,
   "2026-11-09": 15.76,
   "2026-11-10": 16.38,
-  "2026-11-11": 16.38
+  "2026-11-11": 15.56
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -144,7 +144,7 @@
   "2026-11-08": 15.39,
   "2026-11-09": 15.39,
   "2026-11-10": 11.03,
-  "2026-11-11": 10.48
+  "2026-11-11": 10.59
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -340,7 +340,7 @@
   "2026-11-08": 77.94,
   "2026-11-09": 81.91,
   "2026-11-10": 81.91,
-  "2026-11-11": 77.94
+  "2026-11-11": 81.91
  },
  "carregador-gan-65w": {
   "2026-09-26": 41.29,
@@ -487,7 +487,7 @@
   "2026-11-08": 40.87,
   "2026-11-09": 107.29,
   "2026-11-10": 40.87,
-  "2026-11-11": 108.39
+  "2026-11-11": 40.87
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
@@ -536,7 +536,7 @@
   "2026-11-08": 37.79,
   "2026-11-09": 49.79,
   "2026-11-10": 50.19,
-  "2026-11-11": 32.98
+  "2026-11-11": 37.79
  },
  "ssd-512": {
   "2026-09-26": 80.69,
@@ -598,7 +598,7 @@
   "2026-11-08": 51.49,
   "2026-11-09": 31.24,
   "2026-11-10": 39.91,
-  "2026-11-11": 51.99
+  "2026-11-11": 31.24
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -1089,7 +1089,8 @@
    "2026-10-29": 16.45,
    "2026-11-08": 15.76,
    "2026-11-09": 15.76,
-   "2026-11-10": 15.76
+   "2026-11-10": 15.76,
+   "2026-11-11": 15.56
   },
   "carregador-20w|Mercado Livre|MLB4106194513": {
    "2026-09-27": 89.9,
@@ -1120,7 +1121,8 @@
    "2026-11-01": 87.59,
    "2026-11-02": 87.59,
    "2026-11-03": 87.59,
-   "2026-11-05": 87.59
+   "2026-11-05": 87.59,
+   "2026-11-11": 87.59
   },
   "cabo-usbc-100w|AliExpress|1005004912629247": {
    "2026-09-27": 11.89,
@@ -1722,7 +1724,6 @@
    "2026-09-28": 91.29
   },
   "webcam-fullhd|Mercado Livre|MLB4144472660": {
-   "2026-10-04": 340.85,
    "2026-10-05": 340.85,
    "2026-10-06": 360.37,
    "2026-10-07": 360.37,
@@ -1756,7 +1757,8 @@
    "2026-11-05": 339.91,
    "2026-11-06": 339.91,
    "2026-11-08": 402.48,
-   "2026-11-09": 402.48
+   "2026-11-09": 402.48,
+   "2026-11-11": 347.31
   },
   "caneta-stylus|Mercado Livre|MLB6577053496": {
    "2026-10-08": 27.5,
@@ -2359,7 +2361,8 @@
    "2026-10-28": 39.88,
    "2026-10-29": 39.66,
    "2026-10-31": 39.66,
-   "2026-11-01": 39.08
+   "2026-11-01": 39.08,
+   "2026-11-11": 45.89
   },
   "webcam-fullhd|AliExpress|1005007038843019": {
    "2026-09-28": 37.99,
@@ -2794,7 +2797,6 @@
    "2026-10-17": 33.39
   },
   "suporte-tablet|Shopee|22898870546": {
-   "2026-10-07": 15.99,
    "2026-10-08": 15.99,
    "2026-10-09": 15.99,
    "2026-10-10": 15.99,
@@ -2828,7 +2830,8 @@
    "2026-11-07": 15.99,
    "2026-11-08": 15.99,
    "2026-11-09": 15.99,
-   "2026-11-10": 15.99
+   "2026-11-10": 15.99,
+   "2026-11-11": 15.99
   },
   "teclado-tablet|Shopee|58266634550": {
    "2026-10-02": 41.99,
@@ -3181,7 +3184,6 @@
    "2026-10-07": 19.98
   },
   "webcam-fullhd|Shopee|22994995312": {
-   "2026-10-06": 31.24,
    "2026-10-07": 31.24,
    "2026-10-08": 31.24,
    "2026-10-09": 31.24,
@@ -3215,7 +3217,8 @@
    "2026-11-06": 31.24,
    "2026-11-07": 31.24,
    "2026-11-08": 31.24,
-   "2026-11-09": 31.24
+   "2026-11-09": 31.24,
+   "2026-11-11": 31.24
   },
   "caixa-som|AliExpress|1005008660067934": {
    "2026-10-04": 45.19,
@@ -3700,7 +3703,8 @@
   "powerbank-magsafe|Shopee|23094202914": {
    "2026-10-18": 169.0,
    "2026-10-19": 169.0,
-   "2026-10-20": 165.0
+   "2026-10-20": 165.0,
+   "2026-11-11": 159.0
   },
   "cabo-lightning|Shopee|23997010703": {
    "2026-10-18": 12.87,
@@ -3822,7 +3826,8 @@
    "2026-11-06": 120.43,
    "2026-11-07": 120.43,
    "2026-11-08": 120.34,
-   "2026-11-09": 120.36
+   "2026-11-09": 120.36,
+   "2026-11-11": 116.52
   },
   "cabo-usbc-100w|AliExpress|1005006923559036": {
    "2026-10-27": 10.01,
@@ -3928,7 +3933,8 @@
    "2026-11-07": 40.89,
    "2026-11-08": 40.87,
    "2026-11-09": 40.87,
-   "2026-11-10": 40.87
+   "2026-11-10": 40.87,
+   "2026-11-11": 40.87
   },
   "suporte-tablet|AliExpress|1005013255365984": {
    "2026-11-01": 16.08,
@@ -4045,10 +4051,13 @@
   },
   "mouse-sem-fio|AliExpress|1005010089242065": {
    "2026-11-11": 15.27
+  },
+  "headset-gamer|AliExpress|1005007038444791": {
+   "2026-11-11": 152.59
   }
  },
  "_meta": {
-  "ultimo_total": 21
+  "ultimo_total": 20
  },
  "_divulgacao": {
   "postados": {
@@ -4111,17 +4120,17 @@
   }
  },
  "_achados_meta": {
-  "n": 2346,
-  "ali_n": 4698,
+  "n": 2347,
+  "ali_n": 4703,
   "ali_q": {
    "Beleza": 317,
    "Esportes": 317,
    "Casa": 317,
-   "Eletro": 316,
-   "Ferramentas": 316,
-   "Carro": 316,
-   "Pet": 316,
-   "Brinquedos": 316,
+   "Eletro": 317,
+   "Ferramentas": 317,
+   "Carro": 317,
+   "Pet": 317,
+   "Brinquedos": 317,
    "Bebês": 316,
    "Celular": 316,
    "Tech": 316,
@@ -4129,18 +4138,18 @@
    "Games": 316,
    "Moda": 316
   },
-  "shopee_n": 7072,
+  "shopee_n": 7080,
   "shopee_q": {
    "Celular": 506,
    "Tech": 506,
-   "Áudio e TV": 505,
-   "Games": 505,
-   "Moda": 505,
-   "Beleza": 505,
-   "Esportes": 505,
-   "Casa": 505,
-   "Eletro": 505,
-   "Ferramentas": 505,
+   "Áudio e TV": 506,
+   "Games": 506,
+   "Moda": 506,
+   "Beleza": 506,
+   "Esportes": 506,
+   "Casa": 506,
+   "Eletro": 506,
+   "Ferramentas": 506,
    "Carro": 505,
    "Pet": 505,
    "Brinquedos": 505,
@@ -4148,701 +4157,6 @@
   }
  },
  "_achados": {
-  "ali:1005007096910750": {
-   "n": "Pistola de Bolhas de Dinossauro com 40 Furos, Máquina de Bolhas de...",
-   "t": "Pistola de Bolhas de Dinossauro com 40 Furos, Máquina de Bolhas de Sabão Elétrica 2 em 1, Jogo Interativo de Mesa para o Verão ao Ar Livre, ",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 23.59,
-   "nota": 4.9,
-   "vendas": 11278,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sede337bdd6e54fefaa6731b20ba4219cJ.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3IQrvN1",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-10T11:50+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012977857852": {
-   "n": "Yoga ajoelhado esteira engrossado absorção de choque suporte esteira...",
-   "t": "Yoga ajoelhado esteira engrossado absorção de choque suporte esteira joelheira portátil cotovelo almofada yoga exercício fitness yoga acessó",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 20.69,
-   "nota": 4.9,
-   "vendas": 3668,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4f52e353e829458581f860c9d2ab6393p.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c440u3PZ",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007857239353": {
-   "n": "Tapete de yoga dobrável, ecológico, eva, dobrável, viagem, fitness...",
-   "t": "Tapete de yoga dobrável, ecológico, eva, dobrável, viagem, fitness, exercício, 3mm/4mm/6mm de espessura para yoga, pilates e treinos de chão",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 36.49,
-   "nota": 4.9,
-   "vendas": 2306,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2257ca91174b4889b14af415e518602cj.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4OjJzan",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007791605630": {
-   "n": "Blocos de Yoga, Cubos de Pilates, Tapetes de Reforço, Suprimentos de...",
-   "t": "Blocos de Yoga, Cubos de Pilates, Tapetes de Reforço, Suprimentos de Yoga, Equipamentos de Exercício em Casa, Fitness Eva",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 22.13,
-   "nota": 4.9,
-   "vendas": 2019,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scef8fed2dfe047ff8f07b54e452b6b9dX.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4oAi7Vd",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012014054404": {
-   "n": "Tapete de treino de equilíbrio antiderrapante, com alta capacidade de...",
-   "t": "Tapete de treino de equilíbrio antiderrapante, com alta capacidade de recuperação e espuma espessa, para estabilidade do core, yoga, fitness",
-   "g": "Esportes",
-   "loja": "AliExpress",
-   "por": 20.3,
-   "nota": 4.9,
-   "vendas": 1411,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5fa518daa2c84659a8a50a93726efc52u.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3JoqgrH",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Esportes",
-   "ic": "🏋️",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012619604362": {
-   "n": "100 pces parafuso buraco cabo laços de náilon auto-travamento...",
-   "t": "100 pces parafuso buraco cabo laços de náilon auto-travamento loop150mm/200mm envoltório pacote montagem organizador tiras de fixação fixar ",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 15.31,
-   "nota": 4.9,
-   "vendas": 26852,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1b1b40f3780b4c31930fb6263dd0a0a9f.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3FpepSJ",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005011824420963": {
-   "n": "Ferro a vapor portátil para roupas, engomar multifuncional, máquina...",
-   "t": "Ferro a vapor portátil para roupas, engomar multifuncional, máquina portátil para viagem, engomar roupas",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 247.99,
-   "nota": 4.9,
-   "vendas": 2294,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1a7fec7630374b19893eac2758c846daN.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4cu1kxd",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010589611563": {
-   "n": "Ferro a vapor portátil para roupas, engomar multifuncional, máquina...",
-   "t": "Ferro a vapor portátil para roupas, engomar multifuncional, máquina portátil para viagem, engomar roupas",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 245.99,
-   "nota": 4.9,
-   "vendas": 2293,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1a7fec7630374b19893eac2758c846daN.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3CzbdgF",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 200.0,
-     "nota": 4.9,
-     "vendas": 855,
-     "t": "Ferro De Passar Roupa A Vapor Azul/Branco",
-     "link": "https://s.shopee.com.br/5VWns5IVyD",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005010109598611": {
-   "n": "Mini Vaporizador de Roupas Portátil, Ferro de Passar a Vapor 2 em 1...",
-   "t": "Mini Vaporizador de Roupas Portátil, Ferro de Passar a Vapor 2 em 1 para Uso Doméstico e em Viagens, Ferro a Vapor Prático para Remover Ruga",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 134.59,
-   "nota": 4.9,
-   "vendas": 1665,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se2a09d8a2d21459ebfdd4589b3dbcc72V.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3uvqwex",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012374536344": {
-   "n": "Vaporizador a vácuo de alta potência, 1000W, com função de passar a...",
-   "t": "Vaporizador a vácuo de alta potência, 1000W, com função de passar a ferro a vapor e a seco, vaporizador portátil para roupas, ideal para ali",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 359.57,
-   "nota": 4.9,
-   "vendas": 1240,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S37ca9476a607491fb240f01752c03ff94.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c30vFCTV",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005009960326403": {
-   "n": "Alicate Desencapador de Fios Dobrável para Eletricistas com Funções...",
-   "t": "Alicate Desencapador de Fios Dobrável para Eletricistas com Funções de Desencapar, Crimpar e Torcer",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 26.99,
-   "nota": 4.9,
-   "vendas": 14773,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5fa3d8b8be144b039e259f21a96c7438t.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2RVOWjd",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007168835179": {
-   "n": "Alicate de Crimpagem e Desencapador de Fios Multifuncional Automático...",
-   "t": "Alicate de Crimpagem e Desencapador de Fios Multifuncional Automático Ajustável para Terminais e Cabos",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 48.61,
-   "nota": 4.9,
-   "vendas": 9363,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S39c9f60cf8f34f7ca96dd6bb8f1ed999J.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c36H7f9N",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006967439618": {
-   "n": "Alicate Multifuncional para Descascar Fios, Ferramenta Automática de...",
-   "t": "Alicate Multifuncional para Descascar Fios, Ferramenta Automática de Crimpagem, Cortador de Cabos para Eletricistas AWG24-10",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 46.89,
-   "nota": 4.9,
-   "vendas": 9313,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sec48b41a20d1459db646f2d45aca4b995.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4bLeSCP",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010572662867": {
-   "n": "Alicate de Eletricista 18 em 1 Multifuncional, Desencapador de Fios...",
-   "t": "Alicate de Eletricista 18 em 1 Multifuncional, Desencapador de Fios, Crimpador e Cortador, Ferramenta Profissional para Reparos Elétricos",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 21.63,
-   "nota": 4.9,
-   "vendas": 8248,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sed94eb1fcec2407aa03e6c3498d1ebb1I.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3gnRPsj",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 17.99,
-     "nota": 4.8,
-     "vendas": 527,
-     "t": "Alicate Multifuncional 28 em 1 para Eletricista com Descascador Cortador e Crimpador de Fi",
-     "link": "https://s.shopee.com.br/BVHWIPhFj",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005007344790740": {
-   "n": "Capa de assento de carro impermeável e absorvente de suor, tamanho...",
-   "t": "Capa de assento de carro impermeável e absorvente de suor, tamanho universal, para pós-treino, corrida, natação, praia e caminhada, antiderr",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 45.71,
-   "nota": 4.9,
-   "vendas": 5217,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5e99501224a241b4a6a94bcb1ee9eb68J.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3kYrBB1",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012258513651": {
-   "n": "Spray Profissional para Interior de Carros, Cuidado Suave e Neutro...",
-   "t": "Spray Profissional para Interior de Carros, Cuidado Suave e Neutro para Revestimentos de Assentos e Tetos, Renovação Geral de Interiores par",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 21.62,
-   "nota": 4.9,
-   "vendas": 5088,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se8f8ad5e7d7b41e1806e17ecb71e47bf1.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4pTPK8n",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007476770547": {
-   "n": "Capa de Almofada para Assento de Carro de Verão, Respirável, de Seda...",
-   "t": "Capa de Almofada para Assento de Carro de Verão, Respirável, de Seda Gelada, Antiderrapante, Protetor de Assento Automotivo, Acessório Unive",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 23.02,
-   "nota": 4.9,
-   "vendas": 4945,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa71719384c09453cbe458d933da0b77a0.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3MXpMFH",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007476872323": {
-   "n": "Toalha universal almofada de assento de carro à prova de suor lavável...",
-   "t": "Toalha universal almofada de assento de carro à prova de suor lavável protetor de assento para animais de estimação capas de carro de quatro",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 46.89,
-   "nota": 4.9,
-   "vendas": 4466,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc00ba36fa97f43ddb6292520e74f1664X.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3FAINZd",
-   "visto": "2026-11-09T20:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006966218674": {
-   "n": "Coleira retrátil automática para dois cães com lanterna, fácil de...",
-   "t": "Coleira retrátil automática para dois cães com lanterna, fácil de usar para passear dois cães.",
-   "g": "Pet",
-   "loja": "AliExpress",
-   "por": 93.09,
-   "nota": 4.9,
-   "vendas": 500,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbd2bfea0dd0242c6982fb2c781da7892Z.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c37vW1hz",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005009874307168": {
-   "n": "10/20/60 pçs mini incubação dinossauro ovo brinquedo colorido ovos...",
-   "t": "10/20/60 pçs mini incubação dinossauro ovo brinquedo colorido ovos rachados crianças brinquedos engraçados festival festa favores presentes ",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 15.21,
-   "nota": 4.9,
-   "vendas": 3122,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S19954d0eff9d47bba8d0606b2e776e00x.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c30eWfvV",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005008558675942": {
-   "n": "Copo de boxe inflável saco de pancadas pai criança brinquedo para...",
-   "t": "Copo de boxe inflável saco de pancadas pai criança brinquedo para meninos jogos esporte dinossauro modelo crianças atividade ao ar livre pre",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 17.32,
-   "nota": 4.9,
-   "vendas": 2546,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb891ebabdd9d43cd93a3cad8c4264410m.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2J9JDqf",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012013992653": {
-   "n": "Novos Blocos de Construção de Dinossauros de Plástico Multicoloridos...",
-   "t": "Novos Blocos de Construção de Dinossauros de Plástico Multicoloridos para Montar Cenário Pré-histórico Mundo Dino em Tamanho Real Aprendizad",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 20.3,
-   "nota": 4.9,
-   "vendas": 2185,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se516c5c436304b5bb6cba771d5599dba5.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4LxLrbp",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005008830699556": {
-   "n": "PANGDUBE Elefante de Pelúcia com Chocalho e Mordedor, Prendedor de...",
-   "t": "PANGDUBE Elefante de Pelúcia com Chocalho e Mordedor, Prendedor de Chupeta para Bebês Recém-Nascidos, Ideal para Viagem",
-   "g": "Bebês",
-   "loja": "AliExpress",
-   "por": 20.18,
-   "nota": 4.9,
-   "vendas": 3973,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5d6ce62ddddb4d0091ef02e10c3568c5K.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3cXqtt9",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Bebês",
-   "ic": "🍼",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005011854864206": {
-   "n": "6 bolas sensoriais para bebés, brinquedo para aliviar a dor das...",
-   "t": "6 bolas sensoriais para bebés, brinquedo para aliviar a dor das dentes, brinquedo educativo Montessori para a primeira infância, bola de águ",
-   "g": "Bebês",
-   "loja": "AliExpress",
-   "por": 18.07,
-   "nota": 4.8,
-   "vendas": 2295,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S04b834f2989444818a3f47ecd4e8db2dZ.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3PxJPCL",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "ali:1005007462882759": {
-   "n": "UGREEN HUB USB C 10Gbps 4K60Hz HDMI USB3.2 PD100W Divisor USB para...",
-   "t": "UGREEN HUB USB C 10Gbps 4K60Hz HDMI USB3.2 PD100W Divisor USB para Laptop Macbook Pro Air iPad Telefone Android Estação de Docagem",
-   "g": "Tech",
-   "loja": "AliExpress",
-   "por": 113.15,
-   "nota": 4.9,
-   "vendas": 3013,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2ec5e44b81074b4a956e9f33b3ae2282n.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4MBYxbD",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Tech",
-   "ic": "💻",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005008093143399": {
-   "n": "UGREEN HUB USB 7-em-1 Tipo-C para 4K60Hz HDMI SD e TF 5Gbps USB3.0...",
-   "t": "UGREEN HUB USB 7-em-1 Tipo-C para 4K60Hz HDMI SD e TF 5Gbps USB3.0 PD100W para Acessórios Lapop Macbook Estação de ancoragem divisor USB",
-   "g": "Tech",
-   "loja": "AliExpress",
-   "por": 136.13,
-   "nota": 4.9,
-   "vendas": 2130,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdcfd02f8c75b4f629d55b1120bf82416b.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3P1KuEj",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Tech",
-   "ic": "💻",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006904690516": {
-   "n": "Baseus-USB C HUB para Macbook, Gen 2, 4K, 60Hz, HDMI, 3 USB 3.0, PD...",
-   "t": "Baseus-USB C HUB para Macbook, Gen 2, 4K, 60Hz, HDMI, 3 USB 3.0, PD, 100W, Tipo C Port, SD, Leitor de Cartão TF para Macbook, iPad, M2, M1 v",
-   "g": "Tech",
-   "loja": "AliExpress",
-   "por": 106.7,
-   "nota": 4.9,
-   "vendas": 2075,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5c9abd305ffd470ebc6b72ec49d99ec7V.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3LdzVn1",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Tech",
-   "ic": "💻",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006904621392": {
-   "n": "Hub USB-C Baseus 4K 60Hz, Adaptador USB 3.0 com Portas HDMI, SD, TF...",
-   "t": "Hub USB-C Baseus 4K 60Hz, Adaptador USB 3.0 com Portas HDMI, SD, TF, Ethernet e Carregamento Rápido PD 100W para Macbook, Laptop e Tablet",
-   "g": "Tech",
-   "loja": "AliExpress",
-   "por": 151.11,
-   "nota": 4.9,
-   "vendas": 1338,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6545ef7e32974d00a3697351508cd5b7w.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c40LY7wJ",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Tech",
-   "ic": "💻",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23197588768": {
-   "n": "Extratora Higienizadora Portátil Vonder 400W",
-   "t": "Extratora Higienizadora Portátil Vonder 400W",
-   "g": "Eletro",
-   "loja": "Shopee",
-   "por": 370.0,
-   "nota": 4.9,
-   "vendas": 542,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-mdn9hljmkb7d68",
-   "od": 0,
-   "link": "https://s.shopee.com.br/7Af0SGANHA",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23998713560": {
-   "n": "Gaabor Aspirador de Pó 2 em 1 Sucção Forte de 16000Pa Com Fio Haste...",
-   "t": "Gaabor Aspirador de Pó 2 em 1 Sucção Forte de 16000Pa Com Fio Haste de Pressão Dust Off Portátil GVCW-M15A",
-   "g": "Eletro",
-   "loja": "Shopee",
-   "por": 189.0,
-   "nota": 4.9,
-   "vendas": 437,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7ra14-mbnar8z4xg9zc1",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5fqCfVG5K1",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:22299339748": {
-   "n": "Rodo Limpador De Vidro Elétrico Recarregável USB Com Tanque de Água...",
-   "t": "Rodo Limpador De Vidro Elétrico Recarregável USB Com Tanque de Água Aspirador Portátil",
-   "g": "Eletro",
-   "loja": "Shopee",
-   "por": 239.99,
-   "nota": 4.9,
-   "vendas": 353,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8262m-mjr530fpw6wzc8",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3Vli5WOKip",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:18897929149": {
-   "n": "Aspirador de Pó Portátil Sem Fio Escova Removedor de Ácaro...",
-   "t": "Aspirador de Pó Portátil Sem Fio Escova Removedor de Ácaro Recarregável USB",
-   "g": "Eletro",
-   "loja": "Shopee",
-   "por": 138.8,
-   "nota": 4.8,
-   "vendas": 666,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m6-msogjjj02oef99",
-   "od": 0,
-   "link": "https://s.shopee.com.br/6VPJf2Cud6",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Eletro",
-   "ic": "🍳"
-  },
-  "shp:23393419172": {
-   "n": "Aspirador De Pó E Líquido Portátil Gtw Compact 1400w - Wap Cor...",
-   "t": "Aspirador De Pó E Líquido Portátil Gtw Compact 1400w - Wap Cor Cinza-escuro 110v",
-   "g": "Eletro",
-   "loja": "Shopee",
-   "por": 209.51,
-   "nota": 4.8,
-   "vendas": 308,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m175g3au6emo4f",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3qOYU8N42r",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Eletro",
-   "ic": "🍳"
-  },
-  "shp:18199657078": {
-   "n": "Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador...",
-   "t": "Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador Pneu Envio Imediato",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 59.99,
-   "nota": 4.9,
-   "vendas": 14418,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-81zvz-mig6w6yij1fmb5",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3g58HpfIUp",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23695028323": {
-   "n": "Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador...",
-   "t": "Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador Pneu Envio Imediato",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 63.98,
-   "nota": 4.9,
-   "vendas": 2965,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-82597-mq4h42hp613j7e",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4B1OskdOTw",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23797127405": {
-   "n": "Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador...",
-   "t": "Mini Compressor de Ar Portatil Recarregavél Digital USB Calibrador Pneu Envio Imediato",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 63.99,
-   "nota": 4.9,
-   "vendas": 2868,
-   "img": "https://cf.shopee.com.br/file/br-11134211-7r98o-lor192hhl5ma45",
-   "od": 0,
-   "link": "https://s.shopee.com.br/40hygRe1ov",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:22393243510": {
-   "n": "Bomba de Ar Digital Mini Compressor Calibrador de Pneus Carro Moto...",
-   "t": "Bomba de Ar Digital Mini Compressor Calibrador de Pneus Carro Moto Bike Com Lanterna Led Portátil",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 59.55,
-   "nota": 4.9,
-   "vendas": 2739,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lr-mq95sfmaq9dsa9",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4VeFHMc7o2",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:22197552648": {
-   "n": "Bomba de Ar Digital Mini Calibrador Compressor de Pneus Carro Moto...",
-   "t": "Bomba de Ar Digital Mini Calibrador Compressor de Pneus Carro Moto Bike Com Lanterna Led Portátil",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 53.24,
-   "nota": 4.9,
-   "vendas": 1257,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rd5f-lvnc6hevqo1j99",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4fxfTfbUT7",
-   "visto": "2026-11-10T03:37+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T07:15+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
   "ali:1005010037199725": {
    "n": "Fones de Ouvido Bluetooth 5.4 KEBIDUMEI com Tela Colorida, Headsets...",
    "t": "Fones de Ouvido Bluetooth 5.4 KEBIDUMEI com Tela Colorida, Headsets Sem Fio com Redução de Ruído, Fones de Ouvido Monitor",
@@ -5038,7 +4352,10 @@
    "link": "https://s.click.aliexpress.com/e/_c2IgioP9",
    "visto": "2026-11-10T11:50+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005011928571216": {
    "n": "Extensões de Cílios Abonnie LB Lashes Clássicas em Marrom, Cílios de...",
@@ -5083,7 +4400,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4EDUlEn",
    "visto": "2026-11-10T11:50+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22594718147": {
    "n": "2 Em 1 Vestir Quebra-Cabeça Magnético Crianças 3D Escrita Magnética...",
@@ -5134,7 +4454,10 @@
    "link": "https://s.shopee.com.br/8fTomsoGSl",
    "visto": "2026-11-10T11:50+00:00",
    "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🧸",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22694023070": {
    "n": "Quebra Cabeça 100 Peças Disney Lilo Stitch, Homem Aranha, Pixar...",
@@ -5149,7 +4472,10 @@
    "link": "https://s.shopee.com.br/9KjVa6lj6x",
    "visto": "2026-11-10T11:50+00:00",
    "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🧸",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22597543717": {
    "n": "MEDOOSI Quebra-Cabeça 3D 3 em 1 Tetris De Madeira Brinquedos E...",
@@ -5164,7 +4490,10 @@
    "link": "https://s.shopee.com.br/AUvSyFhHkC",
    "visto": "2026-11-10T11:50+00:00",
    "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🧸",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006860825492": {
    "n": "Baseus led lâmpada de mesa proteção para os olhos estudo regulável...",
@@ -5179,7 +4508,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3kBTidp",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005005036874964": {
    "n": "Baseus led lâmpada de mesa proteção para os olhos estudo regulável...",
@@ -5194,7 +4526,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4UIz5Rt",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010154975631": {
    "n": "Cortina de luzes LED para o Natal, luminária decorativa para festas...",
@@ -5209,7 +4544,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4WbsxJv",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008660208657": {
    "n": "Lâmpada led com sensor de movimento radar, 6 peças, 220v, 110v, e27...",
@@ -5224,7 +4562,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3Aot2Hp",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005009424926853": {
    "n": "Para jabr p20 pro/t5 pro robô aspirador de pó acessórios escova...",
@@ -5239,7 +4580,10 @@
    "link": "https://s.click.aliexpress.com/e/_c31SUGyf",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012013820995": {
    "n": "Sacos de Substituição para Aspirador Robô Dreame X50 Ultra/X40...",
@@ -5254,7 +4598,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4tmCxzH",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006996257681": {
    "n": "Escova lateral principal para xiaomi mi robot 1/ 1s sdjqr01rr...",
@@ -5269,7 +4616,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4TXmoX5",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006860769492": {
    "n": "Peças de Escovas de Rolo para Aspirador Robô iRobot Roomba Séries I E...",
@@ -5284,7 +4634,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3K7Yinl",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012588639970": {
    "n": "DEWALT HT422 Chave de Fenda Elétrica Sem Fio 3.6V 5N.m Mandril...",
@@ -5299,7 +4652,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3P5lFnp",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006994559594": {
    "n": "Mini chave de fenda elétrica, 12/50/62/120 em 1 conjunto de chave de...",
@@ -5314,7 +4670,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3jfOXdH",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005013100883378": {
    "n": "Novo Chaveiro Elétrico Recarregável - Mini Ferramenta Sem Fio de Alto...",
@@ -5329,7 +4688,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4n38t5z",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007170406771": {
    "n": "Mini Chave de Fenda Elétrica Sem Fio 1300mAh Recarregável com Ajuste...",
@@ -5344,7 +4706,10 @@
    "link": "https://s.click.aliexpress.com/e/_c2JlyKaj",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008248053751": {
    "n": "Luz ambiente automotiva modificação interior do pé led luz ambiente...",
@@ -5359,7 +4724,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4efA40r",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005013255475752": {
    "n": "Luz de LED Neon para Interior de Carro, Iluminação Ambiente para os...",
@@ -5374,7 +4742,10 @@
    "link": "https://s.click.aliexpress.com/e/_c32P5tRv",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012061784622": {
    "n": "Luz Ambiente LED Neon para Interior de Carro com Controle Remoto Sem...",
@@ -5389,7 +4760,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3R4ahTt",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010348972385": {
    "n": "5m interior do carro conduziu a luz de tira el fio néon iluminação...",
@@ -5404,7 +4778,10 @@
    "link": "https://s.click.aliexpress.com/e/_c2IPP84X",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23292812154": {
    "n": "Cortina Voil Com Forro Blackout Tecido 6,00X2,70 Metros perfeita para...",
@@ -5419,7 +4796,10 @@
    "link": "https://s.shopee.com.br/30pSZChuXy",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:14147083873": {
    "n": "Cortina Microfibra Com Voil 4,00x2,70 Semi Blackout Janela Quarta e...",
@@ -5434,7 +4814,10 @@
    "link": "https://s.shopee.com.br/3LSIxogds4",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:18699092346": {
    "n": "Cortina Voil Gaze de Linho 4,00x2,80/2,50/2,30 C/ Forro Blackout...",
@@ -5449,7 +4832,10 @@
    "link": "https://s.shopee.com.br/4qH6kZavpV",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T15:40+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23197320021": {
    "n": "Cortina PVC Blackout Várias Medidas, 100% Luz Varão Quarto Sala...",
@@ -6500,6 +5886,456 @@
    "visto": "2026-11-11T07:15+00:00",
    "cat": "Celular",
    "ic": "📱"
+  },
+  "ali:1005006861868193": {
+   "n": "Nebulizador médico de malha silenciosa, inalador portátil para asma...",
+   "t": "Nebulizador médico de malha silenciosa, inalador portátil para asma, atomizador, cuidados de saúde para crianças, mini umidificador nebuliza",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 20.74,
+   "nota": 4.9,
+   "vendas": 7578,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S36847fc2c4ca4f9cbe32c9175701bfd4h.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3yBzvfZ",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005012640153580": {
+   "n": "Ventilador de spray portátil mini umidificador ventilador 4...",
+   "t": "Ventilador de spray portátil mini umidificador ventilador 4 velocidades vento poderoso usb recarregável spray água névoa ventilador ao ar li",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 25.3,
+   "nota": 4.9,
+   "vendas": 5986,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4aa502d01d384c9bb65a9aac199d7cf56.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4BlZTD5",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005010376345637": {
+   "n": "Mini Vaporizador Facial Revitalizante e Umidificador 2 em 1 com Névoa...",
+   "t": "Mini Vaporizador Facial Revitalizante e Umidificador 2 em 1 com Névoa de Íons Nano para Hidratação da Pele e Umidificação do Ar com Tanque d",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 20.42,
+   "nota": 4.9,
+   "vendas": 4480,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbf77eaa744e940dc8fb1e1011d1a21ccl.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3fhBJpd",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005007857319061": {
+   "n": "Humidificador USB com dois bicos, capacidade de 600 ml/h, emissão de...",
+   "t": "Humidificador USB com dois bicos, capacidade de 600 ml/h, emissão de névoa intensa, funcionamento extremamente silencioso, dispositivo de hi",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 23.24,
+   "nota": 4.9,
+   "vendas": 3362,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2bf040d599e347da855019e17361f98fJ.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3uf5yXl",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005012814722926": {
+   "n": "Conjunto de 120 ímãs para impressão 3D, 4x2, 5x2, 6x2, 8x2 mm, ímãs...",
+   "t": "Conjunto de 120 ímãs para impressão 3D, 4x2, 5x2, 6x2, 8x2 mm, ímãs de neodímio potentes, kit de ferramentas para impressão 3D, multiuso par",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 26.81,
+   "nota": 4.9,
+   "vendas": 6449,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/A352a5f4c14e240fba34159ff1e9b6b49U.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3bnldHV",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005006880775391": {
+   "n": "100 pçs 3.1mm mini lixa bandas kits prego brocas mandril conjuntos de...",
+   "t": "100 pçs 3.1mm mini lixa bandas kits prego brocas mandril conjuntos de acessórios manicure elétrica ferramenta removedor pele morta",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 15.6,
+   "nota": 4.9,
+   "vendas": 5958,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S573b2d274bbb41818db667c805692182c.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3ZzDusP",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005006678168376": {
+   "n": "Libron 8 em 1 conjunto de chave allen dobrável, conjunto de chave...",
+   "t": "Libron 8 em 1 conjunto de chave allen dobrável, conjunto de chave allen métrica, ferramenta ou dobrável, à prova de violação, conjunto de ch",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 28.19,
+   "nota": 4.9,
+   "vendas": 5818,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S629061936e014a669f80fddcfeca7eeb5.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4rzeqZh",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005006860713757": {
+   "n": "conjunto de arquivo de agulha de diamante 3x140mm mini kit de arquivo...",
+   "t": "10 pçs conjunto de arquivo de agulha de diamante 3x140mm mini kit de arquivo de agulha para pedra vidro metal escultura artesanato ferrament",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 17.42,
+   "nota": 4.9,
+   "vendas": 5811,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc1293319f66345eab1fc1a93aa0239e5u.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3qML2Dt",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005012010861949": {
+   "n": "Medidor digital de pressão de pneus, alta precisão, display lcd...",
+   "t": "Medidor digital de pressão de pneus, alta precisão, display lcd tg105, carro, caminhão, motocicleta, bicicleta, bomba de pneus, acessórios, ",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 22.78,
+   "nota": 4.9,
+   "vendas": 3166,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S53d81101a7274d0a825caec0a6795324M.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4oXGSZh",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005010089223183": {
+   "n": "Medidor de Pressão de Pneus com Interface EU para Carro, Moto, SUV...",
+   "t": "Medidor de Pressão de Pneus com Interface EU para Carro, Moto, SUV, Bomba de Ar e Ferramenta de Reparo Tipo Pistola para Compressor de Ar",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 41.69,
+   "nota": 4.9,
+   "vendas": 2866,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9e5be870aa8041b99f957f605de193bbr.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2Jm6uej",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005009960241709": {
+   "n": "Manômetro Digital para Pneus, Medidor de Pressão de Ar para Carros...",
+   "t": "Manômetro Digital para Pneus, Medidor de Pressão de Ar para Carros, Ferramenta TPMS, Testador de Pneus",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 43.59,
+   "nota": 4.9,
+   "vendas": 2703,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scfe4f1e5584a4d67895d425bc5a058480.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3lEYU6x",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005010332322686": {
+   "n": "Manômetro Digital de Pressão de Pneus HTMCK, Testador de Pneus LCD de...",
+   "t": "Manômetro Digital de Pressão de Pneus HTMCK, Testador de Pneus LCD de Alta Precisão para Carros, Caminhões e Motocicletas, Monitoramento Aut",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 63.49,
+   "nota": 4.9,
+   "vendas": 2635,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc88ebf7ee4b847dfa7681c3399393648h.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c412PfWR",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005010130663327": {
+   "n": "Dispensador de Água Inteligente 3L com Timer para Gatos e Cães...",
+   "t": "Dispensador de Água Inteligente 3L com Timer para Gatos e Cães Pequenos, Fonte Automática para Animais de Estimação, Separação de Água Suja ",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 321.57,
+   "nota": 4.9,
+   "vendas": 669,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S67fc54e1d50e4eceaf43e3dcdc81df6fE.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4F3UTAr",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005007987714459": {
+   "n": "Bebedouro automático para animais de estimação, tigela para água com...",
+   "t": "Bebedouro automático para animais de estimação, tigela para água com filtro, alimentado por USB, elétrico, silencioso, dispensador de água p",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 53.17,
+   "nota": 4.9,
+   "vendas": 636,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S572ad0d619e8440f8bc01493f14c51a0q.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2zUXmBV",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005013031655118": {
+   "n": "Bomba de Água para Fonte de Água para Animais de Estimação Pet Dance...",
+   "t": "Bomba de Água para Fonte de Água para Animais de Estimação Pet Dance 1 Peça Ultra-Eficiente e Silenciosa USB com Luz Indicadora LED para Rep",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 20.37,
+   "nota": 4.9,
+   "vendas": 603,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5e05c406d5d847f49608347f77d69ddaj.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3LIFCIL",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005008248109446": {
+   "n": "2.2l carregamento sem fio indução gato e cão alimentador de água...",
+   "t": "2.2l carregamento sem fio indução gato e cão alimentador de água carregamento indução grande capacidade pet bebedouro tigela",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 121.05,
+   "nota": 4.9,
+   "vendas": 591,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd281baabbf594a7bade0d9552aad8d545.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4LMzps7",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005010151137200": {
+   "n": "Choques de óleo de mola de taxa dupla INJORA DRX para rastreadores...",
+   "t": "Choques de óleo de mola de taxa dupla INJORA DRX para rastreadores 1/10 RC, 80 mm / 90 mm / 100 mm / 110 mm / 120 mm",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 144.59,
+   "nota": 4.9,
+   "vendas": 1098,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0c8d7352ab44a9ab4b0902ef1e0ce1db.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4a2rHyj",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005006860965078": {
+   "n": "Carro RC 4 Canais de Alta Velocidade, Carro de Corrida Elétrico de...",
+   "t": "Carro RC 4 Canais de Alta Velocidade, Carro de Corrida Elétrico de Controle Remoto para Drift, Brinquedo Modelo Esportivo para Meninos, Pres",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 64.49,
+   "nota": 4.9,
+   "vendas": 1051,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S11bac5a214644636a98af9a5a9025cedh.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c38KcfoL",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005011587396018": {
+   "n": "2026 novo carro c6 rc drift com luzes de modo duplo câmera de som...",
+   "t": "2026 novo carro c6 rc drift com luzes de modo duplo câmera de som controle tela carro indução inteligente seguinte brinquedos das crianças p",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 78.79,
+   "nota": 4.9,
+   "vendas": 970,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0ef6280ae9f7452ca188ea7804983768u.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4CcUfcT",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005010037215768": {
+   "n": "Carro de Controle Remoto Oike 4WD para Drift, Modelo de Carro de...",
+   "t": "Carro de Controle Remoto Oike 4WD para Drift, Modelo de Carro de Corrida Mini 1:24, Rádio 2.4G, Alta Velocidade, 4X4, Brinquedo de Veículo R",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 99.17,
+   "nota": 4.9,
+   "vendas": 966,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Saf4cf8233a684467a76179c9a124ed934.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c38ZTWWj",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:21998511520": {
+   "n": "Moleton Ziper Estilosa Aberto Jaqueta Blusa De Frio Feminino...",
+   "t": "Moleton Ziper Estilosa Aberto Jaqueta Blusa De Frio Feminino Masculino Canguru Capuz Bolso Inverno",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 69.97,
+   "nota": 4.9,
+   "vendas": 776,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m7-mo5lcldsdptu05",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8pnGptadpq",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:23794966305": {
+   "n": "Moletom Canguru Motoqueiro Alpi Bolso Capuz Estilo Frio Inverno...",
+   "t": "Moletom Canguru Motoqueiro Alpi Bolso Capuz Estilo Frio Inverno Lançamento",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 59.96,
+   "nota": 4.9,
+   "vendas": 299,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lw-mr80knpc00sk89",
+   "od": 0,
+   "link": "https://s.shopee.com.br/BVIVy7dQU",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:58217802957": {
+   "n": "Moletom Canguru Infantil Confortável Quentinho Flanelado Agasalho...",
+   "t": "Moletom Canguru Infantil Confortável Quentinho Flanelado Agasalho Masculino Blusa Frio Capote USECO",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 40.89,
+   "nota": 4.9,
+   "vendas": 223,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825a2-mswuofhfqbk10c",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4fxhsEqVIR",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:58207179400": {
+   "n": "Moletom Canguru Feminino Estiloso Confortável Moderno Moda Inverno...",
+   "t": "Moletom Canguru Feminino Estiloso Confortável Moderno Moda Inverno Blusa de Frio Modelo  Aranha teia Coração",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 55.61,
+   "nota": 4.9,
+   "vendas": 221,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820ln-mts5xxpifytc09",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4LKrTcrlyP",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:58263864089": {
+   "n": "Moletom Masculino/Feminino Canguru Quiksilver Flanelado Grosso...",
+   "t": "Moletom Masculino/Feminino Canguru Quiksilver Flanelado Grosso Inverno Streetwear Premium",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 57.0,
+   "nota": 4.8,
+   "vendas": 308,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825aw-mqe1brc042ypb0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4B1RHJsPJO",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:19699843252": {
+   "n": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
+   "t": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 21.55,
+   "nota": 4.9,
+   "vendas": 6095,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdy4-mcc4llc8xbix14",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6q2CSE4BXI",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:58252152185": {
+   "n": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
+   "t": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 22.49,
+   "nota": 4.9,
+   "vendas": 4838,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-81zwr-mieih5tm8i6b73",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7fbJRl10qR",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:22493344923": {
+   "n": "Necessaire Feminina Personalizada com Inicial Box com Alça Porta...",
+   "t": "Necessaire Feminina Personalizada com Inicial Box com Alça Porta Maquiagem Bolsa Viagem",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 17.92,
+   "nota": 4.9,
+   "vendas": 4222,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m0-mm9n38usw7wn9a",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3qOasiFbcn",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:21797990606": {
+   "n": "1 unid Necessaire box personalizada com inicial organizador de...",
+   "t": "1 unid Necessaire box personalizada com inicial organizador de maquiagem bolsinhas Necesser",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 17.92,
+   "nota": 4.9,
+   "vendas": 3312,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-md2h6cdl0boyeb",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6fimFv4osH",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:22397985542": {
+   "n": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água",
+   "t": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 22.98,
+   "nota": 4.9,
+   "vendas": 2857,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1oj54hqshjlc0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/70LceX3YCN",
+   "visto": "2026-11-11T15:40+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
   }
  },
  "teclado-mecanico": {
