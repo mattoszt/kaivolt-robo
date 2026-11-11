@@ -46,7 +46,7 @@
   "2026-11-08": 38.89,
   "2026-11-09": 38.89,
   "2026-11-10": 45.89,
-  "2026-11-11": 45.89
+  "2026-11-11": 38.89
  },
  "carregador-20w": {
   "2026-09-26": 15.89,
@@ -95,7 +95,7 @@
   "2026-11-08": 17.74,
   "2026-11-09": 15.76,
   "2026-11-10": 16.38,
-  "2026-11-11": 15.56
+  "2026-11-11": 17.16
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -144,7 +144,7 @@
   "2026-11-08": 15.39,
   "2026-11-09": 15.39,
   "2026-11-10": 11.03,
-  "2026-11-11": 10.59
+  "2026-11-11": 14.79
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -340,7 +340,7 @@
   "2026-11-08": 77.94,
   "2026-11-09": 81.91,
   "2026-11-10": 81.91,
-  "2026-11-11": 81.91
+  "2026-11-11": 77.94
  },
  "carregador-gan-65w": {
   "2026-09-26": 41.29,
@@ -438,7 +438,7 @@
   "2026-11-08": 10.35,
   "2026-11-09": 10.35,
   "2026-11-10": 10.45,
-  "2026-11-11": 10.64
+  "2026-11-11": 10.45
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -487,7 +487,7 @@
   "2026-11-08": 40.87,
   "2026-11-09": 107.29,
   "2026-11-10": 40.87,
-  "2026-11-11": 40.87
+  "2026-11-11": 152.59
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
@@ -598,7 +598,7 @@
   "2026-11-08": 51.49,
   "2026-11-09": 31.24,
   "2026-11-10": 39.91,
-  "2026-11-11": 31.24
+  "2026-11-11": 51.99
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -696,7 +696,7 @@
   "2026-11-08": 15.28,
   "2026-11-09": 15.28,
   "2026-11-10": 15.43,
-  "2026-11-11": 15.38
+  "2026-11-11": 16.11
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -745,7 +745,7 @@
   "2026-11-08": 41.99,
   "2026-11-09": 49.9,
   "2026-11-10": 49.9,
-  "2026-11-11": 40.92
+  "2026-11-11": 41.99
  },
  "fone-tws": {
   "2026-09-26": 29.19,
@@ -794,7 +794,7 @@
   "2026-11-08": 20.55,
   "2026-11-09": 26.57,
   "2026-11-10": 26.81,
-  "2026-11-11": 21.2
+  "2026-11-11": 20.55
  },
  "caixa-som": {
   "2026-09-26": 41.11,
@@ -892,7 +892,7 @@
   "2026-11-08": 66.88,
   "2026-11-09": 118.59,
   "2026-11-10": 66.88,
-  "2026-11-11": 118.73
+  "2026-11-11": 113.98
  },
  "cabo-lightning": {
   "2026-09-26": 8.21,
@@ -1544,7 +1544,7 @@
    "2026-11-08": 80.91,
    "2026-11-09": 80.91,
    "2026-11-10": 80.91,
-   "2026-11-11": 80.91
+   "2026-11-11": 92.68
   },
   "mouse-sem-fio|AliExpress|1005010653523244": {
    "2026-09-27": 17.89,
@@ -2157,7 +2157,8 @@
    "2026-10-26": 17.27,
    "2026-10-27": 17.08,
    "2026-10-29": 18.28,
-   "2026-11-08": 17.74
+   "2026-11-08": 17.74,
+   "2026-11-11": 17.16
   },
   "suporte-veicular|AliExpress|1005009960307408": {
    "2026-09-27": 15.99,
@@ -3056,7 +3057,8 @@
    "2026-11-07": 15.39,
    "2026-11-08": 15.39,
    "2026-11-09": 15.39,
-   "2026-11-10": 15.39
+   "2026-11-10": 15.39,
+   "2026-11-11": 14.79
   },
   "powerbank-20000|Shopee|23394324110": {
    "2026-10-01": 45.98,
@@ -4006,7 +4008,8 @@
   },
   "suporte-tablet|AliExpress|1005006994519669": {
    "2026-11-06": 15.99,
-   "2026-11-07": 15.99
+   "2026-11-07": 15.99,
+   "2026-11-11": 16.11
   },
   "teclado-tablet|AliExpress|1005006966444204": {
    "2026-11-07": 57.49,
@@ -4023,7 +4026,8 @@
   "fone-tws|Shopee|41581456549": {
    "2026-11-08": 20.55,
    "2026-11-09": 20.55,
-   "2026-11-10": 20.55
+   "2026-11-10": 20.55,
+   "2026-11-11": 20.55
   },
   "powerbank-20000|Shopee|23597895251": {
    "2026-11-09": 45.99,
@@ -4120,8 +4124,8 @@
   }
  },
  "_achados_meta": {
-  "n": 2347,
-  "ali_n": 4703,
+  "n": 2348,
+  "ali_n": 4708,
   "ali_q": {
    "Beleza": 317,
    "Esportes": 317,
@@ -4131,29 +4135,29 @@
    "Carro": 317,
    "Pet": 317,
    "Brinquedos": 317,
-   "Bebês": 316,
-   "Celular": 316,
-   "Tech": 316,
-   "Áudio e TV": 316,
-   "Games": 316,
+   "Bebês": 317,
+   "Celular": 317,
+   "Tech": 317,
+   "Áudio e TV": 317,
+   "Games": 317,
    "Moda": 316
   },
-  "shopee_n": 7080,
+  "shopee_n": 7088,
   "shopee_q": {
-   "Celular": 506,
-   "Tech": 506,
-   "Áudio e TV": 506,
-   "Games": 506,
+   "Celular": 507,
+   "Tech": 507,
+   "Áudio e TV": 507,
+   "Games": 507,
    "Moda": 506,
    "Beleza": 506,
    "Esportes": 506,
    "Casa": 506,
    "Eletro": 506,
    "Ferramentas": 506,
-   "Carro": 505,
-   "Pet": 505,
-   "Brinquedos": 505,
-   "Bebês": 505
+   "Carro": 506,
+   "Pet": 506,
+   "Brinquedos": 506,
+   "Bebês": 506
   }
  },
  "_achados": {
@@ -4850,7 +4854,10 @@
    "link": "https://s.shopee.com.br/5Atx9BZf9b",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23994317449": {
    "n": "Cortina Trilho Suíço Duplo Voil de Linho + Forro Blackout 4,00 x...",
@@ -4865,7 +4872,10 @@
    "link": "https://s.shopee.com.br/1BqzgtKdc",
    "visto": "2026-11-10T19:46+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:20498007503": {
    "n": "Aço Inoxidável Fonte para Gatos com Filtro 3.2L Dispensador de água...",
@@ -4970,7 +4980,10 @@
    "link": "https://s.click.aliexpress.com/e/_c36Ig6pD",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🧸",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010089195313": {
    "n": "Novos blocos de construção magnéticos, mundo magnético, cabana de...",
@@ -4985,7 +4998,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3kWAFjv",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🧸",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007987891043": {
    "n": "Conjunto SWAT 8 em 1 com 585 Peças: Kit de Blocos de Montar Caminhão...",
@@ -5000,7 +5016,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4LgkYJz",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🧸",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010759405769": {
    "n": "Blocos de Montar de Soldados do Exército da Segunda Guerra Mundial...",
@@ -5015,7 +5034,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3b61yGf",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Brinquedos",
-   "ic": "🧸"
+   "ic": "🧸",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012141912556": {
    "n": "Suporte de Câmera Portátil Flexível com Grampo para Monitor de Bebê...",
@@ -5030,7 +5052,10 @@
    "link": "https://s.click.aliexpress.com/e/_c36Qmm27",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Bebês",
-   "ic": "🍼"
+   "ic": "🍼",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012011047566": {
    "n": "HTMCK3.0 Doppler Fetal Portátil de Bolso, Monitor de Batimentos...",
@@ -5045,7 +5070,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4ajAFvH",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Bebês",
-   "ic": "🍼"
+   "ic": "🍼",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005011587400035": {
    "n": "Suporte Flexível para Câmera de Monitoramento de Bebês, Adequado para...",
@@ -5060,7 +5088,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4505xQB",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Bebês",
-   "ic": "🍼"
+   "ic": "🍼",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010018136061": {
    "n": "Sm50 sm70 baby6 novo suporte de câmera para monitor de bebê montagem...",
@@ -5075,7 +5106,20 @@
    "link": "https://s.click.aliexpress.com/e/_c4dKAmPV",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Bebês",
-   "ic": "🍼"
+   "ic": "🍼",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 28.99,
+     "nota": 4.9,
+     "vendas": 571,
+     "t": "Suporte Universal Ajustável Para Câmera e Monitor de Bebê - Compatível com Bay Monitor Tak",
+     "link": "https://s.shopee.com.br/2BGNL2Zjy2",
+     "sim": true
+    }
+   ]
   },
   "ali:1005012519469294": {
    "n": "Cooler Magnético Portátil Universal 2 em 1 com Clip e Luz Ambiente...",
@@ -5090,7 +5134,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3qif6qF",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Celular",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008144931365": {
    "n": "Base de resfriamento para portáteis com ventoinhas silenciosas de 12...",
@@ -5105,7 +5152,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3aWJx1N",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Celular",
-   "ic": "📱"
+   "ic": "📱",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005009123209321": {
    "n": "Câmera Mini WiFi DIY HD 1080P Portátil Gravador de Vídeo Webcam Sem...",
@@ -5120,7 +5170,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4Bip2dv",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006702691545": {
    "n": "Webcam 4K com Autofoco 1440P 2K, Câmera USB 1080P 60fps EMEET C60E...",
@@ -5165,7 +5218,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3MnFO11",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005009738313221": {
    "n": "H96 MAX Allwinner H313 Quad Core Android TV Stick 4K HDR Wifi6 BT...",
@@ -5180,7 +5236,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4seVGyP",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005013040404867": {
    "n": "H96 Max RK3518 Android 14.0 TV Stick Quad Core 4K Wifi6 BT5.4...",
@@ -5195,7 +5254,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4V8b4V1",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22597307453": {
    "n": "Mouse sem fio dual band receptor nano 2,4ghz / Bluetooth RGB...",
@@ -5210,7 +5272,10 @@
    "link": "https://s.shopee.com.br/7fbIS271C4",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58200908577": {
    "n": "Mouse Home Office Sem Fio - Bateria Interna Recarregável e LED RGB...",
@@ -5225,7 +5290,10 @@
    "link": "https://s.shopee.com.br/7puieL6Nr7",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22594721498": {
    "n": "Mouse Sem Fio Home Office - Recarregável com Bateria Interna e LED RGB",
@@ -5240,7 +5308,10 @@
    "link": "https://s.shopee.com.br/70Lbeo9YY0",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22092485261": {
    "n": "Mouse Sem Fio Recarregável Wireless Led Rgb Ergonômico Novo",
@@ -5255,7 +5326,20 @@
    "link": "https://s.shopee.com.br/6q2BSVABt1",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 18.6,
+     "nota": 4.9,
+     "vendas": 7556,
+     "t": "Bluetooth 2.4g usb mouse sem fio ergonômico silencioso mouse para jogos portátil recarregá",
+     "link": "https://s.click.aliexpress.com/e/_c32wY3FZ",
+     "sim": true
+    }
+   ]
   },
   "shp:22294689106": {
    "n": "Mouse Sem Fio Recarregável Silencioso Bluetooth/USB Ergonômico PC...",
@@ -5270,7 +5354,20 @@
    "link": "https://s.shopee.com.br/3VljUNMseR",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 18.6,
+     "nota": 4.9,
+     "vendas": 7556,
+     "t": "Bluetooth 2.4g usb mouse sem fio ergonômico silencioso mouse para jogos portátil recarregá",
+     "link": "https://s.click.aliexpress.com/e/_c4mMSr2r",
+     "sim": true
+    }
+   ]
   },
   "shp:23294339018": {
    "n": "Suporte Horizontal Compatível C/ Ps5 Slim Digital Play5",
@@ -5285,7 +5382,10 @@
    "link": "https://s.shopee.com.br/4fxgsWa6gI",
    "visto": "2026-11-11T00:41+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23698065627": {
    "n": "Base Carregador Para 2 Controles PS5,Carregamento dupla,rápido e...",
@@ -6336,6 +6436,432 @@
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Beleza",
    "ic": "💄"
+  },
+  "ali:1005012528658653": {
+   "n": "Conjunto de Escovas para Limpeza de Mamadeiras Avent W67 com 10...",
+   "t": "Conjunto de Escovas para Limpeza de Mamadeiras Avent W67 com 10 Escovas de Silicone com Sucção Magnética para Lavar e Drenar sem Danificar a",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 96.48,
+   "nota": 4.9,
+   "vendas": 1496,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb1757c26d43b4a60b3d6da0721f68442q.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3oV67CT",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005010572880021": {
+   "n": "Mamadeira de pescoço normal de 8 onças/240ml com escova de palha...",
+   "t": "Mamadeira de pescoço normal de 8 onças/240ml com escova de palha, conjunto de mamadeira PP mãos-livres-compõe alimentação fácil",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 33.51,
+   "nota": 4.9,
+   "vendas": 1452,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf9af9bbd5a8d432686340f024d333cc68.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c35iyPbZ",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005005174355202": {
+   "n": "Garrafa de água infantil 350ml, copo à prova de vazamento com bola de...",
+   "t": "Garrafa de água infantil 350ml, copo à prova de vazamento com bola de gravidade, boca larga para bebês, copo de palha com vedação automática",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 24.61,
+   "nota": 4.9,
+   "vendas": 1445,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc3ac9de8cfae49258122f08c97baddebc.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3PFf72P",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005007344980551": {
+   "n": "Saco de carrinho de bebê fralda múmia saco grande capacidade carrinho...",
+   "t": "Saco de carrinho de bebê fralda múmia saco grande capacidade carrinho organizador suporte copo garrafa alimentação carrinho acessórios saco ",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 29.51,
+   "nota": 4.9,
+   "vendas": 1314,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S497d8a529147426189a91698974f5d3aI.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3Da7BSR",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005006996228436": {
+   "n": "Cabo de dados Essager Tipo C para Tipo C e Lightning, PD 65W, 2 em 1...",
+   "t": "Cabo de dados Essager Tipo C para Tipo C e Lightning, PD 65W, 2 em 1, Samsung, Xiaomi, iPhone 14, 13, 12, 11 Pro Max, Xs Plus",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 16.26,
+   "nota": 4.9,
+   "vendas": 5316,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5784f1a0a33948198fbe44d5aa9f2a58M.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3uAVmHv",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005006982273210": {
+   "n": "Ugreen 100w usb tipo c para cabo usb c para iphone 17 16 macbook ipad...",
+   "t": "Ugreen 100w usb tipo c para cabo usb c para iphone 17 16 macbook ipad samsung poco pd cabo de carregamento rápido 5a e-marker chip",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 17.36,
+   "nota": 4.9,
+   "vendas": 3828,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc52b1a3b294a45f187ad2744d9d8b326X.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3OUtSI7",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005006465809603": {
+   "n": "Cabo USB C Baseus para iPhone 14 13 12 11 Pro Max Xs Plus, Cabo de...",
+   "t": "Cabo USB C Baseus para iPhone 14 13 12 11 Pro Max Xs Plus, Cabo de Carregamento Rápido de 20W 30W, Cabo de Dados Tipo C para iPad e Macbook",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 28.49,
+   "nota": 4.9,
+   "vendas": 3743,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0565729590b4e9ea669c8955889b6acq.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3wZEMeL",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005008052748418": {
+   "n": "Ugreen 60w usb tipo c para cabo usb c para macbook ipad samsung...",
+   "t": "Ugreen 60w usb tipo c para cabo usb c para macbook ipad samsung xiaomi pd cabo de carregamento rápido 3a cabo usb c rápido",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 16.9,
+   "nota": 4.9,
+   "vendas": 3731,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S39f22b1a26224b6baf47007f688f12dcw.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4lXUHVd",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005011587231478": {
+   "n": "grande mouse pad de couro falso, almofada de mesa impermeável...",
+   "t": "1pc grande mouse pad de couro falso, almofada de mesa impermeável antiderrapante para escritório, mesa, mouse pads para mesa fácil de limpar",
+   "g": "Tech",
+   "loja": "AliExpress",
+   "por": 20.61,
+   "nota": 4.9,
+   "vendas": 6973,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S34405f62f88e4253bde523973ba09674v.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c32LvraR",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "ali:1005007129466293": {
+   "n": "Mouse Pad Grande para Jogos, Líquido XXL Strata, 900x400, Teclado...",
+   "t": "Mouse Pad Grande para Jogos, Líquido XXL Strata, 900x400, Teclado Anime, Mousepad, Esteira de Mesa, Decoração para Computador, Laptop",
+   "g": "Tech",
+   "loja": "AliExpress",
+   "por": 18.02,
+   "nota": 4.9,
+   "vendas": 4560,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5358ef6d90024e14bb46bc411b7b12e4l.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3pkGnBp",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "ali:1005010089088930": {
+   "n": "Mouse pad grande, tapete para teclado, decoração para gamers, tapete...",
+   "t": "Mouse pad grande, tapete para teclado, decoração para gamers, tapete de mesa, mouse pads para computador e laptop, tapete para teclado e mou",
+   "g": "Tech",
+   "loja": "AliExpress",
+   "por": 41.89,
+   "nota": 4.9,
+   "vendas": 3161,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd96dcbbfc1a54926a5e6670bef34c5c8N.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3ucEt07",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "ali:1005007344869594": {
+   "n": "Tapete de mouse de feltro de lã de tamanho grande, protetor de mesa...",
+   "t": "Tapete de mouse de feltro de lã de tamanho grande, protetor de mesa de computador de escritório, almofada de laptop, acessórios de jogos ant",
+   "g": "Tech",
+   "loja": "AliExpress",
+   "por": 25.51,
+   "nota": 4.9,
+   "vendas": 2470,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Seee63b96a62a477ea501934ec852d165V.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3YOPCht",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "ali:1005010323833330": {
+   "n": "Projetor Magcubic Auto Focus 330 ANSI HY310 com Suporte a 4K, 1080P...",
+   "t": "Projetor Magcubic Auto Focus 330 ANSI HY310 com Suporte a 4K, 1080P, Android 11, WiFi6, BT5.4, Controle por Voz, Portátil para Casa",
+   "g": "Áudio e TV",
+   "loja": "AliExpress",
+   "por": 423.94,
+   "nota": 4.9,
+   "vendas": 2582,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S38521c0a089b4134be4f594461e13054b.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c33NV8Cr",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "ali:1005009916208760": {
+   "n": "Projetor Magcubic Auto Focus Android 14 4K 400ANSI 8K Nativo 720P...",
+   "t": "Projetor Magcubic Auto Focus Android 14 4K 400ANSI 8K Nativo 720P HY300Max com Wifi6 BT5.4 Allwinner H726 Portátil para Uso Externo",
+   "g": "Áudio e TV",
+   "loja": "AliExpress",
+   "por": 361.9,
+   "nota": 4.9,
+   "vendas": 708,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S20b221857ccc4358bda1c4b9d5b521d7F.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4PlGg0f",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "ali:1005010044231303": {
+   "n": "Estação de carregamento de controlador rgb para ps5, carregador...",
+   "t": "Estação de carregamento de controlador rgb para ps5, carregador rápido duplo, indicador rgb, suporte de carregamento, docking station para g",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 38.39,
+   "nota": 4.9,
+   "vendas": 2136,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8512dafc40004119b35bd48cc148afc6D.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3guDB8b",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "ali:1005008666294372": {
+   "n": "Adaptador de Controle Sem Fio, Conversor de Controle Sem Fio para...",
+   "t": "Adaptador de Controle Sem Fio, Conversor de Controle Sem Fio para Consoles PS1/PS2, Compatível com PS4/PS5, Switch Pro, Xbox",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 127.59,
+   "nota": 4.9,
+   "vendas": 2131,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S226a2120249149d98f754d5ae4c2ac60O.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3hKdUNp",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "ali:1005007476830338": {
+   "n": "Controlador de jogos acessórios para playstation 5 4 3 2 ps5 ps4 ps3...",
+   "t": "Controlador de jogos acessórios para playstation 5 4 3 2 ps5 ps4 ps3 dualsense dualshock switch pro xbox controle suporte suporte jogo",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 43.0,
+   "nota": 4.9,
+   "vendas": 2118,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S17ed9fed83884a84945c22675cf9ff50G.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3XdcaT9",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "ali:1005008247992916": {
+   "n": "Estojo Organizador Rígido para Acessórios de Jogos, Bolsa de...",
+   "t": "Estojo Organizador Rígido para Acessórios de Jogos, Bolsa de Armazenamento para Controles de Jogo Compatível com PS5, PS4, XBOX",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 17.59,
+   "nota": 4.9,
+   "vendas": 1962,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S796ff729296b457bb70005ad801abf9ct.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3Z7WUPl",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "shp:58266866052": {
+   "n": "Cabo TIpo C para Lightning - Carregamento Rápido 30W 1M/2M Compatível...",
+   "t": "Cabo TIpo C para Lightning - Carregamento Rápido 30W 1M/2M Compatível com iPhone 14/13/12Mini/11 Pro Max XR XSMAX 8Plus",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 20.9,
+   "nota": 5.0,
+   "vendas": 832,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m0-muuhra8y1la8fa",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9pfoT67DzY",
+   "visto": "2026-11-11T22:18+00:00",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58215829382": {
+   "n": "Cabo USB-C para Lightning / Tipo C para Tipo C 30W PD Carregamento...",
+   "t": "Cabo USB-C para Lightning / Tipo C para Tipo C 30W PD Carregamento Rápido,1M/2M, p/ iPhone 17 16 15 14 13 12 11 Pro max",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 30.0,
+   "nota": 4.9,
+   "vendas": 2381,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820md-ms5bigzw6yh167",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1gK6k5cJYj",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:22894422640": {
+   "n": "Carregador IPhone Kit Fonte e Cabo Turbo 30w Tipo C p/ Lightning e...",
+   "t": "Carregador IPhone Kit Fonte e Cabo Turbo 30w Tipo C p/ Lightning e  Tipo C p/ Tipo C A´Gold PRO",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 19.99,
+   "nota": 4.9,
+   "vendas": 1615,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mesvpme21mv6b2",
+   "od": 0,
+   "link": "https://s.shopee.com.br/qkzkYfUFe",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:23997680349": {
+   "n": "Cabo de iPhone Turbo 30W PD USB C Para Lightning Qc 4.0 original...",
+   "t": "Cabo de iPhone Turbo 30W PD USB C Para Lightning Qc 4.0 original A'GOLD Carregamento Super Rápido",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 18.98,
+   "nota": 4.9,
+   "vendas": 1166,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lydwlfxn34f98d",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8pnHHGB21S",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58203804722": {
+   "n": "Carregador Turbo 50W H'Maston Original 2 Entradas para iPhone e...",
+   "t": "Carregador Turbo 50W H'Maston Original 2 Entradas para iPhone e Android – carregamento rápido potente com dupla saída",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 27.9,
+   "nota": 4.9,
+   "vendas": 694,
+   "img": "https://cf.shopee.com.br/file/br-11134201-820lk-mvdlozhcadq957",
+   "od": 0,
+   "link": "https://s.shopee.com.br/AUvVGK4gdc",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58218716811": {
+   "n": "HUB 4 Portas Em 1 USB USB3.0 OTG Tipo C Adaptador Para Mouse Teclado...",
+   "t": "HUB 4 Portas Em 1 USB USB3.0 OTG Tipo C Adaptador Para Mouse Teclado Lenovo Macbook PC Laptop-itech",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 15.99,
+   "nota": 5.0,
+   "vendas": 308,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825a1-mtfckdfwdblv50",
+   "od": 0,
+   "link": "https://s.shopee.com.br/70Ld5te999",
+   "visto": "2026-11-11T22:18+00:00",
+   "cmp_em": "2026-11-11T22:18+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:22899651314": {
+   "n": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF...",
+   "t": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF Docking Station-Aprox",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 19.0,
+   "nota": 4.9,
+   "vendas": 1335,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825ae-mrjkfexzo6x49b",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3g5B7lqpuB",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:40660401894": {
+   "n": "Tipo C HUB Porta USB 4 Em 1 Adaptador Multidivisor OTG De Alta...",
+   "t": "Tipo C HUB Porta USB 4 Em 1 Adaptador Multidivisor OTG De Alta Velocidade De 4 Portas Para Macbook Pro PC Laptop",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 18.61,
+   "nota": 4.9,
+   "vendas": 677,
+   "img": "https://cf.shopee.com.br/file/sg-11134301-7ratu-mas0voog4o3n75",
+   "od": 0,
+   "link": "https://s.shopee.com.br/40i1WNpZEH",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:23795144458": {
+   "n": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF...",
+   "t": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF Docking Station-TOPS",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 19.0,
+   "nota": 4.9,
+   "vendas": 658,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8257z-mrjl5y0rndoma3",
+   "od": 0,
+   "link": "https://s.shopee.com.br/5q9fhkiaVm",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
+  },
+  "shp:23999646099": {
+   "n": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF...",
+   "t": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF Docking Station-Zonix",
+   "g": "Tech",
+   "loja": "Shopee",
+   "por": 19.0,
+   "nota": 4.9,
+   "vendas": 643,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8258m-mrjlfn0mgtmo30",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7Af3ICdVoA",
+   "visto": "2026-11-11T22:18+00:00",
+   "cat": "Tech",
+   "ic": "💻"
   }
  },
  "teclado-mecanico": {
