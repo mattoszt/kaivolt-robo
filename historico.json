@@ -97,7 +97,7 @@
   "2026-11-09": 15.76,
   "2026-11-10": 16.38,
   "2026-11-11": 17.16,
-  "2026-11-12": 17.34
+  "2026-11-12": 16.27
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -347,7 +347,7 @@
   "2026-11-09": 81.91,
   "2026-11-10": 81.91,
   "2026-11-11": 77.94,
-  "2026-11-12": 77.94
+  "2026-11-12": 81.91
  },
  "carregador-gan-65w": {
   "2026-09-26": 41.29,
@@ -397,7 +397,7 @@
   "2026-11-09": 52.85,
   "2026-11-10": 46.2,
   "2026-11-11": 46.2,
-  "2026-11-12": 46.2
+  "2026-11-12": 53.41
  },
  "suporte-veicular": {
   "2026-09-26": 10.32,
@@ -447,7 +447,7 @@
   "2026-11-09": 10.35,
   "2026-11-10": 10.45,
   "2026-11-11": 10.45,
-  "2026-11-12": 10.45
+  "2026-11-12": 11.56
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -547,7 +547,7 @@
   "2026-11-09": 49.79,
   "2026-11-10": 50.19,
   "2026-11-11": 37.79,
-  "2026-11-12": 37.79
+  "2026-11-12": 32.98
  },
  "ssd-512": {
   "2026-09-26": 80.69,
@@ -710,7 +710,7 @@
   "2026-11-09": 15.28,
   "2026-11-10": 15.43,
   "2026-11-11": 16.11,
-  "2026-11-12": 16.11
+  "2026-11-12": 16.52
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -760,7 +760,7 @@
   "2026-11-09": 49.9,
   "2026-11-10": 49.9,
   "2026-11-11": 41.99,
-  "2026-11-12": 41.99
+  "2026-11-12": 49.9
  },
  "fone-tws": {
   "2026-09-26": 29.19,
@@ -810,7 +810,7 @@
   "2026-11-09": 26.57,
   "2026-11-10": 26.81,
   "2026-11-11": 20.55,
-  "2026-11-12": 25.95
+  "2026-11-12": 23.09
  },
  "caixa-som": {
   "2026-09-26": 41.11,
@@ -960,7 +960,7 @@
   "2026-11-09": 10.81,
   "2026-11-10": 10.77,
   "2026-11-11": 10.51,
-  "2026-11-12": 10.51
+  "2026-11-12": 10.77
  },
  "mouse-sem-fio": {
   "2026-09-26": 17.89,
@@ -1010,7 +1010,7 @@
   "2026-11-09": 22.13,
   "2026-11-10": 22.29,
   "2026-11-11": 15.27,
-  "2026-11-12": 15.27
+  "2026-11-12": 18.86
  },
  "_anuncios": {
   "powerbank-10000|AliExpress|1005012621183397": {
@@ -1110,7 +1110,8 @@
    "2026-11-08": 15.76,
    "2026-11-09": 15.76,
    "2026-11-10": 15.76,
-   "2026-11-11": 15.56
+   "2026-11-11": 15.56,
+   "2026-11-12": 16.27
   },
   "carregador-20w|Mercado Livre|MLB4106194513": {
    "2026-09-27": 89.9,
@@ -1251,7 +1252,6 @@
    "2026-11-10": 50.39
   },
   "powerbank-20000|Mercado Livre|MLB6306405776": {
-   "2026-10-01": 136.88,
    "2026-10-02": 136.88,
    "2026-10-03": 136.88,
    "2026-10-04": 136.88,
@@ -1285,7 +1285,8 @@
    "2026-11-08": 136.88,
    "2026-11-09": 136.88,
    "2026-11-10": 136.88,
-   "2026-11-11": 136.88
+   "2026-11-11": 136.88,
+   "2026-11-12": 136.88
   },
   "powerbank-magsafe|Mercado Livre|MLB4540680129": {
    "2026-10-09": 83.91,
@@ -1432,7 +1433,7 @@
    "2026-11-09": 24.15,
    "2026-11-10": 24.15,
    "2026-11-11": 24.15,
-   "2026-11-12": 19.89
+   "2026-11-12": 24.15
   },
   "suporte-veicular|AliExpress|1005010487386351": {
    "2026-09-27": 11.24,
@@ -2206,7 +2207,8 @@
    "2026-11-08": 22.12,
    "2026-11-09": 22.13,
    "2026-11-10": 22.29,
-   "2026-11-11": 22.29
+   "2026-11-11": 22.29,
+   "2026-11-12": 18.86
   },
   "teclado-tablet|AliExpress|1005005820727589": {
    "2026-09-27": 44.08
@@ -2315,7 +2317,6 @@
    "2026-10-27": 49.89
   },
   "carregador-gan-65w|AliExpress|1005006678018718": {
-   "2026-10-06": 59.79,
    "2026-10-07": 59.7,
    "2026-10-08": 60.19,
    "2026-10-09": 60.19,
@@ -2349,7 +2350,8 @@
    "2026-11-07": 52.88,
    "2026-11-08": 52.84,
    "2026-11-09": 52.85,
-   "2026-11-10": 52.85
+   "2026-11-10": 52.85,
+   "2026-11-12": 53.41
   },
   "suporte-tablet|AliExpress|1005012479790240": {
    "2026-09-27": 17.43,
@@ -2473,7 +2475,6 @@
    "2026-10-31": 15.08
   },
   "fone-tws|AliExpress|1005012013858942": {
-   "2026-10-08": 24.61,
    "2026-10-09": 24.61,
    "2026-10-10": 24.59,
    "2026-10-11": 24.59,
@@ -2507,7 +2508,8 @@
    "2026-11-08": 22.23,
    "2026-11-09": 22.23,
    "2026-11-10": 22.19,
-   "2026-11-11": 21.2
+   "2026-11-11": 21.2,
+   "2026-11-12": 23.09
   },
   "powerbank-10000|Shopee|58256077874": {
    "2026-10-01": 45.99,
@@ -2680,7 +2682,6 @@
    "2026-10-08": 10.46
   },
   "mouse-gamer-rgb|Shopee|58214472841": {
-   "2026-10-06": 46.48,
    "2026-10-07": 46.48,
    "2026-10-08": 46.48,
    "2026-10-09": 46.48,
@@ -2714,7 +2715,8 @@
    "2026-11-06": 44.62,
    "2026-11-07": 44.62,
    "2026-11-08": 44.62,
-   "2026-11-11": 44.62
+   "2026-11-11": 44.62,
+   "2026-11-12": 44.62
   },
   "mouse-sem-fio|Shopee|22294689106": {
    "2026-10-01": 17.69,
@@ -3322,7 +3324,8 @@
    "2026-11-08": 15.61,
    "2026-11-09": 15.61,
    "2026-11-10": 15.62,
-   "2026-11-11": 15.38
+   "2026-11-11": 15.38,
+   "2026-11-12": 16.52
   },
   "teclado-tablet|Shopee|22799424925": {
    "2026-10-05": 44.99
@@ -3386,7 +3389,7 @@
    "2026-10-24": 109.75,
    "2026-11-10": 118.73,
    "2026-11-11": 118.73,
-   "2026-11-12": 115.17
+   "2026-11-12": 118.73
   },
   "cabo-lightning|Shopee|50164929187": {
    "2026-10-06": 9.94
@@ -3575,7 +3578,8 @@
    "2026-11-08": 32.98,
    "2026-11-09": 32.98,
    "2026-11-10": 32.98,
-   "2026-11-11": 32.98
+   "2026-11-11": 32.98,
+   "2026-11-12": 32.98
   },
   "suporte-tablet|Shopee|58214511080": {
    "2026-10-09": 16.75,
@@ -3861,7 +3865,7 @@
    "2026-11-08": 120.34,
    "2026-11-09": 120.36,
    "2026-11-11": 116.52,
-   "2026-11-12": 117.74
+   "2026-11-12": 121.52
   },
   "cabo-usbc-100w|AliExpress|1005006923559036": {
    "2026-10-27": 10.01,
@@ -3924,7 +3928,8 @@
    "2026-11-08": 10.77,
    "2026-11-09": 10.77,
    "2026-11-10": 10.81,
-   "2026-11-11": 10.64
+   "2026-11-11": 10.64,
+   "2026-11-12": 11.56
   },
   "caixa-som|Shopee|22194652188": {
    "2026-10-30": 46.99,
@@ -3943,7 +3948,7 @@
    "2026-11-09": 10.82,
    "2026-11-10": 10.81,
    "2026-11-11": 10.77,
-   "2026-11-12": 10.51
+   "2026-11-12": 10.77
   },
   "suporte-tablet|AliExpress|1005010332393432": {
    "2026-10-31": 15.32
@@ -4050,7 +4055,8 @@
   "teclado-tablet|AliExpress|1005006966444204": {
    "2026-11-07": 57.49,
    "2026-11-08": 57.49,
-   "2026-11-10": 57.5
+   "2026-11-10": 57.5,
+   "2026-11-12": 58.09
   },
   "powerbank-10000|Shopee|19198316357": {
    "2026-11-07": 38.89,
@@ -4084,7 +4090,8 @@
    "2026-11-12": 52.32
   },
   "cabo-usbc-100w|Shopee|58251784766": {
-   "2026-11-10": 24.89
+   "2026-11-10": 24.89,
+   "2026-11-12": 24.89
   },
   "caixa-som|AliExpress|1005012842313995": {
    "2026-11-10": 44.79,
@@ -4164,493 +4171,43 @@
   }
  },
  "_achados_meta": {
-  "n": 2349,
-  "ali_n": 4713,
+  "n": 2350,
+  "ali_n": 4718,
   "ali_q": {
    "Beleza": 318,
    "Esportes": 318,
    "Casa": 318,
    "Eletro": 318,
-   "Ferramentas": 317,
-   "Carro": 317,
-   "Pet": 317,
-   "Brinquedos": 317,
-   "Bebês": 317,
+   "Ferramentas": 318,
+   "Carro": 318,
+   "Pet": 318,
+   "Brinquedos": 318,
+   "Bebês": 318,
    "Celular": 317,
    "Tech": 317,
    "Áudio e TV": 317,
    "Games": 317,
    "Moda": 317
   },
-  "shopee_n": 7096,
+  "shopee_n": 7104,
   "shopee_q": {
-   "Celular": 507,
-   "Tech": 507,
-   "Áudio e TV": 507,
-   "Games": 507,
-   "Moda": 507,
-   "Beleza": 507,
+   "Celular": 508,
+   "Tech": 508,
+   "Áudio e TV": 508,
+   "Games": 508,
+   "Moda": 508,
+   "Beleza": 508,
    "Esportes": 507,
    "Casa": 507,
    "Eletro": 507,
    "Ferramentas": 507,
    "Carro": 507,
    "Pet": 507,
-   "Brinquedos": 506,
-   "Bebês": 506
+   "Brinquedos": 507,
+   "Bebês": 507
   }
  },
  "_achados": {
-  "ali:1005006860825492": {
-   "n": "Baseus led lâmpada de mesa proteção para os olhos estudo regulável...",
-   "t": "Baseus led lâmpada de mesa proteção para os olhos estudo regulável luz do escritório dobrável candeeiro mesa inteligente brilho adaptativo l",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 155.52,
-   "nota": 4.9,
-   "vendas": 3013,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S27d5086d8cb84ff1855da6ce2951613e6.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3kBTidp",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005005036874964": {
-   "n": "Baseus led lâmpada de mesa proteção para os olhos estudo regulável...",
-   "t": "Baseus led lâmpada de mesa proteção para os olhos estudo regulável luz do escritório dobrável candeeiro mesa inteligente brilho adaptativo l",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 209.99,
-   "nota": 4.9,
-   "vendas": 3002,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S27d5086d8cb84ff1855da6ce2951613e6.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4UIz5Rt",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010154975631": {
-   "n": "Cortina de luzes LED para o Natal, luminária decorativa para festas...",
-   "t": "Cortina de luzes LED para o Natal, luminária decorativa para festas, com controlo por aplicação, sincronização com música, padrões personali",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 105.11,
-   "nota": 4.9,
-   "vendas": 1863,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa4e09e645e6d4deba8ab56497fec43d2Y.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4WbsxJv",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005008660208657": {
-   "n": "Lâmpada led com sensor de movimento radar, 6 peças, 220v, 110v, e27...",
-   "t": "Lâmpada led com sensor de movimento radar, 6 peças, 220v, 110v, e27, lâmpada infravermelha inteligente, 6w, 9w, 12w, 15w, 18w, 20w, trabalha",
-   "g": "Casa",
-   "loja": "AliExpress",
-   "por": 44.6,
-   "nota": 4.9,
-   "vendas": 1716,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se815702e0db64843a77b02e3ff6c571fq.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3Aot2Hp",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005009424926853": {
-   "n": "Para jabr p20 pro/t5 pro robô aspirador de pó acessórios escova...",
-   "t": "Para jabr p20 pro/t5 pro robô aspirador de pó acessórios escova lateral principal filtro hepa mop pano saco pó substituição",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 19.09,
-   "nota": 4.9,
-   "vendas": 3735,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5ad2d33b72f9482f91d8cc9d0b158d38X.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c31SUGyf",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012013820995": {
-   "n": "Sacos de Substituição para Aspirador Robô Dreame X50 Ultra/X40...",
-   "t": "Sacos de Substituição para Aspirador Robô Dreame X50 Ultra/X40 Ultra/X30 Ultra/L50 Ultra/L40 Ultra/L10s Ultra Gen2/S30 Pro Ultra",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 24.89,
-   "nota": 4.9,
-   "vendas": 2319,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd7ab5f9781b45058ef599f0ac94c0aaF.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4tmCxzH",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006996257681": {
-   "n": "Escova lateral principal para xiaomi mi robot 1/ 1s sdjqr01rr...",
-   "t": "Escova lateral principal para xiaomi mi robot 1/ 1s sdjqr01rr sdjqr02rr sdjqr03rr roboeock e3, s4, s4 max, s5 aspirador de pó accessorie",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 19.89,
-   "nota": 4.9,
-   "vendas": 1716,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3b996d5d6c894073a609288e0b3909a7r.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4TXmoX5",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006860769492": {
-   "n": "Peças de Escovas de Rolo para Aspirador Robô iRobot Roomba Séries I E...",
-   "t": "Peças de Escovas de Rolo para Aspirador Robô iRobot Roomba Séries I E J I7 i7+ I3 i3+ I4 I6 i6+ I8 i8+Plus E5 E6 E7 J7 J7Plus",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 21.06,
-   "nota": 4.9,
-   "vendas": 1711,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Saefc825b6ec64612a5168453f70a74707.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3K7Yinl",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012588639970": {
-   "n": "DEWALT HT422 Chave de Fenda Elétrica Sem Fio 3.6V 5N.m Mandril...",
-   "t": "DEWALT HT422 Chave de Fenda Elétrica Sem Fio 3.6V 5N.m Mandril Hexagonal de 1/4'' Bateria Li-ion 1300mAh Recarregável para Reparos Doméstico",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 121.59,
-   "nota": 4.9,
-   "vendas": 1265,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6018fbc0188745838a1e5b09d2731285m.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3P5lFnp",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006994559594": {
-   "n": "Mini chave de fenda elétrica, 12/50/62/120 em 1 conjunto de chave de...",
-   "t": "Mini chave de fenda elétrica, 12/50/62/120 em 1 conjunto de chave de fenda elétrica de precisão sem fio recarregável, luzes LED, tapete magn",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 68.29,
-   "nota": 4.9,
-   "vendas": 1250,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd3f6ecf8546442bdbdab08233e990d8e3.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3jfOXdH",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005013100883378": {
-   "n": "Novo Chaveiro Elétrico Recarregável - Mini Ferramenta Sem Fio de Alto...",
-   "t": "Novo Chaveiro Elétrico Recarregável - Mini Ferramenta Sem Fio de Alto Torque Ajustável para Uso Doméstico",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 80.29,
-   "nota": 4.9,
-   "vendas": 1168,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S002f2f6191f64542a990011e4ee3281fF.jpeg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4n38t5z",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007170406771": {
-   "n": "Mini Chave de Fenda Elétrica Sem Fio 1300mAh Recarregável com Ajuste...",
-   "t": "Mini Chave de Fenda Elétrica Sem Fio 1300mAh Recarregável com Ajuste de Potência, Furadeira Multifuncional para Desmontagem e Reparo com Tor",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 84.79,
-   "nota": 4.9,
-   "vendas": 1127,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S81a36f9f381a4fc9906c839383159996D.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2JlyKaj",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005008248053751": {
-   "n": "Luz ambiente automotiva modificação interior do pé led luz ambiente...",
-   "t": "Luz ambiente automotiva modificação interior do pé led luz ambiente carro usb/ig música atmosfera lâmpada de tira decorativa",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 28.69,
-   "nota": 4.9,
-   "vendas": 15407,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sdc3217866fab4a35a90f608a0ad4f265j.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4efA40r",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005013255475752": {
-   "n": "Luz de LED Neon para Interior de Carro, Iluminação Ambiente para os...",
-   "t": "Luz de LED Neon para Interior de Carro, Iluminação Ambiente para os Pés, para Tesla, Controle Remoto por Aplicativo, Controle de Música, Ace",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 36.99,
-   "nota": 4.9,
-   "vendas": 14452,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6e4357925ed64bc590d5d7ae87750ad3Y.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c32P5tRv",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012061784622": {
-   "n": "Luz Ambiente LED Neon para Interior de Carro com Controle Remoto Sem...",
-   "t": "Luz Ambiente LED Neon para Interior de Carro com Controle Remoto Sem Fio e Controle por APP de Música, Lâmpada Decorativa RGB",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 27.39,
-   "nota": 4.9,
-   "vendas": 14315,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3cffd715d90c43f1a6eaaab5ab5589a4d.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3R4ahTt",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010348972385": {
-   "n": "5m interior do carro conduziu a luz de tira el fio néon iluminação...",
-   "t": "5m interior do carro conduziu a luz de tira el fio néon iluminação ambiente usb flexível decoração diy auto festa atmosfera lâmpada diodo",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 19.6,
-   "nota": 4.9,
-   "vendas": 11353,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8caae21464fc41eb82d975130f7bea87f.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2IPP84X",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23292812154": {
-   "n": "Cortina Voil Com Forro Blackout Tecido 6,00X2,70 Metros perfeita para...",
-   "t": "Cortina Voil Com Forro Blackout Tecido 6,00X2,70 Metros  perfeita para Casa",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 153.6,
-   "nota": 4.9,
-   "vendas": 1344,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m17s4uju05g0de",
-   "od": 0,
-   "link": "https://s.shopee.com.br/30pSZChuXy",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:14147083873": {
-   "n": "Cortina Microfibra Com Voil 4,00x2,70 Semi Blackout Janela Quarta e...",
-   "t": "Cortina Microfibra Com Voil 4,00x2,70 Semi Blackout Janela Quarta e Sala Branco apartamento branca 2,80m 5m 6m 7m 8m",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 61.01,
-   "nota": 4.9,
-   "vendas": 1201,
-   "img": "https://cf.shopee.com.br/file/7fd6f1c8543c725fb4cd008a86e96749",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3LSIxogds4",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:18699092346": {
-   "n": "Cortina Voil Gaze de Linho 4,00x2,80/2,50/2,30 C/ Forro Blackout...",
-   "t": "Cortina Voil Gaze de Linho 4,00x2,80/2,50/2,30 C/ Forro Blackout Grosso Original",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 259.9,
-   "nota": 4.9,
-   "vendas": 1188,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lzhq41seo6ype6",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4qH6kZavpV",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T15:40+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23197320021": {
-   "n": "Cortina PVC Blackout Várias Medidas, 100% Luz Varão Quarto Sala...",
-   "t": "Cortina PVC Blackout Várias Medidas, 100% Luz Varão Quarto Sala Cozinha Diversas Cores Lavável Lisa.",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 39.9,
-   "nota": 4.9,
-   "vendas": 1173,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820l5-mssoa60dkzyd62",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5Atx9BZf9b",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T22:18+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23994317449": {
-   "n": "Cortina Trilho Suíço Duplo Voil de Linho + Forro Blackout 4,00 x...",
-   "t": "Cortina Trilho Suíço Duplo Voil de Linho + Forro Blackout 4,00 x 2,30/2,40/2,50/2,60/2,70/2,80 Alto Padrão",
-   "g": "Casa",
-   "loja": "Shopee",
-   "por": 297.9,
-   "nota": 4.9,
-   "vendas": 1097,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m7-mqqwkmq9fwn5a3",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1BqzgtKdc",
-   "visto": "2026-11-10T19:46+00:00",
-   "cat": "Casa",
-   "ic": "🏠",
-   "cmp_em": "2026-11-11T22:18+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:20498007503": {
-   "n": "Aço Inoxidável Fonte para Gatos com Filtro 3.2L Dispensador de água...",
-   "t": "Aço Inoxidável Fonte para Gatos com Filtro 3.2L Dispensador de água para Cães Bebedouro Gato Automático Super Silencioso",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 115.99,
-   "nota": 5.0,
-   "vendas": 675,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7ra1e-m59rwtb0098g4e",
-   "od": 0,
-   "link": "https://s.shopee.com.br/9AQ5uXbYIT",
-   "visto": "2026-11-10T19:46+00:00",
-   "cmp_em": "2026-11-10T19:46+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "shp:43150580919": {
-   "n": "Aço Inoxidável Fonte para Gatos com Filtro 3L Dispensador de água...",
-   "t": "Aço Inoxidável Fonte para Gatos com Filtro 3L Dispensador de água para Cães Bebedouro Gato Automático Super Silencioso",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 119.9,
-   "nota": 5.0,
-   "vendas": 576,
-   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-msatfkf4jhmv77",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8Kqyv0eizM",
-   "visto": "2026-11-10T19:46+00:00",
-   "cmp_em": "2026-11-10T19:46+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "shp:42956339788": {
-   "n": "Sensor Sem Fio Bebedouro Fonte Para Gato Cão 2.6l Newpet NP888V...",
-   "t": "Sensor Sem Fio Bebedouro Fonte Para Gato Cão 2.6l Newpet NP888V - Bivolt",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 135.95,
-   "nota": 5.0,
-   "vendas": 562,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdwh-lxi37gw0gitkc7",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8pnFVvcoyR",
-   "visto": "2026-11-10T19:46+00:00",
-   "cmp_em": "2026-11-10T19:46+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "shp:21897111220": {
-   "n": "Fonte de água para gatos com sensor inteligente 2,6 L automática para...",
-   "t": "Fonte de água para gatos com sensor inteligente 2,6 L automática para animais bebedouros",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 150.98,
-   "nota": 5.0,
-   "vendas": 554,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdyd-lxi37dnh71qe09",
-   "od": 0,
-   "link": "https://s.shopee.com.br/7fbI7mhGLI",
-   "visto": "2026-11-10T19:46+00:00",
-   "cmp_em": "2026-11-10T19:46+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Pet",
-   "ic": "🐾"
-  },
   "ali:1005008158815030": {
    "n": "5 cores jurássico brachiosaurus descoberta blocos de construção diy...",
    "t": "5 cores jurássico brachiosaurus descoberta blocos de construção diy dinossauros tijolos conjunto brinquedos educativos para crianças present",
@@ -5140,78 +4697,6 @@
    "cat": "Games",
    "ic": "🎮"
   },
-  "shp:23997629367": {
-   "n": "KIT 600 unidades escovinhas com glitter e sem Glitter Extensão de...",
-   "t": "KIT 600 unidades escovinhas com glitter e sem Glitter Extensão de Cílios e sobrancelha--GUI ANA",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 39.99,
-   "nota": 5.0,
-   "vendas": 1275,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdvf-lxcu8ke0jdntd0",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1LhEuP8j5P",
-   "visto": "2026-11-11T00:41+00:00",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:22999196500": {
-   "n": "12 Kits de 8 mini Conjunto De Pincéis De Maquiagem",
-   "t": "12 Kits de 8 mini Conjunto De Pincéis De Maquiagem",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 33.98,
-   "nota": 5.0,
-   "vendas": 1264,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m0-mszmq1mc5cska3",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3B8t5m1kMa",
-   "visto": "2026-11-11T00:41+00:00",
-   "cmp_em": "2026-11-11T00:41+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:20597875246": {
-   "n": "ANA1108-12 Kits de 8 mini Conjunto De Pincéis De Maquiagem",
-   "t": "ANA1108-12 Kits de 8 mini Conjunto De Pincéis De Maquiagem",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 30.46,
-   "nota": 4.9,
-   "vendas": 2930,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdy9-m0u25g6inavd44",
-   "od": 0,
-   "link": "https://s.shopee.com.br/6AmUfHqKH1",
-   "visto": "2026-11-11T00:41+00:00",
-   "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-11-12T03:25+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58256578086": {
-   "n": "Kit 4 Pincéis de Maquiagem Multifuncionais Duo Ponta – Pincéis...",
-   "t": "Kit 4 Pincéis de Maquiagem Multifuncionais Duo Ponta – Pincéis Faciais para Base, Corretivo e Blush",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 22.9,
-   "nota": 4.9,
-   "vendas": 1994,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8262z-mlm5kcdgjgu880",
-   "od": 0,
-   "link": "https://s.shopee.com.br/40i05IyZff",
-   "visto": "2026-11-11T00:41+00:00",
-   "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-11-12T03:25+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
   "ali:1005006678035495": {
    "n": "Gaminjja novo gamepad sem fio p48 com giroscópio de seis eixos...",
    "t": "Gaminjja novo gamepad sem fio p48 com giroscópio de seis eixos controlador de jogo para ps4 ps3 console dupla vibração pc joystick",
@@ -5477,7 +4962,20 @@
    "link": "https://s.click.aliexpress.com/e/_c4CHbJAX",
    "visto": "2026-11-11T07:15+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 11.99,
+     "nota": 4.8,
+     "vendas": 203,
+     "t": "Fita De Vedação Auto Colante Eva Janela E Porta 2, 4, 6, 8 ou 10 METROS",
+     "link": "https://s.shopee.com.br/906iNaWeTL",
+     "sim": true
+    }
+   ]
   },
   "ali:1005007344924974": {
    "n": "Fita de vedação flexível para a parte inferior da porta, para selar a...",
@@ -5492,7 +4990,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4V18OSL",
    "visto": "2026-11-11T07:15+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23493959457": {
    "n": "Bolsa De Ferramentas Maleta Para Carro Organizadora Automotiva...",
@@ -5507,7 +5008,10 @@
    "link": "https://s.shopee.com.br/5LDO6lu6CQ",
    "visto": "2026-11-11T07:15+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23493655166": {
    "n": "Organizadora Caixa Dobrável Multiuso P Porta Malas Multicompartimentos",
@@ -5522,7 +5026,10 @@
    "link": "https://s.shopee.com.br/9pfnT2cy4P",
    "visto": "2026-11-11T07:15+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58212294576": {
    "n": "Bolsa Organizadora de Porta-Malas em Feltro 50x24x17cm Dobrável...",
@@ -5621,7 +5128,10 @@
    "link": "https://s.shopee.com.br/906gTVyDj6",
    "visto": "2026-11-11T07:15+00:00",
    "cat": "Pet",
-   "ic": "🐾"
+   "ic": "🐾",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:24194740603": {
    "n": "Filme anti arranhador arranhão para cantos - protetor de arranhões...",
@@ -5636,7 +5146,10 @@
    "link": "https://s.shopee.com.br/8AXZTz1OQ3",
    "visto": "2026-11-11T07:15+00:00",
    "cat": "Pet",
-   "ic": "🐾"
+   "ic": "🐾",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58268284149": {
    "n": "240W Cabo Tipo C para Tipo C Carregamento Rápido com Suporte Dobrável...",
@@ -5726,7 +5239,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3yBzvfZ",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012640153580": {
    "n": "Ventilador de spray portátil mini umidificador ventilador 4...",
@@ -5741,7 +5257,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4BlZTD5",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010376345637": {
    "n": "Mini Vaporizador Facial Revitalizante e Umidificador 2 em 1 com Névoa...",
@@ -5756,7 +5275,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3fhBJpd",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007857319061": {
    "n": "Humidificador USB com dois bicos, capacidade de 600 ml/h, emissão de...",
@@ -5771,7 +5293,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3uf5yXl",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012814722926": {
    "n": "Conjunto de 120 ímãs para impressão 3D, 4x2, 5x2, 6x2, 8x2 mm, ímãs...",
@@ -5786,7 +5311,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3bnldHV",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006880775391": {
    "n": "100 pçs 3.1mm mini lixa bandas kits prego brocas mandril conjuntos de...",
@@ -5801,7 +5329,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3ZzDusP",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006678168376": {
    "n": "Libron 8 em 1 conjunto de chave allen dobrável, conjunto de chave...",
@@ -5816,7 +5347,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4rzeqZh",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006860713757": {
    "n": "conjunto de arquivo de agulha de diamante 3x140mm mini kit de arquivo...",
@@ -5831,7 +5365,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3qML2Dt",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Ferramentas",
-   "ic": "🔧"
+   "ic": "🔧",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012010861949": {
    "n": "Medidor digital de pressão de pneus, alta precisão, display lcd...",
@@ -5846,7 +5383,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4oXGSZh",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010089223183": {
    "n": "Medidor de Pressão de Pneus com Interface EU para Carro, Moto, SUV...",
@@ -5861,7 +5401,10 @@
    "link": "https://s.click.aliexpress.com/e/_c2Jm6uej",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005009960241709": {
    "n": "Manômetro Digital para Pneus, Medidor de Pressão de Ar para Carros...",
@@ -5876,7 +5419,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3lEYU6x",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010332322686": {
    "n": "Manômetro Digital de Pressão de Pneus HTMCK, Testador de Pneus LCD de...",
@@ -5891,7 +5437,10 @@
    "link": "https://s.click.aliexpress.com/e/_c412PfWR",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010130663327": {
    "n": "Dispensador de Água Inteligente 3L com Timer para Gatos e Cães...",
@@ -5906,7 +5455,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4F3UTAr",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Pet",
-   "ic": "🐾"
+   "ic": "🐾",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007987714459": {
    "n": "Bebedouro automático para animais de estimação, tigela para água com...",
@@ -6144,21 +5696,6 @@
    "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-md2h6cdl0boyeb",
    "od": 0,
    "link": "https://s.shopee.com.br/6fimFv4osH",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Beleza",
-   "ic": "💄"
-  },
-  "shp:22397985542": {
-   "n": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água",
-   "t": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 22.98,
-   "nota": 4.9,
-   "vendas": 2857,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1oj54hqshjlc0",
-   "od": 0,
-   "link": "https://s.shopee.com.br/70LceX3YCN",
    "visto": "2026-11-11T15:40+00:00",
    "cat": "Beleza",
    "ic": "💄"
@@ -7210,6 +6747,486 @@
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Pet",
    "ic": "🐾"
+  },
+  "ali:1005010334989688": {
+   "n": "Habotest ht670 tacômetro laser digital medidor de rpm sem contato...",
+   "t": "Habotest ht670 tacômetro laser digital medidor de rpm sem contato 2.5-99999rpm com luz de fundo lcd para medição de velocidade do motor",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 54.79,
+   "nota": 4.8,
+   "vendas": 508,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf59369f0c84142dfacceae577eed3ed2s.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3rYexph",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005013156721621": {
+   "n": "Régua de ângulo digital magnética de dupla face, inclinômetro com...",
+   "t": "Régua de ângulo digital magnética de dupla face, inclinômetro com nível e transferidor eletrônico a laser para medição de inclinação, campeã",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 80.99,
+   "nota": 4.7,
+   "vendas": 540,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa0a0758fd6284e46b03ca4741a62bf56v.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3tLGrib",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005012516915831": {
+   "n": "Medidor de Distância a Laser FEIDSIDE 120M, Recarregável Tipo-C, Alta...",
+   "t": "Medidor de Distância a Laser FEIDSIDE 120M, Recarregável Tipo-C, Alta Precisão, LCD com Luz de Fundo HD, Múltiplos Modos de Medição",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 65.37,
+   "nota": 4.7,
+   "vendas": 531,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9b38dfa781bb4e769faca5eacbe6f11b4.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3W4OEz9",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005010089177415": {
+   "n": "Sombrinha para Para-brisa de Carro, Proteção Solar de Verão...",
+   "t": "Sombrinha para Para-brisa de Carro, Proteção Solar de Verão, Sombrinha para Resfriamento do Interior do Carro",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 52.8,
+   "nota": 4.9,
+   "vendas": 17468,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S649f7688b8354bed99317f1e3ba2a8d7U.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4Nbji9d",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005007096750816": {
+   "n": "Protetor solar retrátil para carro, com isolamento térmico para o...",
+   "t": "Protetor solar retrátil para carro, com isolamento térmico para o para-brisa dianteiro.",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 44.59,
+   "nota": 4.9,
+   "vendas": 17326,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S14439795e02d4a18b765880d068a4f18C.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c40ltxA3",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005007306695447": {
+   "n": "Protetor solar para carro, cobertura para para-brisa, protetor solar...",
+   "t": "Protetor solar para carro, cobertura para para-brisa, protetor solar dobrável para janela frontal, bloqueia os raios UV, protetor solar refl",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 18.59,
+   "nota": 4.9,
+   "vendas": 14322,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S86fb6c1276e846f2a8689e6449a65bbc3.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2zcH6p9",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005009738164622": {
+   "n": "Protetor Solar para Para-brisa de Carro de 5 Camadas, Dobrável...",
+   "t": "Protetor Solar para Para-brisa de Carro de 5 Camadas, Dobrável, Refletor UV, Cortina de Proteção Solar",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 24.79,
+   "nota": 4.9,
+   "vendas": 10792,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7c2a2ff6367b4513ab1711a8e17072ed9.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3ksLLMn",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005007010712032": {
+   "n": "Anel de brinquedo para cães, indestrutível, mastigação, ferramentas...",
+   "t": "Anel de brinquedo para cães, indestrutível, mastigação, ferramentas de treinamento flutuantes, buscar para cães pequenos, médios e grandes, ",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 32.4,
+   "nota": 4.9,
+   "vendas": 1576,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S7f18248ed0f14528b113f5c7cf544a98R.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4tTReDl",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005011692959097": {
+   "n": "Brinquedo de Pelúcia para Cães em Formato de Pato, Brinquedo Sonoro...",
+   "t": "Brinquedo de Pelúcia para Cães em Formato de Pato, Brinquedo Sonoro Resistente à Mordida para Pets, Pato de Pelúcia para Alívio da Dentição ",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 18.43,
+   "nota": 4.9,
+   "vendas": 1274,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S73490329896b4c89b6323982f61e3c17E.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4FxxHkJ",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005010653124977": {
+   "n": "Brinquedo de Pelúcia Interativo para Cães em Formato de Pombo de...",
+   "t": "Brinquedo de Pelúcia Interativo para Cães em Formato de Pombo de Desenho Animado, Macio e Fofo, em Formato de Pássaro da Paz, Ideal como Pre",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 29.99,
+   "nota": 4.9,
+   "vendas": 1175,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf5de0312973b4b67a2eb49d43a060a85w.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3hgoAub",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005010487385294": {
+   "n": "Squeaky Chew Ball para Animais de Estimação, Brinquedos para Cães...",
+   "t": "Squeaky Chew Ball para Animais de Estimação, Brinquedos para Cães, Puppy Sound, Borracha Natural Pura, Não Tóxica, Brincar ao Ar Livre, Cão ",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 21.32,
+   "nota": 4.9,
+   "vendas": 1148,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Hc4e74e174bd9420b8846073880801301A.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3fxnVWF",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005012663529548": {
+   "n": "Caminhão de Brinquedo para Transporte de Veículos Jackson Storm...",
+   "t": "Caminhão de Brinquedo para Transporte de Veículos Jackson Storm Lightning McQueen Murray Clutchburn's Hauler, Modelo em Liga Fundida, Caminh",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 45.79,
+   "nota": 4.8,
+   "vendas": 541,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1da852b381904238b3ea227f254a3446D.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c33l5Vij",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005009960294479": {
+   "n": "Novo 23cm boneca brinquedos de pelúcia bonito anime recheado crianças...",
+   "t": "Novo 23cm boneca brinquedos de pelúcia bonito anime recheado crianças presentes do bebê meninos grandes brinquedos macios para crianças",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 30.09,
+   "nota": 5.0,
+   "vendas": 1789,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb7c1a1217bdf4a6c924de211fc59a2d7V.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4pf0Zlp",
+   "visto": "2026-11-12T11:54+00:00",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005008594027218": {
+   "n": "Bebê recém-nascido brinquedos de pelúcia bonito animal cobertor...",
+   "t": "Bebê recém-nascido brinquedos de pelúcia bonito animal cobertor consolador coelho elefante acalmar apaziguar toalha de dormir presente do be",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 24.39,
+   "nota": 4.9,
+   "vendas": 2404,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/A45878f2d5a994dee9fe70cdbff3cedd5a.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3lfYcHH",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005007011470792": {
+   "n": "Brinquedo simulador de som de chuva para aprendizagem precoce para...",
+   "t": "Brinquedo simulador de som de chuva para aprendizagem precoce para bebês e crianças chocalho musical e auxílio para ensino de percussão",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 19.21,
+   "nota": 4.9,
+   "vendas": 2252,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1ac352f9f4b84b03b1b3ec922901eb19G.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3n5y819",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "ali:1005008908907853": {
+   "n": "Brinquedo de banho de bebê em forma de pato/flor, brinca de água em...",
+   "t": "Brinquedo de banho de bebê em forma de pato/flor, brinca de água em leão, roda d'água, diversão para crianças, banheira de chuveiro com vent",
+   "g": "Bebês",
+   "loja": "AliExpress",
+   "por": 46.59,
+   "nota": 4.9,
+   "vendas": 2146,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5ac291cffe644fdbbf835ca2f8310493P.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4TzPTYJ",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:58270301715": {
+   "n": "Kit 8 Pingentes de Natal em Pelúcia, Bonecos Enfeites Decorativos...",
+   "t": "Kit 8 Pingentes de Natal em Pelúcia, Bonecos Enfeites Decorativos para Árvore de Natal Premium",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 27.99,
+   "nota": 5.0,
+   "vendas": 527,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820li-muk4vk5q21vk30",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3B8vQq7LaO",
+   "visto": "2026-11-12T11:54+00:00",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:41008962775": {
+   "n": "Natal Mini Modelos De Luz De Rua Casa De Bonecas Streetlight...",
+   "t": "4 Pçs Natal Mini Modelos De Luz De Rua Casa De Bonecas Streetlight Miniatura Aldeia Caminho Lanterna Post Para DIY Micro",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 20.65,
+   "nota": 4.9,
+   "vendas": 1843,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7qve5-ljmfyg33vvgq69",
+   "od": 0,
+   "link": "https://s.shopee.com.br/60T6o2wYpf",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:44715977004": {
+   "n": "25cm Monstro Energia Ultra Branco Boneca De Pelúcia Super Macio Zero...",
+   "t": "25cm Monstro Energia Ultra Branco Boneca De Pelúcia Super Macio Zero Açúcar Brinquedo Bonito Para Meninas Meninos Fãs Cr",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 22.99,
+   "nota": 4.9,
+   "vendas": 1764,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8257v-mrucepwohc78d0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/50aZcD0MrZ",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:22399173523": {
+   "n": "Papai Noel Subindo Na Corda Decoração Elétrica Automática Bonecas De...",
+   "t": "Papai Noel Subindo Na Corda Decoração Elétrica Automática Bonecas De Pelúcia Brinquedos",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 69.79,
+   "nota": 4.9,
+   "vendas": 1476,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m8-mrgqfqm8stfpdf",
+   "od": 0,
+   "link": "https://s.shopee.com.br/5fqGPQxpVd",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:41634682540": {
+   "n": "Kit 5 Ursinho Pelúcia Pendente De Natal Enfeite Para Árvore Decoração...",
+   "t": "Kit 5 Ursinho Pelúcia Pendente De Natal Enfeite Para Árvore Decoração Natalina",
+   "g": "Brinquedos",
+   "loja": "Shopee",
+   "por": 74.99,
+   "nota": 4.9,
+   "vendas": 1212,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820l5-mv2kl1mz3ncz65",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4fxjDb1dXX",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "shp:22097179873": {
+   "n": "Girafa Chocalho Certificado Inmetro Original Mordedor Móbile",
+   "t": "Girafa Chocalho Certificado Inmetro Original Mordedor Móbile",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 49.9,
+   "nota": 5.0,
+   "vendas": 1276,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m14c2yb0prv269",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7Af4CC9eMM",
+   "visto": "2026-11-12T11:54+00:00",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:58255839666": {
+   "n": "Mordedor com Água Buba Mamadeira Resfriável Rosa",
+   "t": "Mordedor com Água Buba Mamadeira Resfriável Rosa",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 15.79,
+   "nota": 5.0,
+   "vendas": 853,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-82610-ml5gyvghvthr8a",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3VllpSNbnb",
+   "visto": "2026-11-12T11:54+00:00",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:58216276122": {
+   "n": "Brinquedos De Silicone Para Dentição Bebês Com Mais De 3 Meses...",
+   "t": "Brinquedos De Silicone Para Dentição Bebês Com Mais De 3 Meses , Mordedor De Pulso À Prova De Queda , Mastigar , Sem BPA",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 17.89,
+   "nota": 5.0,
+   "vendas": 720,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-82593-mrwaaygcc3d46d",
+   "od": 0,
+   "link": "https://s.shopee.com.br/5VWqD8Fzk8",
+   "visto": "2026-11-12T11:54+00:00",
+   "cmp_em": "2026-11-12T11:54+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:21299226736": {
+   "n": "Mordedor para Bebe Sensorial Macio com Chocalho",
+   "t": "Mordedor para Bebe Sensorial Macio com Chocalho",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 16.4,
+   "nota": 4.9,
+   "vendas": 1804,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m6-mojvhecvuhom9b",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3g5C1lMySa",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:18899895250": {
+   "n": "Kit Brinquedo Bebe Chocalho Mordedor Silicone Macio Bola Colorida 8...",
+   "t": "Kit Brinquedo Bebe Chocalho Mordedor Silicone Macio Bola Colorida 8 Peça Menina e Menino Móbile",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 24.75,
+   "nota": 4.9,
+   "vendas": 1466,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf8q1fkeh5hgf2",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6L5xCfCp3P",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:23698517705": {
+   "n": "Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em1 Hair...",
+   "t": "Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 38.66,
+   "nota": 4.8,
+   "vendas": 3460,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7ravk-ma1kw2axdoy9bb",
+   "od": 0,
+   "link": "https://s.shopee.com.br/Lok3eHFTV",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:22894684787": {
+   "n": "Escova Secadora e Alisadora 3 em 1 — 110V e 220v – Cabelos Lisos e...",
+   "t": "Escova Secadora e Alisadora 3 em 1 — 110V e 220v – Cabelos Lisos e Brilhantes em Minutos!",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 46.88,
+   "nota": 4.8,
+   "vendas": 2741,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-821fe-mh0k6qkyxb0t04",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1Btf2IW9T",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:22436702255": {
+   "n": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler...",
+   "t": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler  marisa APENAS 110V",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 37.99,
+   "nota": 4.8,
+   "vendas": 2497,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbo6363agfa195",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1BNr3BE4mi",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:58217626429": {
+   "n": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler...",
+   "t": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler 110V",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 37.99,
+   "nota": 4.8,
+   "vendas": 2188,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8258q-msoift1f8zcxfa",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9V2yyUiLsP",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "shp:23598683017": {
+   "n": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler...",
+   "t": "Escova Secadora Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler APENAS 110V Jimmystore",
+   "g": "Beleza",
+   "loja": "Shopee",
+   "por": 37.99,
+   "nota": 4.8,
+   "vendas": 1309,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7ra3j-mblwmvx5pq1o34",
+   "od": 0,
+   "link": "https://s.shopee.com.br/AAIflifoWb",
+   "visto": "2026-11-12T11:54+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
   }
  },
  "teclado-mecanico": {
