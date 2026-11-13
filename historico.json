@@ -150,7 +150,7 @@
   "2026-11-10": 11.03,
   "2026-11-11": 14.79,
   "2026-11-12": 11.13,
-  "2026-11-13": 11.24
+  "2026-11-13": 11.69
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -303,7 +303,7 @@
   "2026-11-10": 53.49,
   "2026-11-11": 45.99,
   "2026-11-12": 52.32,
-  "2026-11-13": 45.99
+  "2026-11-13": 53.49
  },
  "powerbank-magsafe": {
   "2026-09-26": 109.13,
@@ -507,7 +507,7 @@
   "2026-11-10": 40.87,
   "2026-11-11": 152.59,
   "2026-11-12": 153.59,
-  "2026-11-13": 40.87
+  "2026-11-13": 140.1
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
@@ -558,7 +558,7 @@
   "2026-11-10": 50.19,
   "2026-11-11": 37.79,
   "2026-11-12": 37.79,
-  "2026-11-13": 32.98
+  "2026-11-13": 51.39
  },
  "ssd-512": {
   "2026-09-26": 80.69,
@@ -826,7 +826,7 @@
   "2026-11-10": 26.81,
   "2026-11-11": 20.55,
   "2026-11-12": 23.27,
-  "2026-11-13": 26.54
+  "2026-11-13": 20.55
  },
  "caixa-som": {
   "2026-09-26": 41.11,
@@ -928,7 +928,7 @@
   "2026-11-10": 66.88,
   "2026-11-11": 113.98,
   "2026-11-12": 120.99,
-  "2026-11-13": 114.67
+  "2026-11-13": 120.86
  },
  "cabo-lightning": {
   "2026-09-26": 8.21,
@@ -2127,7 +2127,7 @@
    "2026-11-10": 145.96,
    "2026-11-11": 145.96,
    "2026-11-12": 145.96,
-   "2026-11-13": 145.96
+   "2026-11-13": 232.37
   },
   "carregador-20w|AliExpress|1005008923724270": {
    "2026-09-27": 16.27,
@@ -3425,7 +3425,8 @@
    "2026-10-24": 109.75,
    "2026-11-10": 118.73,
    "2026-11-11": 118.73,
-   "2026-11-12": 118.73
+   "2026-11-12": 118.73,
+   "2026-11-13": 120.86
   },
   "cabo-lightning|Shopee|50164929187": {
    "2026-10-06": 9.94
@@ -3932,7 +3933,8 @@
    "2026-11-11": 15.43
   },
   "cabo-usbc-100w|AliExpress|1005006499252128": {
-   "2026-10-28": 11.02
+   "2026-10-28": 11.02,
+   "2026-11-13": 11.69
   },
   "carregador-20w|AliExpress|1005007540029137": {
    "2026-10-28": 15.04,
@@ -4119,7 +4121,8 @@
    "2026-11-08": 20.55,
    "2026-11-09": 20.55,
    "2026-11-10": 20.55,
-   "2026-11-11": 20.55
+   "2026-11-11": 20.55,
+   "2026-11-13": 20.55
   },
   "powerbank-20000|Shopee|23597895251": {
    "2026-11-09": 45.99,
@@ -4224,15 +4227,15 @@
   }
  },
  "_achados_meta": {
-  "n": 2354,
-  "ali_n": 4738,
+  "n": 2355,
+  "ali_n": 4743,
   "ali_q": {
    "Beleza": 320,
-   "Esportes": 319,
-   "Casa": 319,
-   "Eletro": 319,
-   "Ferramentas": 319,
-   "Carro": 319,
+   "Esportes": 320,
+   "Casa": 320,
+   "Eletro": 320,
+   "Ferramentas": 320,
+   "Carro": 320,
    "Pet": 319,
    "Brinquedos": 319,
    "Bebês": 319,
@@ -4242,22 +4245,22 @@
    "Games": 319,
    "Moda": 319
   },
-  "shopee_n": 7136,
+  "shopee_n": 7144,
   "shopee_q": {
-   "Celular": 510,
-   "Tech": 510,
-   "Áudio e TV": 510,
-   "Games": 510,
+   "Celular": 511,
+   "Tech": 511,
+   "Áudio e TV": 511,
+   "Games": 511,
    "Moda": 510,
    "Beleza": 510,
    "Esportes": 510,
    "Casa": 510,
    "Eletro": 510,
    "Ferramentas": 510,
-   "Carro": 509,
-   "Pet": 509,
-   "Brinquedos": 509,
-   "Bebês": 509
+   "Carro": 510,
+   "Pet": 510,
+   "Brinquedos": 510,
+   "Bebês": 510
   }
  },
  "_achados": {
@@ -4971,7 +4974,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3yBiDTd",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010044118220": {
    "n": "Fone de Ouvido Intra-auricular QKZ AK6 Original com Microfone, Driver...",
@@ -4986,7 +4992,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4E7yMyx",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010044062473": {
    "n": "Baseus Encok CZ11/HZ11 Fones de ouvido com fio Type-C/3.5mm Jack...",
@@ -5001,7 +5010,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3sUD3I7",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012692349233": {
    "n": "KZ EDX Pro X Fones de Ouvido Esportivos HIFI 0,78mm 2Pin Cabo...",
@@ -5016,7 +5028,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3MiBXiT",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007011822071": {
    "n": "Fones de Ouvido Bluetooth 9D Sem Fio, Headphones Magnéticos com...",
@@ -5031,7 +5046,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4kOKE9V",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010487304626": {
    "n": "Capa protetora contra poeira para nintendo switch 2, capa protetora...",
@@ -5046,7 +5064,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4PGeHmL",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008406508136": {
    "n": "Capa de Substituição para Gamepad Nintendo Switch, Carcaça...",
@@ -5061,7 +5082,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3XwRTcJ",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010044193317": {
    "n": "Universal Limited Game Controller Bag, Carregando Saco De...",
@@ -5076,7 +5100,10 @@
    "link": "https://s.click.aliexpress.com/e/_c36xIL2x",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006996627656": {
    "n": "Capa Protetora Transparente de TPU Macio para Console Nintendo Switch...",
@@ -5091,7 +5118,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4l8DrA7",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010332349547": {
    "n": "Nova Carteira Masculina Curta com Porta-Cartões Antifurto Minimalista...",
@@ -5106,7 +5136,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4L0Be47",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007171067581": {
    "n": "Carteira masculina de couro titular do cartão de visita com zíper...",
@@ -5121,7 +5154,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3S5uhIL",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005011942780598": {
    "n": "Carteira curta masculina de couro PU com vários slots para cartões...",
@@ -5136,7 +5172,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3mJnwrp",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007096914630": {
    "n": "Carteira curta Baellery para homens couro PU personalizado em relevo...",
@@ -5151,7 +5190,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3vZszOL",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:23993565028": {
    "n": "Suporte Celular Carro Veicular Trava Automática anti queda",
@@ -5166,7 +5208,20 @@
    "link": "https://s.shopee.com.br/Lokan5xsQ",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 15.71,
+     "nota": 4.9,
+     "vendas": 15563,
+     "t": "Suporte Magnético Dobrável para Telefone com Ímã Forte 360 °   Suporte de Celular para Pai",
+     "link": "https://s.click.aliexpress.com/e/_c34v1Icb",
+     "sim": true
+    }
+   ]
   },
   "shp:19098752815": {
    "n": "Suporte Veicular Carro Para Celular 360 ° Giratório Universal...",
@@ -5181,7 +5236,20 @@
    "link": "https://s.shopee.com.br/BVKOU6bDN",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 11.67,
+     "nota": 4.9,
+     "vendas": 108,
+     "t": "Suporte de Sucção para Carro, Montagem Veicular para Câmeras GoPro Hero 13 12 11 10 9 8, I",
+     "link": "https://s.click.aliexpress.com/e/_c2v1k7cX",
+     "sim": true
+    }
+   ]
   },
   "shp:21898099575": {
    "n": "Suporte Veicular Carro Para Celular 360 ° Giratório Universal...",
@@ -5196,7 +5264,20 @@
    "link": "https://s.shopee.com.br/gRazP4hCW",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "AliExpress",
+     "por": 11.67,
+     "nota": 4.9,
+     "vendas": 108,
+     "t": "Suporte de Sucção para Carro, Montagem Veicular para Câmeras GoPro Hero 13 12 11 10 9 8, I",
+     "link": "https://s.click.aliexpress.com/e/_c3qS3Szd",
+     "sim": true
+    }
+   ]
   },
   "shp:58207817776": {
    "n": "Auxiliar de Partida Carregador Bateria Com Compressor de Ar...",
@@ -5211,7 +5292,10 @@
    "link": "https://s.shopee.com.br/W8An65KXT",
    "visto": "2026-11-13T08:02+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58252016104": {
    "n": "Carregador Veicular Turbo 87.5W USB-C USB-A Carregamento rápido Metal...",
@@ -5226,7 +5310,10 @@
    "link": "https://s.shopee.com.br/114RO13QWc",
    "visto": "2026-11-12T19:56+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010497841005": {
    "n": "Porta Pinceis e Caneta Giratório de 360° para pincéis de maquiagem",
@@ -5269,7 +5356,20 @@
    "link": "https://s.click.aliexpress.com/e/_c3dDVEER",
    "visto": "2026-11-13T01:07+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 30.9,
+     "nota": 4.8,
+     "vendas": 691,
+     "t": "Organizador Giratório  Multiuso  Bandeja para Cozinha, Temperos Frutas Maquiagem Banheiro ",
+     "link": "https://s.shopee.com.br/70LgHL0hsY",
+     "sim": true
+    }
+   ]
   },
   "ali:1005012993963343": {
    "n": "360 ° Organizador de Maquiagem Rotativo - 1 unidade de Armazenamento...",
@@ -5284,7 +5384,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4FPU7bd",
    "visto": "2026-11-13T01:07+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005013002452825": {
    "n": "Bolsa de maquiagem de grande capacidade, organizador portátil para...",
@@ -5299,7 +5402,10 @@
    "link": "https://s.click.aliexpress.com/e/_c36Oa65l",
    "visto": "2026-11-13T01:07+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012978011412": {
    "n": "Garrafa de água esportiva de 560 ml, sem BPA, à prova de vazamentos...",
@@ -6692,6 +6798,255 @@
    "visto": "2026-11-13T16:27+00:00",
    "cat": "Eletro",
    "ic": "🍳"
+  },
+  "ali:1005011781167889": {
+   "n": "Braçadeira Refletiva de Alta Visibilidade Salzmann – Braçadeira de...",
+   "t": "Braçadeira Refletiva de Alta Visibilidade Salzmann – Braçadeira de Segurança para Corrida Noturna, Ciclismo, Caminhada - Feita com 3M Scotch",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 17.81,
+   "nota": 5.0,
+   "vendas": 864,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S61f8d8f03817470d88b0f763df4e5f36g.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3O80I6r",
+   "visto": "2026-11-13T22:13+00:00",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005010285090876": {
+   "n": "Salzmann Envoltório de tapa reflexivo de alta visibilidade...",
+   "t": "Salzmann Envoltório de tapa reflexivo de alta visibilidade – braçadeira de segurança para corrida noturna, ciclismo, caminhada – feito com S",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 18.72,
+   "nota": 4.9,
+   "vendas": 1460,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/A116eaa8d5e3442a58b4998d87ae88deaG.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3pvmSQn",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005013255623213": {
+   "n": "Noite ao ar livre correndo braçadeira usb recarregável led luz...",
+   "t": "Noite ao ar livre correndo braçadeira usb recarregável led luz esportes cinto de segurança braço perna aviso pulseira ciclismo bicicleta luz",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 17.01,
+   "nota": 4.9,
+   "vendas": 1350,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3bf12a400ec1440db5c18049dd8388daD.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3gNNAXD",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005007010272904": {
+   "n": "Braçadeira LED Recarregável por USB com Faixa Refletiva de Segurança...",
+   "t": "1PC Braçadeira LED Recarregável por USB com Faixa Refletiva de Segurança para Corrida Noturna, Ciclismo e Atividades ao Ar Livre",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 15.51,
+   "nota": 4.9,
+   "vendas": 1179,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S895459745ffd49cb90432fc844aa16b4F.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4E22X7d",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005008909049156": {
+   "n": "Conjunto de Fitas de LED RGB 5050 de Baixa Tensão 5V com Controle...",
+   "t": "Conjunto de Fitas de LED RGB 5050 de Baixa Tensão 5V com Controle Remoto de 44 Teclas e Função Musical, Iluminação que Dança ao Ritmo da Mús",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 15.36,
+   "nota": 4.9,
+   "vendas": 5099,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S72038f855d034d79b3795a0c7915c5c9m.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2xc7eXD",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007987819361": {
+   "n": "Luz de fita LED Lqhzmyy, alimentada por USB, com interruptor de toque...",
+   "t": "Luz de fita LED Lqhzmyy, alimentada por USB, com interruptor de toque para ajuste da intensidade da luz, fita LED ultrafina de 3 mm sem pont",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 22.99,
+   "nota": 4.9,
+   "vendas": 3677,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5e78bcaaec346a0b83839bb5f6df703C.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2RUIBA7",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005006995140881": {
+   "n": "Faixa de luz led neon com sensor de toque inteligente, interruptor...",
+   "t": "Faixa de luz led neon com sensor de toque inteligente, interruptor regulável, sinal de néon flexível, fita à prova d'água, tubo de corda, de",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 20.48,
+   "nota": 4.9,
+   "vendas": 2975,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S54cd59a667b24b839294b03610bb780e5.jpeg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c38aeXGJ",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005010089087985": {
+   "n": "Fita de Luz LED COB 5V 320LEDs/m com Sensor de Movimento PIR, Fita...",
+   "t": "Fita de Luz LED COB 5V 320LEDs/m com Sensor de Movimento PIR, Fita Flexível Autoadesiva, Alimentada por Bateria para Iluminação de Armários ",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 34.69,
+   "nota": 4.9,
+   "vendas": 2663,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5c9c752370094252a223508a83c010d5v.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4ngaaQR",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005012600319175": {
+   "n": "Ferramenta de Aquecimento com Temperatura Ajustável ALIENTEK T90B...",
+   "t": "Ferramenta de Aquecimento com Temperatura Ajustável ALIENTEK T90B, Equipamento de Reparação com Potência de 140W, 80-450 ℃   Kit de Ferro de",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 230.99,
+   "nota": 5.0,
+   "vendas": 719,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd86ac711306545a392fcc2aa817cd5d7I.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3SfNoHz",
+   "visto": "2026-11-13T22:13+00:00",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005012317953130": {
+   "n": "Ferro de Solda Sem Fio ALIENTEK TB1 com Bateria de 850mah Tipo-C, Kit...",
+   "t": "Ferro de Solda Sem Fio ALIENTEK TB1 com Bateria de 850mah Tipo-C, Kit de Soldagem Portátil Recarregável para Reparos",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 294.99,
+   "nota": 5.0,
+   "vendas": 692,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9991a96c7505495da0fdfb4a8a719633F.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2Rlv8qf",
+   "visto": "2026-11-13T22:13+00:00",
+   "cmp_em": "2026-11-13T22:13+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005008145015100": {
+   "n": "Kit de Ferro de Solda Elétrico Digital 100W 220V com Temperatura...",
+   "t": "Kit de Ferro de Solda Elétrico Digital 100W 220V com Temperatura Ajustável, Ferramenta de Soldagem com Aquecedor Cerâmico e Pontas de Solda ",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 45.59,
+   "nota": 4.9,
+   "vendas": 1126,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S71b0b998e7064730a352ecbb85fd939f6.jpeg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3rMR9cB",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005008660280483": {
+   "n": "kit de cortador de faca quente elétrica com ferro de solda para...",
+   "t": "9 pçs kit de cortador de faca quente elétrica com ferro de solda para esculpir vinil plástico eua ue plug multiuso conjunto de ferramentas d",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 22.58,
+   "nota": 4.9,
+   "vendas": 1031,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S832ef0471c594fe5b24e45990d1793d5b.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4LJuN1t",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005010089245076": {
+   "n": "Novo 360 ° Suporte Magnético Rotativo para Telefone de Carro...",
+   "t": "Novo 360 °   Suporte Magnético Rotativo para Telefone de Carro, Montagem na Saída de Ar para iPhone, Samsung, Huawei, GPS, Navegação, Suport",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 16.23,
+   "nota": 4.9,
+   "vendas": 5572,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sec4501e5c5f14775903a9d4b12a334227.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c424vRcf",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005007822533664": {
+   "n": "Luxo 360 ° Anel de metal oculto giratório suporte para carro armadura...",
+   "t": "Luxo 360 °   Anel de metal oculto giratório suporte para carro armadura capa de telefone para Samsung S24 Ultra S21 S22 S23 Ultra Plus S20 F",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 25.49,
+   "nota": 4.9,
+   "vendas": 4956,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbd69c1331b72469b9aadeae918c580edR.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c30BdKQX",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005010043941667": {
+   "n": "Suporte para celular 2025 Suporte magnético forte para carro 720 °...",
+   "t": "Suporte para celular 2025 Suporte magnético forte para carro 720 °   Suporte redondo dobrável para suportes de montagem de telefones univers",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 20.69,
+   "nota": 4.9,
+   "vendas": 4190,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S561b350c07eb4d0fa8945c57821ceb39n.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4ciTmrD",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005012523882762": {
+   "n": "Suporte para telemóvel com proteção solar para carro, multifuncional...",
+   "t": "Suporte para telemóvel com proteção solar para carro, multifuncional, com clipe giratório de 360 graus, compatível com iPhone, Samsung e dis",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 18.72,
+   "nota": 4.9,
+   "vendas": 4184,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5b0c6d6c5ec6411c94159dcc4e271ab85.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3tiVeKP",
+   "visto": "2026-11-13T22:13+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
   }
  },
  "teclado-mecanico": {
