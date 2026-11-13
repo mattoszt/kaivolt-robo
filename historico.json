@@ -48,7 +48,7 @@
   "2026-11-10": 45.89,
   "2026-11-11": 38.89,
   "2026-11-12": 45.89,
-  "2026-11-13": 45.89
+  "2026-11-13": 38.89
  },
  "carregador-20w": {
   "2026-09-26": 15.89,
@@ -252,7 +252,7 @@
   "2026-11-10": 28.99,
   "2026-11-11": 28.99,
   "2026-11-12": 29.19,
-  "2026-11-13": 29.19
+  "2026-11-13": 26.27
  },
  "powerbank-20000": {
   "2026-09-26": 46.79,
@@ -405,7 +405,7 @@
   "2026-11-10": 46.2,
   "2026-11-11": 46.2,
   "2026-11-12": 53.85,
-  "2026-11-13": 53.85
+  "2026-11-13": 46.63
  },
  "suporte-veicular": {
   "2026-09-26": 10.32,
@@ -456,7 +456,7 @@
   "2026-11-10": 10.45,
   "2026-11-11": 10.45,
   "2026-11-12": 11.65,
-  "2026-11-13": 10.59
+  "2026-11-13": 10.71
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -507,7 +507,7 @@
   "2026-11-10": 40.87,
   "2026-11-11": 152.59,
   "2026-11-12": 153.59,
-  "2026-11-13": 153.59
+  "2026-11-13": 138.75
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
@@ -558,7 +558,7 @@
   "2026-11-10": 50.19,
   "2026-11-11": 37.79,
   "2026-11-12": 37.79,
-  "2026-11-13": 37.79
+  "2026-11-13": 50.89
  },
  "ssd-512": {
   "2026-09-26": 80.69,
@@ -622,7 +622,7 @@
   "2026-11-10": 39.91,
   "2026-11-11": 51.99,
   "2026-11-12": 40.24,
-  "2026-11-13": 43.79
+  "2026-11-13": 31.24
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -724,7 +724,7 @@
   "2026-11-10": 15.43,
   "2026-11-11": 16.11,
   "2026-11-12": 16.66,
-  "2026-11-13": 15.29
+  "2026-11-13": 16.65
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -928,7 +928,7 @@
   "2026-11-10": 66.88,
   "2026-11-11": 113.98,
   "2026-11-12": 120.99,
-  "2026-11-13": 120.99
+  "2026-11-13": 66.88
  },
  "cabo-lightning": {
   "2026-09-26": 8.21,
@@ -979,7 +979,7 @@
   "2026-11-10": 10.77,
   "2026-11-11": 10.51,
   "2026-11-12": 10.86,
-  "2026-11-13": 10.86
+  "2026-11-13": 11.59
  },
  "mouse-sem-fio": {
   "2026-09-26": 17.89,
@@ -1071,7 +1071,6 @@
    "2026-11-13": 45.89
   },
   "powerbank-10000|Mercado Livre|MLB4400972103": {
-   "2026-10-06": 125.0,
    "2026-10-07": 125.0,
    "2026-10-08": 125.0,
    "2026-10-09": 125.0,
@@ -1105,7 +1104,8 @@
    "2026-11-09": 92.5,
    "2026-11-10": 89.97,
    "2026-11-11": 89.97,
-   "2026-11-12": 89.97
+   "2026-11-12": 89.97,
+   "2026-11-13": 89.97
   },
   "carregador-20w|AliExpress|1005010155263623": {
    "2026-09-27": 15.89,
@@ -1234,7 +1234,7 @@
    "2026-11-10": 25.9,
    "2026-11-11": 25.9,
    "2026-11-12": 25.9,
-   "2026-11-13": 25.9
+   "2026-11-13": 26.9
   },
   "powerbank-20000|AliExpress|1005012267217366": {
    "2026-10-05": 46.79,
@@ -1713,7 +1713,8 @@
    "2026-10-22": 38.85,
    "2026-11-08": 49.79,
    "2026-11-09": 49.79,
-   "2026-11-10": 50.19
+   "2026-11-10": 50.19,
+   "2026-11-13": 50.89
   },
   "hub-usbc|Mercado Livre|MLB7413454264": {
    "2026-10-10": 51.4,
@@ -2146,7 +2147,8 @@
    "2026-11-09": 45.79,
    "2026-11-10": 46.2,
    "2026-11-11": 46.2,
-   "2026-11-12": 46.2
+   "2026-11-12": 46.2,
+   "2026-11-13": 46.63
   },
   "suporte-veicular|AliExpress|1005007014340536": {
    "2026-09-27": 10.32,
@@ -2158,7 +2160,8 @@
    "2026-10-12": 10.16,
    "2026-10-14": 10.21,
    "2026-10-20": 11.89,
-   "2026-10-21": 11.79
+   "2026-10-21": 11.79,
+   "2026-11-13": 10.71
   },
   "headset-gamer|AliExpress|1005004992958876": {
    "2026-09-27": 116.48
@@ -2256,7 +2259,8 @@
    "2026-10-30": 12.02,
    "2026-10-31": 12.02,
    "2026-11-01": 10.79,
-   "2026-11-02": 10.79
+   "2026-11-02": 10.79,
+   "2026-11-13": 11.59
   },
   "caneta-stylus|AliExpress|1005012049621672": {
    "2026-09-27": 20.79,
@@ -2413,7 +2417,8 @@
    "2026-10-31": 39.66,
    "2026-11-01": 39.08,
    "2026-11-11": 45.89,
-   "2026-11-12": 45.89
+   "2026-11-12": 45.89,
+   "2026-11-13": 45.89
   },
   "webcam-fullhd|AliExpress|1005007038843019": {
    "2026-09-28": 37.99,
@@ -2497,7 +2502,7 @@
    "2026-10-27": 15.12,
    "2026-10-30": 15.08,
    "2026-10-31": 15.08,
-   "2026-11-13": 15.29
+   "2026-11-13": 16.65
   },
   "fone-tws|AliExpress|1005012013858942": {
    "2026-10-09": 24.61,
@@ -2541,7 +2546,6 @@
    "2026-10-02": 45.99
   },
   "carregador-20w|Shopee|22892846443": {
-   "2026-10-09": 24.99,
    "2026-10-10": 24.99,
    "2026-10-11": 24.99,
    "2026-10-12": 24.99,
@@ -2575,7 +2579,8 @@
    "2026-11-09": 24.99,
    "2026-11-10": 24.99,
    "2026-11-11": 24.99,
-   "2026-11-12": 24.99
+   "2026-11-12": 24.99,
+   "2026-11-13": 24.99
   },
   "cabo-usbc-100w|Shopee|58215621878": {
    "2026-10-07": 15.88,
@@ -2963,7 +2968,6 @@
    "2026-10-17": 44.9
   },
   "headphone-bt|Shopee|23399043568": {
-   "2026-10-08": 66.88,
    "2026-10-09": 66.88,
    "2026-10-10": 66.88,
    "2026-10-11": 66.88,
@@ -2997,7 +3001,8 @@
    "2026-11-08": 66.88,
    "2026-11-09": 66.88,
    "2026-11-10": 66.88,
-   "2026-11-12": 66.88
+   "2026-11-12": 66.88,
+   "2026-11-13": 66.88
   },
   "carregador-gan-65w|AliExpress|1005007302320007": {
    "2026-10-01": 59.15,
@@ -3239,7 +3244,6 @@
    "2026-10-07": 19.98
   },
   "webcam-fullhd|Shopee|22994995312": {
-   "2026-10-08": 31.24,
    "2026-10-09": 31.24,
    "2026-10-10": 31.24,
    "2026-10-11": 31.24,
@@ -3273,7 +3277,8 @@
    "2026-11-08": 31.24,
    "2026-11-09": 31.24,
    "2026-11-11": 31.24,
-   "2026-11-12": 31.24
+   "2026-11-12": 31.24,
+   "2026-11-13": 31.24
   },
   "caixa-som|AliExpress|1005008660067934": {
    "2026-10-04": 45.19,
@@ -3545,7 +3550,8 @@
    "2026-11-08": 46.99,
    "2026-11-09": 46.99,
    "2026-11-10": 46.98,
-   "2026-11-12": 46.99
+   "2026-11-12": 46.99,
+   "2026-11-13": 46.98
   },
   "cabo-lightning|Shopee|19772642745": {
    "2026-10-08": 8.99
@@ -3662,7 +3668,8 @@
    "2026-11-07": 11.99,
    "2026-11-08": 11.99,
    "2026-11-09": 11.99,
-   "2026-11-11": 11.99
+   "2026-11-11": 11.99,
+   "2026-11-13": 11.99
   },
   "hub-usbc|AliExpress|1005012708111887": {
    "2026-10-10": 34.87,
@@ -3873,7 +3880,8 @@
    "2026-11-09": 96.9,
    "2026-11-10": 96.11,
    "2026-11-11": 96.11,
-   "2026-11-12": 96.11
+   "2026-11-12": 96.11,
+   "2026-11-13": 96.9
   },
   "webcam-fullhd|AliExpress|1005009535380982": {
    "2026-10-27": 53.9,
@@ -4020,7 +4028,8 @@
    "2026-11-06": 119.99,
    "2026-11-07": 119.99,
    "2026-11-08": 119.99,
-   "2026-11-09": 119.99
+   "2026-11-09": 119.99,
+   "2026-11-13": 113.66
   },
   "caneta-stylus|AliExpress|1005008997933704": {
    "2026-11-02": 115.66,
@@ -4099,7 +4108,8 @@
    "2026-11-08": 38.89,
    "2026-11-09": 38.89,
    "2026-11-10": 38.89,
-   "2026-11-11": 38.89
+   "2026-11-11": 38.89,
+   "2026-11-13": 38.89
   },
   "fone-tws|Shopee|41581456549": {
    "2026-11-08": 20.55,
@@ -4124,7 +4134,7 @@
    "2026-11-10": 53.49,
    "2026-11-11": 53.49,
    "2026-11-12": 52.32,
-   "2026-11-13": 52.32
+   "2026-11-13": 53.49
   },
   "cabo-usbc-100w|Shopee|58251784766": {
    "2026-11-10": 24.89,
@@ -4147,7 +4157,7 @@
   }
  },
  "_meta": {
-  "ultimo_total": 20
+  "ultimo_total": 21
  },
  "_divulgacao": {
   "postados": {
@@ -4210,582 +4220,43 @@
   }
  },
  "_achados_meta": {
-  "n": 2352,
-  "ali_n": 4728,
+  "n": 2353,
+  "ali_n": 4733,
   "ali_q": {
    "Beleza": 319,
    "Esportes": 319,
    "Casa": 319,
    "Eletro": 319,
    "Ferramentas": 319,
-   "Carro": 318,
-   "Pet": 318,
-   "Brinquedos": 318,
-   "Bebês": 318,
-   "Celular": 318,
+   "Carro": 319,
+   "Pet": 319,
+   "Brinquedos": 319,
+   "Bebês": 319,
+   "Celular": 319,
    "Tech": 318,
    "Áudio e TV": 318,
    "Games": 318,
    "Moda": 318
   },
-  "shopee_n": 7120,
+  "shopee_n": 7128,
   "shopee_q": {
-   "Celular": 509,
-   "Tech": 509,
+   "Celular": 510,
+   "Tech": 510,
    "Áudio e TV": 509,
    "Games": 509,
    "Moda": 509,
    "Beleza": 509,
    "Esportes": 509,
    "Casa": 509,
-   "Eletro": 508,
-   "Ferramentas": 508,
-   "Carro": 508,
-   "Pet": 508,
-   "Brinquedos": 508,
-   "Bebês": 508
+   "Eletro": 509,
+   "Ferramentas": 509,
+   "Carro": 509,
+   "Pet": 509,
+   "Brinquedos": 509,
+   "Bebês": 509
   }
  },
  "_achados": {
-  "ali:1005006861868193": {
-   "n": "Nebulizador médico de malha silenciosa, inalador portátil para asma...",
-   "t": "Nebulizador médico de malha silenciosa, inalador portátil para asma, atomizador, cuidados de saúde para crianças, mini umidificador nebuliza",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 20.74,
-   "nota": 4.9,
-   "vendas": 7578,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S36847fc2c4ca4f9cbe32c9175701bfd4h.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3yBzvfZ",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012640153580": {
-   "n": "Ventilador de spray portátil mini umidificador ventilador 4...",
-   "t": "Ventilador de spray portátil mini umidificador ventilador 4 velocidades vento poderoso usb recarregável spray água névoa ventilador ao ar li",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 25.3,
-   "nota": 4.9,
-   "vendas": 5986,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4aa502d01d384c9bb65a9aac199d7cf56.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4BlZTD5",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010376345637": {
-   "n": "Mini Vaporizador Facial Revitalizante e Umidificador 2 em 1 com Névoa...",
-   "t": "Mini Vaporizador Facial Revitalizante e Umidificador 2 em 1 com Névoa de Íons Nano para Hidratação da Pele e Umidificação do Ar com Tanque d",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 20.42,
-   "nota": 4.9,
-   "vendas": 4480,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sbf77eaa744e940dc8fb1e1011d1a21ccl.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3fhBJpd",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007857319061": {
-   "n": "Humidificador USB com dois bicos, capacidade de 600 ml/h, emissão de...",
-   "t": "Humidificador USB com dois bicos, capacidade de 600 ml/h, emissão de névoa intensa, funcionamento extremamente silencioso, dispositivo de hi",
-   "g": "Eletro",
-   "loja": "AliExpress",
-   "por": 23.24,
-   "nota": 4.9,
-   "vendas": 3362,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S2bf040d599e347da855019e17361f98fJ.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3uf5yXl",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Eletro",
-   "ic": "🍳",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012814722926": {
-   "n": "Conjunto de 120 ímãs para impressão 3D, 4x2, 5x2, 6x2, 8x2 mm, ímãs...",
-   "t": "Conjunto de 120 ímãs para impressão 3D, 4x2, 5x2, 6x2, 8x2 mm, ímãs de neodímio potentes, kit de ferramentas para impressão 3D, multiuso par",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 26.81,
-   "nota": 4.9,
-   "vendas": 6449,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/A352a5f4c14e240fba34159ff1e9b6b49U.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3bnldHV",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006880775391": {
-   "n": "100 pçs 3.1mm mini lixa bandas kits prego brocas mandril conjuntos de...",
-   "t": "100 pçs 3.1mm mini lixa bandas kits prego brocas mandril conjuntos de acessórios manicure elétrica ferramenta removedor pele morta",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 15.6,
-   "nota": 4.9,
-   "vendas": 5958,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S573b2d274bbb41818db667c805692182c.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3ZzDusP",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006678168376": {
-   "n": "Libron 8 em 1 conjunto de chave allen dobrável, conjunto de chave...",
-   "t": "Libron 8 em 1 conjunto de chave allen dobrável, conjunto de chave allen métrica, ferramenta ou dobrável, à prova de violação, conjunto de ch",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 28.19,
-   "nota": 4.9,
-   "vendas": 5818,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S629061936e014a669f80fddcfeca7eeb5.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4rzeqZh",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006860713757": {
-   "n": "conjunto de arquivo de agulha de diamante 3x140mm mini kit de arquivo...",
-   "t": "10 pçs conjunto de arquivo de agulha de diamante 3x140mm mini kit de arquivo de agulha para pedra vidro metal escultura artesanato ferrament",
-   "g": "Ferramentas",
-   "loja": "AliExpress",
-   "por": 17.42,
-   "nota": 4.9,
-   "vendas": 5811,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc1293319f66345eab1fc1a93aa0239e5u.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3qML2Dt",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Ferramentas",
-   "ic": "🔧",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012010861949": {
-   "n": "Medidor digital de pressão de pneus, alta precisão, display lcd...",
-   "t": "Medidor digital de pressão de pneus, alta precisão, display lcd tg105, carro, caminhão, motocicleta, bicicleta, bomba de pneus, acessórios, ",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 22.78,
-   "nota": 4.9,
-   "vendas": 3166,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S53d81101a7274d0a825caec0a6795324M.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4oXGSZh",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010089223183": {
-   "n": "Medidor de Pressão de Pneus com Interface EU para Carro, Moto, SUV...",
-   "t": "Medidor de Pressão de Pneus com Interface EU para Carro, Moto, SUV, Bomba de Ar e Ferramenta de Reparo Tipo Pistola para Compressor de Ar",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 41.69,
-   "nota": 4.9,
-   "vendas": 2866,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9e5be870aa8041b99f957f605de193bbr.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2Jm6uej",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005009960241709": {
-   "n": "Manômetro Digital para Pneus, Medidor de Pressão de Ar para Carros...",
-   "t": "Manômetro Digital para Pneus, Medidor de Pressão de Ar para Carros, Ferramenta TPMS, Testador de Pneus",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 43.59,
-   "nota": 4.9,
-   "vendas": 2703,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scfe4f1e5584a4d67895d425bc5a058480.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3lEYU6x",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010332322686": {
-   "n": "Manômetro Digital de Pressão de Pneus HTMCK, Testador de Pneus LCD de...",
-   "t": "Manômetro Digital de Pressão de Pneus HTMCK, Testador de Pneus LCD de Alta Precisão para Carros, Caminhões e Motocicletas, Monitoramento Aut",
-   "g": "Carro",
-   "loja": "AliExpress",
-   "por": 63.49,
-   "nota": 4.9,
-   "vendas": 2635,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc88ebf7ee4b847dfa7681c3399393648h.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c412PfWR",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010130663327": {
-   "n": "Dispensador de Água Inteligente 3L com Timer para Gatos e Cães...",
-   "t": "Dispensador de Água Inteligente 3L com Timer para Gatos e Cães Pequenos, Fonte Automática para Animais de Estimação, Separação de Água Suja ",
-   "g": "Pet",
-   "loja": "AliExpress",
-   "por": 321.57,
-   "nota": 4.9,
-   "vendas": 669,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S67fc54e1d50e4eceaf43e3dcdc81df6fE.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4F3UTAr",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-12T11:54+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007987714459": {
-   "n": "Bebedouro automático para animais de estimação, tigela para água com...",
-   "t": "Bebedouro automático para animais de estimação, tigela para água com filtro, alimentado por USB, elétrico, silencioso, dispensador de água p",
-   "g": "Pet",
-   "loja": "AliExpress",
-   "por": 53.17,
-   "nota": 4.9,
-   "vendas": 636,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S572ad0d619e8440f8bc01493f14c51a0q.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2zUXmBV",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 31.99,
-     "nota": 4.9,
-     "vendas": 466,
-     "t": "10 Bebedouro Automático Copo: Ideal para Aves, Galinhas e Frangos Alta Qualidade",
-     "link": "https://s.shopee.com.br/AKc6VBBkuF",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005013031655118": {
-   "n": "Bomba de Água para Fonte de Água para Animais de Estimação Pet Dance...",
-   "t": "Bomba de Água para Fonte de Água para Animais de Estimação Pet Dance 1 Peça Ultra-Eficiente e Silenciosa USB com Luz Indicadora LED para Rep",
-   "g": "Pet",
-   "loja": "AliExpress",
-   "por": 20.37,
-   "nota": 4.9,
-   "vendas": 603,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5e05c406d5d847f49608347f77d69ddaj.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3LIFCIL",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 15.49,
-     "nota": 4.8,
-     "vendas": 247,
-     "t": "Bomba Submersa Bombinha Para Fonte De Água Aquário E Bebedouro Pet Produ 180 L/h Silencios",
-     "link": "https://s.shopee.com.br/4fxjklozna",
-     "sim": true
-    }
-   ]
-  },
-  "ali:1005008248109446": {
-   "n": "2.2l carregamento sem fio indução gato e cão alimentador de água...",
-   "t": "2.2l carregamento sem fio indução gato e cão alimentador de água carregamento indução grande capacidade pet bebedouro tigela",
-   "g": "Pet",
-   "loja": "AliExpress",
-   "por": 121.05,
-   "nota": 4.9,
-   "vendas": 591,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd281baabbf594a7bade0d9552aad8d545.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4LMzps7",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010151137200": {
-   "n": "Choques de óleo de mola de taxa dupla INJORA DRX para rastreadores...",
-   "t": "Choques de óleo de mola de taxa dupla INJORA DRX para rastreadores 1/10 RC, 80 mm / 90 mm / 100 mm / 110 mm / 120 mm",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 144.59,
-   "nota": 4.9,
-   "vendas": 1098,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc0c8d7352ab44a9ab4b0902ef1e0ce1db.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4a2rHyj",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006860965078": {
-   "n": "Carro RC 4 Canais de Alta Velocidade, Carro de Corrida Elétrico de...",
-   "t": "Carro RC 4 Canais de Alta Velocidade, Carro de Corrida Elétrico de Controle Remoto para Drift, Brinquedo Modelo Esportivo para Meninos, Pres",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 64.49,
-   "nota": 4.9,
-   "vendas": 1051,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S11bac5a214644636a98af9a5a9025cedh.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c38KcfoL",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005011587396018": {
-   "n": "2026 novo carro c6 rc drift com luzes de modo duplo câmera de som...",
-   "t": "2026 novo carro c6 rc drift com luzes de modo duplo câmera de som controle tela carro indução inteligente seguinte brinquedos das crianças p",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 78.79,
-   "nota": 4.9,
-   "vendas": 970,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0ef6280ae9f7452ca188ea7804983768u.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4CcUfcT",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005010037215768": {
-   "n": "Carro de Controle Remoto Oike 4WD para Drift, Modelo de Carro de...",
-   "t": "Carro de Controle Remoto Oike 4WD para Drift, Modelo de Carro de Corrida Mini 1:24, Rádio 2.4G, Alta Velocidade, 4X4, Brinquedo de Veículo R",
-   "g": "Brinquedos",
-   "loja": "AliExpress",
-   "por": 99.17,
-   "nota": 4.9,
-   "vendas": 966,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Saf4cf8233a684467a76179c9a124ed934.png",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c38ZTWWj",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:21998511520": {
-   "n": "Moleton Ziper Estilosa Aberto Jaqueta Blusa De Frio Feminino...",
-   "t": "Moleton Ziper Estilosa Aberto Jaqueta Blusa De Frio Feminino Masculino Canguru Capuz Bolso Inverno",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 69.97,
-   "nota": 4.9,
-   "vendas": 776,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m7-mo5lcldsdptu05",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8pnGptadpq",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Moda",
-   "ic": "👟",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23794966305": {
-   "n": "Moletom Canguru Motoqueiro Alpi Bolso Capuz Estilo Frio Inverno...",
-   "t": "Moletom Canguru Motoqueiro Alpi Bolso Capuz Estilo Frio Inverno Lançamento",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 59.96,
-   "nota": 4.9,
-   "vendas": 299,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lw-mr80knpc00sk89",
-   "od": 0,
-   "link": "https://s.shopee.com.br/BVIVy7dQU",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Moda",
-   "ic": "👟",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58217802957": {
-   "n": "Moletom Canguru Infantil Confortável Quentinho Flanelado Agasalho...",
-   "t": "Moletom Canguru Infantil Confortável Quentinho Flanelado Agasalho Masculino Blusa Frio Capote USECO",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 40.89,
-   "nota": 4.9,
-   "vendas": 223,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825a2-mswuofhfqbk10c",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4fxhsEqVIR",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Moda",
-   "ic": "👟",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58207179400": {
-   "n": "Moletom Canguru Feminino Estiloso Confortável Moderno Moda Inverno...",
-   "t": "Moletom Canguru Feminino Estiloso Confortável Moderno Moda Inverno Blusa de Frio Modelo  Aranha teia Coração",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 55.61,
-   "nota": 4.9,
-   "vendas": 221,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820ln-mts5xxpifytc09",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4LKrTcrlyP",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Moda",
-   "ic": "👟",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58263864089": {
-   "n": "Moletom Masculino/Feminino Canguru Quiksilver Flanelado Grosso...",
-   "t": "Moletom Masculino/Feminino Canguru Quiksilver Flanelado Grosso Inverno Streetwear Premium",
-   "g": "Moda",
-   "loja": "Shopee",
-   "por": 57.0,
-   "nota": 4.8,
-   "vendas": 308,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825aw-mqe1brc042ypb0",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4B1RHJsPJO",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Moda",
-   "ic": "👟"
-  },
-  "shp:19699843252": {
-   "n": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
-   "t": "Kit 3 Necessaire Maquiagem Transparente WashBag A Prova De Água 332",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 21.55,
-   "nota": 4.9,
-   "vendas": 6095,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdy4-mcc4llc8xbix14",
-   "od": 0,
-   "link": "https://s.shopee.com.br/6q2CSE4BXI",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58252152185": {
-   "n": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
-   "t": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 22.49,
-   "nota": 4.9,
-   "vendas": 4838,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-81zwr-mieih5tm8i6b73",
-   "od": 0,
-   "link": "https://s.shopee.com.br/7fbJRl10qR",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:22493344923": {
-   "n": "Necessaire Feminina Personalizada com Inicial Box com Alça Porta...",
-   "t": "Necessaire Feminina Personalizada com Inicial Box com Alça Porta Maquiagem Bolsa Viagem",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 17.92,
-   "nota": 4.9,
-   "vendas": 4222,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m0-mm9n38usw7wn9a",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3qOasiFbcn",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:21797990606": {
-   "n": "1 unid Necessaire box personalizada com inicial organizador de...",
-   "t": "1 unid Necessaire box personalizada com inicial organizador de maquiagem bolsinhas Necesser",
-   "g": "Beleza",
-   "loja": "Shopee",
-   "por": 17.92,
-   "nota": 4.9,
-   "vendas": 3312,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-md2h6cdl0boyeb",
-   "od": 0,
-   "link": "https://s.shopee.com.br/6fimFv4osH",
-   "visto": "2026-11-11T15:40+00:00",
-   "cat": "Beleza",
-   "ic": "💄",
-   "cmp_em": "2026-11-12T19:56+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
   "ali:1005012528658653": {
    "n": "Conjunto de Escovas para Limpeza de Mamadeiras Avent W67 com 10...",
    "t": "Conjunto de Escovas para Limpeza de Mamadeiras Avent W67 com 10 Escovas de Silicone com Sucção Magnética para Lavar e Drenar sem Danificar a",
@@ -5377,7 +4848,10 @@
    "link": "https://s.click.aliexpress.com/e/_c42dKAyP",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007129340508": {
    "n": "Máquina de Cortar Cabelo Sem Fio Kemei 2299 para Homens, Aparador...",
@@ -5392,7 +4866,20 @@
    "link": "https://s.click.aliexpress.com/e/_c3Lgt3u7",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 40.99,
+     "nota": 4.9,
+     "vendas": 2960,
+     "t": "máquina de acabamento cortar cabelo barba barbeador pezinho profissional recarregável keme",
+     "link": "https://s.shopee.com.br/70LfKrDNMt",
+     "sim": true
+    }
+   ]
   },
   "ali:1005006863774678": {
    "n": "Kemei 4 em 1 aparador para homens elétrico nariz e orelha aparador...",
@@ -5407,7 +4894,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3vkI155",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006677941848": {
    "n": "Vgr V-353 barbeador profissional navalha elétrica máquina de barbear...",
@@ -5422,7 +4912,10 @@
    "link": "https://s.click.aliexpress.com/e/_c2wELujN",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007097211303": {
    "n": "VGR 353 Barbeador Profissional, Aparador De Cabelo, Máquina Elétrica...",
@@ -5437,7 +4930,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3M1E6Tz",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006861025556": {
    "n": "Luvas de Academia para Treinamento Fitness Sem Dedos para Homens e...",
@@ -5452,7 +4948,10 @@
    "link": "https://s.click.aliexpress.com/e/_c43kMTTt",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010155296561": {
    "n": "Luvas de esqui e neve para inverno, resistentes à água...",
@@ -5467,7 +4966,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4UKMaTN",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007097147358": {
    "n": "Luvas de inverno para homens e mulheres touchscreen quente ao ar...",
@@ -5482,7 +4984,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4kbBnld",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007306652526": {
    "n": "Luvas antiderrapantes ao ar livre do ciclismo, bicicletas, caloroso...",
@@ -5497,7 +5002,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4ksmqZD",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008144874546": {
    "n": "organizador de cosméticos desktop prateleira dormitório organizador...",
@@ -5512,7 +5020,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3ejgmK7",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005013255269738": {
    "n": "multi tamanho gaveta caixa de armazenamento estudante mesa papelaria...",
@@ -5527,7 +5038,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3EEF8fd",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010653319714": {
    "n": "Organizador de Talheres Ajustável para Atualização – Organizador de...",
@@ -5542,7 +5056,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3Nj7hwr",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005009116393616": {
    "n": "Conjunto de 7 organizadores de gavetas em plástico transparente...",
@@ -5557,7 +5074,10 @@
    "link": "https://s.click.aliexpress.com/e/_c45oKRbt",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007141554915": {
    "n": "Balança Digital Precisão Cozinha 1g A 10kg Promoção",
@@ -5600,7 +5120,10 @@
    "link": "https://s.click.aliexpress.com/e/_c37Bn69v",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007010062101": {
    "n": "Balança Digital de Espresso Recarregável USB HTMCK com Timer e Tela...",
@@ -5615,7 +5138,10 @@
    "link": "https://s.click.aliexpress.com/e/_c35qNL2R",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006995287069": {
    "n": "Balança de cozinha digital em aço inoxidável, com visor LCD, para...",
@@ -5630,7 +5156,20 @@
    "link": "https://s.click.aliexpress.com/e/_c4oJbMIb",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 15.85,
+     "nota": 4.9,
+     "vendas": 3760,
+     "t": "Balança Digital Precisão Eletrônica 10kg Branca Multifuncional Culinária Fitness Viagem Co",
+     "link": "https://s.shopee.com.br/5AtzFbcCGj",
+     "sim": true
+    }
+   ]
   },
   "shp:22092926686": {
    "n": "Creme Modelador Forte #todecacho Cachos dos Sonhos 500ml",
@@ -5645,7 +5184,10 @@
    "link": "https://s.shopee.com.br/5q9g2o9jVB",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22000733318": {
    "n": "Modelador Triondas Ondulador Formador Triplo 22mm Modelador de Cachos...",
@@ -5660,7 +5202,10 @@
    "link": "https://s.shopee.com.br/60T6F796AI",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58253189644": {
    "n": "Modelador De Cachos Profissional Automático Cerâmica Cacheador De...",
@@ -5675,7 +5220,10 @@
    "link": "https://s.shopee.com.br/5VWpeCB0B9",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:20799233151": {
    "n": "Creme Modelador Natural #todecacho Cachos dos Sonhos 500ml",
@@ -5690,7 +5238,10 @@
    "link": "https://s.shopee.com.br/5AtzFaCGrF",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58214598887": {
    "n": "Modelador Triondas Ondulador Formador Triplo 22mm Modelador de Cachos...",
@@ -5705,7 +5256,10 @@
    "link": "https://s.shopee.com.br/50aZ3HCuCC",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22698825515": {
    "n": "Luminária De Led Sobrepor Bastão Recarregável Sem Fio Com Suporte...",
@@ -5720,7 +5274,10 @@
    "link": "https://s.shopee.com.br/ql05colWr",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58216667421": {
    "n": "Luminária de Mesa LED Nossa Senhora Aparecida com Design 3D em...",
@@ -5735,7 +5292,10 @@
    "link": "https://s.shopee.com.br/AKc5P5EbFa",
    "visto": "2026-11-12T03:25+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:58201279644": {
    "n": "KIT 2 Luz Noturna com Sensor Movimento LED Lâmpada Magnética...",
@@ -6774,13 +6334,13 @@
    "t": "Auxiliar de Partida Carregador Bateria Com Compressor de Ar Emergência Portátil Veicular Automotivo",
    "g": "Carro",
    "loja": "Shopee",
-   "por": 169.99,
+   "por": 169.89,
    "nota": 4.9,
    "vendas": 1987,
    "img": "https://cf.shopee.com.br/file/br-11134207-820lh-mpawhtk4syyu91",
    "od": 0,
    "link": "https://s.shopee.com.br/W8An65KXT",
-   "visto": "2026-11-12T19:56+00:00",
+   "visto": "2026-11-13T08:02+00:00",
    "cat": "Carro",
    "ic": "🚗"
   },
@@ -7252,6 +6812,489 @@
    "visto": "2026-11-13T01:07+00:00",
    "cat": "Casa",
    "ic": "🏠"
+  },
+  "ali:1005006994737177": {
+   "n": "Scanner OBD2 profissional V519 – ferramenta de diagnóstico automotivo...",
+   "t": "Scanner OBD2 profissional V519 – ferramenta de diagnóstico automotivo com alimentação USB e fluxo de dados em tempo real, testes OBD II comp",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 40.63,
+   "nota": 4.9,
+   "vendas": 33345,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3e6d5c958a134439917a20bd7fd08a3dr.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4sU7AAn",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005010089061081": {
+   "n": "Scanner OBD2 para Carros, Ferramenta de Diagnóstico, Leitor de...",
+   "t": "Scanner OBD2 para Carros, Ferramenta de Diagnóstico, Leitor de Códigos de Falha do Motor, Scanner que Diagnostica Todos os Carros com Protoc",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 41.29,
+   "nota": 4.9,
+   "vendas": 15316,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S94a40797c36d4b6cbc12727646ef88e15.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3YUGV8J",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005008932511797": {
+   "n": "Scanner de diagnóstico automotivo V410 OBD2 – ferramenta de...",
+   "t": "Scanner de diagnóstico automotivo V410 OBD2 – ferramenta de diagnóstico completa para identificar e solucionar problemas de veículos.",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 27.45,
+   "nota": 4.9,
+   "vendas": 14110,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S019dbb76134e41fc8f499a70148c0cfc8.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4cLoZDh",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005011587321180": {
+   "n": "Scanner de Diagnóstico OBD2 V510 | Testador de Bateria, Leitor de...",
+   "t": "Scanner de Diagnóstico OBD2 V510 |     Testador de Bateria, Leitor de Código de Falha do Motor, Dados em Tempo Real, Busca de DTC, Imagem Co",
+   "g": "Carro",
+   "loja": "AliExpress",
+   "por": 48.11,
+   "nota": 4.9,
+   "vendas": 3909,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0c3a44f28f2841e38b33f1e0a0aa01f10.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3jJJOjD",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "ali:1005007791672610": {
+   "n": "Escova elétrica para vaporização de cães, 3 em 1, escova a vapor para...",
+   "t": "Escova elétrica para vaporização de cães, 3 em 1, escova a vapor para animais de estimação, remove emaranhados e cabelos soltos para massage",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 21.4,
+   "nota": 4.9,
+   "vendas": 3250,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S53dabc50fd014b08a1492baf0fd5e5baU.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4tsExmj",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005010037278571": {
+   "n": "Escova de Massagem para Cães e Gatos 2/5/10 Peças, Escova...",
+   "t": "Escova de Massagem para Cães e Gatos 2/5/10 Peças, Escova Multifuncional para Remoção de Pelos, Esponja de Limpeza, Pente Simulador de Língu",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 31.29,
+   "nota": 4.9,
+   "vendas": 3173,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scf79b034659d471293190b4318a39403L.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c30jbQWn",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005011717691981": {
+   "n": "Escova para Cães e Gatos com Limpeza Automática, Removedor de Pelos...",
+   "t": "Escova para Cães e Gatos com Limpeza Automática, Removedor de Pelos para Cães e Gatos, Ferramentas de Higiene para Animais de Estimação, Esc",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 15.99,
+   "nota": 4.9,
+   "vendas": 3014,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S190bdf8c16e84b6798674c0831eab31cV.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4LUk8bZ",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005007038312072": {
+   "n": "Escova Dupla Face para Pets, Escova para Cães, Escova para Gatos...",
+   "t": "Escova Dupla Face para Pets, Escova para Cães, Escova para Gatos, Remoção de Pelos, Suprimentos para Animais de Estimação",
+   "g": "Pet",
+   "loja": "AliExpress",
+   "por": 18.89,
+   "nota": 4.9,
+   "vendas": 2557,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6a61e2e6037543ae92220d6cfc5b4146s.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4C56gQn",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "ali:1005012043874130": {
+   "n": "Quebra-Cabeça Personalizado para Dropshipping: Crie Seu Próprio...",
+   "t": "Quebra-Cabeça Personalizado para Dropshipping: Crie Seu Próprio Quebra-Cabeça com Foto Personalizada, Brinquedo DIY para Crianças, Melhor Pr",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 61.84,
+   "nota": 5.0,
+   "vendas": 1697,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S23b00eee86db4492b982bd1a9fe7b199I.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c358U8UF",
+   "visto": "2026-11-13T08:02+00:00",
+   "cmp_em": "2026-11-13T08:02+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005007344886615": {
+   "n": "Brinquedo de laço de madeira educacional frutas rosqueamento...",
+   "t": "Brinquedo de laço de madeira educacional frutas rosqueamento atividade quebra-cabeças estudando habilidade motora fina carro brinquedo conju",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 16.59,
+   "nota": 4.9,
+   "vendas": 1707,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9b1327e3ae60438998ba642bfce9972bY.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3yulY7p",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005006994618519": {
+   "n": "Ovos parafusos 3d quebra-cabeça montessori aprendizagem educação...",
+   "t": "Ovos parafusos 3d quebra-cabeça montessori aprendizagem educação matemática brinquedos crianças forma jogo inteligente para crianças present",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 19.01,
+   "nota": 4.9,
+   "vendas": 1620,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S575bb0e459bc4badb2e3882f9b021a020.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4nWNZsB",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005012010835993": {
+   "n": "Cubo Mágico Série Moyu Meilong MFJS, Cubo Mágico de Formato Especial...",
+   "t": "Cubo Mágico Série Moyu Meilong MFJS, Cubo Mágico de Formato Especial 2x2 3x3 4x4 5x5 6x6 7x7, Brinquedo Educativo para Crianças, Presente",
+   "g": "Brinquedos",
+   "loja": "AliExpress",
+   "por": 17.28,
+   "nota": 4.9,
+   "vendas": 1378,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd56e3affc7c941928953de425c7c4b21m.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3DScYr1",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Brinquedos",
+   "ic": "🧸"
+  },
+  "ali:1005013205576126": {
+   "n": "Suporte de Telefone de Viagem Ajustável, Rotativo e Dobrável...",
+   "t": "Suporte de Telefone de Viagem Ajustável, Rotativo e Dobrável, Multifuncional para Avião, Trem, Mesa e Assento, para Selfie e Transmissão ao ",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 18.91,
+   "nota": 4.9,
+   "vendas": 944,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S082fe41df57145488661d03bde3a250aC.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3YzlCEP",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005008406568044": {
+   "n": "Mozo suporte de mesa para telefone, transmissão ao vivo, levantamento...",
+   "t": "Mozo suporte de mesa para telefone, transmissão ao vivo, levantamento ajustável, telescópico, selfie, rotativo, liga de alumínio, estrutura ",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 89.17,
+   "nota": 4.9,
+   "vendas": 830,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se6dc55001dc34596be7b9c4ed794fd57a.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2zUwZvp",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005011743247034": {
+   "n": "Suporte de Telefone Ajustável com Braço Longo, Clip 360 Flexível...",
+   "t": "Suporte de Telefone Ajustável com Braço Longo, Clip 360 Flexível, Suporte Universal para Cama, Mesa e Uso Preguiçoso, Compatível com Todos o",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 15.8,
+   "nota": 4.9,
+   "vendas": 709,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd6ace258f48e4d178b68f1afeb514258l.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c40Bb6X1",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "ali:1005013423848441": {
+   "n": "Suporte magnético para laptop e celular, ajustável, dobrável, com...",
+   "t": "Suporte magnético para laptop e celular, ajustável, dobrável, com clipe para fixar em monitores de computador, acessório para ampliar a área",
+   "g": "Celular",
+   "loja": "AliExpress",
+   "por": 22.22,
+   "nota": 4.9,
+   "vendas": 671,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S76cd9aed175942fba3fbc7ba8c87e571O.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3OTLMbh",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58216757516": {
+   "n": "Jogo Chaves De Fenda Precisão Com 115 peças 1 Kit Ferramentas P...",
+   "t": "Jogo Chaves De Fenda Precisão Com 115 peças 1 Kit Ferramentas P/ Manutenção Celular Notebook Tablet Reparação",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 23.99,
+   "nota": 4.9,
+   "vendas": 2182,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8257t-ms7c4j0v7gueac",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6L5yXbCSYv",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:58254706539": {
+   "n": "Jogo Chaves De Fenda Precisão Com 115 peças 1 Kit Ferramentas P...",
+   "t": "Jogo Chaves De Fenda Precisão Com 115 peças 1 Kit Ferramentas P/ Manutenção Celular Notebook Tablet Reparação",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 26.88,
+   "nota": 4.9,
+   "vendas": 1534,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8260e-mkckphdrad5391",
+   "od": 0,
+   "link": "https://s.shopee.com.br/60T88zDjEt",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:58267549079": {
+   "n": "Kit Chaves de Precisão 16 Peças Ferramentas para Celular Eletrônicos...",
+   "t": "Kit Chaves de Precisão 16 Peças Ferramentas para Celular Eletrônicos Manutenção e Reparo LUATEK",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 20.98,
+   "nota": 4.9,
+   "vendas": 812,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lm-mspkfn17xeroa2",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6AmYLID5tu",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:58214188519": {
+   "n": "Kit Ferramentas 115 Peças Jogo Mini Chaves Precisão Multiuso Celular...",
+   "t": "Kit Ferramentas 115 Peças Jogo Mini Chaves Precisão Multiuso Celular Notebook Tablet--Mwei Store",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 28.88,
+   "nota": 4.9,
+   "vendas": 566,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820me-mqmihbx1io7710",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6q2F8WAYY6",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:22094434324": {
+   "n": "Kit Chaves Precisão Manutenção Profissional 115 Pç Magnetico",
+   "t": "Kit Chaves Precisão Manutenção Profissional 115 Pç Magnetico",
+   "g": "Ferramentas",
+   "loja": "Shopee",
+   "por": 27.9,
+   "nota": 4.9,
+   "vendas": 232,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-824he-memdd8gxpmo6d3",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4LKu9vK4cq",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:58257139840": {
+   "n": "Compressor de Ar Portátil 4 em 1 Sem Fio + Auxiliar de Partida +...",
+   "t": "Compressor de Ar Portátil 4 em 1 Sem Fio + Auxiliar de Partida + Power Bank + Lanterna LED Carro Moto",
+   "g": "Carro",
+   "loja": "Shopee",
+   "por": 178.97,
+   "nota": 4.9,
+   "vendas": 1301,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820le-mlz1bgcccop350",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1LhIaPmxIh",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "shp:58208108027": {
+   "n": "Kit Auxiliar Partida 4 em 1 26800mAh 150PSI Compressor Ar Power Bank...",
+   "t": "Kit Auxiliar Partida 4 em 1 26800mAh 150PSI Compressor Ar Power Bank Lanterna Carregador 12V Portatil Veicular",
+   "g": "Carro",
+   "loja": "Shopee",
+   "por": 261.0,
+   "nota": 4.9,
+   "vendas": 734,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m6-mtp3006fhw5dd3",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2LZpmFj9Gv",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "shp:58217135289": {
+   "n": "✈️Envio Rápido｜Compressor de Ar Multifuncional 150PSI, Auxiliar...",
+   "t": "✈️Envio Rápido｜Compressor de Ar Multifuncional 150PSI, Auxiliar Partida, Lanterna e Carregador para Carro Moto Bike",
+   "g": "Carro",
+   "loja": "Shopee",
+   "por": 172.99,
+   "nota": 4.9,
+   "vendas": 556,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lm-msf4e7w1tfd02f",
+   "od": 0,
+   "link": "https://s.shopee.com.br/20wzNdkPwt",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "shp:23294386132": {
+   "n": "Bateria Auxiliar Portátil para Partida + Bomba de Ar com Rosca...",
+   "t": "Bateria Auxiliar Portátil para Partida + Bomba de Ar com Rosca - Dupla Função",
+   "g": "Carro",
+   "loja": "Shopee",
+   "por": 179.92,
+   "nota": 4.9,
+   "vendas": 495,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-823r3-mol0n5y9escr44",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2BGPZwjmbu",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Carro",
+   "ic": "🚗"
+  },
+  "shp:19699210101": {
+   "n": "Tapete Higiênico para Cães 80x60cm 50 ou 100 Unidades Pads Prime",
+   "t": "Tapete Higiênico para Cães 80x60cm 50 ou 100 Unidades Pads Prime",
+   "g": "Pet",
+   "loja": "Shopee",
+   "por": 64.38,
+   "nota": 4.9,
+   "vendas": 3490,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820l9-munml6491n2828",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8pnJWCc0DN",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "shp:58212573737": {
+   "n": "Tapete Higiênico Cães Carvão Bambu Ativado Aroma Lavanda 30 Unidades...",
+   "t": "Tapete Higiênico Cães Carvão Bambu Ativado Aroma Lavanda 30 Unidades Absorvente Anti Odor Tamanho 60x60cm / 80x60cm",
+   "g": "Pet",
+   "loja": "Shopee",
+   "por": 53.0,
+   "nota": 4.9,
+   "vendas": 3279,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820l9-mrjuw7udmqdj44",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8VAT7adGtH",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "shp:19999598253": {
+   "n": "Tapete Higiênico para Caixa de Areia de Gatos Anti Sujeira Coletor De...",
+   "t": "Tapete Higiênico para Caixa de Areia de Gatos Anti Sujeira Coletor De Areia EVA 70x100 cm - Petliz",
+   "g": "Pet",
+   "loja": "Shopee",
+   "por": 19.38,
+   "nota": 4.9,
+   "vendas": 2324,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mgf5deizhcefd3",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6fiowDkFc0",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "shp:44915338553": {
+   "n": "Tapete Higiênico Para Cachorro 50 Unidades 50x60cm Com Gel Absorvente...",
+   "t": "Tapete Higiênico Para Cachorro 50 Unidades 50x60cm Com Gel Absorvente Fralda Manta Pet Cão",
+   "g": "Pet",
+   "loja": "Shopee",
+   "por": 42.9,
+   "nota": 4.9,
+   "vendas": 2305,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lx-mrez1cew2oed35",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6q2F8WjcH3",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "shp:58201437433": {
+   "n": "Tapete Higiênico Neutro 50x60cm 50 Unidades Econômico para Cachorro...",
+   "t": "Tapete Higiênico Neutro 50x60cm 50 Unidades Econômico para Cachorro Cão Pet Borda Protetora Gel Super Absorvente",
+   "g": "Pet",
+   "loja": "Shopee",
+   "por": 41.78,
+   "nota": 4.9,
+   "vendas": 2028,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-82258-mhtgn48akj5w25",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7VHvvkh4vF",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Pet",
+   "ic": "🐾"
+  },
+  "shp:18499853587": {
+   "n": "Carregador Sem Fio 5000/10000mAh iPhone",
+   "t": "Carregador Sem Fio 5000/10000mAh iPhone",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 28.85,
+   "nota": 4.7,
+   "vendas": 11760,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-mavkx3k4v9n308",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2qW6NBG6Cz",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Celular",
+   "ic": "📱"
+  },
+  "shp:58266979191": {
+   "n": "Carregador Portátil 3000MAH/5000MAH/10000mah Sem fio Para iPhone...",
+   "t": "Carregador Portátil 3000MAH/5000MAH/10000mah Sem fio Para iPhone Indução Magsafe Bateria Carga-Zonix",
+   "g": "Celular",
+   "loja": "Shopee",
+   "por": 37.99,
+   "nota": 4.7,
+   "vendas": 573,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825au-mscsxcz65dz94b",
+   "od": 0,
+   "link": "https://s.shopee.com.br/20wzNeJGts",
+   "visto": "2026-11-13T08:02+00:00",
+   "cat": "Celular",
+   "ic": "📱"
   }
  },
  "teclado-mecanico": {
@@ -7297,6 +7340,7 @@
   "2026-11-09": 96.9,
   "2026-11-10": 96.11,
   "2026-11-11": 95.6,
-  "2026-11-12": 96.11
+  "2026-11-12": 96.11,
+  "2026-11-13": 96.9
  }
 }
