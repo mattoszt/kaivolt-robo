@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-20-12": 1,
    "2026-10-20-20": 1,
    "2026-10-21-12": 1,
    "2026-10-21-20": 1,
@@ -98,9 +97,25 @@
    "2026-11-04-20": 1,
    "2026-11-06-20": 1,
    "2026-11-08-12": 1,
-   "2026-11-08-20": 1
+   "2026-11-08-20": 1,
+   "2026-11-13-20": 1
   },
   "fila_zap": [
+   {
+    "d": "13/11 20:09",
+    "n": "Boneca Lola Baby Com Chupeta Rosa Bebê Menina Brinquedo Infantil -Bambola",
+    "txt": "*Boneca Lola Baby Com Chupeta Rosa Bebê Menina Brinquedo Infantil -Bambola*\n\n💰 *R$ 34,90* na Shopee\n⭐ 4,8 · +1,6 mil vendidos na loja\n\n👉 https://s.shopee.com.br/5fqIkfByHh\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "13/11 19:49",
+    "n": "Haylou mori pro bluetooth 5.4 fones de ouvido sem fio 43db adaptável...",
+    "txt": "*Haylou mori pro bluetooth 5.4 fones de ouvido sem fio 43db adaptável...*\n\n💰 *R$ 98,64* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3iwhV1D\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "13/11 19:29",
+    "n": "Removedor de fiapos elétrico portátil com visor LED, recarregável por USB...",
+    "txt": "*Removedor de fiapos elétrico portátil com visor LED, recarregável por USB...*\n\n💰 *R$ 30,72* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +4,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3mSoPRH\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "13/11 13:48",
     "n": "Luz Solar LED STAARICC para Exterior com Sensor de Movimento, Indução...",
@@ -235,21 +250,6 @@
     "d": "08/11 20:59",
     "n": "Carregador Lightning Turbo Para 11 12 13 14 Pro X XR 20W Cabo Tipo C...",
     "txt": "*Carregador Lightning Turbo Para 11 12 13 14 Pro X XR 20W Cabo Tipo C...*\n\n💰 *R$ 39,90* na Shopee\n⭐ 4,8 · +3,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/8pnCVVzxO6\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "08/11 20:39",
-    "n": "Óculos de sol polarizados Moda e tendência Proteção UV Óculos de condução...",
-    "txt": "*Óculos de sol polarizados Moda e tendência Proteção UV Óculos de condução...*\n\n💰 *R$ 38,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +2,8 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4OZVUeP\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "08/11 17:11",
-    "n": "Hagibis organizador eletrônico bolsa de viagem eva hardshell pu bolsa de...",
-    "txt": "*Hagibis organizador eletrônico bolsa de viagem eva hardshell pu bolsa de...*\n\n💰 *R$ 58,90* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 5,0 · +2,4 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3UcEYkR\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "08/11 16:51",
-    "n": "Parafusadeira Furadeira de Impacto Com 2 Bateria Recarregável Sem Fio 48v...",
-    "txt": "*Parafusadeira Furadeira de Impacto Com 2 Bateria Recarregável Sem Fio 48v...*\n\n💰 *R$ 115,99* na Shopee\n⭐ 4,9 · +4,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/AKc07BhRjV\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -259,7 +259,7 @@
    "1005007138811658": "2026-11-12",
    "1005005544072940": "2026-09-27",
    "1005009084986255": "2026-09-27",
-   "1005010044222290": "2026-09-27",
+   "1005010044222290": "2026-11-13",
    "1005006481410300": "2026-09-27",
    "1005012304464267": "2026-09-27",
    "1005007805746081": "2026-09-27",
@@ -1256,7 +1256,7 @@
    "shp:22598325164": "2026-10-07",
    "1005007171184391": "2026-11-13",
    "shp:22694931075": "2026-10-07",
-   "1005009874155992": "2026-10-08",
+   "1005009874155992": "2026-11-13",
    "shp:21498314242": "2026-10-08",
    "1005009023345001": "2026-10-08",
    "shp:50159985402": "2026-10-08",
@@ -1952,15 +1952,16 @@
    "shp:58217144714": "2026-11-12",
    "1005009719153353": "2026-11-13",
    "1005013148487317": "2026-11-13",
-   "1005012374546248": "2026-11-13"
+   "1005012374546248": "2026-11-13",
+   "shp:43106444068": "2026-11-13"
   },
-  "kw": 792,
-  "ultimo": "2026-11-13 13:48",
+  "kw": 795,
+  "ultimo": "2026-11-13 20:09",
   "dia": {
    "d": "2026-11-13",
-   "n": 3
+   "n": 6
   },
-  "ml_n": 531,
+  "ml_n": 533,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -1969,8 +1970,8 @@
    }
   ],
   "vez_ml": false,
-  "vez": 2,
-  "shopee_n": 865,
+  "vez": 3,
+  "shopee_n": 868,
   "shopee_q": {
    "Celular": 62,
    "Tech": 62,
@@ -1983,9 +1984,9 @@
    "Eletro": 62,
    "Ferramentas": 62,
    "Carro": 62,
-   "Pet": 61,
-   "Brinquedos": 61,
-   "Bebês": 61
+   "Pet": 62,
+   "Brinquedos": 62,
+   "Bebês": 62
   }
  }
 }
