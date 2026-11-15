@@ -49,7 +49,8 @@
   "2026-11-11": 38.89,
   "2026-11-12": 45.89,
   "2026-11-13": 45.89,
-  "2026-11-14": 38.89
+  "2026-11-14": 38.89,
+  "2026-11-15": 38.89
  },
  "carregador-20w": {
   "2026-09-26": 15.89,
@@ -101,7 +102,8 @@
   "2026-11-11": 17.16,
   "2026-11-12": 16.4,
   "2026-11-13": 16.56,
-  "2026-11-14": 17.69
+  "2026-11-14": 17.69,
+  "2026-11-15": 17.69
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -153,7 +155,8 @@
   "2026-11-11": 14.79,
   "2026-11-12": 11.13,
   "2026-11-13": 11.69,
-  "2026-11-14": 15.81
+  "2026-11-14": 15.81,
+  "2026-11-15": 15.81
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -205,7 +208,8 @@
   "2026-11-11": 70.99,
   "2026-11-12": 71.59,
   "2026-11-13": 72.29,
-  "2026-11-14": 72.29
+  "2026-11-14": 72.29,
+  "2026-11-15": 72.29
  },
  "mouse-gamer-rgb": {
   "2026-09-26": 25.99,
@@ -257,7 +261,8 @@
   "2026-11-11": 28.99,
   "2026-11-12": 29.19,
   "2026-11-13": 26.53,
-  "2026-11-14": 26.62
+  "2026-11-14": 26.62,
+  "2026-11-15": 26.62
  },
  "powerbank-20000": {
   "2026-09-26": 46.79,
@@ -309,7 +314,8 @@
   "2026-11-11": 45.99,
   "2026-11-12": 52.32,
   "2026-11-13": 53.49,
-  "2026-11-14": 55.47
+  "2026-11-14": 55.47,
+  "2026-11-15": 55.47
  },
  "powerbank-magsafe": {
   "2026-09-26": 109.13,
@@ -361,7 +367,8 @@
   "2026-11-11": 77.94,
   "2026-11-12": 81.91,
   "2026-11-13": 81.91,
-  "2026-11-14": 81.91
+  "2026-11-14": 81.91,
+  "2026-11-15": 81.91
  },
  "carregador-gan-65w": {
   "2026-09-26": 41.29,
@@ -413,7 +420,8 @@
   "2026-11-11": 46.2,
   "2026-11-12": 53.85,
   "2026-11-13": 47.09,
-  "2026-11-14": 47.11
+  "2026-11-14": 47.11,
+  "2026-11-15": 47.11
  },
  "suporte-veicular": {
   "2026-09-26": 10.32,
@@ -465,7 +473,8 @@
   "2026-11-11": 10.45,
   "2026-11-12": 11.65,
   "2026-11-13": 10.89,
-  "2026-11-14": 10.81
+  "2026-11-14": 10.81,
+  "2026-11-15": 10.81
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -517,7 +526,8 @@
   "2026-11-11": 152.59,
   "2026-11-12": 153.59,
   "2026-11-13": 140.1,
-  "2026-11-14": 103.96
+  "2026-11-14": 103.96,
+  "2026-11-15": 103.96
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
@@ -569,7 +579,8 @@
   "2026-11-11": 37.79,
   "2026-11-12": 37.79,
   "2026-11-13": 51.39,
-  "2026-11-14": 51.3
+  "2026-11-14": 51.3,
+  "2026-11-15": 32.98
  },
  "ssd-512": {
   "2026-09-26": 80.69,
@@ -634,7 +645,8 @@
   "2026-11-11": 51.99,
   "2026-11-12": 40.24,
   "2026-11-13": 43.72,
-  "2026-11-14": 31.24
+  "2026-11-14": 31.24,
+  "2026-11-15": 31.24
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -686,7 +698,8 @@
   "2026-11-11": 27.06,
   "2026-11-12": 27.06,
   "2026-11-13": 27.06,
-  "2026-11-14": 27.06
+  "2026-11-14": 27.06,
+  "2026-11-15": 27.06
  },
  "suporte-tablet": {
   "2026-09-26": 16.17,
@@ -738,7 +751,8 @@
   "2026-11-11": 16.11,
   "2026-11-12": 16.66,
   "2026-11-13": 15.07,
-  "2026-11-14": 15.06
+  "2026-11-14": 15.06,
+  "2026-11-15": 15.06
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -790,7 +804,8 @@
   "2026-11-11": 41.99,
   "2026-11-12": 49.9,
   "2026-11-13": 49.9,
-  "2026-11-14": 49.9
+  "2026-11-14": 49.9,
+  "2026-11-15": 49.9
  },
  "fone-tws": {
   "2026-09-26": 29.19,
@@ -842,7 +857,8 @@
   "2026-11-11": 20.55,
   "2026-11-12": 23.27,
   "2026-11-13": 20.55,
-  "2026-11-14": 27.3
+  "2026-11-14": 27.3,
+  "2026-11-15": 20.55
  },
  "caixa-som": {
   "2026-09-26": 41.11,
@@ -894,7 +910,8 @@
   "2026-11-11": 44.79,
   "2026-11-12": 44.79,
   "2026-11-13": 46.06,
-  "2026-11-14": 45.69
+  "2026-11-14": 45.69,
+  "2026-11-15": 45.69
  },
  "headphone-bt": {
   "2026-09-26": 112.51,
@@ -946,7 +963,8 @@
   "2026-11-11": 113.98,
   "2026-11-12": 120.99,
   "2026-11-13": 120.86,
-  "2026-11-14": 120.82
+  "2026-11-14": 120.82,
+  "2026-11-15": 120.82
  },
  "cabo-lightning": {
   "2026-09-26": 8.21,
@@ -998,7 +1016,8 @@
   "2026-11-11": 10.51,
   "2026-11-12": 10.86,
   "2026-11-13": 11.69,
-  "2026-11-14": 11.69
+  "2026-11-14": 11.69,
+  "2026-11-15": 11.69
  },
  "mouse-sem-fio": {
   "2026-09-26": 17.89,
@@ -1050,11 +1069,11 @@
   "2026-11-11": 15.27,
   "2026-11-12": 19.01,
   "2026-11-13": 22.59,
-  "2026-11-14": 22.59
+  "2026-11-14": 22.59,
+  "2026-11-15": 22.59
  },
  "_anuncios": {
   "powerbank-10000|AliExpress|1005012621183397": {
-   "2026-10-01": 45.89,
    "2026-10-02": 41.3,
    "2026-10-03": 36.35,
    "2026-10-04": 36.35,
@@ -1088,10 +1107,10 @@
    "2026-11-11": 45.89,
    "2026-11-12": 45.89,
    "2026-11-13": 45.89,
-   "2026-11-14": 45.89
+   "2026-11-14": 45.89,
+   "2026-11-15": 45.89
   },
   "powerbank-10000|Mercado Livre|MLB4400972103": {
-   "2026-10-08": 125.0,
    "2026-10-09": 125.0,
    "2026-10-10": 125.0,
    "2026-10-11": 125.0,
@@ -1125,7 +1144,8 @@
    "2026-11-11": 89.97,
    "2026-11-12": 89.97,
    "2026-11-13": 89.97,
-   "2026-11-14": 89.97
+   "2026-11-14": 89.97,
+   "2026-11-15": 89.97
   },
   "carregador-20w|AliExpress|1005010155263623": {
    "2026-09-27": 15.89,
@@ -1221,7 +1241,6 @@
    "2026-11-13": 11.24
   },
   "cabo-usbc-100w|Mercado Livre|MLB6801226010": {
-   "2026-10-11": 21.92,
    "2026-10-12": 21.92,
    "2026-10-13": 21.92,
    "2026-10-14": 21.92,
@@ -1255,7 +1274,8 @@
    "2026-11-11": 25.9,
    "2026-11-12": 25.9,
    "2026-11-13": 26.9,
-   "2026-11-14": 26.9
+   "2026-11-14": 26.9,
+   "2026-11-15": 26.9
   },
   "powerbank-20000|AliExpress|1005012267217366": {
    "2026-10-05": 46.79,
@@ -1295,7 +1315,6 @@
    "2026-11-10": 50.39
   },
   "powerbank-20000|Mercado Livre|MLB6306405776": {
-   "2026-10-04": 136.88,
    "2026-10-05": 136.88,
    "2026-10-06": 136.88,
    "2026-10-07": 145.43,
@@ -1329,10 +1348,10 @@
    "2026-11-11": 136.88,
    "2026-11-12": 136.88,
    "2026-11-13": 136.88,
-   "2026-11-14": 139.1
+   "2026-11-14": 139.1,
+   "2026-11-15": 139.1
   },
   "powerbank-magsafe|Mercado Livre|MLB4540680129": {
-   "2026-10-11": 83.91,
    "2026-10-12": 81.91,
    "2026-10-13": 99.9,
    "2026-10-14": 84.91,
@@ -1366,7 +1385,8 @@
    "2026-11-11": 81.91,
    "2026-11-12": 81.91,
    "2026-11-13": 81.91,
-   "2026-11-14": 81.91
+   "2026-11-14": 81.91,
+   "2026-11-15": 81.91
   },
   "powerbank-magsafe|AliExpress|1005010239569878": {
    "2026-09-27": 120.99,
@@ -1384,7 +1404,6 @@
    "2026-09-27": 43.26
   },
   "carregador-gan-65w|Mercado Livre|MLB5220586997": {
-   "2026-10-11": 208.99,
    "2026-10-12": 208.99,
    "2026-10-13": 208.99,
    "2026-10-14": 208.99,
@@ -1418,7 +1437,8 @@
    "2026-11-11": 208.99,
    "2026-11-12": 208.99,
    "2026-11-13": 208.99,
-   "2026-11-14": 208.99
+   "2026-11-14": 208.99,
+   "2026-11-15": 208.99
   },
   "cabo-lightning|AliExpress|1005012613871856": {
    "2026-09-27": 8.21,
@@ -1442,7 +1462,6 @@
    "2026-10-25": 8.03
   },
   "cabo-lightning|Mercado Livre|MLB6257122156": {
-   "2026-10-11": 28.47,
    "2026-10-12": 28.47,
    "2026-10-13": 28.47,
    "2026-10-14": 24.9,
@@ -1476,7 +1495,8 @@
    "2026-11-11": 24.15,
    "2026-11-12": 24.15,
    "2026-11-13": 24.15,
-   "2026-11-14": 24.15
+   "2026-11-14": 24.15,
+   "2026-11-15": 24.15
   },
   "suporte-veicular|AliExpress|1005010487386351": {
    "2026-09-27": 11.24,
@@ -1502,7 +1522,6 @@
    "2026-10-21": 10.99
   },
   "suporte-veicular|Mercado Livre|MLB4663097633": {
-   "2026-10-11": 24.99,
    "2026-10-12": 24.99,
    "2026-10-13": 24.99,
    "2026-10-14": 24.99,
@@ -1536,10 +1555,10 @@
    "2026-11-11": 24.99,
    "2026-11-12": 24.99,
    "2026-11-13": 24.99,
-   "2026-11-14": 24.99
+   "2026-11-14": 24.99,
+   "2026-11-15": 24.99
   },
   "mouse-gamer-rgb|AliExpress|1005006982650767": {
-   "2026-09-29": 25.59,
    "2026-09-30": 25.59,
    "2026-10-01": 25.4,
    "2026-10-02": 26.09,
@@ -1573,10 +1592,10 @@
    "2026-11-11": 28.99,
    "2026-11-12": 29.19,
    "2026-11-13": 29.19,
-   "2026-11-14": 26.63
+   "2026-11-14": 26.63,
+   "2026-11-15": 26.62
   },
   "mouse-gamer-rgb|Mercado Livre|MLB1813858157": {
-   "2026-10-11": 104.54,
    "2026-10-12": 104.54,
    "2026-10-13": 104.54,
    "2026-10-14": 104.54,
@@ -1610,7 +1629,8 @@
    "2026-11-11": 92.68,
    "2026-11-12": 92.68,
    "2026-11-13": 92.68,
-   "2026-11-14": 92.68
+   "2026-11-14": 92.68,
+   "2026-11-15": 92.68
   },
   "mouse-sem-fio|AliExpress|1005010653523244": {
    "2026-09-27": 17.89,
@@ -1646,7 +1666,6 @@
    "2026-10-27": 19.32
   },
   "mouse-sem-fio|Mercado Livre|MLB4507657743": {
-   "2026-10-02": 59.64,
    "2026-10-03": 59.64,
    "2026-10-04": 59.64,
    "2026-10-05": 59.64,
@@ -1680,10 +1699,10 @@
    "2026-11-11": 49.89,
    "2026-11-12": 49.89,
    "2026-11-13": 49.89,
-   "2026-11-14": 49.89
+   "2026-11-14": 49.89,
+   "2026-11-15": 49.89
   },
   "headset-gamer|AliExpress|1005007171123835": {
-   "2026-10-09": 101.09,
    "2026-10-10": 98.79,
    "2026-10-11": 98.79,
    "2026-10-12": 103.59,
@@ -1717,7 +1736,8 @@
    "2026-11-09": 107.29,
    "2026-11-10": 108.39,
    "2026-11-11": 108.39,
-   "2026-11-14": 103.99
+   "2026-11-14": 103.99,
+   "2026-11-15": 103.96
   },
   "hub-usbc|AliExpress|1005007038224873": {
    "2026-09-27": 44.51,
@@ -1736,10 +1756,10 @@
    "2026-11-09": 49.79,
    "2026-11-10": 50.19,
    "2026-11-13": 51.39,
-   "2026-11-14": 51.39
+   "2026-11-14": 51.39,
+   "2026-11-15": 51.3
   },
   "hub-usbc|Mercado Livre|MLB7413454264": {
-   "2026-10-11": 51.4,
    "2026-10-12": 51.4,
    "2026-10-13": 51.4,
    "2026-10-14": 51.4,
@@ -1773,7 +1793,8 @@
    "2026-11-11": 54.02,
    "2026-11-12": 54.02,
    "2026-11-13": 54.02,
-   "2026-11-14": 54.02
+   "2026-11-14": 54.02,
+   "2026-11-15": 54.02
   },
   "ssd-512|Mercado Livre|MLB5095889465": {
    "2026-09-27": 594.44,
@@ -1792,7 +1813,6 @@
    "2026-09-28": 91.29
   },
   "webcam-fullhd|Mercado Livre|MLB4144472660": {
-   "2026-10-08": 360.37,
    "2026-10-09": 360.37,
    "2026-10-10": 342.35,
    "2026-10-11": 342.35,
@@ -1826,10 +1846,10 @@
    "2026-11-11": 347.31,
    "2026-11-12": 347.31,
    "2026-11-13": 347.31,
-   "2026-11-14": 347.31
+   "2026-11-14": 347.31,
+   "2026-11-15": 347.31
   },
   "caneta-stylus|Mercado Livre|MLB6577053496": {
-   "2026-10-11": 27.9,
    "2026-10-12": 27.9,
    "2026-10-13": 27.9,
    "2026-10-14": 27.9,
@@ -1863,7 +1883,8 @@
    "2026-11-11": 27.06,
    "2026-11-12": 27.06,
    "2026-11-13": 27.06,
-   "2026-11-14": 27.06
+   "2026-11-14": 27.06,
+   "2026-11-15": 27.06
   },
   "suporte-tablet|AliExpress|1005012434177766": {
    "2026-09-27": 16.17,
@@ -1872,7 +1893,6 @@
    "2026-10-14": 15.0
   },
   "suporte-tablet|Mercado Livre|MLB4241308999": {
-   "2026-10-03": 33.5,
    "2026-10-04": 33.5,
    "2026-10-05": 33.5,
    "2026-10-06": 33.5,
@@ -1906,13 +1926,13 @@
    "2026-11-11": 33.5,
    "2026-11-12": 33.5,
    "2026-11-13": 33.5,
-   "2026-11-14": 33.5
+   "2026-11-14": 33.5,
+   "2026-11-15": 33.5
   },
   "teclado-tablet|AliExpress|1005009384460790": {
    "2026-09-27": 41.59
   },
   "teclado-tablet|Mercado Livre|MLB6666974796": {
-   "2026-10-11": 49.9,
    "2026-10-12": 49.9,
    "2026-10-13": 49.9,
    "2026-10-14": 49.9,
@@ -1946,10 +1966,10 @@
    "2026-11-11": 49.9,
    "2026-11-12": 49.9,
    "2026-11-13": 49.9,
-   "2026-11-14": 49.9
+   "2026-11-14": 49.9,
+   "2026-11-15": 49.9
   },
   "fone-tws-anc|AliExpress|1005007987662567": {
-   "2026-10-11": 70.49,
    "2026-10-12": 70.79,
    "2026-10-13": 70.89,
    "2026-10-14": 71.49,
@@ -1983,10 +2003,10 @@
    "2026-11-11": 70.99,
    "2026-11-12": 71.59,
    "2026-11-13": 72.29,
-   "2026-11-14": 72.29
+   "2026-11-14": 72.29,
+   "2026-11-15": 72.29
   },
   "fone-tws-anc|Mercado Livre|MLB5410636044": {
-   "2026-10-11": 196.65,
    "2026-10-12": 207.0,
    "2026-10-13": 207.0,
    "2026-10-14": 196.5,
@@ -2020,7 +2040,8 @@
    "2026-11-11": 196.0,
    "2026-11-12": 196.0,
    "2026-11-13": 196.0,
-   "2026-11-14": 196.0
+   "2026-11-14": 196.0,
+   "2026-11-15": 196.0
   },
   "fone-tws|AliExpress|1005012099786090": {
    "2026-09-27": 29.19,
@@ -2028,7 +2049,6 @@
    "2026-09-29": 29.29
   },
   "fone-tws|Mercado Livre|MLB4262519541": {
-   "2026-10-11": 146.0,
    "2026-10-12": 146.0,
    "2026-10-13": 146.0,
    "2026-10-14": 146.0,
@@ -2062,7 +2082,8 @@
    "2026-11-11": 138.0,
    "2026-11-12": 129.0,
    "2026-11-13": 129.0,
-   "2026-11-14": 129.0
+   "2026-11-14": 129.0,
+   "2026-11-15": 129.0
   },
   "caixa-som|AliExpress|1005007170742868": {
    "2026-09-27": 41.11
@@ -2115,7 +2136,6 @@
    "2026-11-13": 120.99
   },
   "headphone-bt|Mercado Livre|MLB6891189052": {
-   "2026-10-11": 151.04,
    "2026-10-12": 151.04,
    "2026-10-13": 151.04,
    "2026-10-14": 151.04,
@@ -2149,7 +2169,8 @@
    "2026-11-11": 145.96,
    "2026-11-12": 145.96,
    "2026-11-13": 232.37,
-   "2026-11-14": 232.37
+   "2026-11-14": 232.37,
+   "2026-11-15": 137.75
   },
   "carregador-20w|AliExpress|1005008923724270": {
    "2026-09-27": 16.27,
@@ -2171,7 +2192,8 @@
    "2026-11-11": 46.2,
    "2026-11-12": 46.2,
    "2026-11-13": 47.09,
-   "2026-11-14": 47.14
+   "2026-11-14": 47.14,
+   "2026-11-15": 47.11
   },
   "suporte-veicular|AliExpress|1005007014340536": {
    "2026-09-27": 10.32,
@@ -2185,7 +2207,8 @@
    "2026-10-20": 11.89,
    "2026-10-21": 11.79,
    "2026-11-13": 10.89,
-   "2026-11-14": 10.89
+   "2026-11-14": 10.89,
+   "2026-11-15": 10.81
   },
   "headset-gamer|AliExpress|1005004992958876": {
    "2026-09-27": 116.48
@@ -2233,7 +2256,8 @@
    "2026-11-08": 17.74,
    "2026-11-11": 17.16,
    "2026-11-12": 17.34,
-   "2026-11-14": 17.69
+   "2026-11-14": 17.69,
+   "2026-11-15": 17.69
   },
   "suporte-veicular|AliExpress|1005009960307408": {
    "2026-09-27": 15.99,
@@ -2260,7 +2284,8 @@
    "2026-11-11": 22.29,
    "2026-11-12": 19.01,
    "2026-11-13": 22.59,
-   "2026-11-14": 22.59
+   "2026-11-14": 22.59,
+   "2026-11-15": 22.59
   },
   "teclado-tablet|AliExpress|1005005820727589": {
    "2026-09-27": 44.08
@@ -2287,7 +2312,8 @@
    "2026-11-01": 10.79,
    "2026-11-02": 10.79,
    "2026-11-13": 11.69,
-   "2026-11-14": 11.69
+   "2026-11-14": 11.69,
+   "2026-11-15": 11.69
   },
   "caneta-stylus|AliExpress|1005012049621672": {
    "2026-09-27": 20.79,
@@ -2504,7 +2530,8 @@
    "2026-11-09": 49.69,
    "2026-11-10": 49.69,
    "2026-11-13": 46.06,
-   "2026-11-14": 46.06
+   "2026-11-14": 46.06,
+   "2026-11-15": 45.69
   },
   "suporte-tablet|AliExpress|1005010439453151": {
    "2026-09-29": 15.26,
@@ -2576,7 +2603,6 @@
    "2026-10-02": 45.99
   },
   "carregador-20w|Shopee|22892846443": {
-   "2026-10-11": 24.99,
    "2026-10-12": 24.99,
    "2026-10-13": 24.99,
    "2026-10-14": 24.99,
@@ -2610,7 +2636,8 @@
    "2026-11-11": 24.99,
    "2026-11-12": 24.99,
    "2026-11-13": 24.99,
-   "2026-11-14": 24.99
+   "2026-11-14": 24.99,
+   "2026-11-15": 24.99
   },
   "cabo-usbc-100w|Shopee|58215621878": {
    "2026-10-07": 15.88,
@@ -2742,7 +2769,6 @@
    "2026-10-08": 10.46
   },
   "mouse-gamer-rgb|Shopee|58214472841": {
-   "2026-10-08": 46.48,
    "2026-10-09": 46.48,
    "2026-10-10": 46.48,
    "2026-10-11": 46.48,
@@ -2776,7 +2802,8 @@
    "2026-11-08": 44.62,
    "2026-11-11": 44.62,
    "2026-11-12": 44.62,
-   "2026-11-14": 44.62
+   "2026-11-14": 44.62,
+   "2026-11-15": 44.62
   },
   "mouse-sem-fio|Shopee|22294689106": {
    "2026-10-01": 17.69,
@@ -2885,7 +2912,6 @@
    "2026-10-17": 33.39
   },
   "suporte-tablet|Shopee|22898870546": {
-   "2026-10-10": 15.99,
    "2026-10-11": 15.99,
    "2026-10-12": 15.99,
    "2026-10-13": 15.99,
@@ -2919,7 +2945,8 @@
    "2026-11-10": 15.99,
    "2026-11-11": 15.99,
    "2026-11-13": 15.99,
-   "2026-11-14": 15.99
+   "2026-11-14": 15.99,
+   "2026-11-15": 15.99
   },
   "teclado-tablet|Shopee|58266634550": {
    "2026-10-03": 41.99,
@@ -3146,7 +3173,8 @@
    "2026-11-09": 15.39,
    "2026-11-10": 15.39,
    "2026-11-11": 14.79,
-   "2026-11-14": 15.81
+   "2026-11-14": 15.81,
+   "2026-11-15": 15.81
   },
   "powerbank-20000|Shopee|23394324110": {
    "2026-10-01": 45.98,
@@ -3186,7 +3214,6 @@
    "2026-10-05": 15.44
   },
   "suporte-veicular|Shopee|23893967205": {
-   "2026-10-10": 11.99,
    "2026-10-11": 11.99,
    "2026-10-12": 11.99,
    "2026-10-13": 11.99,
@@ -3220,7 +3247,8 @@
    "2026-11-10": 11.99,
    "2026-11-11": 11.99,
    "2026-11-13": 11.99,
-   "2026-11-14": 11.99
+   "2026-11-14": 11.99,
+   "2026-11-15": 11.99
   },
   "teclado-tablet|AliExpress|1005012370805199": {
    "2026-10-02": 54.5,
@@ -3277,7 +3305,6 @@
    "2026-10-07": 19.98
   },
   "webcam-fullhd|Shopee|22994995312": {
-   "2026-10-10": 31.24,
    "2026-10-11": 31.24,
    "2026-10-12": 31.24,
    "2026-10-13": 31.24,
@@ -3311,7 +3338,8 @@
    "2026-11-11": 31.24,
    "2026-11-12": 31.24,
    "2026-11-13": 31.24,
-   "2026-11-14": 31.24
+   "2026-11-14": 31.24,
+   "2026-11-15": 31.24
   },
   "caixa-som|AliExpress|1005008660067934": {
    "2026-10-04": 45.19,
@@ -3337,7 +3365,8 @@
    "2026-11-11": 39.91,
    "2026-11-12": 43.39,
    "2026-11-13": 43.79,
-   "2026-11-14": 42.84
+   "2026-11-14": 42.84,
+   "2026-11-15": 42.2
   },
   "powerbank-magsafe|Shopee|22493919031": {
    "2026-10-05": 57.9,
@@ -3459,7 +3488,8 @@
    "2026-11-11": 118.73,
    "2026-11-12": 118.73,
    "2026-11-13": 120.86,
-   "2026-11-14": 120.86
+   "2026-11-14": 120.86,
+   "2026-11-15": 120.82
   },
   "cabo-lightning|Shopee|50164929187": {
    "2026-10-06": 9.94
@@ -3619,7 +3649,6 @@
    "2026-10-09": 59.0
   },
   "hub-usbc|Shopee|58264004867": {
-   "2026-10-10": 32.98,
    "2026-10-11": 32.98,
    "2026-10-12": 32.99,
    "2026-10-13": 32.99,
@@ -3653,7 +3682,8 @@
    "2026-11-10": 32.98,
    "2026-11-11": 32.98,
    "2026-11-12": 32.98,
-   "2026-11-13": 32.98
+   "2026-11-13": 32.98,
+   "2026-11-15": 32.98
   },
   "suporte-tablet|Shopee|58214511080": {
    "2026-10-09": 16.75,
@@ -3921,7 +3951,8 @@
    "2026-11-10": 96.11,
    "2026-11-11": 96.11,
    "2026-11-12": 96.11,
-   "2026-11-13": 96.9
+   "2026-11-13": 96.9,
+   "2026-11-15": 96.9
   },
   "webcam-fullhd|AliExpress|1005009535380982": {
    "2026-10-27": 53.9,
@@ -3946,7 +3977,8 @@
    "2026-11-11": 116.52,
    "2026-11-12": 122.5,
    "2026-11-13": 123.71,
-   "2026-11-14": 123.71
+   "2026-11-14": 123.71,
+   "2026-11-15": 123.53
   },
   "cabo-usbc-100w|AliExpress|1005006923559036": {
    "2026-10-27": 10.01,
@@ -4039,7 +4071,8 @@
   "suporte-tablet|AliExpress|1005010332393432": {
    "2026-10-31": 15.32,
    "2026-11-13": 15.07,
-   "2026-11-14": 15.07
+   "2026-11-14": 15.07,
+   "2026-11-15": 15.06
   },
   "mouse-sem-fio|AliExpress|1005010123919861": {
    "2026-11-01": 19.11,
@@ -4077,7 +4110,8 @@
    "2026-11-07": 119.99,
    "2026-11-08": 119.99,
    "2026-11-09": 119.99,
-   "2026-11-13": 113.66
+   "2026-11-13": 113.66,
+   "2026-11-15": 115.14
   },
   "caneta-stylus|AliExpress|1005008997933704": {
    "2026-11-02": 115.66,
@@ -4113,7 +4147,8 @@
    "2026-11-11": 26.81,
    "2026-11-12": 25.95,
    "2026-11-13": 26.54,
-   "2026-11-14": 27.31
+   "2026-11-14": 27.31,
+   "2026-11-15": 27.3
   },
   "caixa-som|AliExpress|1005007539542341": {
    "2026-11-03": 140.88,
@@ -4159,7 +4194,8 @@
    "2026-11-10": 38.89,
    "2026-11-11": 38.89,
    "2026-11-13": 38.89,
-   "2026-11-14": 38.89
+   "2026-11-14": 38.89,
+   "2026-11-15": 38.89
   },
   "fone-tws|Shopee|41581456549": {
    "2026-11-08": 20.55,
@@ -4167,7 +4203,8 @@
    "2026-11-10": 20.55,
    "2026-11-11": 20.55,
    "2026-11-13": 20.55,
-   "2026-11-14": 20.55
+   "2026-11-14": 20.55,
+   "2026-11-15": 20.55
   },
   "powerbank-20000|Shopee|23597895251": {
    "2026-11-09": 45.99,
@@ -4187,7 +4224,8 @@
    "2026-11-11": 53.49,
    "2026-11-12": 52.32,
    "2026-11-13": 53.49,
-   "2026-11-14": 55.47
+   "2026-11-14": 55.47,
+   "2026-11-15": 55.47
   },
   "cabo-usbc-100w|Shopee|58251784766": {
    "2026-11-10": 24.89,
@@ -4218,7 +4256,7 @@
   }
  },
  "_meta": {
-  "ultimo_total": 20
+  "ultimo_total": 21
  },
  "_divulgacao": {
   "postados": {
@@ -4281,12 +4319,12 @@
   }
  },
  "_achados_meta": {
-  "n": 2359,
-  "ali_n": 4763,
+  "n": 2360,
+  "ali_n": 4768,
   "ali_q": {
-   "Beleza": 321,
-   "Esportes": 321,
-   "Casa": 321,
+   "Beleza": 322,
+   "Esportes": 322,
+   "Casa": 322,
    "Eletro": 321,
    "Ferramentas": 321,
    "Carro": 321,
@@ -4296,25 +4334,25 @@
    "Celular": 321,
    "Tech": 321,
    "Áudio e TV": 321,
-   "Games": 320,
-   "Moda": 320
+   "Games": 321,
+   "Moda": 321
   },
-  "shopee_n": 7176,
+  "shopee_n": 7184,
   "shopee_q": {
-   "Celular": 513,
-   "Tech": 513,
+   "Celular": 514,
+   "Tech": 514,
    "Áudio e TV": 513,
    "Games": 513,
    "Moda": 513,
    "Beleza": 513,
    "Esportes": 513,
    "Casa": 513,
-   "Eletro": 512,
-   "Ferramentas": 512,
-   "Carro": 512,
-   "Pet": 512,
-   "Brinquedos": 512,
-   "Bebês": 512
+   "Eletro": 513,
+   "Ferramentas": 513,
+   "Carro": 513,
+   "Pet": 513,
+   "Brinquedos": 513,
+   "Bebês": 513
   }
  },
  "_achados": {
@@ -4935,21 +4973,6 @@
    "cat": "Eletro",
    "ic": "🍳"
   },
-  "shp:22794176368": {
-   "n": "Kit de Umidificador Aromatizador com Essências Hidrossolúvel | Modelo...",
-   "t": "Kit de Umidificador Aromatizador com Essências Hidrossolúvel | Modelo EGG | Aromatizantes 20ml",
-   "g": "Eletro",
-   "loja": "Shopee",
-   "por": 27.79,
-   "nota": 4.8,
-   "vendas": 4420,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lt-mqtap867e1vnca",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3g5DvQnyTX",
-   "visto": "2026-11-13T16:27+00:00",
-   "cat": "Eletro",
-   "ic": "🍳"
-  },
   "ali:1005011781167889": {
    "n": "Braçadeira Refletiva de Alta Visibilidade Salzmann – Braçadeira de...",
    "t": "Braçadeira Refletiva de Alta Visibilidade Salzmann – Braçadeira de Segurança para Corrida Noturna, Ciclismo, Caminhada - Feita com 3M Scotch",
@@ -5179,7 +5202,10 @@
    "link": "https://s.click.aliexpress.com/e/_c424vRcf",
    "visto": "2026-11-13T22:13+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007822533664": {
    "n": "Luxo 360 ° Anel de metal oculto giratório suporte para carro armadura...",
@@ -5194,7 +5220,10 @@
    "link": "https://s.click.aliexpress.com/e/_c30BdKQX",
    "visto": "2026-11-13T22:13+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010043941667": {
    "n": "Suporte para celular 2025 Suporte magnético forte para carro 720 °...",
@@ -5209,7 +5238,20 @@
    "link": "https://s.click.aliexpress.com/e/_c4ciTmrD",
    "visto": "2026-11-13T22:13+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 12.98,
+     "nota": 4.9,
+     "vendas": 785,
+     "t": "Suporte Magnético Veicular Carro Celular Imã Universal Metal Hmaston CJ50",
+     "link": "https://s.shopee.com.br/BVNvVuAlx",
+     "sim": true
+    }
+   ]
   },
   "ali:1005012523882762": {
    "n": "Suporte para telemóvel com proteção solar para carro, multifuncional...",
@@ -5224,7 +5266,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3tiVeKP",
    "visto": "2026-11-13T22:13+00:00",
    "cat": "Carro",
-   "ic": "🚗"
+   "ic": "🚗",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008500557803": {
    "n": "Carrinho de bebê pendurado net sacos acessórios carrinho portátil...",
@@ -5239,7 +5284,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3xMiQTh",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Bebês",
-   "ic": "🍼"
+   "ic": "🍼",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006861827217": {
    "n": "Bolsa organizadora para carrinho de bebé com trocador, bolsa de...",
@@ -5254,7 +5302,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4oSQj8n",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Bebês",
-   "ic": "🍼"
+   "ic": "🍼",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010179188895": {
    "n": "Ganchos universais para carrinho de bebê, organizador de suspensão...",
@@ -5269,7 +5320,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3VuDjlZ",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Bebês",
-   "ic": "🍼"
+   "ic": "🍼",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010128725576": {
    "n": "Organizador de coisas do bebê crianças berço saco de armazenamento...",
@@ -5299,7 +5353,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3MG0ckx",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010806688061": {
    "n": "Forerunner 570 gps relógio inteligente 3atm à prova dwaterproof água...",
@@ -5314,7 +5371,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3c6ncxh",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007805675162": {
    "n": "ECG + PPG Smart Wristband Rastreador de Fitness para Mulheres Homens...",
@@ -5329,7 +5389,10 @@
    "link": "https://s.click.aliexpress.com/e/_c32pR13z",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006405553471": {
    "n": "Versão Global Original Xiaomi Smart Band 10 Pro Smartband com Display...",
@@ -5344,7 +5407,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3uyUSTp",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Tech",
-   "ic": "💻"
+   "ic": "💻",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:19999048089": {
    "n": "Escova Secadora Mondial By Juliette 1300w Es-ju-03 Bivolt",
@@ -5377,7 +5443,10 @@
    "link": "https://s.shopee.com.br/LomcikXfJ",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22498653921": {
    "n": "Escova Secadora Agile Glossy Elgin 1300w Bilvolt",
@@ -5392,7 +5461,10 @@
    "link": "https://s.shopee.com.br/8AXdx7Gim6",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:26744903175": {
    "n": "Escova Secadora 110/220v Alisador Elétrica Escova de ar quente...",
@@ -5407,7 +5479,10 @@
    "link": "https://s.shopee.com.br/9fMRjsB0jV",
    "visto": "2026-11-14T02:31+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006966378226": {
    "n": "Baseus wm02 tws fone de ouvido sem fio bluetooth 5.3 fone de ouvido...",
@@ -5422,7 +5497,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3nxLrA3",
    "visto": "2026-11-14T09:28+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012519499260": {
    "n": "Lenovo LP3Pro, fones de ouvido sem fio TWS com Bluetooth 5.3, som...",
@@ -5437,7 +5515,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4bzdUN9",
    "visto": "2026-11-14T09:28+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010089241070": {
    "n": "Fone de Ouvido Bluetooth TWS Sem Fio com Controle por Toque e Longa...",
@@ -5452,7 +5533,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3LS2lEx",
    "visto": "2026-11-14T09:28+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007540004209": {
    "n": "Fones de ouvido invisíveis para dormir, bluetooth 5.3, tws, sem fio...",
@@ -5467,7 +5551,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3lGfeKR",
    "visto": "2026-11-14T09:28+00:00",
    "cat": "Áudio e TV",
-   "ic": "🎧"
+   "ic": "🎧",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010419107073": {
    "n": "Machenike g1 controlador de jogo sem fio com 1k taxa de pesquisa...",
@@ -5482,7 +5569,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3xXJKc3",
    "visto": "2026-11-14T09:28+00:00",
    "cat": "Games",
-   "ic": "🎮"
+   "ic": "🎮",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006251735487": {
    "n": "Controlador De Jogos Sem Fio Gamepad Machenike G5 Pro Elite Hall...",
@@ -6731,6 +6821,411 @@
    "visto": "2026-11-14T20:45+00:00",
    "cat": "Beleza",
    "ic": "💄"
+  },
+  "ali:1005012743062434": {
+   "n": "Console de Jogos Portátil R36 Ultra X Retro com Sistema Linux de...",
+   "t": "Console de Jogos Portátil R36 Ultra X Retro com Sistema Linux de Código Aberto, Tela de 4.5 Polegadas, Emulador Hall Effect e Controle Sem F",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 313.99,
+   "nota": 4.9,
+   "vendas": 977,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6c8bb1648cc64dd98a42ca82cbd5f562T.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c368MfAF",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "ali:1005008683257946": {
+   "n": "Miyoo mini plus portátil retro console de jogo portátil 3.5 \"ips hd...",
+   "t": "Miyoo mini plus portátil retro console de jogo portátil 3.5 \"ips hd tela mini + jogadores presente das crianças clássico emulador de jogos",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 400.99,
+   "nota": 4.9,
+   "vendas": 866,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S393339e62ce14277b9d881676aa5c912A.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4nj0WEJ",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "ali:1005012865839586": {
+   "n": "Novo Console de Videogame Retro R36 Ultra X com Tela IPS de 4,5...",
+   "t": "Novo Console de Videogame Retro R36 Ultra X com Tela IPS de 4,5 polegadas, Sistema Linux, 128GB Pré-Instalado, Player Portátil de Jogos",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 271.99,
+   "nota": 4.9,
+   "vendas": 835,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb5db6707ff1245799a3d3339c2d87bd8Z.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2RlK8v9",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "ali:1005009648984753": {
+   "n": "GAMINJA ANS13 Retro Console de videogame portátil mais de 15000 jogos...",
+   "t": "GAMINJA ANS13 Retro Console de videogame portátil mais de 15000 jogos Linux integrado com tela IPS de 4,0 polegadas Console de jogos portáti",
+   "g": "Games",
+   "loja": "AliExpress",
+   "por": 197.55,
+   "nota": 4.9,
+   "vendas": 803,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8a0f7b1f909a43b4a9f1afca01bb5573V.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2INixaT",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "ali:1005013148555051": {
+   "n": "Camiseta oversized feminina casual solta com mangas morcego, costas...",
+   "t": "Camiseta oversized feminina casual solta com mangas morcego, costas nuas com renda e transpasse, estilo folgado e fino.",
+   "g": "Moda",
+   "loja": "AliExpress",
+   "por": 43.99,
+   "nota": 4.9,
+   "vendas": 4039,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S810406f93f324f079d85a3a7ea82161eD.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2IOOuOJ",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "ali:1005012308456778": {
+   "n": "Camisetas femininas Y2K 100% algodão, camiseta casual de cor sólida...",
+   "t": "Camisetas femininas Y2K 100% algodão, camiseta casual de cor sólida, gola redonda, tops de verão para mulheres, moda oversized, roupas espor",
+   "g": "Moda",
+   "loja": "AliExpress",
+   "por": 40.11,
+   "nota": 4.9,
+   "vendas": 1085,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S0254006ae2ba452a92790e733fe312d0B.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c34x603p",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "ali:1005007010203957": {
+   "n": "Camiseta de camuflagem 3D masculina, decote em O, manga curta...",
+   "t": "Camiseta de camuflagem 3D masculina, decote em O, manga curta, extragrande, esporte ao ar livre, roupas casuais, moda de rua, verão",
+   "g": "Moda",
+   "loja": "AliExpress",
+   "por": 29.6,
+   "nota": 4.9,
+   "vendas": 865,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S281d3ea6008e4b9f97ce17b9b48e72cf8.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4dGq54f",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "ali:1005007128382810": {
+   "n": "9.9oz 280gsm alta qualidade oversized pesado camiseta para homem...",
+   "t": "9.9oz 280gsm alta qualidade oversized pesado camiseta para homem manga curta camiseta algodão cor sólida tendência lazer verde branco preto",
+   "g": "Moda",
+   "loja": "AliExpress",
+   "por": 80.05,
+   "nota": 4.9,
+   "vendas": 773,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfb002895952644ee81ff911608095ec6X.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3oMvWnt",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "ali:1005009960307460": {
+   "n": "Protetores de Joelho Profissionais de Silicone com Absorção de...",
+   "t": "Protetores de Joelho Profissionais de Silicone com Absorção de Impacto, Compressão, Respirabilidade e Ajuste para Corrida",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 15.42,
+   "nota": 4.9,
+   "vendas": 12067,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Safbab16595704c8a9f192745ad2e4e77A.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4k1JDij",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005013148447588": {
+   "n": "2 unidades de faixa de suporte para o tendão patelar do joelho, com...",
+   "t": "2 unidades de faixa de suporte para o tendão patelar do joelho, com compressão ajustável e absorção de impacto, ideal para jogar basquete.",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 18.32,
+   "nota": 4.9,
+   "vendas": 11953,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S3bb11d75ff9a48f0aa8e97a9c86266c0b.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3HsIlZv",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005012221720707": {
+   "n": "Joelheira de Compressão Elástica Respirável com Molas para Proteção...",
+   "t": "1 Peça Joelheira de Compressão Elástica Respirável com Molas para Proteção Esportiva em Academia, Basquete, Voleibol e Corrida",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 16.59,
+   "nota": 4.9,
+   "vendas": 9888,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S56d59aba8ff644738f9f9a750c395edap.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4tNuA2B",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005007010165726": {
+   "n": "compressão joelho suporte manga elástica respirável joelheiras cinta...",
+   "t": "1 pçs compressão joelho suporte manga elástica respirável joelheiras cinta molas ginásio esportes protetor basquete vôlei corrida",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 15.17,
+   "nota": 4.9,
+   "vendas": 5948,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Seb78b0ae915b45db9a865baa28e710e17.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3TwbGfh",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005006994704257": {
+   "n": "Sacos a Vácuo para Alimentos de 500cm/Rolos para Armazenamento Sous...",
+   "t": "Sacos a Vácuo para Alimentos de 500cm/Rolos para Armazenamento Sous Vide, Sacos para Seladora a Vácuo para Carnes, Frutas e Vegetais",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 20.81,
+   "nota": 4.9,
+   "vendas": 2027,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S62774fb538a94789b896b223379ad7bfm.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3uuzVkJ",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005010487281740": {
+   "n": "Saco de vácuo portátil preto para uso externo com fecho de cordão...",
+   "t": "Saco de vácuo portátil preto para uso externo com fecho de cordão para armazenamento de soprador de folhas de grande capacidade, 1 unidade",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 16.47,
+   "nota": 4.9,
+   "vendas": 1738,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sde484585d80844cf8d5ee7cc9e8ea5b9x.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3UbgFrN",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007170985608": {
+   "n": "5 sacos de armazenamento a vácuo dos pces ou 1 bomba dos pces, sacos...",
+   "t": "5 sacos de armazenamento a vácuo dos pces ou 1 bomba dos pces, sacos selados do vácuo sacos que economizam espaço para edredons roupas trave",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 17.07,
+   "nota": 4.9,
+   "vendas": 1638,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sf1e42c1f009e4078b6c91fc405baba2ao.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3Z9WYgF",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005006966100985": {
+   "n": "100 Sacos para Vácuo para Alimentos, Selagem de Refeições, Grau...",
+   "t": "100 Sacos para Vácuo para Alimentos, Selagem de Refeições, Grau Alimentício, Alta Resistência, Ótimos para Armazenamento a Vácuo, Preparação",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 27.82,
+   "nota": 4.9,
+   "vendas": 1408,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S32ba97c637fb48f09f1a26372f38ee376.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4Biefth",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:58269536478": {
+   "n": "Mixer Elétrico Misturador De Bebidas Portátil Recarregável 2 Em 1",
+   "t": "Mixer Elétrico Misturador De Bebidas Portátil Recarregável 2 Em 1",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 15.0,
+   "nota": 4.9,
+   "vendas": 7538,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820li-mtsc5kw22gw3bc",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8AXfSC4BwK",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:23394679378": {
+   "n": "Multiprocessador 2 ou 3 Litros Picador Triturador 110V e 220V De...",
+   "t": "Multiprocessador 2 ou 3 Litros Picador Triturador 110V e 220V De Alimentos Carne Mixer Elétrica Processador Cozinha",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 64.94,
+   "nota": 4.9,
+   "vendas": 5010,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820me-mui9cp2hg4jk78",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7VHyey6jIG",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:58250219337": {
+   "n": "Caneca Misturadora Automática Elétrica USB Bateria Recarregável Mixer...",
+   "t": "Caneca Misturadora Automática Elétrica USB Bateria Recarregável Mixer Café 380ml",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 33.88,
+   "nota": 4.9,
+   "vendas": 3289,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81zts-mktlcixqn18h4e",
+   "od": 0,
+   "link": "https://s.shopee.com.br/7pup3a5ScM",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:22094896315": {
+   "n": "Mini Mixer Portátil Misturador de Bebidas Batedor Espumador Leite USB...",
+   "t": "Mini Mixer Portátil Misturador de Bebidas Batedor Espumador Leite USB Recarregável Cozinha Cafe Ovo",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 19.99,
+   "nota": 4.9,
+   "vendas": 3175,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81ztu-mkzg3wh5bk7683",
+   "od": 0,
+   "link": "https://s.shopee.com.br/6firfR9tzB",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:23394254550": {
+   "n": "Batedor Misturador Mixer Elétrico para Bebidas Leite Café Clara de...",
+   "t": "Batedor Misturador Mixer Elétrico para Bebidas Leite Café Clara de Ovo 2 em 1 - AnJin",
+   "g": "Eletro",
+   "loja": "Shopee",
+   "por": 19.9,
+   "nota": 4.9,
+   "vendas": 2715,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdyg-mcm8hedpp1se5a",
+   "od": 0,
+   "link": "https://s.shopee.com.br/50adgNGFN4",
+   "visto": "2026-11-15T01:06+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "shp:21997786584": {
+   "n": "Mamadeira Infantil 330ml Anticólica Buba +4m Bpa Free",
+   "t": "Mamadeira Infantil 330ml Anticólica Buba +4m Bpa Free",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 32.9,
+   "nota": 5.0,
+   "vendas": 1610,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lw-mmhkg0jf1zb806",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4fxnHlhQtJ",
+   "visto": "2026-11-15T01:06+00:00",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:20698184066": {
+   "n": "MAMADEIRA EASY FLOW ANTICÓLICA +0 MESES 120ML - BUBA",
+   "t": "MAMADEIRA EASY FLOW ANTICÓLICA +0 MESES 120ML - BUBA",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 29.9,
+   "nota": 5.0,
+   "vendas": 1063,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rfht-m9ukdey3pmsp8a",
+   "od": 0,
+   "link": "https://s.shopee.com.br/30pZIhnmH5",
+   "visto": "2026-11-15T01:06+00:00",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:44809741628": {
+   "n": "Mamadeira Buba Anticólica Easy Flow 330ml",
+   "t": "Mamadeira Buba Anticólica Easy Flow 330ml",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 33.85,
+   "nota": 5.0,
+   "vendas": 936,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820mb-mnndva541amacf",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2BGSJAqwy4",
+   "visto": "2026-11-15T01:06+00:00",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:58255839666": {
+   "n": "Mordedor com Água Buba Mamadeira Resfriável Rosa",
+   "t": "Mordedor com Água Buba Mamadeira Resfriável Rosa",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 15.79,
+   "nota": 5.0,
+   "vendas": 876,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-82610-ml5gyvghvthr8a",
+   "od": 0,
+   "link": "https://s.shopee.com.br/20x26rraJ3",
+   "visto": "2026-11-15T01:06+00:00",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
+  },
+  "shp:23194642334": {
+   "n": "Kit de Mamadeira Primeiros Passos 50/150/240ml Rosa - Lillo",
+   "t": "Kit de Mamadeira Primeiros Passos 50/150/240ml Rosa - Lillo",
+   "g": "Bebês",
+   "loja": "Shopee",
+   "por": 49.9,
+   "nota": 5.0,
+   "vendas": 859,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8258r-mge6q7j97e31fb",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2gCiu5p2wz",
+   "visto": "2026-11-15T01:06+00:00",
+   "cmp_em": "2026-11-15T01:06+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Bebês",
+   "ic": "🍼"
   }
  },
  "teclado-mecanico": {
@@ -6777,6 +7272,7 @@
   "2026-11-10": 96.11,
   "2026-11-11": 95.6,
   "2026-11-12": 96.11,
-  "2026-11-13": 96.9
+  "2026-11-13": 96.9,
+  "2026-11-15": 96.9
  }
 }
