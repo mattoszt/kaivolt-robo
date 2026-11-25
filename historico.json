@@ -123,7 +123,7 @@
   "2026-11-22": 17.42,
   "2026-11-23": 17.51,
   "2026-11-24": 17.16,
-  "2026-11-25": 17.16
+  "2026-11-25": 17.23
  },
  "cabo-usbc-100w": {
   "2026-09-26": 11.89,
@@ -186,7 +186,7 @@
   "2026-11-22": 10.44,
   "2026-11-23": 11.89,
   "2026-11-24": 11.69,
-  "2026-11-25": 10.01
+  "2026-11-25": 15.59
  },
  "fone-tws-anc": {
   "2026-09-26": 71.49,
@@ -249,7 +249,7 @@
   "2026-11-22": 80.49,
   "2026-11-23": 67.99,
   "2026-11-24": 79.99,
-  "2026-11-25": 80.39
+  "2026-11-25": 67.99
  },
  "mouse-gamer-rgb": {
   "2026-09-26": 25.99,
@@ -312,7 +312,7 @@
   "2026-11-22": 28.39,
   "2026-11-23": 28.69,
   "2026-11-24": 28.19,
-  "2026-11-25": 28.19
+  "2026-11-25": 28.3
  },
  "powerbank-20000": {
   "2026-09-26": 46.79,
@@ -438,7 +438,7 @@
   "2026-11-22": 77.94,
   "2026-11-23": 77.94,
   "2026-11-24": 79.94,
-  "2026-11-25": 77.94
+  "2026-11-25": 81.91
  },
  "carregador-gan-65w": {
   "2026-09-26": 41.29,
@@ -564,7 +564,7 @@
   "2026-11-22": 10.36,
   "2026-11-23": 10.47,
   "2026-11-24": 10.29,
-  "2026-11-25": 10.35
+  "2026-11-25": 10.38
  },
  "headset-gamer": {
   "2026-09-26": 104.39,
@@ -627,7 +627,7 @@
   "2026-11-22": 116.59,
   "2026-11-23": 42.99,
   "2026-11-24": 42.99,
-  "2026-11-25": 116.99
+  "2026-11-25": 117.59
  },
  "hub-usbc": {
   "2026-09-26": 31.44,
@@ -766,7 +766,7 @@
   "2026-11-22": 31.24,
   "2026-11-23": 42.19,
   "2026-11-24": 31.24,
-  "2026-11-25": 31.24
+  "2026-11-25": 41.8
  },
  "caneta-stylus": {
   "2026-09-26": 31.69,
@@ -892,7 +892,7 @@
   "2026-11-22": 15.06,
   "2026-11-23": 15.23,
   "2026-11-24": 15.26,
-  "2026-11-25": 15.05
+  "2026-11-25": 15.1
  },
  "teclado-tablet": {
   "2026-09-26": 41.59,
@@ -955,7 +955,7 @@
   "2026-11-22": 49.9,
   "2026-11-23": 41.99,
   "2026-11-24": 41.99,
-  "2026-11-25": 49.9
+  "2026-11-25": 41.99
  },
  "fone-tws": {
   "2026-09-26": 29.19,
@@ -1144,7 +1144,7 @@
   "2026-11-22": 127.5,
   "2026-11-23": 127.59,
   "2026-11-24": 124.59,
-  "2026-11-25": 125.59
+  "2026-11-25": 125.99
  },
  "cabo-lightning": {
   "2026-09-26": 8.21,
@@ -1207,7 +1207,7 @@
   "2026-11-22": 10.99,
   "2026-11-23": 9.5,
   "2026-11-24": 10.85,
-  "2026-11-25": 9.5
+  "2026-11-25": 11.0
  },
  "mouse-sem-fio": {
   "2026-09-26": 17.89,
@@ -1270,7 +1270,7 @@
   "2026-11-22": 17.12,
   "2026-11-23": 17.3,
   "2026-11-24": 17.0,
-  "2026-11-25": 19.47
+  "2026-11-25": 21.7
  },
  "_anuncios": {
   "powerbank-10000|AliExpress|1005012621183397": {
@@ -1698,7 +1698,7 @@
    "2026-11-22": 23.0,
    "2026-11-23": 23.0,
    "2026-11-24": 23.0,
-   "2026-11-25": 19.55
+   "2026-11-25": 23.0
   },
   "suporte-veicular|AliExpress|1005010487386351": {
    "2026-09-27": 11.24,
@@ -1795,7 +1795,7 @@
    "2026-11-22": 29.49,
    "2026-11-23": 28.69,
    "2026-11-24": 28.69,
-   "2026-11-25": 28.19
+   "2026-11-25": 28.3
   },
   "mouse-gamer-rgb|Mercado Livre|MLB1813858157": {
    "2026-10-22": 104.54,
@@ -1939,7 +1939,7 @@
    "2026-11-22": 119.99,
    "2026-11-23": 118.59,
    "2026-11-24": 118.59,
-   "2026-11-25": 116.99
+   "2026-11-25": 117.59
   },
   "hub-usbc|AliExpress|1005007038224873": {
    "2026-09-27": 44.51,
@@ -2213,7 +2213,7 @@
    "2026-11-22": 82.69,
    "2026-11-23": 81.39,
    "2026-11-24": 81.39,
-   "2026-11-25": 80.39
+   "2026-11-25": 80.69
   },
   "fone-tws-anc|Mercado Livre|MLB5410636044": {
    "2026-10-22": 196.5,
@@ -2342,7 +2342,7 @@
    "2026-11-13": 120.99,
    "2026-11-23": 127.59,
    "2026-11-24": 127.59,
-   "2026-11-25": 125.59
+   "2026-11-25": 125.99
   },
   "headphone-bt|Mercado Livre|MLB6891189052": {
    "2026-10-22": 146.27,
@@ -2428,7 +2428,7 @@
    "2026-11-22": 10.69,
    "2026-11-23": 10.47,
    "2026-11-24": 10.47,
-   "2026-11-25": 10.35
+   "2026-11-25": 10.38
   },
   "headset-gamer|AliExpress|1005004992958876": {
    "2026-09-27": 116.48
@@ -2516,7 +2516,7 @@
    "2026-11-16": 22.71,
    "2026-11-17": 23.16,
    "2026-11-20": 21.47,
-   "2026-11-25": 21.69
+   "2026-11-25": 21.7
   },
   "teclado-tablet|AliExpress|1005005820727589": {
    "2026-09-27": 44.08
@@ -2554,7 +2554,7 @@
    "2026-11-22": 11.15,
    "2026-11-23": 11.04,
    "2026-11-24": 11.04,
-   "2026-11-25": 10.97
+   "2026-11-25": 11.0
   },
   "caneta-stylus|AliExpress|1005012049621672": {
    "2026-09-27": 20.79,
@@ -2673,7 +2673,7 @@
    "2026-11-13": 53.85,
    "2026-11-16": 54.36,
    "2026-11-24": 66.19,
-   "2026-11-25": 66.59
+   "2026-11-25": 66.81
   },
   "suporte-tablet|AliExpress|1005012479790240": {
    "2026-09-27": 17.43,
@@ -3650,7 +3650,7 @@
    "2026-11-22": 42.89,
    "2026-11-23": 42.19,
    "2026-11-24": 42.19,
-   "2026-11-25": 41.69
+   "2026-11-25": 41.8
   },
   "powerbank-magsafe|Shopee|22493919031": {
    "2026-10-05": 57.9,
@@ -4230,7 +4230,8 @@
    "2026-10-27": 13.79,
    "2026-10-28": 14.79,
    "2026-10-30": 15.08,
-   "2026-10-31": 15.08
+   "2026-10-31": 15.08,
+   "2026-11-25": 15.59
   },
   "suporte-tablet|AliExpress|1005010561933042": {
    "2026-10-26": 15.4
@@ -4371,7 +4372,7 @@
    "2026-11-22": 17.42,
    "2026-11-23": 17.51,
    "2026-11-24": 17.51,
-   "2026-11-25": 17.16
+   "2026-11-25": 17.23
   },
   "webcam-fullhd|AliExpress|1005006782749985": {
    "2026-10-29": 47.89,
@@ -4437,7 +4438,7 @@
    "2026-11-22": 15.47,
    "2026-11-23": 15.23,
    "2026-11-24": 15.23,
-   "2026-11-25": 15.05
+   "2026-11-25": 15.1
   },
   "mouse-sem-fio|AliExpress|1005010123919861": {
    "2026-11-01": 19.11,
@@ -4499,7 +4500,7 @@
    "2026-11-18": 124.95,
    "2026-11-23": 134.44,
    "2026-11-24": 134.44,
-   "2026-11-25": 132.19
+   "2026-11-25": 132.68
   },
   "teclado-tablet|AliExpress|1005012115918227": {
    "2026-11-02": 57.59,
@@ -4623,7 +4624,7 @@
    "2026-11-22": 103.89,
    "2026-11-23": 101.99,
    "2026-11-24": 101.99,
-   "2026-11-25": 101.6
+   "2026-11-25": 101.99
   },
   "fone-tws|Shopee|40331456554": {
    "2026-11-10": 20.63
@@ -4724,7 +4725,7 @@
    "2026-11-18": 34.2,
    "2026-11-19": 34.2,
    "2026-11-24": 38.39,
-   "2026-11-25": 37.69
+   "2026-11-25": 37.99
   },
   "powerbank-20000|Shopee|22993527703": {
    "2026-11-17": 45.99
@@ -4804,15 +4805,19 @@
    "2026-11-22": 59.68,
    "2026-11-23": 60.33,
    "2026-11-24": 60.83,
-   "2026-11-25": 59.88
+   "2026-11-25": 60.11
   },
   "fone-tws|Shopee|23798855636": {
    "2026-11-23": 22.22,
-   "2026-11-24": 22.22
+   "2026-11-24": 22.22,
+   "2026-11-25": 21.99
+  },
+  "teclado-tablet|Shopee|23792788692": {
+   "2026-11-25": 41.99
   }
  },
  "_meta": {
-  "ultimo_total": 21
+  "ultimo_total": 20
  },
  "_divulgacao": {
   "postados": {
@@ -4875,14 +4880,14 @@
   }
  },
  "_achados_meta": {
-  "n": 2397,
-  "ali_n": 4933,
+  "n": 2398,
+  "ali_n": 4938,
   "ali_q": {
-   "Beleza": 333,
-   "Esportes": 333,
-   "Casa": 333,
-   "Eletro": 333,
-   "Ferramentas": 333,
+   "Beleza": 334,
+   "Esportes": 334,
+   "Casa": 334,
+   "Eletro": 334,
+   "Ferramentas": 334,
    "Carro": 333,
    "Pet": 333,
    "Brinquedos": 333,
@@ -4893,16 +4898,16 @@
    "Games": 333,
    "Moda": 333
   },
-  "shopee_n": 7448,
+  "shopee_n": 7456,
   "shopee_q": {
-   "Celular": 532,
-   "Tech": 532,
-   "Áudio e TV": 532,
-   "Games": 532,
-   "Moda": 532,
-   "Beleza": 532,
-   "Esportes": 532,
-   "Casa": 532,
+   "Celular": 533,
+   "Tech": 533,
+   "Áudio e TV": 533,
+   "Games": 533,
+   "Moda": 533,
+   "Beleza": 533,
+   "Esportes": 533,
+   "Casa": 533,
    "Eletro": 532,
    "Ferramentas": 532,
    "Carro": 532,
@@ -4926,78 +4931,6 @@
    "visto": "2026-11-25T02:50+00:00",
    "cat": "Brinquedos",
    "ic": "🧸",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005005614172754": {
-   "n": "Livros macios para bebês, sensação de toque 3d, livro de pano de alto...",
-   "t": "Livros macios para bebês, sensação de toque 3d, livro de pano de alto contraste, brinquedos sensoriais para aprendizagem precoce, presentes ",
-   "g": "Bebês",
-   "loja": "AliExpress",
-   "por": 22.7,
-   "nota": 4.9,
-   "vendas": 3865,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S4ee1ecb3cd394b91b923ba14866f7918z.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3wejqhf",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Bebês",
-   "ic": "🍼",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005006995913121": {
-   "n": "Brinquedos para bebês Roly Poly de 6 a 12 meses, brinquedos Wobbler...",
-   "t": "Brinquedos para bebês Roly Poly de 6 a 12 meses, brinquedos Wobbler para meninos e meninas – perfeitos para aprender a escalar e educação pr",
-   "g": "Bebês",
-   "loja": "AliExpress",
-   "por": 21.79,
-   "nota": 4.9,
-   "vendas": 3855,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Se0d634da605442fbbfabe46bdf35872fq.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2wqoR2H",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Bebês",
-   "ic": "🍼",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005007701258608": {
-   "n": "Chocalhos macios para bebês com bola de sino, brinquedo sensorial...",
-   "t": "Chocalhos macios para bebês com bola de sino, brinquedo sensorial educacional para educação precoce, cor aleatória)",
-   "g": "Bebês",
-   "loja": "AliExpress",
-   "por": 23.0,
-   "nota": 4.9,
-   "vendas": 3716,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sfd0d92daf8024a2fa764315370a5d649A.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4sXhwfx",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Bebês",
-   "ic": "🍼",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005012177104309": {
-   "n": "chocalho do bebê brinquedos bonito animais de pelúcia chocalho de...",
-   "t": "4 pçs chocalho do bebê brinquedos bonito animais de pelúcia chocalho de pulso pé localizador meias 0 ~ 24 meses para infantil menino menina ",
-   "g": "Bebês",
-   "loja": "AliExpress",
-   "por": 23.41,
-   "nota": 4.9,
-   "vendas": 3665,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd658651b42114120bbd53a748f216557d.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3V2nUYV",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Bebês",
-   "ic": "🍼",
    "cmp_em": "2026-11-25T12:59+00:00",
    "cmp_v": 7,
    "cmp": []
@@ -5030,52 +4963,6 @@
    "cat": "Áudio e TV",
    "ic": "🎧"
   },
-  "ali:1005012374546248": {
-   "n": "Fones de ouvido sem fio Bluetooth QCY HT05 Melobuds ANC BH21HT05A...",
-   "t": "Fones de ouvido sem fio Bluetooth QCY HT05 Melobuds ANC BH21HT05A 40dB 6 microfones Chamadas aprimoradas por IA Anti-ruído de vento Transpar",
-   "g": "Áudio e TV",
-   "loja": "AliExpress",
-   "por": 130.59,
-   "nota": 5.0,
-   "vendas": 524,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Scb5b9ac8baaa45589b22a90a745c5ef8C.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c4rUjIuz",
-   "visto": "2026-11-24T06:28+00:00",
-   "cmp_em": "2026-11-24T06:28+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "Shopee",
-     "por": 118.99,
-     "nota": 4.9,
-     "vendas": 221,
-     "t": "QCY MeloBuds N20 Fones De Ouvido Sem Fio Híbridos Com Cancelamento De Ruído",
-     "link": "https://s.shopee.com.br/114jdCkg3P",
-     "sim": true
-    }
-   ],
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "ali:1005009084986255": {
-   "n": "QCY Crossky C50 CT06 Fones de ouvido sem fio abertos Bluetooth 6.0...",
-   "t": "QCY Crossky C50 CT06 Fones de ouvido sem fio abertos Bluetooth 6.0 Ultra-confortáveis ​​com clipe para chamadas IA, reforço de graves, contr",
-   "g": "Áudio e TV",
-   "loja": "AliExpress",
-   "por": 203.48,
-   "nota": 4.9,
-   "vendas": 9396,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa5e749e7776c45c4a35e6ef43dc6cec0e.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c2yUQVwz",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
   "ali:1005010285535355": {
    "n": "Qcy t13 anc fone de ouvido bluetooth 5.3 cancelamento de ruído ativo...",
    "t": "Qcy t13 anc fone de ouvido bluetooth 5.3 cancelamento de ruído ativo sem fio fone de ouvido 4 microfones enc tws fones 0.068s baixa latência",
@@ -5093,211 +4980,6 @@
    "cmp": [],
    "cat": "Áudio e TV",
    "ic": "🎧"
-  },
-  "ali:1005009582335677": {
-   "n": "Capas Transparentes para Joysticks do Nintendo Switch 2, Protetores...",
-   "t": "Capas Transparentes para Joysticks do Nintendo Switch 2, Protetores de Joysticks Analógicos para Controle, Acessórios para PS4/PS5/XBOX One",
-   "g": "Games",
-   "loja": "AliExpress",
-   "por": 15.24,
-   "nota": 4.9,
-   "vendas": 905,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S239f0535e84d4e74a82ec134b9830163c.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3VSKtN3",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Games",
-   "ic": "🎮",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "ali:1005011587290429": {
-   "n": "Capas de Borracha para Controles PS4 PS5 FPS, Grips de Alta...",
-   "t": "Capas de Borracha para Controles PS4 PS5 FPS, Grips de Alta Sensibilidade para Analógicos Xbox One/Xbox Series S/X",
-   "g": "Games",
-   "loja": "AliExpress",
-   "por": 17.49,
-   "nota": 4.9,
-   "vendas": 781,
-   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sa3b22c87f3d5495bb01736749b0012cbo.jpg",
-   "od": 0,
-   "link": "https://s.click.aliexpress.com/e/_c3K50vWd",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Games",
-   "ic": "🎮",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:41623046187": {
-   "n": "Feltro PADRÃO MONTADORA Automotivo Protetor Assoalho Térmica E...",
-   "t": "Feltro PADRÃO MONTADORA Automotivo Protetor Assoalho Térmica E Acústica Grosso Firme Anti Ruído 1cm",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 38.9,
-   "nota": 4.9,
-   "vendas": 486,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-824ik-mfiww0ry8vm1de",
-   "od": 0,
-   "link": "https://s.shopee.com.br/4fy1zv7Cnq",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58210821544": {
-   "n": "Tapete Papel Automotivo Descartável Lava Rápido 110 a 550 Folhas",
-   "t": "Tapete Papel Automotivo Descartável Lava Rápido 110 a 550 Folhas",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 22.9,
-   "nota": 4.9,
-   "vendas": 333,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8257y-mqljl1qb1lvy69",
-   "od": 0,
-   "link": "https://s.shopee.com.br/6L6Fyz0rQH",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23497137733": {
-   "n": "Tapete Automotivo Metálico Tipo Alumínio 4 Peças - Tuning",
-   "t": "Tapete Automotivo Metálico Tipo Alumínio 4 Peças - Tuning",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 59.99,
-   "nota": 4.9,
-   "vendas": 263,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lnvwdmeqmld559",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5VX8zS427C",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23098735920": {
-   "n": "Tapete Automotivo Metálico Tipo Alumínio 4 Peças - Tuning",
-   "t": "Tapete Automotivo Metálico Tipo Alumínio 4 Peças - Tuning",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 59.99,
-   "nota": 4.9,
-   "vendas": 241,
-   "img": "https://cf.shopee.com.br/file/br-11134275-7r98o-mbvuh0c8cq554e",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5LDin94fSB",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Carro",
-   "ic": "🚗",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58207360906": {
-   "n": "Tapete Automotivo Grosso Resistente Universal Carro Veículos Borracha...",
-   "t": "Tapete Automotivo Grosso Resistente Universal Carro Veículos Borracha Macia Premium 4pçs 5pçs",
-   "g": "Carro",
-   "loja": "Shopee",
-   "por": 29.1,
-   "nota": 4.8,
-   "vendas": 531,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820m1-mm3e5vndqkn40b",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3B9EDACuqT",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Carro",
-   "ic": "🚗"
-  },
-  "shp:43081626652": {
-   "n": "Túnel Colorido Gato Interativo Cachorro Labirinto Dobrável Pet...",
-   "t": "Túnel Colorido Gato Interativo Cachorro Labirinto Dobrável Pet Playground Toca Brinquedos Gatos",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 24.99,
-   "nota": 5.0,
-   "vendas": 964,
-   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-mpc2uzkz7r404e",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1qdqciLuUP",
-   "visto": "2026-11-24T06:28+00:00",
-   "cmp_em": "2026-11-24T06:28+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Pet",
-   "ic": "🐾"
-  },
-  "shp:23693858343": {
-   "n": "Kit 10/6 Brinquedos Mordedores Cachorro Filhote Anti-stress Pet...",
-   "t": "Kit 10/6 Brinquedos Mordedores Cachorro Filhote Anti-stress Pet Ranger os dentes Limpeza da boca",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 26.99,
-   "nota": 4.9,
-   "vendas": 1293,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m7vv7n19x28k12",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3B9EDAGpmX",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:54500982919": {
-   "n": "Brinquedo Interativo Osso Mordedor Cachorro Sabor Bacon Maciço E...",
-   "t": "Brinquedo Interativo Osso Mordedor Cachorro Sabor Bacon Maciço E Resistente De Fibra De Trigo",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 18.95,
-   "nota": 4.9,
-   "vendas": 1002,
-   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-mgyxams361hl95",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1gKQQPMXpM",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:58262155332": {
-   "n": "Brinquedo para Cachorro com Som, Resistente à Mordida, para Roer e...",
-   "t": "Brinquedo para Cachorro com Som, Resistente à Mordida, para Roer e Limpar os Dentes, Alivia o Tédio",
-   "g": "Pet",
-   "loja": "Shopee",
-   "por": 25.99,
-   "nota": 4.9,
-   "vendas": 982,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lz-mq1l71ekkl4x19",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1Lha1nNoVK",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Pet",
-   "ic": "🐾",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "AliExpress",
-     "por": 18.34,
-     "nota": 4.8,
-     "vendas": 250,
-     "t": "Brinquedos de Pelúcia de Cachorro Fofo, Brinquedo de Pato com Som para Filhotes, Brinquedo",
-     "link": "https://s.click.aliexpress.com/e/_c2QGdzSh",
-     "sim": true
-    }
-   ]
   },
   "shp:13597635583": {
    "n": "Kit 12 Bolinhas Com Cravos Para Cachorro Pet Fisiotarapia",
@@ -5317,446 +4999,6 @@
    "cat": "Pet",
    "ic": "🐾"
   },
-  "shp:20697090758": {
-   "n": "Mascara Homem Aranha + Luva Homem Aranha Lança Teia Spider Man...",
-   "t": "Mascara Homem Aranha + Luva Homem Aranha Lança Teia Spider Man Brinquedo Presente",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 39.99,
-   "nota": 4.9,
-   "vendas": 1131,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lvoz0pjo8p4cee",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5AuIaqIMbF",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23592641999": {
-   "n": "Luva Lança Teia + Máscara Homem Aranha Infantil Brinquedo Spider Man...",
-   "t": "Luva Lança Teia + Máscara Homem Aranha Infantil Brinquedo Spider Man Herói Lançador",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 44.9,
-   "nota": 4.9,
-   "vendas": 465,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-lvorqr8kh1wma4",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1gKQQPVghk",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:18199524516": {
-   "n": "Lançador de Avião Catapulta Brinquedo Planador Pistola Infantil Tiro...",
-   "t": "Lançador de Avião Catapulta Brinquedo Planador Pistola Infantil Tiro ao Alvo",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 26.9,
-   "nota": 4.9,
-   "vendas": 343,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lp-mmannbpgn6dgda",
-   "od": 0,
-   "link": "https://s.shopee.com.br/2La7DdT9Lw",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:23799446633": {
-   "n": "Pistola Arminha de Dardos Estilo Nerf com Ventosa 6 Dardos Espuma...",
-   "t": "Pistola Arminha de Dardos Estilo Nerf com Ventosa 6 Dardos Espuma Bracelete Longo Alcance Brinquedo",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 28.9,
-   "nota": 4.9,
-   "vendas": 280,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lx-mnvik8kz9edcf2",
-   "od": 0,
-   "link": "https://s.shopee.com.br/80ETy37Zr8",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:48003827717": {
-   "n": "Brinquedo Lançador M16 Com Luneta Silenciador e Dardos Nerf",
-   "t": "Brinquedo Lançador M16 Com Luneta Silenciador e Dardos Nerf",
-   "g": "Brinquedos",
-   "loja": "Shopee",
-   "por": 69.99,
-   "nota": 4.9,
-   "vendas": 266,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81ztc-miqy91d2za4j32",
-   "od": 0,
-   "link": "https://s.shopee.com.br/20xGp1UQ1u",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Brinquedos",
-   "ic": "🧸",
-   "cmp_em": "2026-11-25T12:59+00:00",
-   "cmp_v": 7,
-   "cmp": []
-  },
-  "shp:22794290459": {
-   "n": "Baba Eletrônica Com Monitor Visão Noturna, Câmera c/ Audio Sensor de...",
-   "t": "Baba Eletrônica Com Monitor Visão Noturna, Câmera c/ Audio Sensor de Temperatura",
-   "g": "Bebês",
-   "loja": "Shopee",
-   "por": 218.5,
-   "nota": 5.0,
-   "vendas": 1301,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdxm-md30alt3yse4b7",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1CCRLtljm",
-   "visto": "2026-11-24T06:28+00:00",
-   "cmp_em": "2026-11-24T06:28+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "shp:23094197445": {
-   "n": "Baba Eletrônica VB603 Com Monitor Visão Noturna, Câmera c/ Audio...",
-   "t": "Baba Eletrônica VB603 Com Monitor Visão Noturna, Câmera c/ Audio Sensor de Temperatura",
-   "g": "Bebês",
-   "loja": "Shopee",
-   "por": 235.0,
-   "nota": 5.0,
-   "vendas": 423,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-mbr08cn2efmvd6",
-   "od": 0,
-   "link": "https://s.shopee.com.br/2gCxcFjcKY",
-   "visto": "2026-11-24T06:28+00:00",
-   "cmp_em": "2026-11-24T06:28+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "AliExpress",
-     "por": 293.72,
-     "nota": 4.8,
-     "vendas": 1521,
-     "t": "Monitor de bebê com vídeo VB603 2.4G sem fio com LCD de 3,2 polegadas Áudio bidirecional C",
-     "link": "https://s.click.aliexpress.com/e/_c2z8eW6v",
-     "sim": false
-    }
-   ],
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "shp:23093500440": {
-   "n": "Baba Eletrônica VB603 Com Monitor Visão Noturna, Câmera c/ Audio...",
-   "t": "Baba Eletrônica VB603 Com Monitor Visão Noturna, Câmera c/ Audio Sensor de Temperatura",
-   "g": "Bebês",
-   "loja": "Shopee",
-   "por": 255.99,
-   "nota": 5.0,
-   "vendas": 293,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m1ygfiqod6xr10",
-   "od": 0,
-   "link": "https://s.shopee.com.br/3Vm4bmgRdn",
-   "visto": "2026-11-24T06:28+00:00",
-   "cmp_em": "2026-11-24T06:28+00:00",
-   "cmp_v": 7,
-   "cmp": [
-    {
-     "loja": "AliExpress",
-     "por": 293.72,
-     "nota": 4.8,
-     "vendas": 1521,
-     "t": "Monitor de bebê com vídeo VB603 2.4G sem fio com LCD de 3,2 polegadas Áudio bidirecional C",
-     "link": "https://s.click.aliexpress.com/e/_c36B3oKD",
-     "sim": false
-    }
-   ],
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "shp:20297809121": {
-   "n": "Babá Eletrônica com Monitor Visão Noturna Áudio Bidirecional Sensor...",
-   "t": "Babá Eletrônica com Monitor Visão Noturna Áudio Bidirecional Sensor de Temperatura Monitor Infantil Digital",
-   "g": "Bebês",
-   "loja": "Shopee",
-   "por": 235.99,
-   "nota": 4.9,
-   "vendas": 2614,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdy3-lzz9htfiwbq2dc",
-   "od": 0,
-   "link": "https://s.shopee.com.br/20xGp1m9g6",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "shp:16612537971": {
-   "n": "Câmera wi-fi Sem Fio HD 360 Babá Eletrônica Segurança ptz com...",
-   "t": "Câmera wi-fi Sem Fio HD 360 Babá Eletrônica Segurança ptz com microfone e áudio conecta celular - Bivolt",
-   "g": "Bebês",
-   "loja": "Shopee",
-   "por": 69.99,
-   "nota": 4.9,
-   "vendas": 1618,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf014qk9dxja96",
-   "od": 0,
-   "link": "https://s.shopee.com.br/Lp2pxsV3o",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Bebês",
-   "ic": "🍼"
-  },
-  "shp:23295071897": {
-   "n": "Carregador Turbo 20W Hrebos Fonte Tomada Dupla USB-C E USB Quick...",
-   "t": "Carregador Turbo 20W Hrebos Fonte Tomada Dupla USB-C E USB Quick Charge Celular e Tablet (Apenas Fonte Sem Cabo)",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 30.5,
-   "nota": 5.0,
-   "vendas": 242,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lm-mqow3inns0ea1a",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8KrKMfbFAx",
-   "visto": "2026-11-24T06:28+00:00",
-   "cmp_em": "2026-11-24T06:28+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:22992986746": {
-   "n": "Carregador Cabo e Fonte Turbo PD 20W Saída Tipo-C para Tipo C 1m...",
-   "t": "Carregador Cabo e Fonte Turbo PD 20W Saída Tipo-C para Tipo C 1m Kaidi KD-108C",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 29.8,
-   "nota": 4.9,
-   "vendas": 241,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81ztc-mk65mb2sgrnk13",
-   "od": 0,
-   "link": "https://s.shopee.com.br/AAIyY2UGSC",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:58264098022": {
-   "n": "Carregador Turbo 20W Kit Fonte Tipo C Dual USB + Cabo Tipo C Para...",
-   "t": "Carregador Turbo 20W Kit Fonte Tipo C Dual USB + Cabo Tipo C Para Tipo C Ultra Rápido Original PD A14 G22 A56  Xiaomi",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 31.9,
-   "nota": 4.9,
-   "vendas": 221,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820mc-mqjr7t4wgiyo28",
-   "od": 0,
-   "link": "https://s.shopee.com.br/6fj6NbhaYj",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:47151802200": {
-   "n": "Astgn X Basike Carregador Basike Ba-CAR046 20W Turbo – USB-C PD + USB...",
-   "t": "Astgn X Basike Carregador Basike Ba-CAR046 20W Turbo – USB-C PD + USB QC 3.0, Bivolt, Compacto",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 39.99,
-   "nota": 4.9,
-   "vendas": 217,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mha99nqiabrbcc",
-   "od": 0,
-   "link": "https://s.shopee.com.br/9AQRMCY4UA",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:58201429567": {
-   "n": "Carregador Portátil Bateria 10000Mah Turbo 20W Com Cabo IPHONE TIPO-C...",
-   "t": "Carregador Portátil Bateria 10000Mah Turbo 20W Com Cabo IPHONE TIPO-C Universal BTE-15A",
-   "g": "Celular",
-   "loja": "Shopee",
-   "por": 86.45,
-   "nota": 4.9,
-   "vendas": 200,
-   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mhted5c5diiq1a",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8VAkYyabpy",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Celular",
-   "ic": "📱"
-  },
-  "shp:58218716811": {
-   "n": "HUB 4 Portas Em 1 USB USB3.0 OTG Tipo C Adaptador Para Mouse Teclado...",
-   "t": "HUB 4 Portas Em 1 USB USB3.0 OTG Tipo C Adaptador Para Mouse Teclado Lenovo Macbook PC Laptop-itech",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 15.99,
-   "nota": 5.0,
-   "vendas": 465,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825a1-mtfckdfwdblv50",
-   "od": 0,
-   "link": "https://s.shopee.com.br/6fj6NbqO7t",
-   "visto": "2026-11-24T06:28+00:00",
-   "cmp_em": "2026-11-24T06:28+00:00",
-   "cmp_v": 7,
-   "cmp": [],
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:22899651314": {
-   "n": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF...",
-   "t": "Hub USB Type C 8 Em 1 Com Leitor De Cartão Divisor 3.0 2.0 SD TF Docking Station-Aprox",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 19.0,
-   "nota": 4.9,
-   "vendas": 980,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-825ae-mrjkfexzo6x49b",
-   "od": 0,
-   "link": "https://s.shopee.com.br/90719thVO3",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:58210686137": {
-   "n": "Usb Type-c 4 Portas Usb 3.0 5 Gbps MarisaStore",
-   "t": "Usb Type-c 4 Portas Usb 3.0 5 Gbps MarisaStore",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 65.99,
-   "nota": 4.9,
-   "vendas": 901,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-822ya-mo8j699nf1fpa8",
-   "od": 0,
-   "link": "https://s.shopee.com.br/9KjrYVgEi9",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:26079088285": {
-   "n": "Leitor De Cartão USB HUB Type C Para SD TF 3IN1",
-   "t": "Leitor De Cartão USB HUB Type C Para SD TF 3IN1",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 15.08,
-   "nota": 4.9,
-   "vendas": 767,
-   "img": "https://cf.shopee.com.br/file/sg-11134301-7rd6p-m6xurqwgwg4b7f",
-   "od": 0,
-   "link": "https://s.shopee.com.br/70LwmDp7Rz",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:40660401894": {
-   "n": "Tipo C HUB Porta USB 4 Em 1 Adaptador Multidivisor OTG De Alta...",
-   "t": "Tipo C HUB Porta USB 4 Em 1 Adaptador Multidivisor OTG De Alta Velocidade De 4 Portas Para Macbook Pro PC Laptop",
-   "g": "Tech",
-   "loja": "Shopee",
-   "por": 18.61,
-   "nota": 4.9,
-   "vendas": 765,
-   "img": "https://cf.shopee.com.br/file/sg-11134301-7ratu-mas0voog4o3n75",
-   "od": 0,
-   "link": "https://s.shopee.com.br/5VX8zSupUW",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Tech",
-   "ic": "💻"
-  },
-  "shp:58256624715": {
-   "n": "Rádio Portátil Bluetooth Painel Solar com lanterna BT TF USB Radio...",
-   "t": "Rádio Portátil Bluetooth Painel Solar com lanterna BT TF USB Radio Retro Caixa de Som Usb Sd Am Fm multimídia",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 109.99,
-   "nota": 4.9,
-   "vendas": 2733,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lt-muu0n0vx0wzk1e",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1gKNqi9y2t",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:58254729932": {
-   "n": "Caixinha Caixa De Som Bluetooth Portátil Speaker MP3 AL-006",
-   "t": "Caixinha Caixa De Som Bluetooth Portátil Speaker MP3 AL-006",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 29.96,
-   "nota": 4.9,
-   "vendas": 2663,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8260z-mkcuz65ruigy31",
-   "od": 0,
-   "link": "https://s.shopee.com.br/1qdo319Khu",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:58254952015": {
-   "n": "Caixa De Som C/ 2 Microfones Bluetooth 5.0 Karaokê Luzes led...",
-   "t": "Caixa De Som C/ 2 Microfones Bluetooth 5.0 Karaokê Luzes led, Entretenimento em Casa",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 28.98,
-   "nota": 4.9,
-   "vendas": 2645,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8261m-mkj091yi7w1yb2",
-   "od": 0,
-   "link": "https://s.shopee.com.br/2VtUqF6nM6",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:19199870733": {
-   "n": "INOVA Caixa De Som Bluetooth Tws Estéreo Alta Hifi Longa Duração IPX6...",
-   "t": "INOVA Caixa De Som Bluetooth Tws Estéreo Alta Hifi Longa Duração IPX6 Speaker Portátil Som Potente Casa Caixa Som P2 FM",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 79.99,
-   "nota": 4.9,
-   "vendas": 1673,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820ma-mntlub0nek1tc4",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8fU8BZjJqP",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:20998028416": {
-   "n": "Infantil Caixa De Som C/ Microfones Criança Karaokê Brincadeiras em...",
-   "t": "Infantil Caixa De Som C/ Microfones Criança Karaokê Brincadeiras em Família Bluetooth 5.0 Karaokê Luzes led",
-   "g": "Áudio e TV",
-   "loja": "Shopee",
-   "por": 34.99,
-   "nota": 4.9,
-   "vendas": 1640,
-   "img": "https://cf.shopee.com.br/file/br-11134207-820lk-mldaj1h5wjk53d",
-   "od": 0,
-   "link": "https://s.shopee.com.br/8pnYNsigVQ",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Áudio e TV",
-   "ic": "🎧"
-  },
-  "shp:47505729530": {
-   "n": "Base Cooler Para Ps5 Pro Slim Fat Suporte Dock Controles Led",
-   "t": "Base Cooler Para Ps5 Pro Slim Fat Suporte Dock Controles Led",
-   "g": "Games",
-   "loja": "Shopee",
-   "por": 149.99,
-   "nota": 4.9,
-   "vendas": 234,
-   "img": "https://cf.shopee.com.br/file/sg-11134201-8261j-mk7qocqrgb9fa2",
-   "od": 0,
-   "link": "https://s.shopee.com.br/70LwmDxv2f",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Games",
-   "ic": "🎮"
-  },
   "shp:15467781629": {
    "n": "Cabo Carregador Tipo C para Controle do PS5 Xbox Series X|S Longo 3...",
    "t": "Cabo Carregador Tipo C para Controle do PS5 Xbox Series X|S Longo 3 metros Nylon",
@@ -5764,26 +5006,14 @@
    "loja": "Shopee",
    "por": 33.21,
    "nota": 4.9,
-   "vendas": 229,
+   "vendas": 230,
    "img": "https://cf.shopee.com.br/file/br-11134207-820m0-mufj916b9q83a2",
    "od": 0,
    "link": "https://s.shopee.com.br/6q2WZuyYNe",
-   "visto": "2026-11-24T06:28+00:00",
-   "cat": "Games",
-   "ic": "🎮"
-  },
-  "shp:22594253216": {
-   "n": "Base Dock Suporte Duplo de carregamento para 2 Controles Dualsense...",
-   "t": "Base Dock Suporte Duplo de carregamento para 2 Controles Dualsense PS5 Slim Fat PRO",
-   "g": "Games",
-   "loja": "Shopee",
-   "por": 67.5,
-   "nota": 4.9,
-   "vendas": 210,
-   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-mckx5wpnmvjme9",
-   "od": 0,
-   "link": "https://s.shopee.com.br/7fbdZRvNgr",
-   "visto": "2026-11-24T06:28+00:00",
+   "visto": "2026-11-25T22:35+00:00",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": [],
    "cat": "Games",
    "ic": "🎮"
   },
@@ -5800,7 +5030,20 @@
    "link": "https://s.click.aliexpress.com/e/_c38Te2bX",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 34.9,
+     "nota": 4.8,
+     "vendas": 351,
+     "t": "Relógio Masculino a Prova d'agua Pallyjane/Bolffendo Moda Homem elegante pra Presente M50",
+     "link": "https://s.shopee.com.br/1CF6fsxeR",
+     "sim": true
+    }
+   ]
   },
   "ali:1005009874248423": {
    "n": "Poedagar topo de luxo homem relógio à prova dwaterproof água luminosa...",
@@ -5815,7 +5058,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3PEhm7f",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005009384260153": {
    "n": "Luxo strass relógios femininos moda quadrado quartzo relógio de pulso...",
@@ -5830,7 +5076,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3wJ6KHF",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010530246427": {
    "n": "Relógio Digital Esportivo Masculino SKMEI 2460 à Prova D'Água em Aço...",
@@ -5845,7 +5094,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3NQrWjn",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Moda",
-   "ic": "👟"
+   "ic": "👟",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007129067940": {
    "n": "Secador de Cabelo Profissional para Salão 2000W com Ar Quente e Frio...",
@@ -5860,7 +5112,10 @@
    "link": "https://s.click.aliexpress.com/e/_c38FO5mp",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007822663204": {
    "n": "Secador de Cabelo Profissional HOMEFISH de 5 Velocidades, Alta...",
@@ -5875,7 +5130,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3f4M8wl",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005008248068744": {
    "n": "Secador de Cabelo Profissional 2200W, Potente, Aquecimento Rápido...",
@@ -5890,7 +5148,10 @@
    "link": "https://s.click.aliexpress.com/e/_c2QbOTWD",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010044128058": {
    "n": "Secador de cabelo 2200W Profissional Poderoso Secador de cabelo...",
@@ -5905,7 +5166,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3CkJ1Tb",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006782959357": {
    "n": "Luvas de inverno quentes para motocicleta, para homens e mulheres, à...",
@@ -5920,7 +5184,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3nu6Uch",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006966201817": {
    "n": "Moreok luvas de ginástica para treino, homens e mulheres, almofadas...",
@@ -5935,7 +5202,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4EkFN8d",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010706766473": {
    "n": "Luvas de Academia para Homens e Mulheres, Luvas de Levantamento de...",
@@ -5950,7 +5220,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3YMG8A5",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005007344787751": {
    "n": "Luvas de Levantamento de Peso com Suporte para Punho, Respiráveis...",
@@ -5965,7 +5238,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3XvS5cN",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Esportes",
-   "ic": "🏋️"
+   "ic": "🏋️",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005013266096228": {
    "n": "Sacos para selagem a vácuo, sacos para conservação de alimentos com...",
@@ -5980,7 +5256,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4M8XHvP",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010089239157": {
    "n": "Bomba de Vácuo Portátil Mini com Carregamento USB, Seladora Elétrica...",
@@ -5995,7 +5274,10 @@
    "link": "https://s.click.aliexpress.com/e/_c37JxVOv",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010759434748": {
    "n": "Saco a Vácuo de Viagem 17L 28L 35L, Saco de Armazenamento...",
@@ -6010,7 +5292,10 @@
    "link": "https://s.click.aliexpress.com/e/_c2w8kBrL",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005013265994678": {
    "n": "Sacos de armazenamento a vácuo 3D, sacos de compressão a vácuo...",
@@ -6025,7 +5310,20 @@
    "link": "https://s.click.aliexpress.com/e/_c2vCIjJx",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Casa",
-   "ic": "🏠"
+   "ic": "🏠",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": [
+    {
+     "loja": "Shopee",
+     "por": 15.99,
+     "nota": 4.9,
+     "vendas": 443,
+     "t": "Rolo Saco Embalagem A Vácuo Ranhura Seladora Bobina-Enviar imediato",
+     "link": "https://s.shopee.com.br/7fbgEoTRZs",
+     "sim": true
+    }
+   ]
   },
   "ali:1005009582433501": {
    "n": "Espuma de leite sem fio elétrica tipo-c liquidificador portátil de...",
@@ -6040,7 +5338,10 @@
    "link": "https://s.click.aliexpress.com/e/_c4MlrqWV",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005006860932354": {
    "n": "Espuma de leite elétrica 3 em 1, recarregável, fabricante de espuma...",
@@ -6055,7 +5356,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3Whmh7x",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005010376350657": {
    "n": "NOVO 2026, ESPUMADOR DE LEITE DE AÇO INOXIDÁVEL DE ALTA VELOCIDADE...",
@@ -6070,7 +5374,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3hXoc4p",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "ali:1005012014108105": {
    "n": "Mini Batedor de Leite Elétrico Portátil com USB, Mixer Elétrico para...",
@@ -6085,7 +5392,10 @@
    "link": "https://s.click.aliexpress.com/e/_c3aiThJ7",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Eletro",
-   "ic": "🍳"
+   "ic": "🍳",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:19999048089": {
    "n": "Escova Secadora Mondial By Juliette 1300w Es-ju-03 Bivolt",
@@ -6118,7 +5428,10 @@
    "link": "https://s.shopee.com.br/8KrL9lCfbb",
    "visto": "2026-11-24T18:23+00:00",
    "cat": "Beleza",
-   "ic": "💄"
+   "ic": "💄",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": []
   },
   "shp:22293557620": {
    "n": "GA.MA ITALY Secador Breeze Tourmaline Ion",
@@ -7235,6 +6548,672 @@
    "visto": "2026-11-25T12:59+00:00",
    "cat": "Pet",
    "ic": "🐾"
+  },
+  "ali:1005011587163710": {
+   "n": "Enchen ms003 barbeador de folha compacto com aparador de precisão...",
+   "t": "Enchen ms003 barbeador de folha compacto com aparador de precisão pop-up tipo-c carregamento com indicador 7000rpm motor forte",
+   "g": "Beleza",
+   "loja": "AliExpress",
+   "por": 43.79,
+   "nota": 4.9,
+   "vendas": 20962,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6777d18a8c204c6584db13cfdb4fdcc5S.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3tTCr2Z",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "ali:1005007170888626": {
+   "n": "Aparelho de barbear elétrico 3D Blackstone 3, à prova d'água (IPX7)...",
+   "t": "Aparelho de barbear elétrico 3D Blackstone 3, à prova d'água (IPX7), para uso a seco e húmido, para barba e rosto, com bateria, para homens.",
+   "g": "Beleza",
+   "loja": "AliExpress",
+   "por": 57.11,
+   "nota": 4.9,
+   "vendas": 10319,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1af2e8264ca34a2cbd9aae1b728fc072a.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4krZC4p",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "ali:1005006677941848": {
+   "n": "Vgr V-353 barbeador profissional navalha elétrica máquina de barbear...",
+   "t": "Vgr V-353 barbeador profissional navalha elétrica máquina de barbear portátil aparador de barba recarregável mini barbeador para homem",
+   "g": "Beleza",
+   "loja": "AliExpress",
+   "por": 48.59,
+   "nota": 4.9,
+   "vendas": 8797,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S88766a6cb2f640ab893bd3cd63128d30q.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2QZrADj",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "ali:1005007129391382": {
+   "n": "VGR 353: Aparelho de barbear elétrico profissional com lâmina única...",
+   "t": "VGR 353: Aparelho de barbear elétrico profissional com lâmina única, recarregável, para homens, portátil.",
+   "g": "Beleza",
+   "loja": "AliExpress",
+   "por": 52.99,
+   "nota": 4.9,
+   "vendas": 8797,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S88766a6cb2f640ab893bd3cd63128d30q.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3uv08IN",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Beleza",
+   "ic": "💄"
+  },
+  "ali:1005013002664063": {
+   "n": "Suporte de Joelho Ortopédico, Protetor de Patela para Alívio da Dor...",
+   "t": "Suporte de Joelho Ortopédico, Protetor de Patela para Alívio da Dor nas Articulações, Protetor de Joelho Esportivo Ajustável, Proteção para ",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 16.59,
+   "nota": 4.9,
+   "vendas": 2307,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S1416a015763f4a4080dd2303bd63e285P.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3E9RIhT",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005006861634964": {
+   "n": "Joelheira à prova de choque para homens e mulheres Almofadas de apoio...",
+   "t": "Joelheira à prova de choque para homens e mulheres Almofadas de apoio do joelho para artrite, 1pc",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 20.99,
+   "nota": 4.9,
+   "vendas": 2083,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S67223b596d5641a4b17a1e4975a06925X.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4nv1VYd",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005012918302379": {
+   "n": "Cinta Elástica para Patela, Faixas de Joelho com Proteção Reforçada...",
+   "t": "Cinta Elástica para Patela, Faixas de Joelho com Proteção Reforçada, Protetor de Joelho Esportivo, Suporte de Joelho Confortável e Respiráve",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 30.49,
+   "nota": 4.9,
+   "vendas": 1992,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S84157d363a694af598e9330c532b79abI.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3JeLrLT",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005006994760639": {
+   "n": "Neenca joelheira articulada para dor no joelho, suporte de joelho com...",
+   "t": "Neenca joelheira articulada para dor no joelho, suporte de joelho com estabilizadores laterais, alívio da dor nas articulações, artrite, ras",
+   "g": "Esportes",
+   "loja": "AliExpress",
+   "por": 110.99,
+   "nota": 4.9,
+   "vendas": 1640,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sd046d53ea0174c9386574f906f33f87ed.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c43rsXzR",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "ali:1005007097101468": {
+   "n": "Luzes LED 3 em 1 para Armários com Sensor de Movimento...",
+   "t": "Luzes LED 3 em 1 para Armários com Sensor de Movimento 10/20/30/40/50cm para Quarto, Guarda-Roupa e Luz Noturna Interna",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 15.08,
+   "nota": 4.9,
+   "vendas": 17714,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S8b500dc8a3dd43549bff5375907d77375.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3Pgpmrn",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007170955710": {
+   "n": "Luzes led ultrafinas para armário, sensor de movimento, luz noturna...",
+   "t": "Luzes led ultrafinas para armário, sensor de movimento, luz noturna, sem fio, 3 cores, regulável, para cozinha, quarto, guarda-roupa",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 22.1,
+   "nota": 4.9,
+   "vendas": 7144,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc65a7049bb274bdc96560895deaae972o.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c2x4qO0D",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005008054135806": {
+   "n": "Liquidação_luzes noturnas sensor de movimento sem fio lâmpada led usb...",
+   "t": "Liquidação_luzes noturnas sensor de movimento sem fio lâmpada led usb recarregável magnética para guarda-roupa quarto armário cozinha corred",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 20.35,
+   "nota": 4.9,
+   "vendas": 6866,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sc939c498a2344034ba8fdc6d65779b6fP.png",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3aqtgnJ",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005007345281260": {
+   "n": "Luz Noturna LED Sem Fio Recarregável por USB com Sensor de Movimento...",
+   "t": "Luz Noturna LED Sem Fio Recarregável por USB com Sensor de Movimento para Armário, Guarda-Roupa, Cozinha, Escada, Quarto e Casa",
+   "g": "Casa",
+   "loja": "AliExpress",
+   "por": 34.99,
+   "nota": 4.9,
+   "vendas": 6524,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb115baf065f84d768a82518b43dd3ffdh.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3YyaOHj",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "ali:1005009384210713": {
+   "n": "250ml mini sem fio usb recarregável elétrico picador de vegetais...",
+   "t": "250ml mini sem fio usb recarregável elétrico picador de vegetais triturador de alho picador de alimentos para utensílios de cozinha para alh",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 38.59,
+   "nota": 4.9,
+   "vendas": 1870,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9d467f00c7ba4377a50f37ad305d326cy.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3TKv2op",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005010285499484": {
+   "n": "Mini picador elétrico de alho e moedor de carne recarregável...",
+   "t": "Mini picador elétrico de alho e moedor de carne recarregável, processador de alimentos durável e resistente para alho, pimenta, cebola e car",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 42.61,
+   "nota": 4.9,
+   "vendas": 1215,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S11b8f2c0af2c40578354aeed8cc3193eT.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4KNKrlf",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005012594118921": {
+   "n": "TINSOL 250ml Mini Processador Elétrico de Alho Sem Fio Recarregável...",
+   "t": "TINSOL 250ml Mini Processador Elétrico de Alho Sem Fio Recarregável USB, Picador de Vegetais, Moedor de Alho, Processador de Alimentos para ",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 40.59,
+   "nota": 4.9,
+   "vendas": 1015,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S9cc2b48323ca4157b3cb8c427fb24a115.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3anaKrr",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005007129588075": {
+   "n": "Liquidificador de Imersão Potente 4 em 1, Mixer de Alimentos em Aço...",
+   "t": "Liquidificador de Imersão Potente 4 em 1, Mixer de Alimentos em Aço Inoxidável, Jarra de Mistura de 700ml, Processador de 500ml, Batedor, 22",
+   "g": "Eletro",
+   "loja": "AliExpress",
+   "por": 248.79,
+   "nota": 4.9,
+   "vendas": 757,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Saace62fdf5ef4c3b99a8c1e650ee012eh.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3QGo24p",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Eletro",
+   "ic": "🍳"
+  },
+  "ali:1005013550689813": {
+   "n": "Chave de impacto sem fio Milwaukee M12, com motor sem escovas...",
+   "t": "Chave de impacto sem fio Milwaukee M12, com motor sem escovas, furadeira elétrica, chave de fendas, luzes LED – ferramenta elétrica prática.",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 257.7,
+   "nota": 5.0,
+   "vendas": 777,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S5b985116ccbe44feb04505f5dec89cd1R.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c42Acjqp",
+   "visto": "2026-11-25T22:35+00:00",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005007038321949": {
+   "n": "Conjunto de Chaves de Fenda Elétricas Worx 4V WX242, Chave de Fenda...",
+   "t": "Conjunto de Chaves de Fenda Elétricas Worx 4V WX242, Chave de Fenda Portátil Inteligente Sem Fio, Mini Furadeira Elétrica, Ferramentas de Re",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 270.74,
+   "nota": 4.9,
+   "vendas": 1439,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S67555ad1ef95428b9fbe6afc79fb30beR.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3dKLH4N",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005006080110999": {
+   "n": "Conjunto de Chave de Fenda Elétrica Mini Worx 4V WX242, Chave de...",
+   "t": "Conjunto de Chave de Fenda Elétrica Mini Worx 4V WX242, Chave de Fenda Elétrica Sem Fio Inteligente, Recarregável via USB, Conjunto de 30 Bi",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 328.99,
+   "nota": 4.9,
+   "vendas": 1376,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/Sb1c1d87557034f20aeb3e913303b69db8.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c3i0wfFL",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "ali:1005012865947009": {
+   "n": "Furadeira Elétrica a Bateria de Lítio 12V Hippcron, Ferramenta de...",
+   "t": "Furadeira Elétrica a Bateria de Lítio 12V Hippcron, Ferramenta de Impacto Sem Fio, Conjunto de Catraca, Chave de Fenda Multifuncional, Mandr",
+   "g": "Ferramentas",
+   "loja": "AliExpress",
+   "por": 182.99,
+   "nota": 4.9,
+   "vendas": 1104,
+   "img": "https://ae-pic-a1.aliexpress-media.com/kf/S6c9d602a52b5463880cb60cc558962c14.jpg",
+   "od": 0,
+   "link": "https://s.click.aliexpress.com/e/_c4VnHoBr",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Ferramentas",
+   "ic": "🔧"
+  },
+  "shp:22798875695": {
+   "n": "Headset Gamer TGT Diver V2, Rainbow, Drivers 40mm, Preto...",
+   "t": "Headset Gamer TGT Diver V2, Rainbow, Drivers 40mm, Preto, TGT-DVR-RGB02",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 59.99,
+   "nota": 4.9,
+   "vendas": 1282,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mf1f34sgcnwkd3",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2BGjgd7WFb",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:46806231294": {
+   "n": "Fone KZ EDX Pro Profissional Intra-auricular Driver Dinâmico...",
+   "t": "Fone KZ EDX Pro Profissional Intra-auricular Driver Dinâmico Magnético 10mm Original Gamer",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 54.9,
+   "nota": 4.9,
+   "vendas": 1148,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81zto-mkpgj0t7shs33d",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8VAnEGjPOs",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:58266642553": {
+   "n": "Fone de Ouvido Gamer Bluetooth Fone TWS Gamer Com Redução de ruído...",
+   "t": "Fone de Ouvido Gamer Bluetooth Fone TWS Gamer Com Redução de ruído original",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 39.3,
+   "nota": 4.9,
+   "vendas": 747,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-825ao-ms57tqad6fb4bb",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9fMkcPey2F",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:58203263616": {
+   "n": "Headset Gamer 7.1 Surround Rgb Delta-f7140 Com Microfone Para Pc E...",
+   "t": "Headset Gamer 7.1 Surround Rgb Delta-f7140 Com Microfone Para Pc E Console",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 54.78,
+   "nota": 4.9,
+   "vendas": 706,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lk-moa3sgm6molj9c",
+   "od": 0,
+   "link": "https://s.shopee.com.br/AAJ1DKd41M",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:49605037206": {
+   "n": "Fone De Ouvido Qkz Ak6 Ultra Gamer Músico Com Mic E Case",
+   "t": "Fone De Ouvido Qkz Ak6 Ultra Gamer Músico Com Mic E Case",
+   "g": "Áudio e TV",
+   "loja": "Shopee",
+   "por": 24.98,
+   "nota": 4.9,
+   "vendas": 619,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8261q-mjqtqe1i3savd0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/9zzb11dhML",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Áudio e TV",
+   "ic": "🎧"
+  },
+  "shp:19197228966": {
+   "n": "Controle De Xbox 360 Com Fio Para Video Game 1,9 metro",
+   "t": "Controle De Xbox 360 Com Fio Para Video Game 1,9 metro",
+   "g": "Games",
+   "loja": "Shopee",
+   "por": 45.88,
+   "nota": 4.9,
+   "vendas": 331,
+   "img": "https://cf.shopee.com.br/file/br-11134201-820ly-mqxj05vrw45ib0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3B9GsTLefl",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "shp:18499921197": {
+   "n": "Controle para Xbox Sem Fio Preto + Cabo USB-C",
+   "t": "Controle para Xbox Sem Fio Preto + Cabo USB-C",
+   "g": "Games",
+   "loja": "Shopee",
+   "por": 379.99,
+   "nota": 4.9,
+   "vendas": 321,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-82582-mfu72o2xwavfe7",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4LLEGcHDJ6",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "shp:58258882836": {
+   "n": "Cabo Carregador Tipo C Controle Ps5 Xbox Series 2 Metros Cor Preto...",
+   "t": "Cabo Carregador Tipo C Controle Ps5 Xbox Series 2 Metros Cor Preto Cinza",
+   "g": "Games",
+   "loja": "Shopee",
+   "por": 21.79,
+   "nota": 4.9,
+   "vendas": 300,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-81zv7-mn2xd2dt04jk2e",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4VeeSvGZy9",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "shp:22194167962": {
+   "n": "Suporte de Controle PlayStation, Xbox, Switch - Gengar Pokémon",
+   "t": "Suporte de Controle PlayStation, Xbox, Switch - Gengar Pokémon",
+   "g": "Games",
+   "loja": "Shopee",
+   "por": 39.9,
+   "nota": 4.9,
+   "vendas": 259,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820mg-mljn8rkhglxje4",
+   "od": 0,
+   "link": "https://s.shopee.com.br/W8VhZVo5V",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Games",
+   "ic": "🎮"
+  },
+  "shp:58257146997": {
+   "n": "Kit 2 Cintos Táticos Masculinos Fivela Engate Rápido Ajustável...",
+   "t": "Kit 2 Cintos Táticos Masculinos Fivela Engate Rápido Ajustável Antialérgico Militar Nylon",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 27.51,
+   "nota": 4.9,
+   "vendas": 1065,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820lq-mnk6rj8uqt4xe1",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8KrN1yO7ak",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:47204007164": {
+   "n": "Cinto de Couro Simples - Cinto Masculino/Feminino em Preto e Marrom",
+   "t": "Cinto de Couro Simples - Cinto Masculino/Feminino em Preto e Marrom",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 22.98,
+   "nota": 4.9,
+   "vendas": 1014,
+   "img": "https://cf.shopee.com.br/file/cn-11134207-820l4-miwvs7049xxh3b",
+   "od": 0,
+   "link": "https://s.shopee.com.br/80EWdMPOGe",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:46556211235": {
+   "n": "Cinto Dupla Face Masculino Couro Preto Marrom Fivela Giratória...",
+   "t": "Cinto Dupla Face Masculino Couro Preto Marrom Fivela Giratória Elegante Social Casual",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 23.9,
+   "nota": 4.9,
+   "vendas": 993,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81zug-mkoan20kn9j4f7",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8fUDQaMquq",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:58211360918": {
+   "n": "Kit 3 Cinto Tático Masculino Militar Em Nylon Reforçado Com Fivela...",
+   "t": "Kit 3 Cinto Tático Masculino Militar Em Nylon Reforçado Com Fivela Ajustável Alta Resistência",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 27.99,
+   "nota": 4.9,
+   "vendas": 989,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-824g1-mpdpb2zncz5sc0",
+   "od": 0,
+   "link": "https://s.shopee.com.br/2La9swkxlW",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:22098236141": {
+   "n": "KIT 1 E 2 UNIDADES CINTO SOCIAL COURO FIVELA AUTOMATICA CINTO PRETO...",
+   "t": "KIT 1 E 2 UNIDADES CINTO SOCIAL COURO FIVELA AUTOMATICA CINTO PRETO DE HOMEM FIVELA PRETA PRATA SOSIAL MARROM",
+   "g": "Moda",
+   "loja": "Shopee",
+   "por": 17.89,
+   "nota": 4.9,
+   "vendas": 975,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m6fvzkw50j7461",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8AXwpfOkvh",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Moda",
+   "ic": "👟"
+  },
+  "shp:22499437358": {
+   "n": "Protetor Palmar Grip Academia Silicone Luva Treino Musculacao...",
+   "t": "Protetor Palmar Grip Academia Silicone Luva Treino Musculacao Antiderrapante Protege Contra Calos Par + Estojo Case",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 16.99,
+   "nota": 5.0,
+   "vendas": 566,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-8259y-mrtr7dyvcwsh9f",
+   "od": 0,
+   "link": "https://s.shopee.com.br/8pndctZHQx",
+   "visto": "2026-11-25T22:35+00:00",
+   "cmp_em": "2026-11-25T22:35+00:00",
+   "cmp_v": 7,
+   "cmp": [],
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:20497992339": {
+   "n": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "t": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 18.99,
+   "nota": 4.9,
+   "vendas": 2027,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rfhm-m404a9wf1gzlff",
+   "od": 0,
+   "link": "https://s.shopee.com.br/114mIV36K8",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:23298830568": {
+   "n": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "t": "Luva Musculação Academia Antiderrapante Feminina E Masculina Ginástica",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 16.98,
+   "nota": 4.9,
+   "vendas": 1897,
+   "img": "https://cf.shopee.com.br/file/sg-11134201-7rdyl-mdoeh2u3u8uiaf",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4B1o4Jr2tj",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:21497221662": {
+   "n": "Luva Para Treino Academia CrossFit o Par Masculino/Feminino",
+   "t": "Luva Para Treino Academia CrossFit o Par Masculino/Feminino",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 15.54,
+   "nota": 4.9,
+   "vendas": 1777,
+   "img": "https://cf.shopee.com.br/file/br-11134207-81z1k-mer8ajz9ee4i87",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1BOCUo2SzB",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:23793272502": {
+   "n": "Protetor Palmar Hidrolight Mini Palma Luva Academia Neoprene...",
+   "t": "Protetor Palmar Hidrolight Mini Palma Luva Academia Neoprene Musculação Contra Calos Halteres Par",
+   "g": "Esportes",
+   "loja": "Shopee",
+   "por": 29.8,
+   "nota": 4.9,
+   "vendas": 601,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m4-mrugy1q3yznp95",
+   "od": 0,
+   "link": "https://s.shopee.com.br/1qdtI1zvdV",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Esportes",
+   "ic": "🏋️"
+  },
+  "shp:16692338189": {
+   "n": "Jogo de Lençol 400 Fios Micropercal Com Fronha em Ponto Palito",
+   "t": "Jogo de Lençol 400 Fios Micropercal Com Fronha em Ponto Palito",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 15.9,
+   "nota": 4.9,
+   "vendas": 42236,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m5-mo7pypmcmww19c",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3g5XTPAY2i",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:21497454288": {
+   "n": "Jogo De Lençol Solteiro Casal Queen 400 fios 3 Peças Micro Percal...",
+   "t": "Jogo De Lençol Solteiro Casal Queen 400 fios 3 Peças Micro Percal Toque Macio",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 25.99,
+   "nota": 4.9,
+   "vendas": 8805,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0sr7gtc30jla1",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3Vm7H6BBNj",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:10220123465": {
+   "n": "Jogo de Lençol Queen 400 fios Luna 3 Peças Casal Solteiro Ponto...",
+   "t": "Jogo de Lençol Queen 400 fios Luna 3 Peças  Casal Solteiro Ponto Palito Micro Percal",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 25.99,
+   "nota": 4.9,
+   "vendas": 7904,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0w19ysrf2cgbd",
+   "od": 0,
+   "link": "https://s.shopee.com.br/3B9GsUCS3h",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:17240531291": {
+   "n": "Jogo De Cama Extra Macio Lençol Elástico Com Fronhas 400 fios...",
+   "t": "Jogo De Cama Extra Macio Lençol Elástico Com Fronhas 400 fios Micropercal",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 15.9,
+   "nota": 4.9,
+   "vendas": 5448,
+   "img": "https://cf.shopee.com.br/file/br-11134207-820m7-mor2n6gfsdtv86",
+   "od": 0,
+   "link": "https://s.shopee.com.br/50av3r5TL6",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
+  },
+  "shp:8880947046": {
+   "n": "Jogo de Lençol Solteiro 2 Pç Casal 3 Pç Queen 3 Pç 400 fios Ponto...",
+   "t": "Jogo de Lençol Solteiro 2 Pç Casal 3 Pç Queen 3 Pç 400 fios Ponto Palito Micro Percal",
+   "g": "Casa",
+   "loja": "Shopee",
+   "por": 25.99,
+   "nota": 4.9,
+   "vendas": 4490,
+   "img": "https://cf.shopee.com.br/file/br-11134207-7r98o-m0sr7gtc4f41f8",
+   "od": 0,
+   "link": "https://s.shopee.com.br/4qHUrY66g7",
+   "visto": "2026-11-25T22:35+00:00",
+   "cat": "Casa",
+   "ic": "🏠"
   }
  },
  "teclado-mecanico": {
