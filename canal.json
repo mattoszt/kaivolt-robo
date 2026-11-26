@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-21-20": 1,
    "2026-10-22-20": 1,
    "2026-10-23-12": 1,
    "2026-10-24-12": 1,
@@ -98,9 +97,25 @@
    "2026-11-08-20": 1,
    "2026-11-13-20": 1,
    "2026-11-21-20": 1,
-   "2026-11-25-20": 1
+   "2026-11-25-20": 1,
+   "2026-11-26-12": 1
   },
   "fila_zap": [
+   {
+    "d": "26/11 12:38",
+    "n": "Conjunto de copos de medição e colheres, 8 peças, copos de medida...",
+    "txt": "*Conjunto de copos de medição e colheres, 8 peças, copos de medida...*\n\n💰 *R$ 23,89* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,3 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c2z5m6rR\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "26/11 12:18",
+    "n": "【Envio do Brasil】Carregador UGREEN 100W GaN 6 em 1 Carregador Rápido de...",
+    "txt": "*【Envio do Brasil】Carregador UGREEN 100W GaN 6 em 1 Carregador Rápido de...*\n\n💰 *R$ 247,79* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 5,0 · +791 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3z71dCl\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "26/11 11:58",
+    "n": "Fone de ouvido Sem Fio Bluetooth TWS Esportivo Design Pendurado Na Orelha...",
+    "txt": "*Fone de ouvido Sem Fio Bluetooth TWS Esportivo Design Pendurado Na Orelha...*\n\n💰 *R$ 39,98* na Shopee\n⭐ 4,9 · +2,8 mil vendidos na loja\n\n👉 https://s.shopee.com.br/9KjvJHxgvL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "25/11 20:04",
     "n": "Cabo Baseus USB Tipo C para USB C, para iPhone 18, 17, carregamento rápido...",
@@ -235,21 +250,6 @@
     "d": "21/11 14:21",
     "n": "Kit 5 Organizadores Lápis 3D Lúdico Coloridos Formatura Plasútil",
     "txt": "*Kit 5 Organizadores Lápis 3D Lúdico Coloridos Formatura Plasútil*\n\n💰 *R$ 39,90* na Shopee\n⭐ 5,0 · +1,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/BVYZm1BcL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/11 22:42",
-    "n": "Fita LED RGB 5050 Colorida com Bluetooth para Decoração de Ambientes, 10m...",
-    "txt": "*Fita LED RGB 5050 Colorida com Bluetooth para Decoração de Ambientes, 10m...*\n\n💰 *R$ 18,14* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +6,7 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4coC2ZB\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/11 22:22",
-    "n": "Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas",
-    "txt": "*Organizador Prateleira Diamante Acrílico Porta Maquiagem Beleza linhas*\n\n💰 *R$ 22,99* na Shopee\n⭐ 4,9 · +5,3 mil vendidos na loja\n\n👉 https://s.shopee.com.br/W8NuXC3hW\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "20/11 17:38",
-    "n": "Copo Térmico de Aço Inoxidável para Frutas, Mais Vendido, Garrafa de Água...",
-    "txt": "*Copo Térmico de Aço Inoxidável para Frutas, Mais Vendido, Garrafa de Água...*\n\n💰 *R$ 99,39* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +3,9 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3FCLPkh\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1359,7 +1359,7 @@
    "shp:58204655944": "2026-10-10",
    "1005006510589628": "2026-10-10",
    "shp:21799547122": "2026-10-10",
-   "1005011798390205": "2026-10-10",
+   "1005011798390205": "2026-11-26",
    "shp:12059053145": "2026-10-10",
    "1005007096900737": "2026-10-10",
    "shp:22093291651": "2026-10-10",
@@ -1982,15 +1982,17 @@
    "shp:58259814153": "2026-11-23",
    "1005010529953815": "2026-11-24",
    "shp:42060394820": "2026-11-25",
-   "1005005889274998": "2026-11-25"
+   "1005005889274998": "2026-11-25",
+   "shp:23697633057": "2026-11-26",
+   "1005011587249462": "2026-11-26"
   },
-  "kw": 845,
-  "ultimo": "2026-11-25 20:04",
+  "kw": 847,
+  "ultimo": "2026-11-26 12:38",
   "dia": {
    "d": "2026-11-26",
-   "n": 0
+   "n": 3
   },
-  "ml_n": 587,
+  "ml_n": 589,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -2000,12 +2002,12 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 939,
+  "shopee_n": 942,
   "shopee_q": {
    "Celular": 68,
-   "Tech": 67,
-   "Áudio e TV": 67,
-   "Games": 67,
+   "Tech": 68,
+   "Áudio e TV": 68,
+   "Games": 68,
    "Moda": 67,
    "Beleza": 67,
    "Esportes": 67,
