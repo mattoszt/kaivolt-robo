@@ -79,7 +79,6 @@
    }
   },
   "slots": {
-   "2026-10-22-20": 1,
    "2026-10-23-12": 1,
    "2026-10-24-12": 1,
    "2026-10-24-20": 1,
@@ -98,9 +97,20 @@
    "2026-11-13-20": 1,
    "2026-11-21-20": 1,
    "2026-11-25-20": 1,
-   "2026-11-26-12": 1
+   "2026-11-26-12": 1,
+   "2026-11-26-20": 1
   },
   "fila_zap": [
+   {
+    "d": "26/11 21:04",
+    "n": "Lmetjma cortador de mandolina ajustável, fatiador de vegetais em aço...",
+    "txt": "*Lmetjma cortador de mandolina ajustável, fatiador de vegetais em aço...*\n\n💰 *R$ 171,99* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +720 vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3OD4KU1\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
+   {
+    "d": "26/11 20:43",
+    "n": "Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler",
+    "txt": "*Escova Secadora 110V Alisador Elétrica Quente Cabelo Com 3 Em1 Hair Styler*\n\n💰 *R$ 38,66* na Shopee\n⭐ 4,8 · +5,5 mil vendidos na loja\n\n👉 https://s.shopee.com.br/7AfRJLwBuC\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
+   },
    {
     "d": "26/11 12:38",
     "n": "Conjunto de copos de medição e colheres, 8 peças, copos de medida...",
@@ -240,16 +250,6 @@
     "d": "21/11 15:01",
     "n": "Anel de luz LED para selfies, lâmpada de anel para fotografia, luz de...",
     "txt": "*Anel de luz LED para selfies, lâmpada de anel para fotografia, luz de...*\n\n💰 *R$ 54,29* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 4,9 · +1 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c3TxLajb\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "21/11 14:41",
-    "n": "8 sacos de malha com fecho de correr em 3 tamanhos – bolsas organizadoras...",
-    "txt": "*8 sacos de malha com fecho de correr em 3 tamanhos – bolsas organizadoras...*\n\n💰 *R$ 23,59* no AliExpress\nInternacional · chega em 1 a 4 semanas\n⭐ 5,0 · +6,2 mil vendidos na loja\n\n👉 https://s.click.aliexpress.com/e/_c4Uqae05\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
-   },
-   {
-    "d": "21/11 14:21",
-    "n": "Kit 5 Organizadores Lápis 3D Lúdico Coloridos Formatura Plasútil",
-    "txt": "*Kit 5 Organizadores Lápis 3D Lúdico Coloridos Formatura Plasútil*\n\n💰 *R$ 39,90* na Shopee\n⭐ 5,0 · +1,7 mil vendidos na loja\n\n👉 https://s.shopee.com.br/BVYZm1BcL\nMais ofertas comparadas: kaivolt.com.br\n\n_Preço pode mudar a qualquer momento._"
    }
   ],
   "garimpo": {
@@ -1593,7 +1593,7 @@
    "1005007306802062": "2026-10-16",
    "shp:23797127405": "2026-10-16",
    "shp:55408103589": "2026-10-16",
-   "1005006861041383": "2026-10-16",
+   "1005006861041383": "2026-11-27",
    "shp:22097015797": "2026-10-16",
    "1005006981851978": "2026-10-16",
    "shp:58208889792": "2026-11-22",
@@ -1984,15 +1984,16 @@
    "shp:42060394820": "2026-11-25",
    "1005005889274998": "2026-11-25",
    "shp:23697633057": "2026-11-26",
-   "1005011587249462": "2026-11-26"
+   "1005011587249462": "2026-11-26",
+   "shp:23698517705": "2026-11-26"
   },
-  "kw": 847,
-  "ultimo": "2026-11-26 12:38",
+  "kw": 851,
+  "ultimo": "2026-11-26 21:04",
   "dia": {
    "d": "2026-11-26",
-   "n": 3
+   "n": 5
   },
-  "ml_n": 589,
+  "ml_n": 590,
   "ml_extras": [
    {
     "d": "09/10 12:41",
@@ -2002,16 +2003,16 @@
   ],
   "vez_ml": false,
   "vez": 2,
-  "shopee_n": 942,
+  "shopee_n": 946,
   "shopee_q": {
    "Celular": 68,
    "Tech": 68,
    "Áudio e TV": 68,
    "Games": 68,
-   "Moda": 67,
-   "Beleza": 67,
-   "Esportes": 67,
-   "Casa": 67,
+   "Moda": 68,
+   "Beleza": 68,
+   "Esportes": 68,
+   "Casa": 68,
    "Eletro": 67,
    "Ferramentas": 67,
    "Carro": 67,
